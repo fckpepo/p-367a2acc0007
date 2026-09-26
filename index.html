@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<title>Dashboard</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-grid">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">◉</div>
+      <div>
+        <h1>NutriTrend Sentinel</h1>
+        <p class="tagline">Radar de sinais precoces para nutricionistas no Brasil · previsões congeladas, revisões em +7 / +14 / +30 dias</p>
+      </div>
+    </div>
+    <div class="kpis" id="kpis" aria-live="polite">
+      <div class="kpi kpi-main"><span class="kpi-label">Taxa de acerto <button class="info" type="button" aria-describedby="formula" title="Como é calculado?">?</button></span><span class="kpi-value" id="kpi-rate">—</span><span class="kpi-sub" id="kpi-strict">estrita —</span></div>
+      <div class="kpi"><span class="kpi-label"><i class="dot hit"></i>HIT</span><span class="kpi-value" id="kpi-hit">—</span></div>
+      <div class="kpi"><span class="kpi-label"><i class="dot partial"></i>PARTIAL</span><span class="kpi-value" id="kpi-partial">—</span></div>
+      <div class="kpi"><span class="kpi-label"><i class="dot miss"></i>MISS</span><span class="kpi-value" id="kpi-miss">—</span></div>
+      <div class="kpi"><span class="kpi-label"><i class="dot analyzing"></i>Analisando</span><span class="kpi-value" id="kpi-analyzing">—</span></div>
+    </div>
+  </div>
+  <div class="wrap">
+    <p class="formula" id="formula" role="note">
+      <strong>Taxa de acerto</strong> = (HIT + 0,5 × PARTIAL) ÷ (HIT + PARTIAL + MISS) ·
+      <strong>Estrita</strong> = HIT ÷ (HIT + PARTIAL + MISS) · usa o veredito <em>mais recente</em> de cada trend.
+      “Analisando” = último veredito INCONCLUSIVE ou ainda sem revisão (fora do denominador).
+    </p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section aria-labelledby="cohorts-h">
+    <h2 id="cohorts-h" class="section-title">Coortes</h2>
+    <div class="cohort-grid" id="cohorts"></div>
+  </section>
+
+  <section aria-labelledby="trends-h">
+    <div class="section-head">
+      <h2 id="trends-h" class="section-title">Tendências <span class="muted" id="result-count"></span></h2>
+    </div>
+    <form class="filters" id="filters" onsubmit="return false">
+      <label class="field grow"><span>Buscar</span>
+        <input type="search" id="f-q" placeholder="ID, tema, nicho, fonte…" autocomplete="off"></label>
+      <label class="field"><span>Coorte</span><select id="f-cohort"><option value="">Todas</option></select></label>
+      <label class="field"><span>Status</span>
+        <select id="f-status">
+          <option value="">Todos</option>
+          <option value="HIT">HIT</option>
+          <option value="PARTIAL">PARTIAL</option>
+          <option value="MISS">MISS</option>
+          <option value="ANALYZING">Analisando</option>
+        </select></label>
+      <label class="field"><span>Ordenar</span>
+        <select id="f-sort">
+          <option value="newest">Mais recentes</option>
+          <option value="oldest">Mais antigas</option>
+          <option value="status">Status</option>
+          <option value="confidence">Confiança</option>
+        </select></label>
+      <button type="button" class="btn ghost" id="f-reset">Limpar</button>
+    </form>
+    <div class="trend-grid" id="trends"><p class="muted">Carregando dados…</p></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>Última atualização:</strong> <span id="updated">—</span></p>
+    <p class="muted">As previsões são <strong>congeladas</strong> na data de criação e nunca reescritas; revisões e observações são <strong>somente acréscimo</strong> (append-only). Radar v0.1 · NutriTrend Score v0.1 · Operado para Pedro Mietto.</p>
+    <p class="muted small" id="warnings"></p>
+  </div>
+</footer>
+
+<div class="modal-backdrop" id="modal" hidden>
+  <article class="modal" role="dialog" aria-modal="true" aria-labelledby="m-title" tabindex="-1">
+    <button class="modal-close" type="button" id="m-close" aria-label="Fechar (Esc)">×</button>
+    <div id="m-body"></div>
+  </article>
+</div>
+
+<noscript><p class="wrap">Este painel precisa de JavaScript.</p></noscript>
+<script src="./app.js" defer></script>
+</body>
+</html>
