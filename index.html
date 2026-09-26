@@ -20,17 +20,18 @@
     </div>
     <div class="kpis" id="kpis" aria-live="polite">
       <div class="kpi kpi-main"><span class="kpi-label">Taxa de acerto <button class="info" type="button" aria-describedby="formula" title="Como é calculado?">?</button></span><span class="kpi-value" id="kpi-rate">—</span><span class="kpi-sub" id="kpi-strict">estrita —</span></div>
-      <div class="kpi"><span class="kpi-label"><i class="dot hit"></i>HIT</span><span class="kpi-value" id="kpi-hit">—</span></div>
-      <div class="kpi"><span class="kpi-label"><i class="dot partial"></i>PARTIAL</span><span class="kpi-value" id="kpi-partial">—</span></div>
-      <div class="kpi"><span class="kpi-label"><i class="dot miss"></i>MISS</span><span class="kpi-value" id="kpi-miss">—</span></div>
+      <div class="kpi"><span class="kpi-label"><i class="dot hit"></i>Acerto</span><span class="kpi-value" id="kpi-hit">—</span></div>
+      <div class="kpi"><span class="kpi-label"><i class="dot partial"></i>Parcial</span><span class="kpi-value" id="kpi-partial">—</span></div>
+      <div class="kpi"><span class="kpi-label"><i class="dot miss"></i>Erro</span><span class="kpi-value" id="kpi-miss">—</span></div>
       <div class="kpi"><span class="kpi-label"><i class="dot analyzing"></i>Analisando</span><span class="kpi-value" id="kpi-analyzing">—</span></div>
     </div>
   </div>
   <div class="wrap">
     <p class="formula" id="formula" role="note">
-      <strong>Taxa de acerto</strong> = (HIT + 0,5 × PARTIAL) ÷ (HIT + PARTIAL + MISS) ·
-      <strong>Estrita</strong> = HIT ÷ (HIT + PARTIAL + MISS) · usa o veredito <em>mais recente</em> de cada trend.
-      “Analisando” = último veredito INCONCLUSIVE ou ainda sem revisão (fora do denominador).
+      <strong>Taxa de acerto</strong> = (Acertos + 0,5 × Parciais) ÷ (Acertos + Parciais + Erros) ·
+      <strong>Estrita</strong> = Acertos ÷ (Acertos + Parciais + Erros) · usa o veredito <em>mais recente</em> de cada tendência.
+      “Analisando” = último veredito inconclusivo ou ainda sem revisão (fora do denominador).
+      Os textos das previsões e revisões são traduções para PT-BR; o original em inglês fica disponível em “ver original”.
     </p>
   </div>
 </header>
@@ -52,9 +53,9 @@
       <label class="field"><span>Status</span>
         <select id="f-status">
           <option value="">Todos</option>
-          <option value="HIT">HIT</option>
-          <option value="PARTIAL">PARTIAL</option>
-          <option value="MISS">MISS</option>
+          <option value="HIT">Acerto</option>
+          <option value="PARTIAL">Parcial</option>
+          <option value="MISS">Erro</option>
           <option value="ANALYZING">Analisando</option>
         </select></label>
       <label class="field"><span>Ordenar</span>

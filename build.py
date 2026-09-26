@@ -6,6 +6,11 @@ Rerun after every new review/observation:  python3 build.py
 
 Store path: $NUTRITREND_STORE or --store PATH (default /workspace/nutritrend).
 The store is never modified.
+
+PT-BR translation layer: <store>/translations/pt-BR/<same filename as trend/review>.json
+and <store>/translations/pt-BR/observations/<date>.jsonl. Translated text is merged over
+the original for display (original English kept for the "ver original" toggle); when a
+translation is missing the original is shown and a warning is printed.
 """
 import argparse
 import datetime as dt
@@ -50,6 +55,34 @@ def load_jsonl(path, warnings):
     return out
 
 
+TR_META = {"source_file", "language", "translated_at", "translator", "trend_id", "review_id", "cohort_id"}
+
+
+def load_translation(tr_dir, filename, warnings):
+    path = os.path.join(tr_dir, filename)
+    if not os.path.isfile(path):
+        return None
+    try:
+        return load_json(path)
+    except (json.JSONDecodeError, OSError) as e:
+        warnings.append(f"Tradução inválida {filename}: {e}")
+        return None
+
+
+def merge_pt(original, tr):
+    """Return a copy of `original` with translated text fields overlaid (only keys that exist in the original)."""
+    out = dict(original)
+    if not tr:
+        return out
+    for k, v in tr.items():
+        if k in TR_META or k not in original or v in (None, "", []):
+            continue
+        if isinstance(original[k], list) and isinstance(v, list) and len(v) != len(original[k]) and k != "observation_log":
+            continue  # shape mismatch -> keep original
+        out[k] = v
+    return out
+
+
 def rate(h, p, m):
     denom = h + p + m
     if not denom:
@@ -73,21 +106,33 @@ def main():
     if not os.path.isdir(os.path.join(store, "trends")):
         sys.exit(f"Store não encontrado: {store}")
 
+    tr_dir = os.path.join(store, "translations", "pt-BR")
     now = dt.datetime.now(TZ)
     today = now.date().isoformat()
     warnings = []
+    missing_tr = {"trends": [], "reviews": []}
 
     # --- trends -------------------------------------------------------------
     trends = {}
     for path in sorted(glob.glob(os.path.join(store, "trends", "NT-*.json"))):
         rec = load_json(path)
         tid = rec.get("trend_id") or os.path.basename(path)[:-5]
-        trends[tid] = {"id": tid, "frozen": rec, "reviews": [], "observations": [], "mentions": []}
+        tr = load_translation(tr_dir, os.path.basename(path), warnings)
+        if not tr:
+            missing_tr["trends"].append(f"trends/{os.path.basename(path)}")
+        trends[tid] = {"id": tid, "frozen": rec, "frozen_pt": merge_pt(rec, tr),
+                       "translation": ({"translated_at": tr.get("translated_at"), "source_file": tr.get("source_file")} if tr else None),
+                       "reviews": [], "observations": [], "mentions": []}
 
     # --- reviews ------------------------------------------------------------
     for path in sorted(glob.glob(os.path.join(store, "reviews", "NT-*.json"))):
         rec = load_json(path)
         rec["_source_file"] = f"reviews/{os.path.basename(path)}"
+        tr = load_translation(tr_dir, os.path.basename(path), warnings)
+        if not tr:
+            missing_tr["reviews"].append(f"reviews/{os.path.basename(path)}")
+        rec["_pt"] = {k: v for k, v in merge_pt(rec, tr).items() if k in (tr or {}) and k not in TR_META}
+        rec["_translated_at"] = tr.get("translated_at") if tr else None
         tid = rec.get("trend_id")
         if tid not in trends:
             warnings.append(f"Review {rec.get('review_id', path)} referencia trend desconhecida {tid}")
@@ -107,8 +152,24 @@ def main():
 
     # --- observations -------------------------------------------------------
     all_obs = []
+    obs_tr = {}
+    for path in sorted(glob.glob(os.path.join(tr_dir, "observations", "*.jsonl"))):
+        for rec in load_jsonl(path, warnings):
+            obs_tr[(rec.get("source_file"), rec.get("line"))] = rec
+            obs_tr[(rec.get("source_file"), rec.get("trend_id"), rec.get("observation_date"), rec.get("observation_type"))] = rec
+    obs_missing = 0
     for path in sorted(glob.glob(os.path.join(store, "observations", "*.jsonl"))):
-        all_obs.extend(load_jsonl(path, warnings))
+        for o in load_jsonl(path, warnings):
+            key_t = (o["_source_file"], o.get("trend_id"), o.get("observation_date") or o.get("date"), o.get("observation_type") or o.get("type"))
+            tr = obs_tr.get((o["_source_file"], o["_line"]))
+            if tr and (tr.get("trend_id"), tr.get("observation_date"), tr.get("observation_type")) != key_t[1:]:
+                tr = None  # line moved -> fall back to trend_id+date+type key
+            tr = tr or obs_tr.get(key_t)
+            if tr and tr.get("fields"):
+                o["_pt"] = {k: v for k, v in tr["fields"].items() if k in o and v not in (None, "", [])}
+            else:
+                obs_missing += 1
+            all_obs.append(o)
     general_obs = []
     for o in all_obs:
         tid = o.get("trend_id")
@@ -203,6 +264,9 @@ def main():
         "counts": {"trends": len(trend_list), "reviews": sum(len(t["reviews"]) for t in trend_list),
                    "observations": len(all_obs)},
         "warnings": warnings,
+        "translations": {"language": "pt-BR", "dir": "translations/pt-BR",
+                         "missing_trends": missing_tr["trends"], "missing_reviews": missing_tr["reviews"],
+                         "observations_without_translation": obs_missing},
     }
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
     tmp = args.out + ".tmp"
@@ -219,6 +283,15 @@ def main():
         print(f"  {c['cohort_id']} congelada {c['frozen_date']}: {s['counts']} hit {fmt(s['hit_rate'])} estrito {fmt(s['strict_hit_rate'])} próxima {c['next_review_date']}")
     for w in warnings:
         print("AVISO:", w)
+    miss = missing_tr["trends"] + missing_tr["reviews"]
+    if miss:
+        print(f"AVISO: {len(miss)} arquivo(s) sem tradução PT-BR em {tr_dir} (exibindo o original em inglês):")
+        for m in miss:
+            print("   -", m)
+    else:
+        print(f"Traduções PT-BR: 0 faltando ({len(trend_list)} trends + {data['counts']['reviews']} reviews traduzidos)")
+    if obs_missing:
+        print(f"AVISO: {obs_missing} observação(ões) sem tradução PT-BR (exibindo o original)")
 
 
 if __name__ == "__main__":

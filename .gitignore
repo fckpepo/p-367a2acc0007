@@ -1,3 +1,4 @@
 preview.png
 *.tmp
 __pycache__/
+preview-*.png
