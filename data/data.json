@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-09-26T18:50:02-03:00",
+ "generated_at": "2026-09-28T09:08:58-03:00",
  "generated_tz": "America/Sao_Paulo",
- "build_date": "2026-09-26",
+ "build_date": "2026-09-28",
  "store": {
   "path": "/workspace/nutritrend"
  },
@@ -15,9 +15,9 @@
    "HIT": 5,
    "PARTIAL": 4,
    "MISS": 0,
-   "ANALYZING": 27
+   "ANALYZING": 37
   },
-  "total": 36,
+  "total": 46,
   "hit_rate": 0.7778,
   "strict_hit_rate": 0.5556
  },
@@ -143,6 +143,45 @@
     "NT-2026-09-21-08",
     "NT-2026-09-21-09",
     "NT-2026-09-21-10"
+   ]
+  },
+  {
+   "cohort_id": "cohort_004",
+   "cohort_date": "2026-09-28",
+   "Radar_version": "Radar v0.1",
+   "Score_version": "NutriTrend Score v0.1",
+   "review_cadence_days": [
+    7,
+    14,
+    30
+   ],
+   "_source_file": "reviews/schedule_cohort_004.json",
+   "frozen_date": "2026-09-28",
+   "next_review_date": "2026-10-05",
+   "overdue": 0,
+   "reviews_count": 0,
+   "summary": {
+    "counts": {
+     "HIT": 0,
+     "PARTIAL": 0,
+     "MISS": 0,
+     "ANALYZING": 10
+    },
+    "total": 10,
+    "hit_rate": null,
+    "strict_hit_rate": null
+   },
+   "trend_ids": [
+    "NT-2026-09-28-01",
+    "NT-2026-09-28-02",
+    "NT-2026-09-28-03",
+    "NT-2026-09-28-04",
+    "NT-2026-09-28-05",
+    "NT-2026-09-28-06",
+    "NT-2026-09-28-07",
+    "NT-2026-09-28-08",
+    "NT-2026-09-28-09",
+    "NT-2026-09-28-10"
    ]
   }
  ],
@@ -11038,6 +11077,1798 @@
     }
    ],
    "next_checkpoint": "2026-09-28"
+  },
+  {
+   "id": "NT-2026-09-28-01",
+   "frozen": {
+    "trend_id": "NT-2026-09-28-01",
+    "topic": "Anvisa IN nº 470/2026 — new authorized creatine claim for adults >55 with resistance training",
+    "canonical_topic_name": "IN 470/2026 amends IN 28/2018 with authorized label claim: daily creatine + regular RT may increase RT effect on muscle strength in adults over 55",
+    "source_market": "BR (Native regulatory)",
+    "origin_community": "Anvisa DOU + BR trade/legal press (BHB Food, Fukuma) + NutraIngredients EN trade",
+    "origin_type": "Regulatory claim authorization",
+    "source_layer": "Discovery",
+    "stage": "Brazil Growing",
+    "velocity": "Trade/legal densification 21–23 Sep after DOU 18 Sep; X alegação creatina×Anvisa 7d=1 (near-zero social)",
+    "reach": "High in BR supplement industry/regulatory channels; low consumer social (qualitative)",
+    "novelty": "High — first authorized midlife creatine strength claim in IN 28/2018 lists; absent from Cohorts 001–003",
+    "persistence_estimate": "High — label claim reshapes marketing + RD counseling for months",
+    "brazil_presence": "Present/Native — DOU 18 Sep 2026; BHB Food 23 Sep; Fukuma 21 Sep; NutraIngredients 22 Sep",
+    "brazil_momentum": "High for Supplement Watch / midlife creatine counseling this week despite thin X",
+    "primary_niches": [
+     "supplements",
+     "sports nutrition",
+     "aging/clinical",
+     "hypertrophy"
+    ],
+    "evidence_temperature": "Strong for regulatory text (DOU/IN 470 fetched); Unknown for consumer uptake speed",
+    "misinformation_risk": "High — claim without RT; claim for under-55; conflating with JISSN 10 g/d or GLP-1 co-admin; cognitive overclaim",
+    "audience_question_signal": "Yes — Creatina depois dos 55 funciona? · Precisa treinar? · Posso escrever no rótulo? · 3 g ou 10 g?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "RD + brand explainers on exact authorized wording, age gate (>55), RT requirement, and composition limits (Anexo III/IV); Supplement Watch label-claim literacy; midlife creatine counseling wave without inventing new efficacy beyond the claim",
+    "prediction_confidence": "85%",
+    "prediction_timeframe": "1–4 weeks for dense BR professional/trade content; consumer social may lag",
+    "key_sources": [
+     "https://www.in.gov.br/web/dou/-/instrucao-normativa-anvisa-n-470-de-16-de-setembro-de-2026-732693601",
+     "https://bhbfood.com/noticias/anvisa-autoriza-nova-alegacao-para-creatina-em-suplementos/",
+     "https://www.nutraingredients.com/Article/2026/09/22/brazil-authorizes-new-supplement-ingredients-and-health-claims/",
+     "https://www.fukumaadvogados.com.br/informativos/instrucao-normativa-define-alegacoes-e-rotulagem-de-suplementos/"
+    ],
+    "key_accounts": [
+     "Anvisa",
+     "BHB Food",
+     "NutraIngredients",
+     "Fukuma Advogados"
+    ],
+    "why_flagged": "FIRST-CLASS missed BR regulatory fact — completely absent from Cohorts 001–003. Adjacent to but distinct from NT-21-05 (JISSN research) and NT-09-05 (creatine women/beyond sports): mechanism is authorized label claim, not a new RCT.",
+    "ProfileA_relevance": 96,
+    "ProfileB_relevance": 97,
+    "merged_from": [
+     "IN 470 creatine claim",
+     "midlife creatine label literacy",
+     "related: NT-21-05 research; NT-09-05 women/beyond sports"
+    ],
+    "scan_notes": "X≈1 confirms trade>social path. Do not rewrite NT-21-05 or NT-09-05. Claim text requires RT + adults >55; LinkedIn trade notes cite ~3.000 mg min daily portion for claim use — verify against Anexo III when counseling brands.",
+    "first_detected_date": "2026-09-28",
+    "latest_observation_date": "2026-09-28",
+    "prediction_freeze_date": "2026-09-28",
+    "next_review_date": "2026-10-05",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-09-28-01",
+    "topic": "Anvisa IN nº 470/2026 — nova alegação autorizada de creatina para adultos >55 com treino de resistência",
+    "canonical_topic_name": "IN 470/2026 altera a IN 28/2018 com alegação autorizada de rótulo: creatina diária + treino de resistência regular pode aumentar o efeito do treino na força muscular em adultos com mais de 55 anos",
+    "source_market": "BR (regulatório nativo)",
+    "origin_community": "Anvisa DOU + imprensa trade/jurídica BR (BHB Food, Fukuma) + NutraIngredients EN trade",
+    "origin_type": "Autorização regulatória de alegação",
+    "source_layer": "Descoberta",
+    "stage": "Em crescimento no Brasil",
+    "velocity": "Densificação trade/jurídica 21–23/set após DOU de 18/set; X alegação creatina×Anvisa 7d=1 (quase zero nas redes)",
+    "reach": "Alto nos canais de indústria/regulatório de suplementos do BR; baixo no social do consumidor (qualitativo)",
+    "novelty": "Alta — primeira alegação autorizada de creatina midlife/força nas listas da IN 28/2018; ausente das Coortes 001–003",
+    "persistence_estimate": "Alta — alegação de rótulo remodela marketing + aconselhamento de nutricionistas por meses",
+    "brazil_presence": "Presente/Nativa — DOU 18/09/2026; BHB Food 23/set; Fukuma 21/set; NutraIngredients 22/set",
+    "brazil_momentum": "Alto para Supplement Watch / aconselhamento de creatina midlife nesta semana, apesar do X fino",
+    "primary_niches": [
+     "suplementos",
+     "nutrição esportiva",
+     "envelhecimento/clínica",
+     "hipertrofia"
+    ],
+    "evidence_temperature": "Forte para o texto regulatório (DOU/IN 470 consultados); Desconhecida para a velocidade de adesão do consumidor",
+    "misinformation_risk": "Alto — alegação sem treino de resistência; alegação para menores de 55; misturar com JISSN 10 g/d ou co-administração com GLP-1; overclaim cognitivo",
+    "audience_question_signal": "Sim — Creatina depois dos 55 funciona? · Precisa treinar? · Posso escrever no rótulo? · 3 g ou 10 g?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "Explicadores de nutricionistas e marcas sobre o texto exato autorizado, porta de idade (>55), exigência de treino de resistência e limites de composição (Anexos III/IV); alfabetização de alegações no Supplement Watch; onda de aconselhamento midlife sem inventar eficácia além da alegação",
+    "prediction_confidence": "85%",
+    "prediction_timeframe": "1–4 semanas para conteúdo profissional/trade denso no BR; o social do consumidor pode atrasar",
+    "key_sources": [
+     "https://www.in.gov.br/web/dou/-/instrucao-normativa-anvisa-n-470-de-16-de-setembro-de-2026-732693601",
+     "https://bhbfood.com/noticias/anvisa-autoriza-nova-alegacao-para-creatina-em-suplementos/",
+     "https://www.nutraingredients.com/Article/2026/09/22/brazil-authorizes-new-supplement-ingredients-and-health-claims/",
+     "https://www.fukumaadvogados.com.br/informativos/instrucao-normativa-define-alegacoes-e-rotulagem-de-suplementos/"
+    ],
+    "key_accounts": [
+     "Anvisa",
+     "BHB Food",
+     "NutraIngredients",
+     "Fukuma Advogados"
+    ],
+    "why_flagged": "Fato regulatório BR de primeira classe que faltava — completamente ausente das Coortes 001–003. Adjacente, mas distinto, do NT-21-05 (pesquisa JISSN) e do NT-09-05 (creatina mulheres/além do esporte): o mecanismo é alegação autorizada de rótulo, não um novo ECR.",
+    "ProfileA_relevance": 96,
+    "ProfileB_relevance": 97,
+    "merged_from": [
+     "alegação de creatina da IN 470",
+     "alfabetização de rótulo de creatina midlife",
+     "relacionado: pesquisa NT-21-05; mulheres/além do esporte NT-09-05"
+    ],
+    "scan_notes": "X≈1 confirma caminho trade>social. Não reescrever NT-21-05 nem NT-09-05. O texto da alegação exige treino de resistência + adultos >55; notas trade no LinkedIn citam ~3.000 mg mínimos na porção diária para uso da alegação — verificar Anexo III ao orientar marcas.",
+    "first_detected_date": "2026-09-28",
+    "latest_observation_date": "2026-09-28",
+    "prediction_freeze_date": "2026-09-28",
+    "next_review_date": "2026-10-05",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "translation": {
+    "translated_at": "2026-09-28T09:05:00-03:00",
+    "source_file": "trends/NT-2026-09-28-01.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-09-28-01",
+    "topic": "Anvisa IN nº 470/2026 — new authorized creatine claim for adults >55 with resistance training",
+    "stage_at_freeze": "Brazil Growing",
+    "prediction_freeze_date": "2026-09-28",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "next_review_date": "2026-10-05",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "cohort_id": "cohort_004",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-05",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-10-12",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-10-28",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-05"
+  },
+  {
+   "id": "NT-2026-09-28-02",
+   "frozen": {
+    "trend_id": "NT-2026-09-28-02",
+    "topic": "Dual-wave midlife creatine counseling — IN 470 label claim × JISSN/Texas A&M 10 g/d research",
+    "canonical_topic_name": "RD literacy bridging Anvisa-authorized >55+RT creatine claim with JISSN 45–65 / 10 g/d evidence without conflating doses, ages, or GLP-1 co-admin",
+    "source_market": "BR × EN research",
+    "origin_community": "Anvisa IN 470 + JISSN/Texas A&M PR cluster + BR trade recirculation",
+    "origin_type": "Regulatory × research bridge",
+    "source_layer": "Discovery",
+    "stage": "Emerging → Brazil Growing",
+    "velocity": "Research PR ~18 Sep + IN DOU 18 Sep + trade 21–23 Sep; dual substrate for same clinic week",
+    "reach": "Moderate–High among BR RDs/supplement educators once explainers land (qualitative)",
+    "novelty": "High as counseling package — neither prior freeze predicted the dual-wave collision",
+    "persistence_estimate": "High — becomes standing midlife creatine FAQ for Q4",
+    "brazil_presence": "Present — IN 470 native; JISSN BR social still Unknown/thin",
+    "brazil_momentum": "High for clinic FAQ this week",
+    "primary_niches": [
+     "hypertrophy",
+     "aging/clinical",
+     "supplements",
+     "sports nutrition"
+    ],
+    "evidence_temperature": "Strong for both source facts; Moderate for how quickly BR RDs publish comparative explainers",
+    "misinformation_risk": "Very High — 10 g = label dose; claim works without RT; creatina na caneta already proven; JISSN = Anvisa endorsement",
+    "audience_question_signal": "Yes — 5 g ou 10 g depois dos 45/55? · Serve na caneta? · Precisa de academia? · Estudo = alegação Anvisa?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "Comparative RD carousels/emails: (a) IN 470 claim gates (age>55, RT, composition limits) vs (b) JISSN study dose/age/exercise arms; explicit non-equivalence to NCT07625202 GLP-1 co-admin; food-first + RT hierarchy preserved",
+    "prediction_confidence": "78%",
+    "prediction_timeframe": "1–3 weeks for dense BR professional content",
+    "key_sources": [
+     "https://www.in.gov.br/web/dou/-/instrucao-normativa-anvisa-n-470-de-16-de-setembro-de-2026-732693601",
+     "https://today.tamu.edu/news/2026/09/18/study-finds-creatines-benefits-extend-beyond-the-gym/",
+     "https://bhbfood.com/noticias/anvisa-autoriza-nova-alegacao-para-creatina-em-suplementos/"
+    ],
+    "key_accounts": [
+     "Anvisa",
+     "Texas A&M / JISSN",
+     "BR RD educators"
+    ],
+    "why_flagged": "Bridge freeze — does not rewrite NT-21-05 (research trajectory) or NT-28-01 (claim authorization). Predicts the counseling collision patients will create when both signals hit the same week.",
+    "ProfileA_relevance": 95,
+    "ProfileB_relevance": 96,
+    "merged_from": [
+     "IN 470 claim",
+     "JISSN midlife creatine",
+     "related: NT-21-05, NT-14-02, NT-28-01"
+    ],
+    "scan_notes": "Keep NCT07625202 (NT-14-02) clearly labeled as ongoing research, not as label claim support.",
+    "first_detected_date": "2026-09-28",
+    "latest_observation_date": "2026-09-28",
+    "prediction_freeze_date": "2026-09-28",
+    "next_review_date": "2026-10-05",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-09-28-02",
+    "topic": "Aconselhamento dual de creatina midlife — alegação de rótulo da IN 470 × pesquisa JISSN/Texas A&M 10 g/d",
+    "canonical_topic_name": "Alfabetização do nutricionista conectando a alegação Anvisa >55+treino de resistência com a evidência JISSN 45–65 / 10 g/d, sem misturar doses, idades ou co-administração com GLP-1",
+    "source_market": "BR × pesquisa EN",
+    "origin_community": "Anvisa IN 470 + cluster de PR JISSN/Texas A&M + recirculação trade BR",
+    "origin_type": "Ponte regulatória × pesquisa",
+    "source_layer": "Descoberta",
+    "stage": "Emergente → Em crescimento no Brasil",
+    "velocity": "PR de pesquisa ~18/set + DOU da IN 18/set + trade 21–23/set; substrato duplo na mesma semana clínica",
+    "reach": "Moderado–Alto entre nutricionistas/educadores de suplementos do BR quando os explicadores saírem (qualitativo)",
+    "novelty": "Alta como pacote de aconselhamento — nenhum congelamento anterior previu a colisão da onda dupla",
+    "persistence_estimate": "Alta — vira FAQ permanente de creatina midlife no T4",
+    "brazil_presence": "Presente — IN 470 nativa; social BR do JISSN ainda Desconhecido/fino",
+    "brazil_momentum": "Alto para FAQ de clínicas nesta semana",
+    "primary_niches": [
+     "hipertrofia",
+     "envelhecimento/clínica",
+     "suplementos",
+     "nutrição esportiva"
+    ],
+    "evidence_temperature": "Forte para ambos os fatos-fonte; Moderada para a velocidade com que nutricionistas BR publicam explicadores comparativos",
+    "misinformation_risk": "Muito alto — 10 g = dose do rótulo; alegação funciona sem treino; creatina na caneta já comprovada; JISSN = endosso da Anvisa",
+    "audience_question_signal": "Sim — 5 g ou 10 g depois dos 45/55? · Serve na caneta? · Precisa de academia? · Estudo = alegação Anvisa?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "Carrosséis/e-mails comparativos de nutricionistas: (a) portas da alegação IN 470 (idade>55, treino de resistência, limites de composição) vs (b) dose/idade/braços de exercício do estudo JISSN; não equivalência explícita ao NCT07625202 de co-administração com GLP-1; hierarquia comida-first + treino de resistência preservada",
+    "prediction_confidence": "78%",
+    "prediction_timeframe": "1–3 semanas para conteúdo profissional denso no BR",
+    "key_sources": [
+     "https://www.in.gov.br/web/dou/-/instrucao-normativa-anvisa-n-470-de-16-de-setembro-de-2026-732693601",
+     "https://today.tamu.edu/news/2026/09/18/study-finds-creatines-benefits-extend-beyond-the-gym/",
+     "https://bhbfood.com/noticias/anvisa-autoriza-nova-alegacao-para-creatina-em-suplementos/"
+    ],
+    "key_accounts": [
+     "Anvisa",
+     "Texas A&M / JISSN",
+     "educadores nutricionistas BR"
+    ],
+    "why_flagged": "Congelamento-ponte — não reescreve o NT-21-05 (trajetória de pesquisa) nem o NT-28-01 (autorização da alegação). Prevê a colisão de aconselhamento que os pacientes criarão quando os dois sinais baterem na mesma semana.",
+    "ProfileA_relevance": 95,
+    "ProfileB_relevance": 96,
+    "merged_from": [
+     "alegação IN 470",
+     "creatina midlife JISSN",
+     "relacionado: NT-21-05, NT-14-02, NT-28-01"
+    ],
+    "scan_notes": "Manter o NCT07625202 (NT-14-02) claramente rotulado como pesquisa em andamento, não como suporte de alegação de rótulo.",
+    "first_detected_date": "2026-09-28",
+    "latest_observation_date": "2026-09-28",
+    "prediction_freeze_date": "2026-09-28",
+    "next_review_date": "2026-10-05",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "translation": {
+    "translated_at": "2026-09-28T09:05:00-03:00",
+    "source_file": "trends/NT-2026-09-28-02.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-09-28-02",
+    "topic": "Dual-wave midlife creatine counseling — IN 470 label claim × JISSN/Texas A&M 10 g/d research",
+    "stage_at_freeze": "Emerging → Brazil Growing",
+    "prediction_freeze_date": "2026-09-28",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "next_review_date": "2026-10-05",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "cohort_id": "cohort_004",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-05",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-10-12",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-10-28",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-05"
+  },
+  {
+   "id": "NT-2026-09-28-03",
+   "frozen": {
+    "trend_id": "NT-2026-09-28-03",
+    "topic": "Semavy RE 3.750 Rx consumer-ad ban — RD indication & advertising hygiene FAQ",
+    "canonical_topic_name": "Anvisa suspension of Semavy consumer advertising (RE 3.750) drives RD literacy on tarja-vermelha ad rules, DM2 label vs aesthetic creative, and residual gym/pharmacy ads",
+    "source_market": "BR (Native regulatory)",
+    "origin_community": "Anvisa + mainstream BR press + Bloomberg Línea densification",
+    "origin_type": "Regulatory advertising enforcement",
+    "source_layer": "Discovery",
+    "stage": "Brazil Growing",
+    "velocity": "Mainstream spike 25 Sep (X UTC day=30) then cool; Bloomberg residual-ad densification 27 Sep",
+    "reach": "High in BR mainstream health/business press (qualitative)",
+    "novelty": "High as counseling angle — distinct from NT-14-01 access×Nutri companion prediction",
+    "persistence_estimate": "High — sets template for other national GLP-1 pen marketing",
+    "brazil_presence": "Present/Native — RE 3.750 / 23 Sep; Anvisa news 25 Sep; G1/Estadão/Bloomberg Línea",
+    "brazil_momentum": "High for clinic FAQ; social already past peak",
+    "primary_niches": [
+     "clinical nutrition",
+     "obesity/weight loss",
+     "diabetes",
+     "professional ethics"
+    ],
+    "evidence_temperature": "Strong for regulatory/journalistic facts; Unknown for Hypera process outcome (arquivamento/multa/confirmação)",
+    "misinformation_risk": "High — Semavy proibida/retirada do mercado; propaganda = produto ilegal; RD pode republicar criativo de aeroporto; indicação = emagrecimento estético",
+    "audience_question_signal": "Yes — Semavy foi proibida? · Posso indicar se vi anúncio no aeroporto? · É para diabetes ou emagrecer? · Nutri pode falar da marca?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "RD FAQ scripts: sale still legal with Rx; consumer ads for tarja-vermelha GLP-1 pens illegal (Lei 6.360/1976); label indication T2DM ≠ aesthetic airport creative; do not amplify residual gym/pharmacy ads; food-first companion counseling stays evidence-based, not brand-mandatory",
+    "prediction_confidence": "82%",
+    "prediction_timeframe": "1–3 weeks for dense BR professional FAQ content",
+    "key_sources": [
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-propaganda-da-caneta-semavy",
+     "https://g1.globo.com/saude/noticia/2026/09/25/anvisa-proibe-propaganda-da-caneta-emagrecedora-semavy-apos-anuncios-em-aeroporto-e-redes-sociais.ghtml",
+     "https://www.bloomberglinea.com.br/negocios/semavy-caneta-emagrecedora-da-hypera-esbarra-em-veto-de-publicidade-da-anvisa/",
+     "https://www.estadao.com.br/brasil/anvisa-proibe-propaganda-da-caneta-de-semaglutida-semavy-apos-anuncios-irregulares-npr/"
+    ],
+    "key_accounts": [
+     "Anvisa",
+     "G1 Saúde",
+     "Bloomberg Línea",
+     "Hypera/Cosmed"
+    ],
+    "why_flagged": "Daily Alert 09-25 logged on NT-14-01 without rewriting frozen access×companion prediction. This freeze captures the distinct trajectory: advertising/indication hygiene + residual-ad counseling. Does NOT rewrite NT-14-01, NT-21-10, or NT-09-13.",
+    "ProfileA_relevance": 88,
+    "ProfileB_relevance": 94,
+    "merged_from": [
+     "RE 3.750 Semavy ad ban",
+     "RD advertising hygiene",
+     "related: NT-14-01, NT-21-10, NT-09-13, NT-09-11"
+    ],
+    "scan_notes": "Bloomberg 27 Sep residual Morumbi pharmacy ad = densification observation, not a new RE. Semavy Nutri X still 0.",
+    "first_detected_date": "2026-09-28",
+    "latest_observation_date": "2026-09-28",
+    "prediction_freeze_date": "2026-09-28",
+    "next_review_date": "2026-10-05",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-09-28-03",
+    "topic": "Banimento de propaganda ao consumidor da Semavy (RE 3.750) — FAQ de indicação e higiene publicitária para nutricionistas",
+    "canonical_topic_name": "Suspensão pela Anvisa da propaganda da Semavy ao consumidor (RE 3.750) impulsiona alfabetização de nutricionistas sobre regras de propaganda de tarja vermelha, rótulo DM2 vs criativo estético e anúncios residuais em academia/farmácia",
+    "source_market": "BR (regulatório nativo)",
+    "origin_community": "Anvisa + grande imprensa BR + densificação Bloomberg Línea",
+    "origin_type": "Fiscalização regulatória de propaganda",
+    "source_layer": "Descoberta",
+    "stage": "Em crescimento no Brasil",
+    "velocity": "Pico na grande imprensa em 25/set (X UTC dia=30) e depois esfria; densificação Bloomberg de anúncios residuais em 27/set",
+    "reach": "Alto na grande imprensa de saúde/negócios do BR (qualitativo)",
+    "novelty": "Alta como ângulo de aconselhamento — distinto da previsão de acesso×companheiro Nutri do NT-14-01",
+    "persistence_estimate": "Alta — define template para marketing de outras canetas GLP-1 nacionais",
+    "brazil_presence": "Presente/Nativa — RE 3.750 / 23/set; notícia Anvisa 25/set; G1/Estadão/Bloomberg Línea",
+    "brazil_momentum": "Alto para FAQ de clínicas; nas redes, já passou do pico",
+    "primary_niches": [
+     "nutrição clínica",
+     "obesidade/emagrecimento",
+     "diabetes",
+     "ética profissional"
+    ],
+    "evidence_temperature": "Forte para fatos regulatórios/jornalísticos; Desconhecida para o desfecho do processo da Hypera (arquivamento/multa/confirmação)",
+    "misinformation_risk": "Alto — Semavy proibida/retirada do mercado; propaganda = produto ilegal; nutricionista pode republicar criativo de aeroporto; indicação = emagrecimento estético",
+    "audience_question_signal": "Sim — Semavy foi proibida? · Posso indicar se vi anúncio no aeroporto? · É para diabetes ou emagrecer? · Nutri pode falar da marca?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "Roteiros de FAQ para nutricionistas: venda continua legal com receita; propaganda ao consumidor de canetas GLP-1 de tarja vermelha é ilegal (Lei 6.360/1976); indicação de rótulo DM2 ≠ criativo estético de aeroporto; não amplificar anúncios residuais em academia/farmácia; aconselhamento companion comida-first permanece baseado em evidência, não obrigatório de marca",
+    "prediction_confidence": "82%",
+    "prediction_timeframe": "1–3 semanas para conteúdo profissional denso de FAQ no BR",
+    "key_sources": [
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-propaganda-da-caneta-semavy",
+     "https://g1.globo.com/saude/noticia/2026/09/25/anvisa-proibe-propaganda-da-caneta-emagrecedora-semavy-apos-anuncios-em-aeroporto-e-redes-sociais.ghtml",
+     "https://www.bloomberglinea.com.br/negocios/semavy-caneta-emagrecedora-da-hypera-esbarra-em-veto-de-publicidade-da-anvisa/",
+     "https://www.estadao.com.br/brasil/anvisa-proibe-propaganda-da-caneta-de-semaglutida-semavy-apos-anuncios-irregulares-npr/"
+    ],
+    "key_accounts": [
+     "Anvisa",
+     "G1 Saúde",
+     "Bloomberg Línea",
+     "Hypera/Cosmed"
+    ],
+    "why_flagged": "Daily Alert de 25/09 registrado no NT-14-01 sem reescrever a previsão congelada de acesso×companheiro. Este congelamento captura a trajetória distinta: higiene de propaganda/indicação + aconselhamento sobre anúncios residuais. NÃO reescreve NT-14-01, NT-21-10 nem NT-09-13.",
+    "ProfileA_relevance": 88,
+    "ProfileB_relevance": 94,
+    "merged_from": [
+     "banimento de propaganda Semavy RE 3.750",
+     "higiene publicitária para nutricionistas",
+     "relacionado: NT-14-01, NT-21-10, NT-09-13, NT-09-11"
+    ],
+    "scan_notes": "Anúncio residual no Morumbi (Bloomberg 27/set) = observação de densificação, não uma nova RE. Semavy Nutri no X continua 0.",
+    "first_detected_date": "2026-09-28",
+    "latest_observation_date": "2026-09-28",
+    "prediction_freeze_date": "2026-09-28",
+    "next_review_date": "2026-10-05",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "translation": {
+    "translated_at": "2026-09-28T09:05:00-03:00",
+    "source_file": "trends/NT-2026-09-28-03.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-09-28-03",
+    "topic": "Semavy RE 3.750 Rx consumer-ad ban — RD indication & advertising hygiene FAQ",
+    "stage_at_freeze": "Brazil Growing",
+    "prediction_freeze_date": "2026-09-28",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "next_review_date": "2026-10-05",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "cohort_id": "cohort_004",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-05",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-10-12",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-10-28",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-05"
+  },
+  {
+   "id": "NT-2026-09-28-04",
+   "frozen": {
+    "trend_id": "NT-2026-09-28-04",
+    "topic": "IN 470/2026 new constituents & claims package — 6-MBOA, 3 kDa collagen, krill, eggshell membrane, squalene, L-cystine",
+    "canonical_topic_name": "Anvisa IN 470 expands authorized supplement constituents and claims (sleep 6-MBOA; joint 3 kDa collagen peptides) with mandatory pregnancy/age warnings",
+    "source_market": "BR (Native regulatory)",
+    "origin_community": "Anvisa DOU + trade/legal (BHB, Fukuma, NutraIngredients)",
+    "origin_type": "Regulatory list update",
+    "source_layer": "Discovery",
+    "stage": "Brazil Emerging",
+    "velocity": "Trade recirculation 21–23 Sep; consumer social Unknown/near-zero",
+    "reach": "Moderate in industry/regulatory; low consumer so far (qualitative)",
+    "novelty": "High — first cohort capture of these specific authorized constituents/claims",
+    "persistence_estimate": "High — pipeline of new SKUs + claim marketing over months",
+    "brazil_presence": "Present/Native — DOU text lists constituents, claims, complementary labeling",
+    "brazil_momentum": "Moderate now; expected to rise as brands reformulate/label",
+    "primary_niches": [
+     "supplements",
+     "sleep",
+     "joint health",
+     "clinical nutrition"
+    ],
+    "evidence_temperature": "Strong for regulatory lists; Unknown for clinical effect sizes behind new claims in BR practice",
+    "misinformation_risk": "High — 6-MBOA as melatonin substitute without warning literacy; collagen 3 kDa as muscle protein; krill as unrestricted choline megadose; ignoring pregnancy/children warnings",
+    "audience_question_signal": "Yes — Posso usar alegação de sono/articulação? · Gestante pode? · Colágeno 3 kDa substitui whey? · Óleo de krill é fonte de colina?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "Supplement Watch explainers on which claims are now authorized, composition gates, and mandatory warnings (6-MBOA: pregnant/lactating/children + psych/med consult; squalene/collagen/eggshell: pregnant/lactating/children; krill: children <4). RD myth-bust collagen joint claim ≠ hypertrophy protein.",
+    "prediction_confidence": "75%",
+    "prediction_timeframe": "2–6 weeks for brand SKU/claim rollouts; RD literacy sooner",
+    "key_sources": [
+     "https://www.in.gov.br/web/dou/-/instrucao-normativa-anvisa-n-470-de-16-de-setembro-de-2026-732693601",
+     "https://bhbfood.com/noticias/anvisa-autoriza-nova-alegacao-para-creatina-em-suplementos/",
+     "https://www.nutraingredients.com/Article/2026/09/22/brazil-authorizes-new-supplement-ingredients-and-health-claims/",
+     "https://www.fukumaadvogados.com.br/informativos/instrucao-normativa-define-alegacoes-e-rotulagem-de-suplementos/"
+    ],
+    "key_accounts": [
+     "Anvisa",
+     "BHB Food",
+     "NutraIngredients",
+     "Fukuma Advogados"
+    ],
+    "why_flagged": "Companion freeze to NT-28-01 covering the non-creatine half of IN 470. Distinct mechanism (new constituents/claims/warnings) from NT-09-13 prior IN updates.",
+    "ProfileA_relevance": 42,
+    "ProfileB_relevance": 94,
+    "merged_from": [
+     "IN 470 constituents",
+     "6-MBOA sleep claim",
+     "3 kDa collagen joint claim",
+     "krill/eggshell/squalene warnings"
+    ],
+    "scan_notes": "Krill oil simultaneously subject to EPA/DHA and choline min/max (nota XVI). Choline listed among constituents; no separate new choline *claim* text confirmed in fetched DOU claim annex beyond creatine/6-MBOA/collagen.",
+    "first_detected_date": "2026-09-28",
+    "latest_observation_date": "2026-09-28",
+    "prediction_freeze_date": "2026-09-28",
+    "next_review_date": "2026-10-05",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-09-28-04",
+    "topic": "Pacote de novos constituintes e alegações da IN 470/2026 — 6-MBOA, colágeno 3 kDa, krill, membrana de ovo, esqualeno, L-cistina",
+    "canonical_topic_name": "IN 470 da Anvisa amplia constituintes e alegações autorizados de suplementos (sono 6-MBOA; articulações peptídeos de colágeno 3 kDa) com advertências obrigatórias de gestação/idade",
+    "source_market": "BR (regulatório nativo)",
+    "origin_community": "Anvisa DOU + trade/jurídico (BHB, Fukuma, NutraIngredients)",
+    "origin_type": "Atualização de listas regulatórias",
+    "source_layer": "Descoberta",
+    "stage": "Emergente no Brasil",
+    "velocity": "Recirculação trade 21–23/set; social do consumidor Desconhecido/quase zero",
+    "reach": "Moderado na indústria/regulatório; baixo no consumidor até agora (qualitativo)",
+    "novelty": "Alta — primeira captura em coorte desses constituintes/alegações específicos autorizados",
+    "persistence_estimate": "Alta — pipeline de novos SKUs + marketing de alegações por meses",
+    "brazil_presence": "Presente/Nativa — texto do DOU lista constituintes, alegações e rotulagem complementar",
+    "brazil_momentum": "Moderado agora; deve subir conforme marcas reformulam/rotulam",
+    "primary_niches": [
+     "suplementos",
+     "sono",
+     "saúde articular",
+     "nutrição clínica"
+    ],
+    "evidence_temperature": "Forte para as listas regulatórias; Desconhecida para tamanhos de efeito clínico das novas alegações na prática BR",
+    "misinformation_risk": "Alto — 6-MBOA como substituto de melatonina sem alfabetização de advertências; colágeno 3 kDa como proteína muscular; krill como megadose irrestrita de colina; ignorar advertências de gestação/crianças",
+    "audience_question_signal": "Sim — Posso usar alegação de sono/articulação? · Gestante pode? · Colágeno 3 kDa substitui whey? · Óleo de krill é fonte de colina?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "Explicadores de Supplement Watch sobre quais alegações agora são autorizadas, portas de composição e advertências obrigatórias (6-MBOA: gestantes/lactantes/crianças + consulta em psic/med; esqualeno/colágeno/membrana de ovo: gestantes/lactantes/crianças; krill: crianças <4). Myth-bust de nutricionistas: alegação articular de colágeno ≠ proteína para hipertrofia.",
+    "prediction_confidence": "75%",
+    "prediction_timeframe": "2–6 semanas para rollouts de SKU/alegação pelas marcas; alfabetização de nutricionistas mais cedo",
+    "key_sources": [
+     "https://www.in.gov.br/web/dou/-/instrucao-normativa-anvisa-n-470-de-16-de-setembro-de-2026-732693601",
+     "https://bhbfood.com/noticias/anvisa-autoriza-nova-alegacao-para-creatina-em-suplementos/",
+     "https://www.nutraingredients.com/Article/2026/09/22/brazil-authorizes-new-supplement-ingredients-and-health-claims/",
+     "https://www.fukumaadvogados.com.br/informativos/instrucao-normativa-define-alegacoes-e-rotulagem-de-suplementos/"
+    ],
+    "key_accounts": [
+     "Anvisa",
+     "BHB Food",
+     "NutraIngredients",
+     "Fukuma Advogados"
+    ],
+    "why_flagged": "Congelamento companheiro do NT-28-01 cobrindo a metade não-creatina da IN 470. Mecanismo distinto (novos constituintes/alegações/advertências) das atualizações anteriores de IN do NT-09-13.",
+    "ProfileA_relevance": 42,
+    "ProfileB_relevance": 94,
+    "merged_from": [
+     "constituintes IN 470",
+     "alegação de sono 6-MBOA",
+     "alegação articular colágeno 3 kDa",
+     "advertências krill/membrana/esqualeno"
+    ],
+    "scan_notes": "Óleo de krill sujeito simultaneamente a mín./máx. de EPA/DHA e de colina (nota XVI). Colina listada entre constituintes; nenhum texto separado de *nova alegação* de colina confirmado no anexo de alegações do DOU consultado além de creatina/6-MBOA/colágeno.",
+    "first_detected_date": "2026-09-28",
+    "latest_observation_date": "2026-09-28",
+    "prediction_freeze_date": "2026-09-28",
+    "next_review_date": "2026-10-05",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "translation": {
+    "translated_at": "2026-09-28T09:05:00-03:00",
+    "source_file": "trends/NT-2026-09-28-04.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-09-28-04",
+    "topic": "IN 470/2026 new constituents & claims package — 6-MBOA, 3 kDa collagen, krill, eggshell membrane, squalene, L-cystine",
+    "stage_at_freeze": "Brazil Emerging",
+    "prediction_freeze_date": "2026-09-28",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "next_review_date": "2026-10-05",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "cohort_id": "cohort_004",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-05",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-10-12",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-10-28",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-05"
+  },
+  {
+   "id": "NT-2026-09-28-05",
+   "frozen": {
+    "trend_id": "NT-2026-09-28-05",
+    "topic": "National semaglutide price war (Ozivy/EMS) × Semavy marketing clamp — registered-pen counseling without consumer ads",
+    "canonical_topic_name": "RD counseling on registered national GLP-1 pens amid EMS/Ozivy price pressure and Hypera Semavy advertising suspension",
+    "source_market": "BR (Native commercial + regulatory)",
+    "origin_community": "Bloomberg Línea business densification + pharmacy retail context + Anvisa RE 3.750",
+    "origin_type": "Commercial densification × advertising clamp",
+    "source_layer": "Discovery",
+    "stage": "Brazil Growing",
+    "velocity": "Bloomberg 27 Sep ties Semavy ad ban to Ozivy/EMS price competition and Hypera margin/marketing spend risk",
+    "reach": "Moderate–High in business/health press; patient FAQ via pharmacy price talk (qualitative)",
+    "novelty": "Moderate–High as counseling package — access wave already frozen (NT-14-01) but marketing-clamp × price-war collision is new substrate",
+    "persistence_estimate": "High while national pens compete on price without consumer advertising tools",
+    "brazil_presence": "Present — Bloomberg Línea 27 Sep; prior Ozivy discount program coverage (G1 Jul context still circulating)",
+    "brazil_momentum": "High for access-counseling FAQs this week",
+    "primary_niches": [
+     "obesity/weight loss",
+     "diabetes",
+     "clinical nutrition",
+     "pharmacy"
+    ],
+    "evidence_temperature": "Strong for ad-ban fact; Moderate for specific price figures (retail varies; treat as Unknown unless re-verified at counseling time)",
+    "misinformation_risk": "High — cheaper = gray-market OK; Semavy banned so switch to Paraguay; RD quoting promotional prices as clinical endorsement",
+    "audience_question_signal": "Yes — Qual caneta nacional é mais barata? · Semavy sumiu da propaganda — ainda vende? · Ozivy é igual? · Paraguai ainda vale a pena?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "RD scripts distinguishing registered national options vs gray-market (T36 family), without amplifying illegal consumer creatives or becoming price-comparison ads; reinforce Rx retention + indication literacy; food-first MNT unchanged by brand marketing climate",
+    "prediction_confidence": "70%",
+    "prediction_timeframe": "1–4 weeks for pharmacy/clinic FAQ density",
+    "key_sources": [
+     "https://www.bloomberglinea.com.br/negocios/semavy-caneta-emagrecedora-da-hypera-esbarra-em-veto-de-publicidade-da-anvisa/",
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-propaganda-da-caneta-semavy",
+     "https://g1.globo.com/saude/noticia/2026/09/25/anvisa-proibe-propaganda-da-caneta-emagrecedora-semavy-apos-anuncios-em-aeroporto-e-redes-sociais.ghtml"
+    ],
+    "key_accounts": [
+     "Bloomberg Línea",
+     "Anvisa",
+     "EMS/Ozivy",
+     "Hypera/Semavy"
+    ],
+    "why_flagged": "Distinct from NT-14-01 (access×Semavy Nutri companion bundling) and NT-21-10 (legal vs gray). Predicts counseling under price competition + ad clamp without rewriting those freezes.",
+    "ProfileA_relevance": 78,
+    "ProfileB_relevance": 88,
+    "merged_from": [
+     "Ozivy price pressure",
+     "Semavy ad clamp",
+     "registered pen counseling",
+     "related: NT-14-01, NT-21-10, NT-28-03"
+    ],
+    "scan_notes": "Do not fabricate current shelf prices. Paraguay still cheaper narrative persists in regional press — keep gray-market red flags from NT-21-02/10.",
+    "first_detected_date": "2026-09-28",
+    "latest_observation_date": "2026-09-28",
+    "prediction_freeze_date": "2026-09-28",
+    "next_review_date": "2026-10-05",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-09-28-05",
+    "topic": "Guerra de preços da semaglutida nacional (Ozivy/EMS) × freio de marketing da Semavy — aconselhamento de caneta registrada sem propaganda ao consumidor",
+    "canonical_topic_name": "Aconselhamento do nutricionista sobre canetas GLP-1 nacionais registradas em meio à pressão de preço da EMS/Ozivy e à suspensão de propaganda da Semavy (Hypera)",
+    "source_market": "BR (comercial nativo + regulatório)",
+    "origin_community": "Densificação de negócios Bloomberg Línea + contexto varejo de farmácia + Anvisa RE 3.750",
+    "origin_type": "Densificação comercial × freio de propaganda",
+    "source_layer": "Descoberta",
+    "stage": "Em crescimento no Brasil",
+    "velocity": "Bloomberg 27/set liga o banimento de propaganda da Semavy à concorrência de preço Ozivy/EMS e ao risco de margem/gasto de marketing da Hypera",
+    "reach": "Moderado–Alto na imprensa de negócios/saúde; FAQ de pacientes via conversa de preço em farmácia (qualitativo)",
+    "novelty": "Moderada–Alta como pacote de aconselhamento — a onda de acesso já estava congelada (NT-14-01), mas a colisão freio-de-marketing × guerra-de-preço é substrato novo",
+    "persistence_estimate": "Alta enquanto canetas nacionais competem em preço sem ferramentas de propaganda ao consumidor",
+    "brazil_presence": "Presente — Bloomberg Línea 27/set; cobertura prévia de programa de desconto Ozivy (contexto G1 jul ainda circulando)",
+    "brazil_momentum": "Alto para FAQs de aconselhamento de acesso nesta semana",
+    "primary_niches": [
+     "obesidade/emagrecimento",
+     "diabetes",
+     "nutrição clínica",
+     "farmácia"
+    ],
+    "evidence_temperature": "Forte para o fato do banimento de propaganda; Moderada para cifras específicas de preço (varejo varia; tratar como Desconhecido salvo reverificação no momento do aconselhamento)",
+    "misinformation_risk": "Alto — mais barato = mercado irregular OK; Semavy banida então vá ao Paraguai; nutricionista citar preço promocional como endosso clínico",
+    "audience_question_signal": "Sim — Qual caneta nacional é mais barata? · Semavy sumiu da propaganda — ainda vende? · Ozivy é igual? · Paraguai ainda vale a pena?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "Roteiros de nutricionistas distinguindo opções nacionais registradas vs mercado irregular (família T36), sem amplificar criativos ilegais ao consumidor nem virar anúncio de comparação de preço; reforçar retenção de receita + alfabetização de indicação; MNT comida-first inalterada pelo clima de marketing das marcas",
+    "prediction_confidence": "70%",
+    "prediction_timeframe": "1–4 semanas para densidade de FAQ em farmácia/clínica",
+    "key_sources": [
+     "https://www.bloomberglinea.com.br/negocios/semavy-caneta-emagrecedora-da-hypera-esbarra-em-veto-de-publicidade-da-anvisa/",
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-propaganda-da-caneta-semavy",
+     "https://g1.globo.com/saude/noticia/2026/09/25/anvisa-proibe-propaganda-da-caneta-emagrecedora-semavy-apos-anuncios-em-aeroporto-e-redes-sociais.ghtml"
+    ],
+    "key_accounts": [
+     "Bloomberg Línea",
+     "Anvisa",
+     "EMS/Ozivy",
+     "Hypera/Semavy"
+    ],
+    "why_flagged": "Distinto do NT-14-01 (acesso×bundling Semavy Nutri) e do NT-21-10 (legal vs irregular). Prevê aconselhamento sob concorrência de preço + freio de propaganda sem reescrever esses congelamentos.",
+    "ProfileA_relevance": 78,
+    "ProfileB_relevance": 88,
+    "merged_from": [
+     "pressão de preço Ozivy",
+     "freio de propaganda Semavy",
+     "aconselhamento de caneta registrada",
+     "relacionado: NT-14-01, NT-21-10, NT-28-03"
+    ],
+    "scan_notes": "Não fabricar preços de prateleira atuais. A narrativa de que o Paraguai ainda é mais barato persiste na imprensa regional — manter red flags de mercado irregular do NT-21-02/10.",
+    "first_detected_date": "2026-09-28",
+    "latest_observation_date": "2026-09-28",
+    "prediction_freeze_date": "2026-09-28",
+    "next_review_date": "2026-10-05",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "translation": {
+    "translated_at": "2026-09-28T09:05:00-03:00",
+    "source_file": "trends/NT-2026-09-28-05.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-09-28-05",
+    "topic": "National semaglutide price war (Ozivy/EMS) × Semavy marketing clamp — registered-pen counseling without consumer ads",
+    "stage_at_freeze": "Brazil Growing",
+    "prediction_freeze_date": "2026-09-28",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "next_review_date": "2026-10-05",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "cohort_id": "cohort_004",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-05",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-10-12",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-10-28",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-05"
+  },
+  {
+   "id": "NT-2026-09-28-06",
+   "frozen": {
+    "trend_id": "NT-2026-09-28-06",
+    "topic": "GLP-1 discontinuation / weight-regain MNT planning — 2026 RD guide densification",
+    "canonical_topic_name": "Dietitian protocols for off-ramp and weight-regain risk after GLP-1 stop (STEP-4 / SURMOUNT-4 framing) migrating into BR professional content",
+    "source_market": "EN → BR migration candidate",
+    "origin_community": "EN RD clinical guides 2026 + trial discontinuation literature densification",
+    "origin_type": "Research/clinical-guide densification",
+    "source_layer": "Discovery",
+    "stage": "Emerging",
+    "velocity": "Guide densification (Clinical Nutrition Report update cycle; Mayo/GSSI class education); EN GLP-1×protein X elevated but not specific to discontinuation",
+    "reach": "Moderate in EN clinical RD channels; BR presence Unknown unless noted",
+    "novelty": "High vs prior freezes focused on on-drug lean-mass preservation — off-ramp MNT was not a dedicated freeze",
+    "persistence_estimate": "High — chronic-disease framing of obesity pharmacotherapy",
+    "brazil_presence": "Unknown for dedicated BR off-ramp content density this week",
+    "brazil_momentum": "Unknown → watch; adjacent BR MNT playbooks (NT-21-08) may absorb",
+    "primary_niches": [
+     "clinical nutrition",
+     "obesity/weight loss",
+     "sports nutrition"
+    ],
+    "evidence_temperature": "Strong for trial discontinuation patterns cited in guides; Moderate for BR-specific protocols",
+    "misinformation_risk": "High — caneta é para sempre sem nuance; parar = falha moral; regain = prova que dieta não funciona; overpromise of lifestyle-only maintenance rates",
+    "audience_question_signal": "Yes — Se eu parar a caneta recupero tudo? · Como descer a dose? · Preciso de nutri no off-ramp?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "BR RD explainers on shared decision-making for discontinuation, intensified protein/RT during off-ramp, realistic regain expectations, and chronic-care framing — without fatalism or brand lock-in",
+    "prediction_confidence": "65%",
+    "prediction_timeframe": "2–6 weeks for BR professional content densification",
+    "key_sources": [
+     "https://clinicalnutritionreport.com/articles/semaglutide-tirzepatide-dietitian-guide/",
+     "https://store.mayoclinic.com/education/glp-1-medications-and-muscle-loss-what-to-know-about-nutrition-and-supplements/"
+    ],
+    "key_accounts": [
+     "Clinical Nutrition Report",
+     "Mayo Clinic education",
+     "BR RD educators"
+    ],
+    "why_flagged": "Distinct from NT-21-04 (lean mass ≠ sarcopenia on-drug) and NT-21-08 (post-patent MNT playbooks). New predicted trajectory is off-ramp / regain counseling.",
+    "ProfileA_relevance": 88,
+    "ProfileB_relevance": 86,
+    "merged_from": [
+     "STEP-4 / SURMOUNT-4 densification",
+     "RD off-ramp guides",
+     "related: NT-21-04, NT-21-08, NT-09-01"
+    ],
+    "scan_notes": "Brazil presence Unknown — migration candidate. Do not invent BR society guidelines that were not fetched.",
+    "first_detected_date": "2026-09-28",
+    "latest_observation_date": "2026-09-28",
+    "prediction_freeze_date": "2026-09-28",
+    "next_review_date": "2026-10-05",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-09-28-06",
+    "topic": "Planejamento de MNT na descontinuação de GLP-1 / reganho de peso — densificação de guias de nutricionistas 2026",
+    "canonical_topic_name": "Protocolos de nutricionistas para off-ramp e risco de reganho após parar GLP-1 (enquadramento STEP-4 / SURMOUNT-4) migrando para conteúdo profissional BR",
+    "source_market": "EN → candidato a migração BR",
+    "origin_community": "Guias clínicos de nutricionistas EN 2026 + densificação da literatura de descontinuação de ensaios",
+    "origin_type": "Densificação de pesquisa/guia clínico",
+    "source_layer": "Descoberta",
+    "stage": "Emergente",
+    "velocity": "Densificação de guias (ciclo de atualização Clinical Nutrition Report; educação classe Mayo/GSSI); X EN GLP-1×proteína elevado, mas não específico de descontinuação",
+    "reach": "Moderado nos canais clínicos EN de nutricionistas; presença BR Desconhecida salvo nota",
+    "novelty": "Alta vs congelamentos anteriores focados em preservação de massa magra em uso — MNT de off-ramp não era congelamento dedicado",
+    "persistence_estimate": "Alta — enquadramento de farmacoterapia da obesidade como doença crônica",
+    "brazil_presence": "Desconhecida para densidade dedicada de conteúdo BR de off-ramp nesta semana",
+    "brazil_momentum": "Desconhecido → observar; playbooks BR adjacentes (NT-21-08) podem absorver",
+    "primary_niches": [
+     "nutrição clínica",
+     "obesidade/emagrecimento",
+     "nutrição esportiva"
+    ],
+    "evidence_temperature": "Forte para padrões de descontinuação de ensaios citados nos guias; Moderada para protocolos específicos do BR",
+    "misinformation_risk": "Alto — caneta é para sempre sem nuance; parar = falha moral; reganho = prova de que dieta não funciona; overpromise de taxas de manutenção só com estilo de vida",
+    "audience_question_signal": "Sim — Se eu parar a caneta recupero tudo? · Como descer a dose? · Preciso de nutri no off-ramp?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "Explicadores de nutricionistas BR sobre decisão compartilhada na descontinuação, intensificação de proteína/treino de resistência no off-ramp, expectativas realistas de reganho e enquadramento de cuidado crônico — sem fatalismo nem aprisionamento de marca",
+    "prediction_confidence": "65%",
+    "prediction_timeframe": "2–6 semanas para densificação de conteúdo profissional BR",
+    "key_sources": [
+     "https://clinicalnutritionreport.com/articles/semaglutide-tirzepatide-dietitian-guide/",
+     "https://store.mayoclinic.com/education/glp-1-medications-and-muscle-loss-what-to-know-about-nutrition-and-supplements/"
+    ],
+    "key_accounts": [
+     "Clinical Nutrition Report",
+     "educação Mayo Clinic",
+     "educadores nutricionistas BR"
+    ],
+    "why_flagged": "Distinto do NT-21-04 (massa magra ≠ sarcopenia em uso) e do NT-21-08 (playbooks de MNT pós-patente). A nova trajetória prevista é aconselhamento de off-ramp / reganho.",
+    "ProfileA_relevance": 88,
+    "ProfileB_relevance": 86,
+    "merged_from": [
+     "densificação STEP-4 / SURMOUNT-4",
+     "guias de off-ramp para nutricionistas",
+     "relacionado: NT-21-04, NT-21-08, NT-09-01"
+    ],
+    "scan_notes": "Presença no Brasil Desconhecida — candidato a migração. Não inventar diretrizes de sociedades BR que não foram consultadas.",
+    "first_detected_date": "2026-09-28",
+    "latest_observation_date": "2026-09-28",
+    "prediction_freeze_date": "2026-09-28",
+    "next_review_date": "2026-10-05",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "translation": {
+    "translated_at": "2026-09-28T09:05:00-03:00",
+    "source_file": "trends/NT-2026-09-28-06.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-09-28-06",
+    "topic": "GLP-1 discontinuation / weight-regain MNT planning — 2026 RD guide densification",
+    "stage_at_freeze": "Emerging",
+    "prediction_freeze_date": "2026-09-28",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "next_review_date": "2026-10-05",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "cohort_id": "cohort_004",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-05",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-10-12",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-10-28",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-05"
+  },
+  {
+   "id": "NT-2026-09-28-07",
+   "frozen": {
+    "trend_id": "NT-2026-09-28-07",
+    "topic": "Micronutrient adequacy on GLP-1 — RD checklist vs brand-mandatory ONS",
+    "canonical_topic_name": "Evidence-framed micronutrient risk (iron, B12, D, calcium, magnesium, folate) during GLP-1 appetite suppression — counseling without Nestlé/brand lock-in",
+    "source_market": "EN → BR",
+    "origin_community": "EN RD guides 2026 + BR Nestlé Nutren Multi A-Z commercial substrate (already frozen)",
+    "origin_type": "Clinical-guide densification × commercial contrast",
+    "source_layer": "Discovery",
+    "stage": "Emerging",
+    "velocity": "Guide densification parallel to Nestlé GLP-1 seal wave (NT-21-03)",
+    "reach": "Moderate EN clinical; BR patient questions likely via ONS marketing (qualitative)",
+    "novelty": "Moderate–High — prior freezes covered ONS seal and GI toolkit; dedicated micronutrient checklist vs brand-mandatory was not frozen",
+    "persistence_estimate": "High as standing clinic checklist",
+    "brazil_presence": "Partial — Nestlé Multi A-Z already in BR market story; independent RD checklist density Unknown",
+    "brazil_momentum": "Moderate — piggybacks Nestlé seal FAQs",
+    "primary_niches": [
+     "clinical nutrition",
+     "supplements",
+     "obesity/weight loss",
+     "diabetes"
+    ],
+    "evidence_temperature": "Moderate — guides cite risk patterns; no new pivotal micronutrient RCT fetched this week",
+    "misinformation_risk": "High — Multi A-Z obrigatório na caneta; deficiências universais em 3 meses; megadose sem lab; ignorar metformin×B12 overlap",
+    "audience_question_signal": "Yes — Preciso de polivitamínico na caneta? · Nutren Multi é obrigatório? · Quais exames pedir?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "RD checklists: food-first micronutrient density, selective labs (B12 especially with metformin), when ONS/MVM helps vs marketing seal — without rewriting NT-21-03 Nestlé prediction",
+    "prediction_confidence": "68%",
+    "prediction_timeframe": "1–4 weeks for BR FAQ content tied to Nestlé seal questions",
+    "key_sources": [
+     "https://clinicalnutritionreport.com/articles/semaglutide-tirzepatide-dietitian-guide/",
+     "https://store.mayoclinic.com/education/glp-1-medications-and-muscle-loss-what-to-know-about-nutrition-and-supplements/"
+    ],
+    "key_accounts": [
+     "Clinical Nutrition Report",
+     "Mayo Clinic education",
+     "BR RD educators"
+    ],
+    "why_flagged": "Contrasts brand-mandatory ONS narrative (NT-21-03) with evidence-framed micronutrient counseling. Distinct from NT-14-03 GI toolkit (electrolytes/Mg/fiber).",
+    "ProfileA_relevance": 72,
+    "ProfileB_relevance": 91,
+    "merged_from": [
+     "GLP-1 micronutrient risk",
+     "MVM checklist",
+     "related: NT-21-03 Nestlé seal; NT-14-03 GI toolkit"
+    ],
+    "scan_notes": "Academy of Nutrition and Dietetics 2024 position cited in EN guide — not independently re-fetched this run; treat citation as guide-reported.",
+    "first_detected_date": "2026-09-28",
+    "latest_observation_date": "2026-09-28",
+    "prediction_freeze_date": "2026-09-28",
+    "next_review_date": "2026-10-05",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-09-28-07",
+    "topic": "Adequação de micronutrientes na caneta GLP-1 — checklist do nutricionista vs ONS obrigatório de marca",
+    "canonical_topic_name": "Risco de micronutrientes enquadrado em evidência (ferro, B12, D, cálcio, magnésio, folato) durante a supressão de apetite por GLP-1 — aconselhamento sem aprisionamento Nestlé/marca",
+    "source_market": "EN → BR",
+    "origin_community": "Guias de nutricionistas EN 2026 + substrato comercial BR Nestlé Nutren Multi A-Z (já congelado)",
+    "origin_type": "Densificação de guia clínico × contraste comercial",
+    "source_layer": "Descoberta",
+    "stage": "Emergente",
+    "velocity": "Densificação de guias em paralelo à onda do selo GLP-1 Nestlé (NT-21-03)",
+    "reach": "Moderado clínico EN; perguntas de pacientes BR prováveis via marketing de ONS (qualitativo)",
+    "novelty": "Moderada–Alta — congelamentos anteriores cobriram selo de ONS e toolkit GI; checklist dedicado de micronutrientes vs marca obrigatória não estava congelado",
+    "persistence_estimate": "Alta como checklist permanente de clínica",
+    "brazil_presence": "Parcial — Nestlé Multi A-Z já na história de mercado BR; densidade de checklist independente de nutricionistas Desconhecida",
+    "brazil_momentum": "Moderado — carona nas FAQs do selo Nestlé",
+    "primary_niches": [
+     "nutrição clínica",
+     "suplementos",
+     "obesidade/emagrecimento",
+     "diabetes"
+    ],
+    "evidence_temperature": "Moderada — guias citam padrões de risco; nenhum ECR pivotal novo de micronutrientes consultado nesta semana",
+    "misinformation_risk": "Alto — Multi A-Z obrigatório na caneta; deficiências universais em 3 meses; megadose sem laboratório; ignorar sobreposição metformina×B12",
+    "audience_question_signal": "Sim — Preciso de polivitamínico na caneta? · Nutren Multi é obrigatório? · Quais exames pedir?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "Checklists de nutricionistas: densidade de micronutrientes comida-first, labs seletivos (B12 sobretudo com metformina), quando ONS/polivitamínico ajuda vs selo de marketing — sem reescrever a previsão Nestlé do NT-21-03",
+    "prediction_confidence": "68%",
+    "prediction_timeframe": "1–4 semanas para conteúdo de FAQ BR ligado às perguntas do selo Nestlé",
+    "key_sources": [
+     "https://clinicalnutritionreport.com/articles/semaglutide-tirzepatide-dietitian-guide/",
+     "https://store.mayoclinic.com/education/glp-1-medications-and-muscle-loss-what-to-know-about-nutrition-and-supplements/"
+    ],
+    "key_accounts": [
+     "Clinical Nutrition Report",
+     "educação Mayo Clinic",
+     "educadores nutricionistas BR"
+    ],
+    "why_flagged": "Contrasta a narrativa de ONS obrigatório de marca (NT-21-03) com aconselhamento de micronutrientes enquadrado em evidência. Distinto do toolkit GI do NT-14-03 (eletrólitos/Mg/fibra).",
+    "ProfileA_relevance": 72,
+    "ProfileB_relevance": 91,
+    "merged_from": [
+     "risco de micronutrientes na GLP-1",
+     "checklist de polivitamínico",
+     "relacionado: selo Nestlé NT-21-03; toolkit GI NT-14-03"
+    ],
+    "scan_notes": "Position paper 2024 da Academy of Nutrition and Dietetics citado no guia EN — não reconsultado de forma independente nesta rodada; tratar a citação como relatada pelo guia.",
+    "first_detected_date": "2026-09-28",
+    "latest_observation_date": "2026-09-28",
+    "prediction_freeze_date": "2026-09-28",
+    "next_review_date": "2026-10-05",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "translation": {
+    "translated_at": "2026-09-28T09:05:00-03:00",
+    "source_file": "trends/NT-2026-09-28-07.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-09-28-07",
+    "topic": "Micronutrient adequacy on GLP-1 — RD checklist vs brand-mandatory ONS",
+    "stage_at_freeze": "Emerging",
+    "prediction_freeze_date": "2026-09-28",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "next_review_date": "2026-10-05",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "cohort_id": "cohort_004",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-05",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-10-12",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-10-28",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-05"
+  },
+  {
+   "id": "NT-2026-09-28-08",
+   "frozen": {
+    "trend_id": "NT-2026-09-28-08",
+    "topic": "Retatrutide “not approved anywhere” — Anvisa education densification amid Galeão gray-market seizures",
+    "canonical_topic_name": "Anvisa public education that retatrutide lacks approval worldwide, reinforced by Galeão seizure densification — distinct from T36 tirzepatide Paraguay ban",
+    "source_market": "BR (Native regulatory education)",
+    "origin_community": "Anvisa news + Galeão enforcement ops + gray-market FAQ pressure",
+    "origin_type": "Regulatory education + enforcement densification",
+    "source_layer": "Discovery",
+    "stage": "Brazil Growing",
+    "velocity": "Weekday sweep 09-24 noted Galeão seizures; Anvisa retatrutide education page remains active FAQ substrate",
+    "reach": "Moderate in BR health press/enforcement news (qualitative)",
+    "novelty": "Moderate — NT-09-09 covered research implications; NT-21-02 covered T36 tirzepatide. Dedicated retatrutide worldwide-unapproved education angle not frozen.",
+    "persistence_estimate": "High while gray-market dual/triple agonists circulate",
+    "brazil_presence": "Present — Anvisa.gov.br education pages + Galeão seizure reporting",
+    "brazil_momentum": "Moderate for clinic red-flag scripts",
+    "primary_niches": [
+     "obesity/weight loss",
+     "clinical nutrition",
+     "pharmacy",
+     "supplements gray-market"
+    ],
+    "evidence_temperature": "Strong for Anvisa education stance; Moderate for exact Galeão unit counts across outlets (use ranges / Unknown if conflicting)",
+    "misinformation_risk": "High — retatrutida já liberada fora; T36 = retatrutida; compounded retatrutide safe; research hype = clinical availability",
+    "audience_question_signal": "Yes — Retatrutida já existe no Brasil? · É o sucessor do Mounjaro? · Posso importar?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "RD/pharmacist red-flag content: retatrutide not approved anywhere; distinct from registered semaglutide pens and from T36 tirzepatide case; do not counsel sourcing; redirect to legal access + MNT",
+    "prediction_confidence": "72%",
+    "prediction_timeframe": "1–4 weeks for recurring FAQ content",
+    "key_sources": [
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/retatrutida-ainda-nao-esta-aprovada-para-uso-em-nenhum-lugar-do-mundo",
+     "https://www.metropoles.com/saude/anvisa-apreende-tirzepatida-e-anabolizantes-irregulares-no-galeao",
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/mais-de-1000-produtos-irregulares-apreendidos-no-aeroporto-do-galeao"
+    ],
+    "key_accounts": [
+     "Anvisa",
+     "Metrópoles",
+     "BR RD/pharmacist educators"
+    ],
+    "why_flagged": "Distinct from NT-09-09 (research lean-mass implications) and NT-21-02 (T36 tirzepatide Paraguay). Mechanism = worldwide-unapproved education + seizure densification.",
+    "ProfileA_relevance": 55,
+    "ProfileB_relevance": 86,
+    "merged_from": [
+     "Anvisa retatrutide education",
+     "Galeão seizures",
+     "related: NT-09-09, NT-21-02, NT-21-10"
+    ],
+    "scan_notes": "Unit counts vary by outlet; do not invent. Propagation to NT-21-02 family OK as observation later.",
+    "first_detected_date": "2026-09-28",
+    "latest_observation_date": "2026-09-28",
+    "prediction_freeze_date": "2026-09-28",
+    "next_review_date": "2026-10-05",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-09-28-08",
+    "topic": "Retatrutida “não aprovada em lugar nenhum” — densificação educativa da Anvisa em meio a apreensões de mercado irregular no Galeão",
+    "canonical_topic_name": "Educação pública da Anvisa de que a retatrutida não tem aprovação no mundo, reforçada pela densificação de apreensões no Galeão — distinta do banimento da T36 (tirzepatida Paraguai)",
+    "source_market": "BR (educação regulatória nativa)",
+    "origin_community": "Notícias Anvisa + operações de fiscalização no Galeão + pressão de FAQ de mercado irregular",
+    "origin_type": "Educação regulatória + densificação de fiscalização",
+    "source_layer": "Descoberta",
+    "stage": "Em crescimento no Brasil",
+    "velocity": "Varredura weekday 24/09 notou apreensões no Galeão; página educativa da Anvisa sobre retatrutida segue como substrato de FAQ",
+    "reach": "Moderado na imprensa de saúde/fiscalização do BR (qualitativo)",
+    "novelty": "Moderada — NT-09-09 cobriu implicações de pesquisa; NT-21-02 cobriu T36 tirzepatida. Ângulo dedicado de educação “não aprovada no mundo” para retatrutida não estava congelado.",
+    "persistence_estimate": "Alta enquanto agonistas duplos/triplos de mercado irregular circularem",
+    "brazil_presence": "Presente — páginas educativas Anvisa.gov.br + reportagens de apreensão no Galeão",
+    "brazil_momentum": "Moderado para roteiros de red flag em clínicas",
+    "primary_niches": [
+     "obesidade/emagrecimento",
+     "nutrição clínica",
+     "farmácia",
+     "mercado irregular de suplementos"
+    ],
+    "evidence_temperature": "Forte para a postura educativa da Anvisa; Moderada para contagens exatas de unidades no Galeão entre veículos (usar faixas / Desconhecido se conflitar)",
+    "misinformation_risk": "Alto — retatrutida já liberada fora; T36 = retatrutida; retatrutida manipulada segura; hype de pesquisa = disponibilidade clínica",
+    "audience_question_signal": "Sim — Retatrutida já existe no Brasil? · É o sucessor do Mounjaro? · Posso importar?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "Conteúdo de red flag de nutricionistas/farmacêuticos: retatrutida não aprovada em lugar nenhum; distinta das canetas de semaglutida registradas e do caso T36 de tirzepatida; não aconselhar sourcing; redirecionar para acesso legal + MNT",
+    "prediction_confidence": "72%",
+    "prediction_timeframe": "1–4 semanas para conteúdo recorrente de FAQ",
+    "key_sources": [
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/retatrutida-ainda-nao-esta-aprovada-para-uso-em-nenhum-lugar-do-mundo",
+     "https://www.metropoles.com/saude/anvisa-apreende-tirzepatida-e-anabolizantes-irregulares-no-galeao",
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/mais-de-1000-produtos-irregulares-apreendidos-no-aeroporto-do-galeao"
+    ],
+    "key_accounts": [
+     "Anvisa",
+     "Metrópoles",
+     "educadores nutricionistas/farmacêuticos BR"
+    ],
+    "why_flagged": "Distinto do NT-09-09 (implicações de pesquisa de massa magra) e do NT-21-02 (T36 tirzepatida Paraguai). Mecanismo = educação de não aprovação mundial + densificação de apreensões.",
+    "ProfileA_relevance": 55,
+    "ProfileB_relevance": 86,
+    "merged_from": [
+     "educação Anvisa sobre retatrutida",
+     "apreensões Galeão",
+     "relacionado: NT-09-09, NT-21-02, NT-21-10"
+    ],
+    "scan_notes": "Contagens de unidades variam por veículo; não inventar. Propagação para a família NT-21-02 OK como observação depois.",
+    "first_detected_date": "2026-09-28",
+    "latest_observation_date": "2026-09-28",
+    "prediction_freeze_date": "2026-09-28",
+    "next_review_date": "2026-10-05",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "translation": {
+    "translated_at": "2026-09-28T09:05:00-03:00",
+    "source_file": "trends/NT-2026-09-28-08.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-09-28-08",
+    "topic": "Retatrutide “not approved anywhere” — Anvisa education densification amid Galeão gray-market seizures",
+    "stage_at_freeze": "Brazil Growing",
+    "prediction_freeze_date": "2026-09-28",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "next_review_date": "2026-10-05",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "cohort_id": "cohort_004",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-05",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-10-12",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-10-28",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-05"
+  },
+  {
+   "id": "NT-2026-09-28-09",
+   "frozen": {
+    "trend_id": "NT-2026-09-28-09",
+    "topic": "Collagen-protein juice / clear RTD format densification (Moving Juice Protein class) — incomplete protein literacy",
+    "canonical_topic_name": "BR collagen+prebiotic juice RTDs (Moving Juice Protein ~15 g collagen + prebiotics) marketed between soda and whey — RD counseling on incomplete AA profile vs hypertrophy protein",
+    "source_market": "BR (Native commercial densification)",
+    "origin_community": "BR beverage trade (S.Mag, Engarrafador Moderno, BHB) + retail listings",
+    "origin_type": "Product format densification",
+    "source_layer": "Discovery",
+    "stage": "Brazil Emerging → Growing",
+    "velocity": "Launch early 2026; trade densification continues into Sep radar window under protein-soda / clear-RTD theme",
+    "reach": "Moderate in BR functional beverage trade; consumer social Unknown this week",
+    "novelty": "Moderate — NT-14-11 froze protein soda class; this angle is collagen-as-protein juice incomplete-profile literacy",
+    "persistence_estimate": "Moderate–High as shelf format expands",
+    "brazil_presence": "Present — Moving Juice Protein BR launch coverage; retail listings (e.g. Empório Quatro Estrelas)",
+    "brazil_momentum": "Moderate trade densification; not a regulatory breakout",
+    "primary_niches": [
+     "sports nutrition",
+     "supplements",
+     "plant-based/functional beverages",
+     "hypertrophy"
+    ],
+    "evidence_temperature": "Strong for product existence/positioning via trade; Moderate for exact national sell-in",
+    "misinformation_risk": "High — 15 g colágeno = whey equivalente para músculo; suco proteico substitui refeição; prebiótico = Akkermansia claim",
+    "audience_question_signal": "Yes — Suco proteico substitui whey? · Colágeno conta na meta de proteína? · É melhor que shake?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "RD explainers: collagen juice can help protein grams/satiety/format adherence but is incomplete vs whey/complete proteins for hypertrophy goals; place within NT-14-11 clear functional beverage wave without rewriting that freeze",
+    "prediction_confidence": "62%",
+    "prediction_timeframe": "2–6 weeks for BR RD myth-bust content",
+    "key_sources": [
+     "https://www.smag.al/2026/02/moving-apresenta-juice-protein-primeiro-suco-proteico-prebiotico-do-brasil/",
+     "https://bhbfood.com/bebidas/juice-protein-moving-lanca-suco-proteico-prebiotico/",
+     "https://engarrafadormoderno.com.br/materia-principal/moving-lanca-juice-protein"
+    ],
+    "key_accounts": [
+     "Moving",
+     "BHB Food",
+     "Engarrafador Moderno"
+    ],
+    "why_flagged": "New angle under protein-soda densification: collagen incomplete-protein literacy for hypertrophy RDs. Distinct from NT-14-11 (class freeze), NT-21-06 (protein+fiber shot), NT-09-10 (collagen vs whey meta controversy).",
+    "ProfileA_relevance": 82,
+    "ProfileB_relevance": 88,
+    "merged_from": [
+     "Moving Juice Protein",
+     "collagen RTD incomplete protein",
+     "related: NT-14-11, NT-09-10, NT-21-06"
+    ],
+    "scan_notes": "Launch was Feb 2026 — freeze justified by Sep densification + clinic FAQ gap, not by claiming a brand-new 2026-09 breakout. Quality over hype.",
+    "first_detected_date": "2026-09-28",
+    "latest_observation_date": "2026-09-28",
+    "prediction_freeze_date": "2026-09-28",
+    "next_review_date": "2026-10-05",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-09-28-09",
+    "topic": "Densificação do formato suco/RTD de proteína de colágeno (classe Moving Juice Protein) — alfabetização de proteína incompleta",
+    "canonical_topic_name": "RTDs BR de suco com colágeno+prebiótico (Moving Juice Protein ~15 g de colágeno + prebióticos) comercializados entre refrigerante e whey — aconselhamento do nutricionista sobre perfil incompleto de AA vs proteína para hipertrofia",
+    "source_market": "BR (densificação comercial nativa)",
+    "origin_community": "Trade de bebidas BR (S.Mag, Engarrafador Moderno, BHB) + listagens no varejo",
+    "origin_type": "Densificação de formato de produto",
+    "source_layer": "Descoberta",
+    "stage": "Emergente → Em crescimento no Brasil",
+    "velocity": "Lançamento início de 2026; densificação trade continua na janela de set sob o tema protein-soda / clear-RTD",
+    "reach": "Moderado no trade de bebidas funcionais BR; social do consumidor Desconhecido nesta semana",
+    "novelty": "Moderada — NT-14-11 congelou a classe protein soda; este ângulo é alfabetização de colágeno-como-proteína-de-suco com perfil incompleto",
+    "persistence_estimate": "Moderada–Alta conforme o formato de gôndola se expande",
+    "brazil_presence": "Presente — cobertura de lançamento Moving Juice Protein BR; listagens no varejo (ex.: Empório Quatro Estrelas)",
+    "brazil_momentum": "Densificação trade moderada; não é rompimento regulatório",
+    "primary_niches": [
+     "nutrição esportiva",
+     "suplementos",
+     "bebidas funcionais/plant-based",
+     "hipertrofia"
+    ],
+    "evidence_temperature": "Forte para existência/posicionamento do produto via trade; Moderada para sell-in nacional exato",
+    "misinformation_risk": "Alto — 15 g de colágeno = whey equivalente para músculo; suco proteico substitui refeição; prebiótico = alegação Akkermansia",
+    "audience_question_signal": "Sim — Suco proteico substitui whey? · Colágeno conta na meta de proteína? · É melhor que shake?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "Explicadores de nutricionistas: suco de colágeno pode ajudar gramas de proteína/saciedade/adesão de formato, mas é incompleto vs whey/proteínas completas para metas de hipertrofia; situar dentro da onda de bebidas funcionais claras do NT-14-11 sem reescrever esse congelamento",
+    "prediction_confidence": "62%",
+    "prediction_timeframe": "2–6 semanas para conteúdo BR de myth-bust de nutricionistas",
+    "key_sources": [
+     "https://www.smag.al/2026/02/moving-apresenta-juice-protein-primeiro-suco-proteico-prebiotico-do-brasil/",
+     "https://bhbfood.com/bebidas/juice-protein-moving-lanca-suco-proteico-prebiotico/",
+     "https://engarrafadormoderno.com.br/materia-principal/moving-lanca-juice-protein"
+    ],
+    "key_accounts": [
+     "Moving",
+     "BHB Food",
+     "Engarrafador Moderno"
+    ],
+    "why_flagged": "Novo ângulo sob densificação de protein soda: alfabetização de proteína incompleta de colágeno para nutricionistas de hipertrofia. Distinto do NT-14-11 (congelamento de classe), NT-21-06 (shot proteína+fibra), NT-09-10 (controvérsia meta colágeno vs whey).",
+    "ProfileA_relevance": 82,
+    "ProfileB_relevance": 88,
+    "merged_from": [
+     "Moving Juice Protein",
+     "proteína incompleta de RTD de colágeno",
+     "relacionado: NT-14-11, NT-09-10, NT-21-06"
+    ],
+    "scan_notes": "Lançamento foi em fev/2026 — congelamento justificado pela densificação de set + lacuna de FAQ clínica, não por alegar um rompimento brand-new em 2026-09. Qualidade acima de hype.",
+    "first_detected_date": "2026-09-28",
+    "latest_observation_date": "2026-09-28",
+    "prediction_freeze_date": "2026-09-28",
+    "next_review_date": "2026-10-05",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "translation": {
+    "translated_at": "2026-09-28T09:05:00-03:00",
+    "source_file": "trends/NT-2026-09-28-09.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-09-28-09",
+    "topic": "Collagen-protein juice / clear RTD format densification (Moving Juice Protein class) — incomplete protein literacy",
+    "stage_at_freeze": "Brazil Emerging → Growing",
+    "prediction_freeze_date": "2026-09-28",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "next_review_date": "2026-10-05",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "cohort_id": "cohort_004",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-05",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-10-12",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-10-28",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-05"
+  },
+  {
+   "id": "NT-2026-09-28-10",
+   "frozen": {
+    "trend_id": "NT-2026-09-28-10",
+    "topic": "CFN ethics × Semavy ad clamp — RD content creators must not amplify illegal Rx drug advertising",
+    "canonical_topic_name": "Professional ethics densification: CFN publicidade rules applied to Semavy/airport/gym creatives after RE 3.750 — what RDs may educate vs reshare",
+    "source_market": "BR (Native professional ethics × regulatory)",
+    "origin_community": "CFN ethics framework (Res 856/2026 family) + Anvisa RE 3.750 media wave",
+    "origin_type": "Professional ethics densification",
+    "source_layer": "Discovery",
+    "stage": "Brazil Emerging",
+    "velocity": "Ethics substrate pre-existed (NT-09-11); Semavy ad ban creates acute application case",
+    "reach": "Moderate among BR RD creators (qualitative)",
+    "novelty": "Moderate — applies frozen CFN ethics theme to a concrete Rx-ad enforcement case",
+    "persistence_estimate": "High as national pens multiply marketing experiments",
+    "brazil_presence": "Present — CFN framework + Semavy mainstream case",
+    "brazil_momentum": "Moderate–High for creator hygiene this week",
+    "primary_niches": [
+     "professional ethics",
+     "clinical nutrition",
+     "obesity/weight loss",
+     "content creators"
+    ],
+    "evidence_temperature": "Strong for Semavy ad-ban facts; CFN application is interpretive counseling (not a new CFN resolution fetched this week)",
+    "misinformation_risk": "Medium–High — qualquer menção a Semavy é antiética; silêncio total vs educação de indicação; republicar criativo 'para criticar'",
+    "audience_question_signal": "Yes — Posso falar da Semavy no Reels? · Posso mostrar o anúncio do aeroporto? · Como educar sem propaganda?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "Creator guidelines: educate on indication, Rx rules, and food-first MNT without resharing airport/gym creatives or sounding like a brand ad; cross-link CFN 856 hygiene (NT-09-11) without rewriting it",
+    "prediction_confidence": "68%",
+    "prediction_timeframe": "1–3 weeks for creator-ethics posts in BR RD circles",
+    "key_sources": [
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-propaganda-da-caneta-semavy",
+     "https://g1.globo.com/saude/noticia/2026/09/25/anvisa-proibe-propaganda-da-caneta-emagrecedora-semavy-apos-anuncios-em-aeroporto-e-redes-sociais.ghtml",
+     "https://www.bloomberglinea.com.br/negocios/semavy-caneta-emagrecedora-da-hypera-esbarra-em-veto-de-publicidade-da-anvisa/"
+    ],
+    "key_accounts": [
+     "Anvisa",
+     "CFN",
+     "BR RD creators"
+    ],
+    "why_flagged": "Acute application of NT-09-11 ethics theme to RE 3.750 — distinct predicted trajectory (creator amplification hygiene) from NT-28-03 patient FAQ and NT-14-01 access prediction. No new CFN resolution claimed.",
+    "ProfileA_relevance": 60,
+    "ProfileB_relevance": 78,
+    "merged_from": [
+     "CFN advertising ethics",
+     "Semavy RE 3.750",
+     "related: NT-09-11, NT-28-03, NT-14-01"
+    ],
+    "scan_notes": "Did not fetch a brand-new 2026 CFN note specific to Semavy; angle is application of existing ethics to the case. Unknown beats invented CFN circulars.",
+    "first_detected_date": "2026-09-28",
+    "latest_observation_date": "2026-09-28",
+    "prediction_freeze_date": "2026-09-28",
+    "next_review_date": "2026-10-05",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-09-28-10",
+    "topic": "Ética CFN × freio de propaganda da Semavy — criadores de conteúdo nutricionistas não devem amplificar propaganda ilegal de Rx",
+    "canonical_topic_name": "Densificação de ética profissional: regras de publicidade do CFN aplicadas aos criativos de Semavy/aeroporto/academia após a RE 3.750 — o que nutricionistas podem educar vs republicar",
+    "source_market": "BR (ética profissional nativa × regulatório)",
+    "origin_community": "Marco ético CFN (família Res 856/2026) + onda midiática Anvisa RE 3.750",
+    "origin_type": "Densificação de ética profissional",
+    "source_layer": "Descoberta",
+    "stage": "Emergente no Brasil",
+    "velocity": "Substrato ético pré-existia (NT-09-11); banimento de propaganda da Semavy cria caso agudo de aplicação",
+    "reach": "Moderado entre criadores nutricionistas BR (qualitativo)",
+    "novelty": "Moderada — aplica o tema ético CFN congelado a um caso concreto de fiscalização de propaganda de Rx",
+    "persistence_estimate": "Alta conforme canetas nacionais multipliquem experimentos de marketing",
+    "brazil_presence": "Presente — marco CFN + caso mainstream Semavy",
+    "brazil_momentum": "Moderado–Alto para higiene de criadores nesta semana",
+    "primary_niches": [
+     "ética profissional",
+     "nutrição clínica",
+     "obesidade/emagrecimento",
+     "criadores de conteúdo"
+    ],
+    "evidence_temperature": "Forte para os fatos do banimento de propaganda da Semavy; a aplicação CFN é aconselhamento interpretativo (não uma nova resolução CFN consultada nesta semana)",
+    "misinformation_risk": "Médio–Alto — qualquer menção a Semavy é antiética; silêncio total vs educação de indicação; republicar criativo 'para criticar'",
+    "audience_question_signal": "Sim — Posso falar da Semavy no Reels? · Posso mostrar o anúncio do aeroporto? · Como educar sem propaganda?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "Diretrizes para criadores: educar sobre indicação, regras de receita e MNT comida-first sem republicar criativos de aeroporto/academia nem soar como anúncio de marca; cruzar com higiene CFN 856 (NT-09-11) sem reescrevê-la",
+    "prediction_confidence": "68%",
+    "prediction_timeframe": "1–3 semanas para posts de ética de criadores nos círculos de nutricionistas BR",
+    "key_sources": [
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-propaganda-da-caneta-semavy",
+     "https://g1.globo.com/saude/noticia/2026/09/25/anvisa-proibe-propaganda-da-caneta-emagrecedora-semavy-apos-anuncios-em-aeroporto-e-redes-sociais.ghtml",
+     "https://www.bloomberglinea.com.br/negocios/semavy-caneta-emagrecedora-da-hypera-esbarra-em-veto-de-publicidade-da-anvisa/"
+    ],
+    "key_accounts": [
+     "Anvisa",
+     "CFN",
+     "criadores nutricionistas BR"
+    ],
+    "why_flagged": "Aplicação aguda do tema ético NT-09-11 à RE 3.750 — trajetória prevista distinta (higiene de amplificação por criadores) do FAQ ao paciente NT-28-03 e da previsão de acesso NT-14-01. Nenhuma nova resolução CFN alegada.",
+    "ProfileA_relevance": 60,
+    "ProfileB_relevance": 78,
+    "merged_from": [
+     "ética de publicidade CFN",
+     "Semavy RE 3.750",
+     "relacionado: NT-09-11, NT-28-03, NT-14-01"
+    ],
+    "scan_notes": "Não se consultou uma nota CFN 2026 brand-new específica da Semavy; o ângulo é aplicação da ética existente ao caso. Desconhecido vence circulares CFN inventadas.",
+    "first_detected_date": "2026-09-28",
+    "latest_observation_date": "2026-09-28",
+    "prediction_freeze_date": "2026-09-28",
+    "next_review_date": "2026-10-05",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "translation": {
+    "translated_at": "2026-09-28T09:05:00-03:00",
+    "source_file": "trends/NT-2026-09-28-10.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-09-28-10",
+    "topic": "CFN ethics × Semavy ad clamp — RD content creators must not amplify illegal Rx drug advertising",
+    "stage_at_freeze": "Brazil Emerging",
+    "prediction_freeze_date": "2026-09-28",
+    "review_dates": {
+     "plus_7": "2026-10-05",
+     "plus_14": "2026-10-12",
+     "plus_30": "2026-10-28"
+    },
+    "next_review_date": "2026-10-05",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_004"
+   },
+   "cohort_id": "cohort_004",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-05",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-10-12",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-10-28",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-05"
   }
  ],
  "general_observations": [
@@ -11055,7 +12886,7 @@
   }
  ],
  "counts": {
-  "trends": 36,
+  "trends": 46,
   "reviews": 40,
   "observations": 92
  },
