@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-09T10:46:03-03:00",
+ "generated_at": "2026-10-12T09:20:02-03:00",
  "generated_tz": "America/Sao_Paulo",
- "build_date": "2026-10-09",
+ "build_date": "2026-10-12",
  "store": {
   "path": "/workspace/nutritrend"
  },
@@ -15,9 +15,9 @@
    "HIT": 9,
    "PARTIAL": 19,
    "MISS": 0,
-   "ANALYZING": 28
+   "ANALYZING": 38
   },
-  "total": 56,
+  "total": 66,
   "hit_rate": 0.6607,
   "strict_hit_rate": 0.3214
  },
@@ -222,6 +222,45 @@
     "NT-2026-10-05-08",
     "NT-2026-10-05-09",
     "NT-2026-10-05-10"
+   ]
+  },
+  {
+   "cohort_id": "cohort_006",
+   "cohort_date": "2026-10-12",
+   "Radar_version": "Radar v0.1",
+   "Score_version": "NutriTrend Score v0.1",
+   "review_cadence_days": [
+    7,
+    14,
+    30
+   ],
+   "_source_file": "reviews/schedule_cohort_006.json",
+   "frozen_date": "2026-10-12",
+   "next_review_date": "2026-10-19",
+   "overdue": 0,
+   "reviews_count": 0,
+   "summary": {
+    "counts": {
+     "HIT": 0,
+     "PARTIAL": 0,
+     "MISS": 0,
+     "ANALYZING": 10
+    },
+    "total": 10,
+    "hit_rate": null,
+    "strict_hit_rate": null
+   },
+   "trend_ids": [
+    "NT-2026-10-12-01",
+    "NT-2026-10-12-02",
+    "NT-2026-10-12-03",
+    "NT-2026-10-12-04",
+    "NT-2026-10-12-05",
+    "NT-2026-10-12-06",
+    "NT-2026-10-12-07",
+    "NT-2026-10-12-08",
+    "NT-2026-10-12-09",
+    "NT-2026-10-12-10"
    ]
   }
  ],
@@ -18399,6 +18438,1882 @@
     }
    ],
    "next_checkpoint": "2026-10-12"
+  },
+  {
+   "id": "NT-2026-10-12-01",
+   "frozen": {
+    "trend_id": "NT-2026-10-12-01",
+    "topic": "PeptiStrong RE 3.967/2026 recall — product-vs-ingredient scope dispute (Sovitá note) + novel-ingredient check for compounded muscle formulas",
+    "canonical_topic_name": "Anvisa RE nº 3.967 (8 Oct, DOU 9 Oct 2026): recall + suspension (sale, distribution, manufacture, advertising, use) of all lots of PEPTISTRONG by Manipulação Stevia Ltda (Biostevi Pharma) because 'proteína de fava hidrolisada Peptistrong' had no food-safety evaluation; exclusive BR distributor Sovitá says the act covers only the Biostevi product, not the ingredient; FDA GRAS no-objection (GRN 1166) ≠ Anvisa evaluation",
+    "source_market": "BR (Native regulatory)",
+    "origin_community": "Anvisa DOU/news + tier-1 BR media (g1, CNN Brasil, InfoMoney, Exame, Folha, Jornal do Comércio) + compounding-pharmacy ingredient distributor (Sovitá) + Nuritas/FDA GRAS dossier",
+    "origin_type": "Regulatory enforcement act + scope dispute",
+    "source_layer": "Discovery",
+    "stage": "Brazil Emerging",
+    "velocity": "Media spike day 0 (9 Oct) then weekend explainer tail (Exame, Jornal do Comércio, InfoMoney errata); X PeptiStrong/'proteína de fava' 7d=29 (morning) with peak 14 on Oct 9 UTC → 3 → 1 → 0; stream q51 = 5 posts all Oct 9–10 media",
+    "reach": "High for prescribers of compounded sarcopenia/muscle formulas, compounding pharmacies and sports RDs; low consumer social (qualitative)",
+    "novelty": "High — first Anvisa act on PeptiStrong; never frozen in Cohorts 001–005 (Daily Alert 10-09 only)",
+    "persistence_estimate": "Medium-High — scope question (product vs ingredient) stays open until Anvisa clarifies or issues further acts; recurring pattern after LiveStrong/Essential Nutrition RE 4.740/2025 (per 10-09 search summary)",
+    "brazil_presence": "Present/Native — RE 3.967 text (Editais do Brasil transcript), Anvisa news 09/10/2026, g1, CNN Brasil, InfoMoney, Exame, Folha, O Liberal, Metro1",
+    "brazil_momentum": "Cooling on social; practice/trade question (can I still prescribe the ingredient via another pharmacy?) rising",
+    "primary_niches": [
+     "sports/hypertrophy",
+     "supplements",
+     "compounding prescriptions",
+     "sarcopenia/older adults",
+     "GLP-1 lean-mass adjuncts"
+    ],
+    "evidence_temperature": "Strong for the act text and legal basis (DL 986/1969; RDC 839/2023; RDC 843/2024; RDC 655/2022); Contested for scope (Sovitá reading vs ingredient-based motivation); Unknown for number of RDs prescribing it; marketing efficacy claims (\"4x whey\", \"56% miostatina\") company-sourced",
+    "misinformation_risk": "High — 'Anvisa proibiu o ingrediente em todo o Brasil' vs 'só a Biostevi, pode continuar'; 'aprovado pela FDA = liberado no Brasil'; 'ganho muscular sem treino'; 'mais potente que whey'",
+    "audience_question_signal": "Yes — Ainda posso prescrever PeptiStrong em outra farmácia? · O que faço com o paciente que está usando? · Se tem GRAS nos EUA, por que aqui não pode? · Existe substituto com evidência?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "Over 1–4 weeks the conversation shifts from the recall headline to scope: trade/compliance and RD explainers on 'ingrediente sem avaliação de segurança' vs product-specific act, plus a prescriber checklist (constituent listed in IN 28/2018? novel-ingredient evaluation done? claims in label?). Expect at least one further clarification signal (Anvisa note/act on another product with the ingredient, CRN/CFN/ANFARMAG note, or a compliance explainer) within 30 days; consumer X stays small (<30/week)",
+    "prediction_confidence": "78%",
+    "prediction_timeframe": "1–4 weeks for trade/RD scope explainers; clarification signal by +30",
+    "key_sources": [
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-determina-recolhimento-do-produto-peptistrong",
+     "https://editaisdobrasil.com/regulatorio/ato/resolucao-re-n-3-967-de-8-de-outubro-de-2026-737481394",
+     "https://www.infomoney.com.br/brasil/anvisa-recolhimento-suplemento-peptistrong/",
+     "https://g1.globo.com/saude/noticia/2026/10/09/anvisa-suspende-venda-e-determina-recolhimento-de-suplemento-peptistrong.ghtml",
+     "https://exame.com/ciencia/o-que-e-o-peptistrong-entenda-por-que-a-anvisa-suspendeu-a-venda-do-suplemento/",
+     "https://www.fda.gov/media/186835/download",
+     "https://sovitaativos.com.br/ativos-sovita/peptistrong/"
+    ],
+    "key_accounts": [
+     "Anvisa",
+     "Sovitá (SM Empreendimentos Farmacêuticos)",
+     "Biostevi Pharma",
+     "Nuritas",
+     "g1",
+     "InfoMoney"
+    ],
+    "why_flagged": "Daily Alert 10-09 promoted to freeze. New since alert: Sovitá statement + InfoMoney errata make scope the live practice question; FDA GRAS gives the 'approved abroad' FAQ. Profile A (muscle/sarcopenia) and B (supplement/compounding compliance) both high.",
+    "ProfileA_relevance": 90,
+    "ProfileB_relevance": 97,
+    "merged_from": [
+     "PeptiStrong recall (Daily Alert 10-09)",
+     "novel-ingredient enforcement wave",
+     "LiveStrong RE 4.740/2025 precedent",
+     "Sovitá scope statement"
+    ],
+    "scan_notes": "Do not state the ingredient is banned nationwide — the act names the Biostevi product; motivation cites the ingredient's missing safety evaluation. Do not invent prescriber counts. Related, not rewritten: NT-2026-10-05-07 (adjunct toolkit), NT-2026-09-21-04, NT-2026-09-28-04 (IN 470 constituents).",
+    "first_detected_date": "2026-10-09",
+    "latest_observation_date": "2026-10-12",
+    "prediction_freeze_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_006"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-10-12-01",
+    "topic": "Recolhimento PeptiStrong RE 3.967/2026 — disputa de escopo produto × ingrediente (nota da Sovitá) + checagem de ingrediente novo em fórmulas manipuladas para músculo",
+    "canonical_topic_name": "Anvisa RE nº 3.967 (8/10, DOU 9/10/2026): recolhimento + suspensão (comercialização, distribuição, fabricação, propaganda, uso) de todos os lotes de PEPTISTRONG da Manipulação Stevia Ltda (Biostevi Pharma) porque a 'proteína de fava hidrolisada Peptistrong' não teve avaliação de segurança para uso em alimentos; a distribuidora exclusiva no BR, Sovitá, afirma que o ato vale só para o produto da Biostevi, não para o ingrediente; GRAS da FDA (GRN 1166) ≠ avaliação da Anvisa",
+    "source_market": "BR (regulatório nativo)",
+    "origin_community": "DOU/notícias Anvisa + mídia BR tier-1 (g1, CNN Brasil, InfoMoney, Exame, Folha, Jornal do Comércio) + distribuidora de insumos para farmácias de manipulação (Sovitá) + dossiê GRAS Nuritas/FDA",
+    "origin_type": "Ato de fiscalização regulatória + disputa de escopo",
+    "source_layer": "Descoberta",
+    "stage": "Emergente no Brasil",
+    "velocity": "Pico de mídia no dia 0 (9/10) e cauda de explainers no fim de semana (Exame, Jornal do Comércio, errata da InfoMoney); X PeptiStrong/'proteína de fava' 7d=29 (manhã), pico de 14 em 9/10 UTC → 3 → 1 → 0; stream q51 = 5 posts, todos de mídia em 9–10/10",
+    "reach": "Alto para prescritores de fórmulas manipuladas para sarcopenia/músculo, farmácias de manipulação e nutricionistas esportivos; baixo no social do consumidor (qualitativo)",
+    "novelty": "Alta — primeiro ato da Anvisa sobre PeptiStrong; nunca congelado nas Coortes 001–005 (apenas Daily Alert 10-09)",
+    "persistence_estimate": "Média-alta — a questão de escopo (produto × ingrediente) segue aberta até a Anvisa esclarecer ou publicar novos atos; padrão recorrente após o recolhimento LiveStrong/Essential Nutrition RE 4.740/2025 (segundo resumo de busca de 10-09)",
+    "brazil_presence": "Presente/Nativa — texto da RE 3.967 (transcrição Editais do Brasil), notícia Anvisa 09/10/2026, g1, CNN Brasil, InfoMoney, Exame, Folha, O Liberal, Metro1",
+    "brazil_momentum": "Esfriando no social; cresce a dúvida prática/trade (ainda posso prescrever o ingrediente por outra farmácia?)",
+    "primary_niches": [
+     "esporte/hipertrofia",
+     "suplementos",
+     "prescrição magistral",
+     "sarcopenia/idosos",
+     "adjuvantes de massa magra na GLP-1"
+    ],
+    "evidence_temperature": "Forte para o texto do ato e a base legal (DL 986/1969; RDC 839/2023; RDC 843/2024; RDC 655/2022); Contestada quanto ao escopo (leitura da Sovitá × motivação baseada no ingrediente); Desconhecido o número de nutricionistas que prescrevem; alegações de eficácia de marketing (\"4x whey\", \"56% miostatina\") são da própria empresa",
+    "misinformation_risk": "Alto — 'Anvisa proibiu o ingrediente em todo o Brasil' × 'só a Biostevi, pode continuar'; 'aprovado pela FDA = liberado no Brasil'; 'ganho muscular sem treino'; 'mais potente que whey'",
+    "audience_question_signal": "Sim — Ainda posso prescrever PeptiStrong em outra farmácia? · O que faço com o paciente que está usando? · Se tem GRAS nos EUA, por que aqui não pode? · Existe substituto com evidência?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "Em 1–4 semanas a conversa migra da manchete do recolhimento para o escopo: explainers trade/compliance e de nutricionistas sobre 'ingrediente sem avaliação de segurança' × ato específico de produto, além de um checklist do prescritor (constituinte listado na IN 28/2018? avaliação de ingrediente novo feita? alegações no rótulo?). Espera-se ao menos um novo sinal de esclarecimento (nota/ato da Anvisa sobre outro produto com o ingrediente, nota de CRN/CFN/ANFARMAG ou explainer de compliance) em até 30 dias; o X do consumidor segue pequeno (<30/semana)",
+    "prediction_confidence": "78%",
+    "prediction_timeframe": "1–4 semanas para explainers de escopo trade/RD; sinal de esclarecimento até +30",
+    "key_sources": [
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-determina-recolhimento-do-produto-peptistrong",
+     "https://editaisdobrasil.com/regulatorio/ato/resolucao-re-n-3-967-de-8-de-outubro-de-2026-737481394",
+     "https://www.infomoney.com.br/brasil/anvisa-recolhimento-suplemento-peptistrong/",
+     "https://g1.globo.com/saude/noticia/2026/10/09/anvisa-suspende-venda-e-determina-recolhimento-de-suplemento-peptistrong.ghtml",
+     "https://exame.com/ciencia/o-que-e-o-peptistrong-entenda-por-que-a-anvisa-suspendeu-a-venda-do-suplemento/",
+     "https://www.fda.gov/media/186835/download",
+     "https://sovitaativos.com.br/ativos-sovita/peptistrong/"
+    ],
+    "key_accounts": [
+     "Anvisa",
+     "Sovitá (SM Empreendimentos Farmacêuticos)",
+     "Biostevi Pharma",
+     "Nuritas",
+     "g1",
+     "InfoMoney"
+    ],
+    "why_flagged": "Daily Alert de 10-09 promovido a congelamento. Novo desde o alerta: a nota da Sovitá + errata da InfoMoney tornam o escopo a dúvida prática central; o GRAS da FDA alimenta o FAQ 'aprovado lá fora'. Perfil A (músculo/sarcopenia) e B (compliance de suplementos/manipulação) ambos altos.",
+    "ProfileA_relevance": 90,
+    "ProfileB_relevance": 97,
+    "merged_from": [
+     "recolhimento PeptiStrong (Daily Alert 10-09)",
+     "onda de fiscalização de ingredientes novos",
+     "precedente LiveStrong RE 4.740/2025",
+     "nota de escopo da Sovitá"
+    ],
+    "scan_notes": "Não afirmar que o ingrediente está proibido em todo o país — o ato nomeia o produto da Biostevi; a motivação cita a falta de avaliação de segurança do ingrediente. Não inventar número de prescritores. Relacionadas, sem reescrita: NT-2026-10-05-07 (toolkit de adjuvantes), NT-2026-09-21-04, NT-2026-09-28-04 (constituintes IN 470).",
+    "first_detected_date": "2026-10-09",
+    "latest_observation_date": "2026-10-12",
+    "prediction_freeze_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_006"
+   },
+   "translation": {
+    "translated_at": "2026-10-12T09:45:00-03:00",
+    "source_file": "trends/NT-2026-10-12-01.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-10-12-01",
+    "topic": "PeptiStrong RE 3.967/2026 recall — product-vs-ingredient scope dispute (Sovitá note) + novel-ingredient check for compounded muscle formulas",
+    "stage_at_freeze": "Brazil Emerging",
+    "prediction_freeze_date": "2026-10-12",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "next_review_date": "2026-10-19",
+    "prediction_status": "frozen",
+    "last_review_date": null,
+    "last_result": null,
+    "cohort_id": "cohort_006"
+   },
+   "cohort_id": "cohort_006",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-19",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-10-26",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-11-11",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-19"
+  },
+  {
+   "id": "NT-2026-10-12-02",
+   "frozen": {
+    "trend_id": "NT-2026-10-12-02",
+    "topic": "Anvisa alert (9 Oct): supplements do NOT treat insulin resistance — berberina / magnésio / mio-inositol promoted in professionals' videos",
+    "canonical_topic_name": "Anvisa communication 09/10/2026 'Suplementos alimentares NÃO podem ser usados para tratar resistência à insulina': supplements are not medicines, cannot claim to treat/prevent/cure; videos by health professionals on social media promoting berberina, magnésio and mio-inositol for IR may delay diagnosis; supplementation allowed to correct a nutritional deficiency, not as IR treatment",
+    "source_market": "BR (Native regulatory communication)",
+    "origin_community": "Anvisa news + tier-1 BR media (g1, VEJA, UOL VivaBem, Metropoles, BataNews) + RD/MD creator ecosystem on Instagram/TikTok (secondary)",
+    "origin_type": "Regulatory claim-literacy alert",
+    "source_layer": "Discovery",
+    "stage": "Brazil Growing",
+    "velocity": "Tier-1 same-day pickup 9 Oct (g1 4,288 imp; VEJA 2,277; Metropoles 1,255 on 10 Oct); X narrow probe 7d=5 (morning); broader PT 'resistência à insulina' × suplemento/berberina/inositol/magnésio/Anvisa 7d=7 (Oct9=2; 10=2; 11=3); stream q52 0 new",
+    "reach": "High for RDs and MDs who post about IR/PCOS/pre-diabetes supplements; moderate for consumers searching IR protocols (qualitative)",
+    "novelty": "High as a regulatory event — first explicit Anvisa alert naming professional videos for IR; berberine hype (NT-2026-09-09-06) and myo-inositol PCOS (NT-2026-09-14-06) were evidence trends, not this claim alert",
+    "persistence_estimate": "Medium-High — evergreen claim-ethics reference for IR/PCOS content; reinforced when CFN 856 enters into force (23 Jan 2027)",
+    "brazil_presence": "Present/Native — Anvisa news page, g1, VEJA, UOL, Metropoles",
+    "brazil_momentum": "Media done; professional-content adjustment phase starting",
+    "primary_niches": [
+     "supplements",
+     "clinical/endocrine nutrition",
+     "women's health/PCOS",
+     "professional ethics/marketing"
+    ],
+    "evidence_temperature": "Strong for regulatory position (Anvisa text); Mixed for ingredient efficacy (berberine null JAMA Netw Open RCT on VAT/liver fat per NT-2026-09-09-06; myo-inositol PCOS meta data per NT-2026-09-14-06) — efficacy is not the regulatory question",
+    "misinformation_risk": "High — 'Anvisa proibiu berberina/magnésio/inositol' (false: alert is about therapeutic claims); 'protocolo natural para RI substitui metformina'; 'nutricionista não pode mais indicar suplemento'",
+    "audience_question_signal": "Yes — Anvisa proibiu berberina? · Posso continuar tomando inositol? · Nutricionista pode prescrever para resistência à insulina? · Magnésio ajuda ou não?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "RD/creator content reframes IR supplement posts from 'tratamento' to 'correção de deficiência / adjuvante sob avaliação', with explainers distinguishing regulatory claim vs evidence; at least one CRN/CFN-adjacent or professional-education piece citing the alert within 30 days; marketplace/landing-page claims soften slowly (qualitative); X stays low (single digits/day)",
+    "prediction_confidence": "72%",
+    "prediction_timeframe": "1–4 weeks for professional content; claim cleanup slower (months)",
+    "key_sources": [
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/suplementos-alimentares-nao-podem-ser-usados-para-tratar-resistencia-a-insulina",
+     "https://g1.globo.com/saude/noticia/2026/10/09/suplementos-nao-tratam-resistencia-a-insulina-e-podem-atrasar-diagnostico-e-tratamento-alerta-anvisa.ghtml",
+     "https://veja.abril.com.br/saude/anvisa-alerta-para-videos-de-profissionais-que-incentivam-uso-de-suplementos-para-resistencia-a-insulina/",
+     "https://www.uol.com.br/vivabem/noticias/redacao/2026/10/09/anvisa-alerta-suplementos-nao-tratam-resistencia-a-insulina.ghtm",
+     "https://x.com/g1/status/2108657934985044241"
+    ],
+    "key_accounts": [
+     "Anvisa",
+     "g1",
+     "VEJA",
+     "UOL VivaBem",
+     "Metropoles"
+    ],
+    "why_flagged": "Same-day sibling of PeptiStrong; explicitly targets professionals' videos, so it is an RD ethics/claims item, not only consumer news. Pairs with CFN 856 prep window (NT-2026-10-05-10). Profile B core.",
+    "ProfileA_relevance": 40,
+    "ProfileB_relevance": 95,
+    "merged_from": [
+     "Anvisa IR supplement alert 9 Oct",
+     "q52 stream query",
+     "berberine hype lineage (NT-2026-09-09-06)",
+     "myo-inositol PCOS lineage (NT-2026-09-14-06)"
+    ],
+    "scan_notes": "Alert does not ban ingredients. Keep efficacy discussion separate from claim legality. Do not invent number of flagged videos/profiles (Unknown).",
+    "first_detected_date": "2026-10-09",
+    "latest_observation_date": "2026-10-12",
+    "prediction_freeze_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_006"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-10-12-02",
+    "topic": "Alerta Anvisa (9/10): suplementos NÃO tratam resistência à insulina — berberina / magnésio / mio-inositol promovidos em vídeos de profissionais",
+    "canonical_topic_name": "Comunicado Anvisa 09/10/2026 'Suplementos alimentares NÃO podem ser usados para tratar resistência à insulina': suplementos não são medicamentos e não podem alegar tratar/prevenir/curar; vídeos de profissionais de saúde nas redes promovendo berberina, magnésio e mio-inositol para RI podem atrasar o diagnóstico; suplementação permitida para corrigir deficiência nutricional, não como tratamento da RI",
+    "source_market": "BR (comunicação regulatória nativa)",
+    "origin_community": "Notícia Anvisa + mídia BR tier-1 (g1, VEJA, UOL VivaBem, Metropoles, BataNews) + ecossistema de criadores nutricionistas/médicos no Instagram/TikTok (secundário)",
+    "origin_type": "Alerta regulatório de alfabetização em alegações",
+    "source_layer": "Descoberta",
+    "stage": "Em crescimento no Brasil",
+    "velocity": "Repercussão tier-1 no mesmo dia 9/10 (g1 4.288 imp; VEJA 2.277; Metropoles 1.255 em 10/10); sonda estreita no X 7d=5 (manhã); PT ampla 'resistência à insulina' × suplemento/berberina/inositol/magnésio/Anvisa 7d=7 (Oct9=2; 10=2; 11=3); stream q52 0 novos",
+    "reach": "Alto para nutricionistas e médicos que publicam sobre suplementos para RI/SOP/pré-diabetes; moderado para consumidores que buscam protocolos para RI (qualitativo)",
+    "novelty": "Alta como evento regulatório — primeiro alerta explícito da Anvisa citando vídeos de profissionais sobre RI; o hype da berberina (NT-2026-09-09-06) e o mio-inositol na SOP (NT-2026-09-14-06) eram tendências de evidência, não este alerta de alegação",
+    "persistence_estimate": "Média-alta — referência perene de ética em alegações para conteúdo de RI/SOP; reforçada quando o CFN 856 entrar em vigor (23/01/2027)",
+    "brazil_presence": "Presente/Nativa — página de notícias da Anvisa, g1, VEJA, UOL, Metropoles",
+    "brazil_momentum": "Mídia encerrada; começa a fase de ajuste do conteúdo profissional",
+    "primary_niches": [
+     "suplementos",
+     "nutrição clínica/endócrina",
+     "saúde da mulher/SOP",
+     "ética profissional/marketing"
+    ],
+    "evidence_temperature": "Forte para a posição regulatória (texto da Anvisa); Mista para a eficácia dos ingredientes (ECR nulo da berberina no JAMA Netw Open para gordura visceral/hepática, conforme NT-2026-09-09-06; dados de meta-análise do mio-inositol na SOP, conforme NT-2026-09-14-06) — eficácia não é a questão regulatória",
+    "misinformation_risk": "Alto — 'Anvisa proibiu berberina/magnésio/inositol' (falso: o alerta é sobre alegações terapêuticas); 'protocolo natural para RI substitui metformina'; 'nutricionista não pode mais indicar suplemento'",
+    "audience_question_signal": "Sim — Anvisa proibiu berberina? · Posso continuar tomando inositol? · Nutricionista pode prescrever para resistência à insulina? · Magnésio ajuda ou não?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "Conteúdo de nutricionistas/criadores reenquadra posts de suplementos para RI de 'tratamento' para 'correção de deficiência / adjuvante sob avaliação', com explainers que separam alegação regulatória de evidência; ao menos uma peça de CRN/CFN ou de educação profissional citando o alerta em até 30 dias; alegações em marketplaces/landing pages suavizam devagar (qualitativo); X segue baixo (um dígito/dia)",
+    "prediction_confidence": "72%",
+    "prediction_timeframe": "1–4 semanas para conteúdo profissional; limpeza de alegações mais lenta (meses)",
+    "key_sources": [
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/suplementos-alimentares-nao-podem-ser-usados-para-tratar-resistencia-a-insulina",
+     "https://g1.globo.com/saude/noticia/2026/10/09/suplementos-nao-tratam-resistencia-a-insulina-e-podem-atrasar-diagnostico-e-tratamento-alerta-anvisa.ghtml",
+     "https://veja.abril.com.br/saude/anvisa-alerta-para-videos-de-profissionais-que-incentivam-uso-de-suplementos-para-resistencia-a-insulina/",
+     "https://www.uol.com.br/vivabem/noticias/redacao/2026/10/09/anvisa-alerta-suplementos-nao-tratam-resistencia-a-insulina.ghtm",
+     "https://x.com/g1/status/2108657934985044241"
+    ],
+    "key_accounts": [
+     "Anvisa",
+     "g1",
+     "VEJA",
+     "UOL VivaBem",
+     "Metropoles"
+    ],
+    "why_flagged": "Irmão do PeptiStrong no mesmo dia; mira explicitamente vídeos de profissionais, então é item de ética/alegações para nutricionistas, não só notícia ao consumidor. Combina com a janela de preparo do CFN 856 (NT-2026-10-05-10). Núcleo do Perfil B.",
+    "ProfileA_relevance": 40,
+    "ProfileB_relevance": 95,
+    "merged_from": [
+     "alerta Anvisa RI suplementos 9/10",
+     "consulta q52 do stream",
+     "linhagem do hype da berberina (NT-2026-09-09-06)",
+     "linhagem mio-inositol SOP (NT-2026-09-14-06)"
+    ],
+    "scan_notes": "O alerta não proíbe ingredientes. Manter a discussão de eficácia separada da legalidade da alegação. Não inventar número de vídeos/perfis sinalizados (Desconhecido).",
+    "first_detected_date": "2026-10-09",
+    "latest_observation_date": "2026-10-12",
+    "prediction_freeze_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_006"
+   },
+   "translation": {
+    "translated_at": "2026-10-12T09:45:00-03:00",
+    "source_file": "trends/NT-2026-10-12-02.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-10-12-02",
+    "topic": "Anvisa alert (9 Oct): supplements do NOT treat insulin resistance — berberina / magnésio / mio-inositol promoted in professionals' videos",
+    "stage_at_freeze": "Brazil Growing",
+    "prediction_freeze_date": "2026-10-12",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "next_review_date": "2026-10-19",
+    "prediction_status": "frozen",
+    "last_review_date": null,
+    "last_result": null,
+    "cohort_id": "cohort_006"
+   },
+   "cohort_id": "cohort_006",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-19",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-10-26",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-11-11",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-19"
+  },
+  {
+   "id": "NT-2026-10-12-03",
+   "frozen": {
+    "trend_id": "NT-2026-10-12-03",
+    "topic": "'Research peptide' recovery/recomp stacks in fitness (BPC-157, TB-500, GHK-Cu, NAD+, retatrutide vials) — Anvisa DOU 6 Oct ban + 'no injectable supplement' literacy",
+    "canonical_topic_name": "Anvisa DOU 6 Oct 2026 (RE 3.947 per 10-08 sweep) bans/seizes unregistered 'para pesquisa' peptides and pens (Tirzegen 60 mg, Retagen/Retatrutide 40 mg, BPC-157/TB-500, NAD+ 1.000 mg, GLOW GHK-Cu) sold on Peptídeos do Brasil / Peptídeos Pro; Anvisa 'Checamos' (02/07/2026): BPC-157/TB-500 have no supplement authorization or petition, and no food supplement may be injectable",
+    "source_market": "BR (Native regulatory) × EN biohacking/fitness origin",
+    "origin_community": "EN biohacking/bodybuilding peptide culture → BR gray-market e-commerce + gym communities; Anvisa enforcement; endocrinologists on X (@endocrino_andre)",
+    "origin_type": "Gray-market enforcement + fitness-community practice risk",
+    "source_layer": "Discovery",
+    "stage": "Brazil Growing",
+    "velocity": "DOU-day X PT peptide probe Oct 6 = 10 (7d 15 at 10-07; 10 at 10-12 morning); PT BPC-157/TB-500/GHK-Cu 7d=21 (Oct5p=2; 6=3; 7=2; 8=1; 9=2; 10=9; 11=2; 12p=0); EN BPC-157/TB-500 7d=1,061 (Oct5p=109; 6=132; 7=165; 8=182; 9=183; 10=117; 11=111; 12p=62); follow-ups Poder360, Agência Brasil, Diário do Comércio (site blocks), GloboNews recirculation of homemade tirzepatide powder warning (10 Oct)",
+    "reach": "High in hypertrophy/recomp and injury-recovery gym circles (qualitative); moderate RD exposure via patient questions",
+    "novelty": "Medium-High — retatrutide gray market frozen (NT-2026-09-28-08) and pen cluster (NT-2026-09-21-02/-10), but the non-incretin 'healing/recovery' peptide stack in sports nutrition was never frozen",
+    "persistence_estimate": "High — EN peptide culture keeps exporting; Anvisa acts recur",
+    "brazil_presence": "Present — Anvisa DOU act + Anvisa 'Checamos' page + Poder360/Olho no Brasil coverage",
+    "brazil_momentum": "Enforcement rising; sellers still active on X post-act (10-08 sweep)",
+    "primary_niches": [
+     "sports/hypertrophy",
+     "injury/rehab nutrition",
+     "supplements",
+     "aesthetics/longevity"
+    ],
+    "evidence_temperature": "Strong for regulatory status (Anvisa); Weak/absent human evidence for BPC-157/TB-500 claims (Anvisa: 'NÃO contam com qualquer comprovação científica'; @endocrino_andre: human evidence minimal)",
+    "misinformation_risk": "Very High — 'peptídeo de pesquisa é legal se não for para consumo'; 'BPC-157 cura tendão/intestino'; 'é suplemento injetável'; 'nutricionista pode orientar dose'",
+    "audience_question_signal": "Yes — BPC-157 é proibido? · Posso usar para lesão? · Peptídeo de pesquisa é seguro? · Nutri pode prescrever? · NAD+ injetável funciona?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "More Anvisa acts/site takedowns and media explainers on 'peptídeos para pesquisa' within 30 days; sports-RD content positions 'não é suplemento, não é injetável, não prescrever — encaminhar' plus evidence-based recovery (protein, energy availability, creatine, sleep); PT social stays low-moderate (<50/week) with seller spam; EN volume remains much larger",
+    "prediction_confidence": "72%",
+    "prediction_timeframe": "1–4 weeks",
+    "key_sources": [
+     "https://www.poder360.com.br/poder-saude/anvisa-proibe-canetas-de-tirzepatida-e-retatrutida-sem-registro/",
+     "https://olhonobrasil.com.br/noticias/saude/anvisa-veta-insulina-da-costa-mar-e-proibe-peptideos-sem-registro-28023.html",
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/checamos-peptideos-que-prometem-milagres-nao-estao-registrados-na-anvisa",
+     "https://x.com/endocrino_andre/status/2108957710213423487"
+    ],
+    "key_accounts": [
+     "Anvisa",
+     "Poder360",
+     "@endocrino_andre",
+     "Peptídeos do Brasil / Peptídeos Pro (sellers, blocked)"
+    ],
+    "why_flagged": "Weekly sweeps 10-06→10-12 kept surfacing the 6 Oct peptide act and persistent sellers; sports-nutrition angle (recovery/recomp) is distinct from incretin gray-market trends already frozen. Strong Profile A.",
+    "ProfileA_relevance": 88,
+    "ProfileB_relevance": 82,
+    "merged_from": [
+     "Anvisa DOU 6 Oct peptide/pen ban",
+     "Anvisa Checamos peptídeos (Jul 2026)",
+     "research-peptide sellers on X",
+     "homemade tirzepatide powder warning recirculation"
+    ],
+    "scan_notes": "RE number 3.947 taken from the 10-08 sweep (DOU text not fetched today). Do not give dosing. Related, not rewritten: NT-2026-09-28-08, NT-2026-09-21-02, NT-2026-09-21-10.",
+    "first_detected_date": "2026-10-06",
+    "latest_observation_date": "2026-10-12",
+    "prediction_freeze_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_006"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-10-12-03",
+    "topic": "Stacks de 'peptídeos de pesquisa' para recuperação/recomposição no fitness (BPC-157, TB-500, GHK-Cu, NAD+, frascos de retatrutida) — proibição Anvisa DOU 6/10 + alfabetização 'não existe suplemento injetável'",
+    "canonical_topic_name": "Anvisa DOU 6/10/2026 (RE 3.947 segundo a varredura de 10-08) proíbe/apreende peptídeos e canetas 'para pesquisa' sem registro (Tirzegen 60 mg, Retagen/Retatrutide 40 mg, BPC-157/TB-500, NAD+ 1.000 mg, GLOW GHK-Cu) vendidos em Peptídeos do Brasil / Peptídeos Pro; Anvisa 'Checamos' (02/07/2026): BPC-157/TB-500 não têm autorização nem pedido como suplemento, e nenhum suplemento alimentar pode ser injetável",
+    "source_market": "BR (regulatório nativo) × origem EN biohacking/fitness",
+    "origin_community": "Cultura de peptídeos EN biohacking/fisiculturismo → e-commerce cinza BR + comunidades de academia; fiscalização Anvisa; endocrinologistas no X (@endocrino_andre)",
+    "origin_type": "Fiscalização de mercado cinza + risco prático em comunidades fitness",
+    "source_layer": "Descoberta",
+    "stage": "Em crescimento no Brasil",
+    "velocity": "Sonda PT de peptídeos no X no dia do DOU 6/10 = 10 (7d 15 em 10-07; 10 na manhã de 10-12); PT BPC-157/TB-500/GHK-Cu 7d=21 (Oct5p=2; 6=3; 7=2; 8=1; 9=2; 10=9; 11=2; 12p=0); EN BPC-157/TB-500 7d=1,061 (Oct5p=109; 6=132; 7=165; 8=182; 9=183; 10=117; 11=111; 12p=62); desdobramentos Poder360, Agência Brasil, Diário do Comércio (bloqueio de sites), GloboNews recirculando alerta de tirzepatida em pó caseira (10/10)",
+    "reach": "Alto em círculos de academia de hipertrofia/recomposição e recuperação de lesão (qualitativo); exposição moderada de nutricionistas via perguntas de pacientes",
+    "novelty": "Média-alta — mercado cinza de retatrutida congelado (NT-2026-09-28-08) e cluster de canetas (NT-2026-09-21-02/-10), mas o stack de peptídeos não incretínicos de 'cura/recuperação' na nutrição esportiva nunca foi congelado",
+    "persistence_estimate": "Alta — a cultura EN de peptídeos segue exportando; atos da Anvisa se repetem",
+    "brazil_presence": "Presente — ato no DOU + página 'Checamos' da Anvisa + cobertura Poder360/Olho no Brasil",
+    "brazil_momentum": "Fiscalização em alta; vendedores ainda ativos no X após o ato (varredura de 10-08)",
+    "primary_niches": [
+     "esporte/hipertrofia",
+     "nutrição em lesão/reabilitação",
+     "suplementos",
+     "estética/longevidade"
+    ],
+    "evidence_temperature": "Forte para o status regulatório (Anvisa); Fraca/ausente evidência em humanos para as alegações de BPC-157/TB-500 (Anvisa: 'NÃO contam com qualquer comprovação científica'; @endocrino_andre: evidência em humanos mínima)",
+    "misinformation_risk": "Muito alto — 'peptídeo de pesquisa é legal se não for para consumo'; 'BPC-157 cura tendão/intestino'; 'é suplemento injetável'; 'nutricionista pode orientar dose'",
+    "audience_question_signal": "Sim — BPC-157 é proibido? · Posso usar para lesão? · Peptídeo de pesquisa é seguro? · Nutri pode prescrever? · NAD+ injetável funciona?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "Mais atos/derrubadas de sites pela Anvisa e explainers de mídia sobre 'peptídeos para pesquisa' em até 30 dias; conteúdo de nutrição esportiva posiciona 'não é suplemento, não é injetável, não prescrever — encaminhar' mais recuperação baseada em evidência (proteína, disponibilidade energética, creatina, sono); social PT segue baixo-moderado (<50/semana) com spam de vendedores; volume EN segue muito maior",
+    "prediction_confidence": "72%",
+    "prediction_timeframe": "1–4 semanas",
+    "key_sources": [
+     "https://www.poder360.com.br/poder-saude/anvisa-proibe-canetas-de-tirzepatida-e-retatrutida-sem-registro/",
+     "https://olhonobrasil.com.br/noticias/saude/anvisa-veta-insulina-da-costa-mar-e-proibe-peptideos-sem-registro-28023.html",
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/checamos-peptideos-que-prometem-milagres-nao-estao-registrados-na-anvisa",
+     "https://x.com/endocrino_andre/status/2108957710213423487"
+    ],
+    "key_accounts": [
+     "Anvisa",
+     "Poder360",
+     "@endocrino_andre",
+     "Peptídeos do Brasil / Peptídeos Pro (vendedores, bloqueados)"
+    ],
+    "why_flagged": "As varreduras da semana 10-06→10-12 seguiram trazendo o ato de peptídeos de 6/10 e vendedores persistentes; o ângulo de nutrição esportiva (recuperação/recomposição) é distinto das tendências de mercado cinza de incretinas já congeladas. Perfil A forte.",
+    "ProfileA_relevance": 88,
+    "ProfileB_relevance": 82,
+    "merged_from": [
+     "proibição Anvisa peptídeos/canetas DOU 6/10",
+     "Anvisa Checamos peptídeos (jul/2026)",
+     "vendedores de peptídeos de pesquisa no X",
+     "recirculação do alerta de tirzepatida em pó caseira"
+    ],
+    "scan_notes": "Número RE 3.947 extraído da varredura de 10-08 (texto do DOU não buscado hoje). Não informar dosagem. Relacionadas, sem reescrita: NT-2026-09-28-08, NT-2026-09-21-02, NT-2026-09-21-10.",
+    "first_detected_date": "2026-10-06",
+    "latest_observation_date": "2026-10-12",
+    "prediction_freeze_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_006"
+   },
+   "translation": {
+    "translated_at": "2026-10-12T09:45:00-03:00",
+    "source_file": "trends/NT-2026-10-12-03.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-10-12-03",
+    "topic": "'Research peptide' recovery/recomp stacks in fitness (BPC-157, TB-500, GHK-Cu, NAD+, retatrutide vials) — Anvisa DOU 6 Oct ban + 'no injectable supplement' literacy",
+    "stage_at_freeze": "Brazil Growing",
+    "prediction_freeze_date": "2026-10-12",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "next_review_date": "2026-10-19",
+    "prediction_status": "frozen",
+    "last_review_date": null,
+    "last_result": null,
+    "cohort_id": "cohort_006"
+   },
+   "cohort_id": "cohort_006",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-19",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-10-26",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-11-11",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-19"
+  },
+  {
+   "id": "NT-2026-10-12-04",
+   "frozen": {
+    "trend_id": "NT-2026-10-12-04",
+    "topic": "'Proteína em tudo' scrutiny in BR mainstream — label-highlight marketing vs need (Forbes Brasil/CFN, Globo Repórter, Idec, PL 4.004/2025) × GLP-1 food redesign",
+    "canonical_topic_name": "Protein-ization of everyday foods in Brazil under mainstream scrutiny: Forbes Brasil 6 Oct (CFN president Manuela Dolinsky: health-maintenance exercise does not by itself require protein supplementation; Anvisa 'fonte' ≥5 g and 'alto conteúdo' ≥10 g per reference portion), G1/Globo Repórter 7 Oct 'Precisa mesmo tomar whey?', O Hoje 6 Oct, Teresina RTD label study, Idec protein-claim report, PL 4.004/2025 (ban protein highlights on UPF), Valor/PEGN 11 Oct GLP-1 × comida pronta × delivery",
+    "source_market": "BR (Native media/policy) with global wellness-market driver",
+    "origin_community": "BR business/health media + CFN leadership + consumer-defense (Idec) + legislative (Câmara) + food industry/foodservice",
+    "origin_type": "Media/policy scrutiny of marketing trend",
+    "source_layer": "Discovery",
+    "stage": "Brazil Growing",
+    "velocity": "Cluster of ≥5 BR mainstream pieces 6–11 Oct (Forbes Brasil, O Hoje, G1 Globo Repórter, Valor/PEGN, Folha US-restaurants post 12,010 imp); PT label-claim X probe 7d=28 (2–6/day, flat); stream q20 Rei do Mate whey/collagen drinks = Apr 2026 recirculation",
+    "reach": "High — consumers, RDs, food industry; protein is the dominant fitness-market claim (qualitative)",
+    "novelty": "Medium-High — protein leverage/high-protein UPF (NT-2026-09-09-04), protein soda (NT-2026-09-14-11), collagen juice (NT-2026-09-28-09) frozen as product/evidence trends; the mainstream scrutiny + CFN-quoted 'você não precisa' framing and label thresholds were not",
+    "persistence_estimate": "High — structural market trend; PL 4.004/2025 keeps a policy hook (no vote scheduled)",
+    "brazil_presence": "Present/Native — Forbes Brasil, G1/Globo Repórter, O Hoje, Valor/PEGN, Idec, Câmara",
+    "brazil_momentum": "Rising in mainstream explainer format",
+    "primary_niches": [
+     "sports/hypertrophy",
+     "supplements",
+     "label literacy",
+     "GLP-1 companion foods",
+     "foodservice"
+    ],
+    "evidence_temperature": "Strong for label thresholds (Anvisa per Forbes) and bill status (Câmara ficha); Moderate for 'excess protein harms' framing (context-dependent: renal/hepatic disease); market-size figures are third-party (Global Wellness Institute via Forbes)",
+    "misinformation_risk": "Medium-High — 'proteína em excesso destrói o rim' (overgeneralized), 'todo mundo que treina precisa de whey', 'alto teor de proteína = saudável', 'PL já proibiu rótulo proteico'",
+    "audience_question_signal": "Yes — Preciso mesmo de whey? · Barrinha 'alta proteína' é saudável? · Quanto de proteína eu preciso? · Proteína em excesso faz mal?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "More BR mainstream/explainer content on 'proteína em tudo' in the next 2–4 weeks (at least 2 additional tier-1/tier-2 pieces), RD label-reading carousels (fonte vs alto conteúdo; ingredients/UPF degree), and foodservice 'menu caneta' stories; no regulatory change on protein claims within 30 days (PL 4.004/2025 stays apensado)",
+    "prediction_confidence": "74%",
+    "prediction_timeframe": "2–4 weeks",
+    "key_sources": [
+     "https://forbes.com.br/forbes-mkt/2026/10/proteina-vira-argumento-de-venda-e-ganha-destaque-em-rotulos/",
+     "https://g1.globo.com/globo-reporter/noticia/2026/10/07/precisa-mesmo-tomar-whey-veja-quando-o-suplemento-faz-sentido-e-quando-e-desnecessario.ghtml",
+     "https://ohoje.com/2026/10/06/proteina-vira-destaque-nas-embalagens-e-movimenta-industria-de-alimentos/",
+     "https://idec.org.br/sites/default/files/idec_levantamento_alegacoes_de_proteina.pdf",
+     "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2545837",
+     "https://revistapegn.globo.com/ideias-de-negocios/noticia/2026/10/canetas-emagrecedoras-comida-pronta-e-delivery-as-forcas-que-estao-redesenhando-a-alimentacao.ghtml"
+    ],
+    "key_accounts": [
+     "CFN (Manuela Dolinsky)",
+     "Forbes Brasil",
+     "Globo Repórter / G1",
+     "Idec",
+     "Valor Econômico / PEGN"
+    ],
+    "why_flagged": "Week sweeps (10-06 Forbes/CFN; 10-08 'proteína em tudo' trope + Mounjaro lunch promos; 10-09 Teresina RTD study; 10-12 Valor) converge into a BR mainstream scrutiny wave. Dual-profile useful (A: need vs want; B: whey/RTD label literacy).",
+    "ProfileA_relevance": 82,
+    "ProfileB_relevance": 86,
+    "merged_from": [
+     "Forbes Brasil protein labels (CFN)",
+     "Globo Repórter whey",
+     "Teresina RTD label study",
+     "Idec protein claims",
+     "PL 4.004/2025",
+     "Valor/PEGN GLP-1 food redesign"
+    ],
+    "scan_notes": "PL 4.004/2025 was filed 14/08/2025 and apensado to PL 4.061/2020 on 06/10/2025 — not new legislative movement; use as context only. Related, not rewritten: NT-2026-09-09-04, NT-2026-09-14-11, NT-2026-09-28-09, NT-2026-10-05-03.",
+    "first_detected_date": "2026-10-06",
+    "latest_observation_date": "2026-10-12",
+    "prediction_freeze_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_006"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-10-12-04",
+    "topic": "Escrutínio da 'proteína em tudo' na mídia BR — marketing de destaque no rótulo × necessidade real (Forbes Brasil/CFN, Globo Repórter, Idec, PL 4.004/2025) × redesenho alimentar da GLP-1",
+    "canonical_topic_name": "Proteinização de alimentos do dia a dia no Brasil sob escrutínio da mídia: Forbes Brasil 6/10 (presidente do CFN Manuela Dolinsky: atividade física para manutenção da saúde não implica, por si só, suplementação proteica; Anvisa 'fonte' ≥5 g e 'alto conteúdo' ≥10 g por porção de referência), G1/Globo Repórter 7/10 'Precisa mesmo tomar whey?', O Hoje 6/10, estudo de rótulos de RTD de Teresina, relatório Idec sobre alegações de proteína, PL 4.004/2025 (proibir destaque de proteína em UPF), Valor/PEGN 11/10 GLP-1 × comida pronta × delivery",
+    "source_market": "BR (mídia/política nativa) com motor do mercado global de bem-estar",
+    "origin_community": "Mídia BR de negócios/saúde + liderança do CFN + defesa do consumidor (Idec) + Legislativo (Câmara) + indústria de alimentos/food service",
+    "origin_type": "Escrutínio midiático/político de tendência de marketing",
+    "source_layer": "Descoberta",
+    "stage": "Em crescimento no Brasil",
+    "velocity": "Cluster de ≥5 peças da mídia BR entre 6–11/10 (Forbes Brasil, O Hoje, G1 Globo Repórter, Valor/PEGN, post da Folha sobre restaurantes nos EUA 12.010 imp); sonda PT de alegações de rótulo no X 7d=28 (2–6/day, flat); stream q20 bebidas whey/colágeno Rei do Mate = recirculação de abr/2026",
+    "reach": "Alto — consumidores, nutricionistas, indústria de alimentos; proteína é a alegação dominante do mercado fitness (qualitativo)",
+    "novelty": "Média-alta — protein leverage/UPF hiperproteico (NT-2026-09-09-04), refrigerante proteico (NT-2026-09-14-11) e suco de colágeno (NT-2026-09-28-09) foram congelados como tendências de produto/evidência; o escrutínio mainstream + enquadramento 'você não precisa' citado pelo CFN e os limiares de rótulo não",
+    "persistence_estimate": "Alta — tendência estrutural de mercado; o PL 4.004/2025 mantém um gancho político (sem votação agendada)",
+    "brazil_presence": "Presente/Nativa — Forbes Brasil, G1/Globo Repórter, O Hoje, Valor/PEGN, Idec, Câmara",
+    "brazil_momentum": "Em alta no formato explainer da mídia mainstream",
+    "primary_niches": [
+     "esporte/hipertrofia",
+     "suplementos",
+     "leitura de rótulos",
+     "alimentos companheiros da GLP-1",
+     "food service"
+    ],
+    "evidence_temperature": "Forte para os limiares de rótulo (Anvisa via Forbes) e status do projeto (ficha da Câmara); Moderada para o enquadramento 'excesso de proteína faz mal' (dependente do contexto: doença renal/hepática); números de tamanho de mercado são de terceiros (Global Wellness Institute via Forbes)",
+    "misinformation_risk": "Médio-alto — 'proteína em excesso destrói o rim' (generalização), 'todo mundo que treina precisa de whey', 'alto teor de proteína = saudável', 'PL já proibiu rótulo proteico'",
+    "audience_question_signal": "Sim — Preciso mesmo de whey? · Barrinha 'alta proteína' é saudável? · Quanto de proteína eu preciso? · Proteína em excesso faz mal?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "Mais conteúdo mainstream/explainer BR sobre 'proteína em tudo' nas próximas 2–4 semanas (ao menos 2 peças adicionais tier-1/tier-2), carrosséis de nutricionistas sobre leitura de rótulo (fonte × alto conteúdo; ingredientes/grau de processamento) e matérias de food service sobre 'menu caneta'; nenhuma mudança regulatória em alegações de proteína em até 30 dias (PL 4.004/2025 segue apensado)",
+    "prediction_confidence": "74%",
+    "prediction_timeframe": "2–4 semanas",
+    "key_sources": [
+     "https://forbes.com.br/forbes-mkt/2026/10/proteina-vira-argumento-de-venda-e-ganha-destaque-em-rotulos/",
+     "https://g1.globo.com/globo-reporter/noticia/2026/10/07/precisa-mesmo-tomar-whey-veja-quando-o-suplemento-faz-sentido-e-quando-e-desnecessario.ghtml",
+     "https://ohoje.com/2026/10/06/proteina-vira-destaque-nas-embalagens-e-movimenta-industria-de-alimentos/",
+     "https://idec.org.br/sites/default/files/idec_levantamento_alegacoes_de_proteina.pdf",
+     "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2545837",
+     "https://revistapegn.globo.com/ideias-de-negocios/noticia/2026/10/canetas-emagrecedoras-comida-pronta-e-delivery-as-forcas-que-estao-redesenhando-a-alimentacao.ghtml"
+    ],
+    "key_accounts": [
+     "CFN (Manuela Dolinsky)",
+     "Forbes Brasil",
+     "Globo Repórter / G1",
+     "Idec",
+     "Valor Econômico / PEGN"
+    ],
+    "why_flagged": "As varreduras da semana (10-06 Forbes/CFN; 10-08 tropo 'proteína em tudo' + promos de almoço Mounjaro; 10-09 estudo RTD de Teresina; 10-12 Valor) convergem numa onda de escrutínio mainstream no BR. Útil para os dois perfis (A: necessidade × desejo; B: leitura de rótulo de whey/RTD).",
+    "ProfileA_relevance": 82,
+    "ProfileB_relevance": 86,
+    "merged_from": [
+     "Forbes Brasil rótulos de proteína (CFN)",
+     "Globo Repórter whey",
+     "estudo de rótulos RTD de Teresina",
+     "Idec alegações de proteína",
+     "PL 4.004/2025",
+     "Valor/PEGN redesenho alimentar GLP-1"
+    ],
+    "scan_notes": "O PL 4.004/2025 foi apresentado em 14/08/2025 e apensado ao PL 4.061/2020 em 06/10/2025 — não é movimentação legislativa nova; usar só como contexto. Relacionadas, sem reescrita: NT-2026-09-09-04, NT-2026-09-14-11, NT-2026-09-28-09, NT-2026-10-05-03.",
+    "first_detected_date": "2026-10-06",
+    "latest_observation_date": "2026-10-12",
+    "prediction_freeze_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_006"
+   },
+   "translation": {
+    "translated_at": "2026-10-12T09:45:00-03:00",
+    "source_file": "trends/NT-2026-10-12-04.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-10-12-04",
+    "topic": "'Proteína em tudo' scrutiny in BR mainstream — label-highlight marketing vs need (Forbes Brasil/CFN, Globo Repórter, Idec, PL 4.004/2025) × GLP-1 food redesign",
+    "stage_at_freeze": "Brazil Growing",
+    "prediction_freeze_date": "2026-10-12",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "next_review_date": "2026-10-19",
+    "prediction_status": "frozen",
+    "last_review_date": null,
+    "last_result": null,
+    "cohort_id": "cohort_006"
+   },
+   "cohort_id": "cohort_006",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-19",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-10-26",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-11-11",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-19"
+  },
+  {
+   "id": "NT-2026-10-12-05",
+   "frozen": {
+    "trend_id": "NT-2026-10-12-05",
+    "topic": "WHO first child/adolescent obesity guidelines (7 Oct) — BR headline collision ('em vez de canetas' vs 'indica remédios') → family-MNT parent FAQ",
+    "canonical_topic_name": "WHO guidelines on integrated management of obesity in children (0–9: structured diet/physical activity/behaviour, no drugs, GLP-1s, surgery or devices) and adolescents (10–19: approved medicines only after a supervised multimodal lifestyle programme fails; bariatric surgery conditional for severe obesity; low-certainty drug evidence); BR framing collision and SBP/SBEM/ABESO response",
+    "source_market": "Global (WHO) → BR localization",
+    "origin_community": "WHO/UN News → BR tier-1 media (Folha, O Globo, Agência Brasil, DW Brasil, Terra, Estadão) + SBP/SBEM/ABESO specialists",
+    "origin_type": "Global guideline + localization collision",
+    "source_layer": "Discovery",
+    "stage": "Brazil Growing",
+    "velocity": "X PT OMS×obesidade×crianças: 44 (Oct 7) → 24 → 4 → 1 → 2 → 1 (7d=76, decaying); EN 30 → 23 → 16 → 8 → 3 → 0 (7d=80); stream OMS mentions 13/34/12/7/4/1 Oct 7–12; second-wave explainers O Globo 8 Oct, UPpharma (SBP/SBEM) 8 Oct, Estadão/ABESO",
+    "reach": "High for pediatric/family RDs, school nutrition, obesity clinics; Profile A/B low direct relevance",
+    "novelty": "High — first-ever WHO pediatric obesity guideline; pediatric obesity never frozen (observation 2026-10-08 only)",
+    "persistence_estimate": "High — reference document for years; BR society positions and SUS/PNAE discussions will cite it",
+    "brazil_presence": "Present — Folha, O Globo (7 & 8 Oct), Agência Brasil, DW Brasil, Terra, Meio e Saúde, Estadão; SBP/SBEM via UPpharma",
+    "brazil_momentum": "Social decayed; professional/explainer layer persists",
+    "primary_niches": [
+     "pediatric/adolescent nutrition",
+     "obesity & GLP-1 counselling",
+     "family-based MNT",
+     "school/public-health nutrition"
+    ],
+    "evidence_temperature": "Strong for guideline content (WHO primary); Contested in BR expert reaction (Cohen: too BMI-centred; Geloneze: 'recomendação incompleta', weak lifestyle evidence — O Globo 8 Oct); drug evidence graded low by WHO",
+    "misinformation_risk": "High — 'OMS liberou caneta para adolescentes' / 'OMS proibiu caneta para crianças e adolescentes'; 'a partir dos 10 anos qualquer medicamento'; weight-stigma framing; 'dieta restritiva para criança'",
+    "audience_question_signal": "Yes — Meu filho pode usar caneta? · A partir de que idade? · O que é programa multimodal? · Dieta para criança com obesidade?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "Social stays decayed (<10/day PT); over 2–6 weeks BR professional content (SBP/ABESO/SBEM, RD family-MNT explainers, CFN/CRN or Ministério da Saúde/PNAE references) reconciles the two headlines; no Anvisa pediatric label change attributable to the guideline within 30 days",
+    "prediction_confidence": "70%",
+    "prediction_timeframe": "2–6 weeks professional layer; months for policy",
+    "key_sources": [
+     "https://www.who.int/news/item/07-10-2026-who-issues-first-global-guidelines-on-child-and-adolescent-obesity",
+     "https://www.who.int/publications/i/item/9789240123397",
+     "https://www.who.int/publications/i/item/9789240123878",
+     "https://www1.folha.uol.com.br/equilibrioesaude/2026/10/oms-recomenda-alimentacao-e-exercicios-em-vez-de-canetas-para-criancas-com-obesidade.shtml",
+     "https://oglobo.globo.com/saude/noticia/2026/10/07/oms-lanca-diretriz-inedita-sobre-obesidade-em-criancas-e-adolescentes-e-indica-pela-1a-vez-uso-de-remedios-para-eles-como-a-caneta-emagrecedora.ghtml",
+     "https://uppharma.com.br/oms-inclui-medicamentos-no-tratamento-da-obesidade-em-adolescentes-em-nova-diretriz-dr-paulo-telles-sbp-dra-paula-pires-sbem-prof-a-dra-elisabeth-fernandes-sbp/"
+    ],
+    "key_accounts": [
+     "WHO",
+     "SBP",
+     "SBEM",
+     "ABESO",
+     "Folha",
+     "O Globo"
+    ],
+    "why_flagged": "Daily Alert 10-08 promoted to freeze; the RD-first-line positioning and the headline collision make it a durable parent-FAQ item despite social decay. General RD relevance high; Profile A/B low.",
+    "ProfileA_relevance": 22,
+    "ProfileB_relevance": 28,
+    "merged_from": [
+     "WHO pediatric guideline Daily Alert 10-08",
+     "BR headline collision",
+     "SBP/SBEM/ABESO reaction",
+     "MINA-Brasil UPF in toddlers context"
+    ],
+    "scan_notes": "Avoid weight-stigma language. Do not state Anvisa age indications beyond what sources say (SBP: liraglutide/semaglutide specific indications from 12 y; tirzepatide T2D from 10 y — per search summary, verify before publishing). Related: NT-2026-09-21-08, NT-2026-09-28-06.",
+    "first_detected_date": "2026-10-08",
+    "latest_observation_date": "2026-10-12",
+    "prediction_freeze_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_006"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-10-12-05",
+    "topic": "Primeiras diretrizes da OMS para obesidade infantil/adolescente (7/10) — colisão de manchetes no BR ('em vez de canetas' × 'indica remédios') → FAQ para pais com MNT familiar",
+    "canonical_topic_name": "Diretrizes da OMS para manejo integrado da obesidade em crianças (0–9: intervenções estruturadas de alimentação/atividade física/comportamento, sem medicamentos, GLP-1, cirurgia ou dispositivos) e adolescentes (10–19: medicamentos aprovados apenas após falha de programa multimodal supervisionado de estilo de vida; bariátrica condicional para obesidade grave; evidência de baixa certeza para fármacos); colisão de enquadramento no BR e resposta de SBP/SBEM/ABESO",
+    "source_market": "Global (OMS) → localização BR",
+    "origin_community": "OMS/UN News → mídia BR tier-1 (Folha, O Globo, Agência Brasil, DW Brasil, Terra, Estadão) + especialistas SBP/SBEM/ABESO",
+    "origin_type": "Diretriz global + colisão na localização",
+    "source_layer": "Descoberta",
+    "stage": "Em crescimento no Brasil",
+    "velocity": "X PT OMS×obesidade×crianças: 44 (7/10) → 24 → 4 → 1 → 2 → 1 (7d=76, em queda); EN 30 → 23 → 16 → 8 → 3 → 0 (7d=80); menções OMS no stream 13/34/12/7/4/1 em 7–12/10; segunda onda de explainers O Globo 8/10, UPpharma (SBP/SBEM) 8/10, Estadão/ABESO",
+    "reach": "Alto para nutricionistas pediátricos/de família, alimentação escolar, clínicas de obesidade; baixa relevância direta para os Perfis A/B",
+    "novelty": "Alta — primeira diretriz da OMS sobre obesidade pediátrica; obesidade pediátrica nunca foi congelada (apenas observação de 2026-10-08)",
+    "persistence_estimate": "Alta — documento de referência por anos; posicionamentos de sociedades BR e discussões SUS/PNAE vão citá-lo",
+    "brazil_presence": "Presente — Folha, O Globo (7 e 8/10), Agência Brasil, DW Brasil, Terra, Meio e Saúde, Estadão; SBP/SBEM via UPpharma",
+    "brazil_momentum": "Social em queda; camada profissional/explainer persiste",
+    "primary_niches": [
+     "nutrição pediátrica/adolescente",
+     "aconselhamento em obesidade e GLP-1",
+     "MNT com base familiar",
+     "nutrição escolar/saúde pública"
+    ],
+    "evidence_temperature": "Forte para o conteúdo da diretriz (fonte primária OMS); Contestada na reação de especialistas BR (Cohen: muito centrada no IMC; Geloneze: 'recomendação incompleta', evidência fraca de estilo de vida — O Globo 8/10); evidência para fármacos graduada como baixa pela OMS",
+    "misinformation_risk": "Alto — 'OMS liberou caneta para adolescentes' / 'OMS proibiu caneta para crianças e adolescentes'; 'a partir dos 10 anos qualquer medicamento'; enquadramento com estigma de peso; 'dieta restritiva para criança'",
+    "audience_question_signal": "Sim — Meu filho pode usar caneta? · A partir de que idade? · O que é programa multimodal? · Dieta para criança com obesidade?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "Social segue em queda (<10/dia PT); em 2–6 semanas o conteúdo profissional BR (SBP/ABESO/SBEM, explainers de MNT familiar por nutricionistas, referências de CFN/CRN ou Ministério da Saúde/PNAE) reconcilia as duas manchetes; nenhuma mudança de bula pediátrica na Anvisa atribuível à diretriz em até 30 dias",
+    "prediction_confidence": "70%",
+    "prediction_timeframe": "2–6 semanas na camada profissional; meses para políticas",
+    "key_sources": [
+     "https://www.who.int/news/item/07-10-2026-who-issues-first-global-guidelines-on-child-and-adolescent-obesity",
+     "https://www.who.int/publications/i/item/9789240123397",
+     "https://www.who.int/publications/i/item/9789240123878",
+     "https://www1.folha.uol.com.br/equilibrioesaude/2026/10/oms-recomenda-alimentacao-e-exercicios-em-vez-de-canetas-para-criancas-com-obesidade.shtml",
+     "https://oglobo.globo.com/saude/noticia/2026/10/07/oms-lanca-diretriz-inedita-sobre-obesidade-em-criancas-e-adolescentes-e-indica-pela-1a-vez-uso-de-remedios-para-eles-como-a-caneta-emagrecedora.ghtml",
+     "https://uppharma.com.br/oms-inclui-medicamentos-no-tratamento-da-obesidade-em-adolescentes-em-nova-diretriz-dr-paulo-telles-sbp-dra-paula-pires-sbem-prof-a-dra-elisabeth-fernandes-sbp/"
+    ],
+    "key_accounts": [
+     "OMS",
+     "SBP",
+     "SBEM",
+     "ABESO",
+     "Folha",
+     "O Globo"
+    ],
+    "why_flagged": "Daily Alert de 10-08 promovido a congelamento; o posicionamento do nutricionista como primeira linha e a colisão de manchetes fazem dele um item durável de FAQ para pais apesar da queda no social. Relevância geral alta para nutricionistas; Perfis A/B baixos.",
+    "ProfileA_relevance": 22,
+    "ProfileB_relevance": 28,
+    "merged_from": [
+     "Daily Alert diretriz pediátrica OMS 10-08",
+     "colisão de manchetes no BR",
+     "reação SBP/SBEM/ABESO",
+     "contexto MINA-Brasil UPF em crianças pequenas"
+    ],
+    "scan_notes": "Evitar linguagem de estigma de peso. Não afirmar indicações etárias da Anvisa além do que as fontes dizem (SBP: liraglutida/semaglutida com indicações específicas a partir de 12 anos; tirzepatida para DM2 a partir de 10 anos — segundo resumo de busca, verificar antes de publicar). Relacionadas: NT-2026-09-21-08, NT-2026-09-28-06.",
+    "first_detected_date": "2026-10-08",
+    "latest_observation_date": "2026-10-12",
+    "prediction_freeze_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_006"
+   },
+   "translation": {
+    "translated_at": "2026-10-12T09:45:00-03:00",
+    "source_file": "trends/NT-2026-10-12-05.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-10-12-05",
+    "topic": "WHO first child/adolescent obesity guidelines (7 Oct) — BR headline collision ('em vez de canetas' vs 'indica remédios') → family-MNT parent FAQ",
+    "stage_at_freeze": "Brazil Growing",
+    "prediction_freeze_date": "2026-10-12",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "next_review_date": "2026-10-19",
+    "prediction_status": "frozen",
+    "last_review_date": null,
+    "last_result": null,
+    "cohort_id": "cohort_006"
+   },
+   "cohort_id": "cohort_006",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-19",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-10-26",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-11-11",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-19"
+  },
+  {
+   "id": "NT-2026-10-12-06",
+   "frozen": {
+    "trend_id": "NT-2026-10-12-06",
+    "topic": "UPF 'same calories, different response' — Nature Metabolism matched-meal RCT (5 Oct) + FMCH 51-cohort dose-response meta → BR RD FAQ",
+    "canonical_topic_name": "Nature Metabolism randomized crossover (5 Oct 2026; n=57, 32 metabolic sessions) of nutrient-matched ~300 kcal UPF vs minimally processed meals: higher insulin AUC, longer glucose elevation, different substrate oxidation and striatal cue responses; plus Liu et al. FMCH dose-response meta (23 Sep 2026; 51 cohorts; 8,819,894 adults; HR all-cause 1.18; low/moderate certainty)",
+    "source_market": "Global research → BR/PT pickup",
+    "origin_community": "Nature Metabolism / Medscape / News-Medical → PT outlets (Targetw, SAPO PT, Portal Afya) + NOVA/NUPENS ecosystem",
+    "origin_type": "Research emergence (mechanistic RCT + meta)",
+    "source_layer": "Research",
+    "stage": "Migration Candidate",
+    "velocity": "Medscape 9 Oct; PT pickup small (Targetw); PT UPF probe 7d=11 (morning, flat 0–4/day); PT UPF × insulina/cérebro/'mesmas calorias' 7d=3 (Oct5p=1; 8=1; 11=1); stream UPF mentions 1–8/day",
+    "reach": "Moderate — clinical RDs, public-health nutrition, NOVA advocates; low for sports (qualitative)",
+    "novelty": "Medium — UPF evidence layer frozen in NT-2026-09-09-04 (closed at +30 PARTIAL); this is a new mechanistic RCT that answers the 'é só caloria?' objection",
+    "persistence_estimate": "High — UPF remains a core BR theme (Guia Alimentar)",
+    "brazil_presence": "Partial — PT outlets and Portal Afya (FMCH meta); tier-1 BR pickup of the RCT not found (Unknown)",
+    "brazil_momentum": "Unknown → watch for NUPENS/Monteiro or tier-1 commentary",
+    "primary_niches": [
+     "clinical/metabolic nutrition",
+     "public-health nutrition",
+     "diabetes/insulin resistance"
+    ],
+    "evidence_temperature": "Moderate — small acute crossover (mechanistic, healthy adults) + large observational meta with low/moderate certainty; not proof of long-term causality",
+    "misinformation_risk": "Medium — 'UPF causa diabetes, provado' ; 'caloria não importa'; dismissing as 'só observacional' (this one is an RCT, acute)",
+    "audience_question_signal": "Yes — Se as calorias são iguais, por que o ultraprocessado faz diferença? · Isso prova que UPF engorda? · Whey/barrinha é ultraprocessado?",
+    "content_opportunity": "Medium-High",
+    "predicted_trajectory": "Within 2–4 weeks at least one BR tier-1 or NUPENS/Guia Alimentar-aligned commentary cites the Nature Metabolism RCT; RD content uses it as 'mesmas calorias, resposta diferente' with explicit caveats (acute, n small); social stays low (<5/day PT)",
+    "prediction_confidence": "60%",
+    "prediction_timeframe": "2–4 weeks",
+    "key_sources": [
+     "https://www.nature.com/articles/s42255-026-01619-4",
+     "https://www.medscape.com/viewarticle/ultraprocessed-foods-trigger-higher-insulin-response-despite-2026a100120x",
+     "https://targetw.com/noticia/saude/ultraprocessados-alteram-metabolismo-e-cerebro-mesmo-com-as-mesmas-calorias-mostra-estudo/",
+     "https://www.news-medical.net/news/20261005/Ultraprocessed-meals-produce-distinct-metabolic-and-brain-responses.aspx"
+    ],
+    "key_accounts": [
+     "Nature Metabolism",
+     "Medscape",
+     "NUPENS/USP (watch)",
+     "Portal Afya"
+    ],
+    "why_flagged": "Carried in 10-06, 10-07 and 10-09 sweeps as 'watch for BR pickup'; the original UPF trend window closed on 10-09, so a new specific migration prediction is warranted (no rewrite).",
+    "ProfileA_relevance": 40,
+    "ProfileB_relevance": 38,
+    "merged_from": [
+     "Nature Metabolism UPF RCT 5 Oct",
+     "FMCH UPF dose-response meta 23 Sep",
+     "MINA-Brasil toddler UPF"
+    ],
+    "scan_notes": "n=57/32 from search summary of the paper; verify before quoting. Related, not rewritten: NT-2026-09-09-04.",
+    "first_detected_date": "2026-10-06",
+    "latest_observation_date": "2026-10-12",
+    "prediction_freeze_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_006"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-10-12-06",
+    "topic": "UPF 'mesmas calorias, resposta diferente' — ECR com refeições pareadas na Nature Metabolism (5/10) + meta-análise dose-resposta FMCH com 51 coortes → FAQ para nutricionistas BR",
+    "canonical_topic_name": "Ensaio randomizado cruzado na Nature Metabolism (5/10/2026; n=57, 32 sessões metabólicas) com refeições de ~300 kcal pareadas em nutrientes, UPF × minimamente processada: maior AUC de insulina, elevação glicêmica mais longa, oxidação de substratos e resposta estriatal a pistas diferentes; mais a meta-análise dose-resposta de Liu et al. na FMCH (23/09/2026; 51 coortes; 8.819.894 adultos; HR mortalidade geral 1,18; certeza baixa/moderada)",
+    "source_market": "Pesquisa global → repercussão BR/PT",
+    "origin_community": "Nature Metabolism / Medscape / News-Medical → veículos em português (Targetw, SAPO PT, Portal Afya) + ecossistema NOVA/NUPENS",
+    "origin_type": "Emergência de pesquisa (ECR mecanístico + meta-análise)",
+    "source_layer": "Pesquisa",
+    "stage": "Candidato a migração",
+    "velocity": "Medscape 9/10; repercussão PT pequena (Targetw); sonda PT UPF 7d=11 (manhã, estável 0–4/dia); PT UPF × insulina/cérebro/'mesmas calorias' 7d=3 (Oct5p=1; 8=1; 11=1); menções UPF no stream 1–8/dia",
+    "reach": "Moderado — nutricionistas clínicos, nutrição em saúde pública, defensores da NOVA; baixo no esporte (qualitativo)",
+    "novelty": "Média — a camada de evidência de UPF foi congelada em NT-2026-09-09-04 (encerrada no +30 como PARTIAL); este é um novo ECR mecanístico que responde à objeção 'é só caloria?'",
+    "persistence_estimate": "Alta — UPF segue tema central no BR (Guia Alimentar)",
+    "brazil_presence": "Parcial — veículos em português e Portal Afya (meta FMCH); repercussão tier-1 BR do ECR não encontrada (Desconhecido)",
+    "brazil_momentum": "Desconhecido → observar comentário do NUPENS/Monteiro ou tier-1",
+    "primary_niches": [
+     "nutrição clínica/metabólica",
+     "nutrição em saúde pública",
+     "diabetes/resistência à insulina"
+    ],
+    "evidence_temperature": "Moderada — crossover agudo pequeno (mecanístico, adultos saudáveis) + grande meta observacional com certeza baixa/moderada; não prova causalidade de longo prazo",
+    "misinformation_risk": "Médio — 'UPF causa diabetes, provado'; 'caloria não importa'; descartar como 'só observacional' (este é um ECR, agudo)",
+    "audience_question_signal": "Sim — Se as calorias são iguais, por que o ultraprocessado faz diferença? · Isso prova que UPF engorda? · Whey/barrinha é ultraprocessado?",
+    "content_opportunity": "Média-alta",
+    "predicted_trajectory": "Em 2–4 semanas ao menos um comentário tier-1 BR ou alinhado ao NUPENS/Guia Alimentar cita o ECR da Nature Metabolism; conteúdo de nutricionistas o usa como 'mesmas calorias, resposta diferente' com ressalvas explícitas (agudo, n pequeno); social segue baixo (<5/dia PT)",
+    "prediction_confidence": "60%",
+    "prediction_timeframe": "2–4 semanas",
+    "key_sources": [
+     "https://www.nature.com/articles/s42255-026-01619-4",
+     "https://www.medscape.com/viewarticle/ultraprocessed-foods-trigger-higher-insulin-response-despite-2026a100120x",
+     "https://targetw.com/noticia/saude/ultraprocessados-alteram-metabolismo-e-cerebro-mesmo-com-as-mesmas-calorias-mostra-estudo/",
+     "https://www.news-medical.net/news/20261005/Ultraprocessed-meals-produce-distinct-metabolic-and-brain-responses.aspx"
+    ],
+    "key_accounts": [
+     "Nature Metabolism",
+     "Medscape",
+     "NUPENS/USP (observar)",
+     "Portal Afya"
+    ],
+    "why_flagged": "Carregado nas varreduras de 10-06, 10-07 e 10-09 como 'observar repercussão BR'; a janela da tendência original de UPF fechou em 10-09, então uma nova previsão específica de migração se justifica (sem reescrita).",
+    "ProfileA_relevance": 40,
+    "ProfileB_relevance": 38,
+    "merged_from": [
+     "ECR UPF Nature Metabolism 5/10",
+     "meta dose-resposta UPF FMCH 23/09",
+     "MINA-Brasil UPF em crianças pequenas"
+    ],
+    "scan_notes": "n=57/32 do resumo de busca do artigo; verificar antes de citar. Relacionada, sem reescrita: NT-2026-09-09-04.",
+    "first_detected_date": "2026-10-06",
+    "latest_observation_date": "2026-10-12",
+    "prediction_freeze_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_006"
+   },
+   "translation": {
+    "translated_at": "2026-10-12T09:45:00-03:00",
+    "source_file": "trends/NT-2026-10-12-06.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-10-12-06",
+    "topic": "UPF 'same calories, different response' — Nature Metabolism matched-meal RCT (5 Oct) + FMCH 51-cohort dose-response meta → BR RD FAQ",
+    "stage_at_freeze": "Migration Candidate",
+    "prediction_freeze_date": "2026-10-12",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "next_review_date": "2026-10-19",
+    "prediction_status": "frozen",
+    "last_review_date": null,
+    "last_result": null,
+    "cohort_id": "cohort_006"
+   },
+   "cohort_id": "cohort_006",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-19",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-10-26",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-11-11",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-19"
+  },
+  {
+   "id": "NT-2026-10-12-07",
+   "frozen": {
+    "trend_id": "NT-2026-10-12-07",
+    "topic": "'High protein' on GLP-1 has three denominators — 1.2 g/kg LBM vs 1.6 g/kg BW vs 2.5 g/kg FFM in 2026 trials (NCT07806838, LEAN-PREP, HUSTLE)",
+    "canonical_topic_name": "2026 GLP-1 lean-mass trial pipeline uses heterogeneous protein targets: NCT07806838 (pilot n=75; whey to 1.2 g/kg lean body mass/day ± 4 g mixed culinary-spice capsules; DEXA + D3-creatine), LEAN-PREP (BMJ Open protocol; n=232; 1.6 g/kg body weight/day; home RT), HUSTLE NCT07700030 (NYU; tirzepatide; RDN-delivered 2.5 g/kg fat-free mass/day ± supervised RT); readouts pending",
+    "source_market": "Global research (US/Kuwait) → BR Unknown",
+    "origin_community": "ClinicalTrials.gov registrations + BMJ Open protocol + EN RD education",
+    "origin_type": "Research emergence / prescription-math literacy",
+    "source_layer": "Research",
+    "stage": "Emerging",
+    "velocity": "EN GLP-1×protein/muscle band 74–104/day (7d=631, flat); EN GLP-1 × protein × g/kg / FFM / LBM 7d=12 (0–3/day); no readouts in window",
+    "reach": "Moderate — sports and clinical RDs prescribing protein on GLP-1 (qualitative)",
+    "novelty": "Medium — LEAN-PREP tracked in NT-2026-09-21-04 and absolute-protein framing in NT-2026-10-05-05; denominator heterogeneity + NCT07806838 spice arm + HUSTLE are new",
+    "persistence_estimate": "Medium-High — trials read out 2027; prescription-math confusion persists",
+    "brazil_presence": "Unknown",
+    "brazil_momentum": "Unknown",
+    "primary_niches": [
+     "sports/hypertrophy",
+     "clinical nutrition",
+     "GLP-1 companion",
+     "body composition"
+    ],
+    "evidence_temperature": "Weak for outcomes (protocols only); Strong for registry facts",
+    "misinformation_risk": "Medium — '2,5 g/kg para todo mundo na caneta' (FFM ≠ body weight); 'tempero preserva músculo' from spice arm; comparing targets across denominators",
+    "audience_question_signal": "Partial — Quanto de proteína na caneta? · Por peso atual, ideal ou massa magra? · Bioimpedância serve para calcular?",
+    "content_opportunity": "Medium-High",
+    "predicted_trajectory": "EN RD/creator content increasingly specifies the denominator (BW vs FFM/LBM) and cites one of these trials; BR adoption via RD education platforms is possible but Unknown; no trial readout within 30 days",
+    "prediction_confidence": "58%",
+    "prediction_timeframe": "4–8 weeks (education layer); readouts 2027",
+    "key_sources": [
+     "https://clinicaltrials.gov/study/NCT07806838",
+     "https://clinicaltrials.gov/study/NCT07700030",
+     "https://pmc.ncbi.nlm.nih.gov/articles/PMC13110620/",
+     "https://bmjopen.bmj.com/content/16/4/e116911"
+    ],
+    "key_accounts": [
+     "NYU Langone (HUSTLE)",
+     "Dasman Diabetes Institute (LEAN-PREP)",
+     "ClinicalTrials.gov"
+    ],
+    "why_flagged": "Research scan surfaced three concurrent registrations with non-comparable targets — a practical teaching gap for Profile A/B RDs translating 'high protein' to patients on pens.",
+    "ProfileA_relevance": 86,
+    "ProfileB_relevance": 80,
+    "merged_from": [
+     "NCT07806838 whey ± spices",
+     "HUSTLE NCT07700030",
+     "LEAN-PREP protocol (BMJ Open)"
+    ],
+    "scan_notes": "Do not present targets as recommendations. 2.5 g/kg FFM ≈ much lower per kg body weight in obesity — explain qualitatively; no invented conversions. Related, not rewritten: NT-2026-09-21-04, NT-2026-10-05-05, NT-2026-10-05-07.",
+    "first_detected_date": "2026-10-12",
+    "latest_observation_date": "2026-10-12",
+    "prediction_freeze_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_006"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-10-12-07",
+    "topic": "'Alta proteína' na GLP-1 tem três denominadores — 1,2 g/kg de massa magra × 1,6 g/kg de peso × 2,5 g/kg de massa livre de gordura em ensaios de 2026 (NCT07806838, LEAN-PREP, HUSTLE)",
+    "canonical_topic_name": "O pipeline de ensaios de 2026 sobre massa magra na GLP-1 usa metas de proteína heterogêneas: NCT07806838 (piloto n=75; whey até 1,2 g/kg de massa magra/dia ± 4 g de cápsulas de mistura de especiarias culinárias; DEXA + D3-creatina), LEAN-PREP (protocolo BMJ Open; n=232; 1,6 g/kg de peso corporal/dia; RT domiciliar), HUSTLE NCT07700030 (NYU; tirzepatida; 2,5 g/kg de massa livre de gordura/dia entregue por nutricionista ± RT supervisionado); resultados pendentes",
+    "source_market": "Pesquisa global (EUA/Kuwait) → BR Desconhecido",
+    "origin_community": "Registros no ClinicalTrials.gov + protocolo BMJ Open + educação de nutricionistas EN",
+    "origin_type": "Emergência de pesquisa / alfabetização em cálculo de prescrição",
+    "source_layer": "Pesquisa",
+    "stage": "Emergente",
+    "velocity": "Faixa EN GLP-1×proteína/músculo 74–104/dia (7d=631, estável); EN GLP-1 × proteína × g/kg / FFM / LBM 7d=12 (0–3/day); sem resultados na janela",
+    "reach": "Moderado — nutricionistas esportivos e clínicos que prescrevem proteína na GLP-1 (qualitativo)",
+    "novelty": "Média — LEAN-PREP acompanhado em NT-2026-09-21-04 e enquadramento de proteína absoluta em NT-2026-10-05-05; a heterogeneidade de denominadores + braço de especiarias do NCT07806838 + HUSTLE são novos",
+    "persistence_estimate": "Média-alta — ensaios com resultados em 2027; a confusão no cálculo da prescrição persiste",
+    "brazil_presence": "Desconhecida",
+    "brazil_momentum": "Desconhecido",
+    "primary_niches": [
+     "esporte/hipertrofia",
+     "nutrição clínica",
+     "companheiro da GLP-1",
+     "composição corporal"
+    ],
+    "evidence_temperature": "Fraca para desfechos (só protocolos); Forte para os fatos de registro",
+    "misinformation_risk": "Médio — '2,5 g/kg para todo mundo na caneta' (FFM ≠ peso corporal); 'tempero preserva músculo' a partir do braço de especiarias; comparar metas com denominadores diferentes",
+    "audience_question_signal": "Parcial — Quanto de proteína na caneta? · Por peso atual, ideal ou massa magra? · Bioimpedância serve para calcular?",
+    "content_opportunity": "Média-alta",
+    "predicted_trajectory": "Conteúdo EN de nutricionistas/criadores passa a especificar o denominador (peso × FFM/LBM) e citar um desses ensaios; adoção BR via plataformas de educação de nutricionistas é possível, mas Desconhecida; nenhum resultado de ensaio em até 30 dias",
+    "prediction_confidence": "58%",
+    "prediction_timeframe": "4–8 semanas (camada educacional); resultados em 2027",
+    "key_sources": [
+     "https://clinicaltrials.gov/study/NCT07806838",
+     "https://clinicaltrials.gov/study/NCT07700030",
+     "https://pmc.ncbi.nlm.nih.gov/articles/PMC13110620/",
+     "https://bmjopen.bmj.com/content/16/4/e116911"
+    ],
+    "key_accounts": [
+     "NYU Langone (HUSTLE)",
+     "Dasman Diabetes Institute (LEAN-PREP)",
+     "ClinicalTrials.gov"
+    ],
+    "why_flagged": "O scan de pesquisa trouxe três registros simultâneos com metas não comparáveis — lacuna prática de ensino para nutricionistas dos Perfis A/B que traduzem 'alta proteína' para pacientes na caneta.",
+    "ProfileA_relevance": 86,
+    "ProfileB_relevance": 80,
+    "merged_from": [
+     "NCT07806838 whey ± especiarias",
+     "HUSTLE NCT07700030",
+     "protocolo LEAN-PREP (BMJ Open)"
+    ],
+    "scan_notes": "Não apresentar metas como recomendações. 2,5 g/kg de FFM ≈ bem menos por kg de peso corporal na obesidade — explicar qualitativamente; sem conversões inventadas. Relacionadas, sem reescrita: NT-2026-09-21-04, NT-2026-10-05-05, NT-2026-10-05-07.",
+    "first_detected_date": "2026-10-12",
+    "latest_observation_date": "2026-10-12",
+    "prediction_freeze_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_006"
+   },
+   "translation": {
+    "translated_at": "2026-10-12T09:45:00-03:00",
+    "source_file": "trends/NT-2026-10-12-07.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-10-12-07",
+    "topic": "'High protein' on GLP-1 has three denominators — 1.2 g/kg LBM vs 1.6 g/kg BW vs 2.5 g/kg FFM in 2026 trials (NCT07806838, LEAN-PREP, HUSTLE)",
+    "stage_at_freeze": "Emerging",
+    "prediction_freeze_date": "2026-10-12",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "next_review_date": "2026-10-19",
+    "prediction_status": "frozen",
+    "last_review_date": null,
+    "last_result": null,
+    "cohort_id": "cohort_006"
+   },
+   "cohort_id": "cohort_006",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-19",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-10-26",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-11-11",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-19"
+  },
+  {
+   "id": "NT-2026-10-12-08",
+   "frozen": {
+    "trend_id": "NT-2026-10-12-08",
+    "topic": "Oral GLP-1 arrival expectations in BR — Wegovy comprimido (submitted 30 Jan) & orforglipron (Foundayo) pending at Anvisa; 'pílula = sem dieta?' FAQ",
+    "canonical_topic_name": "Oral obesity GLP-1s approved in the US (oral semaglutide 25 mg Dec 2025; orforglipron/Foundayo Apr 2026) but not registered in Brazil as of 12 Oct 2026; BR media hype ('nova revolução: os comprimidos'); nutrition-practice implications (fasting/limited-water dosing for oral semaglutide, same protein/RT needs, Rybelsus already sold for T2D)",
+    "source_market": "US approvals → BR pre-registration",
+    "origin_community": "Novo Nordisk BR / Lilly → BR health media (VEJA, O Globo, AgoraRN) → patient questions",
+    "origin_type": "Pre-approval expectation / migration",
+    "source_layer": "Discovery",
+    "stage": "Migration Candidate",
+    "velocity": "VEJA oral-pill feature (10-09 sweep); AgoraRN competition piece; stream: EN orforglipron explainer (q04, 12 Oct); PT oral-GLP-1 X probe 7d=0; no Anvisa decision found",
+    "reach": "Moderate-High latent (pen users and candidates); currently media-led (qualitative)",
+    "novelty": "Medium — carried in sweeps since 10-09; never frozen",
+    "persistence_estimate": "High until approval; spike on any Anvisa decision",
+    "brazil_presence": "Present — Novo Nordisk BR release (2 Feb 2026), O Globo (Feb/Apr 2026), AgoraRN, VEJA",
+    "brazil_momentum": "Low-steady pre-decision",
+    "primary_niches": [
+     "obesity & GLP-1 counselling",
+     "clinical nutrition",
+     "sports (body-composition clients)"
+    ],
+    "evidence_temperature": "Strong for regulatory status (company/press); Strong for trial efficacy reported (OASIS 4 ~13.6–17%; orforglipron ~12.4% per O Globo/NEJM); Unknown for BR timeline/price",
+    "misinformation_risk": "Medium-High — 'comprimido já está à venda' / 'Rybelsus é a pílula de emagrecer'; 'pílula não precisa de dieta nem proteína'; manipulated 'semaglutida oral'",
+    "audience_question_signal": "Yes — Já tem o comprimido no Brasil? · Substitui a caneta? · Precisa de jejum? · Muda a dieta?",
+    "content_opportunity": "Medium",
+    "predicted_trajectory": "Within 30 days: continued BR media pre-approval coverage and patient FAQ; Anvisa decision timing Unknown (not predicted); if a registration is published, expect a same-week tier-1 spike and RD explainers on dosing-with-fasting and protein/RT continuity",
+    "prediction_confidence": "58%",
+    "prediction_timeframe": "1–6 weeks (FAQ layer); approval timing Unknown",
+    "key_sources": [
+     "https://www.novonordisk.com.br/noticias-e-imprensa/busca-noticias/novo-nordisk-submete-wegovy-comprimidos-semaglutida-oral-25-mg-para-tratamento-da-obesidade-a-aprovacao-regulatoria-da-anvisa.html",
+     "https://oglobo.globo.com/saude/noticia/2026/04/03/wegovy-oral-x-orforgliprona-da-fabricante-do-mounjaro-qual-novo-comprimido-leva-a-maior-perda-de-peso.ghtml",
+     "https://agorarn.com.br/saude/pilulas-contra-obesidade-acirram-a-concorrencia/"
+    ],
+    "key_accounts": [
+     "Novo Nordisk Brasil",
+     "Eli Lilly",
+     "Anvisa",
+     "VEJA",
+     "O Globo"
+    ],
+    "why_flagged": "Repeatedly carried (10-09, 10-12 sweeps) as patient-FAQ fodder; distinct from pen access/price trends (NT-2026-09-14-01, NT-2026-09-28-05).",
+    "ProfileA_relevance": 50,
+    "ProfileB_relevance": 58,
+    "merged_from": [
+     "oral GLP-1 hype (VEJA)",
+     "Wegovy comprimido submission",
+     "orforglipron FDA approval"
+    ],
+    "scan_notes": "Do not predict approval date. Dosing details: cite bula when available; AgoraRN summarizes fasting + limited water + interval before food/meds for oral semaglutide.",
+    "first_detected_date": "2026-10-09",
+    "latest_observation_date": "2026-10-12",
+    "prediction_freeze_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_006"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-10-12-08",
+    "topic": "Expectativa de chegada da GLP-1 oral no BR — Wegovy comprimido (submetido em 30/1) e orforgliprona (Foundayo) pendentes na Anvisa; FAQ 'pílula = sem dieta?'",
+    "canonical_topic_name": "GLP-1 orais para obesidade aprovadas nos EUA (semaglutida oral 25 mg dez/2025; orforgliprona/Foundayo abr/2026), mas sem registro no Brasil em 12/10/2026; hype da mídia BR ('nova revolução: os comprimidos'); implicações para a prática nutricional (tomada em jejum e com pouca água da semaglutida oral, mesmas necessidades de proteína/RT, Rybelsus já vendido para DM2)",
+    "source_market": "Aprovações nos EUA → BR pré-registro",
+    "origin_community": "Novo Nordisk BR / Lilly → mídia de saúde BR (VEJA, O Globo, AgoraRN) → perguntas de pacientes",
+    "origin_type": "Expectativa pré-aprovação / migração",
+    "source_layer": "Descoberta",
+    "stage": "Candidato a migração",
+    "velocity": "Reportagem da VEJA sobre pílulas (varredura de 10-09); peça da AgoraRN sobre concorrência; stream: explainer EN de orforgliprona (q04, 12/10); sonda PT de GLP-1 oral no X 7d=0; nenhuma decisão da Anvisa encontrada",
+    "reach": "Moderado-alto latente (usuários e candidatos à caneta); hoje puxado pela mídia (qualitativo)",
+    "novelty": "Média — carregado nas varreduras desde 10-09; nunca congelado",
+    "persistence_estimate": "Alta até a aprovação; pico em qualquer decisão da Anvisa",
+    "brazil_presence": "Presente — release da Novo Nordisk BR (2/2/2026), O Globo (fev/abr 2026), AgoraRN, VEJA",
+    "brazil_momentum": "Baixo-estável antes da decisão",
+    "primary_niches": [
+     "aconselhamento em obesidade e GLP-1",
+     "nutrição clínica",
+     "esporte (clientes de composição corporal)"
+    ],
+    "evidence_temperature": "Forte para o status regulatório (empresa/imprensa); Forte para a eficácia relatada nos ensaios (OASIS 4 ~13,6–17%; orforgliprona ~12,4% segundo O Globo/NEJM); Desconhecidos prazo/preço no BR",
+    "misinformation_risk": "Médio-alto — 'o comprimido já está à venda' / 'Rybelsus é a pílula de emagrecer'; 'pílula não precisa de dieta nem proteína'; 'semaglutida oral' manipulada",
+    "audience_question_signal": "Sim — Já tem o comprimido no Brasil? · Substitui a caneta? · Precisa de jejum? · Muda a dieta?",
+    "content_opportunity": "Média",
+    "predicted_trajectory": "Em até 30 dias: cobertura contínua da mídia BR pré-aprovação e FAQ de pacientes; momento da decisão da Anvisa Desconhecido (não previsto); se um registro for publicado, esperar pico tier-1 na mesma semana e explainers de nutricionistas sobre tomada em jejum e continuidade de proteína/RT",
+    "prediction_confidence": "58%",
+    "prediction_timeframe": "1–6 semanas (camada de FAQ); momento da aprovação Desconhecido",
+    "key_sources": [
+     "https://www.novonordisk.com.br/noticias-e-imprensa/busca-noticias/novo-nordisk-submete-wegovy-comprimidos-semaglutida-oral-25-mg-para-tratamento-da-obesidade-a-aprovacao-regulatoria-da-anvisa.html",
+     "https://oglobo.globo.com/saude/noticia/2026/04/03/wegovy-oral-x-orforgliprona-da-fabricante-do-mounjaro-qual-novo-comprimido-leva-a-maior-perda-de-peso.ghtml",
+     "https://agorarn.com.br/saude/pilulas-contra-obesidade-acirram-a-concorrencia/"
+    ],
+    "key_accounts": [
+     "Novo Nordisk Brasil",
+     "Eli Lilly",
+     "Anvisa",
+     "VEJA",
+     "O Globo"
+    ],
+    "why_flagged": "Carregado repetidamente (varreduras de 10-09 e 10-12) como material de FAQ de pacientes; distinto das tendências de acesso/preço de canetas (NT-2026-09-14-01, NT-2026-09-28-05).",
+    "ProfileA_relevance": 50,
+    "ProfileB_relevance": 58,
+    "merged_from": [
+     "hype da GLP-1 oral (VEJA)",
+     "submissão do Wegovy comprimido",
+     "aprovação da orforgliprona pela FDA"
+    ],
+    "scan_notes": "Não prever data de aprovação. Detalhes de tomada: citar a bula quando disponível; a AgoraRN resume jejum + pouca água + intervalo antes de comida/remédios para a semaglutida oral.",
+    "first_detected_date": "2026-10-09",
+    "latest_observation_date": "2026-10-12",
+    "prediction_freeze_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_006"
+   },
+   "translation": {
+    "translated_at": "2026-10-12T09:45:00-03:00",
+    "source_file": "trends/NT-2026-10-12-08.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-10-12-08",
+    "topic": "Oral GLP-1 arrival expectations in BR — Wegovy comprimido (submitted 30 Jan) & orforglipron (Foundayo) pending at Anvisa; 'pílula = sem dieta?' FAQ",
+    "stage_at_freeze": "Migration Candidate",
+    "prediction_freeze_date": "2026-10-12",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "next_review_date": "2026-10-19",
+    "prediction_status": "frozen",
+    "last_review_date": null,
+    "last_result": null,
+    "cohort_id": "cohort_006"
+   },
+   "cohort_id": "cohort_006",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-19",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-10-26",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-11-11",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-19"
+  },
+  {
+   "id": "NT-2026-10-12-09",
+   "frozen": {
+    "trend_id": "NT-2026-10-12-09",
+    "topic": "Rapid-loss myths on pens — 'queda de cabelo é da caneta' and 'toxinas liberadas pelo fígado' (CNN Brasil 10 Oct) → nutrient-adequacy FAQ vs hair/detox supplement upsell",
+    "canonical_topic_name": "BR media/social FAQ on hair shedding during GLP-1 weight loss (CNN Brasil 10 Oct 'emagrecimento rápido ou canetas?', Terra, VEJA study piece, GZH Aug 2026) and 'toxins released from fat/liver' myth (DaAcervo 1.2k imp, 10-09 sweep); expert framing: rapid loss/energy restriction/nutrient gaps (protein, iron, zinc) more likely than direct drug effect; upsell risk for biotin/hair gummies and detox products",
+    "source_market": "BR (Native media FAQ)",
+    "origin_community": "BR health media + dermatology/nutrition explainers + wellness creators",
+    "origin_type": "Patient FAQ / myth cluster",
+    "source_layer": "Discovery",
+    "stage": "Brazil Growing",
+    "velocity": "CNN Brasil X post 2,097 imp (10 Oct); PT 'queda de cabelo' × caneta/Mounjaro/Ozempic/emagrecimento 7d=2 (Oct10=1; 11=1); stream hair mentions 1/day Oct 9–11",
+    "reach": "High latent among pen users (qualitative)",
+    "novelty": "Medium — aesthetics spend (NT-2026-09-14-09) and micronutrient adequacy (NT-2026-09-28-07) frozen; the myth/FAQ framing and detox angle were not",
+    "persistence_estimate": "High — recurs with every new user cohort",
+    "brazil_presence": "Present — CNN Brasil, Terra, VEJA, GZH",
+    "brazil_momentum": "Steady",
+    "primary_niches": [
+     "GLP-1 companion",
+     "clinical nutrition",
+     "dermatology-adjacent",
+     "supplements"
+    ],
+    "evidence_temperature": "Moderate for rapid-weight-loss telogen effluvium association; Weak for direct drug-follicle effect; None for 'toxin release' detox need",
+    "misinformation_risk": "High — 'caneta causa calvície'; 'biotina resolve'; 'precisa de detox hepático na caneta'",
+    "audience_question_signal": "Yes — Meu cabelo está caindo por causa da caneta? · Biotina ajuda? · Preciso desintoxicar o fígado?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "FAQ persists at low-steady volume; 2–4 weeks of further BR explainers and RD content tying shedding to rate of loss, protein and iron/zinc status, with referral for ferritin/thyroid; detox/hair-supplement promos continue; no new causal evidence in window",
+    "prediction_confidence": "66%",
+    "prediction_timeframe": "2–4 weeks",
+    "key_sources": [
+     "https://www.cnnbrasil.com.br/saude/queda-de-cabelo-emagrecimento-rapido-ou-canetas-emagrecedoras/",
+     "https://www.terra.com.br/vida-e-estilo/comecou-a-perder-peso-com-a-caneta-emagrecedora-e-percebeu-mais-cabelo-caindo-entenda-o-que-pode-estar-acontecendo,9e7a15cceaa2440c6c49b80de6cda69bhsebo1um.html",
+     "https://veja.abril.com.br/saude/canetas-emagrecedoras-e-queda-de-cabelo-estudo-lanca-luz-sobre-esse-possivel-efeito/",
+     "https://x.com/CNNBrasil/status/2108882460872183926"
+    ],
+    "key_accounts": [
+     "CNN Brasil",
+     "VEJA",
+     "Terra"
+    ],
+    "why_flagged": "Carried in 10-09 and 10-12 sweeps as patient FAQ; practical RD content with supplement-upsell guardrail (Profile B).",
+    "ProfileA_relevance": 55,
+    "ProfileB_relevance": 72,
+    "merged_from": [
+     "CNN Brasil hair-loss explainer",
+     "liver-toxins myth (10-09 sweep)",
+     "GZH/Terra/VEJA hair pieces"
+    ],
+    "scan_notes": "Do not invent prevalence of hair loss on GLP-1. Related, not rewritten: NT-2026-09-14-09, NT-2026-09-28-07.",
+    "first_detected_date": "2026-10-09",
+    "latest_observation_date": "2026-10-12",
+    "prediction_freeze_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_006"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-10-12-09",
+    "topic": "Mitos da perda rápida na caneta — 'queda de cabelo é da caneta' e 'toxinas liberadas pelo fígado' (CNN Brasil 10/10) → FAQ de adequação de nutrientes × upsell de suplementos para cabelo/detox",
+    "canonical_topic_name": "FAQ da mídia/social BR sobre queda de cabelo durante a perda de peso com GLP-1 (CNN Brasil 10/10 'emagrecimento rápido ou canetas?', Terra, matéria da VEJA sobre estudo, GZH ago/2026) e mito das 'toxinas liberadas da gordura/fígado' (DaAcervo 1,2 mil imp, varredura de 10-09); enquadramento dos especialistas: perda rápida/restrição energética/lacunas de nutrientes (proteína, ferro, zinco) mais prováveis que efeito direto do fármaco; risco de upsell de biotina/gomas para cabelo e produtos detox",
+    "source_market": "BR (FAQ nativo da mídia)",
+    "origin_community": "Mídia de saúde BR + explainers de dermatologia/nutrição + criadores de bem-estar",
+    "origin_type": "FAQ de pacientes / cluster de mitos",
+    "source_layer": "Descoberta",
+    "stage": "Em crescimento no Brasil",
+    "velocity": "Post da CNN Brasil no X 2.097 imp (10/10); PT 'queda de cabelo' × caneta/Mounjaro/Ozempic/emagrecimento 7d=2 (Oct10=1; 11=1); menções de cabelo no stream 1/dia em 9–11/10",
+    "reach": "Alto latente entre usuários de caneta (qualitativo)",
+    "novelty": "Média — gasto com estética (NT-2026-09-14-09) e adequação de micronutrientes (NT-2026-09-28-07) foram congelados; o enquadramento de mito/FAQ e o ângulo detox não",
+    "persistence_estimate": "Alta — volta a cada nova coorte de usuários",
+    "brazil_presence": "Presente — CNN Brasil, Terra, VEJA, GZH",
+    "brazil_momentum": "Estável",
+    "primary_niches": [
+     "companheiro da GLP-1",
+     "nutrição clínica",
+     "adjacente à dermatologia",
+     "suplementos"
+    ],
+    "evidence_temperature": "Moderada para associação de eflúvio telógeno com perda de peso rápida; Fraca para efeito direto do fármaco no folículo; Nenhuma para necessidade de detox por 'liberação de toxinas'",
+    "misinformation_risk": "Alto — 'caneta causa calvície'; 'biotina resolve'; 'precisa de detox hepático na caneta'",
+    "audience_question_signal": "Sim — Meu cabelo está caindo por causa da caneta? · Biotina ajuda? · Preciso desintoxicar o fígado?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "FAQ persiste em volume baixo-estável; 2–4 semanas de novos explainers BR e conteúdo de nutricionistas ligando a queda à velocidade da perda, à proteína e ao status de ferro/zinco, com encaminhamento para ferritina/tireoide; promos de detox/suplementos para cabelo continuam; nenhuma evidência causal nova na janela",
+    "prediction_confidence": "66%",
+    "prediction_timeframe": "2–4 semanas",
+    "key_sources": [
+     "https://www.cnnbrasil.com.br/saude/queda-de-cabelo-emagrecimento-rapido-ou-canetas-emagrecedoras/",
+     "https://www.terra.com.br/vida-e-estilo/comecou-a-perder-peso-com-a-caneta-emagrecedora-e-percebeu-mais-cabelo-caindo-entenda-o-que-pode-estar-acontecendo,9e7a15cceaa2440c6c49b80de6cda69bhsebo1um.html",
+     "https://veja.abril.com.br/saude/canetas-emagrecedoras-e-queda-de-cabelo-estudo-lanca-luz-sobre-esse-possivel-efeito/",
+     "https://x.com/CNNBrasil/status/2108882460872183926"
+    ],
+    "key_accounts": [
+     "CNN Brasil",
+     "VEJA",
+     "Terra"
+    ],
+    "why_flagged": "Carregado nas varreduras de 10-09 e 10-12 como FAQ de pacientes; conteúdo prático para nutricionistas com proteção contra upsell de suplementos (Perfil B).",
+    "ProfileA_relevance": 55,
+    "ProfileB_relevance": 72,
+    "merged_from": [
+     "explainer CNN Brasil queda de cabelo",
+     "mito das toxinas do fígado (varredura 10-09)",
+     "matérias GZH/Terra/VEJA sobre cabelo"
+    ],
+    "scan_notes": "Não inventar prevalência de queda de cabelo na GLP-1. Relacionadas, sem reescrita: NT-2026-09-14-09, NT-2026-09-28-07.",
+    "first_detected_date": "2026-10-09",
+    "latest_observation_date": "2026-10-12",
+    "prediction_freeze_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_006"
+   },
+   "translation": {
+    "translated_at": "2026-10-12T09:45:00-03:00",
+    "source_file": "trends/NT-2026-10-12-09.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-10-12-09",
+    "topic": "Rapid-loss myths on pens — 'queda de cabelo é da caneta' and 'toxinas liberadas pelo fígado' (CNN Brasil 10 Oct) → nutrient-adequacy FAQ vs hair/detox supplement upsell",
+    "stage_at_freeze": "Brazil Growing",
+    "prediction_freeze_date": "2026-10-12",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "next_review_date": "2026-10-19",
+    "prediction_status": "frozen",
+    "last_review_date": null,
+    "last_result": null,
+    "cohort_id": "cohort_006"
+   },
+   "cohort_id": "cohort_006",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-19",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-10-26",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-11-11",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-19"
+  },
+  {
+   "id": "NT-2026-10-12-10",
+   "frozen": {
+    "trend_id": "NT-2026-10-12-10",
+    "topic": "Fibermaxxing — 'fiber is the new protein' social trend (EN) with BR presence since Jun 2026; GLP-1 GI and supplement-fiber caveats",
+    "canonical_topic_name": "Fibermaxxing: social-media push to maximize dietary fiber (gut health, satiety, glycaemia), framed as protein's successor; BR coverage (Folha 24 Jun 2026, Receitas/Globo, Metropoles, RD blogs 'proteinmaxxing e fibermaxxing'); expert caveats — meet ~25–30 g/day, titrate gradually, fluids, caution with isolated fiber products and in GI disease / GLP-1 GI symptoms",
+    "source_market": "EN social → BR",
+    "origin_community": "EN TikTok/wellness → BR lifestyle media + RD blogs",
+    "origin_type": "Social food trend",
+    "source_layer": "Discovery",
+    "stage": "Brazil Emerging",
+    "velocity": "X fibermaxxing (all langs) 7d=117 (Oct5p=13; 6=20; 7=17; 8=20; 9=23; 10=7; 11=12; 12p=5); PT fibra×tendência/fibermaxxing 7d=6 (0–2/day); BR media pieces dated Jun 2026 onward (no dated Oct BR spike found)",
+    "reach": "Moderate (qualitative)",
+    "novelty": "Medium — fiber titration on GLP-1 frozen (NT-2026-09-14-03) and prebiotic beverages (NT-2026-09-14-11); fibermaxxing as a named trend never frozen",
+    "persistence_estimate": "Medium — aligns with Guia Alimentar; may be absorbed into GLP-1 'fiber + protein' messaging",
+    "brazil_presence": "Present — Folha (Jun 2026), Receitas/Globo, Metropoles column, RD blogs",
+    "brazil_momentum": "Unknown in October (no dated spike)",
+    "primary_niches": [
+     "gut health",
+     "GLP-1 companion",
+     "general/wellness",
+     "sports (GI tolerance)"
+    ],
+    "evidence_temperature": "Strong for fiber adequacy benefits; Weak for 'more is always better'; product-fiber claims vary",
+    "misinformation_risk": "Medium — 'quanto mais fibra melhor'; 'suplemento de fibra = comida'; ignoring GI symptoms/GLP-1 gastroparesis-like effects",
+    "audience_question_signal": "Partial — Quanto de fibra por dia? · Psyllium serve? · Fibra ajuda na caneta?",
+    "content_opportunity": "Medium",
+    "predicted_trajectory": "Low-steady BR presence; within 4 weeks at least one additional BR lifestyle/RD piece pairing fibermaxxing with protein or GLP-1; no breakout (PT X stays <20/day)",
+    "prediction_confidence": "55%",
+    "prediction_timeframe": "2–4 weeks",
+    "key_sources": [
+     "https://www1.folha.uol.com.br/equilibrio/2026/06/conheca-as-vantagens-e-os-riscos-da-tendencia-de-comer-mais-fibras.shtml",
+     "https://receitas.globo.com/blog/alimentacao-e-saude/fibermaxxing-entenda-se-tendencia-de-aumentar-fibras-na-dieta-traz-beneficios-para-a-saude.ghtml",
+     "https://www.metropoles.com/colunas/claudia-meireles/fibermaxxing-nutricionista-avalia-tendencia-do-alto-consumo-de-fibras",
+     "https://san.com/cc/fibermaxxing-is-trending-heres-what-the-science-says/"
+    ],
+    "key_accounts": [
+     "Folha Equilíbrio",
+     "Receitas/Globo",
+     "Metropoles"
+    ],
+    "why_flagged": "Intl scan surfaced fibermaxxing as active EN trend; BR presence documented; low-cost pack theme with GLP-1 GI guardrails. Lowest-confidence freeze of the cohort.",
+    "ProfileA_relevance": 45,
+    "ProfileB_relevance": 52,
+    "merged_from": [
+     "fibermaxxing EN trend",
+     "BR lifestyle coverage",
+     "'fiber is the new protein'"
+    ],
+    "scan_notes": "Velocity largely Unknown; freeze kept as a calibration probe. Related, not rewritten: NT-2026-09-14-03, NT-2026-09-14-11.",
+    "first_detected_date": "2026-10-12",
+    "latest_observation_date": "2026-10-12",
+    "prediction_freeze_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_006"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-10-12-10",
+    "topic": "Fibermaxxing — tendência social 'fibra é a nova proteína' (EN) com presença BR desde jun/2026; ressalvas de GI na GLP-1 e de fibra em suplemento",
+    "canonical_topic_name": "Fibermaxxing: movimento nas redes para maximizar fibra alimentar (saúde intestinal, saciedade, glicemia), apresentado como sucessor da proteína; cobertura BR (Folha 24/06/2026, Receitas/Globo, Metropoles, blogs de nutricionistas 'proteinmaxxing e fibermaxxing'); ressalvas de especialistas — atingir ~25–30 g/dia, aumentar aos poucos, líquidos, cautela com produtos de fibra isolada e em doença GI / sintomas GI da GLP-1",
+    "source_market": "Social EN → BR",
+    "origin_community": "TikTok/bem-estar EN → mídia de estilo de vida BR + blogs de nutricionistas",
+    "origin_type": "Tendência alimentar social",
+    "source_layer": "Descoberta",
+    "stage": "Emergente no Brasil",
+    "velocity": "X fibermaxxing (todos os idiomas) 7d=117 (Oct5p=13; 6=20; 7=17; 8=20; 9=23; 10=7; 11=12; 12p=5); PT fibra×tendência/fibermaxxing 7d=6 (0–2/day); peças da mídia BR datadas de jun/2026 em diante (nenhum pico BR datado em outubro encontrado)",
+    "reach": "Moderado (qualitativo)",
+    "novelty": "Média — titulação de fibra na GLP-1 congelada (NT-2026-09-14-03) e bebidas prebióticas (NT-2026-09-14-11); fibermaxxing como tendência nomeada nunca congelada",
+    "persistence_estimate": "Média — alinhada ao Guia Alimentar; pode ser absorvida pela mensagem 'fibra + proteína' da GLP-1",
+    "brazil_presence": "Presente — Folha (jun/2026), Receitas/Globo, coluna no Metropoles, blogs de nutricionistas",
+    "brazil_momentum": "Desconhecido em outubro (sem pico datado)",
+    "primary_niches": [
+     "saúde intestinal",
+     "companheiro da GLP-1",
+     "geral/bem-estar",
+     "esporte (tolerância GI)"
+    ],
+    "evidence_temperature": "Forte para benefícios da adequação de fibra; Fraca para 'quanto mais, melhor'; alegações de fibra em produtos variam",
+    "misinformation_risk": "Médio — 'quanto mais fibra melhor'; 'suplemento de fibra = comida'; ignorar sintomas GI/efeitos tipo gastroparesia da GLP-1",
+    "audience_question_signal": "Parcial — Quanto de fibra por dia? · Psyllium serve? · Fibra ajuda na caneta?",
+    "content_opportunity": "Média",
+    "predicted_trajectory": "Presença BR baixa-estável; em até 4 semanas ao menos mais uma peça BR de estilo de vida/nutricionista combinando fibermaxxing com proteína ou GLP-1; sem breakout (X PT segue <20/dia)",
+    "prediction_confidence": "55%",
+    "prediction_timeframe": "2–4 semanas",
+    "key_sources": [
+     "https://www1.folha.uol.com.br/equilibrio/2026/06/conheca-as-vantagens-e-os-riscos-da-tendencia-de-comer-mais-fibras.shtml",
+     "https://receitas.globo.com/blog/alimentacao-e-saude/fibermaxxing-entenda-se-tendencia-de-aumentar-fibras-na-dieta-traz-beneficios-para-a-saude.ghtml",
+     "https://www.metropoles.com/colunas/claudia-meireles/fibermaxxing-nutricionista-avalia-tendencia-do-alto-consumo-de-fibras",
+     "https://san.com/cc/fibermaxxing-is-trending-heres-what-the-science-says/"
+    ],
+    "key_accounts": [
+     "Folha Equilíbrio",
+     "Receitas/Globo",
+     "Metropoles"
+    ],
+    "why_flagged": "O scan internacional trouxe o fibermaxxing como tendência EN ativa; presença BR documentada; tema de pack de baixo custo com proteções de GI na GLP-1. Congelamento de menor confiança da coorte.",
+    "ProfileA_relevance": 45,
+    "ProfileB_relevance": 52,
+    "merged_from": [
+     "tendência EN fibermaxxing",
+     "cobertura BR de estilo de vida",
+     "'fibra é a nova proteína'"
+    ],
+    "scan_notes": "Velocidade em grande parte Desconhecida; congelamento mantido como sonda de calibração. Relacionadas, sem reescrita: NT-2026-09-14-03, NT-2026-09-14-11.",
+    "first_detected_date": "2026-10-12",
+    "latest_observation_date": "2026-10-12",
+    "prediction_freeze_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_006"
+   },
+   "translation": {
+    "translated_at": "2026-10-12T09:45:00-03:00",
+    "source_file": "trends/NT-2026-10-12-10.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-10-12-10",
+    "topic": "Fibermaxxing — 'fiber is the new protein' social trend (EN) with BR presence since Jun 2026; GLP-1 GI and supplement-fiber caveats",
+    "stage_at_freeze": "Brazil Emerging",
+    "prediction_freeze_date": "2026-10-12",
+    "review_dates": {
+     "plus_7": "2026-10-19",
+     "plus_14": "2026-10-26",
+     "plus_30": "2026-11-11"
+    },
+    "next_review_date": "2026-10-19",
+    "prediction_status": "frozen",
+    "last_review_date": null,
+    "last_result": null,
+    "cohort_id": "cohort_006"
+   },
+   "cohort_id": "cohort_006",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-19",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-10-26",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-11-11",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-19"
   }
  ],
  "general_observations": [
@@ -18522,7 +20437,7 @@
   }
  ],
  "counts": {
-  "trends": 56,
+  "trends": 66,
   "reviews": 96,
   "observations": 150
  },
