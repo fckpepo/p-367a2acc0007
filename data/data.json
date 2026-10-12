@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T09:22:00-03:00",
+ "generated_at": "2026-10-12T10:48:36-03:00",
  "generated_tz": "America/Sao_Paulo",
  "build_date": "2026-10-12",
  "store": {
@@ -12,14 +12,14 @@
  },
  "overall": {
   "counts": {
-   "HIT": 9,
-   "PARTIAL": 19,
-   "MISS": 0,
-   "ANALYZING": 38
+   "HIT": 10,
+   "PARTIAL": 25,
+   "MISS": 1,
+   "ANALYZING": 30
   },
   "total": 66,
-  "hit_rate": 0.6607,
-  "strict_hit_rate": 0.3214
+  "hit_rate": 0.625,
+  "strict_hit_rate": 0.2778
  },
  "cohorts": [
   {
@@ -158,19 +158,19 @@
    ],
    "_source_file": "reviews/schedule_cohort_004.json",
    "frozen_date": "2026-09-28",
-   "next_review_date": "2026-10-12",
+   "next_review_date": "2026-10-28",
    "overdue": 0,
-   "reviews_count": 10,
+   "reviews_count": 20,
    "summary": {
     "counts": {
-     "HIT": 0,
+     "HIT": 1,
      "PARTIAL": 6,
-     "MISS": 0,
-     "ANALYZING": 4
+     "MISS": 1,
+     "ANALYZING": 2
     },
     "total": 10,
     "hit_rate": 0.5,
-    "strict_hit_rate": 0.0
+    "strict_hit_rate": 0.125
    },
    "trend_ids": [
     "NT-2026-09-28-01",
@@ -197,19 +197,19 @@
    ],
    "_source_file": "reviews/schedule_cohort_005.json",
    "frozen_date": "2026-10-05",
-   "next_review_date": "2026-10-12",
+   "next_review_date": "2026-10-19",
    "overdue": 0,
-   "reviews_count": 0,
+   "reviews_count": 10,
    "summary": {
     "counts": {
      "HIT": 0,
-     "PARTIAL": 0,
+     "PARTIAL": 6,
      "MISS": 0,
-     "ANALYZING": 10
+     "ANALYZING": 4
     },
     "total": 10,
-    "hit_rate": null,
-    "strict_hit_rate": null
+    "hit_rate": 0.5,
+    "strict_hit_rate": 0.0
    },
    "trend_ids": [
     "NT-2026-10-05-01",
@@ -14263,6 +14263,44 @@
       "rationale": "Trajetória congelada: explicadores de nutricionistas + marcas sobre o texto exato autorizado, corte de idade, exigência de RT, limites de composição; letramento em alegações de rótulo (Supplement Watch); onda de aconselhamento sobre creatina na meia-idade sem inventar eficácia nova. A camada de letramento de marcas/trade existe e recircula, e uma onda de aconselhamento na meia-idade é visível, mas a camada de explicadores de nutricionistas é rala e a onda da grande imprensa é puxada pelo JISSN (e em parte vai além da alegação) → PARTIAL no +7 (prazo de 1–4 semanas ainda em curso)."
      },
      "_translated_at": "2026-10-05T10:45:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-28-01_plus14_2026-10-12",
+     "trend_id": "NT-2026-09-28-01",
+     "cohort_id": "cohort_004",
+     "review_horizon": "plus_14",
+     "review_date": "2026-10-12",
+     "timezone": "America/Sao_Paulo",
+     "result": "HIT",
+     "frozen_predicted_trajectory": "RD + brand explainers on exact authorized wording, age gate (>55), RT requirement, and composition limits (Anexo III/IV); Supplement Watch label-claim literacy; midlife creatine counseling wave without inventing new efficacy beyond the claim",
+     "prediction_confidence": "85%",
+     "prediction_timeframe": "1–4 weeks for dense BR professional/trade content; consumer social may lag",
+     "prediction_freeze_date": "2026-09-28",
+     "evidence_summary": "In the +14 window (2026-09-28→10-12), IN 470 creatine >55 claim literacy densified beyond the +7 trade/brand layer: Purepeople (6 Oct) published a consumer explainer quoting nutricionista Aline Goettert (BRASNUTRI) on the exact authorized claim — daily creatine + regular resistance training may increase RT effects on strength in adults >55 — with composition gate 3–5 g/day unchanged, and framing that midlife creatine is about autonomy/QoL not only sports performance. Brand explainer Eternità 'Creatina depois dos 55' and trade/legal pieces (Fukuma, BHB Food, FTH) continue to recirculate. Parallel JISSN 'sem exercícios' media kept recirculating (O Povo 6 Oct; G1/Folha 3 Oct archive). Morning radars 10-06→10-12 QUIET on new Anvisa claim acts; X creatina×alegação/IN 470 7d=3 (still near-dead social).",
+     "rationale": "Frozen trajectory: RD + brand explainers on exact authorized wording, age gate, RT requirement, composition limits; Supplement Watch label-claim literacy; midlife creatine counseling without inventing efficacy beyond the claim. At +14 the claim-literacy core is substantially realized (Purepeople + BRASNUTRI voice covers wording/age/RT/3–5 g; brand/trade layer intact; midlife counseling wave present and correctly tied to RT). Dedicated carousel-style Supplement Watch remains thin and X is near-zero, but direction + main mechanisms landed → HIT (upgrade from PARTIAL).",
+     "sources_checked": [
+      "https://www.purepeople.com.br/noticia/posso-tomar-creatina-sem-treinar-anvisa-tem-regra-sobre-dieta-de-pessoas-com-55-anos-de-idade-ou-mais_a424976/1",
+      "https://lojaeternita.com.br/blogs/novidades/creatina-depois-dos-55",
+      "https://www.fukumaadvogados.com.br/informativos/instrucao-normativa-define-alegacoes-e-rotulagem-de-suplementos/",
+      "https://www.opovo.com.br/noticias/saude/2026/10/06/creatina-ajuda-a-ganhar-musculos-mesmo-sem-exercicios-o-que-diz-a-ciencia.html",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-12.md",
+      "file:///workspace/nutritrend/discovery/x_propagation_2026-10-12.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "prior_result": "PARTIAL",
+     "x_counts": {
+      "source": "x_propagation_2026-10-12 (morning radar; reused, no new spend)",
+      "creatina_alegacao_in470_7d": 3
+     },
+     "_source_file": "reviews/NT-2026-09-28-01_plus14_2026-10-12.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Explicadores de nutricionistas e marcas sobre o texto exato autorizado, porta de idade (>55), exigência de treino de resistência e limites de composição (Anexos III/IV); alfabetização de alegações no Supplement Watch; onda de aconselhamento midlife sem inventar eficácia além da alegação",
+      "prediction_timeframe": "1–4 semanas para conteúdo profissional/trade denso no BR; o social do consumidor pode atrasar",
+      "evidence_summary": "Na janela de +14 (2026-09-28→10-12), o letramento da alegação de creatina >55 da IN 470 densificou-se além da camada trade/marca do +7: a Purepeople (6/out) publicou explicador ao consumidor citando a nutricionista Aline Goettert (BRASNUTRI) sobre a alegação autorizada exata — creatina diária + treino de resistência regular pode aumentar o efeito do RT na força em adultos >55 — com porta de composição 3–5 g/dia inalterada, e enquadramento de que a creatina na meia-idade fala de autonomia/QV e não só de performance esportiva. O explicador de marca Eternità 'Creatina depois dos 55' e peças de trade/jurídico (Fukuma, BHB Food, FTH) seguem recirculando. A mídia paralela do JISSN 'sem exercícios' continuou (O Povo 6/out; arquivo G1/Folha 3/out). Radares 10-06→10-12 QUIET sobre novos atos de alegação da Anvisa; X creatina×alegação/IN 470 7d=3 (social ainda quase morto).",
+      "rationale": "Trajetória congelada: explicadores de nutricionistas + marcas sobre texto exato autorizado, porta de idade, exigência de RT, limites de composição; letramento Supplement Watch; aconselhamento midlife sem inventar eficácia além da alegação. No +14 o núcleo do letramento da alegação está substancialmente realizado (Purepeople + voz BRASNUTRI cobre texto/idade/RT/3–5 g; camada marca/trade intacta; onda midlife presente e corretamente ligada ao RT). Carrosséis Supplement Watch dedicados seguem ralos e o X é quase zero, mas direção + mecanismos principais chegaram → HIT (upgrade de PARTIAL)."
+     },
+     "_translated_at": "2026-10-12T11:30:00-03:00"
     }
    ],
    "observations": [
@@ -14295,6 +14333,36 @@
       "stage_now": "Brazil Growing (trade/brand layer; consumer social flat)",
       "recommended_action": "Pacote: card com o texto exato da IN 470 (>55, RT, 3–5 g, frase inalterada). Rechecar explicadores de nutricionistas no +14 (2026-10-12)."
      }
+    },
+    {
+     "observation_date": "2026-10-12",
+     "trend_id": "NT-2026-09-28-01",
+     "cohort_id": "cohort_004",
+     "observation_type": "plus14_review_probe",
+     "stage_now": "Brazil Growing",
+     "evidence_notes": "Within +14, Purepeople (6 Oct) localized the IN 470 >55+RT claim into consumer media with BRASNUTRI RD voice (exact wording, 3–5 g, RT required). Trade/brand layer (Eternità, Fukuma) recirculates. JISSN 'sem exercícios' continues via O Povo 6 Oct. X creatina×alegação 7d=3.",
+     "sources_found": [
+      "https://www.purepeople.com.br/noticia/posso-tomar-creatina-sem-treinar-anvisa-tem-regra-sobre-dieta-de-pessoas-com-55-anos-de-idade-ou-mais_a424976/1",
+      "https://lojaeternita.com.br/blogs/novidades/creatina-depois-dos-55",
+      "https://www.fukumaadvogados.com.br/informativos/instrucao-normativa-define-alegacoes-e-rotulagem-de-suplementos/",
+      "https://www.opovo.com.br/noticias/saude/2026/10/06/creatina-ajuda-a-ganhar-musculos-mesmo-sem-exercicios-o-que-diz-a-ciencia.html"
+     ],
+     "notes": "plus14 result=HIT (prior PARTIAL); see reviews/NT-2026-09-28-01_plus14_2026-10-12.json",
+     "recommended_action": "Pack FAQ: IN 470 claim text vs JISSN 10 g experimental arms; keep RT hierarchy. Re-check brand SKU claim rollouts at +30 (2026-10-28).",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "source": "x_propagation_2026-10-12 (morning radar; reused, no new spend)",
+      "creatina_alegacao_in470_7d": 3
+     },
+     "_source_file": "observations/2026-10-12.jsonl",
+     "_line": 1,
+     "_pt": {
+      "evidence_notes": "Dentro de +14, a Purepeople (6/out) localizou a alegação IN 470 >55+RT na mídia de consumo com voz de nutricionista da BRASNUTRI (texto exato, 3–5 g, RT exigido). Camada trade/marca (Eternità, Fukuma) recircula. JISSN 'sem exercícios' segue via O Povo 6/out. X creatina×alegação 7d=3.",
+      "notes": "Resultado +14 = HIT (anterior PARTIAL); ver reviews/NT-2026-09-28-01_plus14_2026-10-12.json",
+      "stage_now": "Brazil Growing",
+      "recommended_action": "FAQ do pacote: texto da alegação IN 470 vs braços experimentais JISSN de 10 g; manter hierarquia do RT. Rechecar rollouts de alegação em SKUs de marca no +30 (2026-10-28)."
+     }
     }
    ],
    "mentions": [],
@@ -14309,16 +14377,16 @@
      "plus_14": "2026-10-12",
      "plus_30": "2026-10-28"
     },
-    "next_review_date": "2026-10-12",
+    "next_review_date": "2026-10-28",
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-05",
-    "last_result": "PARTIAL",
+    "last_review_date": "2026-10-12",
+    "last_result": "HIT",
     "cohort_id": "cohort_004"
    },
    "cohort_id": "cohort_004",
-   "latest_result": "PARTIAL",
-   "latest_review_date": "2026-10-05",
-   "status": "PARTIAL",
+   "latest_result": "HIT",
+   "latest_review_date": "2026-10-12",
+   "status": "HIT",
    "timeline": [
     {
      "horizon": "plus_7",
@@ -14331,10 +14399,10 @@
     {
      "horizon": "plus_14",
      "due": "2026-10-12",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "HIT",
+     "review_date": "2026-10-12",
+     "review_id": "NT-2026-09-28-01_plus14_2026-10-12"
     },
     {
      "horizon": "plus_30",
@@ -14345,7 +14413,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-10-12"
+   "next_checkpoint": "2026-10-28"
   },
   {
    "id": "NT-2026-09-28-02",
@@ -14513,6 +14581,43 @@
       "rationale": "Trajetória congelada: carrosséis/e-mails comparativos de nutricionistas critérios da IN 470 vs braços do JISSN; não equivalência explícita ao NCT07625202; hierarquia comida primeiro + RT. As duas ondas estão presentes no Brasil, mas em canais separados; a camada de comparação prevista ainda não tem evidência → PARTIAL no +7."
      },
      "_translated_at": "2026-10-05T10:45:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-28-02_plus14_2026-10-12",
+     "trend_id": "NT-2026-09-28-02",
+     "cohort_id": "cohort_004",
+     "review_horizon": "plus_14",
+     "review_date": "2026-10-12",
+     "timezone": "America/Sao_Paulo",
+     "result": "PARTIAL",
+     "frozen_predicted_trajectory": "Comparative RD carousels/emails: (a) IN 470 claim gates (age>55, RT, composition limits) vs (b) JISSN study dose/age/exercise arms; explicit non-equivalence to NCT07625202 GLP-1 co-admin; food-first + RT hierarchy preserved",
+     "prediction_confidence": "78%",
+     "prediction_timeframe": "1–3 weeks for dense BR professional content",
+     "prediction_freeze_date": "2026-09-28",
+     "evidence_summary": "In the +14 window, both halves of the dual wave remain visible in BR but still in separate channels: JISSN midlife 10 g/'sem exercícios' recirculated via O Povo (6 Oct) after G1/Folha (3 Oct); IN 470 claim side densified via Purepeople (6 Oct) with BRASNUTRI voice on >55 + RT + 3–5 g. No dated comparative RD carousel/email equating or separating IN 470 gates vs JISSN arms, and no explicit non-equivalence to NCT07625202 GLP-1 co-admin found. Food-first + RT hierarchy is preserved in Purepeople (RT required) and in JISSN caveats (does not replace exercise). X creatina×alegação 7d=3.",
+     "rationale": "Frozen trajectory: comparative RD content IN 470 vs JISSN; non-equivalence to NCT07625202; food-first+RT hierarchy. Both waves densified in-window but the predicted comparison layer is still missing → PARTIAL (same as +7).",
+     "sources_checked": [
+      "https://www.purepeople.com.br/noticia/posso-tomar-creatina-sem-treinar-anvisa-tem-regra-sobre-dieta-de-pessoas-com-55-anos-de-idade-ou-mais_a424976/1",
+      "https://www.opovo.com.br/noticias/saude/2026/10/06/creatina-ajuda-a-ganhar-musculos-mesmo-sem-exercicios-o-que-diz-a-ciencia.html",
+      "https://g1.globo.com/saude/noticia/2026/10/03/creatina-ajuda-a-ganhar-musculos-mesmo-sem-exercicios-o-que-diz-a-ciencia.ghtml",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-06.md",
+      "file:///workspace/nutritrend/discovery/x_propagation_2026-10-12.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "prior_result": "PARTIAL",
+     "x_counts": {
+      "source": "x_propagation_2026-10-12 (morning radar; reused, no new spend)",
+      "creatina_alegacao_in470_7d": 3
+     },
+     "_source_file": "reviews/NT-2026-09-28-02_plus14_2026-10-12.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Carrosséis/e-mails comparativos de nutricionistas: (a) portões da alegação IN 470 (idade>55, RT, limites de composição) vs (b) braços de dose/idade/exercício do estudo JISSN; não equivalência explícita ao coadministração GLP-1 NCT07625202; hierarquia comida-primeiro + RT preservada",
+      "prediction_timeframe": "1–3 semanas para conteúdo profissional BR denso",
+      "evidence_summary": "Na janela de +14, as duas metades da onda dupla seguem visíveis no BR, mas ainda em canais separados: o JISSN midlife 10 g/'sem exercícios' recirculou via O Povo (6/out) após G1/Folha (3/out); o lado da alegação IN 470 densificou via Purepeople (6/out) com voz BRASNUTRI sobre >55 + RT + 3–5 g. Nenhum carrossel/e-mail comparativo datado de nutricionista igualando ou separando os portões da IN 470 vs os braços JISSN, e nenhuma não equivalência explícita ao NCT07625202 de coadministração GLP-1 encontrada. A hierarquia comida-primeiro + RT é preservada na Purepeople (RT exigido) e nas ressalvas do JISSN (não substitui exercício). X creatina×alegação 7d=3.",
+      "rationale": "Trajetória congelada: conteúdo comparativo de nutricionistas IN 470 vs JISSN; não equivalência ao NCT07625202; hierarquia comida-primeiro+RT. Ambas as ondas densificaram na janela, mas a camada comparativa prevista ainda falta → PARTIAL (igual ao +7)."
+     },
+     "_translated_at": "2026-10-12T11:30:00-03:00"
     }
    ],
    "observations": [
@@ -14545,6 +14650,35 @@
       "stage_now": "Emerging → Brazil Growing (JISSN half localized)",
       "recommended_action": "Pacote: card lado a lado 'IN 470 (rótulo) vs JISSN (estudo)' + 'não vale para GLP-1 (NCT07625202)'. Rechecar no +14."
      }
+    },
+    {
+     "observation_date": "2026-10-12",
+     "trend_id": "NT-2026-09-28-02",
+     "cohort_id": "cohort_004",
+     "observation_type": "plus14_review_probe",
+     "stage_now": "Emerging → Brazil Growing (dual-wave, no comparison layer)",
+     "evidence_notes": "Dual wave continuing: Purepeople IN 470 claim literacy (6 Oct) + O Povo JISSN recirculation (6 Oct). No comparative RD table/carousel found. X creatina×alegação 7d=3.",
+     "sources_found": [
+      "https://www.purepeople.com.br/noticia/posso-tomar-creatina-sem-treinar-anvisa-tem-regra-sobre-dieta-de-pessoas-com-55-anos-de-idade-ou-mais_a424976/1",
+      "https://www.opovo.com.br/noticias/saude/2026/10/06/creatina-ajuda-a-ganhar-musculos-mesmo-sem-exercicios-o-que-diz-a-ciencia.html",
+      "https://g1.globo.com/saude/noticia/2026/10/03/creatina-ajuda-a-ganhar-musculos-mesmo-sem-exercicios-o-que-diz-a-ciencia.ghtml"
+     ],
+     "notes": "plus14 result=PARTIAL (prior PARTIAL); see reviews/NT-2026-09-28-02_plus14_2026-10-12.json",
+     "recommended_action": "Pack comparative table (IN 470 3–5 g + RT + >55 vs JISSN 10 g ± exercise). Watch for RD carousels at +30.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "source": "x_propagation_2026-10-12 (morning radar; reused, no new spend)",
+      "creatina_alegacao_in470_7d": 3
+     },
+     "_source_file": "observations/2026-10-12.jsonl",
+     "_line": 2,
+     "_pt": {
+      "evidence_notes": "Onda dupla continua: letramento IN 470 na Purepeople (6/out) + recirculação JISSN no O Povo (6/out). Nenhuma tabela/carrossel comparativo de nutricionista encontrado. X creatina×alegação 7d=3.",
+      "notes": "Resultado +14 = PARTIAL (anterior PARTIAL); ver reviews/NT-2026-09-28-02_plus14_2026-10-12.json",
+      "stage_now": "Emerging → Brazil Growing (onda dupla, sem camada comparativa)",
+      "recommended_action": "Tabela comparativa no pacote (IN 470 3–5 g + RT + >55 vs JISSN 10 g ± exercício). Observar carrosséis de nutricionistas no +30."
+     }
     }
    ],
    "mentions": [],
@@ -14559,15 +14693,15 @@
      "plus_14": "2026-10-12",
      "plus_30": "2026-10-28"
     },
-    "next_review_date": "2026-10-12",
+    "next_review_date": "2026-10-28",
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-05",
+    "last_review_date": "2026-10-12",
     "last_result": "PARTIAL",
     "cohort_id": "cohort_004"
    },
    "cohort_id": "cohort_004",
    "latest_result": "PARTIAL",
-   "latest_review_date": "2026-10-05",
+   "latest_review_date": "2026-10-12",
    "status": "PARTIAL",
    "timeline": [
     {
@@ -14581,10 +14715,10 @@
     {
      "horizon": "plus_14",
      "due": "2026-10-12",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-10-12",
+     "review_id": "NT-2026-09-28-02_plus14_2026-10-12"
     },
     {
      "horizon": "plus_30",
@@ -14595,7 +14729,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-10-12"
+   "next_checkpoint": "2026-10-28"
   },
   {
    "id": "NT-2026-09-28-03",
@@ -14767,6 +14901,43 @@
       "rationale": "Trajetória congelada: scripts de FAQ de nutricionistas sobre venda legal com receita, propaganda ao consumidor ilegal, DM2 ≠ estética, não amplificação, aconselhamento complementar comida primeiro. O conteúdo de FAQ existe em canais oficiais/grande imprensa, mas a produção densa de FAQ específica de nutricionistas não tem evidência e o tema esfriou rápido → PARTIAL no +7."
      },
      "_translated_at": "2026-10-05T10:45:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-28-03_plus14_2026-10-12",
+     "trend_id": "NT-2026-09-28-03",
+     "cohort_id": "cohort_004",
+     "review_horizon": "plus_14",
+     "review_date": "2026-10-12",
+     "timezone": "America/Sao_Paulo",
+     "result": "PARTIAL",
+     "frozen_predicted_trajectory": "RD FAQ scripts: sale still legal with Rx; consumer ads for tarja-vermelha GLP-1 pens illegal (Lei 6.360/1976); label indication T2DM ≠ aesthetic airport creative; do not amplify residual gym/pharmacy ads; food-first companion counseling stays evidence-based, not brand-mandatory",
+     "prediction_confidence": "82%",
+     "prediction_timeframe": "1–3 weeks for dense BR professional FAQ content",
+     "prediction_freeze_date": "2026-09-28",
+     "evidence_summary": "In the +14 window, Semavy RE 3.750 FAQ substrate persisted as archive/official recirculation (Anvisa 'proíbe propaganda da caneta Semavy'; Hypera 'medidas necessárias' conformity via InfoMoney 29 Sep; Bloomberg Línea/Meio e Saúde). Live X Semavy×Anvisa 7d=0 (fully cooled from 36→6 at +7→0). No new dated RD-authored indication/advertising-hygiene FAQ scripts found 2026-10-05→10-12. Adjacent gray-market enforcement densified (Anvisa research-peptide ban 6 Oct incl. Retatrutide; GloboNews tirzepatide-powder recirculation 10 Oct) but does not close Semavy-specific RD FAQ densification. Timeframe 1–3 weeks largely elapsed.",
+     "rationale": "Frozen trajectory: RD FAQ on Rx-legal sale, illegal consumer ads, T2DM≠aesthetic, no amplification, food-first companion counseling. Official FAQ content exists and social cooled as expected, but dense RD-specific FAQ production still unmeasured → PARTIAL (same).",
+     "sources_checked": [
+      "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-propaganda-da-caneta-semavy",
+      "https://www.infomoney.com.br/business/hypera-diz-que-tomou-acoes-necessarias-apos-anvisa-proibir-propaganda-da-semavy/",
+      "https://www.poder360.com.br/poder-saude/anvisa-proibe-canetas-de-tirzepatida-e-retatrutida-sem-registro/",
+      "file:///workspace/nutritrend/discovery/x_propagation_2026-10-12.md",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-12.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "prior_result": "PARTIAL",
+     "x_counts": {
+      "source": "x_propagation_2026-10-12 (morning radar; reused, no new spend)",
+      "semavy_anvisa_7d": 0
+     },
+     "_source_file": "reviews/NT-2026-09-28-03_plus14_2026-10-12.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Roteiros de FAQ de nutricionistas: venda ainda legal com receita; propaganda ao consumidor de canetas GLP-1 tarja-vermelha ilegal (Lei 6.360/1976); indicação de rótulo DM2 ≠ criativo estético de aeroporto; não amplificar anúncios residuais de academia/farmácia; aconselhamento alimentar complementar permanece baseado em evidência, não obrigatório de marca",
+      "prediction_timeframe": "1–3 semanas para FAQ profissional BR denso",
+      "evidence_summary": "Na janela de +14, o substrato de FAQ do Semavy RE 3.750 persistiu como recirculação de arquivo/oficial (Anvisa 'proíbe propaganda da caneta Semavy'; conformidade Hypera 'medidas necessárias' via InfoMoney 29/set; Bloomberg Línea/Meio e Saúde). X ao vivo Semavy×Anvisa 7d=0 (totalmente esfriado de 36→6 no +7→0). Nenhum roteiro novo e datado de FAQ de higiene de indicação/publicidade por nutricionista encontrado em 2026-10-05→10-12. Fiscalização adjacente de mercado cinza densificou (proibição Anvisa de peptídeos de pesquisa em 6/out incl. Retatrutide; recirculação GloboNews de pó de tirzepatida em 10/out), mas não fecha a densificação de FAQ específico do Semavy. Prazo de 1–3 semanas em grande parte esgotado.",
+      "rationale": "Trajetória congelada: FAQ de nutricionistas sobre venda legal com Rx, propaganda ilegal ao consumidor, DM2≠estética, sem amplificação, aconselhamento complementar comida-primeiro. O FAQ oficial existe e o social esfriou como esperado, mas a produção densa de FAQ específico de nutricionistas ainda não foi medida → PARTIAL (igual)."
+     },
+     "_translated_at": "2026-10-12T11:30:00-03:00"
     }
    ],
    "observations": [
@@ -14800,6 +14971,35 @@
       "stage_now": "Brazil Growing → cooling (social rolled off)",
       "recommended_action": "Manter o FAQ no arquivo do pacote; sem novo impulso. Rechecar densidade de FAQ de nutricionistas no +14."
      }
+    },
+    {
+     "observation_date": "2026-10-12",
+     "trend_id": "NT-2026-09-28-03",
+     "cohort_id": "cohort_004",
+     "observation_type": "plus14_review_probe",
+     "stage_now": "Brazil Growing (cooled social; FAQ archive)",
+     "evidence_notes": "Semavy X 7d=0. Official Anvisa + Hypera conformidade archive persists. No new RD FAQ scripts in-window. Adjacent peptide-ban 6 Oct.",
+     "sources_found": [
+      "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-propaganda-da-caneta-semavy",
+      "https://www.infomoney.com.br/business/hypera-diz-que-tomou-acoes-necessarias-apos-anvisa-proibir-propaganda-da-semavy/",
+      "https://www.poder360.com.br/poder-saude/anvisa-proibe-canetas-de-tirzepatida-e-retatrutida-sem-registro/"
+     ],
+     "notes": "plus14 result=PARTIAL (prior PARTIAL); see reviews/NT-2026-09-28-03_plus14_2026-10-12.json",
+     "recommended_action": "Keep one-pager FAQ (venda com Rx legal; propaganda ao consumidor ilegal). At +30 treat as residual unless new Hypera/Anvisa act.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "source": "x_propagation_2026-10-12 (morning radar; reused, no new spend)",
+      "semavy_anvisa_7d": 0
+     },
+     "_source_file": "observations/2026-10-12.jsonl",
+     "_line": 3,
+     "_pt": {
+      "evidence_notes": "X Semavy 7d=0. Arquivo oficial Anvisa + conformidade Hypera persiste. Nenhum roteiro novo de FAQ de nutricionista na janela. Proibição adjacente de peptídeos em 6/out.",
+      "notes": "Resultado +14 = PARTIAL (anterior PARTIAL); ver reviews/NT-2026-09-28-03_plus14_2026-10-12.json",
+      "stage_now": "Brazil Growing (social esfriado; FAQ em arquivo)",
+      "recommended_action": "Manter one-pager de FAQ (venda com Rx legal; propaganda ao consumidor ilegal). No +30 tratar como residual salvo novo ato Hypera/Anvisa."
+     }
     }
    ],
    "mentions": [],
@@ -14814,15 +15014,15 @@
      "plus_14": "2026-10-12",
      "plus_30": "2026-10-28"
     },
-    "next_review_date": "2026-10-12",
+    "next_review_date": "2026-10-28",
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-05",
+    "last_review_date": "2026-10-12",
     "last_result": "PARTIAL",
     "cohort_id": "cohort_004"
    },
    "cohort_id": "cohort_004",
    "latest_result": "PARTIAL",
-   "latest_review_date": "2026-10-05",
+   "latest_review_date": "2026-10-12",
    "status": "PARTIAL",
    "timeline": [
     {
@@ -14836,10 +15036,10 @@
     {
      "horizon": "plus_14",
      "due": "2026-10-12",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-10-12",
+     "review_id": "NT-2026-09-28-03_plus14_2026-10-12"
     },
     {
      "horizon": "plus_30",
@@ -14850,7 +15050,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-10-12"
+   "next_checkpoint": "2026-10-28"
   },
   {
    "id": "NT-2026-09-28-04",
@@ -15018,6 +15218,38 @@
       "rationale": "Trajetória congelada: explicadores de Supplement Watch sobre alegações recém-autorizadas, critérios de composição e advertências obrigatórias; desmistificação de nutricionistas colágeno ≠ hipertrofia. Sem evidência datada na janela além da recirculação de textos de trade anteriores ao congelamento; prazo de 2–6 semanas para lançamentos de SKU/alegações → INCONCLUSIVE no +7."
      },
      "_translated_at": "2026-10-05T10:45:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-28-04_plus14_2026-10-12",
+     "trend_id": "NT-2026-09-28-04",
+     "cohort_id": "cohort_004",
+     "review_horizon": "plus_14",
+     "review_date": "2026-10-12",
+     "timezone": "America/Sao_Paulo",
+     "result": "INCONCLUSIVE",
+     "frozen_predicted_trajectory": "Supplement Watch explainers on which claims are now authorized, composition gates, and mandatory warnings (6-MBOA: pregnant/lactating/children + psych/med consult; squalene/collagen/eggshell: pregnant/lactating/children; krill: children <4). RD myth-bust collagen joint claim ≠ hypertrophy protein.",
+     "prediction_confidence": "75%",
+     "prediction_timeframe": "2–6 weeks for brand SKU/claim rollouts; RD literacy sooner",
+     "prediction_freeze_date": "2026-09-28",
+     "evidence_summary": "In the +14 window, no new Supplement Watch explainer on IN 470 new constituents/claims (6-MBOA sleep claim + pregnancy/lactation/children + psych/med warnings; squalene; 3 kDa collagen ≥5 g joint claim; krill <4 y; eggshell membrane; L-cystine) dated 2026-09-28→10-12 found beyond pre-freeze trade recirculation (NutraIngredients 22 Sep; FTH; Fukuma). Adjacent novel-ingredient enforcement (PeptiStrong RE 3.967, DOU 9 Oct — fava peptide without food-safety evaluation) is a related Profile B signal but not the IN 470 package itself. No brand SKU/claim rollouts or RD collagen-joint≠hypertrophy myth-bust found. Timeframe 2–6 weeks still running.",
+     "rationale": "Frozen trajectory: Supplement Watch on authorized claims/gates/warnings + RD collagen myth-bust. Still no fresh in-window datapoint on the IN 470 package → INCONCLUSIVE (same); MISS risk rising at +30 if SKU/literacy still absent.",
+     "sources_checked": [
+      "https://www.fukumaadvogados.com.br/informativos/instrucao-normativa-define-alegacoes-e-rotulagem-de-suplementos/",
+      "https://g1.globo.com/saude/noticia/2026/10/09/anvisa-suspende-venda-e-determina-recolhimento-de-suplemento-peptistrong.ghtml",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-09.md",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-12.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "prior_result": "INCONCLUSIVE",
+     "_source_file": "reviews/NT-2026-09-28-04_plus14_2026-10-12.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Explicadores Supplement Watch sobre quais alegações estão autorizadas, portões de composição e advertências obrigatórias (6-MBOA: gestantes/lactantes/crianças + consulta psiq/médica; esqualeno/colágeno/membrana de ovo: gestantes/lactantes/crianças; krill: crianças <4). Desmistificação de nutricionistas: alegação articular de colágeno ≠ proteína para hipertrofia.",
+      "prediction_timeframe": "2–6 semanas para rollouts de SKU/alegação de marcas; letramento de nutricionistas mais cedo",
+      "evidence_summary": "Na janela de +14, nenhum explicador novo Supplement Watch sobre os novos constituintes/alegações da IN 470 (alegação de sono 6-MBOA + advertências gestação/lactação/crianças + consulta psiq/médica; esqualeno; colágeno 3 kDa ≥5 g alegação articular; krill <4 anos; membrana de ovo; L-cistina) datado de 2026-09-28→10-12 encontrado além da recirculação de trade pré-congelamento (NutraIngredients 22/set; FTH; Fukuma). Fiscalização adjacente de ingrediente novo (PeptiStrong RE 3.967, DOU 9/out — peptídeo de fava sem avaliação de segurança alimentar) é sinal Profile B relacionado, mas não o pacote da IN 470 em si. Nenhum rollout de SKU/alegação de marca nem desmistificação colágeno-articular≠hipertrofia por nutricionista encontrado. Prazo de 2–6 semanas ainda em curso.",
+      "rationale": "Trajetória congelada: Supplement Watch sobre alegações/portões/advertências autorizadas + desmistificação de colágeno por nutricionistas. Ainda sem datapoint fresco na janela sobre o pacote IN 470 → INCONCLUSIVE (igual); risco de MISS sobe no +30 se SKU/letramento seguir ausente."
+     },
+     "_translated_at": "2026-10-12T11:30:00-03:00"
     }
    ],
    "observations": [
@@ -15046,6 +15278,30 @@
       "stage_now": "Brazil Emerging",
       "recommended_action": "Aguardar; no +14 procurar as primeiras alegações de SKU com 6-MBOA / colágeno 3 kDa e explicadores sobre rótulos com advertências."
      }
+    },
+    {
+     "observation_date": "2026-10-12",
+     "trend_id": "NT-2026-09-28-04",
+     "cohort_id": "cohort_004",
+     "observation_type": "plus14_review_probe",
+     "stage_now": "Brazil Emerging (quiet; adjacent PeptiStrong enforcement)",
+     "evidence_notes": "No IN 470 constituents Supplement Watch in-window. PeptiStrong recall 9 Oct is adjacent novel-ingredient enforcement, not the package. Timeframe 2–6 wk still open.",
+     "sources_found": [
+      "https://www.fukumaadvogados.com.br/informativos/instrucao-normativa-define-alegacoes-e-rotulagem-de-suplementos/",
+      "https://g1.globo.com/saude/noticia/2026/10/09/anvisa-suspende-venda-e-determina-recolhimento-de-suplemento-peptistrong.ghtml"
+     ],
+     "notes": "plus14 result=INCONCLUSIVE (prior INCONCLUSIVE); see reviews/NT-2026-09-28-04_plus14_2026-10-12.json",
+     "recommended_action": "At +30 search brand claim rollouts (6-MBOA, 3 kDa collagen, krill) and RD warning literacy; MISS if still absent.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "_source_file": "observations/2026-10-12.jsonl",
+     "_line": 4,
+     "_pt": {
+      "evidence_notes": "Nenhum Supplement Watch de constituintes IN 470 na janela. Recall PeptiStrong 9/out é fiscalização adjacente de ingrediente novo, não o pacote. Prazo 2–6 sem ainda aberto.",
+      "notes": "Resultado +14 = INCONCLUSIVE (anterior INCONCLUSIVE); ver reviews/NT-2026-09-28-04_plus14_2026-10-12.json",
+      "stage_now": "Brazil Emerging (quieto; fiscalização PeptiStrong adjacente)",
+      "recommended_action": "No +30 buscar rollouts de alegação de marca (6-MBOA, colágeno 3 kDa, krill) e letramento de advertências por nutricionistas; MISS se seguir ausente."
+     }
     }
    ],
    "mentions": [
@@ -15068,15 +15324,15 @@
      "plus_14": "2026-10-12",
      "plus_30": "2026-10-28"
     },
-    "next_review_date": "2026-10-12",
+    "next_review_date": "2026-10-28",
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-05",
+    "last_review_date": "2026-10-12",
     "last_result": "INCONCLUSIVE",
     "cohort_id": "cohort_004"
    },
    "cohort_id": "cohort_004",
    "latest_result": "INCONCLUSIVE",
-   "latest_review_date": "2026-10-05",
+   "latest_review_date": "2026-10-12",
    "status": "ANALYZING",
    "timeline": [
     {
@@ -15090,10 +15346,10 @@
     {
      "horizon": "plus_14",
      "due": "2026-10-12",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "INCONCLUSIVE",
+     "review_date": "2026-10-12",
+     "review_id": "NT-2026-09-28-04_plus14_2026-10-12"
     },
     {
      "horizon": "plus_30",
@@ -15104,7 +15360,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-10-12"
+   "next_checkpoint": "2026-10-28"
   },
   {
    "id": "NT-2026-09-28-05",
@@ -15276,6 +15532,43 @@
       "rationale": "Trajetória congelada: scripts de nutricionistas nacional registrado vs mercado cinza, sem amplificar criativos ilegais/anúncios de preço, retenção de receita + letramento de indicação, TNM comida primeiro inalterada. O substrato de mercado/imprensa se adensou (guerra de preços + alertas de mercado cinza), mas scripts de autoria de nutricionistas ainda não têm evidência → PARTIAL no +7."
      },
      "_translated_at": "2026-10-05T10:45:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-28-05_plus14_2026-10-12",
+     "trend_id": "NT-2026-09-28-05",
+     "cohort_id": "cohort_004",
+     "review_horizon": "plus_14",
+     "review_date": "2026-10-12",
+     "timezone": "America/Sao_Paulo",
+     "result": "PARTIAL",
+     "frozen_predicted_trajectory": "RD scripts distinguishing registered national options vs gray-market (T36 family), without amplifying illegal consumer creatives or becoming price-comparison ads; reinforce Rx retention + indication literacy; food-first MNT unchanged by brand marketing climate",
+     "prediction_confidence": "70%",
+     "prediction_timeframe": "1–4 weeks for pharmacy/clinic FAQ density",
+     "prediction_freeze_date": "2026-09-28",
+     "evidence_summary": "In the +14 window, national semaglutide price/access substrate continued: pharmacy listings show Ozivy (EMS) and Semavy (Hypera) on shelves with wide price bands (Panvel Ozivy ~R$279–465 by dose; Semavy 1 mg pharmacy quotes ~R$684–719 as of early Oct); Semavy ad clamp remains in force (RE 3.750). Gray-market contrast densified via Anvisa 6 Oct research-peptide/pen ban (Tirzegen/Retagen/Retatrutide) and Valor Econômico 11 Oct food-system/canetas piece. No new dated RD scripts distinguishing registered national options vs gray-market without becoming price-comparison ads found. Food-first MNT climate unchanged by marketing clamp.",
+     "rationale": "Frozen trajectory: RD scripts registered-national vs gray-market, no illegal-ad amplification/price ads, Rx+indication literacy, food-first MNT. Market/press densified; RD clinic FAQ scripts still unmeasured → PARTIAL (same).",
+     "sources_checked": [
+      "https://www.panvel.com/panvel/espaco-da-marca/ozivy/15268",
+      "https://bula.com.br/index.php/preco/semavy-1mg-solucao-injetavel-subcutanea-1-sistema-de-aplicacao-preenchido-3ml-4-agulhas-7891142985217",
+      "https://www.poder360.com.br/poder-saude/anvisa-proibe-canetas-de-tirzepatida-e-retatrutida-sem-registro/",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-12.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "prior_result": "PARTIAL",
+     "x_counts": {
+      "source": "x_propagation_2026-10-12 (morning radar; reused, no new spend)",
+      "semavy_anvisa_7d": 0,
+      "peptidos_retatrutide_anvisa_7d": 10
+     },
+     "_source_file": "reviews/NT-2026-09-28-05_plus14_2026-10-12.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Roteiros de nutricionistas distinguindo opções nacionais registradas vs mercado cinza (família T36), sem amplificar criativos ilegais ao consumidor ou virar anúncio de comparação de preço; reforçar retenção de receita + letramento de indicação; MNT comida-primeiro inalterada pelo clima de marketing das marcas",
+      "prediction_timeframe": "1–4 semanas para densidade de FAQ em farmácia/clínica",
+      "evidence_summary": "Na janela de +14, o substrato nacional de preço/acesso à semaglutida continuou: listagens de farmácia mostram Ozivy (EMS) e Semavy (Hypera) nas prateleiras com faixas amplas de preço (Panvel Ozivy ~R$279–465 por dose; cotações Semavy 1 mg ~R$684–719 no início de out); o clamp de propaganda do Semavy permanece (RE 3.750). O contraste com mercado cinza densificou via proibição Anvisa de 6/out de peptídeos/canetas de pesquisa (Tirzegen/Retagen/Retatrutide) e peça do Valor Econômico de 11/out sobre sistema alimentar/canetas. Nenhum roteiro novo e datado de nutricionista distinguindo opções nacionais registradas vs mercado cinza sem virar anúncio de comparação de preço encontrado. Clima de MNT comida-primeiro inalterado pelo clamp de marketing.",
+      "rationale": "Trajetória congelada: roteiros de nutricionistas registrado-nacional vs mercado cinza, sem amplificação de anúncio ilegal/anúncios de preço, letramento de Rx+indicação, MNT comida-primeiro. Mercado/imprensa densificou; roteiros de FAQ clínico de nutricionistas ainda não medidos → PARTIAL (igual)."
+     },
+     "_translated_at": "2026-10-12T11:30:00-03:00"
     }
    ],
    "observations": [
@@ -15309,6 +15602,36 @@
       "stage_now": "Brazil Growing",
       "recommended_action": "Script do pacote: 'preço caiu ≠ indicação mudou' — nacional registrado vs mercado cinza, retenção de receita, sem comparação de preço. Rechecar no +14 (atenção à entrada de genéricos)."
      }
+    },
+    {
+     "observation_date": "2026-10-12",
+     "trend_id": "NT-2026-09-28-05",
+     "cohort_id": "cohort_004",
+     "observation_type": "plus14_review_probe",
+     "stage_now": "Brazil Growing",
+     "evidence_notes": "Ozivy/Semavy shelf+price presence continues; Semavy ads still banned. Gray-market peptide ban 6 Oct sharpens registered-vs-irregular contrast. RD counseling scripts unmeasured.",
+     "sources_found": [
+      "https://www.panvel.com/panvel/espaco-da-marca/ozivy/15268",
+      "https://bula.com.br/index.php/preco/semavy-1mg-solucao-injetavel-subcutanea-1-sistema-de-aplicacao-preenchido-3ml-4-agulhas-7891142985217",
+      "https://www.poder360.com.br/poder-saude/anvisa-proibe-canetas-de-tirzepatida-e-retatrutida-sem-registro/"
+     ],
+     "notes": "plus14 result=PARTIAL (prior PARTIAL); see reviews/NT-2026-09-28-05_plus14_2026-10-12.json",
+     "recommended_action": "Pack: registered national pens vs irregular peptides/pens (no price-ad tone). Re-check clinic FAQ density at +30.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "source": "x_propagation_2026-10-12 (morning radar; reused, no new spend)",
+      "semavy_anvisa_7d": 0,
+      "peptidos_retatrutide_anvisa_7d": 10
+     },
+     "_source_file": "observations/2026-10-12.jsonl",
+     "_line": 5,
+     "_pt": {
+      "evidence_notes": "Presença de Ozivy/Semavy em prateleira+preço continua; propaganda Semavy ainda banida. Proibição de peptídeos de 6/out aguça o contraste registrado-vs-irregular. Roteiros de aconselhamento de nutricionistas não medidos.",
+      "notes": "Resultado +14 = PARTIAL (anterior PARTIAL); ver reviews/NT-2026-09-28-05_plus14_2026-10-12.json",
+      "stage_now": "Brazil Growing",
+      "recommended_action": "Pacote: canetas nacionais registradas vs peptídeos/canetas irregulares (sem tom de anúncio de preço). Rechecar densidade de FAQ clínico no +30."
+     }
     }
    ],
    "mentions": [],
@@ -15323,15 +15646,15 @@
      "plus_14": "2026-10-12",
      "plus_30": "2026-10-28"
     },
-    "next_review_date": "2026-10-12",
+    "next_review_date": "2026-10-28",
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-05",
+    "last_review_date": "2026-10-12",
     "last_result": "PARTIAL",
     "cohort_id": "cohort_004"
    },
    "cohort_id": "cohort_004",
    "latest_result": "PARTIAL",
-   "latest_review_date": "2026-10-05",
+   "latest_review_date": "2026-10-12",
    "status": "PARTIAL",
    "timeline": [
     {
@@ -15345,10 +15668,10 @@
     {
      "horizon": "plus_14",
      "due": "2026-10-12",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-10-12",
+     "review_id": "NT-2026-09-28-05_plus14_2026-10-12"
     },
     {
      "horizon": "plus_30",
@@ -15359,7 +15682,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-10-12"
+   "next_checkpoint": "2026-10-28"
   },
   {
    "id": "NT-2026-09-28-06",
@@ -15521,6 +15844,42 @@
       "rationale": "Trajetória congelada: explicadores de nutricionistas BR sobre decisão compartilhada na interrupção, intensificação de proteína/RT na saída, reganho realista, enquadramento de cuidado crônico. Adensamento EN + voz parcial de nutricionista BR (músculo ↔ reganho após parar) está na direção certa; faltam explicadores BR explícitos de decisão compartilhada/rampa de saída → PARTIAL no +7 (prazo de 2–6 semanas)."
      },
      "_translated_at": "2026-10-05T10:45:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-28-06_plus14_2026-10-12",
+     "trend_id": "NT-2026-09-28-06",
+     "cohort_id": "cohort_004",
+     "review_horizon": "plus_14",
+     "review_date": "2026-10-12",
+     "timezone": "America/Sao_Paulo",
+     "result": "PARTIAL",
+     "frozen_predicted_trajectory": "BR RD explainers on shared decision-making for discontinuation, intensified protein/RT during off-ramp, realistic regain expectations, and chronic-care framing — without fatalism or brand lock-in",
+     "prediction_confidence": "65%",
+     "prediction_timeframe": "2–6 weeks for BR professional content densification",
+     "prediction_freeze_date": "2026-09-28",
+     "evidence_summary": "In the +14 window, discontinuation/regain MNT densification remained mostly EN + partial BR professional voice: Nutritotal PRO 'Manejo nutricional na era dos agonistas de GLP-1' (11 Aug, pre-freeze but recirculating) cites EASO/EFAD/ECPO consensus and frames protein 1.2–1.6 g/kg AjBW + RT 2–3×/wk + micronutrient labs; Valor Econômico (11 Oct) chronic food-system/canetas framing. No new dated BR RD explainer specifically on shared decision-making for discontinuation, intensified protein/RT off-ramp, or realistic regain expectations found 2026-09-28→10-12. PT GLP-1 descontinuação stream q12=28 posts/72 h (thin). Timeframe 2–6 weeks still open.",
+     "rationale": "Frozen trajectory: BR RD explainers on SDM discontinuation, protein/RT off-ramp, realistic regain, chronic-care framing. Direction right via EN consensus + BR professional recirculation; explicit BR off-ramp SDM pieces still thin → PARTIAL (same).",
+     "sources_checked": [
+      "https://nutritotal.com.br/pro/manejo-nutricional-na-era-dos-agonistas-de-glp-1-o-que-devo-priorizar/",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-12.md",
+      "file:///workspace/nutritrend/discovery/x_propagation_2026-10-12.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "prior_result": "PARTIAL",
+     "x_counts": {
+      "source": "x_propagation_2026-10-12 (morning radar; reused, no new spend)",
+      "en_glp1_protein_7d": 631,
+      "pt_caneta_protein_7d": 49
+     },
+     "_source_file": "reviews/NT-2026-09-28-06_plus14_2026-10-12.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Explicadores de nutricionistas BR sobre decisão compartilhada na descontinuação, proteína/RT intensificados na saída, expectativas realistas de reganho e enquadramento de cuidado crônico — sem fatalismo nem aprisionamento a marca",
+      "prediction_timeframe": "2–6 semanas para densificação de conteúdo profissional BR",
+      "evidence_summary": "Na janela de +14, a densificação de MNT de descontinuação/reganho permaneceu sobretudo EN + voz profissional BR parcial: Nutritotal PRO 'Manejo nutricional na era dos agonistas de GLP-1' (11/ago, pré-congelamento mas recirculando) cita o consenso EASO/EFAD/ECPO e enquadra proteína 1,2–1,6 g/kg AjBW + RT 2–3×/sem + exames de micronutrientes; Valor Econômico (11/out) traz enquadramento crônico de sistema alimentar/canetas. Nenhum explicador novo e datado de nutricionista BR especificamente sobre decisão compartilhada na descontinuação, proteína/RT intensificados na saída ou expectativas realistas de reganho encontrado em 2026-09-28→10-12. Stream PT GLP-1 descontinuação q12=28 posts/72 h (ralo). Prazo 2–6 semanas ainda aberto.",
+      "rationale": "Trajetória congelada: explicadores de nutricionistas BR sobre SDM na descontinuação, off-ramp de proteína/RT, reganho realista, cuidado crônico. Direção correta via consenso EN + recirculação profissional BR; peças explícitas de SDM/off-ramp BR ainda ralas → PARTIAL (igual)."
+     },
+     "_translated_at": "2026-10-12T11:30:00-03:00"
     }
    ],
    "observations": [
@@ -15553,6 +15912,34 @@
       "stage_now": "Emerging",
       "recommended_action": "Ângulo do pacote: 'plano de saída da caneta' (decisão compartilhada, intensificação de proteína/RT, reganho realista). Rechecar explicadores de nutricionistas BR no +14."
      }
+    },
+    {
+     "observation_date": "2026-10-12",
+     "trend_id": "NT-2026-09-28-06",
+     "cohort_id": "cohort_004",
+     "observation_type": "plus14_review_probe",
+     "stage_now": "Emerging",
+     "evidence_notes": "Nutritotal GLP-1 MNT guide (protein/RT/micros; cites EASO) recirculates. Valor 11 Oct chronic canetas framing. No new BR SDM/off-ramp explainer dated in-window.",
+     "sources_found": [
+      "https://nutritotal.com.br/pro/manejo-nutricional-na-era-dos-agonistas-de-glp-1-o-que-devo-priorizar/"
+     ],
+     "notes": "plus14 result=PARTIAL (prior PARTIAL); see reviews/NT-2026-09-28-06_plus14_2026-10-12.json",
+     "recommended_action": "Pack: off-ramp checklist (SDM with prescriber, protein+RT, regain expectations). Watch Nutritotal/Dietbox updates at +30.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "source": "x_propagation_2026-10-12 (morning radar; reused, no new spend)",
+      "en_glp1_protein_7d": 631,
+      "pt_caneta_protein_7d": 49
+     },
+     "_source_file": "observations/2026-10-12.jsonl",
+     "_line": 6,
+     "_pt": {
+      "evidence_notes": "Guia Nutritotal de MNT GLP-1 (proteína/RT/micros; cita EASO) recircula. Valor 11/out enquadramento crônico de canetas. Nenhum explicador novo BR de SDM/off-ramp datado na janela.",
+      "notes": "Resultado +14 = PARTIAL (anterior PARTIAL); ver reviews/NT-2026-09-28-06_plus14_2026-10-12.json",
+      "stage_now": "Emerging",
+      "recommended_action": "Pacote: checklist de off-ramp (SDM com prescritor, proteína+RT, expectativas de reganho). Observar atualizações Nutritotal/Dietbox no +30."
+     }
     }
    ],
    "mentions": [
@@ -15575,15 +15962,15 @@
      "plus_14": "2026-10-12",
      "plus_30": "2026-10-28"
     },
-    "next_review_date": "2026-10-12",
+    "next_review_date": "2026-10-28",
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-05",
+    "last_review_date": "2026-10-12",
     "last_result": "PARTIAL",
     "cohort_id": "cohort_004"
    },
    "cohort_id": "cohort_004",
    "latest_result": "PARTIAL",
-   "latest_review_date": "2026-10-05",
+   "latest_review_date": "2026-10-12",
    "status": "PARTIAL",
    "timeline": [
     {
@@ -15597,10 +15984,10 @@
     {
      "horizon": "plus_14",
      "due": "2026-10-12",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-10-12",
+     "review_id": "NT-2026-09-28-06_plus14_2026-10-12"
     },
     {
      "horizon": "plus_30",
@@ -15611,7 +15998,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-10-12"
+   "next_checkpoint": "2026-10-28"
   },
   {
    "id": "NT-2026-09-28-07",
@@ -15771,6 +16158,42 @@
       "rationale": "Trajetória congelada: checklists de nutricionistas sobre densidade de micronutrientes comida primeiro, exames seletivos (B12 especialmente com metformina), quando ONS/polivitamínico ajuda vs selo de marketing. Adensamento EN + pressão de marketing no varejo confirmam a necessidade, mas a localização em checklists de nutricionistas BR não tem evidência na janela → PARTIAL no +7."
      },
      "_translated_at": "2026-10-05T10:45:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-28-07_plus14_2026-10-12",
+     "trend_id": "NT-2026-09-28-07",
+     "cohort_id": "cohort_004",
+     "review_horizon": "plus_14",
+     "review_date": "2026-10-12",
+     "timezone": "America/Sao_Paulo",
+     "result": "PARTIAL",
+     "frozen_predicted_trajectory": "RD checklists: food-first micronutrient density, selective labs (B12 especially with metformin), when ONS/MVM helps vs marketing seal — without rewriting NT-21-03 Nestlé prediction",
+     "prediction_confidence": "68%",
+     "prediction_timeframe": "1–4 weeks for BR FAQ content tied to Nestlé seal questions",
+     "prediction_freeze_date": "2026-09-28",
+     "evidence_summary": "In the +14 window, micronutrient-on-GLP-1 checklist components densified in BR professional recirculation: Nutritotal (11 Aug guide) tables selective labs (D, B12, iron, zinc; thiamine if persistent vomiting) and when MVM helps if intake <1,200 kcal — food-first framing, not brand-mandatory ONS. Adjacent Anvisa 9 Oct alert that supplements do not treat insulin resistance (berberina/Mg/mio-inositol) reinforces claim literacy vs marketing. Forbes Brasil 6 Oct (CFN president Manuela Dolinsky) pushes back on protein-excess/label marketing. No new dated Nestlé-seal-vs-density RD FAQ specifically closing this prediction. EN band GLP-1×protein 7d=631.",
+     "rationale": "Frozen trajectory: RD checklists food-first micros, selective labs, when ONS/MVM helps vs marketing seal. Checklist substance exists in BR pro channels; Nestlé-seal-specific FAQ still thin → PARTIAL (same).",
+     "sources_checked": [
+      "https://nutritotal.com.br/pro/manejo-nutricional-na-era-dos-agonistas-de-glp-1-o-que-devo-priorizar/",
+      "https://forbes.com.br/forbes-mkt/2026/10/proteina-vira-argumento-de-venda-e-ganha-destaque-em-rotulos/",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-09.md",
+      "file:///workspace/nutritrend/discovery/x_propagation_2026-10-12.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "prior_result": "PARTIAL",
+     "x_counts": {
+      "source": "x_propagation_2026-10-12 (morning radar; reused, no new spend)",
+      "en_glp1_protein_7d": 631
+     },
+     "_source_file": "reviews/NT-2026-09-28-07_plus14_2026-10-12.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Checklists de nutricionistas: densidade de micronutrientes comida-primeiro, exames seletivos (B12 sobretudo com metformina), quando ONS/polivitamínico ajuda vs selo de marketing — sem reescrever a previsão Nestlé NT-21-03",
+      "prediction_timeframe": "1–4 semanas para FAQ BR ligado a perguntas sobre o selo Nestlé",
+      "evidence_summary": "Na janela de +14, componentes de checklist de micronutrientes em GLP-1 densificaram na recirculação profissional BR: Nutritotal (guia 11/ago) tabela exames seletivos (D, B12, ferro, zinco; tiamina se vômitos persistentes) e quando polivitamínico ajuda se ingestão <1.200 kcal — enquadramento comida-primeiro, não ONS obrigatório de marca. Alerta adjacente da Anvisa de 9/out de que suplementos não tratam resistência à insulina (berberina/Mg/mio-inositol) reforça letramento de alegação vs marketing. Forbes Brasil 6/out (presidenta do CFN Manuela Dolinsky) reage ao excesso de proteína/marketing de rótulo. Nenhum FAQ novo e datado selo-Nestlé-vs-densidade de nutricionista fechando especificamente esta previsão. Faixa EN GLP-1×proteína 7d=631.",
+      "rationale": "Trajetória congelada: checklists de nutricionistas micros comida-primeiro, exames seletivos, quando ONS/MVM ajuda vs selo de marketing. Substância do checklist existe em canais pro BR; FAQ específico do selo Nestlé ainda ralo → PARTIAL (igual)."
+     },
+     "_translated_at": "2026-10-12T11:30:00-03:00"
     }
    ],
    "observations": [
@@ -15799,6 +16222,34 @@
       "stage_now": "Emerging",
       "recommended_action": "Pacote: checklist 'micronutrientes na caneta' (comida primeiro, B12 com metformina, exames quando indicados, selo ≠ indicação). Rechecar no +14."
      }
+    },
+    {
+     "observation_date": "2026-10-12",
+     "trend_id": "NT-2026-09-28-07",
+     "cohort_id": "cohort_004",
+     "observation_type": "plus14_review_probe",
+     "stage_now": "Emerging → Growing (checklist fragments)",
+     "evidence_notes": "Nutritotal micronutrient/MVM table recirculates. Anvisa IR-supplement alert 9 Oct + Forbes CFN protein-excess pushback. Nestlé-seal-specific FAQ still thin.",
+     "sources_found": [
+      "https://nutritotal.com.br/pro/manejo-nutricional-na-era-dos-agonistas-de-glp-1-o-que-devo-priorizar/",
+      "https://forbes.com.br/forbes-mkt/2026/10/proteina-vira-argumento-de-venda-e-ganha-destaque-em-rotulos/"
+     ],
+     "notes": "plus14 result=PARTIAL (prior PARTIAL); see reviews/NT-2026-09-28-07_plus14_2026-10-12.json",
+     "recommended_action": "Pack: food-first micros checklist (B12/D/Fe/Zn) vs brand ONS seal. Re-check Nestlé/competitor seal explainers at +30.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "source": "x_propagation_2026-10-12 (morning radar; reused, no new spend)",
+      "en_glp1_protein_7d": 631
+     },
+     "_source_file": "observations/2026-10-12.jsonl",
+     "_line": 7,
+     "_pt": {
+      "evidence_notes": "Tabela Nutritotal de micronutrientes/MVM recircula. Alerta Anvisa de suplementos para RI em 9/out + reação Forbes/CFN ao excesso de proteína. FAQ específico do selo Nestlé ainda ralo.",
+      "notes": "Resultado +14 = PARTIAL (anterior PARTIAL); ver reviews/NT-2026-09-28-07_plus14_2026-10-12.json",
+      "stage_now": "Emerging → Growing (fragmentos de checklist)",
+      "recommended_action": "Pacote: checklist de micros comida-primeiro (B12/D/Fe/Zn) vs selo ONS de marca. Rechecar explicadores de selo Nestlé/concorrentes no +30."
+     }
     }
    ],
    "mentions": [],
@@ -15813,15 +16264,15 @@
      "plus_14": "2026-10-12",
      "plus_30": "2026-10-28"
     },
-    "next_review_date": "2026-10-12",
+    "next_review_date": "2026-10-28",
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-05",
+    "last_review_date": "2026-10-12",
     "last_result": "PARTIAL",
     "cohort_id": "cohort_004"
    },
    "cohort_id": "cohort_004",
    "latest_result": "PARTIAL",
-   "latest_review_date": "2026-10-05",
+   "latest_review_date": "2026-10-12",
    "status": "PARTIAL",
    "timeline": [
     {
@@ -15835,10 +16286,10 @@
     {
      "horizon": "plus_14",
      "due": "2026-10-12",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-10-12",
+     "review_id": "NT-2026-09-28-07_plus14_2026-10-12"
     },
     {
      "horizon": "plus_30",
@@ -15849,7 +16300,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-10-12"
+   "next_checkpoint": "2026-10-28"
   },
   {
    "id": "NT-2026-09-28-08",
@@ -16011,6 +16462,42 @@
       "rationale": "Trajetória congelada: conteúdo de alerta de nutricionistas/farmacêuticos — retatrutida não aprovada em lugar nenhum, distinta das canetas registradas e da T36, sem orientar aquisição. Nenhum adensamento específico de retatrutida na janela; o substrato regional (ANMAT) e de apreensões no Brasil é anterior à janela → INCONCLUSIVE no +7."
      },
      "_translated_at": "2026-10-05T10:45:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-28-08_plus14_2026-10-12",
+     "trend_id": "NT-2026-09-28-08",
+     "cohort_id": "cohort_004",
+     "review_horizon": "plus_14",
+     "review_date": "2026-10-12",
+     "timezone": "America/Sao_Paulo",
+     "result": "PARTIAL",
+     "frozen_predicted_trajectory": "RD/pharmacist red-flag content: retatrutide not approved anywhere; distinct from registered semaglutide pens and from T36 tirzepatide case; do not counsel sourcing; redirect to legal access + MNT",
+     "prediction_confidence": "72%",
+     "prediction_timeframe": "1–4 weeks for recurring FAQ content",
+     "prediction_freeze_date": "2026-09-28",
+     "evidence_summary": "In the +14 window, retatrutide 'not approved / irregular' enforcement densified sharply: Poder360 (6 Oct) reports Anvisa DOU ban/apreensão of research-labeled pens including Retagen 40 mg and Retatrutide 40 mg (plus Tirzegen tirzepatide, BPC-157/TB-500, NAD+, GHK-Cu) sold via Peptídeos do Brasil / Peptídeos Pro — distinct from registered semaglutide pens. @endocrino_andre (10 Oct) noted the same Retatrutide 40 mg + peptide stack seizure combo (low reach, 149 imp). Pre-window Anvisa 'Retatrutida ainda NÃO está aprovada' (24 Jul) archive remains the education substrate. Dedicated new RD/pharmacist FAQ scripts still thin, but red-flag enforcement + pro note realize the core 'do not counsel sourcing / not approved' mechanism. PT peptídeos×Anvisa 7d=10.",
+     "rationale": "Frozen trajectory: RD/pharmacist red-flag — retatrutide not approved anywhere; distinct from registered pens and T36; no sourcing counsel. In-window Anvisa act naming Retatrutide + endocrinology pro note substantially advance the red-flag substrate; dense RD FAQ still incomplete → PARTIAL (upgrade from INCONCLUSIVE).",
+     "sources_checked": [
+      "https://www.poder360.com.br/poder-saude/anvisa-proibe-canetas-de-tirzepatida-e-retatrutida-sem-registro/",
+      "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-venda-de-insulina-e-tirzepatida-irregulares-1",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-06.md",
+      "file:///workspace/nutritrend/discovery/x_propagation_2026-10-12.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "prior_result": "INCONCLUSIVE",
+     "x_counts": {
+      "source": "x_propagation_2026-10-12 (morning radar; reused, no new spend)",
+      "peptidos_retatrutide_anvisa_7d": 10
+     },
+     "_source_file": "reviews/NT-2026-09-28-08_plus14_2026-10-12.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Conteúdo de alerta vermelho de nutricionistas/farmacêuticos: retatrutida não aprovada em nenhum lugar; distinta das canetas de semaglutida registradas e do caso T36 de tirzepatida; não aconselhar sourcing; redirecionar para acesso legal + MNT",
+      "prediction_timeframe": "1–4 semanas para FAQ recorrente",
+      "evidence_summary": "Na janela de +14, a fiscalização de retatrutida 'não aprovada / irregular' densificou com força: Poder360 (6/out) reporta banimento/apreensão no DOU da Anvisa de canetas rotuladas como pesquisa incluindo Retagen 40 mg e Retatrutide 40 mg (mais Tirzegen tirzepatida, BPC-157/TB-500, NAD+, GHK-Cu) vendidas via Peptídeos do Brasil / Peptídeos Pro — distintas das canetas de semaglutida registradas. @endocrino_andre (10/out) notou o mesmo combo de apreensão Retatrutide 40 mg + stack de peptídeos (baixo alcance, 149 imp). O arquivo pré-janela Anvisa 'Retatrutida ainda NÃO está aprovada' (24/jul) permanece o substrato de educação. Roteiros novos dedicados de FAQ de nutricionistas/farmacêuticos ainda ralos, mas a fiscalização de alerta vermelho + nota profissional realizam o mecanismo central 'não aconselhar sourcing / não aprovada'. PT peptídeos×Anvisa 7d=10.",
+      "rationale": "Trajetória congelada: alerta vermelho de nutricionistas/farmacêuticos — retatrutida não aprovada em nenhum lugar; distinta de canetas registradas e do T36; sem aconselhar sourcing. O ato Anvisa na janela nomeando Retatrutide + nota de endocrinologia avançam substancialmente o substrato de alerta vermelho; FAQ denso de nutricionistas ainda incompleto → PARTIAL (upgrade de INCONCLUSIVE)."
+     },
+     "_translated_at": "2026-10-12T11:30:00-03:00"
     }
    ],
    "observations": [
@@ -16039,6 +16526,34 @@
       "stage_now": "Brazil Growing (no fresh BR datapoint)",
       "recommended_action": "Manter a linha sobre retatrutida dentro do carrossel 'registrado vs irregular'; rechecar no +14."
      }
+    },
+    {
+     "observation_date": "2026-10-12",
+     "trend_id": "NT-2026-09-28-08",
+     "cohort_id": "cohort_004",
+     "observation_type": "plus14_review_probe",
+     "stage_now": "Brazil Growing (enforcement densification)",
+     "evidence_notes": "Anvisa 6 Oct DOU bans Retagen/Retatrutide 40 mg research pens + peptide stack. @endocrino_andre note 10 Oct. RD FAQ scripts still thin. X peptides×Anvisa 7d=10.",
+     "sources_found": [
+      "https://www.poder360.com.br/poder-saude/anvisa-proibe-canetas-de-tirzepatida-e-retatrutida-sem-registro/",
+      "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-venda-de-insulina-e-tirzepatida-irregulares-1"
+     ],
+     "notes": "plus14 result=PARTIAL (prior INCONCLUSIVE); see reviews/NT-2026-09-28-08_plus14_2026-10-12.json",
+     "recommended_action": "Pack: 'retatrutida não aprovada / peptídeo de pesquisa ≠ liberado' vs Semavy/Ozivy registered. Watch RD/pharmacist FAQ densification at +30.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "source": "x_propagation_2026-10-12 (morning radar; reused, no new spend)",
+      "peptidos_retatrutide_anvisa_7d": 10
+     },
+     "_source_file": "observations/2026-10-12.jsonl",
+     "_line": 8,
+     "_pt": {
+      "evidence_notes": "Anvisa 6/out no DOU bane canetas de pesquisa Retagen/Retatrutide 40 mg + stack de peptídeos. Nota @endocrino_andre 10/out. Roteiros de FAQ de nutricionistas ainda ralos. X peptídeos×Anvisa 7d=10.",
+      "notes": "Resultado +14 = PARTIAL (anterior INCONCLUSIVE); ver reviews/NT-2026-09-28-08_plus14_2026-10-12.json",
+      "stage_now": "Brazil Growing (densificação de fiscalização)",
+      "recommended_action": "Pacote: 'retatrutida não aprovada / peptídeo de pesquisa ≠ liberado' vs Semavy/Ozivy registrados. Observar densificação de FAQ de nutricionistas/farmacêuticos no +30."
+     }
     }
    ],
    "mentions": [],
@@ -16053,16 +16568,16 @@
      "plus_14": "2026-10-12",
      "plus_30": "2026-10-28"
     },
-    "next_review_date": "2026-10-12",
+    "next_review_date": "2026-10-28",
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-05",
-    "last_result": "INCONCLUSIVE",
+    "last_review_date": "2026-10-12",
+    "last_result": "PARTIAL",
     "cohort_id": "cohort_004"
    },
    "cohort_id": "cohort_004",
-   "latest_result": "INCONCLUSIVE",
-   "latest_review_date": "2026-10-05",
-   "status": "ANALYZING",
+   "latest_result": "PARTIAL",
+   "latest_review_date": "2026-10-12",
+   "status": "PARTIAL",
    "timeline": [
     {
      "horizon": "plus_7",
@@ -16075,10 +16590,10 @@
     {
      "horizon": "plus_14",
      "due": "2026-10-12",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-10-12",
+     "review_id": "NT-2026-09-28-08_plus14_2026-10-12"
     },
     {
      "horizon": "plus_30",
@@ -16089,7 +16604,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-10-12"
+   "next_checkpoint": "2026-10-28"
   },
   {
    "id": "NT-2026-09-28-09",
@@ -16251,6 +16766,38 @@
       "rationale": "Trajetória congelada: explicadores de nutricionistas — o suco de colágeno ajuda nos gramas de proteína/saciedade/adesão ao formato, mas é incompleto vs whey para hipertrofia, dentro da onda de bebidas funcionais transparentes. Sem evidência na janela; prazo de 2–6 semanas → INCONCLUSIVE no +7."
      },
      "_translated_at": "2026-10-05T10:45:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-28-09_plus14_2026-10-12",
+     "trend_id": "NT-2026-09-28-09",
+     "cohort_id": "cohort_004",
+     "review_horizon": "plus_14",
+     "review_date": "2026-10-12",
+     "timezone": "America/Sao_Paulo",
+     "result": "INCONCLUSIVE",
+     "frozen_predicted_trajectory": "RD explainers: collagen juice can help protein grams/satiety/format adherence but is incomplete vs whey/complete proteins for hypertrophy goals; place within NT-14-11 clear functional beverage wave without rewriting that freeze",
+     "prediction_confidence": "62%",
+     "prediction_timeframe": "2–6 weeks for BR RD myth-bust content",
+     "prediction_freeze_date": "2026-09-28",
+     "evidence_summary": "In the +14 window, no new collagen-protein juice / clear RTD launch or dated BR RD myth-bust (collagen juice incomplete vs whey for hypertrophy) found. Category substrate remains pre-window (Moving Juice Protein Feb 2026; Geração S Profruit; Prat's/Gelprime Aug). Radar 10-12 notes Rei do Mate whey/collagen drinks recirculation of an Apr 2026 retail launch — not October densification. Forbes 6 Oct protein-on-labels wave is adjacent protein-literacy but not collagen-juice-specific. Timeframe 2–6 weeks still mid-course.",
+     "rationale": "Frozen trajectory: RD explainers collagen juice helps grams/satiety but incomplete vs whey for hypertrophy. Still no fresh in-window datapoint → INCONCLUSIVE (same); MISS risk at +30 if myth-bust still absent.",
+     "sources_checked": [
+      "https://www.tetrapak.com/pt-br/about-tetra-pak/news-and-events/newsarchive/geracao-s-lanca-primeiro-suco-com-proteina-colageno-fibra-prebiotica-do-brasil",
+      "https://forbes.com.br/forbes-mkt/2026/10/proteina-vira-argumento-de-venda-e-ganha-destaque-em-rotulos/",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-12.md",
+      "file:///workspace/nutritrend/discovery/x_propagation_2026-10-12.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "prior_result": "INCONCLUSIVE",
+     "_source_file": "reviews/NT-2026-09-28-09_plus14_2026-10-12.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Explicadores de nutricionistas: suco de colágeno pode ajudar em gramas de proteína/saciedade/adesão de formato, mas é incompleto vs whey/proteínas completas para metas de hipertrofia; situar na onda de bebidas funcionais claras NT-14-11 sem reescrever aquele congelamento",
+      "prediction_timeframe": "2–6 semanas para conteúdo BR de desmistificação por nutricionistas",
+      "evidence_summary": "Na janela de +14, nenhum lançamento novo de suco com proteína de colágeno / RTD claro nem desmistificação datada de nutricionista BR (suco de colágeno incompleto vs whey para hipertrofia) encontrado. O substrato da categoria permanece pré-janela (Moving Juice Protein fev/2026; Geração S Profruit; Prat's/Gelprime ago). O radar 10-12 nota recirculação de bebidas whey/colágeno do Rei do Mate de um lançamento varejista de abr/2026 — não densificação de outubro. A onda Forbes 6/out de proteína em rótulos é letramento proteico adjacente, mas não específico de suco de colágeno. Prazo 2–6 semanas ainda a meio caminho.",
+      "rationale": "Trajetória congelada: explicadores de nutricionistas — suco de colágeno ajuda em gramas/saciedade mas é incompleto vs whey para hipertrofia. Ainda sem datapoint fresco na janela → INCONCLUSIVE (igual); risco de MISS no +30 se a desmistificação seguir ausente."
+     },
+     "_translated_at": "2026-10-12T11:30:00-03:00"
     }
    ],
    "observations": [
@@ -16278,6 +16825,30 @@
       "notes": "Resultado +7 = INCONCLUSIVE; ver reviews/NT-2026-09-28-09_plus7_2026-10-05.json",
       "stage_now": "Brazil Emerging → Growing (no fresh datapoint)",
       "recommended_action": "Card de desmistificação do pacote pronto ('suco de colágeno ≠ whey para hipertrofia'); rechecar lançamentos/conteúdo de nutricionistas no +14."
+     }
+    },
+    {
+     "observation_date": "2026-10-12",
+     "trend_id": "NT-2026-09-28-09",
+     "cohort_id": "cohort_004",
+     "observation_type": "plus14_review_probe",
+     "stage_now": "Brazil Emerging → Growing (quiet densification)",
+     "evidence_notes": "No new collagen-juice RD myth-bust or SKU launch in-window. Rei do Mate stream hit is Apr 2026 recirculation. Timeframe 2–6 wk still open.",
+     "sources_found": [
+      "https://www.tetrapak.com/pt-br/about-tetra-pak/news-and-events/newsarchive/geracao-s-lanca-primeiro-suco-com-proteina-colageno-fibra-prebiotica-do-brasil",
+      "https://forbes.com.br/forbes-mkt/2026/10/proteina-vira-argumento-de-venda-e-ganha-destaque-em-rotulos/"
+     ],
+     "notes": "plus14 result=INCONCLUSIVE (prior INCONCLUSIVE); see reviews/NT-2026-09-28-09_plus14_2026-10-12.json",
+     "recommended_action": "At +30 search RD 'colágeno ≠ whey para hipertrofia' explainers and new clear RTD SKUs; MISS if still absent.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "_source_file": "observations/2026-10-12.jsonl",
+     "_line": 9,
+     "_pt": {
+      "evidence_notes": "Nenhuma desmistificação nova de suco de colágeno por nutricionista nem lançamento de SKU na janela. Hit de stream do Rei do Mate é recirculação de abr/2026. Prazo 2–6 sem ainda aberto.",
+      "notes": "Resultado +14 = INCONCLUSIVE (anterior INCONCLUSIVE); ver reviews/NT-2026-09-28-09_plus14_2026-10-12.json",
+      "stage_now": "Brazil Emerging → Growing (densificação quieta)",
+      "recommended_action": "No +30 buscar explicadores de nutricionistas 'colágeno ≠ whey para hipertrofia' e novos SKUs de RTD claro; MISS se seguir ausente."
      }
     }
    ],
@@ -16308,15 +16879,15 @@
      "plus_14": "2026-10-12",
      "plus_30": "2026-10-28"
     },
-    "next_review_date": "2026-10-12",
+    "next_review_date": "2026-10-28",
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-05",
+    "last_review_date": "2026-10-12",
     "last_result": "INCONCLUSIVE",
     "cohort_id": "cohort_004"
    },
    "cohort_id": "cohort_004",
    "latest_result": "INCONCLUSIVE",
-   "latest_review_date": "2026-10-05",
+   "latest_review_date": "2026-10-12",
    "status": "ANALYZING",
    "timeline": [
     {
@@ -16330,10 +16901,10 @@
     {
      "horizon": "plus_14",
      "due": "2026-10-12",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "INCONCLUSIVE",
+     "review_date": "2026-10-12",
+     "review_id": "NT-2026-09-28-09_plus14_2026-10-12"
     },
     {
      "horizon": "plus_30",
@@ -16344,7 +16915,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-10-12"
+   "next_checkpoint": "2026-10-28"
   },
   {
    "id": "NT-2026-09-28-10",
@@ -16509,6 +17080,42 @@
       "rationale": "Trajetória congelada: diretrizes para criadores — educar sobre indicação, regras de receita, TNM comida primeiro sem recompartilhar criativos nem soar como anúncio de marca; vincular à CFN 856. Nenhum adensamento de ética de criadores na janela → INCONCLUSIVE no +7 (prazo de 1–3 semanas; risco de MISS no +14/+30 se seguir ausente)."
      },
      "_translated_at": "2026-10-05T10:45:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-28-10_plus14_2026-10-12",
+     "trend_id": "NT-2026-09-28-10",
+     "cohort_id": "cohort_004",
+     "review_horizon": "plus_14",
+     "review_date": "2026-10-12",
+     "timezone": "America/Sao_Paulo",
+     "result": "MISS",
+     "frozen_predicted_trajectory": "Creator guidelines: educate on indication, Rx rules, and food-first MNT without resharing airport/gym creatives or sounding like a brand ad; cross-link CFN 856 hygiene (NT-09-11) without rewriting it",
+     "prediction_confidence": "68%",
+     "prediction_timeframe": "1–3 weeks for creator-ethics posts in BR RD circles",
+     "prediction_freeze_date": "2026-09-28",
+     "evidence_summary": "In the +14 window, no CFN position note or dated RD creator-guideline content on not amplifying Semavy airport/gym creatives found. Semavy social fully dead (X Semavy×Anvisa 7d=0). Adjacent ethics signals exist but are different objects: Anvisa 9 Oct alert on professionals promoting supplements for insulin resistance (berberina/Mg/mio-inositol — claim literacy, not Rx-ad clamp); CFN Conexão 600 regional listening (CRN-8 Curitiba 8 Oct) for Res. 600/2018 review — process, not Semavy creator hygiene. Timeframe was 1–3 weeks for creator-ethics posts; at +14 that densification window has closed without the predicted content appearing. +7 review had flagged MISS risk at +14 if still absent.",
+     "rationale": "Frozen trajectory: creator guidelines educating on indication/Rx/food-first without resharing Semavy creatives; cross-link CFN 856. Predicted Semavy-specific creator-ethics densification never appeared; social urgency collapsed; 1–3 week timeframe elapsed → MISS (downgrade from INCONCLUSIVE).",
+     "sources_checked": [
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-08.md",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-12.md",
+      "file:///workspace/nutritrend/discovery/x_propagation_2026-10-12.md",
+      "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-propaganda-da-caneta-semavy"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "prior_result": "INCONCLUSIVE",
+     "x_counts": {
+      "source": "x_propagation_2026-10-12 (morning radar; reused, no new spend)",
+      "semavy_anvisa_7d": 0
+     },
+     "_source_file": "reviews/NT-2026-09-28-10_plus14_2026-10-12.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Diretrizes para criadores: educar sobre indicação, regras de receita e MNT comida-primeiro sem republicar criativos de aeroporto/academia nem soar como anúncio de marca; cruzar higiene CFN 856 (NT-09-11) sem reescrevê-la",
+      "prediction_timeframe": "1–3 semanas para posts de ética de criadores em círculos de nutricionistas BR",
+      "evidence_summary": "Na janela de +14, nenhuma nota de posição do CFN nem conteúdo datado de diretriz para criadores-nutricionistas sobre não amplificar criativos de aeroporto/academia do Semavy encontrado. O social do Semavy está totalmente morto (X Semavy×Anvisa 7d=0). Sinais éticos adjacentes existem, mas são objetos diferentes: alerta Anvisa de 9/out sobre profissionais promovendo suplementos para resistência à insulina (berberina/Mg/mio-inositol — letramento de alegação, não clamp de propaganda de Rx); escuta regional CFN Conexão 600 (CRN-8 Curitiba 8/out) para revisão da Res. 600/2018 — processo, não higiene de criadores Semavy. O prazo era 1–3 semanas para posts de ética de criadores; no +14 essa janela de densificação fechou sem o conteúdo previsto aparecer. A revisão +7 já havia sinalizado risco de MISS no +14 se seguisse ausente.",
+      "rationale": "Trajetória congelada: diretrizes para criadores educando sobre indicação/Rx/comida-primeiro sem republicar criativos Semavy; cruzar CFN 856. A densificação prevista de ética de criadores específica do Semavy nunca apareceu; a urgência social colapsou; o prazo de 1–3 semanas esgotou → MISS (downgrade de INCONCLUSIVE)."
+     },
+     "_translated_at": "2026-10-12T11:30:00-03:00"
     }
    ],
    "observations": [
@@ -16541,6 +17148,33 @@
       "stage_now": "Brazil Emerging (no fresh datapoint)",
       "recommended_action": "Pacote: checklist curto de ética para criadores (CFN 856 + Lei 6.360 art. 58). Rechecar no +14; risco de MISS se nada surgir até lá."
      }
+    },
+    {
+     "observation_date": "2026-10-12",
+     "trend_id": "NT-2026-09-28-10",
+     "cohort_id": "cohort_004",
+     "observation_type": "plus14_review_probe",
+     "stage_now": "Dead/False Positive (Semavy creator-ethics wave)",
+     "evidence_notes": "No Semavy creator-ethics posts in +14. X Semavy=0. Adjacent Anvisa IR-supplement professional-video alert and CFN Conexão 600 are different objects. Timeframe 1–3 wk closed.",
+     "sources_found": [
+      "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-propaganda-da-caneta-semavy"
+     ],
+     "notes": "plus14 result=MISS (prior INCONCLUSIVE); see reviews/NT-2026-09-28-10_plus14_2026-10-12.json",
+     "recommended_action": "Close Semavy-specific creator clamp as MISS; carry general CFN 856/publicidade prep under NT-2026-10-05-10 instead.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "source": "x_propagation_2026-10-12 (morning radar; reused, no new spend)",
+      "semavy_anvisa_7d": 0
+     },
+     "_source_file": "observations/2026-10-12.jsonl",
+     "_line": 10,
+     "_pt": {
+      "evidence_notes": "Nenhum post de ética de criadores Semavy no +14. X Semavy=0. Alerta adjacente Anvisa de vídeos profissionais sobre RI e CFN Conexão 600 são objetos diferentes. Prazo 1–3 sem fechado.",
+      "notes": "Resultado +14 = MISS (anterior INCONCLUSIVE); ver reviews/NT-2026-09-28-10_plus14_2026-10-12.json",
+      "stage_now": "Dead/False Positive (onda de ética de criadores Semavy)",
+      "recommended_action": "Fechar o clamp de criadores específico do Semavy como MISS; carregar a preparação geral CFN 856/publicidade sob NT-2026-10-05-10."
+     }
     }
    ],
    "mentions": [],
@@ -16555,16 +17189,16 @@
      "plus_14": "2026-10-12",
      "plus_30": "2026-10-28"
     },
-    "next_review_date": "2026-10-12",
+    "next_review_date": "2026-10-28",
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-05",
-    "last_result": "INCONCLUSIVE",
+    "last_review_date": "2026-10-12",
+    "last_result": "MISS",
     "cohort_id": "cohort_004"
    },
    "cohort_id": "cohort_004",
-   "latest_result": "INCONCLUSIVE",
-   "latest_review_date": "2026-10-05",
-   "status": "ANALYZING",
+   "latest_result": "MISS",
+   "latest_review_date": "2026-10-12",
+   "status": "MISS",
    "timeline": [
     {
      "horizon": "plus_7",
@@ -16577,10 +17211,10 @@
     {
      "horizon": "plus_14",
      "due": "2026-10-12",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "MISS",
+     "review_date": "2026-10-12",
+     "review_id": "NT-2026-09-28-10_plus14_2026-10-12"
     },
     {
      "horizon": "plus_30",
@@ -16591,7 +17225,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-10-12"
+   "next_checkpoint": "2026-10-28"
   },
   {
    "id": "NT-2026-10-05-01",
@@ -16721,8 +17355,65 @@
     "translated_at": "2026-10-05T10:50:00-03:00",
     "source_file": "trends/NT-2026-10-05-01.json"
    },
-   "reviews": [],
-   "observations": [],
+   "reviews": [
+    {
+     "review_id": "NT-2026-10-05-01_plus7_2026-10-12",
+     "trend_id": "NT-2026-10-05-01",
+     "cohort_id": "cohort_005",
+     "review_horizon": "plus_7",
+     "review_date": "2026-10-12",
+     "timezone": "America/Sao_Paulo",
+     "result": "INCONCLUSIVE",
+     "frozen_predicted_trajectory": "BR trade + RD explainers on exact warning text, total-curcuminoid math (80–130 mg), association ban, and SAC/website interim disclosure; post-deadline enforcement/SKU cleanup questions; Supplement Watch hepatotoxicity literacy without demonizing culinary turmeric",
+     "prediction_confidence": "82%",
+     "prediction_timeframe": "1–3 weeks around ~22 Oct deadline for dense trade/RD content; consumer may lag",
+     "prediction_freeze_date": "2026-10-05",
+     "evidence_summary": "In the +7 window (2026-10-05→10-12), no new dated BR trade or RD explainer on IN 438/2026 cúrcuma adequacy (exact warning text, total-curcuminoid 80–130 mg math, association ban, SAC/website interim disclosure) found. Morning radars 10-06→10-12 repeatedly flag the ~22 Oct deadline as Watch with q26 cúrcuma stream silent (0 posts/72 h). Official Anvisa IN 438 page and LegisWeb text remain the pre-freeze substrate. Deadline densification window (1–3 weeks around ~22 Oct) has barely started.",
+     "rationale": "Frozen trajectory: trade+RD explainers around ~22 Oct deadline. Still no fresh in-window datapoint a week before deadline → INCONCLUSIVE at +7; expect densification at +14.",
+     "sources_checked": [
+      "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/anvisa-atualiza-regras-para-suplementos-que-contem-curcuma",
+      "https://www.legisweb.com.br/legislacao/?legislacao=494422",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-12.md",
+      "file:///workspace/nutritrend/discovery/x_propagation_2026-10-12.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "_source_file": "reviews/NT-2026-10-05-01_plus7_2026-10-12.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Explicadores de trade + nutricionistas BR sobre o texto exato da advertência, conta de curcuminoides totais (80–130 mg), proibição de associação e divulgação provisória via SAC/site; perguntas de fiscalização/limpeza de SKU pós-prazo; letramento Supplement Watch sobre hepatotoxicidade sem demonizar a cúrcuma culinária",
+      "prediction_timeframe": "1–3 semanas em torno do prazo de ~22/out para conteúdo trade/RD denso; o consumidor pode atrasar",
+      "evidence_summary": "Na janela de +7 (2026-10-05→10-12), nenhum explicador novo e datado de trade ou nutricionista BR sobre a adequação da IN 438/2026 de cúrcuma (texto exato da advertência, conta de curcuminoides totais 80–130 mg, proibição de associação, divulgação provisória SAC/site) encontrado. Radares 10-06→10-12 repetidamente marcam o prazo de ~22/out como Watch com o stream q26 de cúrcuma silencioso (0 posts/72 h). A página oficial da Anvisa sobre a IN 438 e o texto no LegisWeb permanecem o substrato pré-congelamento. A janela de densificação do prazo (1–3 semanas em torno de ~22/out) mal começou.",
+      "rationale": "Trajetória congelada: explicadores trade+nutricionistas em torno do prazo de ~22/out. Ainda sem datapoint fresco na janela uma semana antes do prazo → INCONCLUSIVE no +7; esperar densificação no +14."
+     },
+     "_translated_at": "2026-10-12T11:30:00-03:00"
+    }
+   ],
+   "observations": [
+    {
+     "observation_date": "2026-10-12",
+     "trend_id": "NT-2026-10-05-01",
+     "cohort_id": "cohort_005",
+     "observation_type": "plus7_review_probe",
+     "stage_now": "Brazil Growing (pre-deadline quiet)",
+     "evidence_notes": "IN 438 cúrcuma deadline ~22 Oct. No trade/RD deadline explainers in +7. q26 stream silent. Watch next week.",
+     "sources_found": [
+      "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/anvisa-atualiza-regras-para-suplementos-que-contem-curcuma",
+      "https://www.legisweb.com.br/legislacao/?legislacao=494422"
+     ],
+     "notes": "plus7 result=INCONCLUSIVE; see reviews/NT-2026-10-05-01_plus7_2026-10-12.json",
+     "recommended_action": "At +14 (2026-10-19) search trade compliance notes and Supplement Watch hepatotoxicity literacy around deadline week.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "_source_file": "observations/2026-10-12.jsonl",
+     "_line": 11,
+     "_pt": {
+      "evidence_notes": "Prazo IN 438 cúrcuma ~22/out. Nenhum explicador trade/RD de prazo no +7. Stream q26 silencioso. Observar na próxima semana.",
+      "notes": "Resultado +7 = INCONCLUSIVE; ver reviews/NT-2026-10-05-01_plus7_2026-10-12.json",
+      "stage_now": "Brazil Growing (quieto pré-prazo)",
+      "recommended_action": "No +14 (2026-10-19) buscar notas de conformidade de trade e letramento Supplement Watch de hepatotoxicidade na semana do prazo."
+     }
+    }
+   ],
    "mentions": [],
    "embedded_observation_log": [],
    "schedule": {
@@ -16735,24 +17426,24 @@
      "plus_14": "2026-10-19",
      "plus_30": "2026-11-04"
     },
-    "next_review_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
     "prediction_status": "frozen",
-    "last_review_date": null,
-    "last_result": null,
+    "last_review_date": "2026-10-12",
+    "last_result": "INCONCLUSIVE",
     "cohort_id": "cohort_005"
    },
    "cohort_id": "cohort_005",
-   "latest_result": null,
-   "latest_review_date": null,
+   "latest_result": "INCONCLUSIVE",
+   "latest_review_date": "2026-10-12",
    "status": "ANALYZING",
    "timeline": [
     {
      "horizon": "plus_7",
      "due": "2026-10-12",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "INCONCLUSIVE",
+     "review_date": "2026-10-12",
+     "review_id": "NT-2026-10-05-01_plus7_2026-10-12"
     },
     {
      "horizon": "plus_14",
@@ -16771,7 +17462,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-10-12"
+   "next_checkpoint": "2026-10-19"
   },
   {
    "id": "NT-2026-10-05-02",
@@ -16903,8 +17594,75 @@
     "translated_at": "2026-10-05T10:50:00-03:00",
     "source_file": "trends/NT-2026-10-05-02.json"
    },
-   "reviews": [],
-   "observations": [],
+   "reviews": [
+    {
+     "review_id": "NT-2026-10-05-02_plus7_2026-10-12",
+     "trend_id": "NT-2026-10-05-02",
+     "cohort_id": "cohort_005",
+     "review_horizon": "plus_7",
+     "review_date": "2026-10-12",
+     "timezone": "America/Sao_Paulo",
+     "result": "PARTIAL",
+     "frozen_predicted_trajectory": "RD correctives separating JISSN experimental 10 g protocol from food-first+RT standard care and from IN 470 authorized claim (>55 + regular RT); Supplement Watch posts on headline vs methods; patient FAQ cards; do not rewrite NT-28-01/02 predictions",
+     "prediction_confidence": "85%",
+     "prediction_timeframe": "1–3 weeks for dense RD corrective content; influencer remix may extend",
+     "prediction_freeze_date": "2026-10-05",
+     "evidence_summary": "In the +7 window, JISSN midlife creatine 'sem exercícios' media continued recirculating (O Povo 6 Oct after G1/Folha 3 Oct freeze-day wave). A partial corrective arrived via Purepeople (6 Oct): BRASNUTRI RD voice ties Anvisa IN 470 claim to regular resistance training and 3–5 g — implicitly separating authorized claim from sedentary-headline framing — but does not explicitly contrast JISSN 10 g experimental arms or publish Supplement Watch headline-vs-methods cards. No dense RD corrective FAQ cluster found. X creatina×alegação 7d=3; q22 creatina-sem-exercício PT stream 0 in 72 h.",
+     "rationale": "Frozen trajectory: RD correctives separating JISSN 10 g from food-first+RT and from IN 470 claim; FAQ cards. Media wave continues; IN 470+RT literacy is a partial corrective; explicit JISSN-vs-claim RD densification incomplete → PARTIAL at +7.",
+     "sources_checked": [
+      "https://www.opovo.com.br/noticias/saude/2026/10/06/creatina-ajuda-a-ganhar-musculos-mesmo-sem-exercicios-o-que-diz-a-ciencia.html",
+      "https://www.purepeople.com.br/noticia/posso-tomar-creatina-sem-treinar-anvisa-tem-regra-sobre-dieta-de-pessoas-com-55-anos-de-idade-ou-mais_a424976/1",
+      "https://g1.globo.com/saude/noticia/2026/10/03/creatina-ajuda-a-ganhar-musculos-mesmo-sem-exercicios-o-que-diz-a-ciencia.ghtml",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-06.md",
+      "file:///workspace/nutritrend/discovery/x_propagation_2026-10-12.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "source": "x_propagation_2026-10-12 (morning radar; reused, no new spend)",
+      "creatina_alegacao_in470_7d": 3
+     },
+     "_source_file": "reviews/NT-2026-10-05-02_plus7_2026-10-12.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Corretivos de nutricionistas separando o protocolo experimental JISSN de 10 g do cuidado padrão comida-primeiro+RT e da alegação autorizada IN 470 (>55 + RT regular); posts Supplement Watch manchete vs métodos; cartões de FAQ para pacientes; não reescrever previsões NT-28-01/02",
+      "prediction_timeframe": "1–3 semanas para conteúdo corretivo RD denso; remix de influenciadores pode estender",
+      "evidence_summary": "Na janela de +7, a mídia JISSN midlife creatina 'sem exercícios' continuou recirculando (O Povo 6/out após onda G1/Folha 3/out do dia do congelamento). Um corretivo parcial chegou via Purepeople (6/out): voz de nutricionista BRASNUTRI liga a alegação IN 470 da Anvisa a treino de resistência regular e 3–5 g — separando implicitamente a alegação autorizada do enquadramento de manchete sedentária — mas não contraste explicitamente os braços experimentais JISSN de 10 g nem publica cartões Supplement Watch manchete-vs-métodos. Nenhum cluster denso de FAQ corretivo de nutricionistas encontrado. X creatina×alegação 7d=3; stream q22 creatina-sem-exercício PT 0 em 72 h.",
+      "rationale": "Trajetória congelada: corretivos de nutricionistas separando JISSN 10 g de comida-primeiro+RT e da alegação IN 470; cartões de FAQ. A onda de mídia continua; o letramento IN 470+RT é um corretivo parcial; densificação explícita JISSN-vs-alegação incompleta → PARTIAL no +7."
+     },
+     "_translated_at": "2026-10-12T11:30:00-03:00"
+    }
+   ],
+   "observations": [
+    {
+     "observation_date": "2026-10-12",
+     "trend_id": "NT-2026-10-05-02",
+     "cohort_id": "cohort_005",
+     "observation_type": "plus7_review_probe",
+     "stage_now": "Brazil Growing",
+     "evidence_notes": "O Povo 6 Oct continues 'sem exercícios' wave. Purepeople 6 Oct brings IN 470+RT corrective voice. Explicit JISSN-vs-IN470 RD FAQ still thin.",
+     "sources_found": [
+      "https://www.opovo.com.br/noticias/saude/2026/10/06/creatina-ajuda-a-ganhar-musculos-mesmo-sem-exercicios-o-que-diz-a-ciencia.html",
+      "https://www.purepeople.com.br/noticia/posso-tomar-creatina-sem-treinar-anvisa-tem-regra-sobre-dieta-de-pessoas-com-55-anos-de-idade-ou-mais_a424976/1",
+      "https://g1.globo.com/saude/noticia/2026/10/03/creatina-ajuda-a-ganhar-musculos-mesmo-sem-exercicios-o-que-diz-a-ciencia.ghtml"
+     ],
+     "notes": "plus7 result=PARTIAL; see reviews/NT-2026-10-05-02_plus7_2026-10-12.json",
+     "recommended_action": "Pack: headline vs methods FAQ (10 g study ≠ IN 470 3–5 g + RT). Re-check RD correctives at +14.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "source": "x_propagation_2026-10-12 (morning radar; reused, no new spend)",
+      "creatina_alegacao_in470_7d": 3
+     },
+     "_source_file": "observations/2026-10-12.jsonl",
+     "_line": 12,
+     "_pt": {
+      "evidence_notes": "O Povo 6/out continua a onda 'sem exercícios'. Purepeople 6/out traz voz corretiva IN 470+RT. FAQ explícito JISSN-vs-IN470 de nutricionistas ainda ralo.",
+      "notes": "Resultado +7 = PARTIAL; ver reviews/NT-2026-10-05-02_plus7_2026-10-12.json",
+      "stage_now": "Brazil Growing",
+      "recommended_action": "Pacote: FAQ manchete vs métodos (estudo 10 g ≠ IN 470 3–5 g + RT). Rechecar corretivos de nutricionistas no +14."
+     }
+    }
+   ],
    "mentions": [
     {
      "observation_date": "2026-10-09",
@@ -16925,24 +17683,24 @@
      "plus_14": "2026-10-19",
      "plus_30": "2026-11-04"
     },
-    "next_review_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
     "prediction_status": "frozen",
-    "last_review_date": null,
-    "last_result": null,
+    "last_review_date": "2026-10-12",
+    "last_result": "PARTIAL",
     "cohort_id": "cohort_005"
    },
    "cohort_id": "cohort_005",
-   "latest_result": null,
-   "latest_review_date": null,
-   "status": "ANALYZING",
+   "latest_result": "PARTIAL",
+   "latest_review_date": "2026-10-12",
+   "status": "PARTIAL",
    "timeline": [
     {
      "horizon": "plus_7",
      "due": "2026-10-12",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-10-12",
+     "review_id": "NT-2026-10-05-02_plus7_2026-10-12"
     },
     {
      "horizon": "plus_14",
@@ -16961,7 +17719,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-10-12"
+   "next_checkpoint": "2026-10-19"
   },
   {
    "id": "NT-2026-10-05-03",
@@ -17095,8 +17853,68 @@
     "translated_at": "2026-10-05T10:50:00-03:00",
     "source_file": "trends/NT-2026-10-05-03.json"
    },
-   "reviews": [],
-   "observations": [],
+   "reviews": [
+    {
+     "review_id": "NT-2026-10-05-03_plus7_2026-10-12",
+     "trend_id": "NT-2026-10-05-03",
+     "cohort_id": "cohort_005",
+     "review_horizon": "plus_7",
+     "review_date": "2026-10-12",
+     "timezone": "America/Sao_Paulo",
+     "result": "PARTIAL",
+     "frozen_predicted_trajectory": "RD cost-aware protein counseling (food-first, dose-efficient whey, when isolate is worth it); Supplement Watch on format trade-offs; link to GLP-1 protein adequacy without claiming canetas uniquely caused the global dairy shock; do not rewrite NT-09-02/NT-14-07",
+     "prediction_confidence": "80%",
+     "prediction_timeframe": "2–6 weeks for ongoing price/FAQ content; structural relief multi-quarter",
+     "prediction_freeze_date": "2026-10-05",
+     "evidence_summary": "In the +7 window, whey price narrative densified on the commodity side: USDA AMS Dairy Market News (report 41, period 5–9 Oct) notes WPC80 mostly mid-$9s–$10s with lighter sales/bearish momentum while WPI firm in the $14s; Vesper trade notes describe sharp WPC80 declines in EU/US as buyers pause. Freeze-day Globo Rural (2 Oct) StoneX/MilkPoint BR spike piece (WPC80 ~R$180/kg Sep, +24% vs Jun; US WPC80 ~US$28k/t Aug) remains the BR consumer/trade anchor. Forbes Brasil 6 Oct (CFN president) food-first protein-excess literacy is adjacent. No new dated RD cost-aware whey counseling (when isolate worth it / dose-efficient whey / GLP-1 protein without blaming canetas for dairy shock) found. Stream q16 whey×preço inflated by promo bots.",
+     "rationale": "Frozen trajectory: RD cost-aware protein counseling + format trade-offs linked to GLP-1 protein adequacy. Price densification continuing (now with US WPC80 softening); RD counseling layer thin → PARTIAL at +7.",
+     "sources_checked": [
+      "https://globorural.globo.com/pecuaria/leite/noticia/2026/10/por-que-o-whey-protein-ficou-tao-caro-veja-o-que-explica-a-disparada.ghtml",
+      "https://www.ams.usda.gov/mnreports/ams_1053.pdf",
+      "https://forbes.com.br/forbes-mkt/2026/10/proteina-vira-argumento-de-venda-e-ganha-destaque-em-rotulos/",
+      "https://www.stonex.com/pt-br/insights/corrida-global-por-proteinas-pressiona-mercado-lacteo-stonex-brasil/",
+      "file:///workspace/nutritrend/discovery/x_propagation_2026-10-12.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "_source_file": "reviews/NT-2026-10-05-03_plus7_2026-10-12.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Aconselhamento proteico sensível a custo por nutricionistas (comida-primeiro, whey dose-eficiente, quando o isolado vale a pena); Supplement Watch sobre trade-offs de formato; ligar à adequação proteica em GLP-1 sem afirmar que as canetas causaram sozinhas o choque lácteo global; não reescrever NT-09-02/NT-14-07",
+      "prediction_timeframe": "2–6 semanas para conteúdo contínuo de preço/FAQ; alívio estrutural em vários trimestres",
+      "evidence_summary": "Na janela de +7, a narrativa de preço do whey densificou no lado commodity: USDA AMS Dairy Market News (relatório 41, período 5–9/out) nota WPC80 majoritariamente mid-$9s–$10s com vendas mais leves/momentum baixista enquanto WPI firme nos $14s; notas de trade Vesper descrevem quedas acentuadas de WPC80 na UE/EUA com compradores pausando. A peça Globo Rural (2/out) StoneX/MilkPoint do dia do congelamento (WPC80 ~R$180/kg em set, +24% vs jun; WPC80 EUA ~US$28 mil/t em ago) permanece a âncora BR de consumo/trade. Forbes Brasil 6/out (presidenta do CFN) letramento comida-primeiro sobre excesso de proteína é adjacente. Nenhum aconselhamento novo e datado de nutricionista sensível a custo de whey (quando o isolado vale / whey dose-eficiente / proteína em GLP-1 sem culpar canetas pelo choque lácteo) encontrado. Stream q16 whey×preço inflado por bots de promo.",
+      "rationale": "Trajetória congelada: aconselhamento proteico sensível a custo + trade-offs de formato ligados à adequação proteica em GLP-1. Densificação de preço continua (agora com WPC80 EUA amolecendo); camada de aconselhamento de nutricionistas rala → PARTIAL no +7."
+     },
+     "_translated_at": "2026-10-12T11:30:00-03:00"
+    }
+   ],
+   "observations": [
+    {
+     "observation_date": "2026-10-12",
+     "trend_id": "NT-2026-10-05-03",
+     "cohort_id": "cohort_005",
+     "observation_type": "plus7_review_probe",
+     "stage_now": "Brazil Growing",
+     "evidence_notes": "Globo Rural/StoneX freeze substrate + USDA AMS 8 Oct WPC80 softening + Forbes food-first protein literacy. RD whey cost counseling unmeasured.",
+     "sources_found": [
+      "https://globorural.globo.com/pecuaria/leite/noticia/2026/10/por-que-o-whey-protein-ficou-tao-caro-veja-o-que-explica-a-disparada.ghtml",
+      "https://www.ams.usda.gov/mnreports/ams_1053.pdf",
+      "https://forbes.com.br/forbes-mkt/2026/10/proteina-vira-argumento-de-venda-e-ganha-destaque-em-rotulos/",
+      "https://www.stonex.com/pt-br/insights/corrida-global-por-proteinas-pressiona-mercado-lacteo-stonex-brasil/"
+     ],
+     "notes": "plus7 result=PARTIAL; see reviews/NT-2026-10-05-03_plus7_2026-10-12.json",
+     "recommended_action": "Pack: food-first + dose-efficient whey; isolate premium only when lactose/volume matters; don't blame canetas alone. Watch BR retail price FAQ at +14.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "_source_file": "observations/2026-10-12.jsonl",
+     "_line": 13,
+     "_pt": {
+      "evidence_notes": "Substrato Globo Rural/StoneX do congelamento + USDA AMS 8/out WPC80 amolecendo + letramento Forbes comida-primeiro. Aconselhamento de custo de whey por nutricionistas não medido.",
+      "notes": "Resultado +7 = PARTIAL; ver reviews/NT-2026-10-05-03_plus7_2026-10-12.json",
+      "stage_now": "Brazil Growing",
+      "recommended_action": "Pacote: comida-primeiro + whey dose-eficiente; prêmio de isolado só quando lactose/volume importa; não culpar só as canetas. Observar FAQ de preço varejo BR no +14."
+     }
+    }
+   ],
    "mentions": [
     {
      "observation_date": "2026-10-09",
@@ -17117,24 +17935,24 @@
      "plus_14": "2026-10-19",
      "plus_30": "2026-11-04"
     },
-    "next_review_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
     "prediction_status": "frozen",
-    "last_review_date": null,
-    "last_result": null,
+    "last_review_date": "2026-10-12",
+    "last_result": "PARTIAL",
     "cohort_id": "cohort_005"
    },
    "cohort_id": "cohort_005",
-   "latest_result": null,
-   "latest_review_date": null,
-   "status": "ANALYZING",
+   "latest_result": "PARTIAL",
+   "latest_review_date": "2026-10-12",
+   "status": "PARTIAL",
    "timeline": [
     {
      "horizon": "plus_7",
      "due": "2026-10-12",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-10-12",
+     "review_id": "NT-2026-10-05-03_plus7_2026-10-12"
     },
     {
      "horizon": "plus_14",
@@ -17153,7 +17971,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-10-12"
+   "next_checkpoint": "2026-10-19"
   },
   {
    "id": "NT-2026-10-05-04",
@@ -17283,8 +18101,64 @@
     "translated_at": "2026-10-05T10:50:00-03:00",
     "source_file": "trends/NT-2026-10-05-04.json"
    },
-   "reviews": [],
-   "observations": [],
+   "reviews": [
+    {
+     "review_id": "NT-2026-10-05-04_plus7_2026-10-12",
+     "trend_id": "NT-2026-10-05-04",
+     "cohort_id": "cohort_005",
+     "review_horizon": "plus_7",
+     "review_date": "2026-10-12",
+     "timezone": "America/Sao_Paulo",
+     "result": "INCONCLUSIVE",
+     "frozen_predicted_trajectory": "EN→BR education densification of dietitian-led MNT checklist (protein, RT, micros, function, psychology); BR commercial playbooks may cite without full society endorsement — flag source hierarchy; do not overwrite NT-09-01 / NT-28-06/07",
+     "prediction_confidence": "70%",
+     "prediction_timeframe": "2–8 weeks for EN CME densification; BR formal society pickup Unknown",
+     "prediction_freeze_date": "2026-10-05",
+     "evidence_summary": "In the +7 window, no new dated EN CME or BR society pickup of the EASO–EFAD–ECPO Lancet D&E incretin MNT consensus beyond pre-freeze substrate. Nutritotal PRO (11 Aug) already cites the consensus for protein 1.2–1.6 g/kg + RT — pre-freeze relative to this cohort. No ABESO/CFN formal endorsement or new BR commercial playbook citing the consensus with source hierarchy found 2026-10-05→10-12. Timeframe 2–8 weeks for EN CME; BR formal pickup Unknown.",
+     "rationale": "Frozen trajectory: EN→BR densification of dietitian-led MNT checklist from EASO consensus. No fresh in-window densification datapoint → INCONCLUSIVE at +7.",
+     "sources_checked": [
+      "https://easo.org/nutritional-functional-and-psychological-considerations-for-obesity-management-medications-in-adults-an-easo-efad-and-ecpo-consensus-statement/",
+      "https://nutritotal.com.br/pro/manejo-nutricional-na-era-dos-agonistas-de-glp-1-o-que-devo-priorizar/",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-12.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "_source_file": "reviews/NT-2026-10-05-04_plus7_2026-10-12.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Densificação EN→BR de educação do checklist de MNT liderado por nutricionista (proteína, RT, micros, função, psicologia); playbooks comerciais BR podem citar sem endosso pleno de sociedades — sinalizar hierarquia de fontes; não sobrescrever NT-09-01 / NT-28-06/07",
+      "prediction_timeframe": "2–8 semanas para densificação de CME EN; adesão formal de sociedades BR Desconhecida",
+      "evidence_summary": "Na janela de +7, nenhuma adesão nova e datada de CME EN ou sociedade BR do consenso EASO–EFAD–ECPO Lancet D&E de MNT em incretinas além do substrato pré-congelamento. Nutritotal PRO (11/ago) já cita o consenso para proteína 1,2–1,6 g/kg + RT — pré-congelamento relativo a esta coorte. Nenhum endosso formal ABESO/CFN nem playbook comercial BR novo citando o consenso com hierarquia de fontes encontrado em 2026-10-05→10-12. Prazo 2–8 semanas para CME EN; adesão formal BR Desconhecida.",
+      "rationale": "Trajetória congelada: densificação EN→BR do checklist de MNT liderado por nutricionista a partir do consenso EASO. Sem datapoint fresco de densificação na janela → INCONCLUSIVE no +7."
+     },
+     "_translated_at": "2026-10-12T11:30:00-03:00"
+    }
+   ],
+   "observations": [
+    {
+     "observation_date": "2026-10-12",
+     "trend_id": "NT-2026-10-05-04",
+     "cohort_id": "cohort_005",
+     "observation_type": "plus7_review_probe",
+     "stage_now": "Migration Candidate",
+     "evidence_notes": "EASO consensus + Nutritotal citation are pre-freeze substrate. No new EN CME spike or BR society endorsement in +7.",
+     "sources_found": [
+      "https://easo.org/nutritional-functional-and-psychological-considerations-for-obesity-management-medications-in-adults-an-easo-efad-and-ecpo-consensus-statement/",
+      "https://nutritotal.com.br/pro/manejo-nutricional-na-era-dos-agonistas-de-glp-1-o-que-devo-priorizar/"
+     ],
+     "notes": "plus7 result=INCONCLUSIVE; see reviews/NT-2026-10-05-04_plus7_2026-10-12.json",
+     "recommended_action": "At +14/+30 watch EN CME slides and BR ABESO/CFN citation; flag commercial playbooks without society endorsement.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "_source_file": "observations/2026-10-12.jsonl",
+     "_line": 14,
+     "_pt": {
+      "evidence_notes": "Consenso EASO + citação Nutritotal são substrato pré-congelamento. Nenhum pico novo de CME EN nem endosso de sociedade BR no +7.",
+      "notes": "Resultado +7 = INCONCLUSIVE; ver reviews/NT-2026-10-05-04_plus7_2026-10-12.json",
+      "stage_now": "Migration Candidate",
+      "recommended_action": "No +14/+30 observar slides de CME EN e citação ABESO/CFN BR; sinalizar playbooks comerciais sem endosso de sociedade."
+     }
+    }
+   ],
    "mentions": [
     {
      "observation_date": "2026-10-09",
@@ -17312,24 +18186,24 @@
      "plus_14": "2026-10-19",
      "plus_30": "2026-11-04"
     },
-    "next_review_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
     "prediction_status": "frozen",
-    "last_review_date": null,
-    "last_result": null,
+    "last_review_date": "2026-10-12",
+    "last_result": "INCONCLUSIVE",
     "cohort_id": "cohort_005"
    },
    "cohort_id": "cohort_005",
-   "latest_result": null,
-   "latest_review_date": null,
+   "latest_result": "INCONCLUSIVE",
+   "latest_review_date": "2026-10-12",
    "status": "ANALYZING",
    "timeline": [
     {
      "horizon": "plus_7",
      "due": "2026-10-12",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "INCONCLUSIVE",
+     "review_date": "2026-10-12",
+     "review_id": "NT-2026-10-05-04_plus7_2026-10-12"
     },
     {
      "horizon": "plus_14",
@@ -17348,7 +18222,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-10-12"
+   "next_checkpoint": "2026-10-19"
   },
   {
    "id": "NT-2026-10-05-05",
@@ -17474,8 +18348,74 @@
     "translated_at": "2026-10-05T10:50:00-03:00",
     "source_file": "trends/NT-2026-10-05-05.json"
    },
-   "reviews": [],
-   "observations": [],
+   "reviews": [
+    {
+     "review_id": "NT-2026-10-05-05_plus7_2026-10-12",
+     "trend_id": "NT-2026-10-05-05",
+     "cohort_id": "cohort_005",
+     "review_horizon": "plus_7",
+     "review_date": "2026-10-12",
+     "timezone": "America/Sao_Paulo",
+     "result": "PARTIAL",
+     "frozen_predicted_trajectory": "RD explainers on absolute protein grams vs %kcal; screening who needs denser protein strategies; pushback on equating lean-mass loss with clinical sarcopenia (continuity NT-21-04); food-first before brand ONS",
+     "prediction_confidence": "72%",
+     "prediction_timeframe": "2–6 weeks EN clinical densification; BR Unknown",
+     "prediction_freeze_date": "2026-10-05",
+     "evidence_summary": "In the +7 window, absolute protein / lean-mass preservation framing densified mostly in EN + BR professional recirculation: Men's Health Mag (10 Oct) 'On a GLP-1? Here's How to Keep Muscle Even When You're Eating Less'; EN GLP-1×protein X 7d=631 (steady band); Nutritotal guide stresses absolute g/kg AjBW targets and lean-mass ≠ automatic sarcopenia nuance. Forbes 6 Oct food-first pushback on protein-excess marketing is adjacent. Dedicated new BR RD explainers on absolute grams vs %kcal and screening who needs denser strategies still thin. Timeframe 2–6 weeks EN densification open.",
+     "rationale": "Frozen trajectory: RD explainers absolute protein grams vs %kcal; screening denser strategies; pushback lean-mass≠sarcopenia; food-first before ONS. Direction right via EN consumer+pro and BR recirculation; BR absolute-grams FAQ incomplete → PARTIAL at +7.",
+     "sources_checked": [
+      "https://nutritotal.com.br/pro/manejo-nutricional-na-era-dos-agonistas-de-glp-1-o-que-devo-priorizar/",
+      "https://forbes.com.br/forbes-mkt/2026/10/proteina-vira-argumento-de-venda-e-ganha-destaque-em-rotulos/",
+      "file:///workspace/nutritrend/discovery/x_propagation_2026-10-12.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "source": "x_propagation_2026-10-12 (morning radar; reused, no new spend)",
+      "en_glp1_protein_7d": 631,
+      "pt_caneta_protein_7d": 49
+     },
+     "_source_file": "reviews/NT-2026-10-05-05_plus7_2026-10-12.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Explicadores de nutricionistas sobre gramas absolutas de proteína vs %kcal; triagem de quem precisa de estratégias proteicas mais densas; resistência a igualar perda de massa magra com sarcopenia clínica (continuidade NT-21-04); comida-primeiro antes de ONS de marca",
+      "prediction_timeframe": "2–6 semanas densificação clínica EN; BR Desconhecido",
+      "evidence_summary": "Na janela de +7, o enquadramento de proteína absoluta / preservação de massa magra densificou sobretudo em EN + recirculação profissional BR: Men's Health Mag (10/out) 'On a GLP-1? Here's How to Keep Muscle Even When You're Eating Less'; X EN GLP-1×proteína 7d=631 (faixa estável); guia Nutritotal enfatiza metas absolutas g/kg AjBW e nuance massa magra ≠ sarcopenia automática. Forbes 6/out reação comida-primeiro ao marketing de excesso de proteína é adjacente. Explicadores novos dedicados de nutricionistas BR sobre gramas absolutas vs %kcal e triagem de quem precisa de estratégias mais densas ainda ralos. Prazo 2–6 semanas de densificação EN aberto.",
+      "rationale": "Trajetória congelada: explicadores de nutricionistas gramas absolutas de proteína vs %kcal; triagem de estratégias mais densas; resistência massa magra≠sarcopenia; comida-primeiro antes de ONS. Direção correta via consumidor+pro EN e recirculação BR; FAQ BR de gramas absolutas incompleto → PARTIAL no +7."
+     },
+     "_translated_at": "2026-10-12T11:30:00-03:00"
+    }
+   ],
+   "observations": [
+    {
+     "observation_date": "2026-10-12",
+     "trend_id": "NT-2026-10-05-05",
+     "cohort_id": "cohort_005",
+     "observation_type": "plus7_review_probe",
+     "stage_now": "Emerging",
+     "evidence_notes": "EN Men's Health Mag 10 Oct keep-muscle + Nutritotal absolute g/kg framing. BR absolute-grams vs %kcal FAQ thin. EN X 7d=631.",
+     "sources_found": [
+      "https://nutritotal.com.br/pro/manejo-nutricional-na-era-dos-agonistas-de-glp-1-o-que-devo-priorizar/",
+      "https://forbes.com.br/forbes-mkt/2026/10/proteina-vira-argumento-de-venda-e-ganha-destaque-em-rotulos/"
+     ],
+     "notes": "plus7 result=PARTIAL; see reviews/NT-2026-10-05-05_plus7_2026-10-12.json",
+     "recommended_action": "Pack: absolute protein grams checklist + lean-mass≠sarcopenia. Watch BR RD explainers at +14.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "source": "x_propagation_2026-10-12 (morning radar; reused, no new spend)",
+      "en_glp1_protein_7d": 631,
+      "pt_caneta_protein_7d": 49
+     },
+     "_source_file": "observations/2026-10-12.jsonl",
+     "_line": 15,
+     "_pt": {
+      "evidence_notes": "EN Men's Health Mag 10/out keep-muscle + enquadramento Nutritotal g/kg absoluto. FAQ BR gramas absolutas vs %kcal ralo. X EN 7d=631.",
+      "notes": "Resultado +7 = PARTIAL; ver reviews/NT-2026-10-05-05_plus7_2026-10-12.json",
+      "stage_now": "Emerging",
+      "recommended_action": "Pacote: checklist de gramas absolutas de proteína + massa magra≠sarcopenia. Observar explicadores de nutricionistas BR no +14."
+     }
+    }
+   ],
    "mentions": [
     {
      "observation_date": "2026-10-09",
@@ -17496,24 +18436,24 @@
      "plus_14": "2026-10-19",
      "plus_30": "2026-11-04"
     },
-    "next_review_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
     "prediction_status": "frozen",
-    "last_review_date": null,
-    "last_result": null,
+    "last_review_date": "2026-10-12",
+    "last_result": "PARTIAL",
     "cohort_id": "cohort_005"
    },
    "cohort_id": "cohort_005",
-   "latest_result": null,
-   "latest_review_date": null,
-   "status": "ANALYZING",
+   "latest_result": "PARTIAL",
+   "latest_review_date": "2026-10-12",
+   "status": "PARTIAL",
    "timeline": [
     {
      "horizon": "plus_7",
      "due": "2026-10-12",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-10-12",
+     "review_id": "NT-2026-10-05-05_plus7_2026-10-12"
     },
     {
      "horizon": "plus_14",
@@ -17532,7 +18472,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-10-12"
+   "next_checkpoint": "2026-10-19"
   },
   {
    "id": "NT-2026-10-05-06",
@@ -17658,8 +18598,64 @@
     "translated_at": "2026-10-05T10:50:00-03:00",
     "source_file": "trends/NT-2026-10-05-06.json"
    },
-   "reviews": [],
-   "observations": [],
+   "reviews": [
+    {
+     "review_id": "NT-2026-10-05-06_plus7_2026-10-12",
+     "trend_id": "NT-2026-10-05-06",
+     "cohort_id": "cohort_005",
+     "review_horizon": "plus_7",
+     "review_date": "2026-10-12",
+     "timezone": "America/Sao_Paulo",
+     "result": "INCONCLUSIVE",
+     "frozen_predicted_trajectory": "RD literacy: biological plausibility ≠ proven GLP-1 protocol; keep NCT07625202 as research; prioritize protein+RT; separate from IN 470 claim and from JISSN midlife sedentary arm headlines",
+     "prediction_confidence": "78%",
+     "prediction_timeframe": "2–6 weeks FAQ densification; trial readout Unknown",
+     "prediction_freeze_date": "2026-10-05",
+     "evidence_summary": "In the +7 window, no new dated RD literacy separating Ostojic Clinical Nutrition creatine-for-GLP-1-lean-mass perspective (biological plausibility ≠ proven protocol; NCT07625202 still research) from IN 470 claim or JISSN midlife sedentary headlines found. Midlife creatine media (O Povo/Purepeople 6 Oct) discusses JISSN/IN 470 without GLP-1 co-admin framing. EN wellness creatine-on-Ozempic explainers exist as general web substrate but no fresh in-window densification tied to Ostojic/NCT measured. Timeframe 2–6 weeks FAQ densification open.",
+     "rationale": "Frozen trajectory: RD literacy plausibility≠protocol; keep NCT research; prioritize protein+RT; separate from IN 470/JISSN. No fresh in-window Ostojic FAQ datapoint → INCONCLUSIVE at +7.",
+     "sources_checked": [
+      "https://www.purepeople.com.br/noticia/posso-tomar-creatina-sem-treinar-anvisa-tem-regra-sobre-dieta-de-pessoas-com-55-anos-de-idade-ou-mais_a424976/1",
+      "https://www.opovo.com.br/noticias/saude/2026/10/06/creatina-ajuda-a-ganhar-musculos-mesmo-sem-exercicios-o-que-diz-a-ciencia.html",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-12.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "_source_file": "reviews/NT-2026-10-05-06_plus7_2026-10-12.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Letramento de nutricionistas: plausibilidade biológica ≠ protocolo GLP-1 comprovado; manter NCT07625202 como pesquisa; priorizar proteína+RT; separar da alegação IN 470 e das manchetes do braço sedentário midlife JISSN",
+      "prediction_timeframe": "2–6 semanas densificação de FAQ; readout do ensaio Desconhecido",
+      "evidence_summary": "Na janela de +7, nenhum letramento novo e datado de nutricionistas separando a perspectiva Ostojic Clinical Nutrition de creatina-para-perda-de-massa-magra-em-GLP-1 (plausibilidade biológica ≠ protocolo comprovado; NCT07625202 ainda pesquisa) da alegação IN 470 ou das manchetes sedentárias midlife JISSN encontrado. A mídia de creatina midlife (O Povo/Purepeople 6/out) discute JISSN/IN 470 sem enquadramento de coadministração GLP-1. Explicadores EN de bem-estar creatina-no-Ozempic existem como substrato web geral, mas nenhuma densificação fresca na janela ligada a Ostojic/NCT medida. Prazo 2–6 semanas de densificação de FAQ aberto.",
+      "rationale": "Trajetória congelada: letramento de nutricionistas plausibilidade≠protocolo; manter NCT como pesquisa; priorizar proteína+RT; separar de IN 470/JISSN. Sem datapoint fresco de FAQ Ostojic na janela → INCONCLUSIVE no +7."
+     },
+     "_translated_at": "2026-10-12T11:30:00-03:00"
+    }
+   ],
+   "observations": [
+    {
+     "observation_date": "2026-10-12",
+     "trend_id": "NT-2026-10-05-06",
+     "cohort_id": "cohort_005",
+     "observation_type": "plus7_review_probe",
+     "stage_now": "Emerging",
+     "evidence_notes": "No Ostojic/NCT07625202 FAQ densification in +7. Midlife creatine media does not frame GLP-1 co-admin.",
+     "sources_found": [
+      "https://www.purepeople.com.br/noticia/posso-tomar-creatina-sem-treinar-anvisa-tem-regra-sobre-dieta-de-pessoas-com-55-anos-de-idade-ou-mais_a424976/1",
+      "https://www.opovo.com.br/noticias/saude/2026/10/06/creatina-ajuda-a-ganhar-musculos-mesmo-sem-exercicios-o-que-diz-a-ciencia.html"
+     ],
+     "notes": "plus7 result=INCONCLUSIVE; see reviews/NT-2026-10-05-06_plus7_2026-10-12.json",
+     "recommended_action": "At +14 search RD 'creatina + caneta = pesquisa' literacy; keep protein+RT first.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "_source_file": "observations/2026-10-12.jsonl",
+     "_line": 16,
+     "_pt": {
+      "evidence_notes": "Nenhuma densificação de FAQ Ostojic/NCT07625202 no +7. Mídia de creatina midlife não enquadra coadministração GLP-1.",
+      "notes": "Resultado +7 = INCONCLUSIVE; ver reviews/NT-2026-10-05-06_plus7_2026-10-12.json",
+      "stage_now": "Emerging",
+      "recommended_action": "No +14 buscar letramento de nutricionistas 'creatina + caneta = pesquisa'; manter proteína+RT em primeiro lugar."
+     }
+    }
+   ],
    "mentions": [],
    "embedded_observation_log": [],
    "schedule": {
@@ -17672,24 +18668,24 @@
      "plus_14": "2026-10-19",
      "plus_30": "2026-11-04"
     },
-    "next_review_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
     "prediction_status": "frozen",
-    "last_review_date": null,
-    "last_result": null,
+    "last_review_date": "2026-10-12",
+    "last_result": "INCONCLUSIVE",
     "cohort_id": "cohort_005"
    },
    "cohort_id": "cohort_005",
-   "latest_result": null,
-   "latest_review_date": null,
+   "latest_result": "INCONCLUSIVE",
+   "latest_review_date": "2026-10-12",
    "status": "ANALYZING",
    "timeline": [
     {
      "horizon": "plus_7",
      "due": "2026-10-12",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "INCONCLUSIVE",
+     "review_date": "2026-10-12",
+     "review_id": "NT-2026-10-05-06_plus7_2026-10-12"
     },
     {
      "horizon": "plus_14",
@@ -17708,7 +18704,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-10-12"
+   "next_checkpoint": "2026-10-19"
   },
   {
    "id": "NT-2026-10-05-07",
@@ -17834,8 +18830,73 @@
     "translated_at": "2026-10-05T10:50:00-03:00",
     "source_file": "trends/NT-2026-10-05-07.json"
    },
-   "reviews": [],
-   "observations": [],
+   "reviews": [
+    {
+     "review_id": "NT-2026-10-05-07_plus7_2026-10-12",
+     "trend_id": "NT-2026-10-05-07",
+     "cohort_id": "cohort_005",
+     "review_horizon": "plus_7",
+     "review_date": "2026-10-12",
+     "timezone": "America/Sao_Paulo",
+     "result": "PARTIAL",
+     "frozen_predicted_trajectory": "RD checklists prioritizing protein+RT; phenotype-driven micros; adjuncts framed as optional/evidence-limited; pushback on brand-mandatory stacks; sports RDs adapt GSSI-style optimization language",
+     "prediction_confidence": "74%",
+     "prediction_timeframe": "2–8 weeks EN education densification; BR Unknown",
+     "prediction_freeze_date": "2026-10-05",
+     "evidence_summary": "In the +7 window, lean-mass preservation toolkit themes densified as fragments: Nutritotal GLP-1 MNT guide prioritizes protein+RT+phenotype micros/labs with adjuncts as conditional; Men's Health Mag 10 Oct keep-muscle EN consumer echo; PeptiStrong RE 3.967 recall (9 Oct) — marketed for sarcopenia/'gains without diet or training' — creates a counter-example pushing back on brand-mandatory peptide stacks (adjacent Profile A/B). No new MDPI-2026-review-specific BR checklist or GSSI-style sports RD adaptation found. EN GLP-1×protein 7d=631.",
+     "rationale": "Frozen trajectory: RD checklists protein+RT first; phenotype micros; adjuncts optional; pushback brand-mandatory stacks. Direction right via professional recirculation + PeptiStrong counter-example; consolidated toolkit densification incomplete → PARTIAL at +7.",
+     "sources_checked": [
+      "https://nutritotal.com.br/pro/manejo-nutricional-na-era-dos-agonistas-de-glp-1-o-que-devo-priorizar/",
+      "https://g1.globo.com/saude/noticia/2026/10/09/anvisa-suspende-venda-e-determina-recolhimento-de-suplemento-peptistrong.ghtml",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-09.md",
+      "file:///workspace/nutritrend/discovery/x_propagation_2026-10-12.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "source": "x_propagation_2026-10-12 (morning radar; reused, no new spend)",
+      "en_glp1_protein_7d": 631
+     },
+     "_source_file": "reviews/NT-2026-10-05-07_plus7_2026-10-12.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Checklists de nutricionistas priorizando proteína+RT; micros guiados por fenótipo; adjuntos enquadrados como opcionais/evidência limitada; resistência a stacks obrigatórios de marca; nutricionistas esportivos adaptam linguagem de otimização estilo GSSI",
+      "prediction_timeframe": "2–8 semanas densificação educacional EN; BR Desconhecido",
+      "evidence_summary": "Na janela de +7, temas do toolkit de preservação de massa magra densificaram como fragmentos: guia Nutritotal de MNT GLP-1 prioriza proteína+RT+micros/exames por fenótipo com adjuntos condicionais; eco consumidor EN Men's Health Mag 10/out keep-muscle; recall PeptiStrong RE 3.967 (9/out) — marketed for sarcopenia/'ganhos sem dieta nem treino' — cria contraexemplo empurrando contra stacks obrigatórios de peptídeos de marca (Profile A/B adjacente). Nenhum checklist BR novo específico da revisão MDPI 2026 nem adaptação estilo GSSI de nutricionistas esportivos encontrado. EN GLP-1×proteína 7d=631.",
+      "rationale": "Trajetória congelada: checklists de nutricionistas proteína+RT primeiro; micros por fenótipo; adjuntos opcionais; resistência a stacks obrigatórios de marca. Direção correta via recirculação profissional + contraexemplo PeptiStrong; densificação consolidada do toolkit incompleta → PARTIAL no +7."
+     },
+     "_translated_at": "2026-10-12T11:30:00-03:00"
+    }
+   ],
+   "observations": [
+    {
+     "observation_date": "2026-10-12",
+     "trend_id": "NT-2026-10-05-07",
+     "cohort_id": "cohort_005",
+     "observation_type": "plus7_review_probe",
+     "stage_now": "Emerging",
+     "evidence_notes": "Toolkit fragments: Nutritotal protein+RT+micros; PeptiStrong recall as anti-stack counter-example; EN keep-muscle media. Consolidated MDPI-style checklist thin.",
+     "sources_found": [
+      "https://nutritotal.com.br/pro/manejo-nutricional-na-era-dos-agonistas-de-glp-1-o-que-devo-priorizar/",
+      "https://g1.globo.com/saude/noticia/2026/10/09/anvisa-suspende-venda-e-determina-recolhimento-de-suplemento-peptistrong.ghtml"
+     ],
+     "notes": "plus7 result=PARTIAL; see reviews/NT-2026-10-05-07_plus7_2026-10-12.json",
+     "recommended_action": "Pack: protein+RT first; adjuncts optional; 'ingrediente autorizado?' after PeptiStrong. Watch toolkit consolidation at +14.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "source": "x_propagation_2026-10-12 (morning radar; reused, no new spend)",
+      "en_glp1_protein_7d": 631
+     },
+     "_source_file": "observations/2026-10-12.jsonl",
+     "_line": 17,
+     "_pt": {
+      "evidence_notes": "Fragmentos do toolkit: Nutritotal proteína+RT+micros; recall PeptiStrong como contraexemplo anti-stack; mídia EN keep-muscle. Checklist consolidado estilo MDPI ralo.",
+      "notes": "Resultado +7 = PARTIAL; ver reviews/NT-2026-10-05-07_plus7_2026-10-12.json",
+      "stage_now": "Emerging",
+      "recommended_action": "Pacote: proteína+RT primeiro; adjuntos opcionais; 'ingrediente autorizado?' após PeptiStrong. Observar consolidação do toolkit no +14."
+     }
+    }
+   ],
    "mentions": [
     {
      "observation_date": "2026-10-09",
@@ -17863,24 +18924,24 @@
      "plus_14": "2026-10-19",
      "plus_30": "2026-11-04"
     },
-    "next_review_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
     "prediction_status": "frozen",
-    "last_review_date": null,
-    "last_result": null,
+    "last_review_date": "2026-10-12",
+    "last_result": "PARTIAL",
     "cohort_id": "cohort_005"
    },
    "cohort_id": "cohort_005",
-   "latest_result": null,
-   "latest_review_date": null,
-   "status": "ANALYZING",
+   "latest_result": "PARTIAL",
+   "latest_review_date": "2026-10-12",
+   "status": "PARTIAL",
    "timeline": [
     {
      "horizon": "plus_7",
      "due": "2026-10-12",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-10-12",
+     "review_id": "NT-2026-10-05-07_plus7_2026-10-12"
     },
     {
      "horizon": "plus_14",
@@ -17899,7 +18960,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-10-12"
+   "next_checkpoint": "2026-10-19"
   },
   {
    "id": "NT-2026-10-05-08",
@@ -18027,8 +19088,73 @@
     "translated_at": "2026-10-05T10:50:00-03:00",
     "source_file": "trends/NT-2026-10-05-08.json"
    },
-   "reviews": [],
-   "observations": [],
+   "reviews": [
+    {
+     "review_id": "NT-2026-10-05-08_plus7_2026-10-12",
+     "trend_id": "NT-2026-10-05-08",
+     "cohort_id": "cohort_005",
+     "review_horizon": "plus_7",
+     "review_date": "2026-10-12",
+     "timezone": "America/Sao_Paulo",
+     "result": "PARTIAL",
+     "frozen_predicted_trajectory": "Ongoing RD indication/advertising hygiene FAQs even as social cools; CFN ethics reminder linkage; distinguish sale-legal vs ad-illegal; companion food products ≠ Rx indication expansion",
+     "prediction_confidence": "75%",
+     "prediction_timeframe": "1–4 weeks residual FAQ content",
+     "prediction_freeze_date": "2026-10-05",
+     "evidence_summary": "In the +7 window, Semavy RE 3.750 hangover matches the cooled-social half of the prediction: live X Semavy×Anvisa 7d=0 (fully rolled off). Hypera conformidade statement (29 Sep) and Anvisa official page remain residual archive. No new dated RD indication/advertising-hygiene FAQ or CFN ethics reminder linkage found 2026-10-05→10-12 — so 'cooled social ≠ RD FAQ closed' is confirmed as a gap, not closed. Companion-food ≠ Rx-indication expansion not newly evidenced.",
+     "rationale": "Frozen trajectory: ongoing RD FAQs even as social cools; CFN ethics linkage; sale-legal vs ad-illegal. Social cooling realized; ongoing FAQ densification absent → PARTIAL at +7.",
+     "sources_checked": [
+      "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-propaganda-da-caneta-semavy",
+      "https://www.infomoney.com.br/business/hypera-diz-que-tomou-acoes-necessarias-apos-anvisa-proibir-propaganda-da-semavy/",
+      "file:///workspace/nutritrend/discovery/x_propagation_2026-10-12.md",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-12.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "source": "x_propagation_2026-10-12 (morning radar; reused, no new spend)",
+      "semavy_anvisa_7d": 0
+     },
+     "_source_file": "reviews/NT-2026-10-05-08_plus7_2026-10-12.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "FAQs contínuos de nutricionistas sobre higiene de indicação/publicidade mesmo com o social esfriando; vínculo com lembrete de ética CFN; distinguir venda-legal vs propaganda-ilegal; produtos alimentares companheiros ≠ expansão de indicação de Rx",
+      "prediction_timeframe": "1–4 semanas de FAQ residual",
+      "evidence_summary": "Na janela de +7, o hangover do Semavy RE 3.750 casa com a metade de social-esfriado da previsão: X ao vivo Semavy×Anvisa 7d=0 (totalmente esfriado). A nota de conformidade Hypera (29/set) e a página oficial da Anvisa permanecem arquivo residual. Nenhum FAQ novo e datado de higiene de indicação/publicidade de nutricionistas nem vínculo com lembrete de ética CFN encontrado em 2026-10-05→10-12 — então 'social esfriado ≠ FAQ de nutricionistas fechado' confirma-se como lacuna, não fechamento. Produto alimentar companheiro ≠ expansão de indicação de Rx não evidenciado de novo.",
+      "rationale": "Trajetória congelada: FAQs contínuos de nutricionistas mesmo com o social esfriando; vínculo ética CFN; venda-legal vs propaganda-ilegal. Esfriamento social realizado; densificação contínua de FAQ ausente → PARTIAL no +7."
+     },
+     "_translated_at": "2026-10-12T11:30:00-03:00"
+    }
+   ],
+   "observations": [
+    {
+     "observation_date": "2026-10-12",
+     "trend_id": "NT-2026-10-05-08",
+     "cohort_id": "cohort_005",
+     "observation_type": "plus7_review_probe",
+     "stage_now": "Brazil Growing (cooled; FAQ residual)",
+     "evidence_notes": "Semavy X 7d=0. Hypera conformidade archive only. No new RD FAQ in +7 — hangover cooling confirmed, FAQ not closed.",
+     "sources_found": [
+      "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-propaganda-da-caneta-semavy",
+      "https://www.infomoney.com.br/business/hypera-diz-que-tomou-acoes-necessarias-apos-anvisa-proibir-propaganda-da-semavy/"
+     ],
+     "notes": "plus7 result=PARTIAL; see reviews/NT-2026-10-05-08_plus7_2026-10-12.json",
+     "recommended_action": "Keep residual FAQ (venda legal / propaganda ilegal). Link to CFN 856 prep (NT-10-05-10). Re-check at +14.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "source": "x_propagation_2026-10-12 (morning radar; reused, no new spend)",
+      "semavy_anvisa_7d": 0
+     },
+     "_source_file": "observations/2026-10-12.jsonl",
+     "_line": 18,
+     "_pt": {
+      "evidence_notes": "X Semavy 7d=0. Só arquivo de conformidade Hypera. Nenhum FAQ novo de nutricionistas no +7 — esfriamento do hangover confirmado, FAQ não fechado.",
+      "notes": "Resultado +7 = PARTIAL; ver reviews/NT-2026-10-05-08_plus7_2026-10-12.json",
+      "stage_now": "Brazil Growing (esfriado; FAQ residual)",
+      "recommended_action": "Manter FAQ residual (venda legal / propaganda ilegal). Ligar à preparação CFN 856 (NT-10-05-10). Rechecar no +14."
+     }
+    }
+   ],
    "mentions": [],
    "embedded_observation_log": [],
    "schedule": {
@@ -18041,24 +19167,24 @@
      "plus_14": "2026-10-19",
      "plus_30": "2026-11-04"
     },
-    "next_review_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
     "prediction_status": "frozen",
-    "last_review_date": null,
-    "last_result": null,
+    "last_review_date": "2026-10-12",
+    "last_result": "PARTIAL",
     "cohort_id": "cohort_005"
    },
    "cohort_id": "cohort_005",
-   "latest_result": null,
-   "latest_review_date": null,
-   "status": "ANALYZING",
+   "latest_result": "PARTIAL",
+   "latest_review_date": "2026-10-12",
+   "status": "PARTIAL",
    "timeline": [
     {
      "horizon": "plus_7",
      "due": "2026-10-12",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-10-12",
+     "review_id": "NT-2026-10-05-08_plus7_2026-10-12"
     },
     {
      "horizon": "plus_14",
@@ -18077,7 +19203,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-10-12"
+   "next_checkpoint": "2026-10-19"
   },
   {
    "id": "NT-2026-10-05-09",
@@ -18207,8 +19333,74 @@
     "translated_at": "2026-10-05T10:50:00-03:00",
     "source_file": "trends/NT-2026-10-05-09.json"
    },
-   "reviews": [],
-   "observations": [],
+   "reviews": [
+    {
+     "review_id": "NT-2026-10-05-09_plus7_2026-10-12",
+     "trend_id": "NT-2026-10-05-09",
+     "cohort_id": "cohort_005",
+     "review_horizon": "plus_7",
+     "review_date": "2026-10-12",
+     "timezone": "America/Sao_Paulo",
+     "result": "PARTIAL",
+     "frozen_predicted_trajectory": "Comparative RD posts/tables: IN 470 claim text (age gate + RT + composition limits) vs JISSN experimental arms; explicit “not the same object” education; brands may chase claim while influencers chase 10 g — monitor both",
+     "prediction_confidence": "83%",
+     "prediction_timeframe": "1–4 weeks for comparative literacy content spike",
+     "prediction_freeze_date": "2026-10-05",
+     "evidence_summary": "In the +7 window, the predicted asymmetry began to narrow from the claim side: Purepeople (6 Oct) brought IN 470 midlife claim literacy (age gate + RT + 3–5 g) into consumer media with BRASNUTRI voice, while JISSN 'sem exercícios' headlines continued via O Povo (6 Oct). Comparative RD posts/tables explicitly stating 'not the same object' (IN 470 claim text vs JISSN experimental arms) still not found — brands/trade chase claim (Eternità) while media chases 10 g, without a bridging comparison layer. X creatina×alegação 7d=3 vs near-zero dedicated claim discourse.",
+     "rationale": "Frozen trajectory: comparative RD posts IN 470 vs JISSN; explicit non-equivalence education. Both objects now visible in BR media same week; comparison layer still missing → PARTIAL at +7.",
+     "sources_checked": [
+      "https://www.purepeople.com.br/noticia/posso-tomar-creatina-sem-treinar-anvisa-tem-regra-sobre-dieta-de-pessoas-com-55-anos-de-idade-ou-mais_a424976/1",
+      "https://www.opovo.com.br/noticias/saude/2026/10/06/creatina-ajuda-a-ganhar-musculos-mesmo-sem-exercicios-o-que-diz-a-ciencia.html",
+      "https://lojaeternita.com.br/blogs/novidades/creatina-depois-dos-55",
+      "file:///workspace/nutritrend/discovery/x_propagation_2026-10-12.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "source": "x_propagation_2026-10-12 (morning radar; reused, no new spend)",
+      "creatina_alegacao_in470_7d": 3
+     },
+     "_source_file": "reviews/NT-2026-10-05-09_plus7_2026-10-12.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Posts/tabelas comparativos de nutricionistas: texto da alegação IN 470 (porta de idade + RT + limites de composição) vs braços experimentais JISSN; educação explícita de 'não é o mesmo objeto'; marcas podem perseguir a alegação enquanto influenciadores perseguem 10 g — monitorar ambos",
+      "prediction_timeframe": "1–4 semanas para pico de conteúdo de letramento comparativo",
+      "evidence_summary": "Na janela de +7, a assimetria prevista começou a estreitar pelo lado da alegação: Purepeople (6/out) trouxe letramento da alegação midlife IN 470 (porta de idade + RT + 3–5 g) para a mídia de consumo com voz BRASNUTRI, enquanto as manchetes JISSN 'sem exercícios' continuaram via O Povo (6/out). Posts/tabelas comparativos de nutricionistas afirmando explicitamente 'não é o mesmo objeto' (texto da alegação IN 470 vs braços experimentais JISSN) ainda não encontrados — marcas/trade perseguem a alegação (Eternità) enquanto a mídia persegue 10 g, sem camada comparativa de ponte. X creatina×alegação 7d=3 vs discurso dedicado de alegação quase zero.",
+      "rationale": "Trajetória congelada: posts comparativos de nutricionistas IN 470 vs JISSN; educação explícita de não equivalência. Ambos os objetos agora visíveis na mídia BR na mesma semana; camada comparativa ainda falta → PARTIAL no +7."
+     },
+     "_translated_at": "2026-10-12T11:30:00-03:00"
+    }
+   ],
+   "observations": [
+    {
+     "observation_date": "2026-10-12",
+     "trend_id": "NT-2026-10-05-09",
+     "cohort_id": "cohort_005",
+     "observation_type": "plus7_review_probe",
+     "stage_now": "Brazil Emerging → Growing",
+     "evidence_notes": "Purepeople IN 470 literacy + O Povo JISSN recirculation same week (6 Oct). Comparative 'not the same object' RD layer still absent. X claim probe 7d=3.",
+     "sources_found": [
+      "https://www.purepeople.com.br/noticia/posso-tomar-creatina-sem-treinar-anvisa-tem-regra-sobre-dieta-de-pessoas-com-55-anos-de-idade-ou-mais_a424976/1",
+      "https://www.opovo.com.br/noticias/saude/2026/10/06/creatina-ajuda-a-ganhar-musculos-mesmo-sem-exercicios-o-que-diz-a-ciencia.html",
+      "https://lojaeternita.com.br/blogs/novidades/creatina-depois-dos-55"
+     ],
+     "notes": "plus7 result=PARTIAL; see reviews/NT-2026-10-05-09_plus7_2026-10-12.json",
+     "recommended_action": "Pack comparative table this week. Watch for RD/brand comparison posts at +14.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "source": "x_propagation_2026-10-12 (morning radar; reused, no new spend)",
+      "creatina_alegacao_in470_7d": 3
+     },
+     "_source_file": "observations/2026-10-12.jsonl",
+     "_line": 19,
+     "_pt": {
+      "evidence_notes": "Letramento IN 470 Purepeople + recirculação JISSN O Povo na mesma semana (6/out). Camada comparativa 'não é o mesmo objeto' de nutricionistas ainda ausente. Probe X de alegação 7d=3.",
+      "notes": "Resultado +7 = PARTIAL; ver reviews/NT-2026-10-05-09_plus7_2026-10-12.json",
+      "stage_now": "Brazil Emerging → Growing",
+      "recommended_action": "Tabela comparativa no pacote desta semana. Observar posts comparativos de nutricionistas/marcas no +14."
+     }
+    }
+   ],
    "mentions": [],
    "embedded_observation_log": [],
    "schedule": {
@@ -18221,24 +19413,24 @@
      "plus_14": "2026-10-19",
      "plus_30": "2026-11-04"
     },
-    "next_review_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
     "prediction_status": "frozen",
-    "last_review_date": null,
-    "last_result": null,
+    "last_review_date": "2026-10-12",
+    "last_result": "PARTIAL",
     "cohort_id": "cohort_005"
    },
    "cohort_id": "cohort_005",
-   "latest_result": null,
-   "latest_review_date": null,
-   "status": "ANALYZING",
+   "latest_result": "PARTIAL",
+   "latest_review_date": "2026-10-12",
+   "status": "PARTIAL",
    "timeline": [
     {
      "horizon": "plus_7",
      "due": "2026-10-12",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-10-12",
+     "review_id": "NT-2026-10-05-09_plus7_2026-10-12"
     },
     {
      "horizon": "plus_14",
@@ -18257,7 +19449,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-10-12"
+   "next_checkpoint": "2026-10-19"
   },
   {
    "id": "NT-2026-10-05-10",
@@ -18387,9 +19579,72 @@
     "translated_at": "2026-10-05T10:50:00-03:00",
     "source_file": "trends/NT-2026-10-05-10.json"
    },
-   "reviews": [],
-   "observations": [],
-   "mentions": [],
+   "reviews": [
+    {
+     "review_id": "NT-2026-10-05-10_plus7_2026-10-12",
+     "trend_id": "NT-2026-10-05-10",
+     "cohort_id": "cohort_005",
+     "review_horizon": "plus_7",
+     "review_date": "2026-10-12",
+     "timezone": "America/Sao_Paulo",
+     "result": "INCONCLUSIVE",
+     "frozen_predicted_trajectory": "Quiet prep content for creators on likely ethics constraints; linking Semavy ad-hygiene to broader publicidade duty; watch for CFN updates before Jan 2027 — do not rewrite NT-09-11",
+     "prediction_confidence": "68%",
+     "prediction_timeframe": "Through Jan 2027 vigência window",
+     "prediction_freeze_date": "2026-10-05",
+     "evidence_summary": "In the +7 window, no quiet prep content for creators on CFN Resolução 856/2026 ethics constraints (vacância to 23 Jan 2027) found. CFN calendar items are adjacent process (Conexão 600 listening CRN-8 Curitiba 8 Oct for Res. 600/2018 review; ethics meetings noted for 20 Oct in 10-08 radar) — not 856 prep. Anvisa 9 Oct alert on professionals promoting supplements for insulin resistance is claim-ethics adjacent but not CFN 856/Semavy publicidade linkage. Timeframe runs through Jan 2027 — early +7.",
+     "rationale": "Frozen trajectory: quiet creator prep on 856 constraints; link Semavy ad-hygiene to broader publicidade duty. No fresh prep datapoint yet; long window → INCONCLUSIVE at +7.",
+     "sources_checked": [
+      "https://linksingular.com/nutrition/pt/blog/novo-codigo-de-etica-nutricionista-2026",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-08.md",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-12.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "_source_file": "reviews/NT-2026-10-05-10_plus7_2026-10-12.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Conteúdo quieto de preparação para criadores sobre prováveis restrições éticas; ligar a higiene de propaganda Semavy ao dever mais amplo de publicidade; observar atualizações do CFN antes de jan/2027 — não reescrever NT-09-11",
+      "prediction_timeframe": "Até a janela de vigência de jan/2027",
+      "evidence_summary": "Na janela de +7, nenhum conteúdo quieto de preparação para criadores sobre as restrições éticas da Resolução CFN 856/2026 (vacância até 23/jan/2027) encontrado. Itens de calendário do CFN são processo adjacente (escuta Conexão 600 CRN-8 Curitiba 8/out para revisão da Res. 600/2018; reuniões de ética anotadas para 20/out no radar 10-08) — não preparação 856. O alerta Anvisa de 9/out sobre profissionais promovendo suplementos para resistência à insulina é ética de alegação adjacente, mas não vínculo CFN 856/publicidade Semavy. O prazo corre até jan/2027 — +7 ainda cedo.",
+      "rationale": "Trajetória congelada: preparação quieta de criadores sobre restrições 856; ligar higiene de propaganda Semavy ao dever mais amplo de publicidade. Ainda sem datapoint fresco de preparação; janela longa → INCONCLUSIVE no +7."
+     },
+     "_translated_at": "2026-10-12T11:30:00-03:00"
+    }
+   ],
+   "observations": [
+    {
+     "observation_date": "2026-10-12",
+     "trend_id": "NT-2026-10-05-10",
+     "cohort_id": "cohort_005",
+     "observation_type": "plus7_review_probe",
+     "stage_now": "Brazil Emerging",
+     "evidence_notes": "No CFN 856 creator prep in +7. Conexão 600 / ethics calendar adjacent. Vacância to 23 Jan 2027 still open.",
+     "sources_found": [
+      "https://linksingular.com/nutrition/pt/blog/novo-codigo-de-etica-nutricionista-2026"
+     ],
+     "notes": "plus7 result=INCONCLUSIVE; see reviews/NT-2026-10-05-10_plus7_2026-10-12.json",
+     "recommended_action": "Hold. Watch CFN ethics meetings 20 Oct and any 856 prep notes through +14/+30.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "_source_file": "observations/2026-10-12.jsonl",
+     "_line": 20,
+     "_pt": {
+      "evidence_notes": "Nenhuma preparação de criadores CFN 856 no +7. Conexão 600 / calendário de ética adjacentes. Vacância até 23/jan/2027 ainda aberta.",
+      "notes": "Resultado +7 = INCONCLUSIVE; ver reviews/NT-2026-10-05-10_plus7_2026-10-12.json",
+      "stage_now": "Brazil Emerging",
+      "recommended_action": "Aguardar. Observar reuniões de ética CFN 20/out e quaisquer notas de preparação 856 até +14/+30."
+     }
+    }
+   ],
+   "mentions": [
+    {
+     "observation_date": "2026-10-12",
+     "observation_type": "plus14_review_probe",
+     "from_trend_id": "NT-2026-09-28-10",
+     "_source_file": "observations/2026-10-12.jsonl",
+     "_line": 10
+    }
+   ],
    "embedded_observation_log": [],
    "schedule": {
     "trend_id": "NT-2026-10-05-10",
@@ -18401,24 +19656,24 @@
      "plus_14": "2026-10-19",
      "plus_30": "2026-11-04"
     },
-    "next_review_date": "2026-10-12",
+    "next_review_date": "2026-10-19",
     "prediction_status": "frozen",
-    "last_review_date": null,
-    "last_result": null,
+    "last_review_date": "2026-10-12",
+    "last_result": "INCONCLUSIVE",
     "cohort_id": "cohort_005"
    },
    "cohort_id": "cohort_005",
-   "latest_result": null,
-   "latest_review_date": null,
+   "latest_result": "INCONCLUSIVE",
+   "latest_review_date": "2026-10-12",
    "status": "ANALYZING",
    "timeline": [
     {
      "horizon": "plus_7",
      "due": "2026-10-12",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "INCONCLUSIVE",
+     "review_date": "2026-10-12",
+     "review_id": "NT-2026-10-05-10_plus7_2026-10-12"
     },
     {
      "horizon": "plus_14",
@@ -18437,7 +19692,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-10-12"
+   "next_checkpoint": "2026-10-19"
   },
   {
    "id": "NT-2026-10-12-01",
@@ -20438,8 +21693,8 @@
  ],
  "counts": {
   "trends": 66,
-  "reviews": 96,
-  "observations": 150
+  "reviews": 116,
+  "observations": 170
  },
  "warnings": [],
  "translations": {
