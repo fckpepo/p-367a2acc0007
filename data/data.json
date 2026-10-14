@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-12T10:48:36-03:00",
+ "generated_at": "2026-10-14T10:22:06-03:00",
  "generated_tz": "America/Sao_Paulo",
- "build_date": "2026-10-12",
+ "build_date": "2026-10-14",
  "store": {
   "path": "/workspace/nutritrend"
  },
@@ -12,14 +12,14 @@
  },
  "overall": {
   "counts": {
-   "HIT": 10,
-   "PARTIAL": 25,
+   "HIT": 12,
+   "PARTIAL": 28,
    "MISS": 1,
-   "ANALYZING": 30
+   "ANALYZING": 25
   },
   "total": 66,
-  "hit_rate": 0.625,
-  "strict_hit_rate": 0.2778
+  "hit_rate": 0.6341,
+  "strict_hit_rate": 0.2927
  },
  "cohorts": [
   {
@@ -76,17 +76,18 @@
     14,
     30
    ],
+   "status": "complete (+7/+14/+30 scored)",
    "_source_file": "reviews/schedule_cohort_002.json",
    "frozen_date": "2026-09-14",
-   "next_review_date": "2026-10-14",
+   "next_review_date": null,
    "overdue": 0,
-   "reviews_count": 24,
+   "reviews_count": 36,
    "summary": {
     "counts": {
-     "HIT": 2,
-     "PARTIAL": 3,
+     "HIT": 4,
+     "PARTIAL": 6,
      "MISS": 0,
-     "ANALYZING": 7
+     "ANALYZING": 2
     },
     "total": 12,
     "hit_rate": 0.7,
@@ -6444,6 +6445,50 @@
       "rationale": "A trajetória congelada esperava educação/protocolos de acesso mais densos às canetas nacionais, picos de complemento proteína/fibras e higiene de alegações na Anvisa para o Semavy Nutri. Em +14, a RE 3.750 + densificação Bloomberg são materialização clara de higiene de propaganda/alegações na caneta nacional, somada ao pico complementar Nestlé já pontuado → HIT mantido (sem upgrade; higiene específica do Semavy Nutri ainda incompleta). Vs +7 HIT: o veto de propaganda é o principal substrato novo."
      },
      "_translated_at": "2026-09-28T10:30:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-14-01_plus30_2026-10-14",
+     "trend_id": "NT-2026-09-14-01",
+     "cohort_id": "cohort_002",
+     "review_horizon": "plus_30",
+     "review_date": "2026-10-14",
+     "timezone": "America/Sao_Paulo",
+     "result": "HIT",
+     "frozen_predicted_trajectory": "More national-pen education + clinic protocols for affordable access; companion protein/fiber content spikes; Anvisa claim hygiene needed for Semavy Nutri",
+     "prediction_confidence": "75%",
+     "prediction_timeframe": "2–6 weeks for denser BR professional content",
+     "prediction_freeze_date": "2026-09-14",
+     "evidence_window": "2026-09-28 → 2026-10-14",
+     "evidence_summary": "In the +30 window (2026-09-28 → 10-14) the national-pen + companion layer kept materializing while social cooled: Semavy Nutri Proteína (whey + collagen + Mg bisglycinate + caffeine, 20 g protein/sachet) and Semavy Nutri Fibras (soluble fiber + psyllium) are live in BR pharmacy retail (Drogal, Drogaria São Paulo, Pague Menos) with Hypera brand pages that explicitly frame the protein SKU for GLP-1 lean-mass support. RE 3.750 Semavy consumer-ad ban hangover cooled (X Semavy×Anvisa/propaganda/Nutri 7d=2; Hypera conformidade residual from late Sep). Nestlé Nutren Control companion and Ozivy/EMS price-war context remain. Anvisa claim-hygiene specific to Semavy Nutri labels is still thinner than the pen advertising clamp, but the predicted companion protein/fiber spike is now on-shelf.",
+     "rationale": "Frozen trajectory: more national-pen education/access protocols, companion protein/fiber spikes, Anvisa claim hygiene for Semavy Nutri (2–6 weeks). At +30 (final), companion SKUs are in pharmacy retail with GLP-1 framing and the ad-clamp substrate from +14 still stands → HIT held (third consecutive confirmation; Semavy Nutri-specific claim hygiene remains the incomplete slice, noted).",
+     "sources_checked": [
+      "https://www.hypera.com.br/marca/semavy",
+      "https://www.drogal.com.br/semavy",
+      "https://www.drogariasaopaulo.com.br/suplemento-alimentar-em-po-semavy-nutri-proteina-sabor-chocolate-28-5g/p",
+      "https://www.paguemenos.com.br/suplemento-alimentar-semavy-nutri-fibras-10-saches-7-2g-cada/p",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-05.md",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-14.md",
+      "file:///workspace/nutritrend/trends/NT-2026-09-28-03.json"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "final_checkpoint": true,
+     "x_counts": {
+      "en_glp1_protein_muscle_7d": 668,
+      "pt_caneta_protein_creatine_muscle_7d": 49,
+      "semavy_anvisa_propaganda_nutri_7d": 2,
+      "pt_hair_collagen_caneta_7d": 0,
+      "en_hmb_glp1_muscle_7d": 16,
+      "source": "live x get_posts_counts_recent 2026-10-14 ~10:18 BRT (first-party X reads, not billed; credits $19.38 before/after)"
+     },
+     "_source_file": "reviews/NT-2026-09-14-01_plus30_2026-10-14.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Mais educação sobre caneta nacional + protocolos de clínicas para acesso acessível; picos de conteúdo complementar de proteína/fibras; higiene de alegações Anvisa necessária para Semavy Nutri",
+      "prediction_timeframe": "2–6 semanas para conteúdo profissional BR mais denso",
+      "evidence_summary": "Na janela de +30 (2026-09-28 → 10-14) a camada de caneta nacional + nutrição complementar continuou se materializando enquanto o social esfriou: Semavy Nutri Proteína (whey + colágeno + Mg bisglicinato + cafeína, 20 g de proteína/sachê) e Semavy Nutri Fibras (fibra solúvel + psyllium) estão à venda em farmácias BR (Drogal, Drogaria São Paulo, Pague Menos), com páginas da Hypera que enquadram explicitamente o SKU de proteína no suporte à massa magra em GLP-1. O rescaldo da RE 3.750 (proibição de propaganda ao consumidor do Semavy) esfriou (X Semavy×Anvisa/propaganda/Nutri 7d=2; conformidade residual da Hypera no fim de setembro). Nestlé Nutren Control e a guerra de preços Ozivy/EMS seguem como contexto. A higiene de alegações específica dos rótulos Semavy Nutri ainda é mais fina que o freio de propaganda da caneta, mas o pico previsto de proteína/fibras complementares está nas prateleiras.",
+      "rationale": "Trajetória congelada: mais educação/protocolos de acesso à caneta nacional, picos de conteúdo complementar de proteína/fibras e higiene de alegações Anvisa para Semavy Nutri (2–6 semanas). Em +30 (último checkpoint), os SKUs complementares estão no varejo farmacêutico com enquadramento GLP-1 e o substrato do freio publicitário do +14 permanece → HIT mantido (terceira confirmação consecutiva; a higiene de alegações específica do Semavy Nutri segue o pedaço incompleto, registrado)."
+     },
+     "_translated_at": "2026-10-14T10:30:00-03:00"
     }
    ],
    "observations": [
@@ -6644,6 +6689,43 @@
       "evidence_notes": "Na janela de +14 (2026-09-14→28), a educação sobre canetas nacionais + higiene da Anvisa se adensou fortemente após o HIT de +7: a RE 3.750 da Anvisa (assinada em 23/set, DOU/imprensa em 25/set) suspendeu a propaganda do Semavy ao consumidor (aeroporto/redes/site); a Bloomberg Lí",
       "stage_now": "Brazil Growing (regulatory advertising clamp)"
      }
+    },
+    {
+     "observation_date": "2026-10-14",
+     "trend_id": "NT-2026-09-14-01",
+     "cohort_id": "cohort_002",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Brazil Growing (companion retail densified; ad clamp cooled)",
+     "evidence_notes": "Semavy Nutri Proteína + Fibras live in BR pharmacy retail with Hypera GLP-1 lean-mass framing; RE 3.750 social cooled (X 7d=2). Companion spike predicted at freeze is on-shelf.",
+     "sources_found": [
+      "https://www.hypera.com.br/marca/semavy",
+      "https://www.drogal.com.br/semavy",
+      "https://www.drogariasaopaulo.com.br/suplemento-alimentar-em-po-semavy-nutri-proteina-sabor-chocolate-28-5g/p",
+      "https://www.paguemenos.com.br/suplemento-alimentar-semavy-nutri-fibras-10-saches-7-2g-cada/p",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-05.md",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-14.md",
+      "file:///workspace/nutritrend/trends/NT-2026-09-28-03.json"
+     ],
+     "notes": "plus30 result=HIT; see reviews/NT-2026-09-14-01_plus30_2026-10-14.json (final checkpoint)",
+     "recommended_action": "Prediction window closed; keep Semavy Nutri claim-hygiene + registered-pen counseling in pack under Cohort 004/005 hangover items.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "en_glp1_protein_muscle_7d": 668,
+      "pt_caneta_protein_creatine_muscle_7d": 49,
+      "semavy_anvisa_propaganda_nutri_7d": 2,
+      "pt_hair_collagen_caneta_7d": 0,
+      "en_hmb_glp1_muscle_7d": 16,
+      "source": "live x get_posts_counts_recent 2026-10-14 ~10:18 BRT (first-party X reads, not billed; credits $19.38 before/after)"
+     },
+     "_source_file": "observations/2026-10-14.jsonl",
+     "_line": 1,
+     "_pt": {
+      "evidence_notes": "Semavy Nutri Proteína + Fibras à venda em farmácias BR com enquadramento Hypera de massa magra em GLP-1; social da RE 3.750 esfriou (X 7d=2). O pico complementar previsto no congelamento está na prateleira.",
+      "notes": "Resultado +30 = HIT; ver reviews/NT-2026-09-14-01_plus30_2026-10-14.json (último checkpoint)",
+      "stage_now": "Brazil Growing (varejo complementar adensado; freio publicitário esfriado)",
+      "recommended_action": "Janela de previsão encerrada; manter higiene de alegações Semavy Nutri + aconselhamento de caneta registrada no pacote sob itens de rescaldo das Coortes 004/005."
+     }
     }
    ],
    "mentions": [
@@ -6686,15 +6768,15 @@
      "plus_14": "2026-09-28",
      "plus_30": "2026-10-14"
     },
-    "next_review_date": "2026-10-14",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-09-28",
+    "last_review_date": "2026-10-14",
     "last_result": "HIT",
     "cohort_id": "cohort_002"
    },
    "cohort_id": "cohort_002",
    "latest_result": "HIT",
-   "latest_review_date": "2026-09-28",
+   "latest_review_date": "2026-10-14",
    "status": "HIT",
    "timeline": [
     {
@@ -6716,13 +6798,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-10-14",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "HIT",
+     "review_date": "2026-10-14",
+     "review_id": "NT-2026-09-14-01_plus30_2026-10-14"
     }
    ],
-   "next_checkpoint": "2026-10-14"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-09-14-02",
@@ -6919,6 +7001,48 @@
       "rationale": "A trajetória congelada esperava mais explicadores de protocolo e stacks de marca creatina-GLP-1 antes dos resultados, com enquadramento literato priorizando RT+proteína. Em +14, a metade de protocolos/explicadores está na direção certa; stacks de marca e resultados do ensaio ainda ausentes → PARTIAL (upgrade de INCONCLUSIVE em +7)."
      },
      "_translated_at": "2026-09-28T10:30:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-14-02_plus30_2026-10-14",
+     "trend_id": "NT-2026-09-14-02",
+     "cohort_id": "cohort_002",
+     "review_horizon": "plus_30",
+     "review_date": "2026-10-14",
+     "timezone": "America/Sao_Paulo",
+     "result": "HIT",
+     "frozen_predicted_trajectory": "More protocol explainers and brand 'GLP-1 creatine' stacks before results; evidence-literate voices stress RT+protein first",
+     "prediction_confidence": "65%",
+     "prediction_timeframe": "4–8 weeks for content density (results later)",
+     "prediction_freeze_date": "2026-09-14",
+     "evidence_window": "2026-09-28 → 2026-10-14",
+     "evidence_summary": "NCT07625202 still without posted results. Protocol-explainer densification advanced past +14: Ostojic Clinical Nutrition creatine×GLP-1 perspective frozen as Cohort 005 (NT-2026-10-05-06); MDPI lean-mass toolkit and EASO–EFAD–ECPO protein/RT playbook densify RT+protein-first with creatine as adjunct; BR Metrópoles (nutrologist Murillo Monteiro) frames creatine to preserve muscle on canetas. Brand 'GLP-1 creatine' stacks arrived in-window: Abbott Ensure Max Protein 3-in-1 Muscle Support (7 Oct 2026) — 30 g protein + 5 g creatine monohydrate + 3 g Ca-HMB, with an explicit GLP-1 FAQ; For Youth Clear Protein+ (1 Oct, Singapore) — 17 g protein + 3 g creatine + electrolytes. EN GLP-1×protein/muscle/creatine X 7d=668 (flat-high).",
+     "rationale": "Frozen trajectory expected more protocol explainers and brand GLP-1-creatine stacks before results, with evidence-literate RT+protein-first framing (4–8 weeks). At +30 both halves materialized while the trial remains unread → HIT (upgrade from +14 PARTIAL).",
+     "sources_checked": [
+      "https://abbott.mediaroom.com/2026-10-07-Abbott-introduces-Ensure-R-Max-Protein-3-in-1-Muscle-Support,-bringing-the-benefits-of-a-supplement-stack-into-one-scoop",
+      "https://foryouth.co/blogs/magazine/for-youth-launches-the-clear-protein",
+      "https://www.metropoles.com/colunas/claudia-meireles/medico-diz-como-creatina-ajuda-a-potencializar-canetas-emagrecedoras",
+      "file:///workspace/nutritrend/trends/NT-2026-10-05-06.json",
+      "file:///workspace/nutritrend/discovery/scan_intl_2026-10-05.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "final_checkpoint": true,
+     "x_counts": {
+      "en_glp1_protein_muscle_7d": 668,
+      "pt_caneta_protein_creatine_muscle_7d": 49,
+      "semavy_anvisa_propaganda_nutri_7d": 2,
+      "pt_hair_collagen_caneta_7d": 0,
+      "en_hmb_glp1_muscle_7d": 16,
+      "source": "live x get_posts_counts_recent 2026-10-14 ~10:18 BRT (first-party X reads, not billed; credits $19.38 before/after)"
+     },
+     "_source_file": "reviews/NT-2026-09-14-02_plus30_2026-10-14.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Mais explicadores de protocolo e stacks de marca 'creatina para GLP-1' antes dos resultados; vozes baseadas em evidência enfatizam treino resistido+proteína primeiro",
+      "prediction_timeframe": "4–8 semanas para densidade de conteúdo (resultados depois)",
+      "evidence_summary": "NCT07625202 segue sem resultados publicados. O adensamento de explicadores de protocolo avançou além do +14: a perspectiva Ostojic (Clinical Nutrition) sobre creatina×GLP-1 foi congelada na Coorte 005 (NT-2026-10-05-06); o kit de massa magra MDPI e o protocolo de proteína/treino resistido EASO–EFAD–ECPO reforçam treino resistido+proteína primeiro, com creatina como adjunto; no BR, o Metrópoles (nutrólogo Murillo Monteiro) enquadra a creatina para preservar músculo nas canetas. Stacks de marca 'creatina para GLP-1' chegaram na janela: Abbott Ensure Max Protein 3-in-1 Muscle Support (7/out/2026) — 30 g de proteína + 5 g de creatina monoidratada + 3 g de Ca-HMB, com FAQ explícito sobre GLP-1; For Youth Clear Protein+ (1/out, Singapura) — 17 g de proteína + 3 g de creatina + eletrólitos. X EN GLP-1×proteína/músculo/creatina 7d=668 (estável em patamar alto).",
+      "rationale": "Trajetória congelada previa mais explicadores de protocolo e stacks de marca creatina-GLP-1 antes dos resultados, com enquadramento baseado em evidência de treino resistido+proteína primeiro (4–8 semanas). Em +30 as duas metades se materializaram enquanto o ensaio segue sem leitura → HIT (upgrade do PARTIAL do +14)."
+     },
+     "_translated_at": "2026-10-14T10:30:00-03:00"
     }
    ],
    "observations": [
@@ -7045,6 +7169,41 @@
       "evidence_notes": "O NCT07625202 segue sem resultados publicados (registros/espelhos). Dentro de +14, a densificação de explicadores de protocolo está mais clara que em +7: Q&A de preservação muscular no estilo Mayo Clinic e canais de fitness (planos de força de 6 semanas NordicTrack/iFIT para GLP-",
       "stage_now": "Emerging"
      }
+    },
+    {
+     "observation_date": "2026-10-14",
+     "trend_id": "NT-2026-09-14-02",
+     "cohort_id": "cohort_002",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Emerging → Growing (protocol + brand stacks; trial still unread)",
+     "evidence_notes": "Ensure Max 3-in-1 (7 Oct) and For Youth Clear Protein+ (1 Oct) deliver brand GLP-1-adjacent creatine stacks; Ostojic/MDPI/EASO densify protocol layer. NCT07625202 still no readout.",
+     "sources_found": [
+      "https://abbott.mediaroom.com/2026-10-07-Abbott-introduces-Ensure-R-Max-Protein-3-in-1-Muscle-Support,-bringing-the-benefits-of-a-supplement-stack-into-one-scoop",
+      "https://foryouth.co/blogs/magazine/for-youth-launches-the-clear-protein",
+      "https://www.metropoles.com/colunas/claudia-meireles/medico-diz-como-creatina-ajuda-a-potencializar-canetas-emagrecedoras",
+      "file:///workspace/nutritrend/trends/NT-2026-10-05-06.json",
+      "file:///workspace/nutritrend/discovery/scan_intl_2026-10-05.md"
+     ],
+     "notes": "plus30 result=HIT; see reviews/NT-2026-09-14-02_plus30_2026-10-14.json (final checkpoint)",
+     "recommended_action": "Prediction window closed; keep creatine-as-adjunct after protein+RT hierarchy in pack; watch NCT07625202.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "en_glp1_protein_muscle_7d": 668,
+      "pt_caneta_protein_creatine_muscle_7d": 49,
+      "semavy_anvisa_propaganda_nutri_7d": 2,
+      "pt_hair_collagen_caneta_7d": 0,
+      "en_hmb_glp1_muscle_7d": 16,
+      "source": "live x get_posts_counts_recent 2026-10-14 ~10:18 BRT (first-party X reads, not billed; credits $19.38 before/after)"
+     },
+     "_source_file": "observations/2026-10-14.jsonl",
+     "_line": 2,
+     "_pt": {
+      "evidence_notes": "Ensure Max 3-in-1 (7/out) e For Youth Clear Protein+ (1/out) entregam stacks de creatina adjacentes a GLP-1; Ostojic/MDPI/EASO adensam a camada de protocolo. NCT07625202 ainda sem readout.",
+      "notes": "Resultado +30 = HIT; ver reviews/NT-2026-09-14-02_plus30_2026-10-14.json (último checkpoint)",
+      "stage_now": "Emerging → Growing (protocolo + stacks de marca; ensaio ainda sem leitura)",
+      "recommended_action": "Janela encerrada; manter creatina como adjunto após a hierarquia proteína+TR no pacote; acompanhar NCT07625202."
+     }
     }
    ],
    "mentions": [],
@@ -7059,16 +7218,16 @@
      "plus_14": "2026-09-28",
      "plus_30": "2026-10-14"
     },
-    "next_review_date": "2026-10-14",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-09-28",
-    "last_result": "PARTIAL",
+    "last_review_date": "2026-10-14",
+    "last_result": "HIT",
     "cohort_id": "cohort_002"
    },
    "cohort_id": "cohort_002",
-   "latest_result": "PARTIAL",
-   "latest_review_date": "2026-09-28",
-   "status": "PARTIAL",
+   "latest_result": "HIT",
+   "latest_review_date": "2026-10-14",
+   "status": "HIT",
    "timeline": [
     {
      "horizon": "plus_7",
@@ -7089,13 +7248,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-10-14",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "HIT",
+     "review_date": "2026-10-14",
+     "review_id": "NT-2026-09-14-02_plus30_2026-10-14"
     }
    ],
-   "next_checkpoint": "2026-10-14"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-09-14-03",
@@ -7294,6 +7453,48 @@
       "rationale": "Previstos mais conteúdo de Mg forma-específica + eletrólitos low-sugar e localização BR de FAQs GI em 2–6 semanas. Em +14, a evidência segue sobretudo evergreen/pré-congelamento sem densificação nova distinta → INCONCLUSIVE (igual a +7)."
      },
      "_translated_at": "2026-09-28T10:30:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-14-03_plus30_2026-10-14",
+     "trend_id": "NT-2026-09-14-03",
+     "cohort_id": "cohort_002",
+     "review_horizon": "plus_30",
+     "review_date": "2026-10-14",
+     "timezone": "America/Sao_Paulo",
+     "result": "PARTIAL",
+     "frozen_predicted_trajectory": "More form-specific Mg + low-sugar electrolyte content; BR localization of GI toolkit FAQs",
+     "prediction_confidence": "70%",
+     "prediction_timeframe": "2–6 weeks",
+     "prediction_freeze_date": "2026-09-14",
+     "evidence_window": "2026-09-28 → 2026-10-14",
+     "evidence_summary": "BR localization of GI tolerability FAQs densified in-window: Portal Afya piece on fiber titration during GLP-1 (EASO–EFAD–ECPO ≥25 g/day, food-first, psyllium 3–5→~10 g/day with hydration); Nutritotal consensus recirculation (Mg citrate for constipation when food measures fail); Folha PE constipation-on-canetas column; Boa Forma 10 Oct lists magnesium among six nutrients with inadequate intakes on pens (intake data, not form-specific glycinate/citrate/oxide education). Semavy Nutri Fibras (psyllium mix) is the commercial fiber companion on pharmacy shelves. Low-sugar electrolyte-specific content wave and form-specific Mg education remain thin versus the fiber/hydration half.",
+     "rationale": "Frozen trajectory: more form-specific Mg + low-sugar electrolyte content and BR GI toolkit FAQ localization (2–6 weeks). At +30 the BR FAQ/fiber half clearly densified; form-specific Mg and electrolyte halves stay incomplete → PARTIAL (upgrade from +14 INCONCLUSIVE).",
+     "sources_checked": [
+      "https://portal.afya.com.br/endocrinologia/papel-das-fibras-no-manejo-nutricional-durante-o-tratamento-com-agonistas-de-glp-1",
+      "https://nutritotal.com.br/pro/material/consenso-internacional-sobre-nutricao-e-terapia-com-glp-1/",
+      "https://www.folhape.com.br/colunistas/saude-e-bem-estar/constipacao-e-canetas-emagrecedoras-como-reduzir-o-desconforto/59940/",
+      "https://boaforma.abril.com.br/alimentacao/nutrientes-merecem-atencao-tratamento-canetas-emagrecedoras/",
+      "https://www.paguemenos.com.br/suplemento-alimentar-semavy-nutri-fibras-10-saches-7-2g-cada/p"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "final_checkpoint": true,
+     "x_counts": {
+      "en_glp1_protein_muscle_7d": 668,
+      "pt_caneta_protein_creatine_muscle_7d": 49,
+      "semavy_anvisa_propaganda_nutri_7d": 2,
+      "pt_hair_collagen_caneta_7d": 0,
+      "en_hmb_glp1_muscle_7d": 16,
+      "source": "live x get_posts_counts_recent 2026-10-14 ~10:18 BRT (first-party X reads, not billed; credits $19.38 before/after)"
+     },
+     "_source_file": "reviews/NT-2026-09-14-03_plus30_2026-10-14.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Mais conteúdo de Mg por forma + eletrólitos low-sugar; localização BR de FAQs do kit GI",
+      "prediction_timeframe": "2–6 semanas",
+      "evidence_summary": "A localização BR de FAQs de tolerabilidade GI adensou na janela: peça do Portal Afya sobre titulação de fibras no GLP-1 (EASO–EFAD–ECPO ≥25 g/dia, alimento primeiro, psyllium 3–5→~10 g/dia com hidratação); recirculação do consenso Nutritotal (citrato de magnésio para constipação quando medidas alimentares falham); coluna Folha PE sobre constipação nas canetas; Boa Forma 10/out lista magnésio entre seis nutrientes com ingestão inadequada nas canetas (dados de ingestão, não educação por forma glicinato/citrato/óxido). Semavy Nutri Fibras (mix com psyllium) é o companion comercial de fibras nas farmácias. A onda específica de eletrólitos low-sugar e a educação por forma de Mg seguem finas frente à metade fibras/hidratação.",
+      "rationale": "Trajetória congelada: mais conteúdo de Mg por forma + eletrólitos low-sugar e localização BR de FAQs do kit GI (2–6 semanas). Em +30 a metade FAQ/fibras BR adensou com clareza; as metades Mg por forma e eletrólitos seguem incompletas → PARTIAL (upgrade do INCONCLUSIVE do +14)."
+     },
+     "_translated_at": "2026-10-14T10:30:00-03:00"
     }
    ],
    "observations": [
@@ -7390,6 +7591,41 @@
       "evidence_notes": "Toolkits evergreen de EA GI (titulação de fibra, manejo de constipação na terapia com AR de GLP-1) persistem em guias clínicos. O texto BR da Nutritotal sobre TNM com GLP-1 (publicado em 11/ago/2026, pré-congelamento) inclui tabelas de fibra/hidratação/náusea, mas não é um novo d",
       "stage_now": "Growing"
      }
+    },
+    {
+     "observation_date": "2026-10-14",
+     "trend_id": "NT-2026-09-14-03",
+     "cohort_id": "cohort_002",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Growing (BR GI FAQ densified; form-specific Mg still thin)",
+     "evidence_notes": "Afya fiber titration + Folha PE constipation + Semavy Nutri Fibras densify BR GI toolkit; form-specific Mg/electrolyte education still thin.",
+     "sources_found": [
+      "https://portal.afya.com.br/endocrinologia/papel-das-fibras-no-manejo-nutricional-durante-o-tratamento-com-agonistas-de-glp-1",
+      "https://nutritotal.com.br/pro/material/consenso-internacional-sobre-nutricao-e-terapia-com-glp-1/",
+      "https://www.folhape.com.br/colunistas/saude-e-bem-estar/constipacao-e-canetas-emagrecedoras-como-reduzir-o-desconforto/59940/",
+      "https://boaforma.abril.com.br/alimentacao/nutrientes-merecem-atencao-tratamento-canetas-emagrecedoras/",
+      "https://www.paguemenos.com.br/suplemento-alimentar-semavy-nutri-fibras-10-saches-7-2g-cada/p"
+     ],
+     "notes": "plus30 result=PARTIAL; see reviews/NT-2026-09-14-03_plus30_2026-10-14.json (final checkpoint)",
+     "recommended_action": "Prediction window closed; pack card: fiber titration + hydration first, then psyllium; Mg form literacy still a gap.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "en_glp1_protein_muscle_7d": 668,
+      "pt_caneta_protein_creatine_muscle_7d": 49,
+      "semavy_anvisa_propaganda_nutri_7d": 2,
+      "pt_hair_collagen_caneta_7d": 0,
+      "en_hmb_glp1_muscle_7d": 16,
+      "source": "live x get_posts_counts_recent 2026-10-14 ~10:18 BRT (first-party X reads, not billed; credits $19.38 before/after)"
+     },
+     "_source_file": "observations/2026-10-14.jsonl",
+     "_line": 3,
+     "_pt": {
+      "evidence_notes": "Afya (titulação de fibras) + Folha PE (constipação) + Semavy Nutri Fibras adensam o kit GI BR; educação de Mg por forma/eletrólitos ainda fina.",
+      "notes": "Resultado +30 = PARTIAL; ver reviews/NT-2026-09-14-03_plus30_2026-10-14.json (último checkpoint)",
+      "stage_now": "Growing (FAQ GI BR adensado; Mg por forma ainda fino)",
+      "recommended_action": "Janela encerrada; card do pacote: titulação de fibras + hidratação primeiro, depois psyllium; letramento de formas de Mg ainda é gap."
+     }
     }
    ],
    "mentions": [],
@@ -7404,16 +7640,16 @@
      "plus_14": "2026-09-28",
      "plus_30": "2026-10-14"
     },
-    "next_review_date": "2026-10-14",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-09-28",
-    "last_result": "INCONCLUSIVE",
+    "last_review_date": "2026-10-14",
+    "last_result": "PARTIAL",
     "cohort_id": "cohort_002"
    },
    "cohort_id": "cohort_002",
-   "latest_result": "INCONCLUSIVE",
-   "latest_review_date": "2026-09-28",
-   "status": "ANALYZING",
+   "latest_result": "PARTIAL",
+   "latest_review_date": "2026-10-14",
+   "status": "PARTIAL",
    "timeline": [
     {
      "horizon": "plus_7",
@@ -7434,13 +7670,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-10-14",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-10-14",
+     "review_id": "NT-2026-09-14-03_plus30_2026-10-14"
     }
    ],
-   "next_checkpoint": "2026-10-14"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-09-14-04",
@@ -7630,6 +7866,47 @@
       "rationale": "Previstos mais SKUs combo + comparação educativa de dose em 2–8 semanas. USANA pré-congelamento + faixa combo quieta pós-congelamento sem nova densidade educativa → INCONCLUSIVE (igual a +7)."
      },
      "_translated_at": "2026-09-28T10:30:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-14-04_plus30_2026-10-14",
+     "trend_id": "NT-2026-09-14-04",
+     "cohort_id": "cohort_002",
+     "review_horizon": "plus_30",
+     "review_date": "2026-10-14",
+     "timezone": "America/Sao_Paulo",
+     "result": "PARTIAL",
+     "frozen_predicted_trajectory": "More combo SKUs; educators compare dose adequacy vs separate products",
+     "prediction_confidence": "70%",
+     "prediction_timeframe": "2–8 weeks",
+     "prediction_freeze_date": "2026-09-14",
+     "evidence_window": "2026-09-28 → 2026-10-14",
+     "evidence_summary": "Post-freeze combo SKU wave arrived in the +30 window: For Youth Clear Protein+ (1 Oct 2026) — clear sachet with 17 g protein + 3 g creatine + Na/K/Mg electrolytes (exact protein×creatine×electrolyte class); Abbott Ensure Max Protein 3-in-1 (7 Oct) — 30 g protein + 5 g creatine + 3 g HMB (stack simplification, electrolytes absent); GNC Pro Performance Clear Whey (~mid-Oct) — 25 g clear whey + light electrolytes (creatine absent). Pre-freeze USANA Clear Protein+Creatine Mix remains context. Educator dose-adequacy compares (combo vs separate products) still not clearly densified.",
+     "rationale": "Frozen trajectory: more combo SKUs and educator dose-adequacy compares (2–8 weeks). At +30 the SKU half landed across clear and ONS formats; educator compare half still thin → PARTIAL (upgrade from +14 INCONCLUSIVE).",
+     "sources_checked": [
+      "https://foryouth.co/blogs/magazine/for-youth-launches-the-clear-protein",
+      "https://abbott.mediaroom.com/2026-10-07-Abbott-introduces-Ensure-R-Max-Protein-3-in-1-Muscle-Support,-bringing-the-benefits-of-a-supplement-stack-into-one-scoop",
+      "https://www.stack3d.com/2026/10/gnc-pro-performance-clear-whey-protein/",
+      "file:///workspace/nutritrend/reviews/NT-2026-09-14-04_plus14_2026-09-28.json"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "final_checkpoint": true,
+     "x_counts": {
+      "en_glp1_protein_muscle_7d": 668,
+      "pt_caneta_protein_creatine_muscle_7d": 49,
+      "semavy_anvisa_propaganda_nutri_7d": 2,
+      "pt_hair_collagen_caneta_7d": 0,
+      "en_hmb_glp1_muscle_7d": 16,
+      "source": "live x get_posts_counts_recent 2026-10-14 ~10:18 BRT (first-party X reads, not billed; credits $19.38 before/after)"
+     },
+     "_source_file": "reviews/NT-2026-09-14-04_plus30_2026-10-14.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Mais SKUs combo; educadores comparam adequação de dose vs produtos separados",
+      "prediction_timeframe": "2–8 semanas",
+      "evidence_summary": "A onda de SKUs combo pós-congelamento chegou na janela de +30: For Youth Clear Protein+ (1/out/2026) — sachê claro com 17 g de proteína + 3 g de creatina + eletrólitos Na/K/Mg (classe exata proteína×creatina×eletrólitos); Abbott Ensure Max Protein 3-in-1 (7/out) — 30 g de proteína + 5 g de creatina + 3 g de HMB (simplificação de stack, sem eletrólitos); GNC Pro Performance Clear Whey (~meados de out) — 25 g de clear whey + eletrólitos leves (sem creatina). O USANA Clear Protein+Creatine Mix pré-congelamento permanece como contexto. Comparações educacionais de adequação de dose (combo vs produtos separados) ainda não adensaram com clareza.",
+      "rationale": "Trajetória congelada: mais SKUs combo e comparações educacionais de adequação de dose (2–8 semanas). Em +30 a metade SKU pousou em formatos clear e ONS; a metade comparação educacional segue fina → PARTIAL (upgrade do INCONCLUSIVE do +14)."
+     },
+     "_translated_at": "2026-10-14T10:30:00-03:00"
     }
    ],
    "observations": [
@@ -7724,6 +8001,40 @@
       "evidence_notes": "O USANA Clear Protein + Creatine Mix (10 g whey clear + 5 g creatina + eletrólitos) segue com PR de 17/ago/2026 — pré-congelamento. Clear-protein / Moving Juice Protein e Max Titanium Iso Clear adjacentes adensam formatos clear/RTD, mas não são combos proteína×creatina×eletrólito",
       "stage_now": "Emerging → Growing"
      }
+    },
+    {
+     "observation_date": "2026-10-14",
+     "trend_id": "NT-2026-09-14-04",
+     "cohort_id": "cohort_002",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Emerging → Growing (combo SKUs landed; educator dose compares thin)",
+     "evidence_notes": "For Youth Clear Protein+ (1 Oct) matches protein×creatine×electrolyte combo class; Ensure Max / GNC Clear are adjacent. Educator dose-adequacy compares still thin.",
+     "sources_found": [
+      "https://foryouth.co/blogs/magazine/for-youth-launches-the-clear-protein",
+      "https://abbott.mediaroom.com/2026-10-07-Abbott-introduces-Ensure-R-Max-Protein-3-in-1-Muscle-Support,-bringing-the-benefits-of-a-supplement-stack-into-one-scoop",
+      "https://www.stack3d.com/2026/10/gnc-pro-performance-clear-whey-protein/",
+      "file:///workspace/nutritrend/reviews/NT-2026-09-14-04_plus14_2026-09-28.json"
+     ],
+     "notes": "plus30 result=PARTIAL; see reviews/NT-2026-09-14-04_plus30_2026-10-14.json (final checkpoint)",
+     "recommended_action": "Prediction window closed; pack: teach dose adequacy when recommending combo SKUs vs separate protein+creatine+electrolytes.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "en_glp1_protein_muscle_7d": 668,
+      "pt_caneta_protein_creatine_muscle_7d": 49,
+      "semavy_anvisa_propaganda_nutri_7d": 2,
+      "pt_hair_collagen_caneta_7d": 0,
+      "en_hmb_glp1_muscle_7d": 16,
+      "source": "live x get_posts_counts_recent 2026-10-14 ~10:18 BRT (first-party X reads, not billed; credits $19.38 before/after)"
+     },
+     "_source_file": "observations/2026-10-14.jsonl",
+     "_line": 4,
+     "_pt": {
+      "evidence_notes": "For Youth Clear Protein+ (1/out) casa com a classe proteína×creatina×eletrólitos; Ensure Max / GNC Clear são adjacentes. Comparações educacionais de dose ainda finas.",
+      "notes": "Resultado +30 = PARTIAL; ver reviews/NT-2026-09-14-04_plus30_2026-10-14.json (último checkpoint)",
+      "stage_now": "Emerging → Growing (SKUs combo pousaram; comparações de dose finas)",
+      "recommended_action": "Janela encerrada; pacote: ensinar adequação de dose ao recomendar SKUs combo vs proteína+creatina+eletrólitos separados."
+     }
     }
    ],
    "mentions": [],
@@ -7738,16 +8049,16 @@
      "plus_14": "2026-09-28",
      "plus_30": "2026-10-14"
     },
-    "next_review_date": "2026-10-14",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-09-28",
-    "last_result": "INCONCLUSIVE",
+    "last_review_date": "2026-10-14",
+    "last_result": "PARTIAL",
     "cohort_id": "cohort_002"
    },
    "cohort_id": "cohort_002",
-   "latest_result": "INCONCLUSIVE",
-   "latest_review_date": "2026-09-28",
-   "status": "ANALYZING",
+   "latest_result": "PARTIAL",
+   "latest_review_date": "2026-10-14",
+   "status": "PARTIAL",
    "timeline": [
     {
      "horizon": "plus_7",
@@ -7768,13 +8079,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-10-14",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-10-14",
+     "review_id": "NT-2026-09-14-04_plus30_2026-10-14"
     }
    ],
-   "next_checkpoint": "2026-10-14"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-09-14-05",
@@ -7956,6 +8267,48 @@
       "rationale": "Previstos mais protocolos iniciante de RT-para-caneta e marketing de academias. A metade EN de protocolo/marketing se materializa; localização BR incompleta → PARTIAL (upgrade de INCONCLUSIVE em +7)."
      },
      "_translated_at": "2026-09-28T10:30:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-14-05_plus30_2026-10-14",
+     "trend_id": "NT-2026-09-14-05",
+     "cohort_id": "cohort_002",
+     "review_horizon": "plus_30",
+     "review_date": "2026-10-14",
+     "timezone": "America/Sao_Paulo",
+     "result": "HIT",
+     "frozen_predicted_trajectory": "More beginner RT-for-caneta protocols and gym marketing; pairs with ACSM 2026 stand messaging",
+     "prediction_confidence": "65%",
+     "prediction_timeframe": "2–6 weeks",
+     "prediction_freeze_date": "2026-09-14",
+     "evidence_window": "2026-09-28 → 2026-10-14",
+     "evidence_summary": "Beginner RT-for-caneta protocol/marketing densified in BR mainstream inside the +30 window beyond the +14 EN fitness layer: Metrópoles (Eliz Vessoni) — adapt strength training on tirzepatide/semaglutide, 2–3×/week, temporary volume cuts for nausea/fatigue; Boa Forma 7 Oct — GI side effects interfering with training + musculação as lean-mass protector; Estadão/Pulsa (Guilherme Artioli) — resistance training to mitigate lean-mass/strength loss on pens. Adjacent Cohort 005 freezes (EASO protein/RT playbook NT-2026-10-05-04; MDPI toolkit -07) reinforce the professional layer. ACSM 2026 Position Stand pairing still not newly measured (same gap as Cohort 001 +30 on NT-09-09-14).",
+     "rationale": "Frozen trajectory: more beginner RT-for-caneta protocols and gym marketing, pairing with ACSM 2026 stand (2–6 weeks). At +30 BR protocol densification clearly landed; ACSM-specific pairing remains missing but does not block the core prediction → HIT (upgrade from +14 PARTIAL).",
+     "sources_checked": [
+      "https://www.metropoles.com/vida-e-estilo/mounjaro-e-afins-como-adaptar-o-treino-ao-uso-de-caneta-emagrecedora",
+      "https://boaforma.abril.com.br/equilibrio/caneta-emagrecedora-efeitos-colaterais-treino/",
+      "https://www.estadao.com.br/pulsa/guilherme-artioli/como-deve-ser-o-treino-de-quem-esta-usando-canetas-para-obesidade/",
+      "file:///workspace/nutritrend/trends/NT-2026-10-05-04.json",
+      "file:///workspace/nutritrend/trends/NT-2026-10-05-07.json"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "final_checkpoint": true,
+     "x_counts": {
+      "en_glp1_protein_muscle_7d": 668,
+      "pt_caneta_protein_creatine_muscle_7d": 49,
+      "semavy_anvisa_propaganda_nutri_7d": 2,
+      "pt_hair_collagen_caneta_7d": 0,
+      "en_hmb_glp1_muscle_7d": 16,
+      "source": "live x get_posts_counts_recent 2026-10-14 ~10:18 BRT (first-party X reads, not billed; credits $19.38 before/after)"
+     },
+     "_source_file": "reviews/NT-2026-09-14-05_plus30_2026-10-14.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Mais protocolos iniciante de TR-para-caneta e marketing de academias; pareamento com a mensagem do stand ACSM 2026",
+      "prediction_timeframe": "2–6 semanas",
+      "evidence_summary": "Protocolos/marketing de treino resistido iniciante para caneta adensaram no mainstream BR dentro da janela de +30 além da camada fitness EN do +14: Metrópoles (Eliz Vessoni) — adaptar musculação em tirzepatida/semaglutida, 2–3×/semana, cortes temporários de volume por náusea/fadiga; Boa Forma 7/out — efeitos GI interferindo no treino + musculação como protetor de massa magra; Estadão/Pulsa (Guilherme Artioli) — treino de resistência para mitigar perda de massa magra/força nas canetas. Congelamentos adjacentes da Coorte 005 (protocolo proteína/TR EASO NT-2026-10-05-04; kit MDPI -07) reforçam a camada profissional. O pareamento com o Position Stand ACSM 2026 ainda não foi medido de novo (mesmo gap da Coorte 001 +30 em NT-09-09-14).",
+      "rationale": "Trajetória congelada: mais protocolos iniciante de TR-para-caneta e marketing de academias, com pareamento ao stand ACSM 2026 (2–6 semanas). Em +30 o adensamento de protocolos BR pousou com clareza; o pareamento específico ao ACSM falta, mas não bloqueia a previsão central → HIT (upgrade do PARTIAL do +14)."
+     },
+     "_translated_at": "2026-10-14T10:30:00-03:00"
     }
    ],
    "observations": [
@@ -8048,6 +8401,41 @@
       "evidence_notes": "O gap de adoção de treino de força da PwC segue como sinal de baseline, não um novo dado. Dentro de +14, protocolos/marketing de RT iniciante para GLP-1 se adensaram em canais EN de fitness: orientação NordicTrack e plano iFIT de 6 semanas para usuários de GLP-1 (movimentos compo",
       "stage_now": "Emerging"
      }
+    },
+    {
+     "observation_date": "2026-10-14",
+     "trend_id": "NT-2026-09-14-05",
+     "cohort_id": "cohort_002",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Brazil Growing (RT-for-caneta protocols densified)",
+     "evidence_notes": "Metrópoles / Boa Forma / Estadão densify BR beginner RT-for-caneta protocols; ACSM 2026 stand still not cited in BR pickup.",
+     "sources_found": [
+      "https://www.metropoles.com/vida-e-estilo/mounjaro-e-afins-como-adaptar-o-treino-ao-uso-de-caneta-emagrecedora",
+      "https://boaforma.abril.com.br/equilibrio/caneta-emagrecedora-efeitos-colaterais-treino/",
+      "https://www.estadao.com.br/pulsa/guilherme-artioli/como-deve-ser-o-treino-de-quem-esta-usando-canetas-para-obesidade/",
+      "file:///workspace/nutritrend/trends/NT-2026-10-05-04.json",
+      "file:///workspace/nutritrend/trends/NT-2026-10-05-07.json"
+     ],
+     "notes": "plus30 result=HIT; see reviews/NT-2026-09-14-05_plus30_2026-10-14.json (final checkpoint)",
+     "recommended_action": "Prediction window closed; pack RT-for-caneta card (2–3×/wk, protein floor, temporary intensity cuts).",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "en_glp1_protein_muscle_7d": 668,
+      "pt_caneta_protein_creatine_muscle_7d": 49,
+      "semavy_anvisa_propaganda_nutri_7d": 2,
+      "pt_hair_collagen_caneta_7d": 0,
+      "en_hmb_glp1_muscle_7d": 16,
+      "source": "live x get_posts_counts_recent 2026-10-14 ~10:18 BRT (first-party X reads, not billed; credits $19.38 before/after)"
+     },
+     "_source_file": "observations/2026-10-14.jsonl",
+     "_line": 5,
+     "_pt": {
+      "evidence_notes": "Metrópoles / Boa Forma / Estadão adensam protocolos BR de TR-para-caneta iniciante; Position Stand ACSM 2026 ainda sem citação BR.",
+      "notes": "Resultado +30 = HIT; ver reviews/NT-2026-09-14-05_plus30_2026-10-14.json (último checkpoint)",
+      "stage_now": "Brazil Growing (protocolos de TR-para-caneta adensados)",
+      "recommended_action": "Janela encerrada; card TR-para-caneta no pacote (2–3×/sem, piso de proteína, cortes temporários de intensidade)."
+     }
     }
    ],
    "mentions": [],
@@ -8062,16 +8450,16 @@
      "plus_14": "2026-09-28",
      "plus_30": "2026-10-14"
     },
-    "next_review_date": "2026-10-14",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-09-28",
-    "last_result": "PARTIAL",
+    "last_review_date": "2026-10-14",
+    "last_result": "HIT",
     "cohort_id": "cohort_002"
    },
    "cohort_id": "cohort_002",
-   "latest_result": "PARTIAL",
-   "latest_review_date": "2026-09-28",
-   "status": "PARTIAL",
+   "latest_result": "HIT",
+   "latest_review_date": "2026-10-14",
+   "status": "HIT",
    "timeline": [
     {
      "horizon": "plus_7",
@@ -8092,13 +8480,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-10-14",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "HIT",
+     "review_date": "2026-10-14",
+     "review_id": "NT-2026-09-14-05_plus30_2026-10-14"
     }
    ],
-   "next_checkpoint": "2026-10-14"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-09-14-06",
@@ -8284,6 +8672,47 @@
       "rationale": "Previsto mais conteúdo comparando stacks no SOP e higiene de evidência em 4–8 semanas. Há papers; densificação de conteúdo novo ainda rala em +14 → INCONCLUSIVE (igual a +7)."
      },
      "_translated_at": "2026-09-28T10:30:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-14-06_plus30_2026-10-14",
+     "trend_id": "NT-2026-09-14-06",
+     "cohort_id": "cohort_002",
+     "review_horizon": "plus_30",
+     "review_date": "2026-10-14",
+     "timezone": "America/Sao_Paulo",
+     "result": "PARTIAL",
+     "frozen_predicted_trajectory": "More PCOS content comparing stacks; evidence hygiene demand rises",
+     "prediction_confidence": "60%",
+     "prediction_timeframe": "4–8 weeks",
+     "prediction_freeze_date": "2026-09-14",
+     "evidence_window": "2026-09-28 → 2026-10-14",
+     "evidence_summary": "Evidence-hygiene demand rose sharply via Anvisa's 9 Oct 2026 alert that supplements do NOT treat insulin resistance, naming berberina, magnésio and mio-inositol as social-media 'treatments' (g1, VEJA, UOL; frozen as Cohort 006 NT-2026-10-12-02). That is adjacent claim hygiene for inositol stacks overlapping the PCOS prediction's hygiene half. Dedicated PCOS consumer/clinic content comparing myo-inositol vs metformin/GLP-1 stacks did not clearly densify in BR/EN discovery for 2026-09-28→10-14 beyond the pre-existing Frontiers network meta. X PT IR×suplementos/inositol narrow probe stayed tiny (7d≈5–7).",
+     "rationale": "Frozen trajectory: more PCOS stack-comparison content and rising evidence hygiene (4–8 weeks). At +30 the hygiene half materialized via Anvisa IR alert naming mio-inositol; PCOS-specific stack-compare densification remains thin → PARTIAL (upgrade from +14 INCONCLUSIVE).",
+     "sources_checked": [
+      "https://g1.globo.com/saude/noticia/2026/10/09/suplementos-nao-tratam-resistencia-a-insulina-e-podem-atrasar-diagnostico-e-tratamento-alerta-anvisa.ghtml",
+      "file:///workspace/nutritrend/trends/NT-2026-10-12-02.json",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-12.md",
+      "file:///workspace/nutritrend/discovery/x_propagation_2026-10-12_cohort.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "final_checkpoint": true,
+     "x_counts": {
+      "en_glp1_protein_muscle_7d": 668,
+      "pt_caneta_protein_creatine_muscle_7d": 49,
+      "semavy_anvisa_propaganda_nutri_7d": 2,
+      "pt_hair_collagen_caneta_7d": 0,
+      "en_hmb_glp1_muscle_7d": 16,
+      "source": "live x get_posts_counts_recent 2026-10-14 ~10:18 BRT (first-party X reads, not billed; credits $19.38 before/after)"
+     },
+     "_source_file": "reviews/NT-2026-09-14-06_plus30_2026-10-14.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Mais conteúdo de SOP comparando stacks; demanda por higiene de evidência sobe",
+      "prediction_timeframe": "4–8 semanas",
+      "evidence_summary": "A demanda por higiene de evidência subiu com força via o alerta da Anvisa de 9/out/2026 de que suplementos NÃO tratam resistência à insulina, citando berberina, magnésio e mio-inositol como 'tratamentos' nas redes (g1, VEJA, UOL; congelado como Coorte 006 NT-2026-10-12-02). Isso é higiene de alegações adjacente a stacks de inositol, sobrepondo a metade higiene da previsão de SOP. Conteúdo dedicado de consumo/clínica de SOP comparando mio-inositol vs metformina/GLP-1 não adensou com clareza no discovery BR/EN de 2026-09-28→10-14 além da network meta pré-existente da Frontiers. X PT RI×suplementos/inositol (sonda estreita) ficou minúsculo (7d≈5–7).",
+      "rationale": "Trajetória congelada: mais conteúdo de SOP comparando stacks e demanda crescente por higiene de evidência (4–8 semanas). Em +30 a metade higiene se materializou via o alerta Anvisa de RI citando mio-inositol; o adensamento de comparação de stacks específico de SOP segue fino → PARTIAL (upgrade do INCONCLUSIVE do +14)."
+     },
+     "_translated_at": "2026-10-14T10:30:00-03:00"
     }
    ],
    "observations": [
@@ -8378,6 +8807,40 @@
       "evidence_notes": "A network meta-analysis da Frontiers Endocrinology (AR de GLP-1 vs metformina vs inositol no SOP; doi 10.3389/fendo.2026.1833904) e o abstract relacionado em Human Reproduction seguem como camada de pesquisa. Não houve densidade clara e datada de conteúdo consumidor/clínica compa",
       "stage_now": "Emerging"
      }
+    },
+    {
+     "observation_date": "2026-10-14",
+     "trend_id": "NT-2026-09-14-06",
+     "cohort_id": "cohort_002",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Emerging (Anvisa claim-hygiene spike; PCOS stack compare still thin)",
+     "evidence_notes": "Anvisa 9 Oct IR alert names mio-inositol (claim hygiene); dedicated PCOS stack-compare content still thin.",
+     "sources_found": [
+      "https://g1.globo.com/saude/noticia/2026/10/09/suplementos-nao-tratam-resistencia-a-insulina-e-podem-atrasar-diagnostico-e-tratamento-alerta-anvisa.ghtml",
+      "file:///workspace/nutritrend/trends/NT-2026-10-12-02.json",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-12.md",
+      "file:///workspace/nutritrend/discovery/x_propagation_2026-10-12_cohort.md"
+     ],
+     "notes": "plus30 result=PARTIAL; see reviews/NT-2026-09-14-06_plus30_2026-10-14.json (final checkpoint)",
+     "recommended_action": "Prediction window closed; fold into Cohort 006 IR claim-literacy pack; PCOS stack card remains secondary.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "en_glp1_protein_muscle_7d": 668,
+      "pt_caneta_protein_creatine_muscle_7d": 49,
+      "semavy_anvisa_propaganda_nutri_7d": 2,
+      "pt_hair_collagen_caneta_7d": 0,
+      "en_hmb_glp1_muscle_7d": 16,
+      "source": "live x get_posts_counts_recent 2026-10-14 ~10:18 BRT (first-party X reads, not billed; credits $19.38 before/after)"
+     },
+     "_source_file": "observations/2026-10-14.jsonl",
+     "_line": 6,
+     "_pt": {
+      "evidence_notes": "Alerta Anvisa 9/out sobre RI cita mio-inositol (higiene de alegações); conteúdo dedicado de comparação de stacks em SOP ainda fino.",
+      "notes": "Resultado +30 = PARTIAL; ver reviews/NT-2026-09-14-06_plus30_2026-10-14.json (último checkpoint)",
+      "stage_now": "Emerging (pico de higiene Anvisa; comparação de stacks SOP ainda fina)",
+      "recommended_action": "Janela encerrada; incorporar ao pacote de letramento de alegações de RI da Coorte 006; card de SOP fica secundário."
+     }
     }
    ],
    "mentions": [],
@@ -8392,16 +8855,16 @@
      "plus_14": "2026-09-28",
      "plus_30": "2026-10-14"
     },
-    "next_review_date": "2026-10-14",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-09-28",
-    "last_result": "INCONCLUSIVE",
+    "last_review_date": "2026-10-14",
+    "last_result": "PARTIAL",
     "cohort_id": "cohort_002"
    },
    "cohort_id": "cohort_002",
-   "latest_result": "INCONCLUSIVE",
-   "latest_review_date": "2026-09-28",
-   "status": "ANALYZING",
+   "latest_result": "PARTIAL",
+   "latest_review_date": "2026-10-14",
+   "status": "PARTIAL",
    "timeline": [
     {
      "horizon": "plus_7",
@@ -8422,13 +8885,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-10-14",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-10-14",
+     "review_id": "NT-2026-09-14-06_plus30_2026-10-14"
     }
    ],
-   "next_checkpoint": "2026-10-14"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-09-14-07",
@@ -8624,6 +9087,47 @@
       "rationale": "A trajetória congelada esperava mais conteúdo BR sobre blends/proteínas alternativas e explicadores de preço para atletas e usuários de caneta. A Globo Rural de 26/set é um explicador nacional de preço distinto pós-congelamento com vínculo explícito caneta→demanda por proteína, somado à educação contínua de blends/alts → HIT (upgrade de PARTIAL em +7)."
      },
      "_translated_at": "2026-09-28T10:30:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-14-07_plus30_2026-10-14",
+     "trend_id": "NT-2026-09-14-07",
+     "cohort_id": "cohort_002",
+     "review_horizon": "plus_30",
+     "review_date": "2026-10-14",
+     "timezone": "America/Sao_Paulo",
+     "result": "HIT",
+     "frozen_predicted_trajectory": "More BR content on blends/alt proteins; price explainers for athletes and caneta users",
+     "prediction_confidence": "75%",
+     "prediction_timeframe": "2–6 weeks",
+     "prediction_freeze_date": "2026-09-14",
+     "evidence_window": "2026-09-28 → 2026-10-14",
+     "evidence_summary": "BR whey price-explainer densification continued past the Globo Rural 26 Sep (+14 HIT substrate): Globo Rural 2 Oct (StoneX/MilkPoint WPC80/WPI spike, caneta→protein demand) frozen as Cohort 005 NT-2026-10-05-03; radar 13–14 Oct notes consumer whey-price complaints on X (Growth hikes ~15%, 'triplicou') while coupon bots post 'menor preço histórico'. Alt-protein/blend education and Sooro/Piracanjuba capacity context recirculate. PT caneta×proteína/creatina/músculo X 7d=49 (thin absolute, inside known band).",
+     "rationale": "Frozen trajectory: more BR blends/alt-protein content and price explainers for athletes and caneta users (2–6 weeks). At +30 the national price-explainer + caneta-demand link remains confirmed with fresh Oct densification → HIT held (final).",
+     "sources_checked": [
+      "file:///workspace/nutritrend/trends/NT-2026-10-05-03.json",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-13.md",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-14.md",
+      "file:///workspace/nutritrend/reviews/NT-2026-09-14-07_plus14_2026-09-28.json"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "final_checkpoint": true,
+     "x_counts": {
+      "en_glp1_protein_muscle_7d": 668,
+      "pt_caneta_protein_creatine_muscle_7d": 49,
+      "semavy_anvisa_propaganda_nutri_7d": 2,
+      "pt_hair_collagen_caneta_7d": 0,
+      "en_hmb_glp1_muscle_7d": 16,
+      "source": "live x get_posts_counts_recent 2026-10-14 ~10:18 BRT (first-party X reads, not billed; credits $19.38 before/after)"
+     },
+     "_source_file": "reviews/NT-2026-09-14-07_plus30_2026-10-14.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Mais conteúdo BR sobre blends/proteínas alternativas; explicadores de preço para atletas e usuários de caneta",
+      "prediction_timeframe": "2–6 semanas",
+      "evidence_summary": "O adensamento BR de explicadores de preço do whey continuou após o Globo Rural de 26/set (substrato do HIT do +14): Globo Rural 2/out (pico WPC80/WPI StoneX/MilkPoint, demanda caneta→proteína) congelado como Coorte 005 NT-2026-10-05-03; radares de 13–14/out registram reclamações de preço do whey no X (reajustes Growth ~15%, 'triplicou') enquanto bots de cupom postam 'menor preço histórico'. Educação de blends/proteínas alternativas e o contexto de capacidade Sooro/Piracanjuba recirculam. X PT caneta×proteína/creatina/músculo 7d=49 (absoluto fino, dentro da faixa conhecida).",
+      "rationale": "Trajetória congelada: mais conteúdo BR de blends/proteínas alternativas e explicadores de preço para atletas e usuários de caneta (2–6 semanas). Em +30 o explicador nacional de preço + vínculo com demanda das canetas segue confirmado com adensamento fresco de outubro → HIT mantido (final)."
+     },
+     "_translated_at": "2026-10-14T10:30:00-03:00"
     }
    ],
    "observations": [
@@ -8723,6 +9227,40 @@
       "evidence_notes": "Após o +7, a densificação BR de explicadores de preço avançou com clareza: Globo Rural de 2026-09-26 detalhou a disparada do whey WPC/WPI (StoneX EUA quase 3×; BR WPC80 ~R$180/kg em set, +24% vs jun MilkPoint), ligando explicitamente a demanda das canetas à ingestão de proteína p",
       "stage_now": "Brazil Growing"
      }
+    },
+    {
+     "observation_date": "2026-10-14",
+     "trend_id": "NT-2026-09-14-07",
+     "cohort_id": "cohort_002",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Brazil Growing (price explainers + alt-sourcing continuity)",
+     "evidence_notes": "Globo Rural 2 Oct + Oct 13–14 stream whey-price complaints continue the BR scarcity/price explainer wave with caneta demand link.",
+     "sources_found": [
+      "file:///workspace/nutritrend/trends/NT-2026-10-05-03.json",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-13.md",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-14.md",
+      "file:///workspace/nutritrend/reviews/NT-2026-09-14-07_plus14_2026-09-28.json"
+     ],
+     "notes": "plus30 result=HIT; see reviews/NT-2026-09-14-07_plus30_2026-10-14.json (final checkpoint)",
+     "recommended_action": "Prediction window closed; pack cost-effective protein swaps (WPC vs WPI vs blends/eggs/dairy).",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "en_glp1_protein_muscle_7d": 668,
+      "pt_caneta_protein_creatine_muscle_7d": 49,
+      "semavy_anvisa_propaganda_nutri_7d": 2,
+      "pt_hair_collagen_caneta_7d": 0,
+      "en_hmb_glp1_muscle_7d": 16,
+      "source": "live x get_posts_counts_recent 2026-10-14 ~10:18 BRT (first-party X reads, not billed; credits $19.38 before/after)"
+     },
+     "_source_file": "observations/2026-10-14.jsonl",
+     "_line": 7,
+     "_pt": {
+      "evidence_notes": "Globo Rural 2/out + reclamações de preço do whey no stream em 13–14/out continuam a onda BR de escassez/preço com vínculo à demanda das canetas.",
+      "notes": "Resultado +30 = HIT; ver reviews/NT-2026-09-14-07_plus30_2026-10-14.json (último checkpoint)",
+      "stage_now": "Brazil Growing (explicadores de preço + continuidade de sourcing alternativo)",
+      "recommended_action": "Janela encerrada; pacote de trocas proteicas custo-efetivas (WPC vs WPI vs blends/ovos/laticínios)."
+     }
     }
    ],
    "mentions": [
@@ -8745,15 +9283,15 @@
      "plus_14": "2026-09-28",
      "plus_30": "2026-10-14"
     },
-    "next_review_date": "2026-10-14",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-09-28",
+    "last_review_date": "2026-10-14",
     "last_result": "HIT",
     "cohort_id": "cohort_002"
    },
    "cohort_id": "cohort_002",
    "latest_result": "HIT",
-   "latest_review_date": "2026-09-28",
+   "latest_review_date": "2026-10-14",
    "status": "HIT",
    "timeline": [
     {
@@ -8775,13 +9313,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-10-14",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "HIT",
+     "review_date": "2026-10-14",
+     "review_id": "NT-2026-09-14-07_plus30_2026-10-14"
     }
    ],
-   "next_checkpoint": "2026-10-14"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-09-14-08",
@@ -8970,6 +9508,47 @@
       "rationale": "Previsto conteúdo de marketing antes do início do ensaio em 4–8 semanas. Em +14, registro inalterado e silêncio de marketing → INCONCLUSIVE (igual a +7; não é MISS)."
      },
      "_translated_at": "2026-09-28T10:30:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-14-08_plus30_2026-10-14",
+     "trend_id": "NT-2026-09-14-08",
+     "cohort_id": "cohort_002",
+     "review_horizon": "plus_30",
+     "review_date": "2026-10-14",
+     "timezone": "America/Sao_Paulo",
+     "result": "PARTIAL",
+     "frozen_predicted_trajectory": "More HMB-in-GLP-1 stack marketing ahead of PRESERVE-HMB; evidence-literate compare vs protein+RT+creatine hierarchy",
+     "prediction_confidence": "60%",
+     "prediction_timeframe": "4–8 weeks for marketing content (trial starts later)",
+     "prediction_freeze_date": "2026-09-14",
+     "evidence_window": "2026-09-28 → 2026-10-14",
+     "evidence_summary": "PRESERVE-HMB NCT07760948 remains not-yet-recruiting (est. start ~2026-12-01). In-window HMB-in-GLP-1 stack marketing densified: Abbott Ensure Max Protein 3-in-1 (7 Oct) — 3 g Ca-HMB + 5 g creatine + 30 g protein with an explicit GLP-1 FAQ; Youtheory GLP-1 Muscle Guard Protein review (Oct 2026) — 20 g whey + 3 g myHMB + D + Ca + fiber; EuPower (creatine + HMB + D) positioned for GLP-1 lean-mass support. Evidence-literate hierarchy content (HMB vs protein+RT+creatine first) remains thinner than brand marketing; aminoscope-class critiques note zero published RCTs of HMB in semaglutide/tirzepatide users. X EN HMB×GLP-1/muscle 7d=16 (tiny).",
+     "rationale": "Frozen trajectory: more HMB-in-GLP-1 stack marketing ahead of PRESERVE-HMB, plus evidence-literate hierarchy compares (4–8 weeks). At +30 marketing half clearly landed; hierarchy/literacy half and trial start still incomplete → PARTIAL (upgrade from +14 INCONCLUSIVE).",
+     "sources_checked": [
+      "https://abbott.mediaroom.com/2026-10-07-Abbott-introduces-Ensure-R-Max-Protein-3-in-1-Muscle-Support,-bringing-the-benefits-of-a-supplement-stack-into-one-scoop",
+      "https://www.theweightweight.com/youtheory-glp1-muscle-guard-protein-supplement-review",
+      "https://corconinternational.com/products/eupower/",
+      "https://aminoscope.com/research/hmb-evidence"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "final_checkpoint": true,
+     "x_counts": {
+      "en_glp1_protein_muscle_7d": 668,
+      "pt_caneta_protein_creatine_muscle_7d": 49,
+      "semavy_anvisa_propaganda_nutri_7d": 2,
+      "pt_hair_collagen_caneta_7d": 0,
+      "en_hmb_glp1_muscle_7d": 16,
+      "source": "live x get_posts_counts_recent 2026-10-14 ~10:18 BRT (first-party X reads, not billed; credits $19.38 before/after)"
+     },
+     "_source_file": "reviews/NT-2026-09-14-08_plus30_2026-10-14.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Mais marketing de stacks HMB-em-GLP-1 antes do PRESERVE-HMB; vozes baseadas em evidência comparam vs a hierarquia proteína+TR+creatina",
+      "prediction_timeframe": "4–8 semanas para conteúdo de marketing (ensaio começa depois)",
+      "evidence_summary": "PRESERVE-HMB NCT07760948 segue not-yet-recruiting (início estimado ~01/12/2026). O marketing de stacks HMB-em-GLP-1 adensou na janela: Abbott Ensure Max Protein 3-in-1 (7/out) — 3 g de Ca-HMB + 5 g de creatina + 30 g de proteína com FAQ explícito de GLP-1; review do Youtheory GLP-1 Muscle Guard Protein (out/2026) — 20 g de whey + 3 g de myHMB + D + Ca + fibra; EuPower (creatina + HMB + D) posicionado para suporte de massa magra em GLP-1. Conteúdo baseado em evidência da hierarquia (HMB vs proteína+TR+creatina primeiro) segue mais fino que o marketing de marca; críticas à la aminoscope notam zero RCTs publicados de HMB em usuários de semaglutida/tirzepatida. X EN HMB×GLP-1/músculo 7d=16 (minúsculo).",
+      "rationale": "Trajetória congelada: mais marketing de stacks HMB-em-GLP-1 antes do PRESERVE-HMB, mais comparações baseadas em evidência da hierarquia (4–8 semanas). Em +30 a metade marketing pousou com clareza; a metade hierarquia/letramento e o início do ensaio seguem incompletos → PARTIAL (upgrade do INCONCLUSIVE do +14)."
+     },
+     "_translated_at": "2026-10-14T10:30:00-03:00"
     }
    ],
    "observations": [
@@ -9065,6 +9644,40 @@
       "evidence_notes": "O PRESERVE-HMB NCT07760948 segue not-yet-recruiting com início estimado ~2026-12-01 (ClinicalTrials.gov / espelhos Syfrah). Não houve onda clara de marketing de stack HMB-em-GLP-1 nem conteúdo literato de hierarquia (HMB vs proteína+RT+creatina) densificado na janela de +14. O sc",
       "stage_now": "Emerging"
      }
+    },
+    {
+     "observation_date": "2026-10-14",
+     "trend_id": "NT-2026-09-14-08",
+     "cohort_id": "cohort_002",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Emerging → Growing (HMB-in-GLP-1 marketing landed; trial unread)",
+     "evidence_notes": "Ensure Max 3-in-1 (7 Oct) + Youtheory Muscle Guard put HMB into GLP-1-adjacent stacks; PRESERVE-HMB still not recruiting; hierarchy literacy thin.",
+     "sources_found": [
+      "https://abbott.mediaroom.com/2026-10-07-Abbott-introduces-Ensure-R-Max-Protein-3-in-1-Muscle-Support,-bringing-the-benefits-of-a-supplement-stack-into-one-scoop",
+      "https://www.theweightweight.com/youtheory-glp1-muscle-guard-protein-supplement-review",
+      "https://corconinternational.com/products/eupower/",
+      "https://aminoscope.com/research/hmb-evidence"
+     ],
+     "notes": "plus30 result=PARTIAL; see reviews/NT-2026-09-14-08_plus30_2026-10-14.json (final checkpoint)",
+     "recommended_action": "Prediction window closed; pack: protein+RT+creatine first; HMB as adjunct with no GLP-1 RCT yet.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "en_glp1_protein_muscle_7d": 668,
+      "pt_caneta_protein_creatine_muscle_7d": 49,
+      "semavy_anvisa_propaganda_nutri_7d": 2,
+      "pt_hair_collagen_caneta_7d": 0,
+      "en_hmb_glp1_muscle_7d": 16,
+      "source": "live x get_posts_counts_recent 2026-10-14 ~10:18 BRT (first-party X reads, not billed; credits $19.38 before/after)"
+     },
+     "_source_file": "observations/2026-10-14.jsonl",
+     "_line": 8,
+     "_pt": {
+      "evidence_notes": "Ensure Max 3-in-1 (7/out) + Youtheory Muscle Guard colocam HMB em stacks adjacentes a GLP-1; PRESERVE-HMB ainda não recruta; letramento de hierarquia fino.",
+      "notes": "Resultado +30 = PARTIAL; ver reviews/NT-2026-09-14-08_plus30_2026-10-14.json (último checkpoint)",
+      "stage_now": "Emerging → Growing (marketing HMB-em-GLP-1 pousou; ensaio sem leitura)",
+      "recommended_action": "Janela encerrada; pacote: proteína+TR+creatina primeiro; HMB como adjunto sem RCT em GLP-1 ainda."
+     }
     }
    ],
    "mentions": [],
@@ -9079,16 +9692,16 @@
      "plus_14": "2026-09-28",
      "plus_30": "2026-10-14"
     },
-    "next_review_date": "2026-10-14",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-09-28",
-    "last_result": "INCONCLUSIVE",
+    "last_review_date": "2026-10-14",
+    "last_result": "PARTIAL",
     "cohort_id": "cohort_002"
    },
    "cohort_id": "cohort_002",
-   "latest_result": "INCONCLUSIVE",
-   "latest_review_date": "2026-09-28",
-   "status": "ANALYZING",
+   "latest_result": "PARTIAL",
+   "latest_review_date": "2026-10-14",
+   "status": "PARTIAL",
    "timeline": [
     {
      "horizon": "plus_7",
@@ -9109,13 +9722,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-10-14",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-10-14",
+     "review_id": "NT-2026-09-14-08_plus30_2026-10-14"
     }
    ],
-   "next_checkpoint": "2026-10-14"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-09-14-09",
@@ -9300,6 +9913,47 @@
       "rationale": "Previsto mais conteúdo de desmistificação proteína-vs-colágeno para cabelo/pele/unhas. Pesquisa + SKUs adjacentes de RTD de colágeno ≠ densificação de myth-bust → INCONCLUSIVE (igual a +7)."
      },
      "_translated_at": "2026-09-28T10:30:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-14-09_plus30_2026-10-14",
+     "trend_id": "NT-2026-09-14-09",
+     "cohort_id": "cohort_002",
+     "review_horizon": "plus_30",
+     "review_date": "2026-10-14",
+     "timezone": "America/Sao_Paulo",
+     "result": "PARTIAL",
+     "frozen_predicted_trajectory": "More myth-bust content linking protein adequacy vs collagen HSN stacks",
+     "prediction_confidence": "60%",
+     "prediction_timeframe": "2–6 weeks",
+     "prediction_freeze_date": "2026-09-14",
+     "evidence_window": "2026-09-28 → 2026-10-14",
+     "evidence_summary": "Myth-bust densification around hair/skin on pens landed in BR mainstream: CNN Brasil 10 Oct (Dra. Ingrid Campos) — association of GLP-1 RAs with hair loss in 2026 meta-analyses, but eflúvio telógeno from rapid weight loss and protein/Fe/Zn inadequacy are co-drivers; do not auto-stop the pen; frozen as Cohort 006 NT-2026-10-12-09. Marie Claire Sep and earlier EM pieces recirculate the rapid-loss vs drug framing. Explicit protein-adequacy vs collagen HSN stack compares remain thin (CNN stresses protein/micronutrients, not collagen stacks). X PT queda-de-cabelo×caneta/colágeno probe 7d=0 on the narrow query used today.",
+     "rationale": "Frozen trajectory: more myth-bust content linking protein adequacy vs collagen HSN stacks (2–6 weeks). At +30 nutrition/rapid-loss myth-bust densified; collagen-stack compare half incomplete → PARTIAL (upgrade from +14 INCONCLUSIVE).",
+     "sources_checked": [
+      "https://www.cnnbrasil.com.br/saude/queda-de-cabelo-emagrecimento-rapido-ou-canetas-emagrecedoras/",
+      "https://revistamarieclaire.globo.com/beleza/noticia/2026/09/canetas-emagrecedoras-causam-queda-de-cabelo-ou-o-problema-esta-no-emagrecimento-acelerado.ghtml",
+      "file:///workspace/nutritrend/trends/NT-2026-10-12-09.json",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-12.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "final_checkpoint": true,
+     "x_counts": {
+      "en_glp1_protein_muscle_7d": 668,
+      "pt_caneta_protein_creatine_muscle_7d": 49,
+      "semavy_anvisa_propaganda_nutri_7d": 2,
+      "pt_hair_collagen_caneta_7d": 0,
+      "en_hmb_glp1_muscle_7d": 16,
+      "source": "live x get_posts_counts_recent 2026-10-14 ~10:18 BRT (first-party X reads, not billed; credits $19.38 before/after)"
+     },
+     "_source_file": "reviews/NT-2026-09-14-09_plus30_2026-10-14.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Mais conteúdo desmistificador ligando adequação proteica vs stacks de colágeno para cabelo/pele/unhas",
+      "prediction_timeframe": "2–6 semanas",
+      "evidence_summary": "O adensamento de desmistificação sobre cabelo/pele nas canetas pousou no mainstream BR: CNN Brasil 10/out (Dra. Ingrid Campos) — associação de agonistas de GLP-1 com queda de cabelo em metanálises de 2026, mas eflúvio telógeno por emagrecimento rápido e inadequação de proteína/Fe/Zn são co-fatores; não suspender a caneta automaticamente; congelado como Coorte 006 NT-2026-10-12-09. Marie Claire (set) e peças anteriores do EM recirculam o enquadramento emagrecimento rápido vs fármaco. Comparações explícitas de adequação proteica vs stacks de colágeno para cabelo/pele/unhas seguem finas (a CNN enfatiza proteína/micronutrientes, não stacks de colágeno). X PT queda-de-cabelo×caneta/colágeno 7d=0 na sonda estreita de hoje.",
+      "rationale": "Trajetória congelada: mais conteúdo desmistificador ligando adequação proteica vs stacks de colágeno para cabelo/pele/unhas (2–6 semanas). Em +30 a desmistificação nutrição/emagrecimento rápido adensou; a metade comparação com stacks de colágeno fica incompleta → PARTIAL (upgrade do INCONCLUSIVE do +14)."
+     },
+     "_translated_at": "2026-10-14T10:30:00-03:00"
     }
    ],
    "observations": [
@@ -9393,6 +10047,40 @@
       "evidence_notes": "Revisões de dermatologia/terapia sobre queda de cabelo com GLP-1 seguem como camada de pesquisa. A densificação retail BR do Moving Juice Protein (15 g colágeno + prebióticos) é atividade de formato/SKU da família protein-soda, não conteúdo de desmistificação ligando adequação pr",
       "stage_now": "Emerging"
      }
+    },
+    {
+     "observation_date": "2026-10-14",
+     "trend_id": "NT-2026-09-14-09",
+     "cohort_id": "cohort_002",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Emerging → Growing (hair myth-bust densified; collagen compare thin)",
+     "evidence_notes": "CNN Brasil 10 Oct densifies hair myth-bust (rapid loss + protein/Fe/Zn); collagen HSN stack compare still thin.",
+     "sources_found": [
+      "https://www.cnnbrasil.com.br/saude/queda-de-cabelo-emagrecimento-rapido-ou-canetas-emagrecedoras/",
+      "https://revistamarieclaire.globo.com/beleza/noticia/2026/09/canetas-emagrecedoras-causam-queda-de-cabelo-ou-o-problema-esta-no-emagrecimento-acelerado.ghtml",
+      "file:///workspace/nutritrend/trends/NT-2026-10-12-09.json",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-12.md"
+     ],
+     "notes": "plus30 result=PARTIAL; see reviews/NT-2026-09-14-09_plus30_2026-10-14.json (final checkpoint)",
+     "recommended_action": "Prediction window closed; pack FAQ under Cohort 006 hair card — protein adequacy first, collagen not a cure.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "en_glp1_protein_muscle_7d": 668,
+      "pt_caneta_protein_creatine_muscle_7d": 49,
+      "semavy_anvisa_propaganda_nutri_7d": 2,
+      "pt_hair_collagen_caneta_7d": 0,
+      "en_hmb_glp1_muscle_7d": 16,
+      "source": "live x get_posts_counts_recent 2026-10-14 ~10:18 BRT (first-party X reads, not billed; credits $19.38 before/after)"
+     },
+     "_source_file": "observations/2026-10-14.jsonl",
+     "_line": 9,
+     "_pt": {
+      "evidence_notes": "CNN Brasil 10/out adensa desmistificação da queda de cabelo (emagrecimento rápido + proteína/Fe/Zn); comparação com stacks de colágeno ainda fina.",
+      "notes": "Resultado +30 = PARTIAL; ver reviews/NT-2026-09-14-09_plus30_2026-10-14.json (último checkpoint)",
+      "stage_now": "Emerging → Growing (desmistificação capilar adensada; comparação com colágeno fina)",
+      "recommended_action": "Janela encerrada; FAQ do pacote sob o card de cabelo da Coorte 006 — adequação proteica primeiro, colágeno não é cura."
+     }
     }
    ],
    "mentions": [],
@@ -9407,16 +10095,16 @@
      "plus_14": "2026-09-28",
      "plus_30": "2026-10-14"
     },
-    "next_review_date": "2026-10-14",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-09-28",
-    "last_result": "INCONCLUSIVE",
+    "last_review_date": "2026-10-14",
+    "last_result": "PARTIAL",
     "cohort_id": "cohort_002"
    },
    "cohort_id": "cohort_002",
-   "latest_result": "INCONCLUSIVE",
-   "latest_review_date": "2026-09-28",
-   "status": "ANALYZING",
+   "latest_result": "PARTIAL",
+   "latest_review_date": "2026-10-14",
+   "status": "PARTIAL",
    "timeline": [
     {
      "horizon": "plus_7",
@@ -9437,13 +10125,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-10-14",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-10-14",
+     "review_id": "NT-2026-09-14-09_plus30_2026-10-14"
     }
    ],
-   "next_checkpoint": "2026-10-14"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-09-14-10",
@@ -9629,6 +10317,47 @@
       "rationale": "Prevista educação lenta + SKU lento. Em +14 há snippets industriais sem aceleração clara de densidade educativa → INCONCLUSIVE (igual a +7)."
      },
      "_translated_at": "2026-09-28T10:30:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-14-10_plus30_2026-10-14",
+     "trend_id": "NT-2026-09-14-10",
+     "cohort_id": "cohort_002",
+     "review_horizon": "plus_30",
+     "review_date": "2026-10-14",
+     "timezone": "America/Sao_Paulo",
+     "result": "INCONCLUSIVE",
+     "frozen_predicted_trajectory": "More education on leucine/PDCAAS of alts; slow SKU rollout",
+     "prediction_confidence": "55%",
+     "prediction_timeframe": "4–8 weeks for education content (not mass retail)",
+     "prediction_freeze_date": "2026-09-14",
+     "evidence_window": "2026-09-28 → 2026-10-14",
+     "evidence_summary": "Precision-fermentation / non-dairy alt-protein education remains industry-level: Future Cow (BR) FAPESP/PIPE coverage and Green Queen funding notes on animal-free whey/casein scale-up toward late-2026 industrial capacity; Derivando Leite whey-innovation brief. No clear leucine/PDCAAS consumer education acceleration or mass-retail precision-fermented whey SKU measured in 2026-09-28→10-14. Trajectory explicitly allowed slow education — still insufficient dated densification for PARTIAL/HIT.",
+     "rationale": "Frozen trajectory: more leucine/PDCAAS education of alts and slow SKU rollout (4–8 weeks, not mass retail). At +30 industry snippets continue without a measurable education-density or SKU wave → INCONCLUSIVE held (final; not MISS — direction never reversed).",
+     "sources_checked": [
+      "https://agencia.fapesp.br/future-cow-tecnologia-para-produzir-proteinas-do-leite-sem-vacas/54884",
+      "https://www.greenqueen.com.hk/future-cow-brazil-precision-fermentation-dairy-protein-funding/",
+      "https://derivandoleite.com.br/whey-2026-inovacao/",
+      "file:///workspace/nutritrend/reviews/NT-2026-09-14-10_plus14_2026-09-28.json"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "final_checkpoint": true,
+     "x_counts": {
+      "en_glp1_protein_muscle_7d": 668,
+      "pt_caneta_protein_creatine_muscle_7d": 49,
+      "semavy_anvisa_propaganda_nutri_7d": 2,
+      "pt_hair_collagen_caneta_7d": 0,
+      "en_hmb_glp1_muscle_7d": 16,
+      "source": "live x get_posts_counts_recent 2026-10-14 ~10:18 BRT (first-party X reads, not billed; credits $19.38 before/after)"
+     },
+     "_source_file": "reviews/NT-2026-09-14-10_plus30_2026-10-14.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Mais educação sobre leucina/PDCAAS de alternativas; rollout lento de SKUs",
+      "prediction_timeframe": "4–8 semanas para conteúdo educacional (não varejo em massa)",
+      "evidence_summary": "A educação sobre fermentação de precisão / proteínas alternativas não lácteas permanece no nível indústria: cobertura FAPESP/PIPE da Future Cow (BR) e notas de funding da Green Queen sobre escala de whey/caseína sem animais rumo a capacidade industrial no fim de 2026; brief de inovação em whey do Derivando Leite. Não houve aceleração clara de educação do consumidor sobre leucina/PDCAAS nem SKU de varejo em massa de whey por fermentação de precisão medido em 2026-09-28→10-14. A trajetória explicitamente admitia educação lenta — ainda sem densificação datada suficiente para PARTIAL/HIT.",
+      "rationale": "Trajetória congelada: mais educação sobre leucina/PDCAAS de alternativas e rollout lento de SKUs (4–8 semanas, não varejo em massa). Em +30 trechos de indústria continuam sem onda mensurável de educação ou SKU → INCONCLUSIVE mantido (final; não é MISS — a direção nunca se inverteu)."
+     },
+     "_translated_at": "2026-10-14T10:30:00-03:00"
     }
    ],
    "observations": [
@@ -9725,6 +10454,40 @@
       "evidence_notes": "A educação sobre fermentação de precisão / proteínas alternativas não lácteas segue em nível industrial: Landini cita fermentação entre vias de alívio do whey; educação Food Connection sobre blends levedura/ervilha/arroz na Fi South America; Globo Rural nota substituição por prot",
       "stage_now": "Emerging"
      }
+    },
+    {
+     "observation_date": "2026-10-14",
+     "trend_id": "NT-2026-09-14-10",
+     "cohort_id": "cohort_002",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Emerging (industry intent; no leucine/PDCAAS consumer education wave)",
+     "evidence_notes": "Future Cow / FAPESP industry education continues; no leucine/PDCAAS consumer wave or mass-retail PF whey SKU in window.",
+     "sources_found": [
+      "https://agencia.fapesp.br/future-cow-tecnologia-para-produzir-proteinas-do-leite-sem-vacas/54884",
+      "https://www.greenqueen.com.hk/future-cow-brazil-precision-fermentation-dairy-protein-funding/",
+      "https://derivandoleite.com.br/whey-2026-inovacao/",
+      "file:///workspace/nutritrend/reviews/NT-2026-09-14-10_plus14_2026-09-28.json"
+     ],
+     "notes": "plus30 result=INCONCLUSIVE; see reviews/NT-2026-09-14-10_plus30_2026-10-14.json (final checkpoint)",
+     "recommended_action": "Prediction window closed; watch Future Cow industrial start as a later radar item, not a pack priority.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "en_glp1_protein_muscle_7d": 668,
+      "pt_caneta_protein_creatine_muscle_7d": 49,
+      "semavy_anvisa_propaganda_nutri_7d": 2,
+      "pt_hair_collagen_caneta_7d": 0,
+      "en_hmb_glp1_muscle_7d": 16,
+      "source": "live x get_posts_counts_recent 2026-10-14 ~10:18 BRT (first-party X reads, not billed; credits $19.38 before/after)"
+     },
+     "_source_file": "observations/2026-10-14.jsonl",
+     "_line": 10,
+     "_pt": {
+      "evidence_notes": "Educação indústria Future Cow / FAPESP continua; sem onda de leucina/PDCAAS para o consumidor nem SKU de varejo em massa de whey por fermentação de precisão na janela.",
+      "notes": "Resultado +30 = INCONCLUSIVE; ver reviews/NT-2026-09-14-10_plus30_2026-10-14.json (último checkpoint)",
+      "stage_now": "Emerging (intenção indústria; sem onda educacional leucina/PDCAAS)",
+      "recommended_action": "Janela encerrada; acompanhar início industrial da Future Cow como item futuro de radar, não prioridade de pacote."
+     }
     }
    ],
    "mentions": [],
@@ -9739,15 +10502,15 @@
      "plus_14": "2026-09-28",
      "plus_30": "2026-10-14"
     },
-    "next_review_date": "2026-10-14",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-09-28",
+    "last_review_date": "2026-10-14",
     "last_result": "INCONCLUSIVE",
     "cohort_id": "cohort_002"
    },
    "cohort_id": "cohort_002",
    "latest_result": "INCONCLUSIVE",
-   "latest_review_date": "2026-09-28",
+   "latest_review_date": "2026-10-14",
    "status": "ANALYZING",
    "timeline": [
     {
@@ -9769,13 +10532,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-10-14",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "INCONCLUSIVE",
+     "review_date": "2026-10-14",
+     "review_id": "NT-2026-09-14-10_plus30_2026-10-14"
     }
    ],
-   "next_checkpoint": "2026-10-14"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-09-14-11",
@@ -9962,6 +10725,48 @@
       "rationale": "Prevista mais educação RTD sobre qualidade proteica por lata vs shakes. A propagação de SKU/formato segue na direção certa; a especificidade educativa ainda incompleta → PARTIAL mantido (sem upgrade para HIT)."
      },
      "_translated_at": "2026-09-28T10:30:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-14-11_plus30_2026-10-14",
+     "trend_id": "NT-2026-09-14-11",
+     "cohort_id": "cohort_002",
+     "review_horizon": "plus_30",
+     "review_date": "2026-10-14",
+     "timezone": "America/Sao_Paulo",
+     "result": "PARTIAL",
+     "frozen_predicted_trajectory": "More RTD education on protein quality per can vs shakes",
+     "prediction_confidence": "65%",
+     "prediction_timeframe": "2–6 weeks",
+     "prediction_freeze_date": "2026-09-14",
+     "evidence_window": "2026-09-28 → 2026-10-14",
+     "evidence_summary": "Protein soda / clear prebiotic / clear RTD densification continued: Mineral Pro protein water (água + clear whey, 10 g protein, unsweetened) trade coverage (EDairy News, Mercado & Consumo) and Max Titanium Iso Clear whey flavor expansion remain the BR clear-format props; Moving Juice Protein (collagen + prebiotics) retail continuity under Cohort 004 NT-2026-09-28-09. Education half — protein quality per can vs shakes — still incomplete; Teresina RTD protein-drink label study (radar 9 Oct) and Cohort 004 incomplete-protein literacy freeze imply quality education remained a gap. No regulatory/social breakout.",
+     "rationale": "Frozen trajectory: more RTD education on protein quality per can vs shakes (2–6 weeks). At +30 SKU/format propagation remains directionally right; quality-education specificity still incomplete → PARTIAL held (final).",
+     "sources_checked": [
+      "https://br.edairynews.com/soro-lacteo-agua-funcional/",
+      "https://mercadoeconsumo.com.br/12/06/2026/noticias-varejo/mineral-pro-estreia-com-agua-proteica-nao-saborizada-e-ja-mira-novos-produtos/",
+      "https://nutrainnovation.com.br/max-titanium-amplia-linha-iso-clear-whey-com-novos-sabores/",
+      "file:///workspace/nutritrend/trends/NT-2026-09-28-09.json",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-09.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "final_checkpoint": true,
+     "x_counts": {
+      "en_glp1_protein_muscle_7d": 668,
+      "pt_caneta_protein_creatine_muscle_7d": 49,
+      "semavy_anvisa_propaganda_nutri_7d": 2,
+      "pt_hair_collagen_caneta_7d": 0,
+      "en_hmb_glp1_muscle_7d": 16,
+      "source": "live x get_posts_counts_recent 2026-10-14 ~10:18 BRT (first-party X reads, not billed; credits $19.38 before/after)"
+     },
+     "_source_file": "reviews/NT-2026-09-14-11_plus30_2026-10-14.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Mais educação RTD sobre qualidade proteica por lata vs shakes",
+      "prediction_timeframe": "2–6 semanas",
+      "evidence_summary": "O adensamento de protein soda / clear prebiótico / clear RTD continuou: água proteica Mineral Pro (água + clear whey, 10 g de proteína, sem sabor) com cobertura de trade (EDairy News, Mercado & Consumo) e a expansão de sabores do Max Titanium Iso Clear seguem como props BR de formato clear; Moving Juice Protein (colágeno + prebióticos) mantém continuidade de varejo sob a Coorte 004 NT-2026-09-28-09. A metade educação — qualidade proteica por lata vs shakes — segue incompleta; o estudo de rótulos de bebidas proteicas RTD de Teresina (radar 9/out) e o congelamento de letramento de proteína incompleta da Coorte 004 implicam que a educação de qualidade ainda é um gap. Sem breakout regulatório/social.",
+      "rationale": "Trajetória congelada: mais educação RTD sobre qualidade proteica por lata vs shakes (2–6 semanas). Em +30 a propagação de SKU/formato segue direcionally correta; a especificidade da educação de qualidade ainda incompleta → PARTIAL mantido (final)."
+     },
+     "_translated_at": "2026-10-14T10:30:00-03:00"
     }
    ],
    "observations": [
@@ -10082,6 +10887,41 @@
       "evidence_notes": "A densificação de protein soda / bebidas clear prebióticas RTD continuou: Moving Juice Protein (15 g colágeno + ~5,7 g prebióticos / 300 ml) visível em listagens retail BR (Empório Quatro Estrelas, packs Capital Fitness) e cobertura Engarrafador Moderno; Max Titanium Iso Clear se",
       "stage_now": "Growing"
      }
+    },
+    {
+     "observation_date": "2026-10-14",
+     "trend_id": "NT-2026-09-14-11",
+     "cohort_id": "cohort_002",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Growing (RTD densification continues; quality education incomplete)",
+     "evidence_notes": "Mineral Pro / Max Iso Clear densify clear RTD formats; protein-quality-per-can education still a gap (links NT-28-09).",
+     "sources_found": [
+      "https://br.edairynews.com/soro-lacteo-agua-funcional/",
+      "https://mercadoeconsumo.com.br/12/06/2026/noticias-varejo/mineral-pro-estreia-com-agua-proteica-nao-saborizada-e-ja-mira-novos-produtos/",
+      "https://nutrainnovation.com.br/max-titanium-amplia-linha-iso-clear-whey-com-novos-sabores/",
+      "file:///workspace/nutritrend/trends/NT-2026-09-28-09.json",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-09.md"
+     ],
+     "notes": "plus30 result=PARTIAL; see reviews/NT-2026-09-14-11_plus30_2026-10-14.json (final checkpoint)",
+     "recommended_action": "Prediction window closed; pack incomplete-protein literacy for collagen juice / clear RTD under Cohort 004 card.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "en_glp1_protein_muscle_7d": 668,
+      "pt_caneta_protein_creatine_muscle_7d": 49,
+      "semavy_anvisa_propaganda_nutri_7d": 2,
+      "pt_hair_collagen_caneta_7d": 0,
+      "en_hmb_glp1_muscle_7d": 16,
+      "source": "live x get_posts_counts_recent 2026-10-14 ~10:18 BRT (first-party X reads, not billed; credits $19.38 before/after)"
+     },
+     "_source_file": "observations/2026-10-14.jsonl",
+     "_line": 11,
+     "_pt": {
+      "evidence_notes": "Mineral Pro / Max Iso Clear adensam formatos clear RTD; educação de qualidade proteica por lata ainda é gap (liga NT-28-09).",
+      "notes": "Resultado +30 = PARTIAL; ver reviews/NT-2026-09-14-11_plus30_2026-10-14.json (último checkpoint)",
+      "stage_now": "Growing (adensamento RTD continua; educação de qualidade incompleta)",
+      "recommended_action": "Janela encerrada; pacote de letramento de proteína incompleta para suco de colágeno / clear RTD sob o card da Coorte 004."
+     }
     }
    ],
    "mentions": [],
@@ -10096,15 +10936,15 @@
      "plus_14": "2026-09-28",
      "plus_30": "2026-10-14"
     },
-    "next_review_date": "2026-10-14",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-09-28",
+    "last_review_date": "2026-10-14",
     "last_result": "PARTIAL",
     "cohort_id": "cohort_002"
    },
    "cohort_id": "cohort_002",
    "latest_result": "PARTIAL",
-   "latest_review_date": "2026-09-28",
+   "latest_review_date": "2026-10-14",
    "status": "PARTIAL",
    "timeline": [
     {
@@ -10126,13 +10966,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-10-14",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-10-14",
+     "review_id": "NT-2026-09-14-11_plus30_2026-10-14"
     }
    ],
-   "next_checkpoint": "2026-10-14"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-09-14-12",
@@ -10318,6 +11158,46 @@
       "rationale": "Prevista mais educação sobre lácteos fortificados com leucina e possível observação por players lácteos BR. Complemento Nestlé adjacente ≠ densificação educativa da classe Oikos → INCONCLUSIVE (igual a +7)."
      },
      "_translated_at": "2026-09-28T10:30:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-14-12_plus30_2026-10-14",
+     "trend_id": "NT-2026-09-14-12",
+     "cohort_id": "cohort_002",
+     "review_horizon": "plus_30",
+     "review_date": "2026-10-14",
+     "timezone": "America/Sao_Paulo",
+     "result": "INCONCLUSIVE",
+     "frozen_predicted_trajectory": "More leucine-fortified dairy education; BR dairy players may watch",
+     "prediction_confidence": "55%",
+     "prediction_timeframe": "4–8 weeks",
+     "prediction_freeze_date": "2026-09-14",
+     "evidence_window": "2026-09-28 → 2026-10-14",
+     "evidence_summary": "Oikos Fusion (leucine peptides + vitamin D cultured dairy) remains the US medical-food-style class product without a dated BR education wave in 2026-09-28→10-14. Adjacent BR dairy: Verde Campo Iogurte Natural Whey with 'suporte GLP-1 nutricional' seal (21 g protein + 2.5 g fiber + vitamins A/D/B3/B12; MilkPoint 21 Aug 2026) is pre-freeze/pre-window and not leucine-fortified Oikos-class education. Nestlé Nutren Control companion stays ONS-adjacent. No clear new leucine-fortified dairy education or BR dairy-player watch pieces dated inside the +30 window.",
+     "rationale": "Frozen trajectory: more leucine-fortified dairy education; BR dairy players may watch (4–8 weeks). Adjacent GLP-1-seal dairy exists but is pre-window and not leucine-class; in-window densification absent → INCONCLUSIVE held (final; not MISS).",
+     "sources_checked": [
+      "https://www.milkpoint.com.br/noticias-e-mercado/giro-noticias/verde-campo-lanca-natural-whey-com-selo-de-suporte-glp1-241880/",
+      "https://nutrainnovation.com.br/oikos-lanca-bebida-proteica-com-foco-em-perda-de-peso-saudavel/",
+      "file:///workspace/nutritrend/reviews/NT-2026-09-14-12_plus14_2026-09-28.json"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "final_checkpoint": true,
+     "x_counts": {
+      "en_glp1_protein_muscle_7d": 668,
+      "pt_caneta_protein_creatine_muscle_7d": 49,
+      "semavy_anvisa_propaganda_nutri_7d": 2,
+      "pt_hair_collagen_caneta_7d": 0,
+      "en_hmb_glp1_muscle_7d": 16,
+      "source": "live x get_posts_counts_recent 2026-10-14 ~10:18 BRT (first-party X reads, not billed; credits $19.38 before/after)"
+     },
+     "_source_file": "reviews/NT-2026-09-14-12_plus30_2026-10-14.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Mais educação sobre laticínio enriquecido em leucina; players de laticínios BR podem observar",
+      "prediction_timeframe": "4–8 semanas",
+      "evidence_summary": "Oikos Fusion (laticínio cultivado com peptídeos de leucina + vitamina D) permanece o produto-classe estilo medical-food dos EUA, sem onda educacional BR datada em 2026-09-28→10-14. Laticínio BR adjacente: Iogurte Natural Whey da Verde Campo com selo 'suporte GLP-1 nutricional' (21 g de proteína + 2,5 g de fibra + vitaminas A/D/B3/B12; MilkPoint 21/ago/2026) é pré-congelamento/pré-janela e não é educação Oikos-class enriquecida em leucina. Nestlé Nutren Control companion segue adjacente a ONS. Sem onda clara de educação de laticínio enriquecido em leucina nem peças de 'dairy players BR de olho' datadas dentro da janela de +30.",
+      "rationale": "Trajetória congelada: mais educação sobre laticínio enriquecido em leucina; players de laticínios BR podem observar (4–8 semanas). Laticínio com selo GLP-1 adjacente existe, mas é pré-janela e não é da classe leucina; densificação na janela ausente → INCONCLUSIVE mantido (final; não é MISS)."
+     },
+     "_translated_at": "2026-10-14T10:30:00-03:00"
     }
    ],
    "observations": [
@@ -10412,6 +11292,39 @@
       "evidence_notes": "O Oikos Fusion (23 g proteína, peptídeos de leucina, vitamina D, fibra prebiótica) segue como produto-classe estilo medical-food nos EUA (PRs de lançamento 2025 / páginas da marca). O Nutren Control Nestlé é ONS adjacente, não educação sobre lácteo leucina+D. Sem onda clara e nov",
       "stage_now": "Emerging"
      }
+    },
+    {
+     "observation_date": "2026-10-14",
+     "trend_id": "NT-2026-09-14-12",
+     "cohort_id": "cohort_002",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Emerging (adjacent BR GLP-1 dairy seal pre-window; Oikos-class leucine education absent)",
+     "evidence_notes": "Verde Campo GLP-1-seal yogurt is pre-window and not leucine-fortified; Oikos Fusion still US; no in-window leucine dairy education wave.",
+     "sources_found": [
+      "https://www.milkpoint.com.br/noticias-e-mercado/giro-noticias/verde-campo-lanca-natural-whey-com-selo-de-suporte-glp1-241880/",
+      "https://nutrainnovation.com.br/oikos-lanca-bebida-proteica-com-foco-em-perda-de-peso-saudavel/",
+      "file:///workspace/nutritrend/reviews/NT-2026-09-14-12_plus14_2026-09-28.json"
+     ],
+     "notes": "plus30 result=INCONCLUSIVE; see reviews/NT-2026-09-14-12_plus30_2026-10-14.json (final checkpoint)",
+     "recommended_action": "Prediction window closed; optional pack note on high-protein dairy with GLP-1 seal (Verde Campo) without claiming leucine peptides.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "en_glp1_protein_muscle_7d": 668,
+      "pt_caneta_protein_creatine_muscle_7d": 49,
+      "semavy_anvisa_propaganda_nutri_7d": 2,
+      "pt_hair_collagen_caneta_7d": 0,
+      "en_hmb_glp1_muscle_7d": 16,
+      "source": "live x get_posts_counts_recent 2026-10-14 ~10:18 BRT (first-party X reads, not billed; credits $19.38 before/after)"
+     },
+     "_source_file": "observations/2026-10-14.jsonl",
+     "_line": 12,
+     "_pt": {
+      "evidence_notes": "Iogurte Verde Campo com selo GLP-1 é pré-janela e não enriquecido em leucina; Oikos Fusion segue EUA; sem onda educacional de laticínio com leucina na janela.",
+      "notes": "Resultado +30 = INCONCLUSIVE; ver reviews/NT-2026-09-14-12_plus30_2026-10-14.json (último checkpoint)",
+      "stage_now": "Emerging (selo GLP-1 em laticínio BR adjacente pré-janela; educação Oikos-class ausente)",
+      "recommended_action": "Janela encerrada; nota opcional no pacote sobre laticínio alto em proteína com selo GLP-1 (Verde Campo) sem alegar peptídeos de leucina."
+     }
     }
    ],
    "mentions": [],
@@ -10426,15 +11339,15 @@
      "plus_14": "2026-09-28",
      "plus_30": "2026-10-14"
     },
-    "next_review_date": "2026-10-14",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-09-28",
+    "last_review_date": "2026-10-14",
     "last_result": "INCONCLUSIVE",
     "cohort_id": "cohort_002"
    },
    "cohort_id": "cohort_002",
    "latest_result": "INCONCLUSIVE",
-   "latest_review_date": "2026-09-28",
+   "latest_review_date": "2026-10-14",
    "status": "ANALYZING",
    "timeline": [
     {
@@ -10456,13 +11369,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-10-14",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "INCONCLUSIVE",
+     "review_date": "2026-10-14",
+     "review_id": "NT-2026-09-14-12_plus30_2026-10-14"
     }
    ],
-   "next_checkpoint": "2026-10-14"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-09-21-01",
@@ -15002,7 +15915,15 @@
      }
     }
    ],
-   "mentions": [],
+   "mentions": [
+    {
+     "observation_date": "2026-10-14",
+     "observation_type": "plus30_review_probe",
+     "from_trend_id": "NT-2026-09-14-01",
+     "_source_file": "observations/2026-10-14.jsonl",
+     "_line": 1
+    }
+   ],
    "embedded_observation_log": [],
    "schedule": {
     "trend_id": "NT-2026-09-28-03",
@@ -16866,6 +17787,13 @@
      "from_trend_id": "NT-2026-09-09-10",
      "_source_file": "observations/2026-10-09.jsonl",
      "_line": 11
+    },
+    {
+     "observation_date": "2026-10-14",
+     "observation_type": "plus30_review_probe",
+     "from_trend_id": "NT-2026-09-14-11",
+     "_source_file": "observations/2026-10-14.jsonl",
+     "_line": 11
     }
    ],
    "embedded_observation_log": [],
@@ -17922,6 +18850,13 @@
      "from_trend_id": "NT-2026-09-09-02",
      "_source_file": "observations/2026-10-09.jsonl",
      "_line": 3
+    },
+    {
+     "observation_date": "2026-10-14",
+     "observation_type": "plus30_review_probe",
+     "from_trend_id": "NT-2026-09-14-07",
+     "_source_file": "observations/2026-10-14.jsonl",
+     "_line": 7
     }
    ],
    "embedded_observation_log": [],
@@ -18173,6 +19108,13 @@
      "from_trend_id": "NT-2026-09-09-14",
      "_source_file": "observations/2026-10-09.jsonl",
      "_line": 15
+    },
+    {
+     "observation_date": "2026-10-14",
+     "observation_type": "plus30_review_probe",
+     "from_trend_id": "NT-2026-09-14-05",
+     "_source_file": "observations/2026-10-14.jsonl",
+     "_line": 5
     }
    ],
    "embedded_observation_log": [],
@@ -18656,7 +19598,15 @@
      }
     }
    ],
-   "mentions": [],
+   "mentions": [
+    {
+     "observation_date": "2026-10-14",
+     "observation_type": "plus30_review_probe",
+     "from_trend_id": "NT-2026-09-14-02",
+     "_source_file": "observations/2026-10-14.jsonl",
+     "_line": 2
+    }
+   ],
    "embedded_observation_log": [],
    "schedule": {
     "trend_id": "NT-2026-10-05-06",
@@ -18911,6 +19861,13 @@
      "from_trend_id": "NT-2026-09-09-01",
      "_source_file": "observations/2026-10-09.jsonl",
      "_line": 2
+    },
+    {
+     "observation_date": "2026-10-14",
+     "observation_type": "plus30_review_probe",
+     "from_trend_id": "NT-2026-09-14-05",
+     "_source_file": "observations/2026-10-14.jsonl",
+     "_line": 5
     }
    ],
    "embedded_observation_log": [],
@@ -20032,7 +20989,15 @@
    },
    "reviews": [],
    "observations": [],
-   "mentions": [],
+   "mentions": [
+    {
+     "observation_date": "2026-10-14",
+     "observation_type": "plus30_review_probe",
+     "from_trend_id": "NT-2026-09-14-06",
+     "_source_file": "observations/2026-10-14.jsonl",
+     "_line": 6
+    }
+   ],
    "embedded_observation_log": [],
    "schedule": {
     "trend_id": "NT-2026-10-12-02",
@@ -21338,7 +22303,15 @@
    },
    "reviews": [],
    "observations": [],
-   "mentions": [],
+   "mentions": [
+    {
+     "observation_date": "2026-10-14",
+     "observation_type": "plus30_review_probe",
+     "from_trend_id": "NT-2026-09-14-09",
+     "_source_file": "observations/2026-10-14.jsonl",
+     "_line": 9
+    }
+   ],
    "embedded_observation_log": [],
    "schedule": {
     "trend_id": "NT-2026-10-12-09",
@@ -21693,8 +22666,8 @@
  ],
  "counts": {
   "trends": 66,
-  "reviews": 116,
-  "observations": 170
+  "reviews": 128,
+  "observations": 182
  },
  "warnings": [],
  "translations": {
