@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-14T10:22:06-03:00",
+ "generated_at": "2026-10-19T09:21:41-03:00",
  "generated_tz": "America/Sao_Paulo",
- "build_date": "2026-10-14",
+ "build_date": "2026-10-19",
  "store": {
   "path": "/workspace/nutritrend"
  },
@@ -15,9 +15,9 @@
    "HIT": 12,
    "PARTIAL": 28,
    "MISS": 1,
-   "ANALYZING": 25
+   "ANALYZING": 35
   },
-  "total": 66,
+  "total": 76,
   "hit_rate": 0.6341,
   "strict_hit_rate": 0.2927
  },
@@ -262,6 +262,45 @@
     "NT-2026-10-12-08",
     "NT-2026-10-12-09",
     "NT-2026-10-12-10"
+   ]
+  },
+  {
+   "cohort_id": "cohort_007",
+   "cohort_date": "2026-10-19",
+   "Radar_version": "Radar v0.1",
+   "Score_version": "NutriTrend Score v0.1",
+   "review_cadence_days": [
+    7,
+    14,
+    30
+   ],
+   "_source_file": "reviews/schedule_cohort_007.json",
+   "frozen_date": "2026-10-19",
+   "next_review_date": "2026-10-26",
+   "overdue": 0,
+   "reviews_count": 0,
+   "summary": {
+    "counts": {
+     "HIT": 0,
+     "PARTIAL": 0,
+     "MISS": 0,
+     "ANALYZING": 10
+    },
+    "total": 10,
+    "hit_rate": null,
+    "strict_hit_rate": null
+   },
+   "trend_ids": [
+    "NT-2026-10-19-01",
+    "NT-2026-10-19-02",
+    "NT-2026-10-19-03",
+    "NT-2026-10-19-04",
+    "NT-2026-10-19-05",
+    "NT-2026-10-19-06",
+    "NT-2026-10-19-07",
+    "NT-2026-10-19-08",
+    "NT-2026-10-19-09",
+    "NT-2026-10-19-10"
    ]
   }
  ],
@@ -22542,6 +22581,1872 @@
     }
    ],
    "next_checkpoint": "2026-10-19"
+  },
+  {
+   "id": "NT-2026-10-19-01",
+   "frozen": {
+    "trend_id": "NT-2026-10-19-01",
+    "topic": "'Caneta + bomba' — GLP-1/GIP pens co-trafficked and co-used with anabolic steroids/testosterone in gym & aesthetic culture (Felca comeback rumor 20/10, PRF/PF seizures, Carta do Rio on hormone implants)",
+    "canonical_topic_name": "Pens + anabolic stacking in Brazil: unconfirmed X rumor that Felca's comeback (teaser 'Eu me escondi por tempo demais', 20/10 00:00 SP) covers canetas emagrecedoras + anabolizantes; PRF seizure on Fernão Dias/Atibaia (15 Oct: tirzepatida, retatrutida + Durateston, trembolona, nandrolona from Paraguay) and PF operation in PB (17 Oct); SBT #Podnews 'caneta com anabolizante'; CRF-GO warning on pen + hormones/termogênicos/manipulados; Carta do Rio (1 Oct, SBEM + 11 entities) asking Anvisa to ban compounded hormone implants ('chip da beleza', incl. oxandrolona) used for emagrecimento/ganho de massa; evidence boundary = TRT in hypogonadal men on GLP-1/GIP (J Sex Med 2026 abstract) ≠ steroids for aesthetics",
+    "source_market": "BR (Native) with EN origin layer (bodybuilding GLP-1 'folk pharmacology')",
+    "origin_community": "X PT (Felca rumor, electoral framing) + police/PRF/PF seizure news (G1 regional) + medical societies (SBEM/Abeso Carta do Rio) + pharmacy council (CRF-GO) + SBT News Podnews + EN bodybuilding/TRT culture",
+    "origin_type": "Social rumor spike + enforcement pattern + professional-society warning",
+    "source_layer": "Discovery",
+    "stage": "Brazil Emerging",
+    "velocity": "X PT Felca × caneta/anabolizante 7d=1,362 (0 → 937 on Oct 18 UTC → 424 by 12:07Z Oct 19, fading 12–15/h); non-Felca PT pens × anabolizante/testosterona/oxandrolona/'bomba' 7d=88 (25; 8; 0; 7; 8; 7; 30; 3p — 'bomba' ambiguous); PT 'chip da beleza'/implante hormonal 7d=17; EN GLP-1 × testosterone/TRT/steroids 7d=69 (steady 7–16/day)",
+    "reach": "Potentially very high if the Felca video confirms the theme (prior 'adultização' video >25M views per O Globo); otherwise medium — regional seizure news + gym-culture talk; high relevance for sports RDs (qualitative)",
+    "novelty": "High — pens × anabolic stacking never frozen in Cohorts 001–006 (gray-market pens and research peptides were: NT-2026-09-21-10, NT-2026-09-28-08, NT-2026-10-12-03)",
+    "persistence_estimate": "Medium-High — seizure pattern (pens + steroids from Paraguay) is structural; the Felca spike is contingent and may be a one-day event",
+    "brazil_presence": "Present/Native — G1 Vale do Paraíba 16/10, Jornal Estância de Atibaia, Portal Vale Paraibano, Mobilidade Sampa, O Globo/TMC (teaser), UOL VivaBem 01/10 (Carta do Rio), CRF-GO, SBT News",
+    "brazil_momentum": "Spiking on rumor (Oct 18), fading this morning; decisive checkpoint Tue 20/10 00:00 SP",
+    "primary_niches": [
+     "sports/hypertrophy",
+     "gym culture / 'natty or not'",
+     "GLP-1 lean-mass",
+     "aesthetics / hormone implants",
+     "professional ethics & scope"
+    ],
+    "evidence_temperature": "Strong for seizures and the society position letter; Unknown for the Felca video content (teaser only); Limited/indirect for TRT + GLP-1 (open-label conference abstract, bioimpedance, hypogonadal men only — not transferable to eugonadal gym users or women); no evidence base for anabolic steroids for aesthetics",
+    "misinformation_risk": "High — 'caneta seca e bomba segura o músculo'; 'testosterona preserva massa na caneta' (generalized from hypogonadal trial); 'chip da beleza é natural/bioidêntico'; 'nutri pode orientar ciclo'; rumor treated as fact ('o Felca já denunciou')",
+    "audience_question_signal": "Yes — Dá para usar caneta junto com anabolizante? · Testosterona evita perder músculo na caneta? · O que o Felca falou? · Chip da beleza emagrece? · O que faço com aluno/paciente que está usando?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "Two tracks. (a) Contingent: if Felca's 20/10 video addresses pens and/or anabolic steroids, PT X 'Felca × caneta/anabolizante' exceeds 3,000 posts across 20–21 Oct (UTC) and ≥3 tier-1 BR outlets (g1, Folha, O Globo, Estadão, UOL, CNN Brasil) publish explainers linking pens and anabolic steroids within 7 days; if the video is unrelated, Felca counts fall below 50/day by 22 Oct and the item reverts to track (b). (b) Independent: ≥2 additional police/Receita/Anvisa seizure reports pairing GLP-1/GIP pens with anabolic steroids by +14, and ≥1 professional-body or medical-society statement (CFN/CRN, CFF/CRF, SBEM/Abeso, sports-medicine society) addressing pens + hormones/anabolics in fitness/aesthetic use by +30. Non-Felca PT pens × anabolic X stays <200/7d unless (a) fires",
+    "prediction_confidence": "62%",
+    "prediction_timeframe": "(a) 20–26 Oct; (b) seizures by +14 (2026-11-02), society statement by +30 (2026-11-18)",
+    "key_sources": [
+     "https://oglobo.globo.com/brasil/noticia/2026/10/19/felca-anuncia-retorno-as-redes-sociais-apos-sete-meses-afastado-me-escondi-por-tempo-demais.ghtml",
+     "https://tmc.com.br/entretenimento/felca-retorno-anuncio-terca-hytalo-santos/",
+     "https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2026/10/16/prf-apreende-canetas-emagrecedoras-e-anabolizantes-escondidos-em-carro-na-fernao-dias.ghtml",
+     "https://sbtnews.sbt.com.br/videos/NZg9ecn9aAg",
+     "https://www.uol.com.br/vivabem/noticias/redacao/2026/10/01/sociedades-medicas-pedem-proibicao-de-chip-da-beleza-manipulado.ghtm",
+     "https://sbhepatologia.org.br/wp-content/uploads/2026/10/Carta-do-RJ-Posicionamento-das-sociedades-medicas-sobre-implantes-hormonais-manipulados.docx.pdf",
+     "https://www.crfgo.org.br/noticia/id/1316/noticia-titulo/uso-de-canetas-emagrecedoras-exige-orientacao-e-estrategia-farmaceuticos-alertam-para-riscos-de-associacoes-inadequadas",
+     "https://doi.org/10.1093/jsxmed/qdag118.413",
+     "https://doi.org/10.1016/j.drugpo.2025.104854",
+     "https://x.com/nolavrado/status/2111853316569518517"
+    ],
+    "key_accounts": [
+     "Felca (@felca0)",
+     "@nolavrado",
+     "PRF",
+     "SBEM",
+     "Abeso",
+     "CRF-GO",
+     "SBT News"
+    ],
+    "why_flagged": "Carry-over from the 10-19 sweep (q54) plus a real, non-rumor base: seizures that pair pens with anabolic steroids and a 12-society letter against compounded hormone implants for weight loss/muscle. Profile A (gym culture, lean mass on pens) very high; Profile B (hormone 'stacks', compounded implants, scope) high. Tuesday's video is the binary checkpoint.",
+    "ProfileA_relevance": 92,
+    "ProfileB_relevance": 74,
+    "merged_from": [
+     "Felca comeback rumor (q54, sweep 10-19)",
+     "PRF/PF pens + steroids seizures (15–17 Oct)",
+     "Carta do Rio — compounded hormone implants (1 Oct)",
+     "TRT × GLP-1/GIP lean-mass abstract (J Sex Med 2026)"
+    ],
+    "scan_notes": "Never state what the Felca video says before it airs — teaser only. Do not generalize the J Sex Med abstract beyond hypogonadal men (open-label, bioimpedance, conference abstract). Nutritionists do not prescribe hormones or pens (CRN-10 note) — angle is screening, referral and nutrition/RT. Related, not rewritten: NT-2026-10-12-03 (research peptides), NT-2026-09-21-10 / NT-2026-09-28-08 (gray-market pens), NT-2026-10-05-07 (lean-mass toolkit). SBT Podnews segment date Unknown (page fetch failed).",
+    "first_detected_date": "2026-10-16",
+    "latest_observation_date": "2026-10-19",
+    "prediction_freeze_date": "2026-10-19",
+    "next_review_date": "2026-10-26",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_007"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-10-19-01",
+    "topic": "'Caneta + bomba' — canetas GLP-1/GIP traficadas e usadas junto com anabolizantes/testosterona na cultura de academia e estética (boato do retorno do Felca em 20/10, apreensões da PRF/PF, Carta do Rio sobre implantes hormonais)",
+    "canonical_topic_name": "Combinação canetas + anabolizantes no Brasil: boato não confirmado no X de que o retorno do Felca (teaser 'Eu me escondi por tempo demais', 20/10 00:00 SP) trata de canetas emagrecedoras + anabolizantes; apreensão da PRF na Fernão Dias/Atibaia (15/10: tirzepatida, retatrutida + Durateston, trembolona, nandrolona vindos do Paraguai) e operação da PF na PB (17/10); #Podnews do SBT 'caneta com anabolizante'; alerta do CRF-GO sobre caneta + hormônios/termogênicos/manipulados; Carta do Rio (1/10, SBEM + 11 entidades) pedindo à Anvisa a proibição dos implantes hormonais manipulados ('chip da beleza', inclusive com oxandrolona) usados para emagrecimento/ganho de massa; limite da evidência = TRT em homens hipogonádicos em uso de GLP-1/GIP (resumo J Sex Med 2026) ≠ anabolizante para estética",
+    "source_market": "BR (nativo), com camada de origem em inglês ('farmacologia popular' de GLP-1 no fisiculturismo)",
+    "origin_community": "X PT (boato do Felca, enquadramento eleitoral) + notícias de apreensão policial/PRF/PF (G1 regional) + sociedades médicas (Carta do Rio SBEM/Abeso) + conselho de farmácia (CRF-GO) + Podnews do SBT News + cultura de fisiculturismo/TRT em inglês",
+    "origin_type": "Pico de boato nas redes + padrão de fiscalização + alerta de sociedade profissional",
+    "source_layer": "Descoberta",
+    "stage": "Emergente no Brasil",
+    "velocity": "X PT Felca × caneta/anabolizante 7d=1.362 (0 → 937 em 18/10 UTC → 424 até 12:07Z de 19/10, caindo para 12–15/h); X PT canetas × anabolizante/testosterona/oxandrolona/'bomba' sem Felca 7d=88 (25; 8; 0; 7; 8; 7; 30; 3p — 'bomba' é ambíguo); PT 'chip da beleza'/implante hormonal 7d=17; EN GLP-1 × testosterone/TRT/steroids 7d=69 (estável, 7–16/dia)",
+    "reach": "Potencialmente muito alto se o vídeo do Felca confirmar o tema (o vídeo anterior sobre 'adultização' passou de 25 milhões de visualizações, segundo O Globo); caso contrário, médio — notícias regionais de apreensão + conversa de academia; relevância alta para nutricionistas esportivos (qualitativo)",
+    "novelty": "Alta — a combinação canetas × anabolizantes nunca foi congelada nas Coortes 001–006 (canetas do mercado paralelo e peptídeos de pesquisa foram: NT-2026-09-21-10, NT-2026-09-28-08, NT-2026-10-12-03)",
+    "persistence_estimate": "Média-alta — o padrão de apreensão (canetas + anabolizantes do Paraguai) é estrutural; o pico do Felca é contingente e pode durar um dia",
+    "brazil_presence": "Presente/Nativa — G1 Vale do Paraíba 16/10, Jornal Estância de Atibaia, Portal Vale Paraibano, Mobilidade Sampa, O Globo/TMC (teaser), UOL VivaBem 01/10 (Carta do Rio), CRF-GO, SBT News",
+    "brazil_momentum": "Pico pelo boato (18/10), caindo nesta manhã; ponto decisivo terça 20/10 00:00 SP",
+    "primary_niches": [
+     "esporte/hipertrofia",
+     "cultura de academia / 'natural ou não'",
+     "massa magra na GLP-1",
+     "estética / implantes hormonais",
+     "ética e escopo profissional"
+    ],
+    "evidence_temperature": "Forte para as apreensões e a carta das sociedades; Desconhecido o conteúdo do vídeo do Felca (só teaser); Limitada/indireta para TRT + GLP-1 (resumo de congresso, aberto, bioimpedância, apenas homens hipogonádicos — não transferível para praticantes eugonádicos nem para mulheres); nenhuma base de evidência para anabolizantes com fins estéticos",
+    "misinformation_risk": "Alto — 'caneta seca e bomba segura o músculo'; 'testosterona preserva massa na caneta' (generalizado de estudo em hipogonádicos); 'chip da beleza é natural/bioidêntico'; 'nutri pode orientar ciclo'; boato tratado como fato ('o Felca já denunciou')",
+    "audience_question_signal": "Sim — Dá para usar caneta junto com anabolizante? · Testosterona evita perder músculo na caneta? · O que o Felca falou? · Chip da beleza emagrece? · O que faço com aluno/paciente que está usando?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "Duas trilhas. (a) Contingente: se o vídeo do Felca de 20/10 tratar de canetas e/ou anabolizantes, o X PT 'Felca × caneta/anabolizante' passa de 3.000 posts entre 20 e 21/10 (UTC) e ≥3 veículos BR tier-1 (g1, Folha, O Globo, Estadão, UOL, CNN Brasil) publicam explicadores ligando canetas e anabolizantes em até 7 dias; se o vídeo não tiver relação, as contagens do Felca caem abaixo de 50/dia até 22/10 e o item volta à trilha (b). (b) Independente: ≥2 novas notícias de apreensão policial/Receita/Anvisa juntando canetas GLP-1/GIP e anabolizantes até +14, e ≥1 posicionamento de conselho profissional ou sociedade médica (CFN/CRN, CFF/CRF, SBEM/Abeso, sociedade de medicina esportiva) sobre canetas + hormônios/anabolizantes em uso fitness/estético até +30. O X PT canetas × anabolizantes sem Felca fica <200/7d, a menos que (a) se confirme",
+    "prediction_confidence": "62%",
+    "prediction_timeframe": "(a) 20–26/10; (b) apreensões até +14 (2026-11-02), posicionamento de sociedade até +30 (2026-11-18)",
+    "key_sources": [
+     "https://oglobo.globo.com/brasil/noticia/2026/10/19/felca-anuncia-retorno-as-redes-sociais-apos-sete-meses-afastado-me-escondi-por-tempo-demais.ghtml",
+     "https://tmc.com.br/entretenimento/felca-retorno-anuncio-terca-hytalo-santos/",
+     "https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2026/10/16/prf-apreende-canetas-emagrecedoras-e-anabolizantes-escondidos-em-carro-na-fernao-dias.ghtml",
+     "https://sbtnews.sbt.com.br/videos/NZg9ecn9aAg",
+     "https://www.uol.com.br/vivabem/noticias/redacao/2026/10/01/sociedades-medicas-pedem-proibicao-de-chip-da-beleza-manipulado.ghtm",
+     "https://sbhepatologia.org.br/wp-content/uploads/2026/10/Carta-do-RJ-Posicionamento-das-sociedades-medicas-sobre-implantes-hormonais-manipulados.docx.pdf",
+     "https://www.crfgo.org.br/noticia/id/1316/noticia-titulo/uso-de-canetas-emagrecedoras-exige-orientacao-e-estrategia-farmaceuticos-alertam-para-riscos-de-associacoes-inadequadas",
+     "https://doi.org/10.1093/jsxmed/qdag118.413",
+     "https://doi.org/10.1016/j.drugpo.2025.104854",
+     "https://x.com/nolavrado/status/2111853316569518517"
+    ],
+    "key_accounts": [
+     "Felca (@felca0)",
+     "@nolavrado",
+     "PRF",
+     "SBEM",
+     "Abeso",
+     "CRF-GO",
+     "SBT News"
+    ],
+    "why_flagged": "Herdado da varredura de 10-19 (q54), mas com base real além do boato: apreensões que juntam canetas e anabolizantes e uma carta de 12 sociedades contra implantes hormonais manipulados para emagrecimento/músculo. Perfil A (cultura de academia, massa magra na caneta) muito alto; Perfil B ('stacks' hormonais, implantes manipulados, escopo) alto. O vídeo de terça é o ponto de checagem binário.",
+    "ProfileA_relevance": 92,
+    "ProfileB_relevance": 74,
+    "merged_from": [
+     "boato do retorno do Felca (q54, varredura 10-19)",
+     "apreensões PRF/PF de canetas + anabolizantes (15–17/10)",
+     "Carta do Rio — implantes hormonais manipulados (1/10)",
+     "resumo TRT × GLP-1/GIP e massa magra (J Sex Med 2026)"
+    ],
+    "scan_notes": "Nunca afirmar o que o vídeo do Felca diz antes de ele ir ao ar — só há teaser. Não generalizar o resumo do J Sex Med além de homens hipogonádicos (aberto, bioimpedância, resumo de congresso). Nutricionista não prescreve hormônio nem caneta (nota do CRN-10) — o ângulo é triagem, encaminhamento e nutrição/treino de força. Relacionadas, sem reescrita: NT-2026-10-12-03 (peptídeos de pesquisa), NT-2026-09-21-10 / NT-2026-09-28-08 (canetas do mercado paralelo), NT-2026-10-05-07 (toolkit de massa magra). Data do Podnews do SBT desconhecida (falha ao abrir a página).",
+    "first_detected_date": "2026-10-16",
+    "latest_observation_date": "2026-10-19",
+    "prediction_freeze_date": "2026-10-19",
+    "next_review_date": "2026-10-26",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_007"
+   },
+   "translation": {
+    "translated_at": "2026-10-19T09:17:44-03:00",
+    "source_file": "trends/NT-2026-10-19-01.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-10-19-01",
+    "topic": "'Caneta + bomba' — GLP-1/GIP pens co-trafficked and co-used with anabolic steroids/testosterone in gym & aesthetic culture (Felca comeback rumor 20/10, PRF/PF seizures, Carta do Rio on hormone implants)",
+    "stage_at_freeze": "Brazil Emerging",
+    "prediction_freeze_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "next_review_date": "2026-10-26",
+    "prediction_status": "frozen",
+    "last_review_date": null,
+    "last_result": null,
+    "cohort_id": "cohort_007"
+   },
+   "cohort_id": "cohort_007",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-26",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-11-02",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-11-18",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-26"
+  },
+  {
+   "id": "NT-2026-10-19-02",
+   "frozen": {
+    "trend_id": "NT-2026-10-19-02",
+    "topic": "Anvisa ingredient-specification package for supplements (IN + RDC alteradora, Agenda Regulatória tema 3.3) — lab certificate for every ingredient at notification, ~20 constituents dropped (incl. L-carnitine HCl), lactulose reclassified",
+    "canonical_topic_name": "Consolidated Anvisa minutas after CP 1.324/2025 (IN de especificações de identidade, pureza e composição; 271 contributions) and CP 1.325/2025 (RDC alteradora; 70 contributions), presented Oct 2026 (A3 Analítica, 13 Oct; Parecer nº 5/2026/SEI/COPAR/GGALI): Anexo I Anvisa specs, Anexo II 356 compendial ingredients (67 bound to one reference, e.g., metal bisglycinates, calcium citrate malate, yeast beta-glucan), Anexo III proprietary specs (probiotic strains, HMOs); mandatory certificate of analysis for all ingredients incl. additives at notification; 36 months for notified products or notification cancelled; garlic oil and ~20 constituents without recognized spec excluded (potassium L-ascorbate, cupric citrate, L-carnitine hydrochloride, sodium iodate, zinc lactate, ferrous succinate, chromium III sulfate…); lactulose from fiber to bioactive (adults only, no functional claim); no DOU date",
+    "source_market": "BR (Native regulatory)",
+    "origin_community": "Anvisa GGALI regulatory process + regulatory consultancies (A3 Analítica) + supplement industry/importers",
+    "origin_type": "Pre-publication regulatory package (minutas)",
+    "source_layer": "Discovery",
+    "stage": "Brazil Emerging",
+    "velocity": "Trade-only: consultancy analysis 13 Oct; X PT ~1/7d (10-15 sweep); no consumer or RD social signal measured",
+    "reach": "High for supplement manufacturers/importers, compounding and RDs who prescribe specific salts/forms; low consumer (qualitative)",
+    "novelty": "High — first freeze of the specification package; adjacent to IN 470 constituents (NT-2026-09-28-04) but different instrument and scope",
+    "persistence_estimate": "High — 36-month adequacy horizon once published; DOU publication still pending",
+    "brazil_presence": "Present/Native — Anvisa news 15/04/2026 (diálogo setorial), minuta PDFs on gov.br, A3 Analítica 13/10/2026",
+    "brazil_momentum": "Quiet but structural; trade attention rising ahead of Diretoria Colegiada deliberation",
+    "primary_niches": [
+     "supplements",
+     "sports supplements (L-carnitine forms, minerals)",
+     "compounding / prescription forms",
+     "regulatory compliance",
+     "probiotics/HMOs"
+    ],
+    "evidence_temperature": "Strong for the existence and content of the minutas per consultancy reading of official documents; Unknown for final text and DOU date (text can change); constituent list must be checked against the official publication",
+    "misinformation_risk": "Medium — 'Anvisa proibiu carnitina/zinco'; 'suplemento com sal X virou ilegal amanhã'; confusing minuta with published norm",
+    "audience_question_signal": "Emerging (trade) — O que muda para quem prescreve? · L-carnitina vai sair do mercado? · Que sais de zinco/ferro/cromo continuam valendo? · Lactulose deixa de ser fibra?",
+    "content_opportunity": "Medium-High",
+    "predicted_trajectory": "Over 30 days the package stays pre-publication (no DOU publication of the IN/RDC by +30), while ≥2 additional trade/consultancy/association explainers beyond A3 Analítica appear by +30; when RD-facing coverage starts, the lead questions are L-carnitine HCl and mineral salts leaving the list and lactulose reclassification. Consumer X stays <10/7d",
+    "prediction_confidence": "64%",
+    "prediction_timeframe": "1–4 weeks (explainers); publication status checked at +7/+14/+30",
+    "key_sources": [
+     "https://a3analitica.com.br/especificacoes-de-ingredientes-a-anvisa-vai-exigir-o-laudo-de-ingredientes-de-todo-suplemento-na-notificacao/",
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-realiza-dialogo-setorial-sobre-consultas-que-trataram-de-especificacoes-de-ingredientes-alimentares",
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-realiza-dialogo-setorial-sobre-consultas-que-trataram-de-especificacoes-de-ingredientes-alimentares/minuta_de_instrucao_normativa_cp-1324.pdf",
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-realiza-dialogo-setorial-sobre-consultas-que-trataram-de-especificacoes-de-ingredientes-alimentares/DS_AnexosConsultaPblican1324.pdf/@@download/file"
+    ],
+    "key_accounts": [
+     "Anvisa (GGALI)",
+     "A3 Analítica"
+    ],
+    "why_flagged": "Carried from the 10-15 sweep; the biggest structural supplement-regulation change in the pipeline (every ingredient needs documentation; some sports-relevant forms leave the list). Profile B very high; Profile A moderate (carnitine, mineral forms in sports formulas).",
+    "ProfileA_relevance": 50,
+    "ProfileB_relevance": 92,
+    "merged_from": [
+     "Anvisa specification minutas (sweep 10-15)",
+     "CP 1.324/2025 + CP 1.325/2025",
+     "diálogo setorial 29/04/2026"
+    ],
+    "scan_notes": "Minutas only — never say a constituent is already banned. Some numbers differ by source (Anvisa síntese: 58 ingredients in Anexo I and 355 in Anexo II per search summary; A3: 356 in Anexo II) — cite as 'cerca de'. Related, not rewritten: NT-2026-09-28-04 (IN 470 constituents), NT-2026-10-12-01 (novel-ingredient enforcement).",
+    "first_detected_date": "2026-10-15",
+    "latest_observation_date": "2026-10-19",
+    "prediction_freeze_date": "2026-10-19",
+    "next_review_date": "2026-10-26",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_007"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-10-19-02",
+    "topic": "Pacote da Anvisa de especificações de ingredientes de suplementos (IN + RDC alteradora, Agenda Regulatória tema 3.3) — laudo de cada ingrediente na notificação, ~20 constituintes excluídos (incl. cloridrato de L-carnitina), lactulose reclassificada",
+    "canonical_topic_name": "Minutas consolidadas da Anvisa após a CP 1.324/2025 (IN de especificações de identidade, pureza e composição; 271 contribuições) e a CP 1.325/2025 (RDC alteradora; 70 contribuições), apresentadas em out/2026 (A3 Analítica, 13/10; Parecer nº 5/2026/SEI/COPAR/GGALI): Anexo I especificações Anvisa, Anexo II 356 ingredientes com referência compendial (67 vinculados a uma única referência, ex.: bisglicinatos metálicos, citrato malato de cálcio, beta-glucana de levedura), Anexo III especificações proprietárias (cepas probióticas, HMOs); laudo/certificado de análise obrigatório para todos os ingredientes, inclusive aditivos, na notificação; 36 meses para produtos já notificados, sob pena de cancelamento; óleo de alho e ~20 constituintes sem especificação reconhecida excluídos (L-ascorbato de potássio, citrato cúprico, cloridrato de L-carnitina, iodato de sódio, lactato de zinco, succinato ferroso, sulfato de cromo III…); lactulose passa de fibra a bioativo (só adultos, sem alegação funcional); sem data no DOU",
+    "source_market": "BR (regulatório nativo)",
+    "origin_community": "Processo regulatório da GGALI/Anvisa + consultorias regulatórias (A3 Analítica) + indústria/importadores de suplementos",
+    "origin_type": "Pacote regulatório pré-publicação (minutas)",
+    "source_layer": "Descoberta",
+    "stage": "Emergente no Brasil",
+    "velocity": "Apenas trade: análise de consultoria em 13/10; X PT ~1/7d (varredura 10-15); nenhum sinal social de consumidor ou de nutricionistas medido",
+    "reach": "Alto para fabricantes/importadores de suplementos, manipulação e nutricionistas que prescrevem sais/formas específicas; baixo para o consumidor (qualitativo)",
+    "novelty": "Alta — primeiro congelamento do pacote de especificações; vizinho dos constituintes da IN 470 (NT-2026-09-28-04), mas instrumento e escopo diferentes",
+    "persistence_estimate": "Alta — horizonte de adequação de 36 meses após a publicação; publicação no DOU ainda pendente",
+    "brazil_presence": "Presente/Nativa — notícia Anvisa 15/04/2026 (diálogo setorial), PDFs das minutas no gov.br, A3 Analítica 13/10/2026",
+    "brazil_momentum": "Silencioso, mas estrutural; atenção do setor crescendo antes da deliberação da Diretoria Colegiada",
+    "primary_niches": [
+     "suplementos",
+     "suplementos esportivos (formas de L-carnitina, minerais)",
+     "manipulação / formas de prescrição",
+     "compliance regulatório",
+     "probióticos/HMOs"
+    ],
+    "evidence_temperature": "Forte quanto à existência e ao conteúdo das minutas, segundo leitura de consultoria dos documentos oficiais; Desconhecidos o texto final e a data no DOU (o texto pode mudar); a lista de constituintes deve ser conferida na publicação oficial",
+    "misinformation_risk": "Médio — 'Anvisa proibiu carnitina/zinco'; 'suplemento com o sal X ficou ilegal amanhã'; confundir minuta com norma publicada",
+    "audience_question_signal": "Emergente (trade) — O que muda para quem prescreve? · A L-carnitina vai sair do mercado? · Quais sais de zinco/ferro/cromo continuam valendo? · A lactulose deixa de ser fibra?",
+    "content_opportunity": "Média-Alta",
+    "predicted_trajectory": "Em 30 dias o pacote segue sem publicação (nenhuma publicação da IN/RDC no DOU até +30), enquanto surgem ≥2 explicadores adicionais de trade/consultorias/associações além da A3 Analítica até +30; quando começar a cobertura voltada a nutricionistas, as primeiras dúvidas serão a saída do cloridrato de L-carnitina e de sais minerais da lista e a reclassificação da lactulose. O X do consumidor fica <10/7d",
+    "prediction_confidence": "64%",
+    "prediction_timeframe": "1–4 semanas (explicadores); status de publicação checado em +7/+14/+30",
+    "key_sources": [
+     "https://a3analitica.com.br/especificacoes-de-ingredientes-a-anvisa-vai-exigir-o-laudo-de-ingredientes-de-todo-suplemento-na-notificacao/",
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-realiza-dialogo-setorial-sobre-consultas-que-trataram-de-especificacoes-de-ingredientes-alimentares",
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-realiza-dialogo-setorial-sobre-consultas-que-trataram-de-especificacoes-de-ingredientes-alimentares/minuta_de_instrucao_normativa_cp-1324.pdf",
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-realiza-dialogo-setorial-sobre-consultas-que-trataram-de-especificacoes-de-ingredientes-alimentares/DS_AnexosConsultaPblican1324.pdf/@@download/file"
+    ],
+    "key_accounts": [
+     "Anvisa (GGALI)",
+     "A3 Analítica"
+    ],
+    "why_flagged": "Herdado da varredura de 10-15; é a maior mudança estrutural em regulação de suplementos no pipeline (todo ingrediente precisa de documentação; algumas formas relevantes no esporte saem da lista). Perfil B muito alto; Perfil A moderado (carnitina, formas minerais em fórmulas esportivas).",
+    "ProfileA_relevance": 50,
+    "ProfileB_relevance": 92,
+    "merged_from": [
+     "minutas de especificações da Anvisa (varredura 10-15)",
+     "CP 1.324/2025 + CP 1.325/2025",
+     "diálogo setorial 29/04/2026"
+    ],
+    "scan_notes": "São só minutas — nunca dizer que um constituinte já está proibido. Alguns números variam conforme a fonte (síntese da Anvisa: 58 ingredientes no Anexo I e 355 no Anexo II, segundo resumo de busca; A3: 356 no Anexo II) — citar como 'cerca de'. Relacionadas, sem reescrita: NT-2026-09-28-04 (constituintes IN 470), NT-2026-10-12-01 (fiscalização de ingrediente novo).",
+    "first_detected_date": "2026-10-15",
+    "latest_observation_date": "2026-10-19",
+    "prediction_freeze_date": "2026-10-19",
+    "next_review_date": "2026-10-26",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_007"
+   },
+   "translation": {
+    "translated_at": "2026-10-19T09:17:44-03:00",
+    "source_file": "trends/NT-2026-10-19-02.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-10-19-02",
+    "topic": "Anvisa ingredient-specification package for supplements (IN + RDC alteradora, Agenda Regulatória tema 3.3) — lab certificate for every ingredient at notification, ~20 constituents dropped (incl. L-carnitine HCl), lactulose reclassified",
+    "stage_at_freeze": "Brazil Emerging",
+    "prediction_freeze_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "next_review_date": "2026-10-26",
+    "prediction_status": "frozen",
+    "last_review_date": null,
+    "last_result": null,
+    "cohort_id": "cohort_007"
+   },
+   "cohort_id": "cohort_007",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-26",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-11-02",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-11-18",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-26"
+  },
+  {
+   "id": "NT-2026-10-19-03",
+   "frozen": {
+    "trend_id": "NT-2026-10-19-03",
+    "topic": "Anvisa CP nº 1.400/2026 closes 19/10 — mandatory quantitative ingredient declaration (DQI) when an ingredient is highlighted ('com whey', 'feito com…'), no QR-only mandatory info, Radura — the label rule behind 'proteína em tudo'",
+    "canonical_topic_name": "Consulta Pública Anvisa nº 1.400 (10/07/2026; contributions 20/07–19/10/2026) altering RDC 727/2022: DQI mandatory when an ingredient is emphasized by words, images or graphics, with calculation/rounding/location rules; mandatory information may not be provided only via technology (QR code); Radura symbol for irradiated foods; ~36-month general adequacy proposed; closing today does not change labels yet",
+    "source_market": "BR (Native regulatory)",
+    "origin_community": "Anvisa GGALI rotulagem + food-law firms/consultancies (Fukuma Advogados, VittaCheck) + industry",
+    "origin_type": "Public consultation (closing) → future RDC",
+    "source_layer": "Discovery",
+    "stage": "Brazil Emerging",
+    "velocity": "X PT DQI/consulta pública × rotulagem/Anvisa 7d=1; trade notes only; no consumer wave",
+    "reach": "Medium for RDs who teach label reading and for sports-food/protein brands; low consumer (qualitative)",
+    "novelty": "Medium-High — new regulatory instrument; complements but does not rewrite NT-2026-10-12-04 (protein-ization scrutiny)",
+    "persistence_estimate": "High — RDC drafting follows; 36-month adequacy once final",
+    "brazil_presence": "Present/Native — AnvisaLegis CP text, Anvisa document base (DQI, tecnologia, irradiados), VittaCheck, Fukuma note (10-16 sweep)",
+    "brazil_momentum": "Deadline today; post-deadline phase = Anvisa consolidation (slow)",
+    "primary_niches": [
+     "label literacy",
+     "supplements & protein foods",
+     "sports foods ('com whey')",
+     "consumer education",
+     "regulatory"
+    ],
+    "evidence_temperature": "Strong for the CP text and deadline; Unknown for the final RDC wording and timing",
+    "misinformation_risk": "Low-Medium — 'rótulo já mudou'; 'QR code foi proibido'; 'agora todo produto tem que dizer quanto de whey tem' (still a proposal)",
+    "audience_question_signal": "Weak/Emerging — Como saber quanto de whey tem no 'com whey'? · O QR code vale como rótulo? · Quando muda?",
+    "content_opportunity": "Medium",
+    "predicted_trajectory": "Contribution window closes 19/10; no final RDC is published by +30 (Anvisa must consolidate contributions); coverage shifts to 'o que esperar da RDC' explainers by label/food-law consultancies and trade press (≥2 by +30); the RD-facing angle 'destaque de ingrediente vai exigir %' (e.g., 'com whey', 'feito com aveia') gains use in label-reading content. Consumer X stays ≤5/7d",
+    "prediction_confidence": "72%",
+    "prediction_timeframe": "+7 to +30 (explainers); final RDC not expected within 30 days",
+    "key_sources": [
+     "https://anvisalegis.datalegis.net/action/ActionDatalegis.php?acao=abrirTextoAto&cod_menu=9373&cod_modulo=630&link=S&numeroAto=00001400&orgao=ANVISA%2FMS&seqAto=222&tipo=CPB&valorAno=2026",
+     "https://pesquisa.anvisa.gov.br/index.php/796949?lang=pt-BR",
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/DocumentodebasesobreDQIusodetecnologiaerotulagemdealimentosirradiados.pdf/@@display-file/file",
+     "https://vittacheck.com/noticias/cp-1400-rotulagem-dqi-consulta-aberta"
+    ],
+    "key_accounts": [
+     "Anvisa (GGALI)",
+     "Fukuma Advogados",
+     "VittaCheck"
+    ],
+    "why_flagged": "Carried from the 10-16 sweep; closes today. Gives RDs the regulatory hook for 'proteína em tudo' and 'com whey' label claims. Profile B high (protein/sports foods labels); Profile A moderate.",
+    "ProfileA_relevance": 55,
+    "ProfileB_relevance": 80,
+    "merged_from": [
+     "CP 1.400/2026 deadline (sweep 10-16)",
+     "WePink QR-code episode (label-by-QR angle)",
+     "proteína em tudo label highlights (NT-2026-10-12-04 context)"
+    ],
+    "scan_notes": "Say 'proposta' — nothing changes on shelves until a final RDC is published and its adequacy period runs. Related, not rewritten: NT-2026-10-12-04.",
+    "first_detected_date": "2026-10-16",
+    "latest_observation_date": "2026-10-19",
+    "prediction_freeze_date": "2026-10-19",
+    "next_review_date": "2026-10-26",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_007"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-10-19-03",
+    "topic": "CP nº 1.400/2026 da Anvisa fecha em 19/10 — declaração quantitativa de ingredientes (DQI) obrigatória quando um ingrediente é destacado ('com whey', 'feito com…'), informação obrigatória não pode ficar só no QR code, Radura — a regra de rótulo por trás da 'proteína em tudo'",
+    "canonical_topic_name": "Consulta Pública Anvisa nº 1.400 (10/07/2026; contribuições de 20/07 a 19/10/2026) alterando a RDC 727/2022: DQI obrigatória quando um ingrediente é destacado por palavras, imagens ou gráficos, com regras de cálculo/arredondamento/localização; informação obrigatória não pode ser fornecida apenas por tecnologia (QR code); símbolo Radura para alimentos irradiados; proposta de adequação geral de ~36 meses; o fechamento hoje ainda não muda rótulos",
+    "source_market": "BR (regulatório nativo)",
+    "origin_community": "Rotulagem GGALI/Anvisa + escritórios/consultorias de direito alimentar (Fukuma Advogados, VittaCheck) + indústria",
+    "origin_type": "Consulta pública (encerrando) → futura RDC",
+    "source_layer": "Descoberta",
+    "stage": "Emergente no Brasil",
+    "velocity": "X PT DQI/consulta pública × rotulagem/Anvisa 7d=1; apenas notas de trade; sem onda de consumidor",
+    "reach": "Médio para nutricionistas que ensinam leitura de rótulos e para marcas de alimentos esportivos/proteicos; baixo para o consumidor (qualitativo)",
+    "novelty": "Média-alta — novo instrumento regulatório; complementa, mas não reescreve, NT-2026-10-12-04 (escrutínio da proteinização)",
+    "persistence_estimate": "Alta — segue a redação da RDC; adequação de 36 meses quando for final",
+    "brazil_presence": "Presente/Nativa — texto da CP no AnvisaLegis, documento-base da Anvisa (DQI, tecnologia, irradiados), VittaCheck, nota da Fukuma (varredura 10-16)",
+    "brazil_momentum": "Prazo hoje; fase pós-prazo = consolidação pela Anvisa (lenta)",
+    "primary_niches": [
+     "leitura de rótulos",
+     "suplementos e alimentos proteicos",
+     "alimentos esportivos ('com whey')",
+     "educação do consumidor",
+     "regulatório"
+    ],
+    "evidence_temperature": "Forte para o texto da CP e o prazo; Desconhecidos a redação final da RDC e o cronograma",
+    "misinformation_risk": "Baixo-Médio — 'o rótulo já mudou'; 'o QR code foi proibido'; 'agora todo produto tem que dizer quanto de whey tem' (ainda é proposta)",
+    "audience_question_signal": "Fraco/Emergente — Como saber quanto de whey tem no 'com whey'? · O QR code vale como rótulo? · Quando muda?",
+    "content_opportunity": "Média",
+    "predicted_trajectory": "A janela de contribuições fecha em 19/10; nenhuma RDC final é publicada até +30 (a Anvisa precisa consolidar as contribuições); a cobertura migra para explicadores 'o que esperar da RDC' de consultorias de rotulagem/direito alimentar e imprensa de trade (≥2 até +30); o ângulo para nutricionistas 'destaque de ingrediente vai exigir %' (ex.: 'com whey', 'feito com aveia') ganha uso em conteúdos de leitura de rótulo. O X do consumidor fica ≤5/7d",
+    "prediction_confidence": "72%",
+    "prediction_timeframe": "+7 a +30 (explicadores); RDC final não esperada em 30 dias",
+    "key_sources": [
+     "https://anvisalegis.datalegis.net/action/ActionDatalegis.php?acao=abrirTextoAto&cod_menu=9373&cod_modulo=630&link=S&numeroAto=00001400&orgao=ANVISA%2FMS&seqAto=222&tipo=CPB&valorAno=2026",
+     "https://pesquisa.anvisa.gov.br/index.php/796949?lang=pt-BR",
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/DocumentodebasesobreDQIusodetecnologiaerotulagemdealimentosirradiados.pdf/@@display-file/file",
+     "https://vittacheck.com/noticias/cp-1400-rotulagem-dqi-consulta-aberta"
+    ],
+    "key_accounts": [
+     "Anvisa (GGALI)",
+     "Fukuma Advogados",
+     "VittaCheck"
+    ],
+    "why_flagged": "Herdado da varredura de 10-16; fecha hoje. Dá aos nutricionistas o gancho regulatório para as alegações de rótulo 'proteína em tudo' e 'com whey'. Perfil B alto (rótulos de alimentos proteicos/esportivos); Perfil A moderado.",
+    "ProfileA_relevance": 55,
+    "ProfileB_relevance": 80,
+    "merged_from": [
+     "prazo da CP 1.400/2026 (varredura 10-16)",
+     "episódio WePink/QR code (ângulo do rótulo por QR)",
+     "destaques de proteína em rótulos (contexto NT-2026-10-12-04)"
+    ],
+    "scan_notes": "Dizer 'proposta' — nada muda nas prateleiras até sair uma RDC final e correr o prazo de adequação. Relacionada, sem reescrita: NT-2026-10-12-04.",
+    "first_detected_date": "2026-10-16",
+    "latest_observation_date": "2026-10-19",
+    "prediction_freeze_date": "2026-10-19",
+    "next_review_date": "2026-10-26",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_007"
+   },
+   "translation": {
+    "translated_at": "2026-10-19T09:17:44-03:00",
+    "source_file": "trends/NT-2026-10-19-03.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-10-19-03",
+    "topic": "Anvisa CP nº 1.400/2026 closes 19/10 — mandatory quantitative ingredient declaration (DQI) when an ingredient is highlighted ('com whey', 'feito com…'), no QR-only mandatory info, Radura — the label rule behind 'proteína em tudo'",
+    "stage_at_freeze": "Brazil Emerging",
+    "prediction_freeze_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "next_review_date": "2026-10-26",
+    "prediction_status": "frozen",
+    "last_review_date": null,
+    "last_result": null,
+    "cohort_id": "cohort_007"
+   },
+   "cohort_id": "cohort_007",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-26",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-11-02",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-11-18",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-26"
+  },
+  {
+   "id": "NT-2026-10-19-04",
+   "frozen": {
+    "trend_id": "NT-2026-10-19-04",
+    "topic": "'Como saber se um suplemento é regularizado' — RE 4.001 (PSM Pennaforte: residential address, ora-pro-nóbis as unauthorized constituent, 'Mounjaro' branding) + WePink/QR-code episode → registered vs notified literacy",
+    "canonical_topic_name": "Supplement-regularization literacy: Anvisa RE 4.001/2026 (DOU 13/10) seized all products of PSM Pennaforte Produtos Naturais (Marataízes/ES) — registered address is a residence; one supplement used ora-pro-nóbis (not an authorized supplement constituent) and products carried irregular 'Mounjaro' branding; celebrity episode: delegate Maria Corsato questioned WePink (Virginia Fonseca) supplements' Anvisa status in a store and was pointed to a QR code (NC News 14/10) — no evidence of irregularity and no Anvisa action; Anvisa page 'Como saber se um suplemento alimentar é autorizado?' (registro × notificação, consulta pública de produtos)",
+    "source_market": "BR (Native)",
+    "origin_community": "Anvisa news/DOU + regional media + celebrity/political X + Anvisa consumer-guidance page",
+    "origin_type": "Enforcement act + celebrity controversy → consumer literacy",
+    "source_layer": "Discovery",
+    "stage": "Brazil Emerging",
+    "velocity": "X PT Anvisa × suplemento × registro/notificado/regularizado/irregular 7d=5; WePink × suplemento 8/7d (10-16 sweep); PT Anvisa × suplemento 7d=23 (AM sweep)",
+    "reach": "Medium — consumer-facing; high practical value for RDs who recommend brands (qualitative)",
+    "novelty": "Medium-High — practical 'how to check' angle not frozen before (prior freezes were single recalls: NT-2026-09-21-01, NT-2026-10-12-01)",
+    "persistence_estimate": "Medium-High — recurring enforcement acts keep refreshing the need",
+    "brazil_presence": "Present/Native — Anvisa 13/10 news, Anvisa guidance page, NC News 14/10, O Dia, G1 (WePink warehouse, May–Jun 2026)",
+    "brazil_momentum": "Low social, steady enforcement cadence (RE 3.967, 4.001, 4.035 in October)",
+    "primary_niches": [
+     "supplements",
+     "consumer protection",
+     "PANCs/botanicals as constituents",
+     "influencer brands",
+     "practice compliance"
+    ],
+    "evidence_temperature": "Strong for the act and Anvisa guidance; Unknown for WePink product status (no Anvisa action found); ora-pro-nóbis constituent status to be verified against IN 28/2018 list before citing beyond the act's wording",
+    "misinformation_risk": "Medium — 'sem número de registro = ilegal' (many supplements are notified, not registered); 'PANC é natural, então pode em cápsula'; 'Mounjaro natural'",
+    "audience_question_signal": "Yes — Como sei se meu suplemento é regularizado? · Suplemento precisa de registro? · Ora-pro-nóbis em cápsula pode? · Existe 'Mounjaro natural'?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "Within 30 days ≥1 further Anvisa act or news item targets supplements from unlocatable companies, unauthorized constituents or drug-name branding ('Mounjaro', 'Ozempic natural'), and ≥2 consumer/mainstream explainers on how to check regularization appear by +30; no Anvisa action against WePink by +30. X stays <30/7d absent a celebrity trigger",
+    "prediction_confidence": "66%",
+    "prediction_timeframe": "1–4 weeks",
+    "key_sources": [
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-suplementos-alimentares-de-origem-desconhecida",
+     "https://www.gov.br/anvisa/pt-br/assuntos/alimentos/suplementos-alimentares/como-saber-se-um-suplemento-alimentar-e-autorizado",
+     "https://ncnews.com.br/2026/10/14/delegada-expulsa-wepink-suplementos-anvisa-virginia/",
+     "https://g1.globo.com/go/goias/noticia/2026/05/30/produto-alimenticio-encontrado-em-galpao-de-empresa-de-virginia-tinha-rotulagem-insatisfatoria-diz-vigilancia-sanitaria.ghtml"
+    ],
+    "key_accounts": [
+     "Anvisa",
+     "PSM Pennaforte Produtos Naturais",
+     "WePink",
+     "NC News"
+    ],
+    "why_flagged": "Carried from 10-14 and 10-16 sweeps; merges three weak signals into one high-utility consumer FAQ. Profile B high; Profile A moderate (gym supplement purchases).",
+    "ProfileA_relevance": 50,
+    "ProfileB_relevance": 88,
+    "merged_from": [
+     "RE 4.001/2026 PSM Pennaforte (sweep 10-14)",
+     "WePink QR-code episode (sweep 10-16)",
+     "Anvisa 'como saber se é autorizado' page"
+    ],
+    "scan_notes": "Do not imply WePink products are irregular — no evidence. Do not invent IN 28 list status for ora-pro-nóbis beyond the act. Related, not rewritten: NT-2026-09-21-01, NT-2026-09-21-09, NT-2026-10-12-01.",
+    "first_detected_date": "2026-10-14",
+    "latest_observation_date": "2026-10-19",
+    "prediction_freeze_date": "2026-10-19",
+    "next_review_date": "2026-10-26",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_007"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-10-19-04",
+    "topic": "'Como saber se um suplemento é regularizado' — RE 4.001 (PSM Pennaforte: endereço residencial, ora-pro-nóbis como constituinte não autorizado, marca 'Mounjaro') + episódio WePink/QR code → letramento sobre registro × notificação",
+    "canonical_topic_name": "Letramento sobre regularização de suplementos: a RE 4.001/2026 da Anvisa (DOU 13/10) mandou apreender todos os produtos da PSM Pennaforte Produtos Naturais (Marataízes/ES) — o endereço cadastrado é uma residência; um suplemento usava ora-pro-nóbis (não é constituinte autorizado para suplemento) e os produtos traziam a marca irregular 'Mounjaro'; episódio com celebridade: a delegada Maria Corsato questionou numa loja a situação na Anvisa dos suplementos WePink (Virginia Fonseca) e foi direcionada a um QR code (NC News 14/10) — sem evidência de irregularidade e sem ação da Anvisa; página da Anvisa 'Como saber se um suplemento alimentar é autorizado?' (registro × notificação, consulta de produtos)",
+    "source_market": "BR (nativo)",
+    "origin_community": "Notícias da Anvisa/DOU + mídia regional + X de celebridades/política + página de orientação ao consumidor da Anvisa",
+    "origin_type": "Ato de fiscalização + polêmica com celebridade → letramento do consumidor",
+    "source_layer": "Descoberta",
+    "stage": "Emergente no Brasil",
+    "velocity": "X PT Anvisa × suplemento × registro/notificado/regularizado/irregular 7d=5; WePink × suplemento 8/7d (varredura 10-16); PT Anvisa × suplemento 7d=23 (varredura da manhã)",
+    "reach": "Médio — voltado ao consumidor; alto valor prático para nutricionistas que indicam marcas (qualitativo)",
+    "novelty": "Média-alta — o ângulo prático 'como checar' não foi congelado antes (os congelamentos anteriores foram recolhimentos pontuais: NT-2026-09-21-01, NT-2026-10-12-01)",
+    "persistence_estimate": "Média-alta — atos de fiscalização recorrentes renovam a necessidade",
+    "brazil_presence": "Presente/Nativa — notícia Anvisa 13/10, página de orientação da Anvisa, NC News 14/10, O Dia, G1 (galpão WePink, mai–jun/2026)",
+    "brazil_momentum": "Social baixo, cadência de fiscalização constante (RE 3.967, 4.001, 4.035 em outubro)",
+    "primary_niches": [
+     "suplementos",
+     "defesa do consumidor",
+     "PANCs/botânicos como constituintes",
+     "marcas de influenciadores",
+     "compliance na prática"
+    ],
+    "evidence_temperature": "Forte para o ato e a orientação da Anvisa; Desconhecida a situação dos produtos WePink (nenhuma ação da Anvisa encontrada); a situação da ora-pro-nóbis como constituinte deve ser conferida na lista da IN 28/2018 antes de citar além do texto do ato",
+    "misinformation_risk": "Médio — 'sem número de registro = ilegal' (muitos suplementos são notificados, não registrados); 'PANC é natural, então pode em cápsula'; 'Mounjaro natural'",
+    "audience_question_signal": "Sim — Como sei se meu suplemento é regularizado? · Suplemento precisa de registro? · Ora-pro-nóbis em cápsula pode? · Existe 'Mounjaro natural'?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "Em 30 dias, ≥1 novo ato ou notícia da Anvisa mira suplementos de empresas não localizadas, constituintes não autorizados ou marcas com nome de medicamento ('Mounjaro', 'Ozempic natural'), e surgem ≥2 explicadores para consumidores/mídia geral sobre como checar a regularização até +30; nenhuma ação da Anvisa contra a WePink até +30. O X fica <30/7d sem um gatilho de celebridade",
+    "prediction_confidence": "66%",
+    "prediction_timeframe": "1–4 semanas",
+    "key_sources": [
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-suplementos-alimentares-de-origem-desconhecida",
+     "https://www.gov.br/anvisa/pt-br/assuntos/alimentos/suplementos-alimentares/como-saber-se-um-suplemento-alimentar-e-autorizado",
+     "https://ncnews.com.br/2026/10/14/delegada-expulsa-wepink-suplementos-anvisa-virginia/",
+     "https://g1.globo.com/go/goias/noticia/2026/05/30/produto-alimenticio-encontrado-em-galpao-de-empresa-de-virginia-tinha-rotulagem-insatisfatoria-diz-vigilancia-sanitaria.ghtml"
+    ],
+    "key_accounts": [
+     "Anvisa",
+     "PSM Pennaforte Produtos Naturais",
+     "WePink",
+     "NC News"
+    ],
+    "why_flagged": "Herdado das varreduras de 10-14 e 10-16; junta três sinais fracos num FAQ de alta utilidade para o consumidor. Perfil B alto; Perfil A moderado (compras de suplemento de academia).",
+    "ProfileA_relevance": 50,
+    "ProfileB_relevance": 88,
+    "merged_from": [
+     "RE 4.001/2026 PSM Pennaforte (varredura 10-14)",
+     "episódio WePink/QR code (varredura 10-16)",
+     "página da Anvisa 'como saber se é autorizado'"
+    ],
+    "scan_notes": "Não insinuar que os produtos WePink são irregulares — não há evidência. Não inventar a situação da ora-pro-nóbis na IN 28 além do que diz o ato. Relacionadas, sem reescrita: NT-2026-09-21-01, NT-2026-09-21-09, NT-2026-10-12-01.",
+    "first_detected_date": "2026-10-14",
+    "latest_observation_date": "2026-10-19",
+    "prediction_freeze_date": "2026-10-19",
+    "next_review_date": "2026-10-26",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_007"
+   },
+   "translation": {
+    "translated_at": "2026-10-19T09:17:44-03:00",
+    "source_file": "trends/NT-2026-10-19-04.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-10-19-04",
+    "topic": "'Como saber se um suplemento é regularizado' — RE 4.001 (PSM Pennaforte: residential address, ora-pro-nóbis as unauthorized constituent, 'Mounjaro' branding) + WePink/QR-code episode → registered vs notified literacy",
+    "stage_at_freeze": "Brazil Emerging",
+    "prediction_freeze_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "next_review_date": "2026-10-26",
+    "prediction_status": "frozen",
+    "last_review_date": null,
+    "last_result": null,
+    "cohort_id": "cohort_007"
+   },
+   "cohort_id": "cohort_007",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-26",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-11-02",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-11-18",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-26"
+  },
+  {
+   "id": "NT-2026-10-19-05",
+   "frozen": {
+    "trend_id": "NT-2026-10-19-05",
+    "topic": "Naturopathy 'kit detox / desparasitar / desinflamar' incl. infant 1–5 y with colloidal silver/gold + activated charcoal banned (RE 4.035) → parent-facing detox & deworming-protocol myth FAQ",
+    "canonical_topic_name": "Anvisa RE 4.035/2026 (DOU 14/10) item banning Cris Barden Naturopatia kits — 'Kit Detox – Desparasitar – Desinflamar – Desintoxicar' (adult and infant 1–5 years, with 'frequenciados' colloidal silver and gold + pulverized activated charcoal), 'Kit Detox com Quelação', colloidal silver/gold and a '3-month slimming compound kit' — unregistered therapeutic claims; covered by VEJA and regional outlets; brand page still lists the infant kit",
+    "source_market": "BR (Native)",
+    "origin_community": "Anvisa DOU + VEJA/regional media + naturopathy e-commerce + parenting social",
+    "origin_type": "Enforcement act → pediatric/maternal myth literacy",
+    "source_layer": "Discovery",
+    "stage": "Brazil Emerging",
+    "velocity": "X PT kit detox/desparasitar/prata coloidal (−RT) 7d=178 but 157 on Oct 12 (promo noise per 10-14 sweep), then 7; 4; 3; 2; 2; 3; 0p",
+    "reach": "Medium for pediatric/maternal RDs and family-nutrition creators; low on X (qualitative)",
+    "novelty": "Medium-High — infant detox/deworming 'protocols' never frozen; adjacent to NT-2026-10-12-09 (adult 'toxinas/detox' on pens)",
+    "persistence_estimate": "Medium — detox/deworming protocols recur seasonally in parenting circles",
+    "brazil_presence": "Present/Native — RE 4.035 (Editais do Brasil text per 10-14 sweep), VEJA, BataNews, Impacto Geral",
+    "brazil_momentum": "Low and flat after the act",
+    "primary_niches": [
+     "maternal-child nutrition",
+     "pediatrics/family nutrition",
+     "integrative/naturopathy claims",
+     "supplements & claims"
+    ],
+    "evidence_temperature": "Strong for the act; no evidence base for 'detox/desparasitação' kits or colloidal silver/gold ingestion",
+    "misinformation_risk": "High — 'protocolo de desparasitação natural para criança'; 'prata coloidal é antibiótico natural'; 'carvão ativado limpa o organismo'",
+    "audience_question_signal": "Yes (parents) — Precisa fazer detox/desparasitar criança? · Prata coloidal faz mal? · Carvão ativado serve para quê?",
+    "content_opportunity": "Medium-High",
+    "predicted_trajectory": "Low social: PT X kit detox/desparasitar/prata coloidal stays <15/day outside promo spikes; over 1–4 weeks the act feeds parent-facing myth content, with ≥1 new tier-1 or professional-body (CRN/SBP/CFN or Anvisa 'Checamos') explainer on infant detox/deworming protocols or colloidal silver by +30",
+    "prediction_confidence": "58%",
+    "prediction_timeframe": "1–4 weeks",
+    "key_sources": [
+     "https://veja.abril.com.br/saude/anvisa-proibe-kit-detox-irregular-que-prometia-desparasitar-e-desinflamar-organismo/",
+     "https://impactogeral.com.br/anvisa-proibe-canetas-emagrecedoras-kits-detox/",
+     "https://mail.batanews.com.br/noticia/123297/anvisa-proibe-kit-detox-irregular-que-prometia-desparasitar-e-desinflamar-organismo"
+    ],
+    "key_accounts": [
+     "Anvisa",
+     "Cris Barden Naturopatia",
+     "VEJA"
+    ],
+    "why_flagged": "Carried from 10-14/10-15 sweeps; first infant-targeted kit in this month's enforcement wave — strong FAQ value for maternal-child RDs. Profiles A/B: B moderate (claims/supplements), A low.",
+    "ProfileA_relevance": 15,
+    "ProfileB_relevance": 72,
+    "merged_from": [
+     "RE 4.035/2026 item 3 (sweep 10-14)",
+     "detox/colloidal probe (sweep 10-15)"
+    ],
+    "scan_notes": "Name the act and the products as listed; do not extend to other naturopaths. Pen/peptide part of RE 4.035 belongs to NT-2026-10-12-03.",
+    "first_detected_date": "2026-10-14",
+    "latest_observation_date": "2026-10-19",
+    "prediction_freeze_date": "2026-10-19",
+    "next_review_date": "2026-10-26",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_007"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-10-19-05",
+    "topic": "'Kit detox / desparasitar / desinflamar' naturopático, inclusive infantil de 1 a 5 anos com prata/ouro coloidal + carvão ativado, proibido (RE 4.035) → FAQ para pais sobre mitos de detox e 'protocolos de desparasitação'",
+    "canonical_topic_name": "Item da RE 4.035/2026 da Anvisa (DOU 14/10) que proíbe kits da Cris Barden Naturopatia — 'Kit Detox – Desparasitar – Desinflamar – Desintoxicar' (adulto e infantil de 1 a 5 anos, com prata e ouro coloidal 'frequenciados' + carvão ativado pulverizado), 'Kit Detox com Quelação', prata/ouro coloidal e um 'Kit Composto Emagrecedor para 3 meses' — alegações terapêuticas sem registro; cobertura da VEJA e de veículos regionais; a página da marca ainda lista o kit infantil",
+    "source_market": "BR (nativo)",
+    "origin_community": "DOU/Anvisa + VEJA/mídia regional + e-commerce de naturopatia + redes de maternidade",
+    "origin_type": "Ato de fiscalização → letramento sobre mitos pediátricos/maternos",
+    "source_layer": "Descoberta",
+    "stage": "Emergente no Brasil",
+    "velocity": "X PT kit detox/desparasitar/prata coloidal (−RT) 7d=178, mas 157 em 12/10 (ruído promocional, segundo a varredura 10-14), depois 7; 4; 3; 2; 2; 3; 0p",
+    "reach": "Médio para nutricionistas materno-infantis/pediátricos e criadores de conteúdo de nutrição familiar; baixo no X (qualitativo)",
+    "novelty": "Média-alta — 'protocolos' de detox/desparasitação infantil nunca foram congelados; vizinho de NT-2026-10-12-09 ('toxinas/detox' em adultos na caneta)",
+    "persistence_estimate": "Média — protocolos de detox/desparasitação voltam periodicamente em círculos de maternidade",
+    "brazil_presence": "Presente/Nativa — RE 4.035 (texto no Editais do Brasil, segundo a varredura 10-14), VEJA, BataNews, Impacto Geral",
+    "brazil_momentum": "Baixo e estável após o ato",
+    "primary_niches": [
+     "nutrição materno-infantil",
+     "pediatria/nutrição familiar",
+     "alegações integrativas/naturopatia",
+     "suplementos e alegações"
+    ],
+    "evidence_temperature": "Forte para o ato; nenhuma base de evidência para kits de 'detox/desparasitação' nem para ingestão de prata/ouro coloidal",
+    "misinformation_risk": "Alto — 'protocolo de desparasitação natural para criança'; 'prata coloidal é antibiótico natural'; 'carvão ativado limpa o organismo'",
+    "audience_question_signal": "Sim (pais) — Precisa fazer detox/desparasitar criança? · Prata coloidal faz mal? · Carvão ativado serve para quê?",
+    "content_opportunity": "Média-Alta",
+    "predicted_trajectory": "Social baixo: o X PT kit detox/desparasitar/prata coloidal fica <15/dia fora de picos promocionais; em 1–4 semanas o ato alimenta conteúdos de mitos voltados a pais, com ≥1 novo explicador tier-1 ou de entidade profissional (CRN/SBP/CFN ou 'Checamos' da Anvisa) sobre detox/desparasitação infantil ou prata coloidal até +30",
+    "prediction_confidence": "58%",
+    "prediction_timeframe": "1–4 semanas",
+    "key_sources": [
+     "https://veja.abril.com.br/saude/anvisa-proibe-kit-detox-irregular-que-prometia-desparasitar-e-desinflamar-organismo/",
+     "https://impactogeral.com.br/anvisa-proibe-canetas-emagrecedoras-kits-detox/",
+     "https://mail.batanews.com.br/noticia/123297/anvisa-proibe-kit-detox-irregular-que-prometia-desparasitar-e-desinflamar-organismo"
+    ],
+    "key_accounts": [
+     "Anvisa",
+     "Cris Barden Naturopatia",
+     "VEJA"
+    ],
+    "why_flagged": "Herdado das varreduras de 10-14/10-15; primeiro kit voltado a crianças na onda de fiscalização deste mês — forte valor de FAQ para nutricionistas materno-infantis. Perfis A/B: B moderado (alegações/suplementos), A baixo.",
+    "ProfileA_relevance": 15,
+    "ProfileB_relevance": 72,
+    "merged_from": [
+     "RE 4.035/2026 item 3 (varredura 10-14)",
+     "sonda detox/coloidal (varredura 10-15)"
+    ],
+    "scan_notes": "Citar o ato e os produtos como listados; não estender a outros naturopatas. A parte de canetas/peptídeos da RE 4.035 pertence à NT-2026-10-12-03.",
+    "first_detected_date": "2026-10-14",
+    "latest_observation_date": "2026-10-19",
+    "prediction_freeze_date": "2026-10-19",
+    "next_review_date": "2026-10-26",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_007"
+   },
+   "translation": {
+    "translated_at": "2026-10-19T09:17:44-03:00",
+    "source_file": "trends/NT-2026-10-19-05.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-10-19-05",
+    "topic": "Naturopathy 'kit detox / desparasitar / desinflamar' incl. infant 1–5 y with colloidal silver/gold + activated charcoal banned (RE 4.035) → parent-facing detox & deworming-protocol myth FAQ",
+    "stage_at_freeze": "Brazil Emerging",
+    "prediction_freeze_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "next_review_date": "2026-10-26",
+    "prediction_status": "frozen",
+    "last_review_date": null,
+    "last_result": null,
+    "cohort_id": "cohort_007"
+   },
+   "cohort_id": "cohort_007",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-26",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-11-02",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-11-18",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-26"
+  },
+  {
+   "id": "NT-2026-10-19-06",
+   "frozen": {
+    "trend_id": "NT-2026-10-19-06",
+    "topic": "'Caneta de graça no SUS' — patient expectations vs process (Conitec reviewing semaglutide/liraglutide since 24/09; '90% desconto' is a projection; runoff 25/10 keeps memes alive)",
+    "canonical_topic_name": "SUS incorporation of GLP-1 pens: Ministério da Saúde protocol at Conitec (24/09/2026) for semaglutide OR liraglutide in obesity; MS 28/09 projection of 80–90% discount at scale (R$ 1,5 bi/ano), pharmacy prices −70% in under a year, users ~400k → >750k/month (MS); 25 pens registered (14 in 2026); Conitec legal window 180 + 90 days; eligibility, protocol, price and start date undefined; 2025 Conitec non-incorporation for a specific semaglutide profile; presidential promise (17/09) + electoral memes through the 25/10 runoff",
+    "source_market": "BR (Native policy)",
+    "origin_community": "Ministério da Saúde + Conitec + mainstream media (CNN Brasil, SBT News) + electoral X",
+    "origin_type": "Public-policy process × electoral communication",
+    "source_layer": "Propagation",
+    "stage": "Brazil Growing",
+    "velocity": "X PT pens × SUS/Conitec/grátis (−RT) 7d=568 (60; 96; 71; 90; 107; 55; 52; 37p), dominated by electoral framing; caneta × SUS spike to ~999/day on Oct 13 under a broader query (10-14 sweep)",
+    "reach": "High — general public and every clinical RD (qualitative)",
+    "novelty": "Medium — SUS/Conitec angle not frozen before (prior: national pens price war NT-2026-09-28-05, Semavy wave NT-2026-09-14-01)",
+    "persistence_estimate": "Medium-High — Conitec timeline to ~Mar/Jun 2027; electoral noise ends 25/10",
+    "brazil_presence": "Present/Native — gov.br/saude 24/09 and 28/09, CNN Brasil, FarmaCerto, Campo Grande News op-ed 12/10, SBT News Podnews",
+    "brazil_momentum": "Political peak now; expected to cool after 25/10",
+    "primary_niches": [
+     "clinical obesity care",
+     "public health / SUS",
+     "patient expectations",
+     "GLP-1 companion nutrition"
+    ],
+    "evidence_temperature": "Strong for process facts (MS documents); Contested/political for timelines and promises; Unknown for eligibility criteria",
+    "misinformation_risk": "High — 'já tem caneta de graça no posto'; 'Mounjaro no SUS' (request covers semaglutide/liraglutide only); '90% de desconto já aprovado'; 'com caneta não precisa de dieta'",
+    "audience_question_signal": "Yes — Quando vou conseguir no SUS? · Quem vai ter direito? · É Mounjaro? · Preciso de nutricionista para pegar?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "Electoral framing keeps PT pens × SUS/grátis at ~40–110/day until the 25/10 runoff, then the 7-day total falls ≥50% vs this week's 568 by +14; no final Conitec incorporation decision by +30. If Conitec publishes a preliminary recommendation or opens a consulta pública before +30, it creates a fresh patient-question spike (Unknown, not predicted)",
+    "prediction_confidence": "72%",
+    "prediction_timeframe": "+14 for the post-runoff drop; +30 for no final decision",
+    "key_sources": [
+     "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/setembro/ministerio-da-saude-protocola-na-conitec-pedido-de-analise-para-incorporacao-de-canetas-emagrecedoras-no-sus",
+     "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/setembro/canetas-emagrecedoras-podem-chegar-ao-sus-com-ate-90-de-desconto-apos-acoes-do-ministerio-da-saude-e-da-anvisa",
+     "https://farmacerto.com/canetas-emagrecedoras-sus-conitec/",
+     "https://www.campograndenews.com.br/artigos/canetas-emagrecedoras-no-sus-entre-a-promessa-e-a-avaliacao",
+     "https://www.cnnbrasil.com.br/saude/ministerio-da-saude-formaliza-pedido-para-incorporar-emagrecedoras-no-sus/",
+     "https://x.com/sbtnews/status/2111974358310682644"
+    ],
+    "key_accounts": [
+     "Ministério da Saúde",
+     "Conitec",
+     "Alexandre Padilha",
+     "SBT News",
+     "CNN Brasil"
+    ],
+    "why_flagged": "Carried from 10-14…10-19 sweeps (q09/q10 dominated by it). Not a nutrition science signal but the #1 patient-expectation question about pens this month; RD positioning (nutrition first, criteria) matters. A/B low; general clinical RD high.",
+    "ProfileA_relevance": 30,
+    "ProfileB_relevance": 38,
+    "merged_from": [
+     "caneta × SUS electoral spike (sweep 10-14)",
+     "MS 90% discount projection (28/09)",
+     "#DebateNaBand canetas no SUS (stream 10-18)"
+    ],
+    "scan_notes": "Request covers semaglutide or liraglutide — not tirzepatide. '90%' is a projection. Avoid partisan framing in customer material. Related, not rewritten: NT-2026-09-28-05, NT-2026-09-14-01.",
+    "first_detected_date": "2026-10-14",
+    "latest_observation_date": "2026-10-19",
+    "prediction_freeze_date": "2026-10-19",
+    "next_review_date": "2026-10-26",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_007"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-10-19-06",
+    "topic": "'Caneta de graça no SUS' — expectativa dos pacientes × processo (Conitec analisa semaglutida/liraglutida desde 24/09; '90% de desconto' é projeção; o 2º turno em 25/10 mantém os memes vivos)",
+    "canonical_topic_name": "Incorporação das canetas GLP-1 ao SUS: pedido do Ministério da Saúde à Conitec (24/09/2026) para semaglutida OU liraglutida na obesidade; projeção do MS em 28/09 de 80–90% de desconto em escala (R$ 1,5 bi/ano), preços nas farmácias −70% em menos de um ano, usuários de ~400 mil → >750 mil/mês (MS); 25 canetas registradas (14 em 2026); prazo legal da Conitec de 180 + 90 dias; elegibilidade, protocolo, preço e data de início indefinidos; precedente de não incorporação pela Conitec em 2025 para um perfil específico de semaglutida; promessa presidencial (17/09) + memes eleitorais até o 2º turno de 25/10",
+    "source_market": "BR (política pública nativa)",
+    "origin_community": "Ministério da Saúde + Conitec + mídia geral (CNN Brasil, SBT News) + X eleitoral",
+    "origin_type": "Processo de política pública × comunicação eleitoral",
+    "source_layer": "Propagação",
+    "stage": "Em crescimento no Brasil",
+    "velocity": "X PT canetas × SUS/Conitec/grátis (−RT) 7d=568 (60; 96; 71; 90; 107; 55; 52; 37p), dominado pelo enquadramento eleitoral; pico de caneta × SUS de ~999/dia em 13/10 numa consulta mais ampla (varredura 10-14)",
+    "reach": "Alto — público geral e todo nutricionista clínico (qualitativo)",
+    "novelty": "Média — o ângulo SUS/Conitec não foi congelado antes (anteriores: guerra de preços das canetas nacionais NT-2026-09-28-05, onda Semavy NT-2026-09-14-01)",
+    "persistence_estimate": "Média-alta — cronograma da Conitec até ~mar/jun 2027; o ruído eleitoral termina em 25/10",
+    "brazil_presence": "Presente/Nativa — gov.br/saude 24/09 e 28/09, CNN Brasil, FarmaCerto, artigo no Campo Grande News 12/10, Podnews do SBT News",
+    "brazil_momentum": "Pico político agora; deve esfriar depois de 25/10",
+    "primary_niches": [
+     "cuidado clínico da obesidade",
+     "saúde pública / SUS",
+     "expectativas do paciente",
+     "nutrição complementar à GLP-1"
+    ],
+    "evidence_temperature": "Forte para os fatos do processo (documentos do MS); Contestada/política quanto a prazos e promessas; Desconhecidos os critérios de elegibilidade",
+    "misinformation_risk": "Alto — 'já tem caneta de graça no posto'; 'Mounjaro no SUS' (o pedido cobre só semaglutida/liraglutida); '90% de desconto já aprovado'; 'com caneta não precisa de dieta'",
+    "audience_question_signal": "Sim — Quando vou conseguir no SUS? · Quem vai ter direito? · É Mounjaro? · Preciso de nutricionista para pegar?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "O enquadramento eleitoral mantém o X PT canetas × SUS/grátis em ~40–110/dia até o 2º turno de 25/10; depois, o total de 7 dias cai ≥50% em relação aos 568 desta semana até +14; nenhuma decisão final de incorporação pela Conitec até +30. Se a Conitec publicar recomendação preliminar ou abrir consulta pública antes de +30, isso gera novo pico de dúvidas de pacientes (Desconhecido, não previsto)",
+    "prediction_confidence": "72%",
+    "prediction_timeframe": "+14 para a queda pós-eleição; +30 para ausência de decisão final",
+    "key_sources": [
+     "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/setembro/ministerio-da-saude-protocola-na-conitec-pedido-de-analise-para-incorporacao-de-canetas-emagrecedoras-no-sus",
+     "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/setembro/canetas-emagrecedoras-podem-chegar-ao-sus-com-ate-90-de-desconto-apos-acoes-do-ministerio-da-saude-e-da-anvisa",
+     "https://farmacerto.com/canetas-emagrecedoras-sus-conitec/",
+     "https://www.campograndenews.com.br/artigos/canetas-emagrecedoras-no-sus-entre-a-promessa-e-a-avaliacao",
+     "https://www.cnnbrasil.com.br/saude/ministerio-da-saude-formaliza-pedido-para-incorporar-emagrecedoras-no-sus/",
+     "https://x.com/sbtnews/status/2111974358310682644"
+    ],
+    "key_accounts": [
+     "Ministério da Saúde",
+     "Conitec",
+     "Alexandre Padilha",
+     "SBT News",
+     "CNN Brasil"
+    ],
+    "why_flagged": "Herdado das varreduras de 10-14 a 10-19 (q09/q10 dominadas pelo tema). Não é sinal de ciência da nutrição, mas é a dúvida nº 1 de expectativa sobre canetas neste mês; o posicionamento do nutricionista (nutrição em primeiro lugar, critérios) importa. A/B baixos; alto para nutricionista clínico em geral.",
+    "ProfileA_relevance": 30,
+    "ProfileB_relevance": 38,
+    "merged_from": [
+     "pico eleitoral caneta × SUS (varredura 10-14)",
+     "projeção de 90% de desconto do MS (28/09)",
+     "#DebateNaBand canetas no SUS (stream 10-18)"
+    ],
+    "scan_notes": "O pedido cobre semaglutida ou liraglutida — não tirzepatida. '90%' é projeção. Evitar enquadramento partidário no material para clientes. Relacionadas, sem reescrita: NT-2026-09-28-05, NT-2026-09-14-01.",
+    "first_detected_date": "2026-10-14",
+    "latest_observation_date": "2026-10-19",
+    "prediction_freeze_date": "2026-10-19",
+    "next_review_date": "2026-10-26",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_007"
+   },
+   "translation": {
+    "translated_at": "2026-10-19T09:17:44-03:00",
+    "source_file": "trends/NT-2026-10-19-06.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-10-19-06",
+    "topic": "'Caneta de graça no SUS' — patient expectations vs process (Conitec reviewing semaglutide/liraglutide since 24/09; '90% desconto' is a projection; runoff 25/10 keeps memes alive)",
+    "stage_at_freeze": "Brazil Growing",
+    "prediction_freeze_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "next_review_date": "2026-10-26",
+    "prediction_status": "frozen",
+    "last_review_date": null,
+    "last_result": null,
+    "cohort_id": "cohort_007"
+   },
+   "cohort_id": "cohort_007",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-26",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-11-02",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-11-18",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-26"
+  },
+  {
+   "id": "NT-2026-10-19-07",
+   "frozen": {
+    "trend_id": "NT-2026-10-19-07",
+    "topic": "'Extra protein only helps if baseline intake is low' — TEAMS RCT (frail older adults + resistance training: no overall gain from whey/counselling; strength benefit only <1.2 and ≤0.8 g/kg) vs multi-ingredient sarcopenia stacks (ADA 2026 EAA + creatine + HMB)",
+    "canonical_topic_name": "TEAMS RCT secondary analysis (Biersteker et al., J Nutr Health Aging 2026; n=295 frail community-dwelling older adults, 12 wk supervised PRT to failure ± dietitian counselling + 20 g/d protein products targeting 1.2–1.5 g/kg): intake +0.4 g/kg but no significant extra gain overall in leg-press strength (+4.2 kg, 95% CI −0.3–8.8), appendicular lean mass or performance; exploratory benefit when baseline <1.2 g/kg (+6.4 kg) and ≤0.8 g/kg (+10.9 kg); companion BMC Nutrition paper on protein distribution/quality; contrast: ADA 2026 abstract 1130-OR (T2D sarcopenia, leucine-rich EAA + creatine HCl + Ca-HMB + digital coaching, n=90) reporting ↑ASM and ~12% grip",
+    "source_market": "International research (NL/EU; US conference) → BR practice",
+    "origin_community": "Geriatric nutrition & exercise research (Amsterdam UAS) + ADA Scientific Sessions + BR senior-health outlets (viva.com.br, A Voz do Idoso)",
+    "origin_type": "RCT secondary analysis + conference abstract",
+    "source_layer": "Research",
+    "stage": "Emerging",
+    "velocity": "Research-led; X PT protein/whey × idoso/sarcopenia 7d=6; no EN social count measured for TEAMS",
+    "reach": "Medium-High for clinical/geriatric and sports RDs; low consumer (qualitative)",
+    "novelty": "High — 'baseline intake as effect modifier' framing not frozen before (prior protein trends were GLP-1 denominators NT-2026-10-12-07 and proteinização NT-2026-10-12-04)",
+    "persistence_estimate": "Medium-High — evergreen counseling principle, reinforced by whey price pressure",
+    "brazil_presence": "Partial — ADA stack study covered by viva.com.br/A Voz do Idoso; TEAMS BR pickup not found (Unknown)",
+    "brazil_momentum": "Not yet visible",
+    "primary_niches": [
+     "sarcopenia/older adults",
+     "sports/hypertrophy",
+     "protein supplements",
+     "whey cost-effectiveness",
+     "clinical nutrition"
+    ],
+    "evidence_temperature": "Moderate — large supervised RCT, but subgroup findings exploratory (self-reported intake, multiple comparisons); industry in-kind/cash support (Carezzo Nutrition, Fonterra) declared; ADA stack = abstract, multi-component, effect not attributable to supplements alone",
+    "misinformation_risk": "Medium — 'whey não serve para idoso' (overgeneralization) vs 'todo idoso precisa de whey'; 'stack de EAA+creatina+HMB cura sarcopenia'",
+    "audience_question_signal": "Yes — Minha mãe precisa de whey para a musculação? · Quanto de proteína o idoso precisa? · Vale gastar com whey caro?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "Slow, research-led: over 2–4 weeks the 'assess habitual protein intake before adding a supplement' framing appears in ≥1 BR professional/press outlet or RD education piece (citing TEAMS or similar) by +30 and in EN sports/geriatric nutrition commentary; it becomes a whey-price-era counseling angle. PT social stays <10/7d",
+    "prediction_confidence": "55%",
+    "prediction_timeframe": "2–4 weeks",
+    "key_sources": [
+     "https://doi.org/10.1016/j.jnha.2026.100838",
+     "https://pmc.ncbi.nlm.nih.gov/articles/PMC13087472/",
+     "https://doi.org/10.1186/s40795-026-01511-0",
+     "https://doi.org/10.2337/db26-1130-or",
+     "https://viva.com.br/saude-e-bem-estar/como-melhorar-a-forca-muscular-em-idosos-com-sarcopenia-conheca-novo-estudo.html"
+    ],
+    "key_accounts": [
+     "Amsterdam University of Applied Sciences (TEAMS)",
+     "American Diabetes Association"
+    ],
+    "why_flagged": "Research emergence this run; directly usable for Profile A (training + protein dosing) and Profile B (when a protein supplement is worth it, especially with whey at record prices).",
+    "ProfileA_relevance": 84,
+    "ProfileB_relevance": 80,
+    "merged_from": [
+     "TEAMS RCT (JNHA 2026)",
+     "TEAMS protein distribution paper (BMC Nutrition 2026)",
+     "ADA 2026 1130-OR sarcopenia stack",
+     "whey price context (NT-2026-10-05-03)"
+    ],
+    "scan_notes": "TEAMS exact online date not verified (2026). Report subgroup results as exploratory. Do not call the ADA abstract proof of supplement efficacy. Related, not rewritten: NT-2026-10-12-07, NT-2026-10-05-03, NT-2026-09-21-04.",
+    "first_detected_date": "2026-10-19",
+    "latest_observation_date": "2026-10-19",
+    "prediction_freeze_date": "2026-10-19",
+    "next_review_date": "2026-10-26",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_007"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-10-19-07",
+    "topic": "'Proteína extra só ajuda se a ingestão habitual for baixa' — ensaio TEAMS (idosos frágeis + treino de força: sem ganho geral com whey/aconselhamento; benefício de força só <1,2 e ≤0,8 g/kg) × 'stacks' multi-ingrediente para sarcopenia (ADA 2026: EAA + creatina + HMB)",
+    "canonical_topic_name": "Análise secundária do ensaio TEAMS (Biersteker et al., J Nutr Health Aging 2026; n=295 idosos frágeis da comunidade, 12 semanas de treino de força supervisionado até a falha ± aconselhamento com nutricionista + 20 g/dia de produtos proteicos visando 1,2–1,5 g/kg): ingestão +0,4 g/kg, mas sem ganho adicional significativo no geral em força no leg press (+4,2 kg, IC 95% −0,3–8,8), massa magra apendicular ou desempenho; benefício exploratório quando a ingestão basal era <1,2 g/kg (+6,4 kg) e ≤0,8 g/kg (+10,9 kg); artigo complementar no BMC Nutrition sobre distribuição/qualidade da proteína; contraste: resumo ADA 2026 1130-OR (sarcopenia no DM2, EAA rico em leucina + creatina HCl + HMB-Ca + coaching digital, n=90) relatando ↑ massa muscular apendicular e ~12% de força de preensão",
+    "source_market": "Pesquisa internacional (NL/UE; congresso nos EUA) → prática no BR",
+    "origin_community": "Pesquisa em nutrição e exercício geriátricos (Amsterdam UAS) + Scientific Sessions da ADA + veículos BR de saúde do idoso (viva.com.br, A Voz do Idoso)",
+    "origin_type": "Análise secundária de ECR + resumo de congresso",
+    "source_layer": "Pesquisa",
+    "stage": "Emergente",
+    "velocity": "Puxado por pesquisa; X PT proteína/whey × idoso/sarcopenia 7d=6; nenhuma contagem social em inglês medida para o TEAMS",
+    "reach": "Médio-alto para nutricionistas clínicos/geriátricos e esportivos; baixo para o consumidor (qualitativo)",
+    "novelty": "Alta — o enquadramento 'ingestão basal como modificador de efeito' não foi congelado antes (as tendências anteriores sobre proteína foram os denominadores na GLP-1, NT-2026-10-12-07, e a proteinização, NT-2026-10-12-04)",
+    "persistence_estimate": "Média-alta — princípio de aconselhamento perene, reforçado pela pressão no preço do whey",
+    "brazil_presence": "Parcial — o estudo do 'stack' da ADA teve cobertura no viva.com.br/A Voz do Idoso; repercussão do TEAMS no BR não encontrada (Desconhecido)",
+    "brazil_momentum": "Ainda não visível",
+    "primary_niches": [
+     "sarcopenia/idosos",
+     "esporte/hipertrofia",
+     "suplementos proteicos",
+     "custo-efetividade do whey",
+     "nutrição clínica"
+    ],
+    "evidence_temperature": "Moderada — ECR grande e supervisionado, mas os achados de subgrupo são exploratórios (ingestão autorrelatada, múltiplas comparações); apoio in-kind/financeiro da indústria (Carezzo Nutrition, Fonterra) declarado; o 'stack' da ADA é resumo, multicomponente, efeito não atribuível só aos suplementos",
+    "misinformation_risk": "Médio — 'whey não serve para idoso' (generalização) × 'todo idoso precisa de whey'; 'stack de EAA + creatina + HMB cura sarcopenia'",
+    "audience_question_signal": "Sim — Minha mãe precisa de whey para a musculação? · Quanto de proteína o idoso precisa? · Vale gastar com whey caro?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "Lento, puxado por pesquisa: em 2–4 semanas, o enquadramento 'avalie a ingestão habitual de proteína antes de acrescentar suplemento' aparece em ≥1 veículo profissional/imprensa BR ou peça de educação para nutricionistas (citando o TEAMS ou similar) até +30, e em comentários de nutrição esportiva/geriátrica em inglês; vira ângulo de aconselhamento na era do whey caro. O social PT fica <10/7d",
+    "prediction_confidence": "55%",
+    "prediction_timeframe": "2–4 semanas",
+    "key_sources": [
+     "https://doi.org/10.1016/j.jnha.2026.100838",
+     "https://pmc.ncbi.nlm.nih.gov/articles/PMC13087472/",
+     "https://doi.org/10.1186/s40795-026-01511-0",
+     "https://doi.org/10.2337/db26-1130-or",
+     "https://viva.com.br/saude-e-bem-estar/como-melhorar-a-forca-muscular-em-idosos-com-sarcopenia-conheca-novo-estudo.html"
+    ],
+    "key_accounts": [
+     "Amsterdam University of Applied Sciences (TEAMS)",
+     "American Diabetes Association"
+    ],
+    "why_flagged": "Emergência de pesquisa desta rodada; diretamente útil para o Perfil A (treino + dose de proteína) e o Perfil B (quando um suplemento proteico vale a pena, ainda mais com o whey em preço recorde).",
+    "ProfileA_relevance": 84,
+    "ProfileB_relevance": 80,
+    "merged_from": [
+     "ensaio TEAMS (JNHA 2026)",
+     "artigo TEAMS sobre distribuição de proteína (BMC Nutrition 2026)",
+     "'stack' para sarcopenia ADA 2026 1130-OR",
+     "contexto do preço do whey (NT-2026-10-05-03)"
+    ],
+    "scan_notes": "Data exata de publicação online do TEAMS não verificada (2026). Relatar os resultados de subgrupo como exploratórios. Não chamar o resumo da ADA de prova de eficácia de suplemento. Relacionadas, sem reescrita: NT-2026-10-12-07, NT-2026-10-05-03, NT-2026-09-21-04.",
+    "first_detected_date": "2026-10-19",
+    "latest_observation_date": "2026-10-19",
+    "prediction_freeze_date": "2026-10-19",
+    "next_review_date": "2026-10-26",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_007"
+   },
+   "translation": {
+    "translated_at": "2026-10-19T09:17:44-03:00",
+    "source_file": "trends/NT-2026-10-19-07.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-10-19-07",
+    "topic": "'Extra protein only helps if baseline intake is low' — TEAMS RCT (frail older adults + resistance training: no overall gain from whey/counselling; strength benefit only <1.2 and ≤0.8 g/kg) vs multi-ingredient sarcopenia stacks (ADA 2026 EAA + creatine + HMB)",
+    "stage_at_freeze": "Emerging",
+    "prediction_freeze_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "next_review_date": "2026-10-26",
+    "prediction_status": "frozen",
+    "last_review_date": null,
+    "last_result": null,
+    "cohort_id": "cohort_007"
+   },
+   "cohort_id": "cohort_007",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-26",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-11-02",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-11-18",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-26"
+  },
+  {
+   "id": "NT-2026-10-19-08",
+   "frozen": {
+    "trend_id": "NT-2026-10-19-08",
+    "topic": "Creatine myth-correction demand in PT social — hair loss/DHT, 'faz isso mesmo?', brain/gut hype — high volume, recurring questions; JISSN 2025 hair RCT as anchor",
+    "canonical_topic_name": "Brazilian X creatine conversation at sustained high volume (PT creatina −RT 2,216/7d) driven by viral question threads (@veehrdadeiro 'a creatina realmente faz isso?' ~62k imp, 13 Oct; @seguematheus replies) and myth lines (@osalesneto 12.7k imp 'derruba todo o meu cabelo'); recurring myths: hair loss/DHT (2009 rugby study measured DHT only), 'retém água', 'faz mal ao rim', 'só funciona com treino', plus preclinical brain/gut items (rat colitis neuroinflammation, Oct 2026); evidence anchor: JISSN 2025 12-week RCT (n=45, 5 g/d) with no DHT or hair differences",
+    "source_market": "BR (Native social) + EN research",
+    "origin_community": "BR gym X + creators + mainstream (O Globo/Márcio Atalla) + JISSN research",
+    "origin_type": "Myth-correction demand",
+    "source_layer": "Propagation",
+    "stage": "Brazil Growing",
+    "velocity": "X PT creatina (−RT) 7d=2,216 (163p; 448; 402; 240; 273; 286; 347; 57p, AM sweep); PT creatina × cabelo/calvície/DHT 7d=15 (peak 6 on Oct 17)",
+    "reach": "High — mass gym audience (qualitative)",
+    "novelty": "Medium — creatine frozen many times on claims/midlife/GLP-1 (NT-2026-09-09-05, -09-21-05, -09-28-01/02, -10-05-02/06/09); myth-correction/hair angle is new",
+    "persistence_estimate": "High — perennial topic; volume self-renews with each viral question",
+    "brazil_presence": "Present/Native — PT X volume, O Globo/Atalla, Tua Saúde, Infobae (gut-brain rat study)",
+    "brazil_momentum": "Stable-high",
+    "primary_niches": [
+     "sports/hypertrophy",
+     "supplements",
+     "women & creatine",
+     "myth-busting content"
+    ],
+    "evidence_temperature": "Strong for safety/efficacy with training; Strong-ish null for hair loss (one RCT + absence of outcome data in 2009 study); Preclinical only for brain/gut claims",
+    "misinformation_risk": "High — 'creatina dá calvície'; 'creatina é anabolizante'; 'faz mal ao rim de quem é saudável'; 'creatina cura ansiedade' (rat data)",
+    "audience_question_signal": "Yes — Creatina faz cair cabelo? · Quanto ganho de verdade? · Precisa fazer saturação? · Mulher pode? · Faz mal ao rim?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "PT creatina volume stays ≥1,500/7d through +14 with recurring myth threads (cabelo/DHT, rim, 'retém líquido', 'sem treino'); ≥1 tier-1 BR outlet or large creator publishes a creatine-myths explainer by +30; creatina × cabelo PT stays <40/7d unless a single viral post",
+    "prediction_confidence": "70%",
+    "prediction_timeframe": "+14 (volume), +30 (explainer)",
+    "key_sources": [
+     "https://pmc.ncbi.nlm.nih.gov/articles/PMC12020143/",
+     "https://pubmed.ncbi.nlm.nih.gov/40265319/",
+     "https://health.clevelandclinic.org/does-creatine-cause-hair-loss",
+     "https://x.com/osalesneto/status/2111500442161271281",
+     "https://x.com/tt3usz/status/2111517758911304084"
+    ],
+    "key_accounts": [
+     "@veehrdadeiro",
+     "@osalesneto",
+     "@seguematheus",
+     "Márcio Atalla",
+     "JISSN"
+    ],
+    "why_flagged": "Carried from 10-14 and 10-19 sweeps: the largest steady PT nutrition conversation on X this week that is not political. Profile A very high; Profile B high.",
+    "ProfileA_relevance": 88,
+    "ProfileB_relevance": 74,
+    "merged_from": [
+     "viral 'creatina faz isso?' thread (sweep 10-14)",
+     "creatine hair-loss myth (sweep 10-19)",
+     "creatine × gut-brain rat study (sweep 10-16)",
+     "Unesp anti-inflammatory null meta (sweep 10-13; date not verified)"
+    ],
+    "scan_notes": "The 'creatine + escitalopram' RCT circulating on EN X (52 women) is an older study recirculated — not new evidence. Unesp meta date not verified (FAPESP page offline). Related, not rewritten: NT-2026-09-28-02, NT-2026-10-05-02, NT-2026-10-05-09.",
+    "first_detected_date": "2026-10-14",
+    "latest_observation_date": "2026-10-19",
+    "prediction_freeze_date": "2026-10-19",
+    "next_review_date": "2026-10-26",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_007"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-10-19-08",
+    "topic": "Demanda por desmentir mitos da creatina no social PT — queda de cabelo/DHT, 'faz isso mesmo?', hype de cérebro/intestino — volume alto, perguntas recorrentes; ECR do JISSN 2025 sobre cabelo como âncora",
+    "canonical_topic_name": "Conversa brasileira sobre creatina no X em volume alto e sustentado (PT creatina −RT 2.216/7d), puxada por threads virais de perguntas (@veehrdadeiro 'a creatina realmente faz isso?' ~62 mil imp., 13/10; respostas a @seguematheus) e frases de mito (@osalesneto 12,7 mil imp. 'derruba todo o meu cabelo'); mitos recorrentes: queda de cabelo/DHT (o estudo de 2009 com jogadores de rúgbi mediu só DHT), 'retém água', 'faz mal ao rim', 'só funciona com treino', além de itens pré-clínicos de cérebro/intestino (neuroinflamação por colite em ratos, out/2026); âncora de evidência: ECR do JISSN 2025 de 12 semanas (n=45, 5 g/dia) sem diferença em DHT ou cabelo",
+    "source_market": "BR (social nativo) + pesquisa em inglês",
+    "origin_community": "X de academia BR + criadores + mídia geral (O Globo/Márcio Atalla) + pesquisa do JISSN",
+    "origin_type": "Demanda por correção de mitos",
+    "source_layer": "Propagação",
+    "stage": "Em crescimento no Brasil",
+    "velocity": "X PT creatina (−RT) 7d=2.216 (163p; 448; 402; 240; 273; 286; 347; 57p, varredura da manhã); PT creatina × cabelo/calvície/DHT 7d=15 (pico de 6 em 17/10)",
+    "reach": "Alto — público massivo de academia (qualitativo)",
+    "novelty": "Média — creatina já foi congelada várias vezes em alegações/meia-idade/GLP-1 (NT-2026-09-09-05, -09-21-05, -09-28-01/02, -10-05-02/06/09); o ângulo de correção de mitos/cabelo é novo",
+    "persistence_estimate": "Alta — tema perene; o volume se renova a cada pergunta viral",
+    "brazil_presence": "Presente/Nativa — volume PT no X, O Globo/Atalla, Tua Saúde, Infobae (estudo intestino-cérebro em ratos)",
+    "brazil_momentum": "Estável-alto",
+    "primary_niches": [
+     "esporte/hipertrofia",
+     "suplementos",
+     "mulheres e creatina",
+     "conteúdo de desmistificação"
+    ],
+    "evidence_temperature": "Forte para segurança/eficácia com treino; nulo razoavelmente forte para queda de cabelo (um ECR + ausência de desfecho capilar no estudo de 2009); apenas pré-clínico para alegações de cérebro/intestino",
+    "misinformation_risk": "Alto — 'creatina dá calvície'; 'creatina é anabolizante'; 'faz mal ao rim de quem é saudável'; 'creatina cura ansiedade' (dados em ratos)",
+    "audience_question_signal": "Sim — Creatina faz cair cabelo? · Quanto ganho de verdade? · Precisa fazer saturação? · Mulher pode? · Faz mal ao rim?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "O volume PT de creatina fica ≥1.500/7d até +14, com threads de mito recorrentes (cabelo/DHT, rim, 'retém líquido', 'sem treino'); ≥1 veículo BR tier-1 ou grande criador publica um explicador de mitos da creatina até +30; creatina × cabelo PT fica <40/7d, salvo um único post viral",
+    "prediction_confidence": "70%",
+    "prediction_timeframe": "+14 (volume), +30 (explicador)",
+    "key_sources": [
+     "https://pmc.ncbi.nlm.nih.gov/articles/PMC12020143/",
+     "https://pubmed.ncbi.nlm.nih.gov/40265319/",
+     "https://health.clevelandclinic.org/does-creatine-cause-hair-loss",
+     "https://x.com/osalesneto/status/2111500442161271281",
+     "https://x.com/tt3usz/status/2111517758911304084"
+    ],
+    "key_accounts": [
+     "@veehrdadeiro",
+     "@osalesneto",
+     "@seguematheus",
+     "Márcio Atalla",
+     "JISSN"
+    ],
+    "why_flagged": "Herdado das varreduras de 10-14 e 10-19: é a maior conversa PT de nutrição estável no X nesta semana que não é política. Perfil A muito alto; Perfil B alto.",
+    "ProfileA_relevance": 88,
+    "ProfileB_relevance": 74,
+    "merged_from": [
+     "thread viral 'creatina faz isso?' (varredura 10-14)",
+     "mito da creatina e queda de cabelo (varredura 10-19)",
+     "estudo creatina × intestino-cérebro em ratos (varredura 10-16)",
+     "meta-análise nula da Unesp sobre efeito anti-inflamatório (varredura 10-13; data não verificada)"
+    ],
+    "scan_notes": "O ECR 'creatina + escitalopram' (52 mulheres) que circula no X em inglês é um estudo antigo recirculado — não é evidência nova. Data da meta-análise da Unesp não verificada (página da FAPESP fora do ar). Relacionadas, sem reescrita: NT-2026-09-28-02, NT-2026-10-05-02, NT-2026-10-05-09.",
+    "first_detected_date": "2026-10-14",
+    "latest_observation_date": "2026-10-19",
+    "prediction_freeze_date": "2026-10-19",
+    "next_review_date": "2026-10-26",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_007"
+   },
+   "translation": {
+    "translated_at": "2026-10-19T09:17:44-03:00",
+    "source_file": "trends/NT-2026-10-19-08.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-10-19-08",
+    "topic": "Creatine myth-correction demand in PT social — hair loss/DHT, 'faz isso mesmo?', brain/gut hype — high volume, recurring questions; JISSN 2025 hair RCT as anchor",
+    "stage_at_freeze": "Brazil Growing",
+    "prediction_freeze_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "next_review_date": "2026-10-26",
+    "prediction_status": "frozen",
+    "last_review_date": null,
+    "last_result": null,
+    "cohort_id": "cohort_007"
+   },
+   "cohort_id": "cohort_007",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-26",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-11-02",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-11-18",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-26"
+  },
+  {
+   "id": "NT-2026-10-19-09",
+   "frozen": {
+    "trend_id": "NT-2026-10-19-09",
+    "topic": "Women on GLP-1 — Lancet OG&WH review (29 Sep): rollout outpaced women-specific guidance; ~30% of loss is lean mass; early gaps in vitamin D, potassium, choline, magnesium, iron; access/counterfeit inequity",
+    "canonical_topic_name": "Meek et al., 'Global barriers to GLP-1 receptor agonist treatment in women: access, safety, and equity', Lancet Obstet Gynaecol Womens Health, online 29 Sep 2026 (narrative review, second of a two-paper series): most users are women; guidance lags; ~70/30 fat/lean split in trials with frailty concern in older women; inadequate vitamin D, potassium, choline, magnesium and iron intake early in treatment and diagnosed deficiencies in long-term users; RT + protein emphasized but adherence limited by deprivation, cost and gendered barriers; LMIC counterfeit/compounded risk; trade coverage (Nutritional Outlook 5 Oct) pairs it with supplement-brand opportunity talk (HMB, creatine)",
+    "source_market": "International (UK-led review; US trade press) → BR migration",
+    "origin_community": "Women's-health medical literature + supplement trade press",
+    "origin_type": "Narrative review + trade amplification",
+    "source_layer": "Research",
+    "stage": "Migration Candidate",
+    "velocity": "EN trade coverage 5 Oct; BR pickup not found; PT X signal not measured separately (Unknown)",
+    "reach": "Medium-High for clinical/women's-health RDs; BR women are the main pen users (qualitative)",
+    "novelty": "Medium — women-specific framing new; micronutrient checklist (NT-2026-09-28-07) and lean-mass cluster already frozen",
+    "persistence_estimate": "Medium-High",
+    "brazil_presence": "Unknown — no BR outlet/society pickup documented",
+    "brazil_momentum": "Unknown",
+    "primary_niches": [
+     "women's health",
+     "menopause/midlife",
+     "GLP-1 companion nutrition",
+     "micronutrients",
+     "lean mass / resistance training"
+    ],
+    "evidence_temperature": "Moderate — narrative (non-systematic) review synthesizing trials and observational intake data; supplement claims in trade coverage are conference statements, not review findings",
+    "misinformation_risk": "Medium — 'toda mulher na caneta precisa de multivitamínico/HMB'; 'caneta causa deficiência' (observational intake data)",
+    "audience_question_signal": "Emerging — Mulher na caneta perde mais músculo? · Preciso de vitamina D/ferro? · E na menopausa?",
+    "content_opportunity": "Medium-High",
+    "predicted_trajectory": "By +30, ≥1 BR outlet, society or RD education piece adopts the women-specific framing (lean mass + micronutrients + menopause/access); supplement brands use it to market HMB/creatine/multivitamins to women on pens (≥1 BR example by +30). PT X stays small",
+    "prediction_confidence": "56%",
+    "prediction_timeframe": "2–4 weeks",
+    "key_sources": [
+     "https://www.thelancet.com/journals/lanogw/article/PIIS3050-5038(26)00228-1/fulltext",
+     "https://www.nutritionaloutlook.com/view/lancet-review-flags-lean-mass-loss-access-barriers-women-glp-1s",
+     "https://doi.org/10.1111/cob.70070"
+    ],
+    "key_accounts": [
+     "The Lancet Obstetrics, Gynaecology, & Women's Health",
+     "Claire L. Meek (Leicester)",
+     "Nutritional Outlook"
+    ],
+    "why_flagged": "Carried from the 10-13 sweep; fills a gap (women are the majority of BR pen users) and connects lean-mass and micronutrient clusters. Profiles A/B both medium-high.",
+    "ProfileA_relevance": 62,
+    "ProfileB_relevance": 70,
+    "merged_from": [
+     "Lancet OG&WH review (Meek et al., 29 Sep)",
+     "Nutritional Outlook coverage (5 Oct)",
+     "GLP-1 micronutrient literature (Clinical Obesity review)"
+    ],
+    "scan_notes": "Do not cite Kalman's percentages as the Lancet's findings. Related, not rewritten: NT-2026-09-28-07 (micronutrients), NT-2026-10-05-05/-07, NT-2026-10-12-07 (lean mass).",
+    "first_detected_date": "2026-10-13",
+    "latest_observation_date": "2026-10-19",
+    "prediction_freeze_date": "2026-10-19",
+    "next_review_date": "2026-10-26",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_007"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-10-19-09",
+    "topic": "Mulheres na GLP-1 — revisão da Lancet OG&WH (29/09): a expansão superou as orientações específicas para mulheres; ~30% da perda é massa magra; lacunas precoces de vitamina D, potássio, colina, magnésio e ferro; desigualdade de acesso/falsificação",
+    "canonical_topic_name": "Meek et al., 'Global barriers to GLP-1 receptor agonist treatment in women: access, safety, and equity', Lancet Obstet Gynaecol Womens Health, online em 29/09/2026 (revisão narrativa, segunda de uma série de dois artigos): a maioria dos usuários é mulher; as orientações estão atrasadas; divisão ~70/30 gordura/massa magra nos ensaios, com preocupação de fragilidade em mulheres mais velhas; ingestão inadequada de vitamina D, potássio, colina, magnésio e ferro no início do tratamento e deficiências diagnosticadas em usuárias de longo prazo; treino de força + proteína enfatizados, mas adesão limitada por privação, custo e barreiras de gênero; risco de falsificados/manipulados em países de renda baixa e média; a cobertura de trade (Nutritional Outlook 5/10) associa a revisão a falas sobre oportunidade para marcas de suplementos (HMB, creatina)",
+    "source_market": "Internacional (revisão liderada pelo Reino Unido; imprensa de trade dos EUA) → migração para o BR",
+    "origin_community": "Literatura médica de saúde da mulher + imprensa de trade de suplementos",
+    "origin_type": "Revisão narrativa + amplificação pelo trade",
+    "source_layer": "Pesquisa",
+    "stage": "Candidato a migração",
+    "velocity": "Cobertura de trade em inglês em 5/10; repercussão no BR não encontrada; sinal no X PT não medido separadamente (Desconhecido)",
+    "reach": "Médio-alto para nutricionistas clínicos/de saúde da mulher; as mulheres são as principais usuárias de canetas no BR (qualitativo)",
+    "novelty": "Média — o enquadramento específico para mulheres é novo; o checklist de micronutrientes (NT-2026-09-28-07) e o cluster de massa magra já foram congelados",
+    "persistence_estimate": "Média-alta",
+    "brazil_presence": "Desconhecida — nenhuma repercussão em veículo ou sociedade brasileira documentada",
+    "brazil_momentum": "Desconhecido",
+    "primary_niches": [
+     "saúde da mulher",
+     "menopausa/meia-idade",
+     "nutrição complementar à GLP-1",
+     "micronutrientes",
+     "massa magra / treino de força"
+    ],
+    "evidence_temperature": "Moderada — revisão narrativa (não sistemática) que sintetiza ensaios e dados observacionais de ingestão; as alegações sobre suplementos na cobertura de trade são falas de congresso, não achados da revisão",
+    "misinformation_risk": "Médio — 'toda mulher na caneta precisa de multivitamínico/HMB'; 'caneta causa deficiência' (dados observacionais de ingestão)",
+    "audience_question_signal": "Emergente — Mulher na caneta perde mais músculo? · Preciso de vitamina D/ferro? · E na menopausa?",
+    "content_opportunity": "Média-Alta",
+    "predicted_trajectory": "Até +30, ≥1 veículo, sociedade ou peça de educação para nutricionistas no BR adota o enquadramento específico para mulheres (massa magra + micronutrientes + menopausa/acesso); marcas de suplementos usam o tema para vender HMB/creatina/multivitamínicos para mulheres em uso de caneta (≥1 exemplo BR até +30). O X PT continua pequeno",
+    "prediction_confidence": "56%",
+    "prediction_timeframe": "2–4 semanas",
+    "key_sources": [
+     "https://www.thelancet.com/journals/lanogw/article/PIIS3050-5038(26)00228-1/fulltext",
+     "https://www.nutritionaloutlook.com/view/lancet-review-flags-lean-mass-loss-access-barriers-women-glp-1s",
+     "https://doi.org/10.1111/cob.70070"
+    ],
+    "key_accounts": [
+     "The Lancet Obstetrics, Gynaecology, & Women's Health",
+     "Claire L. Meek (Leicester)",
+     "Nutritional Outlook"
+    ],
+    "why_flagged": "Herdado da varredura de 10-13; preenche uma lacuna (as mulheres são a maioria das usuárias de canetas no BR) e conecta os clusters de massa magra e micronutrientes. Perfis A/B ambos médio-altos.",
+    "ProfileA_relevance": 62,
+    "ProfileB_relevance": 70,
+    "merged_from": [
+     "revisão Lancet OG&WH (Meek et al., 29/09)",
+     "cobertura do Nutritional Outlook (5/10)",
+     "literatura de micronutrientes na GLP-1 (revisão Clinical Obesity)"
+    ],
+    "scan_notes": "Não citar os percentuais de Kalman como achados da Lancet. Relacionadas, sem reescrita: NT-2026-09-28-07 (micronutrientes), NT-2026-10-05-05/-07, NT-2026-10-12-07 (massa magra).",
+    "first_detected_date": "2026-10-13",
+    "latest_observation_date": "2026-10-19",
+    "prediction_freeze_date": "2026-10-19",
+    "next_review_date": "2026-10-26",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_007"
+   },
+   "translation": {
+    "translated_at": "2026-10-19T09:17:44-03:00",
+    "source_file": "trends/NT-2026-10-19-09.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-10-19-09",
+    "topic": "Women on GLP-1 — Lancet OG&WH review (29 Sep): rollout outpaced women-specific guidance; ~30% of loss is lean mass; early gaps in vitamin D, potassium, choline, magnesium, iron; access/counterfeit inequity",
+    "stage_at_freeze": "Migration Candidate",
+    "prediction_freeze_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "next_review_date": "2026-10-26",
+    "prediction_status": "frozen",
+    "last_review_date": null,
+    "last_result": null,
+    "cohort_id": "cohort_007"
+   },
+   "cohort_id": "cohort_007",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-26",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-11-02",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-11-18",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-26"
+  },
+  {
+   "id": "NT-2026-10-19-10",
+   "frozen": {
+    "trend_id": "NT-2026-10-19-10",
+    "topic": "NOIA (sudden vision loss) × canetas — Anvisa reviewing 13 suspected notifications; recirculating in BR media → patient FAQ ('don't stop on your own; sudden vision loss = urgent')",
+    "canonical_topic_name": "Anvisa pharmacovigilance review of 13 suspected NAION/NOIA notifications in GLP-1RA users (Ozempic 5, Wegovy 3, Wegovy FlexTouch 2, Rybelsus 2, Mounjaro 1; 12 semaglutide, 1 tirzepatide) — suspicion, not confirmed causality; NOIA in semaglutide labels as very rare since Jun/2025; JAMA Ophthalmology retrospective signal vs Novo pooled RCT analysis without imbalance; first reported 28 Sep (G1), CFF 30 Sep, recirculated by SBT Podnews 18 Oct",
+    "source_market": "BR (Native pharmacovigilance) + international litigation context",
+    "origin_community": "Anvisa pharmacovigilance + G1/VEJA/CFF + SBT News + ophthalmology societies",
+    "origin_type": "Drug-safety signal → patient FAQ",
+    "source_layer": "Propagation",
+    "stage": "Brazil Growing",
+    "velocity": "X PT caneta × NOIA/perda de visão/cegueira 7d=12 (1–3/day); media recirculation 16–18 Oct",
+    "reach": "Medium — patients on pens; RDs field the question in follow-ups (qualitative)",
+    "novelty": "Medium — reviewed but not frozen at C006 (scan_br_2026-10-12)",
+    "persistence_estimate": "Medium — resurfaces with each media cycle or US litigation news",
+    "brazil_presence": "Present/Native — G1 28/09, CFF 30/09, VEJA Saúde, DOL, SBT News 18/10",
+    "brazil_momentum": "Low, recurring",
+    "primary_niches": [
+     "GLP-1 companion care",
+     "patient safety communication",
+     "clinical nutrition follow-up"
+    ],
+    "evidence_temperature": "Uncertain — observational signals and spontaneous reports; causality not established; regulator label mention as very rare",
+    "misinformation_risk": "Medium-High — 'caneta deixa cego'; 'pare a caneta já' vs 'é tudo mentira'",
+    "audience_question_signal": "Yes — Caneta pode me deixar cega? · Devo parar? · Que sintomas observar?",
+    "content_opportunity": "Medium",
+    "predicted_trajectory": "Recurring low-level FAQ: PT X caneta × NOIA stays <30/7d unless Anvisa issues a new alert/label change; no Anvisa suspension or new restriction of semaglutide/tirzepatide over NOIA by +30; ≥1 new tier-1 BR media piece on the topic by +30",
+    "prediction_confidence": "68%",
+    "prediction_timeframe": "+30",
+    "key_sources": [
+     "https://site.cff.org.br/noticia/Noticias-gerais/30/09/2026/anvisa-investiga-13-notificacoes-de-doenca-ocular-em-usuarios-de-medicamentos-glp-1",
+     "https://g1.globo.com/saude/noticia/2026/09/28/canetas-emagrecedoras-e-perda-de-visao-o-que-se-sabe-sobre-os-13-casos-de-noia-investigados-no-brasil.ghtml",
+     "https://saude.abril.com.br/medicina/canetas-emagrecedoras-podem-causar-perda-de-visao-anvisa-investiga-13-casos/",
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2025/anvisa-alerta-sobre-evento-adverso-muito-raro-associado-a-semaglutida-que-pode-levar-a-perda-da-visao",
+     "https://x.com/sbtnews/status/2111913960207155322"
+    ],
+    "key_accounts": [
+     "Anvisa",
+     "CFF",
+     "g1",
+     "SBT News"
+    ],
+    "why_flagged": "Carried from the 10-19 sweep; not a nutrition science signal but a frequent patient question in pen follow-ups — RDs need a safe script (don't stop on your own, urgent referral for sudden vision loss). A/B low.",
+    "ProfileA_relevance": 25,
+    "ProfileB_relevance": 30,
+    "merged_from": [
+     "Anvisa 13 NOIA notifications (G1 28/09)",
+     "SBT Podnews recirculation (18/10)"
+    ],
+    "scan_notes": "Never state causality. Not a nutrition intervention topic — FAQ/referral only. Pharmacovigilance panel total since 2018 (24 optic-neuropathy suspicions, all drug classes) per G1/CFF.",
+    "first_detected_date": "2026-10-12",
+    "latest_observation_date": "2026-10-19",
+    "prediction_freeze_date": "2026-10-19",
+    "next_review_date": "2026-10-26",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_007"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-10-19-10",
+    "topic": "NOIA (perda súbita de visão) × canetas — Anvisa analisa 13 notificações suspeitas; tema recircula na mídia BR → FAQ para pacientes ('não pare por conta própria; perda súbita de visão = urgência')",
+    "canonical_topic_name": "Análise de farmacovigilância da Anvisa sobre 13 notificações suspeitas de NOIA/NAION em usuários de agonistas do GLP-1 (Ozempic 5, Wegovy 3, Wegovy FlexTouch 2, Rybelsus 2, Mounjaro 1; 12 semaglutida, 1 tirzepatida) — suspeita, sem causalidade confirmada; NOIA na bula da semaglutida como reação muito rara desde jun/2025; sinal retrospectivo no JAMA Ophthalmology × análise agrupada de ECRs da Novo sem desequilíbrio; primeiro noticiado em 28/09 (G1), CFF 30/09, recirculado pelo Podnews do SBT em 18/10",
+    "source_market": "BR (farmacovigilância nativa) + contexto de processos judiciais internacionais",
+    "origin_community": "Farmacovigilância Anvisa + G1/VEJA/CFF + SBT News + sociedades de oftalmologia",
+    "origin_type": "Sinal de segurança de medicamento → FAQ para pacientes",
+    "source_layer": "Propagação",
+    "stage": "Em crescimento no Brasil",
+    "velocity": "X PT caneta × NOIA/perda de visão/cegueira 7d=12 (1–3/dia); recirculação na mídia em 16–18/10",
+    "reach": "Médio — pacientes em uso de caneta; nutricionistas recebem a pergunta nos retornos (qualitativo)",
+    "novelty": "Média — avaliado mas não congelado na C006 (scan_br_2026-10-12)",
+    "persistence_estimate": "Média — volta a cada ciclo de mídia ou notícia de processo nos EUA",
+    "brazil_presence": "Presente/Nativa — G1 28/09, CFF 30/09, VEJA Saúde, DOL, SBT News 18/10",
+    "brazil_momentum": "Baixo, recorrente",
+    "primary_niches": [
+     "cuidado complementar à GLP-1",
+     "comunicação de segurança ao paciente",
+     "acompanhamento em nutrição clínica"
+    ],
+    "evidence_temperature": "Incerta — sinais observacionais e notificações espontâneas; causalidade não estabelecida; menção em bula como muito rara pelo regulador",
+    "misinformation_risk": "Médio-alto — 'caneta deixa cego'; 'pare a caneta já' × 'é tudo mentira'",
+    "audience_question_signal": "Sim — A caneta pode me deixar cega? · Devo parar? · Que sintomas observar?",
+    "content_opportunity": "Média",
+    "predicted_trajectory": "FAQ recorrente e de baixa intensidade: o X PT caneta × NOIA fica <30/7d, a menos que a Anvisa emita novo alerta/mudança de bula; nenhuma suspensão ou nova restrição da Anvisa a semaglutida/tirzepatida por NOIA até +30; ≥1 nova matéria em veículo BR tier-1 sobre o tema até +30",
+    "prediction_confidence": "68%",
+    "prediction_timeframe": "+30",
+    "key_sources": [
+     "https://site.cff.org.br/noticia/Noticias-gerais/30/09/2026/anvisa-investiga-13-notificacoes-de-doenca-ocular-em-usuarios-de-medicamentos-glp-1",
+     "https://g1.globo.com/saude/noticia/2026/09/28/canetas-emagrecedoras-e-perda-de-visao-o-que-se-sabe-sobre-os-13-casos-de-noia-investigados-no-brasil.ghtml",
+     "https://saude.abril.com.br/medicina/canetas-emagrecedoras-podem-causar-perda-de-visao-anvisa-investiga-13-casos/",
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2025/anvisa-alerta-sobre-evento-adverso-muito-raro-associado-a-semaglutida-que-pode-levar-a-perda-da-visao",
+     "https://x.com/sbtnews/status/2111913960207155322"
+    ],
+    "key_accounts": [
+     "Anvisa",
+     "CFF",
+     "g1",
+     "SBT News"
+    ],
+    "why_flagged": "Herdado da varredura de 10-19; não é sinal de ciência da nutrição, mas é pergunta frequente nos retornos de quem usa caneta — o nutricionista precisa de um roteiro seguro (não parar por conta própria, encaminhar com urgência em caso de perda súbita de visão). A/B baixos.",
+    "ProfileA_relevance": 25,
+    "ProfileB_relevance": 30,
+    "merged_from": [
+     "13 notificações de NOIA na Anvisa (G1 28/09)",
+     "recirculação no Podnews do SBT (18/10)"
+    ],
+    "scan_notes": "Nunca afirmar causalidade. Não é tema de intervenção nutricional — apenas FAQ/encaminhamento. Total do painel de farmacovigilância desde 2018 (24 suspeitas de neuropatia óptica, todas as classes de medicamentos), segundo G1/CFF.",
+    "first_detected_date": "2026-10-12",
+    "latest_observation_date": "2026-10-19",
+    "prediction_freeze_date": "2026-10-19",
+    "next_review_date": "2026-10-26",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_007"
+   },
+   "translation": {
+    "translated_at": "2026-10-19T09:17:44-03:00",
+    "source_file": "trends/NT-2026-10-19-10.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-10-19-10",
+    "topic": "NOIA (sudden vision loss) × canetas — Anvisa reviewing 13 suspected notifications; recirculating in BR media → patient FAQ ('don't stop on your own; sudden vision loss = urgent')",
+    "stage_at_freeze": "Brazil Growing",
+    "prediction_freeze_date": "2026-10-19",
+    "review_dates": {
+     "plus_7": "2026-10-26",
+     "plus_14": "2026-11-02",
+     "plus_30": "2026-11-18"
+    },
+    "next_review_date": "2026-10-26",
+    "prediction_status": "frozen",
+    "last_review_date": null,
+    "last_result": null,
+    "cohort_id": "cohort_007"
+   },
+   "cohort_id": "cohort_007",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-10-26",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-11-02",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-11-18",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-10-26"
   }
  ],
  "general_observations": [
@@ -22665,7 +24570,7 @@
   }
  ],
  "counts": {
-  "trends": 66,
+  "trends": 76,
   "reviews": 128,
   "observations": 182
  },
