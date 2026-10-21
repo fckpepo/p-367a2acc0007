@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-19T20:57:25-03:00",
+ "generated_at": "2026-10-21T10:24:10-03:00",
  "generated_tz": "America/Sao_Paulo",
- "build_date": "2026-10-19",
+ "build_date": "2026-10-21",
  "store": {
   "path": "/workspace/nutritrend"
  },
@@ -13,13 +13,13 @@
  "overall": {
   "counts": {
    "HIT": 13,
-   "PARTIAL": 31,
-   "MISS": 1,
-   "ANALYZING": 31
+   "PARTIAL": 33,
+   "MISS": 2,
+   "ANALYZING": 28
   },
   "total": 76,
-  "hit_rate": 0.6333,
-  "strict_hit_rate": 0.2889
+  "hit_rate": 0.6146,
+  "strict_hit_rate": 0.2708
  },
  "cohorts": [
   {
@@ -118,21 +118,22 @@
     14,
     30
    ],
+   "status": "complete (final +30 scored 2026-10-21)",
    "_source_file": "reviews/schedule_cohort_003.json",
    "frozen_date": "2026-09-21",
-   "next_review_date": "2026-10-21",
+   "next_review_date": null,
    "overdue": 0,
-   "reviews_count": 20,
+   "reviews_count": 30,
    "summary": {
     "counts": {
      "HIT": 3,
-     "PARTIAL": 4,
-     "MISS": 0,
-     "ANALYZING": 3
+     "PARTIAL": 6,
+     "MISS": 1,
+     "ANALYZING": 0
     },
     "total": 10,
-    "hit_rate": 0.7143,
-    "strict_hit_rate": 0.4286
+    "hit_rate": 0.6,
+    "strict_hit_rate": 0.3
    },
    "trend_ids": [
     "NT-2026-09-21-01",
@@ -11620,6 +11621,41 @@
       "rationale": "Trajetória congelada: explicadores de nutricionistas sobre checklist da RDC 843 + aconselhamento para lotes recolhidos + escrutínio imitativo de outras RTDs vegetais. A higiene imitativa (Eleve) e a necessidade de aconselhamento persistem (agora reenquadrada pelo recurso suspensivo), mas o adensamento de checklists de nutricionistas e o escrutínio imitativo específico de RTDs vegetais seguem incompletos → PARTIAL (igual)."
      },
      "_translated_at": "2026-10-05T10:45:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-21-01_plus30_2026-10-21",
+     "trend_id": "NT-2026-09-21-01",
+     "cohort_id": "cohort_003",
+     "review_horizon": "plus_30",
+     "review_date": "2026-10-21",
+     "timezone": "America/Sao_Paulo",
+     "result": "PARTIAL",
+     "previous_result": "PARTIAL",
+     "frozen_predicted_trajectory": "RD explainers on RDC 843 notification checklist + how to counsel patients holding recalled lots; copycat scrutiny of other plant RTDs",
+     "prediction_confidence": "80%",
+     "prediction_timeframe": "1–4 weeks for dense BR professional content",
+     "prediction_freeze_date": "2026-09-21",
+     "evidence_window": "2026-10-05 → 2026-10-21",
+     "evidence_summary": "No new NotShake developments in the +30 window: RE 3.629 (16 Sep) remains published while NotCo's 18 Sep administrative appeal with suspensive effect is pending, and products were reported back on shelves (Vista-se 30 Sep). No dated RD explainers on the RDC 843 notification checklist or recalled-lot counseling, and no copycat Anvisa action against other plant-protein RTDs. Supplement enforcement continued in adjacent categories (PeptiStrong RE 3.967, 9 Oct, novel-ingredient recall), not plant RTDs.",
+     "rationale": "Frozen trajectory: RD explainers on RDC 843 notification checklist + counseling on recalled lots; copycat scrutiny of other plant RTDs (1–4 weeks). The partial substance realized by +14 (Eleve RE 3.712 copycat-class enforcement; the 'back on shelves — is it safe?' counseling question) stands, but nothing new densified in the +30 window → PARTIAL held (final; momentum cooled).",
+     "sources_checked": [
+      "https://notco.com/br/sobre/comunicado-oficial",
+      "https://vista-se.com.br/noticias/shakes-veganos-da-notco-voltam-as-prateleiras-apos-suspensao-da-anvisa",
+      "https://g1.globo.com/saude/noticia/2026/10/09/anvisa-suspende-venda-e-determina-recolhimento-de-suplemento-peptistrong.ghtml",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-12.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "final_checkpoint": true,
+     "x_counts_note": "No new X counts pulled for this review (no spend); X context taken from radar sweeps cited in sources_checked.",
+     "_source_file": "reviews/NT-2026-09-21-01_plus30_2026-10-21.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Explicadores de nutricionistas sobre o checklist de notificação da RDC 843 + como orientar pacientes com lotes recolhidos; escrutínio de outras bebidas proteicas vegetais prontas",
+      "prediction_timeframe": "1–4 semanas para conteúdo profissional BR denso",
+      "evidence_summary": "Nenhuma novidade sobre o NotShake na janela de +30: a RE 3.629 (16 set) segue publicada enquanto o recurso administrativo com efeito suspensivo da NotCo (18 set) aguarda julgamento, e os produtos foram relatados de volta às prateleiras (Vista-se 30 set). Não há explicadores datados de nutricionistas sobre o checklist de notificação da RDC 843 ou orientação sobre lotes recolhidos, nem ação da Anvisa contra outras bebidas proteicas vegetais prontas. A fiscalização de suplementos continuou em categorias vizinhas (PeptiStrong RE 3.967, 9 out, recolhimento por ingrediente novo), não em bebidas vegetais prontas.",
+      "rationale": "Trajetória congelada: explicadores de nutricionistas sobre o checklist de notificação da RDC 843 + orientação sobre lotes recolhidos; escrutínio de outras bebidas vegetais prontas (1–4 semanas). O conteúdo parcial realizado até o +14 (fiscalização do tipo Eleve RE 3.712; a pergunta de orientação 'voltou às prateleiras — é seguro?') se mantém, mas nada novo se adensou na janela de +30 → PARTIAL mantido (último checkpoint; impulso esfriou)."
+     },
+     "_translated_at": "2026-10-21T10:45:00-03:00"
     }
    ],
    "observations": [
@@ -11728,6 +11764,32 @@
       "stage_now": "Brazil Growing → cooling (appeal / shelf return)",
       "recommended_action": "Atualização de FAQ do pacote: 'O NotShake voltou?' — explicar que recurso suspensivo ≠ regularização; checagem de notificação RDC 843. Acompanhar julgamento do recurso na Anvisa antes do +30."
      }
+    },
+    {
+     "observation_date": "2026-10-21",
+     "trend_id": "NT-2026-09-21-01",
+     "cohort_id": "cohort_003",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Brazil Growing → cooling (appeal pending)",
+     "evidence_notes": "No new NotShake developments in the +30 window: RE 3.629 (16 Sep) remains published while NotCo's 18 Sep administrative appeal with suspensive effect is pending, and products were reported back on shelves (Vista-se 30 Sep). No dated RD explainers on the RDC 843 notification checklist or recalled-lot counseling, and no copycat Anvisa action against other plant-protein RTDs. Supplement enforcement…",
+     "sources_found": [
+      "https://notco.com/br/sobre/comunicado-oficial",
+      "https://vista-se.com.br/noticias/shakes-veganos-da-notco-voltam-as-prateleiras-apos-suspensao-da-anvisa",
+      "https://g1.globo.com/saude/noticia/2026/10/09/anvisa-suspende-venda-e-determina-recolhimento-de-suplemento-peptistrong.ghtml",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-12.md"
+     ],
+     "notes": "plus30 result=PARTIAL; see reviews/NT-2026-09-21-01_plus30_2026-10-21.json (final checkpoint)",
+     "recommended_action": "Prediction window closed; keep a short 'notified supplement vs food' FAQ.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "_source_file": "observations/2026-10-21.jsonl",
+     "_line": 6,
+     "_pt": {
+      "evidence_notes": "Nenhuma novidade sobre o NotShake na janela de +30: a RE 3.629 (16 set) segue publicada enquanto o recurso administrativo com efeito suspensivo da NotCo (18 set) aguarda julgamento, e os produtos foram relatados de volta às prateleiras (Vista-se 30 set). Não há explicadores datados de nutricionistas sobre o checklist de notificação da RDC 843 ou orientação sobre lotes recolhidos, nem ação da…",
+      "notes": "Resultado +30 = PARTIAL; ver reviews/NT-2026-09-21-01_plus30_2026-10-21.json (último checkpoint)",
+      "stage_now": "Brazil Growing → esfriando (recurso pendente)",
+      "recommended_action": "Janela de previsão encerrada; manter uma FAQ curta 'suplemento notificado vs alimento'."
+     }
     }
    ],
    "mentions": [
@@ -11750,15 +11812,15 @@
      "plus_14": "2026-10-05",
      "plus_30": "2026-10-21"
     },
-    "next_review_date": "2026-10-21",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-05",
+    "last_review_date": "2026-10-21",
     "last_result": "PARTIAL",
     "cohort_id": "cohort_003"
    },
    "cohort_id": "cohort_003",
    "latest_result": "PARTIAL",
-   "latest_review_date": "2026-10-05",
+   "latest_review_date": "2026-10-21",
    "status": "PARTIAL",
    "timeline": [
     {
@@ -11780,13 +11842,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-10-21",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-10-21",
+     "review_id": "NT-2026-09-21-01_plus30_2026-10-21"
     }
    ],
-   "next_checkpoint": "2026-10-21"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-09-21-02",
@@ -11989,6 +12051,41 @@
       "rationale": "Trajetória congelada: carrosséis de segurança contrastando canetas registradas vs não registradas; mais remoções de canais pela Anvisa. No +14, a própria Anvisa publicou um explicador de segurança registrado-vs-não registrado amplificado pela imprensa de consumo, e novas ações de apreensão/fiscalização contra a oferta de GLP-1 do mercado cinza ocorreram na janela → materialização substancial; upgrade PARTIAL → HIT (a fiscalização é do tipo apreensão/alerta, e não REs de remoção em plataformas — registrado, mas insuficiente para manter em PARTIAL)."
      },
      "_translated_at": "2026-10-05T10:45:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-21-02_plus30_2026-10-21",
+     "trend_id": "NT-2026-09-21-02",
+     "cohort_id": "cohort_003",
+     "review_horizon": "plus_30",
+     "review_date": "2026-10-21",
+     "timezone": "America/Sao_Paulo",
+     "result": "HIT",
+     "previous_result": "HIT",
+     "frozen_predicted_trajectory": "Safety carousels contrasting registered vs unregistered pens; more Anvisa channel takedowns",
+     "prediction_confidence": "75%",
+     "prediction_timeframe": "1–4 weeks",
+     "prediction_freeze_date": "2026-09-21",
+     "evidence_window": "2026-10-05 → 2026-10-21",
+     "evidence_summary": "In the +30 window both predicted elements kept densifying: enforcement against unregistered/Paraguayan pens escalated (Receita Federal ~350k pens seized Jan–Sep 2026 vs 33.3k in 2025; RS +2,566%, GZH 21 Oct; PF/Receita Operação Além do Horizonte; PF operation with 16 warrants) and registered-vs-unregistered safety explainers continued, now reaching the clinic level (ICTQ 20 Oct: 'a caneta paraguaia já chegou aos consultórios médicos'; Bloomberg Línea on the illegal pen market per radar).",
+     "rationale": "Frozen trajectory: safety carousels contrasting registered vs unregistered pens; more Anvisa channel takedowns (1–4 weeks). At +30 (final) enforcement (now RFB/PF-led alongside Anvisa) and registered-vs-unregistered explainers both densified further → HIT held.",
+     "sources_checked": [
+      "https://gauchazh.clicrbs.com.br/seguranca/noticia/2026/10/apreensoes-de-canetas-emagrecedoras-importadas-ilegalmente-ja-superam-em-2-566-o-total-do-ano-passado-no-rs-cmvfom8f700cf01237dnrqw4g.html",
+      "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-e-policia-federal-deflagram-a-operacao-alem-do-horizonte",
+      "https://ictq.com.br/assuntos-regulatorios/a-caneta-paraguaia-ja-chegou-aos-consultorios-medicos-e-a-conta-sobra-para-a-farmacia-magistral",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-21.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "final_checkpoint": true,
+     "x_counts_note": "No new X counts pulled for this review (no spend); X context taken from radar sweeps cited in sources_checked.",
+     "_source_file": "reviews/NT-2026-09-21-02_plus30_2026-10-21.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Carrosséis de segurança contrastando canetas registradas vs não registradas; mais derrubadas de canais pela Anvisa",
+      "prediction_timeframe": "1–4 semanas",
+      "evidence_summary": "Na janela de +30 os dois elementos previstos continuaram se adensando: a fiscalização contra canetas não registradas/paraguaias escalou (Receita Federal ~350 mil canetas apreendidas em jan–set de 2026 vs 33,3 mil em 2025; RS +2.566%, GZH 21 out; Operação Além do Horizonte da PF/Receita; operação da PF com 16 mandados) e os explicadores de segurança registradas vs não registradas continuaram, agora chegando ao nível do consultório (ICTQ 20 out: 'a caneta paraguaia já chegou aos consultórios médicos'; Bloomberg Línea sobre o mercado ilegal de canetas, segundo o radar).",
+      "rationale": "Trajetória congelada: carrosséis de segurança contrastando canetas registradas vs não registradas; mais derrubadas de canais pela Anvisa (1–4 semanas). Em +30 (último checkpoint) a fiscalização (agora liderada por RFB/PF junto com a Anvisa) e os explicadores registradas vs não registradas se adensaram ainda mais → HIT mantido."
+     },
+     "_translated_at": "2026-10-21T10:45:00-03:00"
     }
    ],
    "observations": [
@@ -12096,6 +12193,32 @@
       "stage_now": "Brazil Growing",
       "recommended_action": "Pacote: carrossel de segurança 'registrado vs irregular' (T36, tirzepatida em pó, retatrutida, CBL-514). Acompanhar REs de remoção em plataformas antes do +30."
      }
+    },
+    {
+     "observation_date": "2026-10-21",
+     "trend_id": "NT-2026-09-21-02",
+     "cohort_id": "cohort_003",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Brazil Growing (enforcement escalating)",
+     "evidence_notes": "In the +30 window both predicted elements kept densifying: enforcement against unregistered/Paraguayan pens escalated (Receita Federal ~350k pens seized Jan–Sep 2026 vs 33.3k in 2025; RS +2,566%, GZH 21 Oct; PF/Receita Operação Além do Horizonte; PF operation with 16 warrants) and registered-vs-unregistered safety explainers continued, now reaching the clinic level (ICTQ 20 Oct: 'a caneta…",
+     "sources_found": [
+      "https://gauchazh.clicrbs.com.br/seguranca/noticia/2026/10/apreensoes-de-canetas-emagrecedoras-importadas-ilegalmente-ja-superam-em-2-566-o-total-do-ano-passado-no-rs-cmvfom8f700cf01237dnrqw4g.html",
+      "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-e-policia-federal-deflagram-a-operacao-alem-do-horizonte",
+      "https://ictq.com.br/assuntos-regulatorios/a-caneta-paraguaia-ja-chegou-aos-consultorios-medicos-e-a-conta-sobra-para-a-farmacia-magistral",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-21.md"
+     ],
+     "notes": "plus30 result=HIT; see reviews/NT-2026-09-21-02_plus30_2026-10-21.json (final checkpoint)",
+     "recommended_action": "Pack: merge with NT-2026-09-21-10 patient-safety script.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "_source_file": "observations/2026-10-21.jsonl",
+     "_line": 9,
+     "_pt": {
+      "evidence_notes": "Na janela de +30 os dois elementos previstos continuaram se adensando: a fiscalização contra canetas não registradas/paraguaias escalou (Receita Federal ~350 mil canetas apreendidas em jan–set de 2026 vs 33,3 mil em 2025; RS +2.566%, GZH 21 out; Operação Além do Horizonte da PF/Receita; operação da PF com 16 mandados) e os explicadores de segurança registradas vs não registradas continuaram,…",
+      "notes": "Resultado +30 = HIT; ver reviews/NT-2026-09-21-02_plus30_2026-10-21.json (último checkpoint)",
+      "stage_now": "Brazil Growing (fiscalização em escalada)",
+      "recommended_action": "Pacote: unir ao roteiro de segurança do paciente do NT-2026-09-21-10."
+     }
     }
    ],
    "mentions": [
@@ -12118,15 +12241,15 @@
      "plus_14": "2026-10-05",
      "plus_30": "2026-10-21"
     },
-    "next_review_date": "2026-10-21",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-05",
+    "last_review_date": "2026-10-21",
     "last_result": "HIT",
     "cohort_id": "cohort_003"
    },
    "cohort_id": "cohort_003",
    "latest_result": "HIT",
-   "latest_review_date": "2026-10-05",
+   "latest_review_date": "2026-10-21",
    "status": "HIT",
    "timeline": [
     {
@@ -12148,13 +12271,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-10-21",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "HIT",
+     "review_date": "2026-10-21",
+     "review_id": "NT-2026-09-21-02_plus30_2026-10-21"
     }
    ],
-   "next_checkpoint": "2026-10-21"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-09-21-03",
@@ -12351,6 +12474,40 @@
       "rationale": "Trajetória congelada: mais explicadores de nutricionistas separando nutrição de densidade de selos de marca; selos de ONS concorrentes; conteúdo GI complementar com FiberMais. A evidência pós-congelamento é recirculação de trade mais um hub de varejo sem data; nenhum dos três elementos previstos está claramente datado na janela → INCONCLUSIVE (igual). Prazo de 1–5 semanas; o +30 será decisivo (risco de MISS se seguir ausente)."
      },
      "_translated_at": "2026-10-05T10:45:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-21-03_plus30_2026-10-21",
+     "trend_id": "NT-2026-09-21-03",
+     "cohort_id": "cohort_003",
+     "review_horizon": "plus_30",
+     "review_date": "2026-10-21",
+     "timezone": "America/Sao_Paulo",
+     "result": "PARTIAL",
+     "previous_result": "INCONCLUSIVE",
+     "frozen_predicted_trajectory": "More RD explainers separating density nutrition from brand seals; competitor ONS seals; FiberMais GI companion content",
+     "prediction_confidence": "78%",
+     "prediction_timeframe": "1–5 weeks",
+     "prediction_freeze_date": "2026-09-21",
+     "evidence_window": "2026-10-05 → 2026-10-21",
+     "evidence_summary": "In the +30 window the FiberMais / fiber-gap companion element surfaced in BR mainstream business press: Exame (18 Oct, 'a fibra é a nova proteína') on Nestlé raising Nutren Control output 30%, FiberMais, and fiber as the GLP-1 nutrition gap (radar 19 Oct; PT fibra × caneta X count 3 in 7 days). No dated RD explainers separating nutrient density from brand seals and no competitor ONS seal launch in BR were found (FrieslandCampina's GLP-1 companion concepts, 18 Oct, are an ingredient-supplier platform, not a BR seal).",
+     "rationale": "Frozen trajectory: more RD explainers separating density nutrition from brand seals; competitor ONS seals; FiberMais GI companion content (1–5 weeks). At +30 (final) one of three elements materialized (FiberMais/fiber-gap companion content via Exame); the RD-explainer and competitor-seal elements did not → PARTIAL (upgrade from INCONCLUSIVE).",
+     "sources_checked": [
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-19.md",
+      "https://foodedge.eu/frieslandcampina-glp1-protein-concepts/",
+      "https://www.milkpoint.com.br/noticias-e-mercado/giro-noticias/nestle-reforca-estrategia-em-nutricao-diante-do-avanco-dos-medicamentos-glp1-242227/"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "final_checkpoint": true,
+     "x_counts_note": "No new X counts pulled for this review (no spend); X context taken from radar sweeps cited in sources_checked.",
+     "_source_file": "reviews/NT-2026-09-21-03_plus30_2026-10-21.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Mais explicadores de nutricionistas separando densidade nutricional de selos de marca; selos de concorrentes em suplementos orais (ONS); conteúdo complementar gastrointestinal do FiberMais",
+      "prediction_timeframe": "1–5 semanas",
+      "evidence_summary": "Na janela de +30, o elemento complementar FiberMais / lacuna de fibras apareceu na imprensa de negócios BR: Exame (18 out, 'a fibra é a nova proteína') sobre a Nestlé ampliar em 30% a produção de Nutren Control, o FiberMais e a fibra como lacuna nutricional no uso de GLP-1 (radar 19 out; contagem X PT fibra × caneta = 3 em 7 dias). Não foram encontrados explicadores datados de nutricionistas separando densidade nutricional de selos de marca nem lançamento de selo concorrente em ONS no Brasil (os conceitos complementares a GLP-1 da FrieslandCampina, 18 out, são uma plataforma de fornecedor de ingredientes, não um selo BR).",
+      "rationale": "Trajetória congelada: mais explicadores de nutricionistas separando densidade nutricional de selos de marca; selos de concorrentes em ONS; conteúdo complementar gastrointestinal do FiberMais (1–5 semanas). Em +30 (último checkpoint) um dos três elementos se materializou (conteúdo complementar FiberMais/lacuna de fibras via Exame); os elementos de explicadores de nutricionistas e de selos concorrentes não → PARTIAL (melhora em relação a INCONCLUSIVE)."
+     },
+     "_translated_at": "2026-10-21T10:45:00-03:00"
     }
    ],
    "observations": [
@@ -12450,6 +12607,31 @@
       "stage_now": "Brazil Growing (trade recirculation only)",
       "recommended_action": "Aguardar. No +30, verificar selos de ONS concorrentes (Abbott/Danone/Prodiet) e explicadores de nutricionistas selo-vs-densidade; MISS se seguir ausente."
      }
+    },
+    {
+     "observation_date": "2026-10-21",
+     "trend_id": "NT-2026-09-21-03",
+     "cohort_id": "cohort_003",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Brazil Growing (fiber-gap framing in business press)",
+     "evidence_notes": "In the +30 window the FiberMais / fiber-gap companion element surfaced in BR mainstream business press: Exame (18 Oct, 'a fibra é a nova proteína') on Nestlé raising Nutren Control output 30%, FiberMais, and fiber as the GLP-1 nutrition gap (radar 19 Oct; PT fibra × caneta X count 3 in 7 days). No dated RD explainers separating nutrient density from brand seals and no competitor ONS seal launch…",
+     "sources_found": [
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-19.md",
+      "https://foodedge.eu/frieslandcampina-glp1-protein-concepts/",
+      "https://www.milkpoint.com.br/noticias-e-mercado/giro-noticias/nestle-reforca-estrategia-em-nutricao-diante-do-avanco-dos-medicamentos-glp1-242227/"
+     ],
+     "notes": "plus30 result=PARTIAL; see reviews/NT-2026-09-21-03_plus30_2026-10-21.json (final checkpoint)",
+     "recommended_action": "Pack angle: fiber 25–35 g/day on reduced intake, food-first vs PHGG/FiberMais; seal ≠ evidence.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "_source_file": "observations/2026-10-21.jsonl",
+     "_line": 3,
+     "_pt": {
+      "evidence_notes": "Na janela de +30, o elemento complementar FiberMais / lacuna de fibras apareceu na imprensa de negócios BR: Exame (18 out, 'a fibra é a nova proteína') sobre a Nestlé ampliar em 30% a produção de Nutren Control, o FiberMais e a fibra como lacuna nutricional no uso de GLP-1 (radar 19 out; contagem X PT fibra × caneta = 3 em 7 dias). Não foram encontrados explicadores datados de nutricionistas…",
+      "notes": "Resultado +30 = PARTIAL; ver reviews/NT-2026-09-21-03_plus30_2026-10-21.json (último checkpoint)",
+      "stage_now": "Brazil Growing (enquadramento de lacuna de fibras na imprensa de negócios)",
+      "recommended_action": "Ângulo para o pacote: fibras 25–35 g/dia com ingestão reduzida, comida primeiro vs PHGG/FiberMais; selo ≠ evidência."
+     }
     }
    ],
    "mentions": [
@@ -12472,16 +12654,16 @@
      "plus_14": "2026-10-05",
      "plus_30": "2026-10-21"
     },
-    "next_review_date": "2026-10-21",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-05",
-    "last_result": "INCONCLUSIVE",
+    "last_review_date": "2026-10-21",
+    "last_result": "PARTIAL",
     "cohort_id": "cohort_003"
    },
    "cohort_id": "cohort_003",
-   "latest_result": "INCONCLUSIVE",
-   "latest_review_date": "2026-10-05",
-   "status": "ANALYZING",
+   "latest_result": "PARTIAL",
+   "latest_review_date": "2026-10-21",
+   "status": "PARTIAL",
    "timeline": [
     {
      "horizon": "plus_7",
@@ -12502,13 +12684,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-10-21",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-10-21",
+     "review_id": "NT-2026-09-21-03_plus30_2026-10-21"
     }
    ],
-   "next_checkpoint": "2026-10-21"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-09-21-04",
@@ -12717,6 +12899,41 @@
       "rationale": "Trajetória congelada: mais threads de nuance; clínicas adotam triagem (preensão/marcha) + protocolos de proteína/RT; citações do LEAN-PREP aumentam. Threads de nuance e mensagens de proteína/RT seguem se adensando (agora com voz de nutricionista na imprensa BR de consumo), mas adoção de triagem em clínicas e citações do LEAN-PREP seguem sem evidência → PARTIAL (igual ao +7). Prazo de 2–6 semanas ainda em curso."
      },
      "_translated_at": "2026-10-05T10:45:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-21-04_plus30_2026-10-21",
+     "trend_id": "NT-2026-09-21-04",
+     "cohort_id": "cohort_003",
+     "review_horizon": "plus_30",
+     "review_date": "2026-10-21",
+     "timezone": "America/Sao_Paulo",
+     "result": "PARTIAL",
+     "previous_result": "PARTIAL",
+     "frozen_predicted_trajectory": "More nuance threads; clinics adopt screening (grip/gait) + protein/RT protocols; LEAN-PREP citations rise",
+     "prediction_confidence": "72%",
+     "prediction_timeframe": "2–6 weeks for BR localization of nuance content",
+     "prediction_freeze_date": "2026-09-21",
+     "evidence_window": "2026-10-05 → 2026-10-21",
+     "evidence_summary": "In the +30 window the nuance layer localized further in BR: Metabolyka (7 Oct) 'Perder peso com canetas emagrecedoras não é o mesmo que perder músculo' (fat-free mass ≠ skeletal muscle; protein, progressive RT, functional monitoring). EN calibrators densified (Am J Med 'Sarcopenia in the era of GLP-1 RAs': lean-mass loss is not clinically defined sarcopenia, diagnosis rests on strength/performance; trevogrumab COURAGE phase 2 at EASD: 6.6% vs 3.4% lean-mass loss at 26 wk, radar 15 Oct; '\"lean mass\" ≠ contractile muscle' threads, radar 14 Oct). No dated evidence of BR clinics adopting grip/gait screening protocols and no rise in LEAN-PREP citations found.",
+     "rationale": "Frozen trajectory: more nuance threads; clinics adopt grip/gait screening + protein/RT protocols; LEAN-PREP citations rise (2–6 weeks for BR localization). At +30 (final) the nuance content clearly localized, but clinic screening adoption and LEAN-PREP citations remain unobserved → PARTIAL held.",
+     "sources_checked": [
+      "https://metabolyka.com.br/artigo/perder-peso-com-canetas-emagrecedoras-nao-e-o-mesmo",
+      "https://www.amjmed.com/article/S0002-9343(26)00162-2/fulltext",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-14.md",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-15.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "final_checkpoint": true,
+     "x_counts_note": "No new X counts pulled for this review (no spend); X context taken from radar sweeps cited in sources_checked.",
+     "_source_file": "reviews/NT-2026-09-21-04_plus30_2026-10-21.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Mais threads com nuance; clínicas adotam triagem (preensão/marcha) + protocolos de proteína/treino resistido; citações do LEAN-PREP aumentam",
+      "prediction_timeframe": "2–6 semanas para localização BR do conteúdo com nuance",
+      "evidence_summary": "Na janela de +30 a camada de nuance avançou na localização BR: Metabolyka (7 out) 'Perder peso com canetas emagrecedoras não é o mesmo que perder músculo' (massa livre de gordura ≠ músculo esquelético; proteína, treino resistido progressivo, monitoramento funcional). Os calibradores em inglês se adensaram (Am J Med 'Sarcopenia in the era of GLP-1 RAs': perda de massa magra não é sarcopenia clinicamente definida, o diagnóstico depende de força/desempenho; trevogrumab COURAGE fase 2 no EASD: 6,6% vs 3,4% de perda de massa magra em 26 semanas, radar 15 out; threads '\"lean mass\" ≠ músculo contrátil', radar 14 out). Não foram encontradas evidências datadas de clínicas BR adotando triagem de preensão/marcha nem aumento de citações do LEAN-PREP.",
+      "rationale": "Trajetória congelada: mais threads com nuance; clínicas adotam triagem de preensão/marcha + protocolos de proteína/treino resistido; citações do LEAN-PREP aumentam (2–6 semanas para localização BR). Em +30 (último checkpoint) o conteúdo com nuance claramente se localizou, mas a adoção de triagem pelas clínicas e as citações do LEAN-PREP seguem sem observação → PARTIAL mantido."
+     },
+     "_translated_at": "2026-10-21T10:45:00-03:00"
     }
    ],
    "observations": [
@@ -12825,6 +13042,32 @@
       "stage_now": "Emerging → Growing",
       "recommended_action": "Ângulo para o pacote: 'perda de massa magra ≠ sarcopenia' com checklist de triagem começando pela preensão; seguir monitorando protocolos de clínicas BR / citações do LEAN-PREP no +30."
      }
+    },
+    {
+     "observation_date": "2026-10-21",
+     "trend_id": "NT-2026-09-21-04",
+     "cohort_id": "cohort_003",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Emerging → Growing (BR nuance content present)",
+     "evidence_notes": "In the +30 window the nuance layer localized further in BR: Metabolyka (7 Oct) 'Perder peso com canetas emagrecedoras não é o mesmo que perder músculo' (fat-free mass ≠ skeletal muscle; protein, progressive RT, functional monitoring). EN calibrators densified (Am J Med 'Sarcopenia in the era of GLP-1 RAs': lean-mass loss is not clinically defined sarcopenia, diagnosis rests on…",
+     "sources_found": [
+      "https://metabolyka.com.br/artigo/perder-peso-com-canetas-emagrecedoras-nao-e-o-mesmo",
+      "https://www.amjmed.com/article/S0002-9343(26)00162-2/fulltext",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-14.md",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-15.md"
+     ],
+     "notes": "plus30 result=PARTIAL; see reviews/NT-2026-09-21-04_plus30_2026-10-21.json (final checkpoint)",
+     "recommended_action": "Pack angle: 'massa magra ≠ músculo ≠ sarcopenia' with handgrip/function-first monitoring.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "_source_file": "observations/2026-10-21.jsonl",
+     "_line": 2,
+     "_pt": {
+      "evidence_notes": "Na janela de +30 a camada de nuance avançou na localização BR: Metabolyka (7 out) 'Perder peso com canetas emagrecedoras não é o mesmo que perder músculo' (massa livre de gordura ≠ músculo esquelético; proteína, treino resistido progressivo, monitoramento funcional). Os calibradores em inglês se adensaram (Am J Med 'Sarcopenia in the era of GLP-1 RAs': perda de massa magra não é sarcopenia…",
+      "notes": "Resultado +30 = PARTIAL; ver reviews/NT-2026-09-21-04_plus30_2026-10-21.json (último checkpoint)",
+      "stage_now": "Emerging → Growing (conteúdo BR com nuance presente)",
+      "recommended_action": "Ângulo para o pacote: 'massa magra ≠ músculo ≠ sarcopenia', com monitoramento funcional começando pela preensão palmar."
+     }
     }
    ],
    "mentions": [
@@ -12854,15 +13097,15 @@
      "plus_14": "2026-10-05",
      "plus_30": "2026-10-21"
     },
-    "next_review_date": "2026-10-21",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-05",
+    "last_review_date": "2026-10-21",
     "last_result": "PARTIAL",
     "cohort_id": "cohort_003"
    },
    "cohort_id": "cohort_003",
    "latest_result": "PARTIAL",
-   "latest_review_date": "2026-10-05",
+   "latest_review_date": "2026-10-21",
    "status": "PARTIAL",
    "timeline": [
     {
@@ -12884,13 +13127,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-10-21",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-10-21",
+     "review_id": "NT-2026-09-21-04_plus30_2026-10-21"
     }
    ],
-   "next_checkpoint": "2026-10-21"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-09-21-05",
@@ -13094,6 +13337,42 @@
       "rationale": "Trajetória congelada: mais explicadores sobre creatina na meia-idade; debates de dose; desmistificação do 'sem treino'; eventual adoção por criadores BR. No +14, explicadores + enquadramento de desmistificação do 'sem treino' + contexto de dose se materializaram em mídia brasileira de primeira linha (G1, Folha) — materialização substancial de 3 dos 4 elementos, sendo o 4º (adoção 'eventual' por criadores) explicitamente de horizonte mais longo. Upgrade PARTIAL → HIT com critério conservador."
      },
      "_translated_at": "2026-10-05T10:45:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-21-05_plus30_2026-10-21",
+     "trend_id": "NT-2026-09-21-05",
+     "cohort_id": "cohort_003",
+     "review_horizon": "plus_30",
+     "review_date": "2026-10-21",
+     "timezone": "America/Sao_Paulo",
+     "result": "HIT",
+     "previous_result": "HIT",
+     "frozen_predicted_trajectory": "More midlife creatine explainers; dose debates; myth-bust 'sem treino'; eventual BR creator pickup",
+     "prediction_confidence": "68%",
+     "prediction_timeframe": "2–6 weeks",
+     "prediction_freeze_date": "2026-09-21",
+     "evidence_window": "2026-10-05 → 2026-10-21",
+     "evidence_summary": "The JISSN/Texas A&M midlife creatine RCT (45–65 y, 10 g/d, 12 wk ± structured exercise) kept recirculating in BR press in the +30 window (O Povo 6 Oct 'creatina sem exercícios'; G1/Folha 3 Oct remain the anchor) and the creatine conversation in PT social stayed high with creator-led threads and myth-correction (radar 16 Oct: PT creatina 402 → 241 posts, tail of creator threads; hair-loss/DHT and brain/gut myths). Trade press framed dose and claim limits (Nutritional Outlook 1 Oct: 10 g study dose; one trial does not settle claims). Dose debate, 'sem treino' myth-bust and BR creator pickup all present.",
+     "rationale": "Frozen trajectory: more midlife creatine explainers, dose debates, 'sem treino' myth-bust, eventual BR creator pickup (2–6 weeks). At +30 (final) all elements stand, including creator pickup in PT social → HIT held.",
+     "sources_checked": [
+      "https://g1.globo.com/saude/noticia/2026/10/03/creatina-ajuda-a-ganhar-musculos-mesmo-sem-exercicios-o-que-diz-a-ciencia.ghtml",
+      "https://www.nutritionaloutlook.com/view/creatine-muscle-strength-benefits-may-extend-middle-aged-older-adults",
+      "https://pubmed.ncbi.nlm.nih.gov/42578920/",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-06.md",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-16.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "final_checkpoint": true,
+     "x_counts_note": "No new X counts pulled for this review (no spend); X context taken from radar sweeps cited in sources_checked.",
+     "_source_file": "reviews/NT-2026-09-21-05_plus30_2026-10-21.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Mais explicadores de creatina na meia-idade; debates de dose; desmistificação do 'sem treino'; eventual adoção por criadores BR",
+      "prediction_timeframe": "2–6 semanas",
+      "evidence_summary": "O ECR de creatina na meia-idade do JISSN/Texas A&M (45–65 anos, 10 g/d, 12 semanas ± exercício estruturado) continuou recirculando na imprensa BR na janela de +30 (O Povo 6 out 'creatina sem exercícios'; G1/Folha 3 out seguem como âncora) e a conversa sobre creatina no social em PT se manteve alta, com threads de criadores e correção de mitos (radar 16 out: creatina PT 402 → 241 posts, cauda de threads de criadores; mitos de queda de cabelo/DHT e cérebro/intestino). A imprensa de mercado enquadrou os limites de dose e de alegação (Nutritional Outlook 1 out: 10 g é a dose do estudo; um único ensaio não sustenta alegações). Debate de dose, desmistificação do 'sem treino' e adoção por criadores BR estão todos presentes.",
+      "rationale": "Trajetória congelada: mais explicadores de creatina na meia-idade, debates de dose, desmistificação do 'sem treino', eventual adoção por criadores BR (2–6 semanas). Em +30 (último checkpoint) todos os elementos se mantêm, incluindo a adoção por criadores no social em PT → HIT mantido."
+     },
+     "_translated_at": "2026-10-21T10:45:00-03:00"
     }
    ],
    "observations": [
@@ -13202,6 +13481,33 @@
       "stage_now": "Emerging → Brazil Growing (mainstream BR pickup)",
       "recommended_action": "Usar o enquadramento 'sem treino' de G1/Folha no FAQ do próximo pacote de segunda (a creatina potencializa o treino resistido, não o substitui; a dose de 10 g do estudo ≠ faixa de rótulo da IN 470, 3–5 g). Rechecar adoção por criadores/nutricionistas BR no +30 (2026-10-21)."
      }
+    },
+    {
+     "observation_date": "2026-10-21",
+     "trend_id": "NT-2026-09-21-05",
+     "cohort_id": "cohort_003",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Brazil Growing (creator/myth-correction layer active)",
+     "evidence_notes": "The JISSN/Texas A&M midlife creatine RCT (45–65 y, 10 g/d, 12 wk ± structured exercise) kept recirculating in BR press in the +30 window (O Povo 6 Oct 'creatina sem exercícios'; G1/Folha 3 Oct remain the anchor) and the creatine conversation in PT social stayed high with creator-led threads and myth-correction (radar 16 Oct: PT creatina 402 → 241 posts, tail of creator threads; hair-loss/DHT and…",
+     "sources_found": [
+      "https://g1.globo.com/saude/noticia/2026/10/03/creatina-ajuda-a-ganhar-musculos-mesmo-sem-exercicios-o-que-diz-a-ciencia.ghtml",
+      "https://www.nutritionaloutlook.com/view/creatine-muscle-strength-benefits-may-extend-middle-aged-older-adults",
+      "https://pubmed.ncbi.nlm.nih.gov/42578920/",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-06.md",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-16.md"
+     ],
+     "notes": "plus30 result=HIT; see reviews/NT-2026-09-21-05_plus30_2026-10-21.json (final checkpoint)",
+     "recommended_action": "Keep in pack as creatine myth-correction FAQ (dose 3–5 g vs 10 g study dose; does not replace training).",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "_source_file": "observations/2026-10-21.jsonl",
+     "_line": 1,
+     "_pt": {
+      "evidence_notes": "O ECR de creatina na meia-idade do JISSN/Texas A&M (45–65 anos, 10 g/d, 12 semanas ± exercício estruturado) continuou recirculando na imprensa BR na janela de +30 (O Povo 6 out 'creatina sem exercícios'; G1/Folha 3 out seguem como âncora) e a conversa sobre creatina no social em PT se manteve alta, com threads de criadores e correção de mitos (radar 16 out: creatina PT 402 → 241 posts, cauda de…",
+      "notes": "Resultado +30 = HIT; ver reviews/NT-2026-09-21-05_plus30_2026-10-21.json (último checkpoint)",
+      "stage_now": "Brazil Growing (camada de criadores/correção de mitos ativa)",
+      "recommended_action": "Manter no pacote como FAQ de correção de mitos da creatina (dose 3–5 g vs 10 g do estudo; não substitui o treino)."
+     }
     }
    ],
    "mentions": [
@@ -13224,15 +13530,15 @@
      "plus_14": "2026-10-05",
      "plus_30": "2026-10-21"
     },
-    "next_review_date": "2026-10-21",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-05",
+    "last_review_date": "2026-10-21",
     "last_result": "HIT",
     "cohort_id": "cohort_003"
    },
    "cohort_id": "cohort_003",
    "latest_result": "HIT",
-   "latest_review_date": "2026-10-05",
+   "latest_review_date": "2026-10-21",
    "status": "HIT",
    "timeline": [
     {
@@ -13254,13 +13560,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-10-21",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "HIT",
+     "review_date": "2026-10-21",
+     "review_id": "NT-2026-09-21-05_plus30_2026-10-21"
     }
    ],
-   "next_checkpoint": "2026-10-21"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-09-21-06",
@@ -13443,6 +13749,40 @@
       "rationale": "Trajetória congelada: mais SKUs compactos complementares; educadores comparam g de proteína por porção vs shakes/ONS. Sem evidência nova na janela para nenhum dos elementos; sucos de colágeno adjacentes são outra classe (acompanhada em NT-28-09) → INCONCLUSIVE (igual). Prazo de 3–8 semanas — ainda cedo."
      },
      "_translated_at": "2026-10-05T10:45:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-21-06_plus30_2026-10-21",
+     "trend_id": "NT-2026-09-21-06",
+     "cohort_id": "cohort_003",
+     "review_horizon": "plus_30",
+     "review_date": "2026-10-21",
+     "timezone": "America/Sao_Paulo",
+     "result": "PARTIAL",
+     "previous_result": "INCONCLUSIVE",
+     "frozen_predicted_trajectory": "More compact companion SKUs; educators compare g protein per serve vs shakes/ONS",
+     "prediction_confidence": "60%",
+     "prediction_timeframe": "3–8 weeks",
+     "prediction_freeze_date": "2026-09-21",
+     "evidence_window": "2026-10-05 → 2026-10-21",
+     "evidence_summary": "In the +30 window the compact protein-shot format for GLP-1 users gained a new industry signal: FrieslandCampina Ingredients set out a NutriSmooth Caramel Protein Shot concept (stated 20 g protein in 100 ml) as part of a GLP-1 companion nutrition platform for SupplySide Global (FoodEdge, 18 Oct). It is a supplier concept, not a retail SKU, and not in Brazil. Pure Genius Protein + Fiber remains the only retail class prop (pre-freeze). No BR compact companion SKU launch and no educator comparisons of g protein per serve vs shakes/ONS dated in window.",
+     "rationale": "Frozen trajectory: more compact companion SKUs; educators compare g protein per serve vs shakes/ONS (3–8 weeks). At +30 the direction is supported by a major ingredient supplier's GLP-1 shot concept, but no new retail SKU and no educator comparisons → PARTIAL (upgrade from INCONCLUSIVE; weak, concept-level).",
+     "sources_checked": [
+      "https://foodedge.eu/frieslandcampina-glp1-protein-concepts/",
+      "https://www.prnewswire.com/news-releases/pure-genius-protein-launches-protein--fiber-shots-to-fill-nutrition-gap-302865684.html",
+      "https://bhbfood.com/bebidas/shot-de-proteina-e-fibra-reune-20g-em-porcao-de-100-ml/"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "final_checkpoint": true,
+     "x_counts_note": "No new X counts pulled for this review (no spend); X context taken from radar sweeps cited in sources_checked.",
+     "_source_file": "reviews/NT-2026-09-21-06_plus30_2026-10-21.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Mais SKUs complementares compactos; educadores comparam g de proteína por porção vs shakes/ONS",
+      "prediction_timeframe": "3–8 semanas",
+      "evidence_summary": "Na janela de +30 o formato compacto de shot proteico para usuários de GLP-1 ganhou um novo sinal da indústria: a FrieslandCampina Ingredients apresentou o conceito NutriSmooth Caramel Protein Shot (20 g de proteína declarados em 100 ml) como parte de uma plataforma de nutrição complementar a GLP-1 para a SupplySide Global (FoodEdge, 18 out). É um conceito de fornecedor, não um SKU de varejo, e não está no Brasil. Pure Genius Protein + Fiber segue como o único exemplo de varejo da categoria (anterior ao congelamento). Nenhum lançamento de SKU complementar compacto no Brasil e nenhuma comparação de educadores de g de proteína por porção vs shakes/ONS datados na janela.",
+      "rationale": "Trajetória congelada: mais SKUs complementares compactos; educadores comparam g de proteína por porção vs shakes/ONS (3–8 semanas). Em +30 a direção é sustentada pelo conceito de shot para GLP-1 de um grande fornecedor de ingredientes, mas sem novo SKU de varejo e sem comparações de educadores → PARTIAL (melhora em relação a INCONCLUSIVE; fraco, em nível de conceito)."
+     },
+     "_translated_at": "2026-10-21T10:45:00-03:00"
     }
    ],
    "observations": [
@@ -13540,6 +13880,31 @@
       "stage_now": "Emerging",
       "recommended_action": "Aguardar; no +30 buscar lançamentos de shots EUA/BR e comparações de nutricionistas de 'g de proteína por porção'."
      }
+    },
+    {
+     "observation_date": "2026-10-21",
+     "trend_id": "NT-2026-09-21-06",
+     "cohort_id": "cohort_003",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Emerging (supplier concept stage)",
+     "evidence_notes": "In the +30 window the compact protein-shot format for GLP-1 users gained a new industry signal: FrieslandCampina Ingredients set out a NutriSmooth Caramel Protein Shot concept (stated 20 g protein in 100 ml) as part of a GLP-1 companion nutrition platform for SupplySide Global (FoodEdge, 18 Oct). It is a supplier concept, not a retail SKU, and not in Brazil. Pure Genius Protein + Fiber remains…",
+     "sources_found": [
+      "https://foodedge.eu/frieslandcampina-glp1-protein-concepts/",
+      "https://www.prnewswire.com/news-releases/pure-genius-protein-launches-protein--fiber-shots-to-fill-nutrition-gap-302865684.html",
+      "https://bhbfood.com/bebidas/shot-de-proteina-e-fibra-reune-20g-em-porcao-de-100-ml/"
+     ],
+     "notes": "plus30 result=PARTIAL; see reviews/NT-2026-09-21-06_plus30_2026-10-21.json (final checkpoint)",
+     "recommended_action": "Optional pack note: compare g protein per 100 ml shot vs shakes/ONS for low-appetite patients.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "_source_file": "observations/2026-10-21.jsonl",
+     "_line": 5,
+     "_pt": {
+      "evidence_notes": "Na janela de +30 o formato compacto de shot proteico para usuários de GLP-1 ganhou um novo sinal da indústria: a FrieslandCampina Ingredients apresentou o conceito NutriSmooth Caramel Protein Shot (20 g de proteína declarados em 100 ml) como parte de uma plataforma de nutrição complementar a GLP-1 para a SupplySide Global (FoodEdge, 18 out). É um conceito de fornecedor, não um SKU de varejo, e…",
+      "notes": "Resultado +30 = PARTIAL; ver reviews/NT-2026-09-21-06_plus30_2026-10-21.json (último checkpoint)",
+      "stage_now": "Emerging (estágio de conceito de fornecedor)",
+      "recommended_action": "Nota opcional no pacote: comparar g de proteína por shot de 100 ml vs shakes/ONS para pacientes com pouco apetite."
+     }
     }
    ],
    "mentions": [
@@ -13562,16 +13927,16 @@
      "plus_14": "2026-10-05",
      "plus_30": "2026-10-21"
     },
-    "next_review_date": "2026-10-21",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-05",
-    "last_result": "INCONCLUSIVE",
+    "last_review_date": "2026-10-21",
+    "last_result": "PARTIAL",
     "cohort_id": "cohort_003"
    },
    "cohort_id": "cohort_003",
-   "latest_result": "INCONCLUSIVE",
-   "latest_review_date": "2026-10-05",
-   "status": "ANALYZING",
+   "latest_result": "PARTIAL",
+   "latest_review_date": "2026-10-21",
+   "status": "PARTIAL",
    "timeline": [
     {
      "horizon": "plus_7",
@@ -13592,13 +13957,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-10-21",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-10-21",
+     "review_id": "NT-2026-09-21-06_plus30_2026-10-21"
     }
    ],
-   "next_checkpoint": "2026-10-21"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-09-21-07",
@@ -13787,6 +14152,40 @@
       "rationale": "Trajetória congelada: onda curta de conteúdo de desmistificação; reação residual de influenciadores de bem-estar (1–3 semanas). Duas semanas depois, sem evidência na janela de onda ou reação além da recirculação de arquivo → INCONCLUSIVE (igual). O prazo de 1–3 semanas se esgota antes do +30; se seguir ausente, MISS é provável."
      },
      "_translated_at": "2026-10-05T10:45:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-21-07_plus30_2026-10-21",
+     "trend_id": "NT-2026-09-21-07",
+     "cohort_id": "cohort_003",
+     "review_horizon": "plus_30",
+     "review_date": "2026-10-21",
+     "timezone": "America/Sao_Paulo",
+     "result": "MISS",
+     "previous_result": "INCONCLUSIVE",
+     "frozen_predicted_trajectory": "Short burst of myth-bust content; residual wellness influencer pushback",
+     "prediction_confidence": "70%",
+     "prediction_timeframe": "1–3 weeks",
+     "prediction_freeze_date": "2026-09-21",
+     "evidence_window": "2026-10-05 → 2026-10-21",
+     "evidence_summary": "No myth-bust burst and no wellness-influencer pushback around the Aloe Care oral gel recall / Moringa da Paz enforcement in the +30 window. Coverage is archive recirculation of the 16 Sep acts (e.g., Seu Crédito Digital 2 Oct, pre-window) and evergreen 'moringa é proibida' explainers grounded in RE 1.478/2019. No new DOU aloe/moringa action found in radars 10-06 → 10-21.",
+     "rationale": "Frozen trajectory: short burst of myth-bust content; residual wellness influencer pushback (1–3 weeks). The 1–3 week timeframe has long elapsed and the predicted burst never appeared beyond archive recirculation → MISS (downgrade from INCONCLUSIVE).",
+     "sources_checked": [
+      "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-produtos-com-moringa-oleifera",
+      "https://seucreditodigital.com.br/anvisa-proibe-produtos-moringa-oleifera/",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-21.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "final_checkpoint": true,
+     "x_counts_note": "No new X counts pulled for this review (no spend); X context taken from radar sweeps cited in sources_checked.",
+     "_source_file": "reviews/NT-2026-09-21-07_plus30_2026-10-21.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Curto pico de conteúdo de desmistificação; resistência residual de influenciadores de bem-estar",
+      "prediction_timeframe": "1–3 semanas",
+      "evidence_summary": "Nenhum pico de desmistificação e nenhuma resistência de influenciadores de bem-estar em torno do recolhimento do gel oral Aloe Care / fiscalização da Moringa da Paz na janela de +30. A cobertura é recirculação de arquivo dos atos de 16 set (ex.: Seu Crédito Digital 2 out, anterior à janela) e explicadores perenes 'moringa é proibida' baseados na RE 1.478/2019. Nenhuma nova ação no DOU sobre aloe/moringa nos radares de 10-06 → 10-21.",
+      "rationale": "Trajetória congelada: curto pico de conteúdo de desmistificação; resistência residual de influenciadores de bem-estar (1–3 semanas). O prazo de 1–3 semanas já passou há muito e o pico previsto nunca apareceu além de recirculação de arquivo → MISS (piora em relação a INCONCLUSIVE)."
+     },
+     "_translated_at": "2026-10-21T10:45:00-03:00"
     }
    ],
    "observations": [
@@ -13885,6 +14284,31 @@
       "stage_now": "Brazil Emerging (cooled)",
       "recommended_action": "Sem ação no pacote. No +30, pontuar contra o prazo esgotado de 1–3 semanas (MISS se nenhuma evidência de onda surgir retroativamente)."
      }
+    },
+    {
+     "observation_date": "2026-10-21",
+     "trend_id": "NT-2026-09-21-07",
+     "cohort_id": "cohort_003",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Faded",
+     "evidence_notes": "No myth-bust burst and no wellness-influencer pushback around the Aloe Care oral gel recall / Moringa da Paz enforcement in the +30 window. Coverage is archive recirculation of the 16 Sep acts (e.g., Seu Crédito Digital 2 Oct, pre-window) and evergreen 'moringa é proibida' explainers grounded in RE 1.478/2019. No new DOU aloe/moringa action found in radars 10-06 →…",
+     "sources_found": [
+      "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-produtos-com-moringa-oleifera",
+      "https://seucreditodigital.com.br/anvisa-proibe-produtos-moringa-oleifera/",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-21.md"
+     ],
+     "notes": "plus30 result=MISS; see reviews/NT-2026-09-21-07_plus30_2026-10-21.json (final checkpoint)",
+     "recommended_action": "Prediction window closed; keep moringa ban as evergreen FAQ only.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "_source_file": "observations/2026-10-21.jsonl",
+     "_line": 10,
+     "_pt": {
+      "evidence_notes": "Nenhum pico de desmistificação e nenhuma resistência de influenciadores de bem-estar em torno do recolhimento do gel oral Aloe Care / fiscalização da Moringa da Paz na janela de +30. A cobertura é recirculação de arquivo dos atos de 16 set (ex.: Seu Crédito Digital 2 out, anterior à janela) e explicadores perenes 'moringa é proibida' baseados na RE 1.478/2019. Nenhuma nova ação no DOU sobre…",
+      "notes": "Resultado +30 = MISS; ver reviews/NT-2026-09-21-07_plus30_2026-10-21.json (último checkpoint)",
+      "stage_now": "Esmaecida",
+      "recommended_action": "Janela de previsão encerrada; manter a proibição da moringa apenas como FAQ perene."
+     }
     }
    ],
    "mentions": [],
@@ -13899,16 +14323,16 @@
      "plus_14": "2026-10-05",
      "plus_30": "2026-10-21"
     },
-    "next_review_date": "2026-10-21",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-05",
-    "last_result": "INCONCLUSIVE",
+    "last_review_date": "2026-10-21",
+    "last_result": "MISS",
     "cohort_id": "cohort_003"
    },
    "cohort_id": "cohort_003",
-   "latest_result": "INCONCLUSIVE",
-   "latest_review_date": "2026-10-05",
-   "status": "ANALYZING",
+   "latest_result": "MISS",
+   "latest_review_date": "2026-10-21",
+   "status": "MISS",
    "timeline": [
     {
      "horizon": "plus_7",
@@ -13929,13 +14353,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-10-21",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "MISS",
+     "review_date": "2026-10-21",
+     "review_id": "NT-2026-09-21-07_plus30_2026-10-21"
     }
    ],
-   "next_checkpoint": "2026-10-21"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-09-21-08",
@@ -14133,6 +14557,42 @@
       "rationale": "Trajetória congelada: mais checklists de nutricionistas (metas de proteína, encaminhamento para RT, toolkit GI, canetas registradas vs ilegais). Metades do checklist se adensam isoladamente (registrado-vs-ilegal via alerta da Anvisa sobre tirzepatida; proteína/RT via imprensa de consumo), mas nenhum novo playbook consolidado de nutricionistas BR está datado na janela → PARTIAL (igual)."
      },
      "_translated_at": "2026-10-05T10:45:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-21-08_plus30_2026-10-21",
+     "trend_id": "NT-2026-09-21-08",
+     "cohort_id": "cohort_003",
+     "review_horizon": "plus_30",
+     "review_date": "2026-10-21",
+     "timezone": "America/Sao_Paulo",
+     "result": "PARTIAL",
+     "previous_result": "PARTIAL",
+     "frozen_predicted_trajectory": "More RD checklists (protein targets, RT referral, GI toolkit, registered vs illegal pens)",
+     "prediction_confidence": "70%",
+     "prediction_timeframe": "1–4 weeks",
+     "prediction_freeze_date": "2026-09-21",
+     "evidence_window": "2026-10-05 → 2026-10-21",
+     "evidence_summary": "In the +30 window checklist components kept densifying, but mostly outside a dedicated BR RD playbook: Polish Society of Dietetics scientific statement on nutrition during incretin therapy (1 Oct; structured baseline assessment, protein, RT, targeted supplementation, RD in multidisciplinary care); Lancet OG&WH women-on-GLP-1 review used for an RD micronutrient/protein checklist (radar 13 Oct); registered-vs-illegal pen hygiene strengthened by RFB/PF enforcement and ICTQ (20 Oct) on Paraguayan tirzepatide reaching clinics. BR RD guide pages found are pre-window (e.g., Clínica VILE semaglutide-generic checklist dated 8 Apr). No new dated Dietbox-class BR professional playbook in 2026-10-05 → 10-21.",
+     "rationale": "Frozen trajectory: more RD checklists (protein targets, RT referral, GI toolkit, registered vs illegal pens) (1–4 weeks). At +30 (final) components densified via international statements and enforcement news, but no new dedicated BR RD checklist was dated in window → PARTIAL held.",
+     "sources_checked": [
+      "https://doi.org/10.17219/acem/235937",
+      "https://ictq.com.br/assuntos-regulatorios/a-caneta-paraguaia-ja-chegou-aos-consultorios-medicos-e-a-conta-sobra-para-a-farmacia-magistral",
+      "https://www.clinicavile.com/especialidades/glp-1/semaglutida-generica-2026-alimentacao-nutricionista-o-que-muda",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-13.md",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-21.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "final_checkpoint": true,
+     "x_counts_note": "No new X counts pulled for this review (no spend); X context taken from radar sweeps cited in sources_checked.",
+     "_source_file": "reviews/NT-2026-09-21-08_plus30_2026-10-21.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Mais checklists para nutricionistas (metas de proteína, encaminhamento para treino resistido, kit gastrointestinal, canetas registradas vs ilegais)",
+      "prediction_timeframe": "1–4 semanas",
+      "evidence_summary": "Na janela de +30 os componentes do checklist continuaram se adensando, mas majoritariamente fora de um playbook BR dedicado a nutricionistas: posicionamento científico da Polish Society of Dietetics sobre nutrição na terapia com incretinas (1 out; avaliação basal estruturada, proteína, treino resistido, suplementação direcionada, nutricionista no cuidado multiprofissional); revisão da Lancet OG&WH sobre mulheres em GLP-1 usada para um checklist de micronutrientes/proteína (radar 13 out); higiene sobre canetas registradas vs ilegais reforçada pelas ações da RFB/PF e pelo ICTQ (20 out) sobre tirzepatida paraguaia chegando aos consultórios. As páginas-guia BR encontradas são anteriores à janela (ex.: checklist da Clínica VILE sobre semaglutida genérica, datado de 8 abr). Nenhum novo playbook profissional BR estilo Dietbox datado em 2026-10-05 → 10-21.",
+      "rationale": "Trajetória congelada: mais checklists para nutricionistas (metas de proteína, encaminhamento para treino resistido, kit gastrointestinal, canetas registradas vs ilegais) (1–4 semanas). Em +30 (último checkpoint) os componentes se adensaram via posicionamentos internacionais e notícias de fiscalização, mas nenhum novo checklist BR dedicado foi datado na janela → PARTIAL mantido."
+     },
+     "_translated_at": "2026-10-21T10:45:00-03:00"
     }
    ],
    "observations": [
@@ -14241,6 +14701,33 @@
       "stage_now": "Brazil Growing",
       "recommended_action": "Pacote: checklist de uma página para nutricionistas (proteína, encaminhamento RT, toolkit GI, registrado vs ilegal incl. tirzepatida em pó). Rechecar novos playbooks de plataformas BR no +30."
      }
+    },
+    {
+     "observation_date": "2026-10-21",
+     "trend_id": "NT-2026-09-21-08",
+     "cohort_id": "cohort_003",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Brazil Growing (components dense; dedicated BR playbook absent)",
+     "evidence_notes": "In the +30 window checklist components kept densifying, but mostly outside a dedicated BR RD playbook: Polish Society of Dietetics scientific statement on nutrition during incretin therapy (1 Oct; structured baseline assessment, protein, RT, targeted supplementation, RD in multidisciplinary care); Lancet OG&WH women-on-GLP-1 review used for an RD micronutrient/protein checklist (radar 13 Oct);…",
+     "sources_found": [
+      "https://doi.org/10.17219/acem/235937",
+      "https://ictq.com.br/assuntos-regulatorios/a-caneta-paraguaia-ja-chegou-aos-consultorios-medicos-e-a-conta-sobra-para-a-farmacia-magistral",
+      "https://www.clinicavile.com/especialidades/glp-1/semaglutida-generica-2026-alimentacao-nutricionista-o-que-muda",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-13.md",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-21.md"
+     ],
+     "notes": "plus30 result=PARTIAL; see reviews/NT-2026-09-21-08_plus30_2026-10-21.json (final checkpoint)",
+     "recommended_action": "Pack: our own RD checklist fills the gap (protein, RT, GI, micronutrients, registered pens).",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "_source_file": "observations/2026-10-21.jsonl",
+     "_line": 4,
+     "_pt": {
+      "evidence_notes": "Na janela de +30 os componentes do checklist continuaram se adensando, mas majoritariamente fora de um playbook BR dedicado a nutricionistas: posicionamento científico da Polish Society of Dietetics sobre nutrição na terapia com incretinas (1 out; avaliação basal estruturada, proteína, treino resistido, suplementação direcionada, nutricionista no cuidado multiprofissional); revisão da Lancet…",
+      "notes": "Resultado +30 = PARTIAL; ver reviews/NT-2026-09-21-08_plus30_2026-10-21.json (último checkpoint)",
+      "stage_now": "Brazil Growing (componentes densos; playbook BR dedicado ausente)",
+      "recommended_action": "Pacote: nosso próprio checklist para nutricionistas preenche a lacuna (proteína, treino resistido, GI, micronutrientes, canetas registradas)."
+     }
     }
    ],
    "mentions": [
@@ -14263,15 +14750,15 @@
      "plus_14": "2026-10-05",
      "plus_30": "2026-10-21"
     },
-    "next_review_date": "2026-10-21",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-05",
+    "last_review_date": "2026-10-21",
     "last_result": "PARTIAL",
     "cohort_id": "cohort_003"
    },
    "cohort_id": "cohort_003",
    "latest_result": "PARTIAL",
-   "latest_review_date": "2026-10-05",
+   "latest_review_date": "2026-10-21",
    "status": "PARTIAL",
    "timeline": [
     {
@@ -14293,13 +14780,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-10-21",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-10-21",
+     "review_id": "NT-2026-09-21-08_plus30_2026-10-21"
     }
    ],
-   "next_checkpoint": "2026-10-21"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-09-21-09",
@@ -14493,6 +14980,41 @@
       "rationale": "Trajetória congelada: checklists e carrosséis; marcas correm para notificar; mais REs possíveis. Um elemento (mais REs) se materializou na janela; checklist/carrossel e corrida das marcas seguem sem evidência e o ímpeto esfriou → PARTIAL (igual). Prazo de 2–6 semanas ainda em curso; risco de downgrade no +30."
      },
      "_translated_at": "2026-10-05T10:45:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-21-09_plus30_2026-10-21",
+     "trend_id": "NT-2026-09-21-09",
+     "cohort_id": "cohort_003",
+     "review_horizon": "plus_30",
+     "review_date": "2026-10-21",
+     "timezone": "America/Sao_Paulo",
+     "result": "PARTIAL",
+     "previous_result": "PARTIAL",
+     "frozen_predicted_trajectory": "Checklists and carousels; brands rush notifications; more REs possible",
+     "prediction_confidence": "65%",
+     "prediction_timeframe": "2–6 weeks",
+     "prediction_freeze_date": "2026-09-21",
+     "evidence_window": "2026-10-05 → 2026-10-21",
+     "evidence_summary": "In the +30 window the 'more REs' element continued in supplements generally (PeptiStrong RE 3.967 on 9 Oct; earlier Oct supplement REs 3.874/3.886 as background), but no new plant-protein RTD RE, no brand notification rush and no dated RD checklists or carousels specific to plant-protein RTDs. NotShake appeal pending with products back on shelves keeps category-specific scrutiny cool.",
+     "rationale": "Frozen trajectory: checklists and carousels; brands rush notifications; more REs possible (2–6 weeks). At +30 (final) 'more REs' materialized in adjacent supplement categories, but the plant-RTD-specific checklist and notification-rush elements did not → PARTIAL held.",
+     "sources_checked": [
+      "https://g1.globo.com/saude/noticia/2026/10/09/anvisa-suspende-venda-e-determina-recolhimento-de-suplemento-peptistrong.ghtml",
+      "https://vista-se.com.br/noticias/shakes-veganos-da-notco-voltam-as-prateleiras-apos-suspensao-da-anvisa",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-09.md",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-13.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "final_checkpoint": true,
+     "x_counts_note": "No new X counts pulled for this review (no spend); X context taken from radar sweeps cited in sources_checked.",
+     "_source_file": "reviews/NT-2026-09-21-09_plus30_2026-10-21.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Checklists e carrosséis; marcas correm para notificar; mais REs possíveis",
+      "prediction_timeframe": "2–6 semanas",
+      "evidence_summary": "Na janela de +30 o elemento 'mais REs' continuou nos suplementos em geral (PeptiStrong RE 3.967 em 9 out; REs de suplementos do início de outubro 3.874/3.886 como contexto), mas sem nova RE sobre bebidas proteicas vegetais prontas, sem corrida de marcas para notificar e sem checklists ou carrosséis datados de nutricionistas específicos para essas bebidas. O recurso pendente do NotShake, com produtos de volta às prateleiras, mantém frio o escrutínio da categoria.",
+      "rationale": "Trajetória congelada: checklists e carrosséis; marcas correm para notificar; mais REs possíveis (2–6 semanas). Em +30 (último checkpoint) 'mais REs' se materializou em categorias vizinhas de suplementos, mas os elementos de checklist específico para bebidas vegetais prontas e de corrida por notificação não → PARTIAL mantido."
+     },
+     "_translated_at": "2026-10-21T10:45:00-03:00"
     }
    ],
    "observations": [
@@ -14599,6 +15121,32 @@
       "stage_now": "Emerging (momentum cooling)",
       "recommended_action": "Aguardar; acompanhar REs motivadas por compliance IN 438/RDC 843 no fim de outubro; downgrade para MISS no +30 se não houver evidência de checklist/corrida das marcas."
      }
+    },
+    {
+     "observation_date": "2026-10-21",
+     "trend_id": "NT-2026-09-21-09",
+     "cohort_id": "cohort_003",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Emerging (category-specific scrutiny cool)",
+     "evidence_notes": "In the +30 window the 'more REs' element continued in supplements generally (PeptiStrong RE 3.967 on 9 Oct; earlier Oct supplement REs 3.874/3.886 as background), but no new plant-protein RTD RE, no brand notification rush and no dated RD checklists or carousels specific to plant-protein RTDs. NotShake appeal pending with products back on shelves keeps category-specific scrutiny…",
+     "sources_found": [
+      "https://g1.globo.com/saude/noticia/2026/10/09/anvisa-suspende-venda-e-determina-recolhimento-de-suplemento-peptistrong.ghtml",
+      "https://vista-se.com.br/noticias/shakes-veganos-da-notco-voltam-as-prateleiras-apos-suspensao-da-anvisa",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-09.md",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-13.md"
+     ],
+     "notes": "plus30 result=PARTIAL; see reviews/NT-2026-09-21-09_plus30_2026-10-21.json (final checkpoint)",
+     "recommended_action": "Fold into the general 'ingrediente autorizado? produto notificado?' checklist.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "_source_file": "observations/2026-10-21.jsonl",
+     "_line": 7,
+     "_pt": {
+      "evidence_notes": "Na janela de +30 o elemento 'mais REs' continuou nos suplementos em geral (PeptiStrong RE 3.967 em 9 out; REs de suplementos do início de outubro 3.874/3.886 como contexto), mas sem nova RE sobre bebidas proteicas vegetais prontas, sem corrida de marcas para notificar e sem checklists ou carrosséis datados de nutricionistas específicos para essas bebidas. O recurso pendente do NotShake, com…",
+      "notes": "Resultado +30 = PARTIAL; ver reviews/NT-2026-09-21-09_plus30_2026-10-21.json (último checkpoint)",
+      "stage_now": "Emerging (escrutínio específico da categoria frio)",
+      "recommended_action": "Incorporar ao checklist geral 'ingrediente autorizado? produto notificado?'."
+     }
     }
    ],
    "mentions": [],
@@ -14613,15 +15161,15 @@
      "plus_14": "2026-10-05",
      "plus_30": "2026-10-21"
     },
-    "next_review_date": "2026-10-21",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-05",
+    "last_review_date": "2026-10-21",
     "last_result": "PARTIAL",
     "cohort_id": "cohort_003"
    },
    "cohort_id": "cohort_003",
    "latest_result": "PARTIAL",
-   "latest_review_date": "2026-10-05",
+   "latest_review_date": "2026-10-21",
    "status": "PARTIAL",
    "timeline": [
     {
@@ -14643,13 +15191,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-10-21",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-10-21",
+     "review_id": "NT-2026-09-21-09_plus30_2026-10-21"
     }
    ],
-   "next_checkpoint": "2026-10-21"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-09-21-10",
@@ -14854,6 +15402,42 @@
       "rationale": "Trajetória congelada: scripts de clínica, dicotomias em Reels, conteúdo de parceria com farmácias. A dicotomia segue como enquadramento dominante no Brasil e ganhou novas âncoras oficiais + explicadores ao consumidor, além de conteúdo do canal farmácia na janela → HIT mantido."
      },
      "_translated_at": "2026-10-05T10:45:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-09-21-10_plus30_2026-10-21",
+     "trend_id": "NT-2026-09-21-10",
+     "cohort_id": "cohort_003",
+     "review_horizon": "plus_30",
+     "review_date": "2026-10-21",
+     "timezone": "America/Sao_Paulo",
+     "result": "HIT",
+     "previous_result": "HIT",
+     "frozen_predicted_trajectory": "Clinic scripts, Reels dichotomies, pharmacy partnership content",
+     "prediction_confidence": "75%",
+     "prediction_timeframe": "1–4 weeks",
+     "prediction_freeze_date": "2026-09-21",
+     "evidence_window": "2026-10-05 → 2026-10-21",
+     "evidence_summary": "In the +30 window the registered-vs-gray-market dichotomy intensified as the national frame: Receita Federal pen seizures went from 33.3k units in 2025 to ~350k in Jan–Sep 2026 (R$ 117.1 M; RS 124 → 3,306, +2,566%; GZH 21 Oct); PF/Receita operations against pen trade (Operação Além do Horizonte; PF operation with 16 warrants); ICTQ (20 Oct) on Paraguayan tirzepatide reaching medical offices and the burden on compounding pharmacies. Clinic/pharmacy-facing scripts on registered pens vs 'caneta paraguaia' are the default angle.",
+     "rationale": "Frozen trajectory: clinic scripts, Reels dichotomies, pharmacy partnership content (1–4 weeks). At +30 (final) the dichotomy is the dominant national frame with fresh enforcement data and clinic-facing coverage → HIT held (third consecutive).",
+     "sources_checked": [
+      "https://gauchazh.clicrbs.com.br/seguranca/noticia/2026/10/apreensoes-de-canetas-emagrecedoras-importadas-ilegalmente-ja-superam-em-2-566-o-total-do-ano-passado-no-rs-cmvfom8f700cf01237dnrqw4g.html",
+      "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-e-receita-federal-combatem-comercio-de-canetas-emagrecedoras",
+      "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-e-policia-federal-deflagram-a-operacao-alem-do-horizonte",
+      "https://ictq.com.br/assuntos-regulatorios/a-caneta-paraguaia-ja-chegou-aos-consultorios-medicos-e-a-conta-sobra-para-a-farmacia-magistral",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-21.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "final_checkpoint": true,
+     "x_counts_note": "No new X counts pulled for this review (no spend); X context taken from radar sweeps cited in sources_checked.",
+     "_source_file": "reviews/NT-2026-09-21-10_plus30_2026-10-21.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Roteiros de clínica, dicotomias em Reels, conteúdo de parcerias com farmácias",
+      "prediction_timeframe": "1–4 semanas",
+      "evidence_summary": "Na janela de +30 a dicotomia registrado vs mercado cinza se intensificou como enquadramento nacional: as apreensões de canetas pela Receita Federal passaram de 33,3 mil unidades em 2025 para ~350 mil em jan–set de 2026 (R$ 117,1 mi; RS 124 → 3.306, +2.566%; GZH 21 out); operações da PF/Receita contra o comércio de canetas (Operação Além do Horizonte; operação da PF com 16 mandados); ICTQ (20 out) sobre tirzepatida paraguaia chegando aos consultórios médicos e o ônus para as farmácias de manipulação. Roteiros para clínicas/farmácias sobre canetas registradas vs 'caneta paraguaia' são o ângulo padrão.",
+      "rationale": "Trajetória congelada: roteiros de clínica, dicotomias em Reels, conteúdo de parcerias com farmácias (1–4 semanas). Em +30 (último checkpoint) a dicotomia é o enquadramento nacional dominante, com novos dados de fiscalização e cobertura voltada a clínicas → HIT mantido (terceiro consecutivo)."
+     },
+     "_translated_at": "2026-10-21T10:45:00-03:00"
     }
    ],
    "observations": [
@@ -14985,6 +15569,33 @@
       "stage_now": "Brazil Growing",
       "recommended_action": "Manter como pilar perene do pacote; acrescentar alerta sobre tirzepatida em pó ao script de clínica."
      }
+    },
+    {
+     "observation_date": "2026-10-21",
+     "trend_id": "NT-2026-09-21-10",
+     "cohort_id": "cohort_003",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Brazil Growing (dominant national frame)",
+     "evidence_notes": "In the +30 window the registered-vs-gray-market dichotomy intensified as the national frame: Receita Federal pen seizures went from 33.3k units in 2025 to ~350k in Jan–Sep 2026 (R$ 117.1 M; RS 124 → 3,306, +2,566%; GZH 21 Oct); PF/Receita operations against pen trade (Operação Além do Horizonte; PF operation with 16 warrants); ICTQ (20 Oct) on Paraguayan tirzepatide reaching medical offices and…",
+     "sources_found": [
+      "https://gauchazh.clicrbs.com.br/seguranca/noticia/2026/10/apreensoes-de-canetas-emagrecedoras-importadas-ilegalmente-ja-superam-em-2-566-o-total-do-ano-passado-no-rs-cmvfom8f700cf01237dnrqw4g.html",
+      "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/pf-e-receita-federal-combatem-comercio-de-canetas-emagrecedoras",
+      "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/outubro/receita-federal-e-policia-federal-deflagram-a-operacao-alem-do-horizonte",
+      "https://ictq.com.br/assuntos-regulatorios/a-caneta-paraguaia-ja-chegou-aos-consultorios-medicos-e-a-conta-sobra-para-a-farmacia-magistral",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-10-21.md"
+     ],
+     "notes": "plus30 result=HIT; see reviews/NT-2026-09-21-10_plus30_2026-10-21.json (final checkpoint)",
+     "recommended_action": "Pack: patient-safety script on 'caneta paraguaia' (unknown content, broken cold chain) without shaming; refer to prescriber.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "_source_file": "observations/2026-10-21.jsonl",
+     "_line": 8,
+     "_pt": {
+      "evidence_notes": "Na janela de +30 a dicotomia registrado vs mercado cinza se intensificou como enquadramento nacional: as apreensões de canetas pela Receita Federal passaram de 33,3 mil unidades em 2025 para ~350 mil em jan–set de 2026 (R$ 117,1 mi; RS 124 → 3.306, +2.566%; GZH 21 out); operações da PF/Receita contra o comércio de canetas (Operação Além do Horizonte; operação da PF com 16 mandados); ICTQ (20 out)…",
+      "notes": "Resultado +30 = HIT; ver reviews/NT-2026-09-21-10_plus30_2026-10-21.json (último checkpoint)",
+      "stage_now": "Brazil Growing (enquadramento nacional dominante)",
+      "recommended_action": "Pacote: roteiro de segurança do paciente sobre 'caneta paraguaia' (conteúdo desconhecido, cadeia fria rompida) sem julgamento; encaminhar ao prescritor."
+     }
     }
    ],
    "mentions": [
@@ -14994,6 +15605,13 @@
      "from_trend_id": "NT-2026-09-14-01",
      "_source_file": "observations/2026-09-25.jsonl",
      "_line": 1
+    },
+    {
+     "observation_date": "2026-10-21",
+     "observation_type": "plus30_review_probe",
+     "from_trend_id": "NT-2026-09-21-02",
+     "_source_file": "observations/2026-10-21.jsonl",
+     "_line": 9
     }
    ],
    "embedded_observation_log": [],
@@ -15007,15 +15625,15 @@
      "plus_14": "2026-10-05",
      "plus_30": "2026-10-21"
     },
-    "next_review_date": "2026-10-21",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-05",
+    "last_review_date": "2026-10-21",
     "last_result": "HIT",
     "cohort_id": "cohort_003"
    },
    "cohort_id": "cohort_003",
    "latest_result": "HIT",
-   "latest_review_date": "2026-10-05",
+   "latest_review_date": "2026-10-21",
    "status": "HIT",
    "timeline": [
     {
@@ -15037,13 +15655,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-10-21",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "HIT",
+     "review_date": "2026-10-21",
+     "review_id": "NT-2026-09-21-10_plus30_2026-10-21"
     }
    ],
-   "next_checkpoint": "2026-10-21"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-09-28-01",
@@ -25825,8 +26443,8 @@
  ],
  "counts": {
   "trends": 76,
-  "reviews": 148,
-  "observations": 202
+  "reviews": 158,
+  "observations": 212
  },
  "warnings": [],
  "translations": {
