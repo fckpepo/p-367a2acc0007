@@ -35,9 +35,10 @@ Os originais continuam congelados — nunca edite `trends/` ou `reviews/` para t
 
 ## Métricas
 - Vereditos exibidos: HIT = **Acerto**, PARTIAL = **Parcial**, MISS = **Erro**, INCONCLUSIVE/sem revisão = **Analisando**.
-- **Taxa de acerto** = (Acertos + 0,5 × Parciais) ÷ (Acertos + Parciais + Erros)
-- **Estrita** = Acertos ÷ (Acertos + Parciais + Erros)
-- **Analisando** = último veredito INCONCLUSIVE ou ainda sem review (fora do denominador).
+- **Taxa de acerto** = Acertos ÷ (Acertos + Erros), sempre com o denominador, ex.: “75,0% (3/4)”; “—” quando não há Acertos nem Erros.
+- **Parcial** e **Analisando** (último veredito INCONCLUSIVE ou ainda sem review) continuam registrados, mas ficam fora da conta.
+- O cabeçalho mostra a taxa geral (veredito mais recente de cada tendência) e a das coortes finalizadas (+30).
+- Regra em vigor desde 25/10/2026; antes, Parcial valia 0,5 e havia uma taxa “estrita” separada.
 - Checkpoint sem review com data vencida aparece como “Atrasado”.
 
 ## Rodar localmente

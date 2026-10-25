@@ -73,6 +73,10 @@
     var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso);
     return m ? m[3] + "/" + m[2] + "/" + m[1] : esc(iso);
   }
+  function rateTxt(s) {
+    if (!s || s.hit_rate === null || s.hit_rate === undefined || !s.hit_rate_denominator) return DASH;
+    return pct(s.hit_rate) + " (" + s.hit_rate_hits + "/" + s.hit_rate_denominator + ")";
+  }
   function pct(x) { return x === null || x === undefined ? DASH : (x * 100).toFixed(1).replace(".", ",") + "%"; }
   function cohortLabel(cid) {
     var m = /cohort_0*(\d+)/.exec(cid || "");
@@ -119,13 +123,14 @@
   // ---------- header / cohorts ----------
   function renderHeader() {
     var o = DATA.overall;
-    $("kpi-rate").textContent = pct(o.hit_rate);
-    $("kpi-strict").textContent = "estrita " + pct(o.strict_hit_rate);
+    $("kpi-rate").textContent = rateTxt(o);
+    var of = DATA.overall_final;
+    $("kpi-final").textContent = of ? "coortes finalizadas (+30): " + rateTxt(of) : "";
     $("kpi-hit").textContent = o.counts.HIT;
     $("kpi-partial").textContent = o.counts.PARTIAL;
     $("kpi-miss").textContent = o.counts.MISS;
     $("kpi-analyzing").textContent = o.counts.ANALYZING;
-    var formulaTitle = "Taxa de acerto = (Acertos + 0,5×Parciais) ÷ (Acertos + Parciais + Erros)\nEstrita = Acertos ÷ (Acertos + Parciais + Erros)\nVeredito mais recente de cada tendência. “Analisando” fica fora do denominador.";
+    var formulaTitle = "Taxa de acerto = Acertos ÷ (Acertos + Erros)\nVeredito mais recente de cada tendência. Parciais e “Analisando” continuam registrados, mas ficam fora da conta.\nEntre parênteses: acertos/(acertos + erros).";
     document.querySelector(".kpi-main").title = formulaTitle;
     var d = new Date(DATA.generated_at);
     var s = isNaN(d) ? DATA.generated_at : d.toLocaleString("pt-BR", { timeZone: "America/Sao_Paulo", dateStyle: "long", timeStyle: "short" });
@@ -148,7 +153,7 @@
       return '<article class="card cohort" tabindex="0" data-cohort="' + esc(c.cohort_id) + '" title="Filtrar por esta coorte">' +
         '<h3>' + esc(cohortLabel(c.cohort_id)) + '</h3>' +
         '<div class="muted small">Congelada em ' + fmtDate(c.frozen_date) + " · " + s.total + " previsões · " + c.reviews_count + " revisões</div>" +
-        '<div class="rate">' + pct(s.hit_rate) + ' <small>acerto · estrita ' + pct(s.strict_hit_rate) + "</small></div>" +
+        '<div class="rate" title="Taxa de acerto (Acertos ÷ Acertos+Erros)">' + rateTxt(s) + ' <small>taxa de acerto · ' + (c.final ? "final (+30)" : (c.latest_checkpoint ? "em andamento (" + (HORIZON_LABEL[c.latest_checkpoint] || c.latest_checkpoint) + ")" : "sem revisão ainda")) + " · Acertos ÷ (Acertos + Erros)</small></div>" +
         bar(n, s.total || 1) +
         '<div class="counts"><span><i class="dot hit"></i> Acerto ' + n.HIT + '</span><span><i class="dot partial"></i> Parcial ' + n.PARTIAL +
         '</span><span><i class="dot miss"></i> Erro ' + n.MISS + '</span><span><i class="dot analyzing"></i> Analisando ' + n.ANALYZING + "</span></div>" +

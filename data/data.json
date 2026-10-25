@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-10-25T09:58:11-03:00",
+ "generated_at": "2026-10-25T13:23:56-03:00",
  "generated_tz": "America/Sao_Paulo",
  "build_date": "2026-10-25",
  "store": {
   "path": "/workspace/nutritrend"
  },
  "definitions": {
-  "hit_rate": "(HIT + 0.5×PARTIAL) / (HIT + PARTIAL + MISS), usando o veredito mais recente de cada trend",
-  "strict_hit_rate": "HIT / (HIT + PARTIAL + MISS)",
+  "hit_rate": "Acertos ÷ (Acertos + Erros), usando o veredito mais recente de cada tendência; Parciais e Analisando ficam fora da conta (desde 25/10/2026)",
+  "hit_rate_final": "Mesma conta, só com as coortes que já fecharam o checkpoint +30",
   "analyzing": "Último veredito INCONCLUSIVE ou ainda sem review"
  },
  "overall": {
@@ -18,8 +18,26 @@
    "ANALYZING": 23
   },
   "total": 76,
-  "hit_rate": 0.6226,
-  "strict_hit_rate": 0.283
+  "hit_rate": 0.8824,
+  "hit_rate_hits": 15,
+  "hit_rate_denominator": 17
+ },
+ "overall_final": {
+  "counts": {
+   "HIT": 11,
+   "PARTIAL": 18,
+   "MISS": 1,
+   "ANALYZING": 6
+  },
+  "total": 36,
+  "hit_rate": 0.9167,
+  "hit_rate_hits": 11,
+  "hit_rate_denominator": 12,
+  "cohorts": [
+   "cohort_001",
+   "cohort_002",
+   "cohort_003"
+  ]
  },
  "cohorts": [
   {
@@ -46,9 +64,11 @@
      "ANALYZING": 4
     },
     "total": 14,
-    "hit_rate": 0.7,
-    "strict_hit_rate": 0.4
+    "hit_rate": 1.0,
+    "hit_rate_hits": 4,
+    "hit_rate_denominator": 4
    },
+   "latest_checkpoint": "plus_30",
    "trend_ids": [
     "NT-2026-09-09-01",
     "NT-2026-09-09-02",
@@ -64,7 +84,8 @@
     "NT-2026-09-09-12",
     "NT-2026-09-09-13",
     "NT-2026-09-09-14"
-   ]
+   ],
+   "final": true
   },
   {
    "cohort_id": "cohort_002",
@@ -90,9 +111,11 @@
      "ANALYZING": 2
     },
     "total": 12,
-    "hit_rate": 0.7,
-    "strict_hit_rate": 0.4
+    "hit_rate": 1.0,
+    "hit_rate_hits": 4,
+    "hit_rate_denominator": 4
    },
+   "latest_checkpoint": "plus_30",
    "trend_ids": [
     "NT-2026-09-14-01",
     "NT-2026-09-14-02",
@@ -106,7 +129,8 @@
     "NT-2026-09-14-10",
     "NT-2026-09-14-11",
     "NT-2026-09-14-12"
-   ]
+   ],
+   "final": true
   },
   {
    "cohort_id": "cohort_003",
@@ -132,9 +156,11 @@
      "ANALYZING": 0
     },
     "total": 10,
-    "hit_rate": 0.6,
-    "strict_hit_rate": 0.3
+    "hit_rate": 0.75,
+    "hit_rate_hits": 3,
+    "hit_rate_denominator": 4
    },
+   "latest_checkpoint": "plus_30",
    "trend_ids": [
     "NT-2026-09-21-01",
     "NT-2026-09-21-02",
@@ -146,7 +172,8 @@
     "NT-2026-09-21-08",
     "NT-2026-09-21-09",
     "NT-2026-09-21-10"
-   ]
+   ],
+   "final": true
   },
   {
    "cohort_id": "cohort_004",
@@ -172,8 +199,10 @@
     },
     "total": 10,
     "hit_rate": 0.5,
-    "strict_hit_rate": 0.125
+    "hit_rate_hits": 1,
+    "hit_rate_denominator": 2
    },
+   "latest_checkpoint": "plus_14",
    "trend_ids": [
     "NT-2026-09-28-01",
     "NT-2026-09-28-02",
@@ -185,7 +214,8 @@
     "NT-2026-09-28-08",
     "NT-2026-09-28-09",
     "NT-2026-09-28-10"
-   ]
+   ],
+   "final": false
   },
   {
    "cohort_id": "cohort_005",
@@ -210,9 +240,11 @@
      "ANALYZING": 6
     },
     "total": 10,
-    "hit_rate": 0.5,
-    "strict_hit_rate": 0.0
+    "hit_rate": null,
+    "hit_rate_hits": 0,
+    "hit_rate_denominator": 0
    },
+   "latest_checkpoint": "plus_14",
    "trend_ids": [
     "NT-2026-10-05-01",
     "NT-2026-10-05-02",
@@ -224,7 +256,8 @@
     "NT-2026-10-05-08",
     "NT-2026-10-05-09",
     "NT-2026-10-05-10"
-   ]
+   ],
+   "final": false
   },
   {
    "cohort_id": "cohort_006",
@@ -249,9 +282,11 @@
      "ANALYZING": 4
     },
     "total": 10,
-    "hit_rate": 0.5833,
-    "strict_hit_rate": 0.1667
+    "hit_rate": 1.0,
+    "hit_rate_hits": 1,
+    "hit_rate_denominator": 1
    },
+   "latest_checkpoint": "plus_14",
    "trend_ids": [
     "NT-2026-10-12-01",
     "NT-2026-10-12-02",
@@ -263,7 +298,8 @@
     "NT-2026-10-12-08",
     "NT-2026-10-12-09",
     "NT-2026-10-12-10"
-   ]
+   ],
+   "final": false
   },
   {
    "cohort_id": "cohort_007",
@@ -288,9 +324,11 @@
      "ANALYZING": 5
     },
     "total": 10,
-    "hit_rate": 0.7,
-    "strict_hit_rate": 0.4
+    "hit_rate": 1.0,
+    "hit_rate_hits": 2,
+    "hit_rate_denominator": 2
    },
+   "latest_checkpoint": "plus_7",
    "trend_ids": [
     "NT-2026-10-19-01",
     "NT-2026-10-19-02",
@@ -302,7 +340,8 @@
     "NT-2026-10-19-08",
     "NT-2026-10-19-09",
     "NT-2026-10-19-10"
-   ]
+   ],
+   "final": false
   }
  ],
  "trends": [

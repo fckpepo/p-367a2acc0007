@@ -43,7 +43,7 @@ h1{margin:0;font-size:24px;letter-spacing:-.01em}
 .cohort:hover,.cohort.active{border-color:var(--accent)}
 .cohort h3{margin:0 0 2px;font-size:16px}
 .cohort .rate{font-size:28px;font-weight:700;color:var(--accent)}
-.cohort .rate small{font-size:13px;color:var(--muted);font-weight:500}
+.cohort .rate small{display:block;margin-top:2px;font-size:13px;color:var(--muted);font-weight:500}
 .bar{display:flex;height:8px;border-radius:99px;overflow:hidden;background:var(--grey-bg);margin:10px 0}
 .bar span{display:block}.bar .hit{background:var(--hit)}.bar .partial{background:var(--partial)}.bar .miss{background:var(--miss)}.bar .analyzing{background:var(--grey);opacity:.45}
 .counts{display:flex;gap:10px;flex-wrap:wrap;font-size:13px}

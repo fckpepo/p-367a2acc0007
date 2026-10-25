@@ -83,18 +83,17 @@ def merge_pt(original, tr):
     return out
 
 
-def rate(h, p, m):
-    denom = h + p + m
-    if not denom:
-        return {"hit_rate": None, "strict_hit_rate": None}
-    return {"hit_rate": round((h + 0.5 * p) / denom, 4), "strict_hit_rate": round(h / denom, 4)}
+def rate(h, m):
+    """Hit rate = HIT / (HIT + MISS). PARTIAL and ANALYZING are recorded but excluded (metric change 2026-10-25)."""
+    denom = h + m
+    return {"hit_rate": round(h / denom, 4) if denom else None, "hit_rate_hits": h, "hit_rate_denominator": denom}
 
 
 def summarize(trends):
     c = {"HIT": 0, "PARTIAL": 0, "MISS": 0, "ANALYZING": 0}
     for t in trends:
         c[t["status"] if t["status"] in SCORED else "ANALYZING"] += 1
-    return {"counts": c, "total": len(trends), **rate(c["HIT"], c["PARTIAL"], c["MISS"])}
+    return {"counts": c, "total": len(trends), **rate(c["HIT"], c["MISS"])}
 
 
 def main():
@@ -245,7 +244,15 @@ def main():
         meta["overdue"] = sum(1 for t in members for c in t["timeline"] if c["state"] == "overdue")
         meta["reviews_count"] = sum(len(t["reviews"]) for t in members)
         meta["summary"] = summarize(members)
+        scored_h = {c["horizon"] for t in members for c in t["timeline"] if c["state"] == "scored" and c["horizon"] in HORIZONS}
+        meta["latest_checkpoint"] = max(scored_h, key=HORIZONS.index) if scored_h else None
         meta["trend_ids"] = [t["id"] for t in members]
+
+    def closed(t):
+        return any(c["horizon"] == "plus_30" and c["state"] == "scored" for c in t["timeline"])
+    final_ids = [k for k in sorted(cohorts) if cohorts[k]["trend_ids"] and all(closed(trends[i]) for i in cohorts[k]["trend_ids"])]
+    for k in cohorts:
+        cohorts[k]["final"] = k in final_ids
 
     data = {
         "generated_at": now.isoformat(timespec="seconds"),
@@ -253,11 +260,12 @@ def main():
         "build_date": today,
         "store": {"path": store},
         "definitions": {
-            "hit_rate": "(HIT + 0.5×PARTIAL) / (HIT + PARTIAL + MISS), usando o veredito mais recente de cada trend",
-            "strict_hit_rate": "HIT / (HIT + PARTIAL + MISS)",
+            "hit_rate": "Acertos ÷ (Acertos + Erros), usando o veredito mais recente de cada tendência; Parciais e Analisando ficam fora da conta (desde 25/10/2026)",
+            "hit_rate_final": "Mesma conta, só com as coortes que já fecharam o checkpoint +30",
             "analyzing": "Último veredito INCONCLUSIVE ou ainda sem review",
         },
         "overall": summarize(trend_list),
+        "overall_final": {**summarize([t for t in trend_list if t["cohort_id"] in final_ids]), "cohorts": final_ids},
         "cohorts": [cohorts[k] for k in sorted(cohorts)],
         "trends": trend_list,
         "general_observations": general_obs,
@@ -275,12 +283,14 @@ def main():
     os.replace(tmp, args.out)
 
     o = data["overall"]
-    fmt = lambda x: "—" if x is None else f"{x*100:.1f}%"
+    fmt = lambda s: "—" if s["hit_rate"] is None else f"{s['hit_rate']*100:.1f}% ({s['hit_rate_hits']}/{s['hit_rate_denominator']})"
     print(f"OK {args.out}  ({data['counts']})")
-    print(f"Geral: hit rate {fmt(o['hit_rate'])} · estrito {fmt(o['strict_hit_rate'])} · {o['counts']}")
+    print(f"Geral: taxa de acerto {fmt(o)} · {o['counts']}")
+    of = data["overall_final"]
+    print(f"Coortes finalizadas (+30) {of['cohorts']}: taxa de acerto {fmt(of)} · {of['counts']}")
     for c in data["cohorts"]:
         s = c["summary"]
-        print(f"  {c['cohort_id']} congelada {c['frozen_date']}: {s['counts']} hit {fmt(s['hit_rate'])} estrito {fmt(s['strict_hit_rate'])} próxima {c['next_review_date']}")
+        print(f"  {c['cohort_id']} congelada {c['frozen_date']}: {s['counts']} taxa de acerto {fmt(s)} próxima {c['next_review_date']}")
     for w in warnings:
         print("AVISO:", w)
     miss = missing_tr["trends"] + missing_tr["reviews"]
