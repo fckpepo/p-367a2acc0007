@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-01T09:59:03-03:00",
+ "generated_at": "2026-11-02T09:03:38-03:00",
  "generated_tz": "America/Sao_Paulo",
- "build_date": "2026-11-01",
+ "build_date": "2026-11-02",
  "store": {
   "path": "/workspace/nutritrend"
  },
@@ -15,9 +15,9 @@
    "HIT": 15,
    "PARTIAL": 36,
    "MISS": 4,
-   "ANALYZING": 21
+   "ANALYZING": 29
   },
-  "total": 76,
+  "total": 84,
   "hit_rate": 0.7895,
   "hit_rate_hits": 15,
   "hit_rate_denominator": 19
@@ -341,6 +341,46 @@
     "NT-2026-10-19-08",
     "NT-2026-10-19-09",
     "NT-2026-10-19-10"
+   ],
+   "final": false
+  },
+  {
+   "cohort_id": "cohort_008",
+   "cohort_date": "2026-11-02",
+   "Radar_version": "Radar v0.1",
+   "Score_version": "NutriTrend Score v0.1",
+   "review_cadence_days": [
+    7,
+    14,
+    30
+   ],
+   "_source_file": "reviews/schedule_cohort_008.json",
+   "frozen_date": "2026-11-02",
+   "next_review_date": "2026-11-09",
+   "overdue": 0,
+   "reviews_count": 0,
+   "summary": {
+    "counts": {
+     "HIT": 0,
+     "PARTIAL": 0,
+     "MISS": 0,
+     "ANALYZING": 8
+    },
+    "total": 8,
+    "hit_rate": null,
+    "hit_rate_hits": 0,
+    "hit_rate_denominator": 0
+   },
+   "latest_checkpoint": null,
+   "trend_ids": [
+    "NT-2026-11-02-01",
+    "NT-2026-11-02-02",
+    "NT-2026-11-02-03",
+    "NT-2026-11-02-04",
+    "NT-2026-11-02-05",
+    "NT-2026-11-02-06",
+    "NT-2026-11-02-07",
+    "NT-2026-11-02-08"
    ],
    "final": false
   }
@@ -29093,6 +29133,1408 @@
     }
    ],
    "next_checkpoint": "2026-11-18"
+  },
+  {
+   "id": "NT-2026-11-02-01",
+   "frozen": {
+    "trend_id": "NT-2026-11-02-01",
+    "topic": "Anvisa vs 'lean mass for GLP-1 pen users' supplement claims — RE 4.160/2026 (Equaliv Body Strong Protein) cites 'prevenção de sarcopenia' and 'preservação da massa magra em pessoas que usam canetas emagrecedoras (GLP-1)' as unauthorised therapeutic claims",
+    "canonical_topic_name": "What a supplement may and may not promise to people on GLP-1 pens in Brazil: first Anvisa act found by the radar that explicitly names a 'GLP-1 lean-mass' claim (RE 4.160, 22 Oct, DOU 26 Oct), alongside the PeptiStrong (hydrolysed fava-bean protein) ingredient problem and missing sales denomination",
+    "source_market": "BR (Native)",
+    "origin_community": "Anvisa/DOU + BR news (Metrópoles, Jovem Pan, O Globo, regional portals) + supplement-industry marketing aimed at pen users",
+    "origin_type": "Regulatory enforcement act",
+    "source_layer": "Discovery",
+    "stage": "Brazil Emerging",
+    "velocity": "PT X pens × 'massa magra'/'perda muscular'/sarcopenia 7d=7 (1;1;1;1;2;1;0, UTC days 26/10–01/11) — social is near zero; the news cycle on RE 4.160/4.189 peaked 27/10 (picolé/Bentô cluster 11→48→5→2/day per 10-30 sweep)",
+    "reach": "Medium — national news on the recall, low social; high practice relevance for sports and clinical RDs whose patients on pens are targeted by 'GLP-1 companion' products (qualitative)",
+    "novelty": "High — claim-boundary angle is new; earlier cohorts covered GLP-1 companion products (NT-2026-09-09-01) and PeptiStrong as an ingredient (NT-2026-10-12-01), not Anvisa ruling on a pen-user lean-mass claim",
+    "persistence_estimate": "Medium-High — the 'GLP-1 companion' product category keeps growing (20 pens registered in 2026), so similar claims are likely to recur",
+    "brazil_presence": "Present/Native — Anvisa release, DOU, Metrópoles, Jovem Pan, O Globo, Costa Norte, Muita Informação (01/11)",
+    "brazil_momentum": "Steady after a one-day news spike (27/10)",
+    "primary_niches": [
+     "sports/hypertrophy",
+     "GLP-1 lean-mass",
+     "supplements & claims",
+     "compliance / professional ethics"
+    ],
+    "evidence_temperature": "Strong for the regulatory fact (DOU act); the underlying science on supplements preserving muscle on GLP-1 is limited (UCLA pilot NCT07806838 only started recruiting 2026-09-10)",
+    "misinformation_risk": "High — 'existe suplemento que segura a massa magra na caneta'; 'Anvisa proibiu whey para quem usa caneta'; 'proteína de fava é perigosa'",
+    "audience_question_signal": "Yes (inferred from pen-user lean-mass questions in prior cohorts) — Tem suplemento para não perder músculo na caneta? · Por que a Anvisa tirou esse produto? · Posso continuar com meu whey?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "By +30 (2026-12-02): (a) Anvisa publishes ≥1 further act (RE, ad suspension or alert) on a food/supplement whose irregular claims explicitly target GLP-1/caneta users or 'massa magra'/sarcopenia; and (b) ≥2 Brazilian outlets beyond the original 26–27/10 recall coverage publish explainers on what supplements may claim for pen users. PT X claim-specific talk stays small (<100 posts/7d at each checkpoint). Direction-only (one of a/b) = PARTIAL.",
+    "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+    "prediction_confidence": "58%",
+    "key_sources": [
+     "https://editaisdobrasil.com/regulatorio/ato/resolucao-re-n-4-160-de-22-de-outubro-de-2026-740358405",
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-determina-o-recolhimento-de-picole-com-ingredientes-nao-autorizados",
+     "https://costanorte.com.br/saude/anvisa-determina-recolhimento-de-suplemento-da-equaliv-e-picole-com-ingredientes-nao-autorizados.html",
+     "https://clinicaltrials.gov/study/NCT07806838"
+    ],
+    "key_accounts": [
+     "@anvisa_oficial",
+     "@Metropoles",
+     "@JovemPanNews"
+    ],
+    "why_flagged": "Strongest carry item from the 11-02 radar sweep. Directly serves both custom profiles: Profile A (lean mass on pens is the top sports-RD question) and Profile B (claims compliance). Gives nutritionists a concrete, citable line: protein and training help, but no supplement may be sold as 'preserving lean mass on GLP-1' in Brazil.",
+    "ProfileA_relevance": 88,
+    "ProfileB_relevance": 92,
+    "merged_from": [
+     "Radar sweep 11-02 carry: Equaliv RE 4.160 wording",
+     "Radar sweep 10-30: PeptiStrong reaching finished products"
+    ],
+    "scan_notes": "Do not say Anvisa banned whey or protein for pen users — the act concerns one product (unauthorised ingredient + therapeutic claims + missing sales denomination). Equaliv said its notification was cancelled on 19/10 and that it would try to restore sales. Related, not rewritten: NT-2026-10-12-01 (PeptiStrong), NT-2026-09-09-01 (GLP-1 companion products), NT-2026-10-05-07 (lean-mass toolkit).",
+    "first_detected_date": "2026-10-26",
+    "latest_observation_date": "2026-11-02",
+    "prediction_freeze_date": "2026-11-02",
+    "next_review_date": "2026-11-09",
+    "review_dates": {
+     "plus_7": "2026-11-09",
+     "plus_14": "2026-11-16",
+     "plus_30": "2026-12-02"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_008"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-11-02-01",
+    "topic": "Anvisa × alegações de suplemento “massa magra para quem usa caneta GLP-1” — a RE 4.160/2026 (Equaliv Body Strong Protein) cita “prevenção de sarcopenia” e “preservação da massa magra em pessoas que usam canetas emagrecedoras (GLP-1)” como alegações terapêuticas não autorizadas",
+    "canonical_topic_name": "O que um suplemento pode e não pode prometer a quem usa caneta GLP-1 no Brasil: primeiro ato da Anvisa encontrado pelo radar que cita explicitamente uma alegação de “massa magra na GLP-1” (RE 4.160, 22/10, DOU 26/10), junto com o problema do ingrediente PeptiStrong (proteína de fava hidrolisada) e a falta de denominação de venda",
+    "source_market": "BR (nativo)",
+    "origin_community": "Anvisa/DOU + imprensa brasileira (Metrópoles, Jovem Pan, O Globo, portais regionais) + marketing da indústria de suplementos voltado a usuários de canetas",
+    "origin_type": "Ato regulatório de fiscalização",
+    "source_layer": "Descoberta",
+    "stage": "Brazil Emerging",
+    "velocity": "X PT canetas × “massa magra”/“perda muscular”/sarcopenia 7d=7 (1;1;1;1;2;1;0, dias UTC 26/10–01/11) — conversa social quase zero; o ciclo de notícias da RE 4.160/4.189 teve pico em 27/10 (cluster picolé/Bentô 11→48→5→2/dia, segundo a varredura de 10-30)",
+    "reach": "Média — notícia nacional sobre o recolhimento, pouca repercussão social; alta relevância prática para nutricionistas esportivos e clínicos cujos pacientes em uso de caneta são alvo de produtos “companheiros da GLP-1” (qualitativo)",
+    "novelty": "Alta — o ângulo de limite de alegação é novo; coortes anteriores trataram de produtos companheiros da GLP-1 (NT-2026-09-09-01) e do PeptiStrong como ingrediente (NT-2026-10-12-01), não de a Anvisa se posicionar sobre alegação de massa magra para usuários de caneta",
+    "persistence_estimate": "Média-alta — a categoria de produtos “companheiros da GLP-1” continua crescendo (20 canetas registradas em 2026), então alegações semelhantes devem reaparecer",
+    "brazil_presence": "Presente/nativo — nota da Anvisa, DOU, Metrópoles, Jovem Pan, O Globo, Costa Norte, Muita Informação (01/11)",
+    "brazil_momentum": "Estável depois de um pico de notícias de um dia (27/10)",
+    "primary_niches": [
+     "esporte/hipertrofia",
+     "massa magra na GLP-1",
+     "suplementos e alegações",
+     "compliance / ética profissional"
+    ],
+    "evidence_temperature": "Forte para o fato regulatório (ato no DOU); a ciência sobre suplementos preservando músculo na GLP-1 é limitada (o piloto da UCLA NCT07806838 só começou a recrutar em 2026-09-10)",
+    "misinformation_risk": "Alto — “existe suplemento que segura a massa magra na caneta”; “Anvisa proibiu whey para quem usa caneta”; “proteína de fava é perigosa”",
+    "audience_question_signal": "Sim (inferido das perguntas sobre massa magra na caneta em coortes anteriores) — Tem suplemento para não perder músculo na caneta? · Por que a Anvisa tirou esse produto? · Posso continuar com meu whey?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "Até +30 (2026-12-02): (a) a Anvisa publica ≥1 novo ato (RE, suspensão de propaganda ou alerta) sobre alimento/suplemento cujas alegações irregulares mirem explicitamente usuários de GLP-1/caneta ou “massa magra”/sarcopenia; e (b) ≥2 veículos brasileiros, além da cobertura original do recolhimento em 26–27/10, publicam explicações sobre o que suplementos podem alegar para usuários de canetas. A conversa específica no X PT continua pequena (<100 posts/7d em cada checkpoint). Só a direção (uma de a/b) = PARTIAL.",
+    "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+    "prediction_confidence": "58%",
+    "key_sources": [
+     "https://editaisdobrasil.com/regulatorio/ato/resolucao-re-n-4-160-de-22-de-outubro-de-2026-740358405",
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-determina-o-recolhimento-de-picole-com-ingredientes-nao-autorizados",
+     "https://costanorte.com.br/saude/anvisa-determina-recolhimento-de-suplemento-da-equaliv-e-picole-com-ingredientes-nao-autorizados.html",
+     "https://clinicaltrials.gov/study/NCT07806838"
+    ],
+    "key_accounts": [
+     "@anvisa_oficial",
+     "@Metropoles",
+     "@JovemPanNews"
+    ],
+    "why_flagged": "Item mais forte levado da varredura de 11-02. Atende diretamente os dois perfis: Perfil A (massa magra na caneta é a principal dúvida do nutricionista esportivo) e Perfil B (conformidade de alegações). Dá ao nutricionista uma frase concreta e citável: proteína e treino ajudam, mas nenhum suplemento pode ser vendido no Brasil como “preservador de massa magra na GLP-1”.",
+    "ProfileA_relevance": 88,
+    "ProfileB_relevance": 92,
+    "merged_from": [
+     "Item da varredura de 11-02: texto da RE 4.160 (Equaliv)",
+     "Varredura de 10-30: PeptiStrong chegando a produtos acabados"
+    ],
+    "scan_notes": "Não dizer que a Anvisa proibiu whey ou proteína para usuários de caneta — o ato trata de um produto (ingrediente não autorizado + alegações terapêuticas + falta de denominação de venda). A Equaliv disse que sua notificação foi cancelada em 19/10 e que tentaria retomar as vendas. Relacionadas, não reescritas: NT-2026-10-12-01 (PeptiStrong), NT-2026-09-09-01 (produtos companheiros da GLP-1), NT-2026-10-05-07 (kit de massa magra).",
+    "first_detected_date": "2026-10-26",
+    "latest_observation_date": "2026-11-02",
+    "prediction_freeze_date": "2026-11-02",
+    "next_review_date": "2026-11-09",
+    "review_dates": {
+     "plus_7": "2026-11-09",
+     "plus_14": "2026-11-16",
+     "plus_30": "2026-12-02"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_008"
+   },
+   "translation": {
+    "translated_at": "2026-11-02T09:40:00-03:00",
+    "source_file": "trends/NT-2026-11-02-01.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-11-02-01",
+    "topic": "Anvisa vs 'lean mass for GLP-1 pen users' supplement claims — RE 4.160/2026 (Equaliv Body Strong Protein) cites 'prevenção de sarcopenia' and 'preservação da massa magra em pessoas que usam canetas emagrecedoras (GLP-1)' as unauthorised therapeutic claims",
+    "stage_at_freeze": "Brazil Emerging",
+    "prediction_freeze_date": "2026-11-02",
+    "review_dates": {
+     "plus_7": "2026-11-09",
+     "plus_14": "2026-11-16",
+     "plus_30": "2026-12-02"
+    },
+    "next_review_date": "2026-11-09",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_008"
+   },
+   "cohort_id": "cohort_008",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-11-09",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-11-16",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-12-02",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-11-09"
+  },
+  {
+   "id": "NT-2026-11-02-02",
+   "frozen": {
+    "trend_id": "NT-2026-11-02-02",
+    "topic": "'Authorised ingredient ≠ allowed in any food' — supplement-only ingredients in conventional foods (Picolé Bentô Gelatos Magnésio + Inositol Relief 3.0 with melatonin and inositol, RE 4.189/2026) → functional-food claims for sleep/PMS/PCOS",
+    "canonical_topic_name": "Functional conventional foods carrying supplement-only ingredients in Brazil: melatonin is authorised only in supplements and inositol only in supplements and ready-to-drink liquid compounds; Anvisa recalled a 'relief' popsicle (RE 4.189, 22 Oct, DOU 26 Oct) — category-boundary literacy for RDs",
+    "source_market": "BR (Native)",
+    "origin_community": "Anvisa/DOU + national news (Metrópoles 5,573 imp, Jovem Pan 4,708 imp on X) + 'functional' artisanal food brands",
+    "origin_type": "Regulatory enforcement act",
+    "source_layer": "Discovery",
+    "stage": "Brazil Emerging",
+    "velocity": "PT X picolé/Bentô × melatonina/inositol/Anvisa 11 → 48 → 5 → 2 posts/day (26–29/10, from 10-30 sweep) — one-day spike, faded",
+    "reach": "Medium — national news reach; low ongoing social",
+    "novelty": "Medium-High — first frozen trend on the supplement-vs-conventional-food boundary",
+    "persistence_estimate": "Medium — depends on further enforcement; 'functional' sweets and gummies are a growing category (qualitative)",
+    "brazil_presence": "Present/Native — Anvisa, O Globo (27/10), Metrópoles, Jovem Pan, Muita Informação (01/11)",
+    "brazil_momentum": "Faded after the 27/10 spike",
+    "primary_niches": [
+     "supplements & regulation",
+     "women's health (PMS/PCOS) claims",
+     "sleep",
+     "food industry / functional foods"
+    ],
+    "evidence_temperature": "Strong for the regulatory rule; not a safety-evidence story (the problem is lack of safety assessment for that food category)",
+    "misinformation_risk": "Medium — 'melatonina foi proibida'; 'inositol faz mal'; 'se é natural pode em qualquer alimento'",
+    "audience_question_signal": "Unknown — no PT question cluster measured; inferred: Posso tomar melatonina? Inositol para SOP pode?",
+    "content_opportunity": "Medium",
+    "predicted_trajectory": "By +30 (2026-12-02): Anvisa publishes ≥1 further act (recall, ban or ad suspension) on a conventional food (not a supplement) containing an ingredient authorised only for supplements, or on another finished product containing PeptiStrong. No broad social uptake: PT X on the popsicle/inositol theme stays below 50 posts/7d at +14 and +30.",
+    "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+    "prediction_confidence": "55%",
+    "key_sources": [
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-determina-o-recolhimento-de-picole-com-ingredientes-nao-autorizados",
+     "https://oglobo.globo.com/saude/noticia/2026/10/27/anvisa-determina-recolhimento-de-picole-com-melatonina-e-inositol.ghtml",
+     "https://muitainformacao.com.br/saude/anvisa-determina-recolhimento-de-picole-com-melatonina-e-suplemento-proteico-por-falta-de-avaliacao-de-seguranca/"
+    ],
+    "key_accounts": [
+     "@anvisa_oficial",
+     "@Metropoles",
+     "@JovemPanNews",
+     "@JornalOGlobo"
+    ],
+    "why_flagged": "Carry from the 10-30 sweep. Profile B core: explains why the same molecule can be legal in a capsule and illegal in a popsicle, a recurrent confusion for patients buying 'functional' products for sleep, PMS or PCOS.",
+    "ProfileA_relevance": 40,
+    "ProfileB_relevance": 86,
+    "merged_from": [
+     "Radar sweep 10-30: functional foods with supplement-only ingredients",
+     "Radar sweep 10-30: PeptiStrong reaching finished products"
+    ],
+    "scan_notes": "Melatonin and inositol themselves were not banned. Keep RE numbers exact (4.189 popsicle; 4.160 Equaliv). Related: NT-2026-10-12-01 (PeptiStrong ingredient), NT-2026-10-19-04 (regularization literacy).",
+    "first_detected_date": "2026-10-26",
+    "latest_observation_date": "2026-11-02",
+    "prediction_freeze_date": "2026-11-02",
+    "next_review_date": "2026-11-09",
+    "review_dates": {
+     "plus_7": "2026-11-09",
+     "plus_14": "2026-11-16",
+     "plus_30": "2026-12-02"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_008"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-11-02-02",
+    "topic": "“Ingrediente autorizado ≠ liberado em qualquer alimento” — ingredientes exclusivos de suplemento em alimentos convencionais (Picolé Bentô Gelatos Magnésio + Inositol Relief 3.0 com melatonina e inositol, RE 4.189/2026) → alegações de alimento funcional para sono/TPM/SOP",
+    "canonical_topic_name": "Alimentos convencionais “funcionais” com ingredientes exclusivos de suplemento no Brasil: a melatonina é autorizada só em suplementos e o inositol só em suplementos e compostos líquidos prontos para consumo; a Anvisa recolheu um picolé “relief” (RE 4.189, 22/10, DOU 26/10) — letramento sobre limites de categoria para nutricionistas",
+    "source_market": "BR (nativo)",
+    "origin_community": "Anvisa/DOU + imprensa nacional (Metrópoles 5.573 imp., Jovem Pan 4.708 imp. no X) + marcas artesanais de alimentos “funcionais”",
+    "origin_type": "Ato regulatório de fiscalização",
+    "source_layer": "Descoberta",
+    "stage": "Brazil Emerging",
+    "velocity": "X PT picolé/Bentô × melatonina/inositol/Anvisa 11 → 48 → 5 → 2 posts/dia (26–29/10, varredura de 10-30) — pico de um dia, já dissipado",
+    "reach": "Média — alcance de notícia nacional; pouca conversa social contínua",
+    "novelty": "Média-alta — primeira tendência congelada sobre o limite entre suplemento e alimento convencional",
+    "persistence_estimate": "Média — depende de novas fiscalizações; doces e gomas “funcionais” são uma categoria em crescimento (qualitativo)",
+    "brazil_presence": "Presente/nativo — Anvisa, O Globo (27/10), Metrópoles, Jovem Pan, Muita Informação (01/11)",
+    "brazil_momentum": "Dissipado após o pico de 27/10",
+    "primary_niches": [
+     "suplementos e regulação",
+     "alegações em saúde da mulher (TPM/SOP)",
+     "sono",
+     "indústria de alimentos / alimentos funcionais"
+    ],
+    "evidence_temperature": "Forte para a regra regulatória; não é uma questão de evidência de segurança (o problema é a falta de avaliação de segurança para aquela categoria de alimento)",
+    "misinformation_risk": "Médio — “a melatonina foi proibida”; “inositol faz mal”; “se é natural, pode em qualquer alimento”",
+    "audience_question_signal": "Desconhecido — nenhum cluster de perguntas em PT medido; inferido: Posso tomar melatonina? Inositol para SOP pode?",
+    "content_opportunity": "Média",
+    "predicted_trajectory": "Até +30 (2026-12-02): a Anvisa publica ≥1 novo ato (recolhimento, proibição ou suspensão de propaganda) sobre um alimento convencional (não suplemento) com ingrediente autorizado apenas para suplementos, ou sobre outro produto acabado com PeptiStrong. Sem adesão social ampla: o X PT sobre o tema picolé/inositol fica abaixo de 50 posts/7d em +14 e +30.",
+    "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+    "prediction_confidence": "55%",
+    "key_sources": [
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-determina-o-recolhimento-de-picole-com-ingredientes-nao-autorizados",
+     "https://oglobo.globo.com/saude/noticia/2026/10/27/anvisa-determina-recolhimento-de-picole-com-melatonina-e-inositol.ghtml",
+     "https://muitainformacao.com.br/saude/anvisa-determina-recolhimento-de-picole-com-melatonina-e-suplemento-proteico-por-falta-de-avaliacao-de-seguranca/"
+    ],
+    "key_accounts": [
+     "@anvisa_oficial",
+     "@Metropoles",
+     "@JovemPanNews",
+     "@JornalOGlobo"
+    ],
+    "why_flagged": "Item levado da varredura de 10-30. Núcleo do Perfil B: explica por que a mesma molécula pode ser legal em cápsula e ilegal num picolé, uma confusão recorrente de pacientes que compram produtos “funcionais” para sono, TPM ou SOP.",
+    "ProfileA_relevance": 40,
+    "ProfileB_relevance": 86,
+    "merged_from": [
+     "Varredura de 10-30: alimentos funcionais com ingredientes exclusivos de suplemento",
+     "Varredura de 10-30: PeptiStrong chegando a produtos acabados"
+    ],
+    "scan_notes": "A melatonina e o inositol em si não foram proibidos. Manter os números das REs exatos (4.189 picolé; 4.160 Equaliv). Relacionadas: NT-2026-10-12-01 (ingrediente PeptiStrong), NT-2026-10-19-04 (como saber se um suplemento é regularizado).",
+    "first_detected_date": "2026-10-26",
+    "latest_observation_date": "2026-11-02",
+    "prediction_freeze_date": "2026-11-02",
+    "next_review_date": "2026-11-09",
+    "review_dates": {
+     "plus_7": "2026-11-09",
+     "plus_14": "2026-11-16",
+     "plus_30": "2026-12-02"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_008"
+   },
+   "translation": {
+    "translated_at": "2026-11-02T09:40:00-03:00",
+    "source_file": "trends/NT-2026-11-02-02.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-11-02-02",
+    "topic": "'Authorised ingredient ≠ allowed in any food' — supplement-only ingredients in conventional foods (Picolé Bentô Gelatos Magnésio + Inositol Relief 3.0 with melatonin and inositol, RE 4.189/2026) → functional-food claims for sleep/PMS/PCOS",
+    "stage_at_freeze": "Brazil Emerging",
+    "prediction_freeze_date": "2026-11-02",
+    "review_dates": {
+     "plus_7": "2026-11-09",
+     "plus_14": "2026-11-16",
+     "plus_30": "2026-12-02"
+    },
+    "next_review_date": "2026-11-09",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_008"
+   },
+   "cohort_id": "cohort_008",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-11-09",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-11-16",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-12-02",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-11-09"
+  },
+  {
+   "id": "NT-2026-11-02-03",
+   "frozen": {
+    "trend_id": "NT-2026-11-02-03",
+    "topic": "Glucose-control / insulin-resistance supplement claims — Anvisa RE 4.224/2026 suspends ads for Glifit and Glicofit drops ('O Autêntico Regulador de Glicose', 'melhora a sensibilidade à insulina', 'mantém o pâncreas limpo')",
+    "canonical_topic_name": "Supplements sold as glucose regulators to people with pre-diabetes, insulin resistance or PCOS in Brazil: RE 4.224 (DOU 27 Oct) ad suspension; Anvisa reminds that supplements may not claim weight loss, focus, immunity or sexual performance; patient-facing 'what is a red-flag claim' angle",
+    "source_market": "BR (Native)",
+    "origin_community": "Anvisa/DOU + Agência Brasil + CNN Brasil (4,359 imp on X) + online drop-supplement marketing",
+    "origin_type": "Regulatory enforcement act",
+    "source_layer": "Discovery",
+    "stage": "Brazil Emerging",
+    "velocity": "PT X suplemento × glicose/insulina/diabetes × anvisa 7d=2 (0;0;0;0;2;0;0, UTC days 26/10–01/11) — negligible social; news amplification only",
+    "reach": "Medium — national outlets; low social",
+    "novelty": "Medium — supplement ad hygiene was covered (NT-2026-09-28-01 Semavy RE 3.750 ad hygiene; NT-2026-09-09-13 claims), but not the glycemic-claim niche",
+    "persistence_estimate": "Medium-High — glucose 'regulator' products are a recurring online category (qualitative)",
+    "brazil_presence": "Present/Native — Anvisa, Agência Brasil, CNN Brasil, RCWTV",
+    "brazil_momentum": "Flat",
+    "primary_niches": [
+     "clinical nutrition / diabetes",
+     "PCOS & insulin resistance",
+     "supplements & claims"
+    ],
+    "evidence_temperature": "Strong for the regulatory fact; no evidence base for the product claims",
+    "misinformation_risk": "High — 'gotinha que regula a glicose'; 'limpa o pâncreas'; 'substitui a metformina'",
+    "audience_question_signal": "Unknown — inferred: Esse suplemento para glicose funciona? Posso trocar o remédio?",
+    "content_opportunity": "Medium-High",
+    "predicted_trajectory": "By +30 (2026-12-02): Anvisa publishes ≥1 further ad suspension, recall or alert targeting a food/supplement with glycemic, insulin or 'diabetes' claims. PT X on supplement × glicose/insulina × Anvisa stays <30 posts/7d at each checkpoint (no social takeoff).",
+    "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+    "prediction_confidence": "60%",
+    "key_sources": [
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-suspende-propaganda-irregular-de-suplementos-alimentares",
+     "https://agenciabrasil.ebc.com.br/saude/noticia/2026-10/anvisa-suspende-propaganda-enganosa-de-suplementos-alimentares"
+    ],
+    "key_accounts": [
+     "@anvisa_oficial",
+     "@CNNBrasil",
+     "@agenciabrasil"
+    ],
+    "why_flagged": "Carry from the 10-30 sweep. High frequency in clinical practice (pre-diabetes, PCOS) even with low social volume; gives RDs a ready red-flag list taken from Anvisa's own wording.",
+    "ProfileA_relevance": 20,
+    "ProfileB_relevance": 82,
+    "merged_from": [
+     "Radar sweep 10-30: glucose-control drops (Glifit/Glicofit)"
+    ],
+    "scan_notes": "Ad-only suspension; the products were not recalled in RE 4.224. Do not name other brands without an Anvisa act. Related: NT-2026-09-28-01 (ad hygiene), NT-2026-10-19-04 (regularization literacy).",
+    "first_detected_date": "2026-10-27",
+    "latest_observation_date": "2026-11-02",
+    "prediction_freeze_date": "2026-11-02",
+    "next_review_date": "2026-11-09",
+    "review_dates": {
+     "plus_7": "2026-11-09",
+     "plus_14": "2026-11-16",
+     "plus_30": "2026-12-02"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_008"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-11-02-03",
+    "topic": "Alegações de controle de glicose / resistência à insulina em suplementos — a RE 4.224/2026 da Anvisa suspende a propaganda das gotas Glifit e Glicofit (“O Autêntico Regulador de Glicose”, “melhora a sensibilidade à insulina”, “mantém o pâncreas limpo”)",
+    "canonical_topic_name": "Suplementos vendidos como reguladores de glicose para pessoas com pré-diabetes, resistência à insulina ou SOP no Brasil: suspensão de propaganda pela RE 4.224 (DOU 27/10); a Anvisa lembra que suplementos não podem alegar emagrecimento, foco, imunidade ou desempenho sexual; ângulo para pacientes: “o que é uma alegação de alerta”",
+    "source_market": "BR (nativo)",
+    "origin_community": "Anvisa/DOU + Agência Brasil + CNN Brasil (4.359 imp. no X) + marketing online de suplementos em gotas",
+    "origin_type": "Ato regulatório de fiscalização",
+    "source_layer": "Descoberta",
+    "stage": "Brazil Emerging",
+    "velocity": "X PT suplemento × glicose/insulina/diabetes × anvisa 7d=2 (0;0;0;0;2;0;0, dias UTC 26/10–01/11) — conversa social desprezível; só amplificação pela imprensa",
+    "reach": "Média — veículos nacionais; pouca repercussão social",
+    "novelty": "Média — a higiene de propaganda de suplementos já foi tratada (NT-2026-09-28-01, RE 3.750 Semavy; NT-2026-09-09-13, alegações), mas não o nicho de alegações glicêmicas",
+    "persistence_estimate": "Média-alta — produtos “reguladores de glicose” são uma categoria recorrente na internet (qualitativo)",
+    "brazil_presence": "Presente/nativo — Anvisa, Agência Brasil, CNN Brasil, RCWTV",
+    "brazil_momentum": "Estável",
+    "primary_niches": [
+     "nutrição clínica / diabetes",
+     "SOP e resistência à insulina",
+     "suplementos e alegações"
+    ],
+    "evidence_temperature": "Forte para o fato regulatório; nenhuma base de evidência para as alegações dos produtos",
+    "misinformation_risk": "Alto — “gotinha que regula a glicose”; “limpa o pâncreas”; “substitui a metformina”",
+    "audience_question_signal": "Desconhecido — inferido: Esse suplemento para glicose funciona? Posso trocar o remédio?",
+    "content_opportunity": "Média-alta",
+    "predicted_trajectory": "Até +30 (2026-12-02): a Anvisa publica ≥1 nova suspensão de propaganda, recolhimento ou alerta contra alimento/suplemento com alegações sobre glicemia, insulina ou “diabetes”. O X PT sobre suplemento × glicose/insulina × Anvisa fica <30 posts/7d em cada checkpoint (sem decolagem social).",
+    "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+    "prediction_confidence": "60%",
+    "key_sources": [
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-suspende-propaganda-irregular-de-suplementos-alimentares",
+     "https://agenciabrasil.ebc.com.br/saude/noticia/2026-10/anvisa-suspende-propaganda-enganosa-de-suplementos-alimentares"
+    ],
+    "key_accounts": [
+     "@anvisa_oficial",
+     "@CNNBrasil",
+     "@agenciabrasil"
+    ],
+    "why_flagged": "Item levado da varredura de 10-30. Muito frequente na prática clínica (pré-diabetes, SOP) mesmo com pouco volume social; dá ao nutricionista uma lista pronta de alegações de alerta tirada do próprio texto da Anvisa.",
+    "ProfileA_relevance": 20,
+    "ProfileB_relevance": 82,
+    "merged_from": [
+     "Varredura de 10-30: gotas para controle de glicose (Glifit/Glicofit)"
+    ],
+    "scan_notes": "Suspensão apenas da propaganda; os produtos não foram recolhidos pela RE 4.224. Não citar outras marcas sem ato da Anvisa. Relacionadas: NT-2026-09-28-01 (higiene de propaganda), NT-2026-10-19-04 (como saber se um suplemento é regularizado).",
+    "first_detected_date": "2026-10-27",
+    "latest_observation_date": "2026-11-02",
+    "prediction_freeze_date": "2026-11-02",
+    "next_review_date": "2026-11-09",
+    "review_dates": {
+     "plus_7": "2026-11-09",
+     "plus_14": "2026-11-16",
+     "plus_30": "2026-12-02"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_008"
+   },
+   "translation": {
+    "translated_at": "2026-11-02T09:40:00-03:00",
+    "source_file": "trends/NT-2026-11-02-03.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-11-02-03",
+    "topic": "Glucose-control / insulin-resistance supplement claims — Anvisa RE 4.224/2026 suspends ads for Glifit and Glicofit drops ('O Autêntico Regulador de Glicose', 'melhora a sensibilidade à insulina', 'mantém o pâncreas limpo')",
+    "stage_at_freeze": "Brazil Emerging",
+    "prediction_freeze_date": "2026-11-02",
+    "review_dates": {
+     "plus_7": "2026-11-09",
+     "plus_14": "2026-11-16",
+     "plus_30": "2026-12-02"
+    },
+    "next_review_date": "2026-11-09",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_008"
+   },
+   "cohort_id": "cohort_008",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-11-09",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-11-16",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-12-02",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-11-09"
+  },
+  {
+   "id": "NT-2026-11-02-04",
+   "frozen": {
+    "trend_id": "NT-2026-11-02-04",
+    "topic": "'Which pen?' literacy — 20 GLP-1 pens registered by Anvisa in 2026 (RE 4.244: Aribet, Lyrza, Wylovol, Embeltah, Sevema), same molecule with different labelled indications (diabetes vs obesity), Semavy >11% share in its first month; Conitec still pending",
+    "canonical_topic_name": "Brand/indication confusion as generic semaglutide and liraglutide pens multiply in Brazil: Anvisa approved 5 more pens on 29 Oct (20 in 2026); Lyrza and Wylovol (liraglutide) carry an obesity indication, Embeltah and Sevema (semaglutide) diabetes only; Hypera reports Semavy >11% of injectable semaglutide in its first month; Padilha (30 Oct) repeats SUS incorporation as a 'right' while Conitec has not decided",
+    "source_market": "BR (Native)",
+    "origin_community": "Anvisa + g1/O Globo/InfoMoney/Exame + pharma earnings (Hypera 3T26) + political statements (Ministério da Saúde) + X PT pen talk",
+    "origin_type": "Market/regulatory structural shift",
+    "source_layer": "Discovery",
+    "stage": "Brazil Growing",
+    "velocity": "PT X canetas/mounjaro/ozempic/semaglutida × SUS (narrow query) 217 → 173 → 69 → 68 → 32 → 32 → 19/day (26/10–01/11), 623/7d — decelerating; pens × parar/reganho PT 7d=57; @JornalOGlobo '20 canetas' 3,362 imp, @infomoney 1,934 imp",
+    "reach": "High — pens are the largest nutrition-adjacent conversation in BR X (qualitative); the registration news itself drew moderate reach",
+    "novelty": "Medium — generics/price war frozen before (NT-2026-09-28-06 Ozivy × Semavy, NT-2026-10-19-06 SUS expectations); new angle is indication/brand literacy at 20 pens",
+    "persistence_estimate": "High — structural (patent expiry March 2026, more registrations queued)",
+    "brazil_presence": "Present/Native — Anvisa, g1, O Globo, InfoMoney, Exame, O Tempo, Agência GBC (01/11)",
+    "brazil_momentum": "Political SUS noise decelerating; registrations continuing",
+    "primary_niches": [
+     "clinical nutrition / obesity",
+     "GLP-1 patient follow-up",
+     "professional scope"
+    ],
+    "evidence_temperature": "Strong for registrations; Unknown for prices and launch dates of the 5 new pens",
+    "misinformation_risk": "Medium-High — 'genérico é mais fraco'; 'caneta de diabetes não emagrece'; 'já tem caneta no SUS'; 'é tudo Ozempic'",
+    "audience_question_signal": "Yes — @patriamamada asked Grok for risks/benefits of using a pen (2,850 imp); Qual caneta é melhor? A mais barata funciona igual? Quando chega no SUS?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "By +30 (2026-12-02): (a) Anvisa registers ≥1 more GLP-1 pen (2026 total >20); (b) no final Conitec incorporation decision (published portaria/decision of incorporation) for semaglutide or liraglutide in the SUS — a preliminary recommendation or public consultation does not count as final; (c) absent a Conitec event, the narrow PT X 'canetas × SUS' count stays below 800 posts/7d at +14 and +30. All three = HIT; two = PARTIAL.",
+    "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+    "prediction_confidence": "62%",
+    "key_sources": [
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-aprova-cinco-novas-canetas-de-glp-1",
+     "https://g1.globo.com/saude/noticia/2026/10/29/anvisa-aprova-cinco-novas-canetas-para-tratamento-de-diabetes-e-obesidade-veja-quais.ghtml",
+     "https://www.otempo.com.br/cidades/2026/10/30/ministro-de-lula-quer-que-canetas-emagrecedoras-sejam-direito-no-sus",
+     "https://agenciagbc.com/2026/11/01/canetas-emagrecedoras-no-sus-e-nos-planos-de-saude-especialistas-defendem-acesso-mas-custo-preocupa/"
+    ],
+    "key_accounts": [
+     "@anvisa_oficial",
+     "@JornalOGlobo",
+     "@infomoney",
+     "@otempo",
+     "@exame"
+    ],
+    "why_flagged": "Every clinical RD now gets 'which pen?' questions; the useful answer is that nutrition follow-up does not change by brand, and that labelled indication is a prescriber matter. The SUS line is a calibration check after NT-2026-10-19-06 missed (volume stayed higher than predicted).",
+    "ProfileA_relevance": 40,
+    "ProfileB_relevance": 45,
+    "merged_from": [
+     "Radar sweep 10-30: 20 pens / Semavy share / indication differences",
+     "Radar sweep 11-02: Padilha SUS statement (30/10)"
+    ],
+    "scan_notes": "Nutritionists do not prescribe or switch pens (Res. CFN 656/2020). Narrow SUS query is not comparable with the cohort 007 checkpoint query (1,100/7d). Prices of new pens Unknown — do not estimate. Related, not rewritten: NT-2026-10-19-06, NT-2026-09-28-06.",
+    "first_detected_date": "2026-10-29",
+    "latest_observation_date": "2026-11-02",
+    "prediction_freeze_date": "2026-11-02",
+    "next_review_date": "2026-11-09",
+    "review_dates": {
+     "plus_7": "2026-11-09",
+     "plus_14": "2026-11-16",
+     "plus_30": "2026-12-02"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_008"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-11-02-04",
+    "topic": "Letramento “qual caneta?” — 20 canetas GLP-1 registradas pela Anvisa em 2026 (RE 4.244: Aribet, Lyrza, Wylovol, Embeltah, Sevema), mesma molécula com indicações diferentes em bula (diabetes × obesidade), Semavy com >11% de participação no primeiro mês; Conitec ainda sem decisão",
+    "canonical_topic_name": "Confusão de marca/indicação com a multiplicação de canetas genéricas de semaglutida e liraglutida no Brasil: a Anvisa aprovou mais 5 canetas em 29/10 (20 em 2026); Lyrza e Wylovol (liraglutida) têm indicação para obesidade, Embeltah e Sevema (semaglutida) só para diabetes; a Hypera informa Semavy com >11% da semaglutida injetável no primeiro mês; Padilha (30/10) repete a incorporação no SUS como “direito”, mas a Conitec não decidiu",
+    "source_market": "BR (nativo)",
+    "origin_community": "Anvisa + g1/O Globo/InfoMoney/Exame + resultados da indústria farmacêutica (Hypera 3T26) + declarações políticas (Ministério da Saúde) + conversa sobre canetas no X PT",
+    "origin_type": "Mudança estrutural de mercado/regulatória",
+    "source_layer": "Descoberta",
+    "stage": "Brazil Growing",
+    "velocity": "X PT canetas/mounjaro/ozempic/semaglutida × SUS (consulta restrita) 217 → 173 → 69 → 68 → 32 → 32 → 19/dia (26/10–01/11), 623/7d — desacelerando; canetas × parar/reganho PT 7d=57; @JornalOGlobo “20 canetas” 3.362 imp., @infomoney 1.934 imp.",
+    "reach": "Alto — as canetas são a maior conversa adjacente à nutrição no X brasileiro (qualitativo); a notícia dos registros em si teve alcance moderado",
+    "novelty": "Média — genéricos/guerra de preços já congelados antes (NT-2026-09-28-06 Ozivy × Semavy, NT-2026-10-19-06 expectativas sobre o SUS); o ângulo novo é o letramento de indicação/marca com 20 canetas",
+    "persistence_estimate": "Alta — estrutural (patente expirou em março de 2026, mais registros na fila)",
+    "brazil_presence": "Presente/nativo — Anvisa, g1, O Globo, InfoMoney, Exame, O Tempo, Agência GBC (01/11)",
+    "brazil_momentum": "Ruído político sobre o SUS desacelerando; registros continuam",
+    "primary_niches": [
+     "nutrição clínica / obesidade",
+     "acompanhamento de pacientes em GLP-1",
+     "escopo profissional"
+    ],
+    "evidence_temperature": "Forte para os registros; Desconhecido para preços e datas de lançamento das 5 novas canetas",
+    "misinformation_risk": "Médio-alto — “genérico é mais fraco”; “caneta de diabetes não emagrece”; “já tem caneta no SUS”; “é tudo Ozempic”",
+    "audience_question_signal": "Sim — @patriamamada pediu ao Grok os riscos e vantagens de usar caneta (2.850 imp.); Qual caneta é melhor? A mais barata funciona igual? Quando chega no SUS?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "Até +30 (2026-12-02): (a) a Anvisa registra ≥1 nova caneta GLP-1 (total de 2026 >20); (b) não há decisão final de incorporação da Conitec (portaria/decisão de incorporação publicada) para semaglutida ou liraglutida no SUS — recomendação preliminar ou consulta pública não contam como final; (c) sem evento da Conitec, a contagem restrita do X PT “canetas × SUS” fica abaixo de 800 posts/7d em +14 e +30. As três = HIT; duas = PARTIAL.",
+    "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+    "prediction_confidence": "62%",
+    "key_sources": [
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-aprova-cinco-novas-canetas-de-glp-1",
+     "https://g1.globo.com/saude/noticia/2026/10/29/anvisa-aprova-cinco-novas-canetas-para-tratamento-de-diabetes-e-obesidade-veja-quais.ghtml",
+     "https://www.otempo.com.br/cidades/2026/10/30/ministro-de-lula-quer-que-canetas-emagrecedoras-sejam-direito-no-sus",
+     "https://agenciagbc.com/2026/11/01/canetas-emagrecedoras-no-sus-e-nos-planos-de-saude-especialistas-defendem-acesso-mas-custo-preocupa/"
+    ],
+    "key_accounts": [
+     "@anvisa_oficial",
+     "@JornalOGlobo",
+     "@infomoney",
+     "@otempo",
+     "@exame"
+    ],
+    "why_flagged": "Todo nutricionista clínico já recebe a pergunta “qual caneta?”; a resposta útil é que o acompanhamento nutricional não muda com a marca e que a indicação em bula é assunto do prescritor. A linha do SUS é um teste de calibração depois do erro da NT-2026-10-19-06 (o volume ficou acima do previsto).",
+    "ProfileA_relevance": 40,
+    "ProfileB_relevance": 45,
+    "merged_from": [
+     "Varredura de 10-30: 20 canetas / participação do Semavy / diferenças de indicação",
+     "Varredura de 11-02: declaração de Padilha sobre o SUS (30/10)"
+    ],
+    "scan_notes": "Nutricionista não prescreve nem troca caneta (Res. CFN 656/2020). A consulta restrita do SUS não é comparável à consulta do checkpoint da coorte 007 (1.100/7d). Preços das novas canetas desconhecidos — não estimar. Relacionadas, não reescritas: NT-2026-10-19-06, NT-2026-09-28-06.",
+    "first_detected_date": "2026-10-29",
+    "latest_observation_date": "2026-11-02",
+    "prediction_freeze_date": "2026-11-02",
+    "next_review_date": "2026-11-09",
+    "review_dates": {
+     "plus_7": "2026-11-09",
+     "plus_14": "2026-11-16",
+     "plus_30": "2026-12-02"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_008"
+   },
+   "translation": {
+    "translated_at": "2026-11-02T09:40:00-03:00",
+    "source_file": "trends/NT-2026-11-02-04.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-11-02-04",
+    "topic": "'Which pen?' literacy — 20 GLP-1 pens registered by Anvisa in 2026 (RE 4.244: Aribet, Lyrza, Wylovol, Embeltah, Sevema), same molecule with different labelled indications (diabetes vs obesity), Semavy >11% share in its first month; Conitec still pending",
+    "stage_at_freeze": "Brazil Growing",
+    "prediction_freeze_date": "2026-11-02",
+    "review_dates": {
+     "plus_7": "2026-11-09",
+     "plus_14": "2026-11-16",
+     "plus_30": "2026-12-02"
+    },
+    "next_review_date": "2026-11-09",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_008"
+   },
+   "cohort_id": "cohort_008",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-11-09",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-11-16",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-12-02",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-11-09"
+  },
+  {
+   "id": "NT-2026-11-02-05",
+   "frozen": {
+    "trend_id": "NT-2026-11-02-05",
+    "topic": "'Lean mass is not the same as muscle' — October 2026 evidence correction on GLP-1 body composition: DOM meta-analysis (19 Oct) finds no significant handgrip change on semaglutide (very low certainty); DOM review says fat-free mass loss ≠ contractile muscle loss; STEP 1 extension regain and 'GLP-1 menu' high-protein foods (McDonald's test) recirculate",
+    "canonical_topic_name": "Reframing the '40% of weight lost is muscle' message: function (strength, performance) over DEXA lean mass; individualized protein + progressive resistance training + managing GI effects; regain after stopping (~2/3 within a year in STEP 1 extension); food industry 'GLP-1 friendly' high-protein products (McDonald's exploring bowls/egg bites, no launch decided)",
+    "source_market": "US/Global (EN) with BR migration potential",
+    "origin_community": "Research (Diabetes, Obesity and Metabolism) + EN fitness/medical X (@BenBikmanPhD 7,850 imp; @gregogallagher 30,602 imp on reta vs tirzepatide muscle retention; @MensHealthMag 6,590 imp) + food-industry press (Axios)",
+    "origin_type": "Research emergence + social recirculation",
+    "source_layer": "Research Emergence",
+    "stage": "Migration Candidate",
+    "velocity": "EN X GLP-1/Ozempic/Zepbound/Wegovy × 'high protein'/'protein shake'/'GLP-1 friendly'/'GLP-1 menu' 7d=63 (6;7;9;7;12;16;3, UTC days 26/10–01/11); PT X pens × 'massa magra'/'perda muscular'/sarcopenia 7d=7 — BR uptake not yet visible on X",
+    "reach": "Medium in EN; Low in PT so far",
+    "novelty": "Medium — lean-mass toolkit and women-on-GLP-1 were frozen (NT-2026-10-05-07, NT-2026-10-19-09); new element is the function-over-lean-mass correction from Oct 2026 papers",
+    "persistence_estimate": "High — central, recurring question as pen use grows",
+    "brazil_presence": "Partial — Veja Saúde (May 2026, CFN president on deficiencies and muscle) and RD blogs; no BR pickup of the Oct 2026 DOM papers found",
+    "brazil_momentum": "Unknown",
+    "primary_niches": [
+     "sports/hypertrophy",
+     "GLP-1 lean-mass",
+     "older adults / sarcopenia",
+     "clinical obesity"
+    ],
+    "evidence_temperature": "Mixed/Low certainty — handgrip meta-analysis based on uncontrolled within-group changes (I²=90.8%); mechanistic review; protein + RT supported by observational and small trials; UCLA protein/spices pilot (NCT07806838) recruiting until 2028",
+    "misinformation_risk": "High in both directions — 'a caneta derrete o músculo' vs 'a caneta não tira músculo nenhum'; 'reta preserva mais músculo que tirzepatida' (gray-market peptide culture)",
+    "audience_question_signal": "Yes (EN) — 'how do I keep muscle on a GLP-1?'; PT inferred: Vou perder músculo? Quanto de proteína? Preciso de bioimpedância?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "By +30 (2026-12-02): ≥1 Brazilian tier-1 or major health outlet (g1, Folha, Estadão, O Globo, UOL/VivaBem, CNN Brasil, Veja Saúde, Exame) publishes a piece framing GLP-1 muscle in terms of strength/function or 'massa magra ≠ músculo', or citing an Oct 2026 study on the topic. EN X GLP-1 × high-protein stays ≥40 posts/7d at +14 and +30. PT X pens × massa magra stays <60/7d (no social takeoff). BR media piece missing but EN signal holds = PARTIAL.",
+    "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+    "prediction_confidence": "55%",
+    "key_sources": [
+     "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.71432",
+     "https://doi.org/10.1111/dom.71422",
+     "https://clinicaltrials.gov/study/NCT07806838",
+     "https://www.axios.com/2026/09/23/mcdonalds-glp-1-bowls-grilled-chicken",
+     "https://x.com/BenBikmanPhD/status/2116683199719821610"
+    ],
+    "key_accounts": [
+     "@BenBikmanPhD",
+     "@MensHealthMag",
+     "@gregogallagher",
+     "@KenDBerryMD"
+    ],
+    "why_flagged": "Profile A's top question. Lets RDs move patients from fear of 'losing muscle' to measurable function (strength tests, protein distribution, RT) and prepares them for 'GLP-1 menu' marketing arriving in Brazil.",
+    "ProfileA_relevance": 90,
+    "ProfileB_relevance": 68,
+    "merged_from": [
+     "DOM handgrip meta-analysis (19 Oct 2026)",
+     "DOM lean-mass mechanisms review",
+     "Radar sweep 11-02: STEP 1 regain, McDonald's GLP-1 menu, reta vs tirzepatide muscle chatter",
+     "Radar sweep 10-22: GLP-1 users and high-protein foods"
+    ],
+    "scan_notes": "Do not claim semaglutide preserves strength — the DOM authors say evidence is insufficient. McDonald's: exploration only, no launch decided (Axios 23/09). STEP 1 regain is a known 2022 result recirculating. Related, not rewritten: NT-2026-10-05-07, NT-2026-10-19-09, NT-2026-10-19-07.",
+    "first_detected_date": "2026-10-19",
+    "latest_observation_date": "2026-11-02",
+    "prediction_freeze_date": "2026-11-02",
+    "next_review_date": "2026-11-09",
+    "review_dates": {
+     "plus_7": "2026-11-09",
+     "plus_14": "2026-11-16",
+     "plus_30": "2026-12-02"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_008"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-11-02-05",
+    "topic": "“Massa magra não é o mesmo que músculo” — correção de evidências de outubro de 2026 sobre composição corporal na GLP-1: metanálise na DOM (19/10) não encontra mudança significativa na força de preensão com semaglutida (certeza muito baixa); revisão na DOM afirma que perda de massa livre de gordura ≠ perda de músculo contrátil; reganho na extensão do STEP 1 e alimentos proteicos de “cardápio GLP-1” (teste do McDonald's) voltam a circular",
+    "canonical_topic_name": "Reenquadrar a mensagem “40% do peso perdido é músculo”: função (força, desempenho) acima da massa magra no DEXA; proteína individualizada + treino de força progressivo + manejo dos efeitos gastrointestinais; reganho após parar (~2/3 em um ano na extensão do STEP 1); produtos proteicos “GLP-1 friendly” da indústria (McDonald's estudando bowls/egg bites, sem lançamento decidido)",
+    "source_market": "EUA/Global (EN) com potencial de migração para o Brasil",
+    "origin_community": "Pesquisa (Diabetes, Obesity and Metabolism) + X fitness/médico em inglês (@BenBikmanPhD 7.850 imp.; @gregogallagher 30.602 imp. sobre reta × tirzepatida e retenção muscular; @MensHealthMag 6.590 imp.) + imprensa da indústria de alimentos (Axios)",
+    "origin_type": "Emergência em pesquisa + recirculação social",
+    "source_layer": "Emergência em pesquisa",
+    "stage": "Migration Candidate",
+    "velocity": "X EN GLP-1/Ozempic/Zepbound/Wegovy × “high protein”/“protein shake”/“GLP-1 friendly”/“GLP-1 menu” 7d=63 (6;7;9;7;12;16;3, dias UTC 26/10–01/11); X PT canetas × “massa magra”/“perda muscular”/sarcopenia 7d=7 — adesão no Brasil ainda não visível no X",
+    "reach": "Média em inglês; baixa em português até agora",
+    "novelty": "Média — o kit de massa magra e mulheres na GLP-1 já foram congelados (NT-2026-10-05-07, NT-2026-10-19-09); o elemento novo é a correção “função acima de massa magra” dos artigos de out/2026",
+    "persistence_estimate": "Alta — pergunta central e recorrente à medida que o uso de canetas cresce",
+    "brazil_presence": "Parcial — Veja Saúde (maio/2026, presidente do CFN sobre deficiências e músculo) e blogs de nutricionistas; nenhuma repercussão brasileira dos artigos da DOM de out/2026 encontrada",
+    "brazil_momentum": "Desconhecido",
+    "primary_niches": [
+     "esporte/hipertrofia",
+     "massa magra na GLP-1",
+     "idosos / sarcopenia",
+     "obesidade clínica"
+    ],
+    "evidence_temperature": "Mista/baixa certeza — metanálise de preensão baseada em mudanças intragrupo não controladas (I²=90,8%); revisão mecanística; proteína + treino de força apoiados por estudos observacionais e ensaios pequenos; piloto da UCLA com proteína/especiarias (NCT07806838) recrutando até 2028",
+    "misinformation_risk": "Alto nos dois sentidos — “a caneta derrete o músculo” × “a caneta não tira músculo nenhum”; “reta preserva mais músculo que tirzepatida” (cultura de peptídeos do mercado paralelo)",
+    "audience_question_signal": "Sim (EN) — “como manter músculo na GLP-1?”; PT inferido: Vou perder músculo? Quanto de proteína? Preciso de bioimpedância?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "Até +30 (2026-12-02): ≥1 veículo brasileiro de primeira linha ou grande veículo de saúde (g1, Folha, Estadão, O Globo, UOL/VivaBem, CNN Brasil, Veja Saúde, Exame) publica matéria que trate o músculo na GLP-1 em termos de força/função ou “massa magra ≠ músculo”, ou que cite um estudo de out/2026 sobre o tema. O X EN GLP-1 × alta proteína fica ≥40 posts/7d em +14 e +30. O X PT canetas × massa magra fica <60/7d (sem decolagem social). Sem matéria brasileira, mas com o sinal em inglês mantido = PARTIAL.",
+    "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+    "prediction_confidence": "55%",
+    "key_sources": [
+     "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.71432",
+     "https://doi.org/10.1111/dom.71422",
+     "https://clinicaltrials.gov/study/NCT07806838",
+     "https://www.axios.com/2026/09/23/mcdonalds-glp-1-bowls-grilled-chicken",
+     "https://x.com/BenBikmanPhD/status/2116683199719821610"
+    ],
+    "key_accounts": [
+     "@BenBikmanPhD",
+     "@MensHealthMag",
+     "@gregogallagher",
+     "@KenDBerryMD"
+    ],
+    "why_flagged": "Principal dúvida do Perfil A. Ajuda o nutricionista a tirar o paciente do medo de “perder músculo” e levá-lo para função mensurável (testes de força, distribuição de proteína, treino de força) e prepara para o marketing de “cardápio GLP-1” chegando ao Brasil.",
+    "ProfileA_relevance": 90,
+    "ProfileB_relevance": 68,
+    "merged_from": [
+     "Metanálise de força de preensão na DOM (19/10/2026)",
+     "Revisão da DOM sobre mecanismos de massa magra",
+     "Varredura de 11-02: reganho no STEP 1, cardápio GLP-1 do McDonald's, conversa reta × tirzepatida sobre músculo",
+     "Varredura de 10-22: usuários de GLP-1 e alimentos ricos em proteína"
+    ],
+    "scan_notes": "Não afirmar que a semaglutida preserva força — os autores da DOM dizem que a evidência é insuficiente. McDonald's: só exploração, sem lançamento decidido (Axios 23/09). O reganho do STEP 1 é um resultado conhecido de 2022 recirculando. Relacionadas, não reescritas: NT-2026-10-05-07, NT-2026-10-19-09, NT-2026-10-19-07.",
+    "first_detected_date": "2026-10-19",
+    "latest_observation_date": "2026-11-02",
+    "prediction_freeze_date": "2026-11-02",
+    "next_review_date": "2026-11-09",
+    "review_dates": {
+     "plus_7": "2026-11-09",
+     "plus_14": "2026-11-16",
+     "plus_30": "2026-12-02"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_008"
+   },
+   "translation": {
+    "translated_at": "2026-11-02T09:40:00-03:00",
+    "source_file": "trends/NT-2026-11-02-05.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-11-02-05",
+    "topic": "'Lean mass is not the same as muscle' — October 2026 evidence correction on GLP-1 body composition: DOM meta-analysis (19 Oct) finds no significant handgrip change on semaglutide (very low certainty); DOM review says fat-free mass loss ≠ contractile muscle loss; STEP 1 extension regain and 'GLP-1 menu' high-protein foods (McDonald's test) recirculate",
+    "stage_at_freeze": "Migration Candidate",
+    "prediction_freeze_date": "2026-11-02",
+    "review_dates": {
+     "plus_7": "2026-11-09",
+     "plus_14": "2026-11-16",
+     "plus_30": "2026-12-02"
+    },
+    "next_review_date": "2026-11-09",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_008"
+   },
+   "cohort_id": "cohort_008",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-11-09",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-11-16",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-12-02",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-11-09"
+  },
+  {
+   "id": "NT-2026-11-02-06",
+   "frozen": {
+    "trend_id": "NT-2026-11-02-06",
+    "topic": "'Whey barato demais?' — supplement authenticity in marketplaces: ABCF test (22 Oct) finds about half of popular wheys under-label protein, while R$53–57 'isolado' coupon promos flood X; Anvisa RE 4.147 on falsified NAC sold on Shopee",
+    "canonical_topic_name": "Whey and supplement authenticity in Brazil's online marketplaces: under-labelled protein (ABCF test), extreme coupon prices (Isofreak whey isolado R$99→R$53, @xetdaspromocoes 14,415 imp), falsified NAC (RE 4.147, Shopee); how to read protein per serving, check notification and independent lab reports",
+    "source_market": "BR (Native)",
+    "origin_community": "ABCF (Associação Brasileira de Combate à Falsificação) + Jornal da Record + X promo accounts + Anvisa",
+    "origin_type": "Consumer-protection test + marketplace enforcement",
+    "source_layer": "Discovery",
+    "stage": "Brazil Emerging",
+    "velocity": "PT X whey × falsificado/adulterado/teste/laudo/'proteína de verdade'/barato 7d=19 (2;1;2;3;4;2;5, UTC days 26/10–01/11); PT creatina OR whey 7d=3,590 (flat 448–538/day, 10-26→11-01, per 11-02 sweep) — volume is promotion-driven, the quality angle is small",
+    "reach": "Medium — high promo impressions; low quality-debate volume",
+    "novelty": "Medium — whey price was frozen (NT-2026-10-05-03); authenticity/under-labelling is new",
+    "persistence_estimate": "High — recurring; whey sales up and prices high (prior sweeps)",
+    "brazil_presence": "Present/Native — Jornal da Record (ABCF, 377 imp on X), Anvisa RE 4.147",
+    "brazil_momentum": "Flat on X; promo pressure continuing",
+    "primary_niches": [
+     "sports/hypertrophy",
+     "supplements & quality",
+     "consumer protection"
+    ],
+    "evidence_temperature": "Moderate — ABCF lab test reported by press (method details not reviewed by the radar); Anvisa act strong",
+    "misinformation_risk": "Medium — 'whey caro é sempre melhor'; 'todo whey barato é falso'; 'se tem selo é garantido'",
+    "audience_question_signal": "Yes — 'whey absurdamente caro' complaint (@margaretmelonii 1,642 imp); inferred: Esse whey de R$53 é confiável? Como sei se tem a proteína do rótulo?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "By +30 (2026-12-02): ≥1 new public action or report on protein-supplement quality in Brazil — a Procon/Senacon/Anvisa action, or a new independent lab test of whey/protein products reported by a Brazilian outlet. PT X whey × fraude/laudo/teste stays <100 posts/7d at each checkpoint (quality talk stays small while promos dominate).",
+    "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+    "prediction_confidence": "55%",
+    "key_sources": [
+     "https://x.com/xetdaspromocoes/status/2116194276204044647"
+    ],
+    "key_accounts": [
+     "@xetdaspromocoes",
+     "@jornaldarecord",
+     "@anvisa_oficial"
+    ],
+    "why_flagged": "Carry from 10-23 and 11-02 sweeps. Both profiles: athletes and gym-goers buying on price, and supplement-focused RDs who need a quick quality-check script.",
+    "ProfileA_relevance": 82,
+    "ProfileB_relevance": 90,
+    "merged_from": [
+     "Radar sweep 10-23: ABCF whey test + falsified NAC on Shopee",
+     "Radar sweep 11-02: whey promo cluster vs 'too expensive' complaint"
+    ],
+    "scan_notes": "Do not name brands as failing the ABCF test unless the source lists them; do not imply the Isofreak promo product is irregular — no evidence. Related, not rewritten: NT-2026-10-05-03 (whey price), NT-2026-10-19-04 (regularization literacy), NT-2026-10-12-03 (gray market).",
+    "first_detected_date": "2026-10-22",
+    "latest_observation_date": "2026-11-02",
+    "prediction_freeze_date": "2026-11-02",
+    "next_review_date": "2026-11-09",
+    "review_dates": {
+     "plus_7": "2026-11-09",
+     "plus_14": "2026-11-16",
+     "plus_30": "2026-12-02"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_008"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-11-02-06",
+    "topic": "“Whey barato demais?” — autenticidade de suplementos em marketplaces: teste da ABCF (22/10) aponta que cerca de metade dos wheys populares tem menos proteína do que diz o rótulo, enquanto promoções de “isolado” a R$53–57 com cupom inundam o X; RE 4.147 da Anvisa sobre NAC falsificado vendido na Shopee",
+    "canonical_topic_name": "Autenticidade de whey e suplementos nos marketplaces brasileiros: proteína abaixo do rótulo (teste da ABCF), preços extremos com cupom (Isofreak whey isolado de R$99 por R$53, @xetdaspromocoes 14.415 imp.), NAC falsificado (RE 4.147, Shopee); como ler a proteína por porção, checar a notificação e laudos independentes",
+    "source_market": "BR (nativo)",
+    "origin_community": "ABCF (Associação Brasileira de Combate à Falsificação) + Jornal da Record + contas de promoções no X + Anvisa",
+    "origin_type": "Teste de defesa do consumidor + fiscalização em marketplace",
+    "source_layer": "Descoberta",
+    "stage": "Brazil Emerging",
+    "velocity": "X PT whey × falsificado/adulterado/teste/laudo/“proteína de verdade”/barato 7d=19 (2;1;2;3;4;2;5, dias UTC 26/10–01/11); X PT creatina OR whey 7d=3.590 (estável, 448–538/dia, 26/10→01/11, varredura de 11-02) — o volume é puxado por promoções; o ângulo de qualidade é pequeno",
+    "reach": "Média — muitas impressões de promoções; pouco volume de debate sobre qualidade",
+    "novelty": "Média — o preço do whey já foi congelado (NT-2026-10-05-03); autenticidade/proteína abaixo do rótulo é novo",
+    "persistence_estimate": "Alta — recorrente; vendas de whey em alta e preços altos (varreduras anteriores)",
+    "brazil_presence": "Presente/nativo — Jornal da Record (ABCF, 377 imp. no X), RE 4.147 da Anvisa",
+    "brazil_momentum": "Estável no X; pressão de promoções continua",
+    "primary_niches": [
+     "esporte/hipertrofia",
+     "suplementos e qualidade",
+     "defesa do consumidor"
+    ],
+    "evidence_temperature": "Moderada — teste laboratorial da ABCF divulgado pela imprensa (detalhes do método não revisados pelo radar); ato da Anvisa forte",
+    "misinformation_risk": "Médio — “whey caro é sempre melhor”; “todo whey barato é falso”; “se tem selo, é garantido”",
+    "audience_question_signal": "Sim — reclamação “whey absurdamente caro” (@margaretmelonii 1.642 imp.); inferido: Esse whey de R$53 é confiável? Como sei se tem a proteína do rótulo?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "Até +30 (2026-12-02): ≥1 nova ação pública ou reportagem sobre qualidade de suplementos proteicos no Brasil — ação de Procon/Senacon/Anvisa ou novo teste laboratorial independente de whey/produtos proteicos divulgado por veículo brasileiro. O X PT whey × fraude/laudo/teste fica <100 posts/7d em cada checkpoint (a conversa sobre qualidade continua pequena enquanto as promoções dominam).",
+    "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+    "prediction_confidence": "55%",
+    "key_sources": [
+     "https://x.com/xetdaspromocoes/status/2116194276204044647"
+    ],
+    "key_accounts": [
+     "@xetdaspromocoes",
+     "@jornaldarecord",
+     "@anvisa_oficial"
+    ],
+    "why_flagged": "Item levado das varreduras de 10-23 e 11-02. Atende os dois perfis: atletas e frequentadores de academia que compram pelo preço, e nutricionistas focados em suplementos que precisam de um roteiro rápido de checagem de qualidade.",
+    "ProfileA_relevance": 82,
+    "ProfileB_relevance": 90,
+    "merged_from": [
+     "Varredura de 10-23: teste de whey da ABCF + NAC falsificado na Shopee",
+     "Varredura de 11-02: cluster de promoções de whey × reclamação de “caro demais”"
+    ],
+    "scan_notes": "Não citar marcas como reprovadas no teste da ABCF a menos que a fonte as liste; não insinuar que o produto em promoção da Isofreak é irregular — não há evidência. Relacionadas, não reescritas: NT-2026-10-05-03 (preço do whey), NT-2026-10-19-04 (como saber se um suplemento é regularizado), NT-2026-10-12-03 (mercado paralelo).",
+    "first_detected_date": "2026-10-22",
+    "latest_observation_date": "2026-11-02",
+    "prediction_freeze_date": "2026-11-02",
+    "next_review_date": "2026-11-09",
+    "review_dates": {
+     "plus_7": "2026-11-09",
+     "plus_14": "2026-11-16",
+     "plus_30": "2026-12-02"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_008"
+   },
+   "translation": {
+    "translated_at": "2026-11-02T09:40:00-03:00",
+    "source_file": "trends/NT-2026-11-02-06.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-11-02-06",
+    "topic": "'Whey barato demais?' — supplement authenticity in marketplaces: ABCF test (22 Oct) finds about half of popular wheys under-label protein, while R$53–57 'isolado' coupon promos flood X; Anvisa RE 4.147 on falsified NAC sold on Shopee",
+    "stage_at_freeze": "Brazil Emerging",
+    "prediction_freeze_date": "2026-11-02",
+    "review_dates": {
+     "plus_7": "2026-11-09",
+     "plus_14": "2026-11-16",
+     "plus_30": "2026-12-02"
+    },
+    "next_review_date": "2026-11-09",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_008"
+   },
+   "cohort_id": "cohort_008",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-11-09",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-11-16",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-12-02",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-11-09"
+  },
+  {
+   "id": "NT-2026-11-02-07",
+   "frozen": {
+    "trend_id": "NT-2026-11-02-07",
+    "topic": "Ashwagandha is prohibited in Brazil — Anvisa note (21 Oct) after the UK liver-failure case; Estadão (27 Oct) finds ads still promising anxiety/sleep/weight loss → herbal liver-safety FAQ (with cúrcuma IN 438 hepatotoxicity labelling)",
+    "canonical_topic_name": "'TikTok supplement' ashwagandha: not on Brazil's list of authorised supplement ingredients, so manufacture, sale and use are prohibited; continued online sales; perimenopause/cortisol marketing; liver-injury red flags; pairs with turmeric/curcumin hepatotoxicity warnings (IN 438)",
+    "source_market": "BR (Native) with UK/EN trigger",
+    "origin_community": "Anvisa + Agência Brasil + Estadão (4,326 imp) + Band (3,381 imp) + wellness/perimenopause social",
+    "origin_type": "Regulatory alert + media investigation",
+    "source_layer": "Discovery",
+    "stage": "Brazil Emerging",
+    "velocity": "PT X ashwagandha 7d=7 (0;2;2;0;3;0;0, UTC days 26/10–01/11) — low and fading",
+    "reach": "Medium — national outlets; low social",
+    "novelty": "Medium-High — not frozen before; cúrcuma IN 438 was (NT-2026-10-05-01)",
+    "persistence_estimate": "Medium — depends on enforcement; demand driven by menopause/stress marketing",
+    "brazil_presence": "Present/Native — Anvisa (21/10), Agência Brasil (22/10), Estadão (27/10), Band",
+    "brazil_momentum": "Fading after late-October coverage",
+    "primary_niches": [
+     "supplements & safety",
+     "women's health / perimenopause",
+     "phytotherapy & scope",
+     "mental health claims"
+    ],
+    "evidence_temperature": "Strong for the regulatory status; case reports/review for liver injury (rare); efficacy data mixed",
+    "misinformation_risk": "Medium-High — 'ashwagandha baixa cortisol e emagrece'; 'natural não faz mal'; 'manipulado pode'",
+    "audience_question_signal": "Unknown in PT X (7 posts/7d); inferred: Posso tomar ashwagandha para menopausa? Manipulado pode?",
+    "content_opportunity": "Medium",
+    "predicted_trajectory": "By +30 (2026-12-02): ≥1 further Anvisa act, alert, seizure or ad action naming ashwagandha products, or ≥1 new Brazilian outlet investigation of ashwagandha sales. PT X ashwagandha stays <50 posts/7d at each checkpoint.",
+    "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+    "prediction_confidence": "55%",
+    "key_sources": [
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/ashwagandha-suplemento-do-tiktok-nao-tem-registro-no-brasil"
+    ],
+    "key_accounts": [
+     "@anvisa_oficial",
+     "@Estadao",
+     "@BandJornalismo"
+    ],
+    "why_flagged": "Carry from 10-21/10-22 sweeps, re-confirmed by Estadão on 27/10. Profile B: prescribing ethics (an unlisted ingredient cannot be prescribed as a supplement) and liver-safety screening for patients self-medicating.",
+    "ProfileA_relevance": 25,
+    "ProfileB_relevance": 84,
+    "merged_from": [
+     "Radar sweep 10-22: ashwagandha prohibited in Brazil",
+     "Radar sweep 10-30: Estadão/Band echo"
+    ],
+    "scan_notes": "Do not state the regulatory status of compounded/phytotherapic routes without a source — keep to 'not authorised as supplement ingredient' per Anvisa. Liver injury is rare; do not overstate. Related: NT-2026-10-05-01 (cúrcuma IN 438).",
+    "first_detected_date": "2026-10-21",
+    "latest_observation_date": "2026-11-02",
+    "prediction_freeze_date": "2026-11-02",
+    "next_review_date": "2026-11-09",
+    "review_dates": {
+     "plus_7": "2026-11-09",
+     "plus_14": "2026-11-16",
+     "plus_30": "2026-12-02"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_008"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-11-02-07",
+    "topic": "Ashwagandha é proibida no Brasil — nota da Anvisa (21/10) após o caso britânico de falência hepática; o Estadão (27/10) mostra anúncios que ainda prometem ansiedade/sono/emagrecimento → FAQ de segurança hepática de fitoterápicos (com a rotulagem de hepatotoxicidade da cúrcuma, IN 438)",
+    "canonical_topic_name": "Ashwagandha, o “suplemento do TikTok”: não está na lista de ingredientes autorizados para suplementos no Brasil, então fabricação, venda e uso são proibidos; vendas online continuam; marketing de perimenopausa/cortisol; sinais de alerta de lesão hepática; combina com os alertas de hepatotoxicidade da cúrcuma/curcumina (IN 438)",
+    "source_market": "BR (nativo) com gatilho no Reino Unido/EN",
+    "origin_community": "Anvisa + Agência Brasil + Estadão (4.326 imp.) + Band (3.381 imp.) + redes de bem-estar/perimenopausa",
+    "origin_type": "Alerta regulatório + investigação jornalística",
+    "source_layer": "Descoberta",
+    "stage": "Brazil Emerging",
+    "velocity": "X PT ashwagandha 7d=7 (0;2;2;0;3;0;0, dias UTC 26/10–01/11) — baixo e em queda",
+    "reach": "Média — veículos nacionais; pouca repercussão social",
+    "novelty": "Média-alta — não congelada antes; a cúrcuma IN 438 foi (NT-2026-10-05-01)",
+    "persistence_estimate": "Média — depende da fiscalização; demanda puxada pelo marketing de menopausa/estresse",
+    "brazil_presence": "Presente/nativo — Anvisa (21/10), Agência Brasil (22/10), Estadão (27/10), Band",
+    "brazil_momentum": "Em queda após a cobertura do fim de outubro",
+    "primary_niches": [
+     "suplementos e segurança",
+     "saúde da mulher / perimenopausa",
+     "fitoterapia e escopo",
+     "alegações de saúde mental"
+    ],
+    "evidence_temperature": "Forte para a situação regulatória; relatos de caso/revisão para lesão hepática (rara); dados de eficácia mistos",
+    "misinformation_risk": "Médio-alto — “ashwagandha baixa o cortisol e emagrece”; “natural não faz mal”; “manipulado pode”",
+    "audience_question_signal": "Desconhecido no X PT (7 posts/7d); inferido: Posso tomar ashwagandha para a menopausa? Manipulado pode?",
+    "content_opportunity": "Média",
+    "predicted_trajectory": "Até +30 (2026-12-02): ≥1 novo ato, alerta, apreensão ou ação de propaganda da Anvisa citando produtos de ashwagandha, ou ≥1 nova investigação de veículo brasileiro sobre a venda de ashwagandha. O X PT sobre ashwagandha fica <50 posts/7d em cada checkpoint.",
+    "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+    "prediction_confidence": "55%",
+    "key_sources": [
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/ashwagandha-suplemento-do-tiktok-nao-tem-registro-no-brasil"
+    ],
+    "key_accounts": [
+     "@anvisa_oficial",
+     "@Estadao",
+     "@BandJornalismo"
+    ],
+    "why_flagged": "Item levado das varreduras de 10-21/10-22, reconfirmado pelo Estadão em 27/10. Perfil B: ética de prescrição (ingrediente fora da lista não pode ser prescrito como suplemento) e triagem de segurança hepática para pacientes que se automedicam.",
+    "ProfileA_relevance": 25,
+    "ProfileB_relevance": 84,
+    "merged_from": [
+     "Varredura de 10-22: ashwagandha proibida no Brasil",
+     "Varredura de 10-30: repercussão no Estadão/Band"
+    ],
+    "scan_notes": "Não afirmar a situação regulatória de vias manipuladas/fitoterápicas sem fonte — manter “não autorizada como ingrediente de suplemento”, segundo a Anvisa. Lesão hepática é rara; não exagerar. Relacionada: NT-2026-10-05-01 (cúrcuma IN 438).",
+    "first_detected_date": "2026-10-21",
+    "latest_observation_date": "2026-11-02",
+    "prediction_freeze_date": "2026-11-02",
+    "next_review_date": "2026-11-09",
+    "review_dates": {
+     "plus_7": "2026-11-09",
+     "plus_14": "2026-11-16",
+     "plus_30": "2026-12-02"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_008"
+   },
+   "translation": {
+    "translated_at": "2026-11-02T09:40:00-03:00",
+    "source_file": "trends/NT-2026-11-02-07.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-11-02-07",
+    "topic": "Ashwagandha is prohibited in Brazil — Anvisa note (21 Oct) after the UK liver-failure case; Estadão (27 Oct) finds ads still promising anxiety/sleep/weight loss → herbal liver-safety FAQ (with cúrcuma IN 438 hepatotoxicity labelling)",
+    "stage_at_freeze": "Brazil Emerging",
+    "prediction_freeze_date": "2026-11-02",
+    "review_dates": {
+     "plus_7": "2026-11-09",
+     "plus_14": "2026-11-16",
+     "plus_30": "2026-12-02"
+    },
+    "next_review_date": "2026-11-09",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_008"
+   },
+   "cohort_id": "cohort_008",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-11-09",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-11-16",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-12-02",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-11-09"
+  },
+  {
+   "id": "NT-2026-11-02-08",
+   "frozen": {
+    "trend_id": "NT-2026-11-02-08",
+    "topic": "'Why doesn't this product have a nutrition table?' — viral X thread (@joaohaim, 14,326 imp) claims brands shrink packs to ≤100 cm² to skip the table; that exemption is existing law (RDC 429/2020 + IN 75/2020), not a new loophole",
+    "canonical_topic_name": "Small-package nutrition-label exemption in Brazil: packages with label area ≤100 cm² may omit the nutrition table unless they carry claims, enrichment or bioactives; label-literacy FAQ for patients reading front-of-pack and tables",
+    "source_market": "BR (Native)",
+    "origin_community": "X PT (single viral reply thread tagging @anvisa_oficial)",
+    "origin_type": "Social misunderstanding of existing rule",
+    "source_layer": "Discovery",
+    "stage": "Brazil Emerging",
+    "velocity": "PT X tabela nutricional/rotulagem/rótulo × anvisa 7d=10 (0;0;0;1;1;0;2 + 6 on 11-02 partial, per 11-02 sweep) — single viral post, negligible follow-on",
+    "reach": "Medium for one post (14,326 imp); Low overall",
+    "novelty": "Low-Medium — rule from 2020; labelling CP 1.400 frozen separately (NT-2026-10-19-03)",
+    "persistence_estimate": "Low — likely a one-off",
+    "brazil_presence": "Present/Native",
+    "brazil_momentum": "Single-day spike",
+    "primary_niches": [
+     "label literacy",
+     "clinical nutrition / patient education",
+     "food industry"
+    ],
+    "evidence_temperature": "Strong — the rule is documented in Anvisa's Q&A on nutrition labelling",
+    "misinformation_risk": "Medium — 'brecha nova da Anvisa'; 'marcas estão burlando a lei' (generalized from one claim)",
+    "audience_question_signal": "Yes — the thread itself; inferred: Por que esse produto não tem tabela nutricional?",
+    "content_opportunity": "Low-Medium",
+    "predicted_trajectory": "Stays small: by +30 (2026-12-02) no Anvisa rule change or official statement on the ≤100 cm² exemption, no tier-1 Brazilian outlet story on brands shrinking packs to avoid the table, and PT X on the label-size theme stays <50 posts/7d at +14 and +30. Any tier-1 story or Anvisa response = MISS.",
+    "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+    "prediction_confidence": "70%",
+    "key_sources": [
+     "https://x.com/joaohaim/status/2117024642405904396",
+     "https://www.gov.br/anvisa/pt-br/centraisdeconteudo/publicacoes/alimentos/perguntas-e-respostas-arquivos/rotulagem-nutricional_2a-edicao.pdf/@@download/file"
+    ],
+    "key_accounts": [
+     "@joaohaim",
+     "@anvisa_oficial"
+    ],
+    "why_flagged": "Calibration item (a 'won't take off' call) and a cheap, useful patient FAQ. Low relevance for both custom profiles.",
+    "ProfileA_relevance": 20,
+    "ProfileB_relevance": 55,
+    "merged_from": [
+     "Radar sweep 11-02: label ≤100 cm² thread"
+    ],
+    "scan_notes": "Do not say brands are breaking the law — the thread's claim is unverified. Rule reference: Anvisa Perguntas e Respostas, rotulagem nutricional 2ª edição. Related: NT-2026-10-19-03 (CP 1.400).",
+    "first_detected_date": "2026-11-01",
+    "latest_observation_date": "2026-11-02",
+    "prediction_freeze_date": "2026-11-02",
+    "next_review_date": "2026-11-09",
+    "review_dates": {
+     "plus_7": "2026-11-09",
+     "plus_14": "2026-11-16",
+     "plus_30": "2026-12-02"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_008"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-11-02-08",
+    "topic": "“Por que esse produto não tem tabela nutricional?” — fio viral no X (@joaohaim, 14.326 imp.) afirma que marcas encolhem embalagens para ≤100 cm² para dispensar a tabela; essa dispensa já está na lei (RDC 429/2020 + IN 75/2020), não é brecha nova",
+    "canonical_topic_name": "Dispensa de tabela nutricional em embalagens pequenas no Brasil: embalagens com área de rótulo ≤100 cm² podem omitir a tabela, salvo se tiverem alegações, enriquecimento ou bioativos; FAQ de leitura de rótulo para pacientes (rotulagem frontal e tabela)",
+    "source_market": "BR (nativo)",
+    "origin_community": "X PT (um único fio viral marcando @anvisa_oficial)",
+    "origin_type": "Mal-entendido social sobre regra existente",
+    "source_layer": "Descoberta",
+    "stage": "Brazil Emerging",
+    "velocity": "X PT tabela nutricional/rotulagem/rótulo × anvisa 7d=10 (0;0;0;1;1;0;2 + 6 em 11-02 parcial, varredura de 11-02) — um post viral, repercussão desprezível",
+    "reach": "Média para um post (14.326 imp.); baixa no geral",
+    "novelty": "Baixa-média — regra de 2020; a CP 1.400 de rotulagem foi congelada à parte (NT-2026-10-19-03)",
+    "persistence_estimate": "Baixa — provavelmente pontual",
+    "brazil_presence": "Presente/nativo",
+    "brazil_momentum": "Pico de um dia",
+    "primary_niches": [
+     "leitura de rótulos",
+     "nutrição clínica / educação do paciente",
+     "indústria de alimentos"
+    ],
+    "evidence_temperature": "Forte — a regra está documentada no Perguntas e Respostas da Anvisa sobre rotulagem nutricional",
+    "misinformation_risk": "Médio — “brecha nova da Anvisa”; “as marcas estão burlando a lei” (generalizado a partir de uma afirmação)",
+    "audience_question_signal": "Sim — o próprio fio; inferido: Por que esse produto não tem tabela nutricional?",
+    "content_opportunity": "Baixa-média",
+    "predicted_trajectory": "Continua pequeno: até +30 (2026-12-02) não há mudança de regra nem manifestação oficial da Anvisa sobre a dispensa de ≤100 cm², nenhum veículo brasileiro de primeira linha publica matéria sobre marcas encolhendo embalagens para evitar a tabela, e o X PT sobre o tema fica <50 posts/7d em +14 e +30. Qualquer matéria de primeira linha ou resposta da Anvisa = MISS.",
+    "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+    "prediction_confidence": "70%",
+    "key_sources": [
+     "https://x.com/joaohaim/status/2117024642405904396",
+     "https://www.gov.br/anvisa/pt-br/centraisdeconteudo/publicacoes/alimentos/perguntas-e-respostas-arquivos/rotulagem-nutricional_2a-edicao.pdf/@@download/file"
+    ],
+    "key_accounts": [
+     "@joaohaim",
+     "@anvisa_oficial"
+    ],
+    "why_flagged": "Item de calibração (previsão de “não vai decolar”) e FAQ barato e útil para pacientes. Baixa relevância para os dois perfis.",
+    "ProfileA_relevance": 20,
+    "ProfileB_relevance": 55,
+    "merged_from": [
+     "Varredura de 11-02: fio sobre rótulo ≤100 cm²"
+    ],
+    "scan_notes": "Não dizer que as marcas estão descumprindo a lei — a afirmação do fio não foi verificada. Referência da regra: Anvisa, Perguntas e Respostas, rotulagem nutricional 2ª edição. Relacionada: NT-2026-10-19-03 (CP 1.400).",
+    "first_detected_date": "2026-11-01",
+    "latest_observation_date": "2026-11-02",
+    "prediction_freeze_date": "2026-11-02",
+    "next_review_date": "2026-11-09",
+    "review_dates": {
+     "plus_7": "2026-11-09",
+     "plus_14": "2026-11-16",
+     "plus_30": "2026-12-02"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_008"
+   },
+   "translation": {
+    "translated_at": "2026-11-02T09:40:00-03:00",
+    "source_file": "trends/NT-2026-11-02-08.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-11-02-08",
+    "topic": "'Why doesn't this product have a nutrition table?' — viral X thread (@joaohaim, 14,326 imp) claims brands shrink packs to ≤100 cm² to skip the table; that exemption is existing law (RDC 429/2020 + IN 75/2020), not a new loophole",
+    "stage_at_freeze": "Brazil Emerging",
+    "prediction_freeze_date": "2026-11-02",
+    "review_dates": {
+     "plus_7": "2026-11-09",
+     "plus_14": "2026-11-16",
+     "plus_30": "2026-12-02"
+    },
+    "next_review_date": "2026-11-09",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_008"
+   },
+   "cohort_id": "cohort_008",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-11-09",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-11-16",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-12-02",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-11-09"
   }
  ],
  "general_observations": [
@@ -29216,7 +30658,7 @@
   }
  ],
  "counts": {
-  "trends": 76,
+  "trends": 84,
   "reviews": 198,
   "observations": 252
  },
