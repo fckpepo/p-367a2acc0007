@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-02T09:03:38-03:00",
+ "generated_at": "2026-11-08T09:58:55-03:00",
  "generated_tz": "America/Sao_Paulo",
- "build_date": "2026-11-02",
+ "build_date": "2026-11-08",
  "store": {
   "path": "/workspace/nutritrend"
  },
@@ -12,32 +12,33 @@
  },
  "overall": {
   "counts": {
-   "HIT": 15,
-   "PARTIAL": 36,
+   "HIT": 17,
+   "PARTIAL": 43,
    "MISS": 4,
-   "ANALYZING": 29
+   "ANALYZING": 20
   },
   "total": 84,
-  "hit_rate": 0.7895,
-  "hit_rate_hits": 15,
-  "hit_rate_denominator": 19
+  "hit_rate": 0.8095,
+  "hit_rate_hits": 17,
+  "hit_rate_denominator": 21
  },
  "overall_final": {
   "counts": {
-   "HIT": 12,
-   "PARTIAL": 25,
+   "HIT": 13,
+   "PARTIAL": 34,
    "MISS": 3,
    "ANALYZING": 6
   },
-  "total": 46,
-  "hit_rate": 0.8,
-  "hit_rate_hits": 12,
-  "hit_rate_denominator": 15,
+  "total": 56,
+  "hit_rate": 0.8125,
+  "hit_rate_hits": 13,
+  "hit_rate_denominator": 16,
   "cohorts": [
    "cohort_001",
    "cohort_002",
    "cohort_003",
-   "cohort_004"
+   "cohort_004",
+   "cohort_005"
   ]
  },
  "cohorts": [
@@ -230,22 +231,22 @@
    ],
    "_source_file": "reviews/schedule_cohort_005.json",
    "frozen_date": "2026-10-05",
-   "next_review_date": "2026-11-04",
+   "next_review_date": null,
    "overdue": 0,
-   "reviews_count": 20,
+   "reviews_count": 30,
    "summary": {
     "counts": {
-     "HIT": 0,
-     "PARTIAL": 4,
+     "HIT": 1,
+     "PARTIAL": 9,
      "MISS": 0,
-     "ANALYZING": 6
+     "ANALYZING": 0
     },
     "total": 10,
-    "hit_rate": null,
-    "hit_rate_hits": 0,
-    "hit_rate_denominator": 0
+    "hit_rate": 1.0,
+    "hit_rate_hits": 1,
+    "hit_rate_denominator": 1
    },
-   "latest_checkpoint": "plus_14",
+   "latest_checkpoint": "plus_30",
    "trend_ids": [
     "NT-2026-10-05-01",
     "NT-2026-10-05-02",
@@ -258,7 +259,7 @@
     "NT-2026-10-05-09",
     "NT-2026-10-05-10"
    ],
-   "final": false
+   "final": true
   },
   {
    "cohort_id": "cohort_006",
@@ -356,22 +357,22 @@
    ],
    "_source_file": "reviews/schedule_cohort_008.json",
    "frozen_date": "2026-11-02",
-   "next_review_date": "2026-11-09",
+   "next_review_date": "2026-11-16",
    "overdue": 0,
-   "reviews_count": 0,
+   "reviews_count": 8,
    "summary": {
     "counts": {
-     "HIT": 0,
-     "PARTIAL": 0,
+     "HIT": 1,
+     "PARTIAL": 2,
      "MISS": 0,
-     "ANALYZING": 8
+     "ANALYZING": 5
     },
     "total": 8,
-    "hit_rate": null,
-    "hit_rate_hits": 0,
-    "hit_rate_denominator": 0
+    "hit_rate": 1.0,
+    "hit_rate_hits": 1,
+    "hit_rate_denominator": 1
    },
-   "latest_checkpoint": null,
+   "latest_checkpoint": "plus_7",
    "trend_ids": [
     "NT-2026-11-02-01",
     "NT-2026-11-02-02",
@@ -17609,7 +17610,15 @@
      }
     }
    ],
-   "mentions": [],
+   "mentions": [
+    {
+     "observation_date": "2026-11-04",
+     "observation_type": "daily_radar_alert",
+     "from_trend_id": null,
+     "_source_file": "observations/2026-11-04.jsonl",
+     "_line": 1
+    }
+   ],
    "embedded_observation_log": [],
    "schedule": {
     "trend_id": "NT-2026-09-28-05",
@@ -19713,6 +19722,41 @@
       "rationale": "A trajetória congelada gira em torno do prazo de ~22/10; a janela decisiva ainda não chegou → INCONCLUSIVE no +14; o +30 (2026-11-04) é o teste real."
      },
      "_translated_at": "2026-10-19T21:30:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-10-05-01_plus30_2026-11-08",
+     "trend_id": "NT-2026-10-05-01",
+     "cohort_id": "cohort_005",
+     "review_horizon": "plus_30",
+     "scheduled_due_date": "2026-11-04",
+     "review_date": "2026-11-08",
+     "timezone": "America/Sao_Paulo",
+     "evidence_window": "2026-10-19..2026-11-08",
+     "result": "PARTIAL",
+     "previous_result": "INCONCLUSIVE",
+     "frozen_predicted_trajectory": "BR trade + RD explainers on exact warning text, total-curcuminoid math (80–130 mg), association ban, and SAC/website interim disclosure; post-deadline enforcement/SKU cleanup questions; Supplement Watch hepatotoxicity literacy without demonizing culinary turmeric",
+     "prediction_confidence": "82%",
+     "prediction_timeframe": "1–3 weeks around ~22 Oct deadline for dense trade/RD content; consumer may lag",
+     "prediction_freeze_date": "2026-10-05",
+     "evidence_summary": "Press/trade explainer cluster did appear: Correio Braziliense CB Radar (08/10) quotes the exact IN 438 warning text, the 80–130 mg total-curcuminoid math (sum of curcumin + demethoxy + bisdemethoxy), the 120 mg THC cap, the extract+THC association ban, the SAC/website interim-disclosure rule with old lots sellable to expiry, and explicitly excludes culinary turmeric; it cites the ICTQ regulatory summary for industry. Deadline 22/10 passed with no extension found. Post-deadline: Anvisa RE 4.334 (06/11) seized 'Active Life' (collagen II + cúrcuma + oyster calcium) for unconfirmed regularity and unauthorised claims, not for IN 438 labelling. No RD-authored hepatotoxicity-literacy content and no SKU-cleanup questions were found.",
+     "rationale": "Trade/press channel delivered every content component, but the RD channel and post-deadline enforcement/cleanup questions never showed up → PARTIAL (final; up from INCONCLUSIVE).",
+     "sources_checked": [
+      "https://www.correiobraziliense.com.br/cbradar/suplemento-de-curcuma-passa-a-trazer-no-rotulo-um-aviso-de-quem-nao-deve-consumir-e-fica-limitado-a-130-mg-de-curcuminoides-por-dia-para-adultos-com-prazo-ate-22-de-outubro-de-2026-para-a-industria/",
+      "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-determina-apreensao-de-suplementos-alimentares-irregulares",
+      "https://veja.abril.com.br/saude/anvisa-proibe-lote-de-creatina-e-outros-suplementos-alimentares-irregulares-veja-lista/"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {},
+     "run_note": "Scored by the Sunday Prediction Reviews routine on 2026-11-08 (scheduled due 2026-11-04, overdue mid-week checkpoint held for the Sunday run). Frozen prediction copied verbatim from trends/; never edited.",
+     "_source_file": "reviews/NT-2026-10-05-01_plus30_2026-11-08.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Explainers trade + nutricionistas sobre texto exato da advertência, conta de curcuminoides totais (80–130 mg), banimento de associação e divulgação interina via SAC/site; perguntas de enforcement/limpeza de SKU pós-prazo; alfabetização de hepatotoxicidade no Supplement Watch sem demonizar a cúrcuma culinária",
+      "prediction_timeframe": "1–3 semanas em torno do prazo ~22/10 para conteúdo trade/RD denso; o consumidor pode atrasar",
+      "evidence_summary": "Houve, sim, um bloco de explicadores na imprensa/trade: o CB Radar do Correio Braziliense (08/10) cita o texto exato da advertência da IN 438, a conta de 80–130 mg de curcuminoides totais (soma de curcumina + desmetoxi + bisdesmetoxi), o teto de 120 mg de THC, a proibição de associar extrato e THC, a regra de informar a advertência no SAC/site durante a transição com lotes antigos vendáveis até a validade, e deixa claro que a cúrcuma culinária fica de fora; também cita o resumo regulatório do ICTQ para a indústria. O prazo de 22/10 passou sem prorrogação encontrada. Após o prazo: a RE 4.334 da Anvisa (06/11) apreendeu o 'Active Life' (colágeno tipo II + cúrcuma + cálcio de ostra) por regularidade não confirmada e alegações não autorizadas, não por rotulagem da IN 438. Não encontramos conteúdo de nutricionistas sobre hepatotoxicidade nem dúvidas sobre limpeza de SKUs.",
+      "rationale": "O canal trade/imprensa entregou todos os componentes de conteúdo, mas o canal de nutricionistas e as dúvidas de fiscalização/limpeza pós-prazo não apareceram → PARCIAL (final; subiu de INCONCLUSIVE)."
+     },
+     "_translated_at": "2026-11-08T10:30:00-03:00"
     }
    ],
    "observations": [
@@ -19765,6 +19809,32 @@
       "stage_now": "Brasil em crescimento (prazo pendente)",
       "recommended_action": "Manter o lembrete do prazo da cúrcuma no pacote; reconferir conteúdo de mercado após 22/10."
      }
+    },
+    {
+     "observation_date": "2026-11-08",
+     "trend_id": "NT-2026-10-05-01",
+     "cohort_id": "cohort_005",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Brazil Growing",
+     "evidence_notes": "Press/trade explainer cluster did appear: Correio Braziliense CB Radar (08/10) quotes the exact IN 438 warning text, the 80–130 mg total-curcuminoid math (sum of curcumin + demethoxy + bisdemethoxy), the 120 mg THC cap, the extract+THC association ban, the SAC/website interim-disclosure rule with old lots sellable to expiry, and explicitly excludes culinary turmeric; it cites the ICTQ regulatory summary for industry. Deadline 22/10 passed with no extension found. Post-deadline: Anvisa RE 4.334 (06/11) seized 'Active Life' (collagen II + cúrcuma + oyster calcium) for unconfirmed regularity and unauthorised claims, not for IN 438 labelling. No RD-authored hepatotoxicity-literacy content and no SKU-cleanup questions were found.",
+     "sources_found": [
+      "https://www.correiobraziliense.com.br/cbradar/suplemento-de-curcuma-passa-a-trazer-no-rotulo-um-aviso-de-quem-nao-deve-consumir-e-fica-limitado-a-130-mg-de-curcuminoides-por-dia-para-adultos-com-prazo-ate-22-de-outubro-de-2026-para-a-industria/",
+      "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-determina-apreensao-de-suplementos-alimentares-irregulares",
+      "https://veja.abril.com.br/saude/anvisa-proibe-lote-de-creatina-e-outros-suplementos-alimentares-irregulares-veja-lista/"
+     ],
+     "notes": "plus30 result=PARTIAL; see reviews/NT-2026-10-05-01_plus30_2026-11-08.json",
+     "recommended_action": "Keep cúrcuma label FAQ (who should not take it, 80–130 mg, culinary ≠ supplement) as a ready Supplement Watch card.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {},
+     "_source_file": "observations/2026-11-08.jsonl",
+     "_line": 1,
+     "_pt": {
+      "evidence_notes": "Houve, sim, um bloco de explicadores na imprensa/trade: o CB Radar do Correio Braziliense (08/10) cita o texto exato da advertência da IN 438, a conta de 80–130 mg de curcuminoides totais (soma de curcumina + desmetoxi + bisdesmetoxi), o teto de 120 mg de THC, a proibição de associar extrato e THC, a regra de informar a advertência no SAC/site durante a transição com lotes antigos vendáveis até a validade, e deixa claro que a cúrcuma culinária fica de fora; também cita o resumo regulatório do ICTQ para a indústria. O prazo de 22/10 passou sem prorrogação encontrada. Após o prazo: a RE 4.334 da Anvisa (06/11) apreendeu o 'Active Life' (colágeno tipo II + cúrcuma + cálcio de ostra) por regularidade não confirmada e alegações não autorizadas, não por rotulagem da IN 438. Não encontramos conteúdo de nutricionistas sobre hepatotoxicidade nem dúvidas sobre limpeza de SKUs.",
+      "notes": "resultado plus30=PARTIAL; ver reviews/NT-2026-10-05-01_plus30_2026-11-08.json",
+      "stage_now": "Brasil em crescimento",
+      "recommended_action": "Manter o FAQ do rótulo da cúrcuma (quem não deve usar, 80–130 mg, tempero ≠ suplemento) como card pronto do Supplement Watch."
+     }
     }
    ],
    "mentions": [],
@@ -19779,16 +19849,16 @@
      "plus_14": "2026-10-19",
      "plus_30": "2026-11-04"
     },
-    "next_review_date": "2026-11-04",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-19",
-    "last_result": "INCONCLUSIVE",
+    "last_review_date": "2026-11-08",
+    "last_result": "PARTIAL",
     "cohort_id": "cohort_005"
    },
    "cohort_id": "cohort_005",
-   "latest_result": "INCONCLUSIVE",
-   "latest_review_date": "2026-10-19",
-   "status": "ANALYZING",
+   "latest_result": "PARTIAL",
+   "latest_review_date": "2026-11-08",
+   "status": "PARTIAL",
    "timeline": [
     {
      "horizon": "plus_7",
@@ -19809,13 +19879,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-11-04",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-11-08",
+     "review_id": "NT-2026-10-05-01_plus30_2026-11-08"
     }
    ],
-   "next_checkpoint": "2026-11-04"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-10-05-02",
@@ -20018,6 +20088,42 @@
       "rationale": "A onda de mídia persistiu e a demanda por letramento sobre creatina é alta, mas o corretivo comparativo específico de nutricionistas não se adensou → PARTIAL no +14 (sem mudança)."
      },
      "_translated_at": "2026-10-19T21:30:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-10-05-02_plus30_2026-11-08",
+     "trend_id": "NT-2026-10-05-02",
+     "cohort_id": "cohort_005",
+     "review_horizon": "plus_30",
+     "scheduled_due_date": "2026-11-04",
+     "review_date": "2026-11-08",
+     "timezone": "America/Sao_Paulo",
+     "evidence_window": "2026-10-19..2026-11-08",
+     "result": "HIT",
+     "previous_result": "PARTIAL",
+     "frozen_predicted_trajectory": "RD correctives separating JISSN experimental 10 g protocol from food-first+RT standard care and from IN 470 authorized claim (>55 + regular RT); Supplement Watch posts on headline vs methods; patient FAQ cards; do not rewrite NT-28-01/02 predictions",
+     "prediction_confidence": "85%",
+     "prediction_timeframe": "1–3 weeks for dense RD corrective content; influencer remix may extend",
+     "prediction_freeze_date": "2026-10-05",
+     "evidence_summary": "Correctives landed in the window: Estadão Pulsa (16/10) 'Creatina pode aumentar músculos sem exercício?' dissects the JISSN 10 g/d trial (DXA cannot separate muscle from water, incomplete randomisation, deficit adherence unclear) with USP researchers and the Texas A&M author, and concludes the benefits are consistent only with training; RD Paula Pereira's guide (29/10) puts the IN 470 authorised claim (>55, regular resistance training, 3–5 g) next to the research and says 'creatine without training' is not authorised; Rádio Nacional/EBC nutritionist segment on creatine 55+; Paranashop roundup (01/11) cites IN 470 alongside the studies. Patient-question demand stayed high in PT X.",
+     "rationale": "All frozen components present: headline-vs-methods correction, separation from food-first + RT standard care, and separation from the IN 470 claim, in RD and mainstream channels within the window → HIT (final; up from PARTIAL).",
+     "sources_checked": [
+      "https://www.estadao.com.br/pulsa/corpo-em-movimento/creatina-pode-aumentar-musculos-sem-exercicio-entenda-resultados-de-estudo-controverso/",
+      "https://paulapereiranutricionista.com.br/guias/creatina/",
+      "https://radionacional.ebc.com.br/programas/tarde-nacional-rio-de-janeiro/nutricionista-fala-sobre-a-creatina-para-pessoas-55",
+      "https://www.paranashop.com.br/post/creatina-em-alta-no-parana-anvisa-estudos-precos"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {},
+     "run_note": "Scored by the Sunday Prediction Reviews routine on 2026-11-08 (scheduled due 2026-11-04, overdue mid-week checkpoint held for the Sunday run). Frozen prediction copied verbatim from trends/; never edited.",
+     "_source_file": "reviews/NT-2026-10-05-02_plus30_2026-11-08.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Corretivos de nutricionistas separando o protocolo experimental JISSN 10 g do cuidado padrão comida-first+RT e da alegação autorizada IN 470 (>55 + RT regular); posts de Supplement Watch sobre manchete vs métodos; cards de FAQ; não reescrever previsões NT-28-01/02",
+      "prediction_timeframe": "1–3 semanas para conteúdo corretivo RD denso; remix de influenciadores pode estender",
+      "evidence_summary": "Os corretivos apareceram na janela: o Estadão Pulsa (16/10), em 'Creatina pode aumentar músculos sem exercício?', destrincha o estudo do JISSN com 10 g/dia (DXA não separa músculo de água, randomização incompleta, adesão ao déficit pouco clara) com pesquisadores da USP e o autor da Texas A&M, e conclui que os benefícios só são consistentes com treino; o guia da nutricionista Paula Pereira (29/10) coloca a alegação autorizada da IN 470 (>55 anos, treino resistido regular, 3–5 g) ao lado da pesquisa e diz que 'creatina sem treino' não está autorizada; quadro da Rádio Nacional/EBC com nutricionista sobre creatina 55+; matéria do Paranashop (01/11) cita a IN 470 junto com os estudos. A demanda de dúvidas de pacientes seguiu alta no X em PT.",
+      "rationale": "Todos os componentes congelados presentes: correção de manchete vs. método, separação do cuidado padrão comida + treino resistido e separação da alegação da IN 470, em canais de nutricionistas e da grande imprensa dentro da janela → ACERTO (final; subiu de PARCIAL)."
+     },
+     "_translated_at": "2026-11-08T10:30:00-03:00"
     }
    ],
    "observations": [
@@ -20078,6 +20184,33 @@
       "stage_now": "Brasil em crescimento",
       "recommended_action": "Incorporar o contraste JISSN × IN 470 ao FAQ de mitos da creatina (NT-2026-10-19-08)."
      }
+    },
+    {
+     "observation_date": "2026-11-08",
+     "trend_id": "NT-2026-10-05-02",
+     "cohort_id": "cohort_005",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Brazil Growing",
+     "evidence_notes": "Correctives landed in the window: Estadão Pulsa (16/10) 'Creatina pode aumentar músculos sem exercício?' dissects the JISSN 10 g/d trial (DXA cannot separate muscle from water, incomplete randomisation, deficit adherence unclear) with USP researchers and the Texas A&M author, and concludes the benefits are consistent only with training; RD Paula Pereira's guide (29/10) puts the IN 470 authorised claim (>55, regular resistance training, 3–5 g) next to the research and says 'creatine without training' is not authorised; Rádio Nacional/EBC nutritionist segment on creatine 55+; Paranashop roundup (01/11) cites IN 470 alongside the studies. Patient-question demand stayed high in PT X.",
+     "sources_found": [
+      "https://www.estadao.com.br/pulsa/corpo-em-movimento/creatina-pode-aumentar-musculos-sem-exercicio-entenda-resultados-de-estudo-controverso/",
+      "https://paulapereiranutricionista.com.br/guias/creatina/",
+      "https://radionacional.ebc.com.br/programas/tarde-nacional-rio-de-janeiro/nutricionista-fala-sobre-a-creatina-para-pessoas-55",
+      "https://www.paranashop.com.br/post/creatina-em-alta-no-parana-anvisa-estudos-precos"
+     ],
+     "notes": "plus30 result=HIT; see reviews/NT-2026-10-05-02_plus30_2026-11-08.json",
+     "recommended_action": "Reuse the confirmed angle (headline vs methods; IN 470 needs training) in the weekly subject pack.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {},
+     "_source_file": "observations/2026-11-08.jsonl",
+     "_line": 2,
+     "_pt": {
+      "evidence_notes": "Os corretivos apareceram na janela: o Estadão Pulsa (16/10), em 'Creatina pode aumentar músculos sem exercício?', destrincha o estudo do JISSN com 10 g/dia (DXA não separa músculo de água, randomização incompleta, adesão ao déficit pouco clara) com pesquisadores da USP e o autor da Texas A&M, e conclui que os benefícios só são consistentes com treino; o guia da nutricionista Paula Pereira (29/10) coloca a alegação autorizada da IN 470 (>55 anos, treino resistido regular, 3–5 g) ao lado da pesquisa e diz que 'creatina sem treino' não está autorizada; quadro da Rádio Nacional/EBC com nutricionista sobre creatina 55+; matéria do Paranashop (01/11) cita a IN 470 junto com os estudos. A demanda de dúvidas de pacientes seguiu alta no X em PT.",
+      "notes": "resultado plus30=HIT; ver reviews/NT-2026-10-05-02_plus30_2026-11-08.json",
+      "stage_now": "Brasil em crescimento",
+      "recommended_action": "Reaproveitar o ângulo confirmado (manchete vs. método; a IN 470 exige treino) no pacote semanal de pautas."
+     }
     }
    ],
    "mentions": [
@@ -20100,16 +20233,16 @@
      "plus_14": "2026-10-19",
      "plus_30": "2026-11-04"
     },
-    "next_review_date": "2026-11-04",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-19",
-    "last_result": "PARTIAL",
+    "last_review_date": "2026-11-08",
+    "last_result": "HIT",
     "cohort_id": "cohort_005"
    },
    "cohort_id": "cohort_005",
-   "latest_result": "PARTIAL",
-   "latest_review_date": "2026-10-19",
-   "status": "PARTIAL",
+   "latest_result": "HIT",
+   "latest_review_date": "2026-11-08",
+   "status": "HIT",
    "timeline": [
     {
      "horizon": "plus_7",
@@ -20130,13 +20263,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-11-04",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "HIT",
+     "review_date": "2026-11-08",
+     "review_id": "NT-2026-10-05-02_plus30_2026-11-08"
     }
    ],
-   "next_checkpoint": "2026-11-04"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-10-05-03",
@@ -20336,6 +20469,42 @@
       "rationale": "A camada de preço/FAQ está ativa como previsto e o enquadramento comida-primeiro aparece organicamente, mas o conteúdo liderado por nutricionistas sobre dose eficiente/quando vale o isolado segue fraco → PARTIAL no +14."
      },
      "_translated_at": "2026-10-19T21:30:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-10-05-03_plus30_2026-11-08",
+     "trend_id": "NT-2026-10-05-03",
+     "cohort_id": "cohort_005",
+     "review_horizon": "plus_30",
+     "scheduled_due_date": "2026-11-04",
+     "review_date": "2026-11-08",
+     "timezone": "America/Sao_Paulo",
+     "evidence_window": "2026-10-19..2026-11-08",
+     "result": "PARTIAL",
+     "previous_result": "PARTIAL",
+     "frozen_predicted_trajectory": "RD cost-aware protein counseling (food-first, dose-efficient whey, when isolate is worth it); Supplement Watch on format trade-offs; link to GLP-1 protein adequacy without claiming canetas uniquely caused the global dairy shock; do not rewrite NT-09-02/NT-14-07",
+     "prediction_confidence": "80%",
+     "prediction_timeframe": "2–6 weeks for ongoing price/FAQ content; structural relief multi-quarter",
+     "prediction_freeze_date": "2026-10-05",
+     "evidence_summary": "Whey cost/quality stayed in the news: ABCF lab test (22/10, Exame/R7) found half of 10 popular wheys more than 20% below label; promo bots dominate PT X whey price talk (R$53–79 coupons) alongside consumer questions on why whey is expensive. Cost-aware food-first alternatives exist (Engenharia do Corpo 25/09, Nutrimundo updated 08/10, Folha 10/09), but these predate or sit at the edge of the window; no dense in-window RD cluster on dose-efficient whey or when isolate is worth it was verified.",
+     "rationale": "Direction confirmed (price/quality FAQ demand, food-first framing) but carried by consumer and press channels; the RD cost-aware counseling densification was not verified by +30 → PARTIAL (final, unchanged).",
+     "sources_checked": [
+      "https://exame.com/ciencia/teste-com-10-marcas-de-whey-protein-encontra-diferenca-de-ate-90-entre-rotulo-e-resultado/",
+      "https://engenhariadocorpo.com.br/blog/whey-protein-ficou-caro-veja-quais-alimentos-podem-substituir-o-suplemento/",
+      "https://nutrimundo.com.br/alternativas-ao-whey-protein/",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-11-03.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {},
+     "run_note": "Scored by the Sunday Prediction Reviews routine on 2026-11-08 (scheduled due 2026-11-04, overdue mid-week checkpoint held for the Sunday run). Frozen prediction copied verbatim from trends/; never edited.",
+     "_source_file": "reviews/NT-2026-10-05-03_plus30_2026-11-08.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Aconselhamento RD sensível a custo (comida-first, whey eficiente em dose, quando o isolado vale a pena); Supplement Watch sobre trade-offs de formato; ligar à adequação proteica na caneta sem afirmar que as canetas causaram sozinhas o choque lácteo global; não reescrever NT-09-02/NT-14-07",
+      "prediction_timeframe": "2–6 semanas de conteúdo contínuo de preço/FAQ; alívio estrutural em vários trimestres",
+      "evidence_summary": "Custo e qualidade do whey seguiram no noticiário: o teste laboratorial da ABCF (22/10, Exame/R7) achou metade de 10 wheys populares mais de 20% abaixo do rótulo; bots de promoção dominam a conversa sobre preço de whey no X em PT (cupons de R$53–79), ao lado de dúvidas de consumidores sobre por que o whey é caro. Há alternativas 'comida primeiro' com foco em custo (Engenharia do Corpo 25/09, Nutrimundo atualizado em 08/10, Folha 10/09), mas são anteriores ou ficam na borda da janela; não verificamos um bloco denso de nutricionistas, dentro da janela, sobre whey com dose eficiente ou quando o isolado vale a pena.",
+      "rationale": "Direção confirmada (demanda por FAQ de preço/qualidade, enquadramento comida primeiro), mas puxada por consumidores e imprensa; o adensamento de aconselhamento de nutricionistas com foco em custo não foi verificado até o +30 → PARCIAL (final, sem mudança)."
+     },
+     "_translated_at": "2026-11-08T10:30:00-03:00"
     }
    ],
    "observations": [
@@ -20392,6 +20561,33 @@
       "stage_now": "Brasil em crescimento",
       "recommended_action": "Ângulo do pacote: proteína com olho no custo (comida primeiro, dose por porção, quando vale o isolado)."
      }
+    },
+    {
+     "observation_date": "2026-11-08",
+     "trend_id": "NT-2026-10-05-03",
+     "cohort_id": "cohort_005",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Brazil Growing",
+     "evidence_notes": "Whey cost/quality stayed in the news: ABCF lab test (22/10, Exame/R7) found half of 10 popular wheys more than 20% below label; promo bots dominate PT X whey price talk (R$53–79 coupons) alongside consumer questions on why whey is expensive. Cost-aware food-first alternatives exist (Engenharia do Corpo 25/09, Nutrimundo updated 08/10, Folha 10/09), but these predate or sit at the edge of the window; no dense in-window RD cluster on dose-efficient whey or when isolate is worth it was verified.",
+     "sources_found": [
+      "https://exame.com/ciencia/teste-com-10-marcas-de-whey-protein-encontra-diferenca-de-ate-90-entre-rotulo-e-resultado/",
+      "https://engenhariadocorpo.com.br/blog/whey-protein-ficou-caro-veja-quais-alimentos-podem-substituir-o-suplemento/",
+      "https://nutrimundo.com.br/alternativas-ao-whey-protein/",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-11-03.md"
+     ],
+     "notes": "plus30 result=PARTIAL; see reviews/NT-2026-10-05-03_plus30_2026-11-08.json",
+     "recommended_action": "Keep as a watch topic; merge with the whey-authenticity item (NT-2026-11-02-06).",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {},
+     "_source_file": "observations/2026-11-08.jsonl",
+     "_line": 3,
+     "_pt": {
+      "evidence_notes": "Custo e qualidade do whey seguiram no noticiário: o teste laboratorial da ABCF (22/10, Exame/R7) achou metade de 10 wheys populares mais de 20% abaixo do rótulo; bots de promoção dominam a conversa sobre preço de whey no X em PT (cupons de R$53–79), ao lado de dúvidas de consumidores sobre por que o whey é caro. Há alternativas 'comida primeiro' com foco em custo (Engenharia do Corpo 25/09, Nutrimundo atualizado em 08/10, Folha 10/09), mas são anteriores ou ficam na borda da janela; não verificamos um bloco denso de nutricionistas, dentro da janela, sobre whey com dose eficiente ou quando o isolado vale a pena.",
+      "notes": "resultado plus30=PARTIAL; ver reviews/NT-2026-10-05-03_plus30_2026-11-08.json",
+      "stage_now": "Brasil em crescimento",
+      "recommended_action": "Manter como tema de observação; unir ao item de autenticidade do whey (NT-2026-11-02-06)."
+     }
     }
    ],
    "mentions": [
@@ -20421,15 +20617,15 @@
      "plus_14": "2026-10-19",
      "plus_30": "2026-11-04"
     },
-    "next_review_date": "2026-11-04",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-19",
+    "last_review_date": "2026-11-08",
     "last_result": "PARTIAL",
     "cohort_id": "cohort_005"
    },
    "cohort_id": "cohort_005",
    "latest_result": "PARTIAL",
-   "latest_review_date": "2026-10-19",
+   "latest_review_date": "2026-11-08",
    "status": "PARTIAL",
    "timeline": [
     {
@@ -20451,13 +20647,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-11-04",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-11-08",
+     "review_id": "NT-2026-10-05-03_plus30_2026-11-08"
     }
    ],
-   "next_checkpoint": "2026-11-04"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-10-05-04",
@@ -20651,6 +20847,43 @@
       "rationale": "Sem dado de adensamento específico do consenso → INCONCLUSIVE no +14 (sem mudança)."
      },
      "_translated_at": "2026-10-19T21:30:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-10-05-04_plus30_2026-11-08",
+     "trend_id": "NT-2026-10-05-04",
+     "cohort_id": "cohort_005",
+     "review_horizon": "plus_30",
+     "scheduled_due_date": "2026-11-04",
+     "review_date": "2026-11-08",
+     "timezone": "America/Sao_Paulo",
+     "evidence_window": "2026-10-19..2026-11-08",
+     "result": "PARTIAL",
+     "previous_result": "INCONCLUSIVE",
+     "frozen_predicted_trajectory": "EN→BR education densification of dietitian-led MNT checklist (protein, RT, micros, function, psychology); BR commercial playbooks may cite without full society endorsement — flag source hierarchy; do not overwrite NT-09-01 / NT-28-06/07",
+     "prediction_confidence": "70%",
+     "prediction_timeframe": "2–8 weeks for EN CME densification; BR formal society pickup Unknown",
+     "prediction_freeze_date": "2026-10-05",
+     "evidence_summary": "BR pickup of the EASO–EFAD–ECPO consensus exists but predates the freeze (Veja Saúde 20/07; Nutrifono 22/07: 1.0–1.5 g/kg, minimum 60 g/day). In the window, BR nutritionist/clinician playbooks densified around the same checklist without citing the consensus explicitly: RD Daniel Nascimento's pen-supplementation hierarchy (updated 29/10: protein first, then resistance training, lab-guided corrections, fibre/GI, creatine last), nutritionist Vinicius Graton's 'quanta proteína com caneta' (01/11), Gabriel Maluli (07/11), Boa Forma (04/11). Function and psychology components were not prominent; no BR society endorsement.",
+     "rationale": "Direction confirmed (BR dietitian-led protein + RT checklist content densified in window), but explicit consensus-sourced MNT checklists covering function/psychology were not found → PARTIAL (final; up from INCONCLUSIVE).",
+     "sources_checked": [
+      "https://saude.abril.com.br/medicina/canetas-emagrecedoras-o-guia-da-alimentacao-ideal-segundo-consenso-medico-internacional/",
+      "https://blog.danielnascimentonutri.com.br/post/suplementa%C3%A7%C3%A3o-no-uso-de-canetas-emagrecedoras",
+      "https://drviniciusgraton.com.br/dicas/quanta-proteina-comer-com-caneta-emagrecedora/",
+      "https://drgabrielmaluli.com.br/artigos/proteina-quanto-comer",
+      "https://boaforma.abril.com.br/alimentacao/suplemento-para-quem-usa-caneta/"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {},
+     "run_note": "Scored by the Sunday Prediction Reviews routine on 2026-11-08 (scheduled due 2026-11-04, overdue mid-week checkpoint held for the Sunday run). Frozen prediction copied verbatim from trends/; never edited.",
+     "_source_file": "reviews/NT-2026-10-05-04_plus30_2026-11-08.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Densificação EN→BR de checklist de MNT liderada por nutricionista (proteína, RT, micros, função, psicologia); playbooks comerciais BR podem citar sem endosso pleno de sociedade — sinalizar hierarquia de fontes; não sobrescrever NT-09-01 / NT-28-06/07",
+      "prediction_timeframe": "2–8 semanas para densificação CME EN; adesão formal de sociedade BR Desconhecida",
+      "evidence_summary": "A repercussão brasileira do consenso EASO–EFAD–ECPO existe, mas é anterior ao congelamento (Veja Saúde 20/07; Nutrifono 22/07: 1,0–1,5 g/kg, mínimo de 60 g/dia). Na janela, roteiros de nutricionistas/clínicos brasileiros se adensaram em torno do mesmo checklist sem citar o consenso explicitamente: a hierarquia de suplementação na caneta do nutricionista Daniel Nascimento (atualizada em 29/10: proteína primeiro, depois treino resistido, correções guiadas por exame, fibra/TGI, creatina por último), o 'quanta proteína com caneta' do nutricionista Vinicius Graton (01/11), Gabriel Maluli (07/11), Boa Forma (04/11). Os componentes de função e psicologia não tiveram destaque; não houve endosso de sociedade brasileira.",
+      "rationale": "Direção confirmada (conteúdo brasileiro de checklist proteína + treino resistido liderado por nutricionistas se adensou na janela), mas não encontramos checklists de TNM explicitamente baseados no consenso cobrindo função/psicologia → PARCIAL (final; subiu de INCONCLUSIVE)."
+     },
+     "_translated_at": "2026-11-08T10:30:00-03:00"
     }
    ],
    "observations": [
@@ -20705,6 +20938,34 @@
       "stage_now": "Candidata a migração",
       "recommended_action": "Seguir monitorando citações em educação continuada/sociedades brasileiras."
      }
+    },
+    {
+     "observation_date": "2026-11-08",
+     "trend_id": "NT-2026-10-05-04",
+     "cohort_id": "cohort_005",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Migration Candidate",
+     "evidence_notes": "BR pickup of the EASO–EFAD–ECPO consensus exists but predates the freeze (Veja Saúde 20/07; Nutrifono 22/07: 1.0–1.5 g/kg, minimum 60 g/day). In the window, BR nutritionist/clinician playbooks densified around the same checklist without citing the consensus explicitly: RD Daniel Nascimento's pen-supplementation hierarchy (updated 29/10: protein first, then resistance training, lab-guided corrections, fibre/GI, creatine last), nutritionist Vinicius Graton's 'quanta proteína com caneta' (01/11), Gabriel Maluli (07/11), Boa Forma (04/11). Function and psychology components were not prominent; no BR society endorsement.",
+     "sources_found": [
+      "https://saude.abril.com.br/medicina/canetas-emagrecedoras-o-guia-da-alimentacao-ideal-segundo-consenso-medico-internacional/",
+      "https://blog.danielnascimentonutri.com.br/post/suplementa%C3%A7%C3%A3o-no-uso-de-canetas-emagrecedoras",
+      "https://drviniciusgraton.com.br/dicas/quanta-proteina-comer-com-caneta-emagrecedora/",
+      "https://drgabrielmaluli.com.br/artigos/proteina-quanto-comer",
+      "https://boaforma.abril.com.br/alimentacao/suplemento-para-quem-usa-caneta/"
+     ],
+     "notes": "plus30 result=PARTIAL; see reviews/NT-2026-10-05-04_plus30_2026-11-08.json",
+     "recommended_action": "Use the consensus numbers (1.0–1.5 g/kg, ≥60 g/day) with source hierarchy in the subject pack.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {},
+     "_source_file": "observations/2026-11-08.jsonl",
+     "_line": 4,
+     "_pt": {
+      "evidence_notes": "A repercussão brasileira do consenso EASO–EFAD–ECPO existe, mas é anterior ao congelamento (Veja Saúde 20/07; Nutrifono 22/07: 1,0–1,5 g/kg, mínimo de 60 g/dia). Na janela, roteiros de nutricionistas/clínicos brasileiros se adensaram em torno do mesmo checklist sem citar o consenso explicitamente: a hierarquia de suplementação na caneta do nutricionista Daniel Nascimento (atualizada em 29/10: proteína primeiro, depois treino resistido, correções guiadas por exame, fibra/TGI, creatina por último), o 'quanta proteína com caneta' do nutricionista Vinicius Graton (01/11), Gabriel Maluli (07/11), Boa Forma (04/11). Os componentes de função e psicologia não tiveram destaque; não houve endosso de sociedade brasileira.",
+      "notes": "resultado plus30=PARTIAL; ver reviews/NT-2026-10-05-04_plus30_2026-11-08.json",
+      "stage_now": "Candidato a migração",
+      "recommended_action": "Usar os números do consenso (1,0–1,5 g/kg, ≥60 g/dia) com a hierarquia de fontes no pacote de pautas."
+     }
     }
    ],
    "mentions": [
@@ -20741,16 +21002,16 @@
      "plus_14": "2026-10-19",
      "plus_30": "2026-11-04"
     },
-    "next_review_date": "2026-11-04",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-19",
-    "last_result": "INCONCLUSIVE",
+    "last_review_date": "2026-11-08",
+    "last_result": "PARTIAL",
     "cohort_id": "cohort_005"
    },
    "cohort_id": "cohort_005",
-   "latest_result": "INCONCLUSIVE",
-   "latest_review_date": "2026-10-19",
-   "status": "ANALYZING",
+   "latest_result": "PARTIAL",
+   "latest_review_date": "2026-11-08",
+   "status": "PARTIAL",
    "timeline": [
     {
      "horizon": "plus_7",
@@ -20771,13 +21032,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-11-04",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-11-08",
+     "review_id": "NT-2026-10-05-04_plus30_2026-11-08"
     }
    ],
-   "next_checkpoint": "2026-11-04"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-10-05-05",
@@ -20971,6 +21232,42 @@
       "rationale": "O enquadramento de triagem pela ingestão basal ganhou uma âncora de ensaio forte, mas explicações específicas de proteína absoluta na caneta não se adensaram claramente → PARTIAL no +14."
      },
      "_translated_at": "2026-10-19T21:30:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-10-05-05_plus30_2026-11-08",
+     "trend_id": "NT-2026-10-05-05",
+     "cohort_id": "cohort_005",
+     "review_horizon": "plus_30",
+     "scheduled_due_date": "2026-11-04",
+     "review_date": "2026-11-08",
+     "timezone": "America/Sao_Paulo",
+     "evidence_window": "2026-10-19..2026-11-08",
+     "result": "PARTIAL",
+     "previous_result": "PARTIAL",
+     "frozen_predicted_trajectory": "RD explainers on absolute protein grams vs %kcal; screening who needs denser protein strategies; pushback on equating lean-mass loss with clinical sarcopenia (continuity NT-21-04); food-first before brand ONS",
+     "prediction_confidence": "72%",
+     "prediction_timeframe": "2–6 weeks EN clinical densification; BR Unknown",
+     "prediction_freeze_date": "2026-10-05",
+     "evidence_summary": "Absolute-intake framing reached BR clinician/RD content in the window: Vinicius Graton (01/11) gives grams/day targets with a calculator and kidney/lab caveats; Gabriel Maluli (07/11) 'quanto comer para quem usa caneta'; CFN president Manuela Dolinsky in Veja on nutritional deficiencies in pen users (Obesity Pillars: 12.7% at 6 months, 22.4% at 1 year). Lean-mass ≠ sarcopenia pushback present (Metabolyka 07/10; DOM review). No explicit grams-vs-%kcal contrast or screening protocol for who needs denser protein strategies was found.",
+     "rationale": "Direction confirmed in BR channels (grams/day targets, deficiency screening context, lean-mass ≠ sarcopenia), but the explicit absolute-grams-vs-%kcal explainer and screening layer did not appear → PARTIAL (final, unchanged).",
+     "sources_checked": [
+      "https://drviniciusgraton.com.br/dicas/quanta-proteina-comer-com-caneta-emagrecedora/",
+      "https://drgabrielmaluli.com.br/artigos/proteina-quanto-comer",
+      "https://metabolyka.com.br/artigo/perder-peso-com-canetas-emagrecedoras-nao-e-o-mesmo",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-11-03.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {},
+     "run_note": "Scored by the Sunday Prediction Reviews routine on 2026-11-08 (scheduled due 2026-11-04, overdue mid-week checkpoint held for the Sunday run). Frozen prediction copied verbatim from trends/; never edited.",
+     "_source_file": "reviews/NT-2026-10-05-05_plus30_2026-11-08.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Explainers RD sobre gramas absolutas de proteína vs %kcal; triagem de quem precisa de estratégias proteicas mais densas; pushback em igualar perda de magra a sarcopenia clínica (continuidade NT-21-04); comida-first antes de ONS de marca",
+      "prediction_timeframe": "2–6 semanas de densificação clínica EN; BR Desconhecida",
+      "evidence_summary": "O enquadramento de ingestão absoluta chegou a conteúdo brasileiro de clínicos/nutricionistas na janela: Vinicius Graton (01/11) dá metas em gramas/dia com calculadora e ressalvas sobre rins/exames; Gabriel Maluli (07/11), 'quanto comer para quem usa caneta'; a presidente do CFN, Manuela Dolinsky, na Veja sobre deficiências nutricionais em usuários de caneta (Obesity Pillars: 12,7% aos 6 meses, 22,4% em 1 ano). A ressalva de que perda de massa magra ≠ sarcopenia apareceu (Metabolyka 07/10; revisão do DOM). Não encontramos o contraste explícito gramas vs. %kcal nem protocolo de triagem de quem precisa de estratégia proteica mais densa.",
+      "rationale": "Direção confirmada em canais brasileiros (metas em gramas/dia, contexto de triagem de deficiências, massa magra ≠ sarcopenia), mas o explicador explícito gramas absolutos vs. %kcal e a camada de triagem não apareceram → PARCIAL (final, sem mudança)."
+     },
+     "_translated_at": "2026-11-08T10:30:00-03:00"
     }
    ],
    "observations": [
@@ -21027,6 +21324,33 @@
       "stage_now": "Emergente",
       "recommended_action": "Ligar o TEAMS (NT-2026-10-19-07) ao conteúdo de triagem de proteína na caneta."
      }
+    },
+    {
+     "observation_date": "2026-11-08",
+     "trend_id": "NT-2026-10-05-05",
+     "cohort_id": "cohort_005",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Emerging",
+     "evidence_notes": "Absolute-intake framing reached BR clinician/RD content in the window: Vinicius Graton (01/11) gives grams/day targets with a calculator and kidney/lab caveats; Gabriel Maluli (07/11) 'quanto comer para quem usa caneta'; CFN president Manuela Dolinsky in Veja on nutritional deficiencies in pen users (Obesity Pillars: 12.7% at 6 months, 22.4% at 1 year). Lean-mass ≠ sarcopenia pushback present (Metabolyka 07/10; DOM review). No explicit grams-vs-%kcal contrast or screening protocol for who needs denser protein strategies was found.",
+     "sources_found": [
+      "https://drviniciusgraton.com.br/dicas/quanta-proteina-comer-com-caneta-emagrecedora/",
+      "https://drgabrielmaluli.com.br/artigos/proteina-quanto-comer",
+      "https://metabolyka.com.br/artigo/perder-peso-com-canetas-emagrecedoras-nao-e-o-mesmo",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-11-03.md"
+     ],
+     "notes": "plus30 result=PARTIAL; see reviews/NT-2026-10-05-05_plus30_2026-11-08.json",
+     "recommended_action": "Keep as a watch topic; content angle still useful.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {},
+     "_source_file": "observations/2026-11-08.jsonl",
+     "_line": 5,
+     "_pt": {
+      "evidence_notes": "O enquadramento de ingestão absoluta chegou a conteúdo brasileiro de clínicos/nutricionistas na janela: Vinicius Graton (01/11) dá metas em gramas/dia com calculadora e ressalvas sobre rins/exames; Gabriel Maluli (07/11), 'quanto comer para quem usa caneta'; a presidente do CFN, Manuela Dolinsky, na Veja sobre deficiências nutricionais em usuários de caneta (Obesity Pillars: 12,7% aos 6 meses, 22,4% em 1 ano). A ressalva de que perda de massa magra ≠ sarcopenia apareceu (Metabolyka 07/10; revisão do DOM). Não encontramos o contraste explícito gramas vs. %kcal nem protocolo de triagem de quem precisa de estratégia proteica mais densa.",
+      "notes": "resultado plus30=PARTIAL; ver reviews/NT-2026-10-05-05_plus30_2026-11-08.json",
+      "stage_now": "Emergente",
+      "recommended_action": "Manter como tema de observação; o ângulo de conteúdo continua útil."
+     }
     }
    ],
    "mentions": [
@@ -21049,15 +21373,15 @@
      "plus_14": "2026-10-19",
      "plus_30": "2026-11-04"
     },
-    "next_review_date": "2026-11-04",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-19",
+    "last_review_date": "2026-11-08",
     "last_result": "PARTIAL",
     "cohort_id": "cohort_005"
    },
    "cohort_id": "cohort_005",
    "latest_result": "PARTIAL",
-   "latest_review_date": "2026-10-19",
+   "latest_review_date": "2026-11-08",
    "status": "PARTIAL",
    "timeline": [
     {
@@ -21079,13 +21403,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-11-04",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-11-08",
+     "review_id": "NT-2026-10-05-05_plus30_2026-11-08"
     }
    ],
-   "next_checkpoint": "2026-11-04"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-10-05-06",
@@ -21273,6 +21597,41 @@
       "rationale": "Sem dado na janela sobre a trajetória congelada → INCONCLUSIVE no +14 (sem mudança)."
      },
      "_translated_at": "2026-10-19T21:30:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-10-05-06_plus30_2026-11-08",
+     "trend_id": "NT-2026-10-05-06",
+     "cohort_id": "cohort_005",
+     "review_horizon": "plus_30",
+     "scheduled_due_date": "2026-11-04",
+     "review_date": "2026-11-08",
+     "timezone": "America/Sao_Paulo",
+     "evidence_window": "2026-10-19..2026-11-08",
+     "result": "PARTIAL",
+     "previous_result": "INCONCLUSIVE",
+     "frozen_predicted_trajectory": "RD literacy: biological plausibility ≠ proven GLP-1 protocol; keep NCT07625202 as research; prioritize protein+RT; separate from IN 470 claim and from JISSN midlife sedentary arm headlines",
+     "prediction_confidence": "78%",
+     "prediction_timeframe": "2–6 weeks FAQ densification; trial readout Unknown",
+     "prediction_freeze_date": "2026-10-05",
+     "evidence_summary": "The predicted literacy exists in a BR RD channel: Daniel Nascimento's pen-supplementation post (first published 29/05, updated 29/10) ranks creatine last after protein and RT, says no randomised trial of creatine in GLP-1 users exists yet and that creatine is being oversold online as an antidote to lean-mass loss. NCT07625202 (creatine 10 g/d + RT during GLP-1a, n≈40) is still listed as a trial. No Ostojic follow-up, no trial readout, and no wider densification of this FAQ was found in the window; the in-window update date cannot show which text changed.",
+     "rationale": "Direction confirmed (plausibility ≠ proven, protein + RT first) in one BR RD source, but densification across channels was not seen by +30 → PARTIAL (final; up from INCONCLUSIVE).",
+     "sources_checked": [
+      "https://blog.danielnascimentonutri.com.br/post/suplementa%C3%A7%C3%A3o-no-uso-de-canetas-emagrecedoras",
+      "https://patient.info/research/trials/sarcopenia-nct07625202",
+      "https://www.barbellmedicine.com/blog/creatine-on-ozempic-does-it-prevent-muscle-loss/"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {},
+     "run_note": "Scored by the Sunday Prediction Reviews routine on 2026-11-08 (scheduled due 2026-11-04, overdue mid-week checkpoint held for the Sunday run). Frozen prediction copied verbatim from trends/; never edited.",
+     "_source_file": "reviews/NT-2026-10-05-06_plus30_2026-11-08.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Alfabetização RD: plausibilidade biológica ≠ protocolo GLP-1 comprovado; manter NCT07625202 como pesquisa; priorizar proteína+RT; separar da alegação IN 470 e das manchetes do braço sedentário JISSN midlife",
+      "prediction_timeframe": "2–6 semanas de densificação de FAQ; readout do ensaio Desconhecido",
+      "evidence_summary": "A alfabetização prevista existe em um canal de nutricionista brasileiro: o post do nutricionista Daniel Nascimento sobre suplementação na caneta (publicado em 29/05, atualizado em 29/10) coloca a creatina por último, depois de proteína e treino resistido, diz que ainda não há ensaio randomizado de creatina em usuários de GLP-1 e que a creatina está sendo vendida na internet como antídoto para perda de massa magra. O NCT07625202 (creatina 10 g/dia + treino resistido durante GLP-1a, n≈40) segue listado como ensaio. Não encontramos follow-up do Ostojic, resultado do ensaio nem adensamento mais amplo desse FAQ na janela; a data de atualização não mostra qual trecho mudou.",
+      "rationale": "Direção confirmada (plausibilidade ≠ comprovado, proteína + treino primeiro) em uma fonte brasileira de nutricionista, mas o adensamento entre canais não apareceu até o +30 → PARCIAL (final; subiu de INCONCLUSIVE)."
+     },
+     "_translated_at": "2026-11-08T10:30:00-03:00"
     }
    ],
    "observations": [
@@ -21323,6 +21682,32 @@
       "stage_now": "Emergente",
       "recommended_action": "Sem ação; reconferir no +30."
      }
+    },
+    {
+     "observation_date": "2026-11-08",
+     "trend_id": "NT-2026-10-05-06",
+     "cohort_id": "cohort_005",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Emerging",
+     "evidence_notes": "The predicted literacy exists in a BR RD channel: Daniel Nascimento's pen-supplementation post (first published 29/05, updated 29/10) ranks creatine last after protein and RT, says no randomised trial of creatine in GLP-1 users exists yet and that creatine is being oversold online as an antidote to lean-mass loss. NCT07625202 (creatine 10 g/d + RT during GLP-1a, n≈40) is still listed as a trial. No Ostojic follow-up, no trial readout, and no wider densification of this FAQ was found in the window; the in-window update date cannot show which text changed.",
+     "sources_found": [
+      "https://blog.danielnascimentonutri.com.br/post/suplementa%C3%A7%C3%A3o-no-uso-de-canetas-emagrecedoras",
+      "https://patient.info/research/trials/sarcopenia-nct07625202",
+      "https://www.barbellmedicine.com/blog/creatine-on-ozempic-does-it-prevent-muscle-loss/"
+     ],
+     "notes": "plus30 result=PARTIAL; see reviews/NT-2026-10-05-06_plus30_2026-11-08.json",
+     "recommended_action": "Keep 'creatine on the pen: plausible, not proven' as a myth-check card.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {},
+     "_source_file": "observations/2026-11-08.jsonl",
+     "_line": 6,
+     "_pt": {
+      "evidence_notes": "A alfabetização prevista existe em um canal de nutricionista brasileiro: o post do nutricionista Daniel Nascimento sobre suplementação na caneta (publicado em 29/05, atualizado em 29/10) coloca a creatina por último, depois de proteína e treino resistido, diz que ainda não há ensaio randomizado de creatina em usuários de GLP-1 e que a creatina está sendo vendida na internet como antídoto para perda de massa magra. O NCT07625202 (creatina 10 g/dia + treino resistido durante GLP-1a, n≈40) segue listado como ensaio. Não encontramos follow-up do Ostojic, resultado do ensaio nem adensamento mais amplo desse FAQ na janela; a data de atualização não mostra qual trecho mudou.",
+      "notes": "resultado plus30=PARTIAL; ver reviews/NT-2026-10-05-06_plus30_2026-11-08.json",
+      "stage_now": "Emergente",
+      "recommended_action": "Manter 'creatina na caneta: plausível, não comprovado' como card de checagem de mito."
+     }
     }
    ],
    "mentions": [
@@ -21345,16 +21730,16 @@
      "plus_14": "2026-10-19",
      "plus_30": "2026-11-04"
     },
-    "next_review_date": "2026-11-04",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-19",
-    "last_result": "INCONCLUSIVE",
+    "last_review_date": "2026-11-08",
+    "last_result": "PARTIAL",
     "cohort_id": "cohort_005"
    },
    "cohort_id": "cohort_005",
-   "latest_result": "INCONCLUSIVE",
-   "latest_review_date": "2026-10-19",
-   "status": "ANALYZING",
+   "latest_result": "PARTIAL",
+   "latest_review_date": "2026-11-08",
+   "status": "PARTIAL",
    "timeline": [
     {
      "horizon": "plus_7",
@@ -21375,13 +21760,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-11-04",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-11-08",
+     "review_id": "NT-2026-10-05-06_plus30_2026-11-08"
     }
    ],
-   "next_checkpoint": "2026-11-04"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-10-05-07",
@@ -21576,6 +21961,41 @@
       "rationale": "O enquadramento proteína+RT primeiro e micronutrientes por fenótipo se adensou em inglês; camada brasileira segue Unknown → PARTIAL no +14 (sem mudança)."
      },
      "_translated_at": "2026-10-19T21:30:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-10-05-07_plus30_2026-11-08",
+     "trend_id": "NT-2026-10-05-07",
+     "cohort_id": "cohort_005",
+     "review_horizon": "plus_30",
+     "scheduled_due_date": "2026-11-04",
+     "review_date": "2026-11-08",
+     "timezone": "America/Sao_Paulo",
+     "evidence_window": "2026-10-19..2026-11-08",
+     "result": "PARTIAL",
+     "previous_result": "PARTIAL",
+     "frozen_predicted_trajectory": "RD checklists prioritizing protein+RT; phenotype-driven micros; adjuncts framed as optional/evidence-limited; pushback on brand-mandatory stacks; sports RDs adapt GSSI-style optimization language",
+     "prediction_confidence": "74%",
+     "prediction_timeframe": "2–8 weeks EN education densification; BR Unknown",
+     "prediction_freeze_date": "2026-10-05",
+     "evidence_summary": "Toolkit content moved into BR: Daniel Nascimento's RD hierarchy (updated 29/10) — protein, RT, lab-guided corrections (phenotype-driven micros), fibre/GI, creatine, 'the rest is expensive decoration' (pushback on stacks); Boa Forma (04/11) on what actually protects lean mass (diet, training, supplementation only when intake falls short) after the Equaliv recall; Vinicius Graton (01/11). EN fragments continued (DOM lean-mass reviews, Lancet women piece). Sports-RD 'GSSI-style optimization' language was not found.",
+     "rationale": "Most components now visible in BR RD/press channels, but sports-RD optimisation language is missing and adoption is still thin → PARTIAL (final, unchanged).",
+     "sources_checked": [
+      "https://blog.danielnascimentonutri.com.br/post/suplementa%C3%A7%C3%A3o-no-uso-de-canetas-emagrecedoras",
+      "https://boaforma.abril.com.br/alimentacao/suplemento-para-quem-usa-caneta/",
+      "https://drviniciusgraton.com.br/dicas/quanta-proteina-comer-com-caneta-emagrecedora/"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {},
+     "run_note": "Scored by the Sunday Prediction Reviews routine on 2026-11-08 (scheduled due 2026-11-04, overdue mid-week checkpoint held for the Sunday run). Frozen prediction copied verbatim from trends/; never edited.",
+     "_source_file": "reviews/NT-2026-10-05-07_plus30_2026-11-08.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Checklists RD priorizando proteína+RT; micros por fenótipo; adjuvantes como opcionais/evidência limitada; pushback a stacks de marca obrigatórios; nutricionistas do esporte adaptam linguagem estilo GSSI",
+      "prediction_timeframe": "2–8 semanas de densificação educacional EN; BR Desconhecida",
+      "evidence_summary": "O conteúdo de 'kit de preservação' chegou ao Brasil: a hierarquia do nutricionista Daniel Nascimento (atualizada em 29/10) — proteína, treino resistido, correções guiadas por exame (micronutrientes conforme o fenótipo), fibra/TGI, creatina e 'o resto vira enfeite caro' (crítica aos stacks); a Boa Forma (04/11) sobre o que de fato protege a massa magra (dieta, treino e suplemento só quando a ingestão não basta) após o recolhimento do Equaliv; Vinicius Graton (01/11). Fragmentos em inglês continuaram (revisões do DOM sobre massa magra, artigo da Lancet sobre mulheres). Não encontramos linguagem de 'otimização estilo GSSI' de nutricionistas esportivos.",
+      "rationale": "A maioria dos componentes agora aparece em canais brasileiros de nutricionistas/imprensa, mas falta a linguagem de otimização do nutricionista esportivo e a adoção ainda é fina → PARCIAL (final, sem mudança)."
+     },
+     "_translated_at": "2026-11-08T10:30:00-03:00"
     }
    ],
    "observations": [
@@ -21634,6 +22054,32 @@
       "stage_now": "Emergente",
       "recommended_action": "Usar TEAMS + Lancet mulheres como âncoras do pacote."
      }
+    },
+    {
+     "observation_date": "2026-11-08",
+     "trend_id": "NT-2026-10-05-07",
+     "cohort_id": "cohort_005",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Emerging",
+     "evidence_notes": "Toolkit content moved into BR: Daniel Nascimento's RD hierarchy (updated 29/10) — protein, RT, lab-guided corrections (phenotype-driven micros), fibre/GI, creatine, 'the rest is expensive decoration' (pushback on stacks); Boa Forma (04/11) on what actually protects lean mass (diet, training, supplementation only when intake falls short) after the Equaliv recall; Vinicius Graton (01/11). EN fragments continued (DOM lean-mass reviews, Lancet women piece). Sports-RD 'GSSI-style optimization' language was not found.",
+     "sources_found": [
+      "https://blog.danielnascimentonutri.com.br/post/suplementa%C3%A7%C3%A3o-no-uso-de-canetas-emagrecedoras",
+      "https://boaforma.abril.com.br/alimentacao/suplemento-para-quem-usa-caneta/",
+      "https://drviniciusgraton.com.br/dicas/quanta-proteina-comer-com-caneta-emagrecedora/"
+     ],
+     "notes": "plus30 result=PARTIAL; see reviews/NT-2026-10-05-07_plus30_2026-11-08.json",
+     "recommended_action": "Keep as a watch topic; reuse the hierarchy angle.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {},
+     "_source_file": "observations/2026-11-08.jsonl",
+     "_line": 7,
+     "_pt": {
+      "evidence_notes": "O conteúdo de 'kit de preservação' chegou ao Brasil: a hierarquia do nutricionista Daniel Nascimento (atualizada em 29/10) — proteína, treino resistido, correções guiadas por exame (micronutrientes conforme o fenótipo), fibra/TGI, creatina e 'o resto vira enfeite caro' (crítica aos stacks); a Boa Forma (04/11) sobre o que de fato protege a massa magra (dieta, treino e suplemento só quando a ingestão não basta) após o recolhimento do Equaliv; Vinicius Graton (01/11). Fragmentos em inglês continuaram (revisões do DOM sobre massa magra, artigo da Lancet sobre mulheres). Não encontramos linguagem de 'otimização estilo GSSI' de nutricionistas esportivos.",
+      "notes": "resultado plus30=PARTIAL; ver reviews/NT-2026-10-05-07_plus30_2026-11-08.json",
+      "stage_now": "Emergente",
+      "recommended_action": "Manter como tema de observação; reaproveitar o ângulo da hierarquia."
+     }
     }
    ],
    "mentions": [
@@ -21670,15 +22116,15 @@
      "plus_14": "2026-10-19",
      "plus_30": "2026-11-04"
     },
-    "next_review_date": "2026-11-04",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-19",
+    "last_review_date": "2026-11-08",
     "last_result": "PARTIAL",
     "cohort_id": "cohort_005"
    },
    "cohort_id": "cohort_005",
    "latest_result": "PARTIAL",
-   "latest_review_date": "2026-10-19",
+   "latest_review_date": "2026-11-08",
    "status": "PARTIAL",
    "timeline": [
     {
@@ -21700,13 +22146,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-11-04",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-11-08",
+     "review_id": "NT-2026-10-05-07_plus30_2026-11-08"
     }
    ],
-   "next_checkpoint": "2026-11-04"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-10-05-08",
@@ -21902,6 +22348,41 @@
       "rationale": "Sem dado novo sobre a trajetória congelada de FAQ residual → INCONCLUSIVE no +14 (abaixo do PARTIAL do +7 por falta de evidência, não por evidência contrária)."
      },
      "_translated_at": "2026-10-19T21:30:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-10-05-08_plus30_2026-11-08",
+     "trend_id": "NT-2026-10-05-08",
+     "cohort_id": "cohort_005",
+     "review_horizon": "plus_30",
+     "scheduled_due_date": "2026-11-04",
+     "review_date": "2026-11-08",
+     "timezone": "America/Sao_Paulo",
+     "evidence_window": "2026-10-19..2026-11-08",
+     "result": "PARTIAL",
+     "previous_result": "INCONCLUSIVE",
+     "frozen_predicted_trajectory": "Ongoing RD indication/advertising hygiene FAQs even as social cools; CFN ethics reminder linkage; distinguish sale-legal vs ad-illegal; companion food products ≠ Rx indication expansion",
+     "prediction_confidence": "75%",
+     "prediction_timeframe": "1–4 weeks residual FAQ content",
+     "prediction_freeze_date": "2026-10-05",
+     "evidence_summary": "Indication/advertising hygiene stayed in press and market coverage even as Semavy social cooled: Valor (28/10) and Pipeline Valor/Itaú BBA report Semavy as Hypera's top sell-out product; Band (06/11) on the EMS SemaClique launch spells out that the national semaglutide pens are registered for type 2 diabetes only and that obesity use is not on the label (prescription retained). No dedicated BR RD FAQ on sale-legal vs ad-illegal, CFN ethics linkage, or companion foods ≠ Rx indication was found.",
+     "rationale": "Regulator/press direction confirmed (sale legal with prescription, DM2-only indication, ad clamp), RD FAQ channel absent at +30 → PARTIAL (final; up from INCONCLUSIVE), consistent with NT-2026-09-28-03.",
+     "sources_checked": [
+      "https://valor.globo.com/empresas/noticia/2026/10/28/caneta-emagrecedora-lancada-em-setembro-ja-e-o-produto-de-maior-venda-da-hypera.ghtml",
+      "https://www.band.com.br/saude/nova-caneta-de-semaglutida-chega-as-farmacias-brasileiras-veja-precos",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-11-06.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {},
+     "run_note": "Scored by the Sunday Prediction Reviews routine on 2026-11-08 (scheduled due 2026-11-04, overdue mid-week checkpoint held for the Sunday run). Frozen prediction copied verbatim from trends/; never edited.",
+     "_source_file": "reviews/NT-2026-10-05-08_plus30_2026-11-08.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "FAQs contínuas de higiene de indicação/publicidade mesmo com social esfriado; ligação ao lembrete ético CFN; distinguir venda-legal vs propaganda-ilegal; produtos companion de comida ≠ expansão de indicação Rx",
+      "prediction_timeframe": "1–4 semanas de conteúdo residual de FAQ",
+      "evidence_summary": "A higiene de indicação/publicidade seguiu na cobertura de imprensa e mercado, mesmo com o Semavy esfriando nas redes: o Valor (28/10) e o Pipeline Valor/Itaú BBA apontam o Semavy como o produto mais vendido da Hypera; a Band (06/11), sobre o lançamento do SemaClique da EMS, explica que as canetas nacionais de semaglutida são registradas só para diabetes tipo 2 e que o uso para obesidade não está na bula (receita retida). Não encontramos FAQ dedicado de nutricionistas sobre venda legal vs. propaganda ilegal, ligação com a ética do CFN ou alimentos 'companheiros' ≠ indicação do medicamento.",
+      "rationale": "Direção confirmada pelo regulador/imprensa (venda legal com receita, indicação só DM2, trava na propaganda), canal de FAQ de nutricionistas ausente no +30 → PARCIAL (final; subiu de INCONCLUSIVE), coerente com NT-2026-09-28-03."
+     },
+     "_translated_at": "2026-11-08T10:30:00-03:00"
     }
    ],
    "observations": [
@@ -21957,6 +22438,32 @@
       "stage_now": "Brasil em crescimento (esfriou)",
       "recommended_action": "Sem ação."
      }
+    },
+    {
+     "observation_date": "2026-11-08",
+     "trend_id": "NT-2026-10-05-08",
+     "cohort_id": "cohort_005",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Brazil Growing",
+     "evidence_notes": "Indication/advertising hygiene stayed in press and market coverage even as Semavy social cooled: Valor (28/10) and Pipeline Valor/Itaú BBA report Semavy as Hypera's top sell-out product; Band (06/11) on the EMS SemaClique launch spells out that the national semaglutide pens are registered for type 2 diabetes only and that obesity use is not on the label (prescription retained). No dedicated BR RD FAQ on sale-legal vs ad-illegal, CFN ethics linkage, or companion foods ≠ Rx indication was found.",
+     "sources_found": [
+      "https://valor.globo.com/empresas/noticia/2026/10/28/caneta-emagrecedora-lancada-em-setembro-ja-e-o-produto-de-maior-venda-da-hypera.ghtml",
+      "https://www.band.com.br/saude/nova-caneta-de-semaglutida-chega-as-farmacias-brasileiras-veja-precos",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-11-06.md"
+     ],
+     "notes": "plus30 result=PARTIAL; see reviews/NT-2026-10-05-08_plus30_2026-11-08.json",
+     "recommended_action": "Fold into the 'which pen?' literacy item (NT-2026-11-02-04).",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {},
+     "_source_file": "observations/2026-11-08.jsonl",
+     "_line": 8,
+     "_pt": {
+      "evidence_notes": "A higiene de indicação/publicidade seguiu na cobertura de imprensa e mercado, mesmo com o Semavy esfriando nas redes: o Valor (28/10) e o Pipeline Valor/Itaú BBA apontam o Semavy como o produto mais vendido da Hypera; a Band (06/11), sobre o lançamento do SemaClique da EMS, explica que as canetas nacionais de semaglutida são registradas só para diabetes tipo 2 e que o uso para obesidade não está na bula (receita retida). Não encontramos FAQ dedicado de nutricionistas sobre venda legal vs. propaganda ilegal, ligação com a ética do CFN ou alimentos 'companheiros' ≠ indicação do medicamento.",
+      "notes": "resultado plus30=PARTIAL; ver reviews/NT-2026-10-05-08_plus30_2026-11-08.json",
+      "stage_now": "Brasil em crescimento",
+      "recommended_action": "Incorporar ao item de alfabetização 'qual caneta?' (NT-2026-11-02-04)."
+     }
     }
    ],
    "mentions": [],
@@ -21971,16 +22478,16 @@
      "plus_14": "2026-10-19",
      "plus_30": "2026-11-04"
     },
-    "next_review_date": "2026-11-04",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-19",
-    "last_result": "INCONCLUSIVE",
+    "last_review_date": "2026-11-08",
+    "last_result": "PARTIAL",
     "cohort_id": "cohort_005"
    },
    "cohort_id": "cohort_005",
-   "latest_result": "INCONCLUSIVE",
-   "latest_review_date": "2026-10-19",
-   "status": "ANALYZING",
+   "latest_result": "PARTIAL",
+   "latest_review_date": "2026-11-08",
+   "status": "PARTIAL",
    "timeline": [
     {
      "horizon": "plus_7",
@@ -22001,13 +22508,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-11-04",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-11-08",
+     "review_id": "NT-2026-10-05-08_plus30_2026-11-08"
     }
    ],
-   "next_checkpoint": "2026-11-04"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-10-05-09",
@@ -22206,6 +22713,41 @@
       "rationale": "O pico de letramento comparativo de 1–4 semanas congelado não foi observado e não há dado novo → INCONCLUSIVE no +14 (abaixo do PARTIAL do +7 por falta de evidência)."
      },
      "_translated_at": "2026-10-19T21:30:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-10-05-09_plus30_2026-11-08",
+     "trend_id": "NT-2026-10-05-09",
+     "cohort_id": "cohort_005",
+     "review_horizon": "plus_30",
+     "scheduled_due_date": "2026-11-04",
+     "review_date": "2026-11-08",
+     "timezone": "America/Sao_Paulo",
+     "evidence_window": "2026-10-19..2026-11-08",
+     "result": "PARTIAL",
+     "previous_result": "INCONCLUSIVE",
+     "frozen_predicted_trajectory": "Comparative RD posts/tables: IN 470 claim text (age gate + RT + composition limits) vs JISSN experimental arms; explicit “not the same object” education; brands may chase claim while influencers chase 10 g — monitor both",
+     "prediction_confidence": "83%",
+     "prediction_timeframe": "1–4 weeks for comparative literacy content spike",
+     "prediction_freeze_date": "2026-10-05",
+     "evidence_summary": "Comparative literacy appeared in pieces, not as explicit side-by-side tables: Paula Pereira RD guide (29/10) states the IN 470 conditions and notes that benefit without exercise appears mainly with loading or high doses; Estadão Pulsa (16/10) dissects the JISSN 10 g arms but does not mention IN 470; Paranashop (01/11) mentions both and flags an unconfirmed '5 g' rule. No post explicitly framing claim text vs JISSN arms as 'not the same object' was found; brands kept chasing the >55 claim (FarmaCerto, Eternità condition tables).",
+     "rationale": "Both waves were addressed in BR content but the explicit comparison never materialised → PARTIAL (final; up from INCONCLUSIVE), consistent with NT-2026-09-28-02.",
+     "sources_checked": [
+      "https://paulapereiranutricionista.com.br/guias/creatina/",
+      "https://www.estadao.com.br/pulsa/corpo-em-movimento/creatina-pode-aumentar-musculos-sem-exercicio-entenda-resultados-de-estudo-controverso/",
+      "https://www.paranashop.com.br/post/creatina-em-alta-no-parana-anvisa-estudos-precos"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {},
+     "run_note": "Scored by the Sunday Prediction Reviews routine on 2026-11-08 (scheduled due 2026-11-04, overdue mid-week checkpoint held for the Sunday run). Frozen prediction copied verbatim from trends/; never edited.",
+     "_source_file": "reviews/NT-2026-10-05-09_plus30_2026-11-08.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Posts/tabelas comparativas RD: texto da alegação IN 470 (porta de idade + RT + limites de composição) vs braços experimentais JISSN; educação explícita “não é o mesmo objeto”; marcas podem perseguir a alegação enquanto influenciadores perseguem 10 g — monitorar ambos",
+      "prediction_timeframe": "1–4 semanas para pico de conteúdo de alfabetização comparativa",
+      "evidence_summary": "A alfabetização comparativa apareceu em partes, não como tabelas lado a lado: o guia da nutricionista Paula Pereira (29/10) traz as condições da IN 470 e observa que o benefício sem exercício aparece principalmente com saturação ou doses altas; o Estadão Pulsa (16/10) destrincha os braços de 10 g do JISSN, mas não menciona a IN 470; o Paranashop (01/11) cita os dois e aponta uma regra de '5 g' não confirmada. Não encontramos post que enquadre explicitamente o texto da alegação vs. os braços do JISSN como 'não é a mesma coisa'; as marcas seguiram atrás da alegação >55 (tabelas de condições da FarmaCerto e da Eternità).",
+      "rationale": "As duas ondas foram tratadas em conteúdo brasileiro, mas a comparação explícita nunca se materializou → PARCIAL (final; subiu de INCONCLUSIVE), coerente com NT-2026-09-28-02."
+     },
+     "_translated_at": "2026-11-08T10:30:00-03:00"
     }
    ],
    "observations": [
@@ -22265,6 +22807,32 @@
       "stage_now": "Brasil emergente → em crescimento",
       "recommended_action": "Checagem final no +30."
      }
+    },
+    {
+     "observation_date": "2026-11-08",
+     "trend_id": "NT-2026-10-05-09",
+     "cohort_id": "cohort_005",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Brazil Emerging → Growing",
+     "evidence_notes": "Comparative literacy appeared in pieces, not as explicit side-by-side tables: Paula Pereira RD guide (29/10) states the IN 470 conditions and notes that benefit without exercise appears mainly with loading or high doses; Estadão Pulsa (16/10) dissects the JISSN 10 g arms but does not mention IN 470; Paranashop (01/11) mentions both and flags an unconfirmed '5 g' rule. No post explicitly framing claim text vs JISSN arms as 'not the same object' was found; brands kept chasing the >55 claim (FarmaCerto, Eternità condition tables).",
+     "sources_found": [
+      "https://paulapereiranutricionista.com.br/guias/creatina/",
+      "https://www.estadao.com.br/pulsa/corpo-em-movimento/creatina-pode-aumentar-musculos-sem-exercicio-entenda-resultados-de-estudo-controverso/",
+      "https://www.paranashop.com.br/post/creatina-em-alta-no-parana-anvisa-estudos-precos"
+     ],
+     "notes": "plus30 result=PARTIAL; see reviews/NT-2026-10-05-09_plus30_2026-11-08.json",
+     "recommended_action": "Build the missing comparison table ourselves for the subject pack.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {},
+     "_source_file": "observations/2026-11-08.jsonl",
+     "_line": 9,
+     "_pt": {
+      "evidence_notes": "A alfabetização comparativa apareceu em partes, não como tabelas lado a lado: o guia da nutricionista Paula Pereira (29/10) traz as condições da IN 470 e observa que o benefício sem exercício aparece principalmente com saturação ou doses altas; o Estadão Pulsa (16/10) destrincha os braços de 10 g do JISSN, mas não menciona a IN 470; o Paranashop (01/11) cita os dois e aponta uma regra de '5 g' não confirmada. Não encontramos post que enquadre explicitamente o texto da alegação vs. os braços do JISSN como 'não é a mesma coisa'; as marcas seguiram atrás da alegação >55 (tabelas de condições da FarmaCerto e da Eternità).",
+      "notes": "resultado plus30=PARTIAL; ver reviews/NT-2026-10-05-09_plus30_2026-11-08.json",
+      "stage_now": "Brasil emergente → em crescimento",
+      "recommended_action": "Montar nós mesmos a tabela comparativa que faltou, para o pacote de pautas."
+     }
     }
    ],
    "mentions": [],
@@ -22279,16 +22847,16 @@
      "plus_14": "2026-10-19",
      "plus_30": "2026-11-04"
     },
-    "next_review_date": "2026-11-04",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-19",
-    "last_result": "INCONCLUSIVE",
+    "last_review_date": "2026-11-08",
+    "last_result": "PARTIAL",
     "cohort_id": "cohort_005"
    },
    "cohort_id": "cohort_005",
-   "latest_result": "INCONCLUSIVE",
-   "latest_review_date": "2026-10-19",
-   "status": "ANALYZING",
+   "latest_result": "PARTIAL",
+   "latest_review_date": "2026-11-08",
+   "status": "PARTIAL",
    "timeline": [
     {
      "horizon": "plus_7",
@@ -22309,13 +22877,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-11-04",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-11-08",
+     "review_id": "NT-2026-10-05-09_plus30_2026-11-08"
     }
    ],
-   "next_checkpoint": "2026-11-04"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-10-05-10",
@@ -22507,6 +23075,42 @@
       "rationale": "A trajetória de preparação silenciosa vai até jan/2027; sem dado na janela → INCONCLUSIVE no +14 (sem mudança)."
      },
      "_translated_at": "2026-10-19T21:30:00-03:00"
+    },
+    {
+     "review_id": "NT-2026-10-05-10_plus30_2026-11-08",
+     "trend_id": "NT-2026-10-05-10",
+     "cohort_id": "cohort_005",
+     "review_horizon": "plus_30",
+     "scheduled_due_date": "2026-11-04",
+     "review_date": "2026-11-08",
+     "timezone": "America/Sao_Paulo",
+     "evidence_window": "2026-10-05..2026-11-08",
+     "result": "PARTIAL",
+     "previous_result": "INCONCLUSIVE",
+     "frozen_predicted_trajectory": "Quiet prep content for creators on likely ethics constraints; linking Semavy ad-hygiene to broader publicidade duty; watch for CFN updates before Jan 2027 — do not rewrite NT-09-11",
+     "prediction_confidence": "68%",
+     "prediction_timeframe": "Through Jan 2027 vigência window",
+     "prediction_freeze_date": "2026-10-05",
+     "evidence_summary": "Quiet prep content for professionals exists: Nutrevilo (05/10) 'Código de ética do nutricionista: o que mudou?' covers the AI/technology articles and price-advertising rule and states Res. 599/2018 applies until 23/01/2027 (Res. 858/2026); Tivita (01/10, just before freeze) covers publicity, brands/supplements and AI. CFN's own news in the window was about the Res. 856 public consultation (~4,000 contributions) and other topics; no new CFN act on the code. No content linked Semavy ad hygiene to the broader advertising duty.",
+     "rationale": "Prep content on the new code (creators, AI, advertising) is present but the Semavy/publicity linkage is missing and CFN issued no update → PARTIAL (final at +30; up from INCONCLUSIVE).",
+     "sources_checked": [
+      "https://nutrevilo.com/codigo-de-etica-do-nutricionista/",
+      "https://ola.tivita.com/blog/para/nutricionistas/codigo-de-etica-do-nutricionista",
+      "https://sisnormas.cfn.org.br/viewPage.html?id=856",
+      "https://cfn.org.br/consulta-sobre-codigo-de-etica-recebe-quase-4-mil-contribuicoes/"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {},
+     "run_note": "Scored by the Sunday Prediction Reviews routine on 2026-11-08 (scheduled due 2026-11-04, overdue mid-week checkpoint held for the Sunday run). Frozen prediction copied verbatim from trends/; never edited.",
+     "_source_file": "reviews/NT-2026-10-05-10_plus30_2026-11-08.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Conteúdo quieto de preparo para criadores sobre possíveis restrições éticas; ligar higiene Semavy ao dever mais amplo de publicidade; observar atualizações CFN antes de jan/2027 — não reescrever NT-09-11",
+      "prediction_timeframe": "Até a janela de vigência de jan/2027",
+      "evidence_summary": "Existe conteúdo discreto de preparação para profissionais: a Nutrevilo (05/10), em 'Código de ética do nutricionista: o que mudou?', cobre os artigos sobre tecnologia/IA e a regra de divulgação de preços e diz que a Res. 599/2018 vale até 23/01/2027 (Res. 858/2026); a Tivita (01/10, pouco antes do congelamento) cobre publicidade, marcas/suplementos e IA. As notícias do próprio CFN na janela foram sobre a consulta pública da Res. 856 (~4 mil contribuições) e outros temas; nenhum ato novo do CFN sobre o código. Nenhum conteúdo ligou a higiene de propaganda do Semavy ao dever mais amplo de publicidade.",
+      "rationale": "Há conteúdo de preparação para o novo código (criadores, IA, publicidade), mas falta a ligação com Semavy/publicidade e o CFN não publicou atualização → PARCIAL (final no +30; subiu de INCONCLUSIVE)."
+     },
+     "_translated_at": "2026-11-08T10:30:00-03:00"
     }
    ],
    "observations": [
@@ -22556,6 +23160,33 @@
       "stage_now": "Brasil emergente",
       "recommended_action": "Sem ação."
      }
+    },
+    {
+     "observation_date": "2026-11-08",
+     "trend_id": "NT-2026-10-05-10",
+     "cohort_id": "cohort_005",
+     "observation_type": "plus30_review_probe",
+     "stage_now": "Brazil Emerging",
+     "evidence_notes": "Quiet prep content for professionals exists: Nutrevilo (05/10) 'Código de ética do nutricionista: o que mudou?' covers the AI/technology articles and price-advertising rule and states Res. 599/2018 applies until 23/01/2027 (Res. 858/2026); Tivita (01/10, just before freeze) covers publicity, brands/supplements and AI. CFN's own news in the window was about the Res. 856 public consultation (~4,000 contributions) and other topics; no new CFN act on the code. No content linked Semavy ad hygiene to the broader advertising duty.",
+     "sources_found": [
+      "https://nutrevilo.com/codigo-de-etica-do-nutricionista/",
+      "https://ola.tivita.com/blog/para/nutricionistas/codigo-de-etica-do-nutricionista",
+      "https://sisnormas.cfn.org.br/viewPage.html?id=856",
+      "https://cfn.org.br/consulta-sobre-codigo-de-etica-recebe-quase-4-mil-contribuicoes/"
+     ],
+     "notes": "plus30 result=PARTIAL; see reviews/NT-2026-10-05-10_plus30_2026-11-08.json",
+     "recommended_action": "Revisit before the 23/01/2027 vigência as a creator-ethics subject.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {},
+     "_source_file": "observations/2026-11-08.jsonl",
+     "_line": 10,
+     "_pt": {
+      "evidence_notes": "Existe conteúdo discreto de preparação para profissionais: a Nutrevilo (05/10), em 'Código de ética do nutricionista: o que mudou?', cobre os artigos sobre tecnologia/IA e a regra de divulgação de preços e diz que a Res. 599/2018 vale até 23/01/2027 (Res. 858/2026); a Tivita (01/10, pouco antes do congelamento) cobre publicidade, marcas/suplementos e IA. As notícias do próprio CFN na janela foram sobre a consulta pública da Res. 856 (~4 mil contribuições) e outros temas; nenhum ato novo do CFN sobre o código. Nenhum conteúdo ligou a higiene de propaganda do Semavy ao dever mais amplo de publicidade.",
+      "notes": "resultado plus30=PARTIAL; ver reviews/NT-2026-10-05-10_plus30_2026-11-08.json",
+      "stage_now": "Brasil emergente",
+      "recommended_action": "Retomar antes da vigência em 23/01/2027 como pauta de ética para criadores."
+     }
     }
    ],
    "mentions": [
@@ -22578,16 +23209,16 @@
      "plus_14": "2026-10-19",
      "plus_30": "2026-11-04"
     },
-    "next_review_date": "2026-11-04",
+    "next_review_date": null,
     "prediction_status": "frozen",
-    "last_review_date": "2026-10-19",
-    "last_result": "INCONCLUSIVE",
+    "last_review_date": "2026-11-08",
+    "last_result": "PARTIAL",
     "cohort_id": "cohort_005"
    },
    "cohort_id": "cohort_005",
-   "latest_result": "INCONCLUSIVE",
-   "latest_review_date": "2026-10-19",
-   "status": "ANALYZING",
+   "latest_result": "PARTIAL",
+   "latest_review_date": "2026-11-08",
+   "status": "PARTIAL",
    "timeline": [
     {
      "horizon": "plus_7",
@@ -22608,13 +23239,13 @@
     {
      "horizon": "plus_30",
      "due": "2026-11-04",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-11-08",
+     "review_id": "NT-2026-10-05-10_plus30_2026-11-08"
     }
    ],
-   "next_checkpoint": "2026-11-04"
+   "next_checkpoint": null
   },
   {
    "id": "NT-2026-10-12-01",
@@ -27766,7 +28397,15 @@
      }
     }
    ],
-   "mentions": [],
+   "mentions": [
+    {
+     "observation_date": "2026-11-04",
+     "observation_type": "daily_radar_alert",
+     "from_trend_id": null,
+     "_source_file": "observations/2026-11-04.jsonl",
+     "_line": 1
+    }
+   ],
    "embedded_observation_log": [],
    "schedule": {
     "trend_id": "NT-2026-10-19-06",
@@ -29262,9 +29901,86 @@
     "translated_at": "2026-11-02T09:40:00-03:00",
     "source_file": "trends/NT-2026-11-02-01.json"
    },
-   "reviews": [],
-   "observations": [],
-   "mentions": [],
+   "reviews": [
+    {
+     "review_id": "NT-2026-11-02-01_plus7_2026-11-08",
+     "trend_id": "NT-2026-11-02-01",
+     "cohort_id": "cohort_008",
+     "review_horizon": "plus_7",
+     "scheduled_due_date": "2026-11-09",
+     "review_date": "2026-11-08",
+     "timezone": "America/Sao_Paulo",
+     "evidence_window": "2026-11-02..2026-11-08",
+     "result": "PARTIAL",
+     "previous_result": null,
+     "frozen_predicted_trajectory": "By +30 (2026-12-02): (a) Anvisa publishes ≥1 further act (RE, ad suspension or alert) on a food/supplement whose irregular claims explicitly target GLP-1/caneta users or 'massa magra'/sarcopenia; and (b) ≥2 Brazilian outlets beyond the original 26–27/10 recall coverage publish explainers on what supplements may claim for pen users. PT X claim-specific talk stays small (<100 posts/7d at each checkpoint). Direction-only (one of a/b) = PARTIAL.",
+     "prediction_confidence": "58%",
+     "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+     "prediction_freeze_date": "2026-11-02",
+     "evidence_summary": "(b) Explainers beyond the 26–27/10 recall coverage: Primeira Fonte (29/10) 'Suplemento autorizado pela Anvisa: como conferir' explains the RE 4.160 'prevenção de sarcopenia' / GLP-1 pen claims; Boa Forma (04/11, updated 06/11) 'Suplemento para quem usa caneta: por que a Anvisa mandou recolher um e o que de fato protege a massa magra', including Equaliv's 05/11 statement that it is working to restore sales. (a) No further Anvisa act targeting GLP-1/pen-user or lean-mass/sarcopenia claims yet: the 06/11 acts (RE 4.331 Bálsamo Jes, RE 4.334 Active Life, RE 4.332 falsified Creatina DUX lot, Equaliv Ômega 3 falsified lot) concern pain/inflammation claims, unregistered products and counterfeits. PT X pens × massa magra/sarcopenia: 6 posts in ~7 days (<100).",
+     "rationale": "Clause (b) is met (2 outlet explainers) and the low-social clause holds; clause (a) has no new act yet and runs to +30 → PARTIAL at +7.",
+     "sources_checked": [
+      "https://primeirafonte.com.br/suplemento-autorizado-anvisa-como-conferir/",
+      "https://boaforma.abril.com.br/alimentacao/suplemento-para-quem-usa-caneta/",
+      "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-determina-apreensao-de-suplementos-alimentares-irregulares"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "pt_pens_x_lean_mass_sarcopenia_7d": 6,
+      "source": "live x get_posts_counts_recent 2026-11-08 ~09:53 SP; window 2026-11-01T13:30Z to 2026-11-08T12:53Z (~7 days), -is:retweet; X reads free (948/1000 left today)"
+     },
+     "run_note": "Scored by the Sunday Prediction Reviews routine on 2026-11-08 (scheduled due 2026-11-09, per the Sunday-review rule agreed 2026-10-22). Frozen prediction copied verbatim from trends/; never edited.",
+     "_source_file": "reviews/NT-2026-11-02-01_plus7_2026-11-08.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Até +30 (2026-12-02): (a) a Anvisa publica ≥1 novo ato (RE, suspensão de propaganda ou alerta) sobre alimento/suplemento cujas alegações irregulares mirem explicitamente usuários de GLP-1/caneta ou “massa magra”/sarcopenia; e (b) ≥2 veículos brasileiros, além da cobertura original do recolhimento em 26–27/10, publicam explicações sobre o que suplementos podem alegar para usuários de canetas. A conversa específica no X PT continua pequena (<100 posts/7d em cada checkpoint). Só a direção (uma de a/b) = PARTIAL.",
+      "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+      "evidence_summary": "(b) Explicadores além da cobertura do recolhimento de 26–27/10: a Primeira Fonte (29/10), em 'Suplemento autorizado pela Anvisa: como conferir', explica as alegações de 'prevenção de sarcopenia' / canetas GLP-1 da RE 4.160; a Boa Forma (04/11, atualizada em 06/11), em 'Suplemento para quem usa caneta: por que a Anvisa mandou recolher um e o que de fato protege a massa magra', inclusive com o comunicado do Equaliv de 05/11 dizendo que trabalha para retomar as vendas. (a) Ainda não houve novo ato da Anvisa contra alegações voltadas a usuários de caneta/GLP-1 ou a massa magra/sarcopenia: os atos de 06/11 (RE 4.331 Bálsamo Jes, RE 4.334 Active Life, RE 4.332 lote falsificado de Creatina DUX, lote falsificado de Equaliv Ômega 3) tratam de alegações de dor/inflamação, produtos sem regularização e falsificações. X PT canetas × massa magra/sarcopenia: 6 posts em ~7 dias (<100).",
+      "rationale": "A cláusula (b) foi atingida (2 explicadores em veículos) e a cláusula de baixo volume social se mantém; a cláusula (a) ainda não tem ato novo e vai até o +30 → PARCIAL no +7."
+     },
+     "_translated_at": "2026-11-08T10:30:00-03:00"
+    }
+   ],
+   "observations": [
+    {
+     "observation_date": "2026-11-08",
+     "trend_id": "NT-2026-11-02-01",
+     "cohort_id": "cohort_008",
+     "observation_type": "plus7_review_probe",
+     "stage_now": "Brazil Emerging",
+     "evidence_notes": "(b) Explainers beyond the 26–27/10 recall coverage: Primeira Fonte (29/10) 'Suplemento autorizado pela Anvisa: como conferir' explains the RE 4.160 'prevenção de sarcopenia' / GLP-1 pen claims; Boa Forma (04/11, updated 06/11) 'Suplemento para quem usa caneta: por que a Anvisa mandou recolher um e o que de fato protege a massa magra', including Equaliv's 05/11 statement that it is working to restore sales. (a) No further Anvisa act targeting GLP-1/pen-user or lean-mass/sarcopenia claims yet: the 06/11 acts (RE 4.331 Bálsamo Jes, RE 4.334 Active Life, RE 4.332 falsified Creatina DUX lot, Equaliv Ômega 3 falsified lot) concern pain/inflammation claims, unregistered products and counterfeits. PT X pens × massa magra/sarcopenia: 6 posts in ~7 days (<100).",
+     "sources_found": [
+      "https://primeirafonte.com.br/suplemento-autorizado-anvisa-como-conferir/",
+      "https://boaforma.abril.com.br/alimentacao/suplemento-para-quem-usa-caneta/",
+      "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-determina-apreensao-de-suplementos-alimentares-irregulares"
+     ],
+     "notes": "plus7 result=PARTIAL; see reviews/NT-2026-11-02-01_plus7_2026-11-08.json",
+     "recommended_action": "Keep 'what a supplement may promise pen users' in the subject pack; watch DOU for the next GLP-1-targeted claim act.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "pt_pens_x_lean_mass_sarcopenia_7d": 6,
+      "source": "live x get_posts_counts_recent 2026-11-08 ~09:53 SP; window 2026-11-01T13:30Z to 2026-11-08T12:53Z (~7 days), -is:retweet; X reads free (948/1000 left today)"
+     },
+     "_source_file": "observations/2026-11-08.jsonl",
+     "_line": 11,
+     "_pt": {
+      "evidence_notes": "(b) Explicadores além da cobertura do recolhimento de 26–27/10: a Primeira Fonte (29/10), em 'Suplemento autorizado pela Anvisa: como conferir', explica as alegações de 'prevenção de sarcopenia' / canetas GLP-1 da RE 4.160; a Boa Forma (04/11, atualizada em 06/11), em 'Suplemento para quem usa caneta: por que a Anvisa mandou recolher um e o que de fato protege a massa magra', inclusive com o comunicado do Equaliv de 05/11 dizendo que trabalha para retomar as vendas. (a) Ainda não houve novo ato da Anvisa contra alegações voltadas a usuários de caneta/GLP-1 ou a massa magra/sarcopenia: os atos de 06/11 (RE 4.331 Bálsamo Jes, RE 4.334 Active Life, RE 4.332 lote falsificado de Creatina DUX, lote falsificado de Equaliv Ômega 3) tratam de alegações de dor/inflamação, produtos sem regularização e falsificações. X PT canetas × massa magra/sarcopenia: 6 posts em ~7 dias (<100).",
+      "notes": "resultado plus7=PARTIAL; ver reviews/NT-2026-11-02-01_plus7_2026-11-08.json",
+      "stage_now": "Brasil emergente",
+      "recommended_action": "Manter 'o que um suplemento pode prometer a quem usa caneta' no pacote de pautas; vigiar o DOU para o próximo ato contra alegações voltadas a GLP-1."
+     }
+    }
+   ],
+   "mentions": [
+    {
+     "observation_date": "2026-11-04",
+     "observation_type": "daily_radar_alert",
+     "from_trend_id": null,
+     "_source_file": "observations/2026-11-04.jsonl",
+     "_line": 1
+    }
+   ],
    "embedded_observation_log": [],
    "schedule": {
     "trend_id": "NT-2026-11-02-01",
@@ -29276,22 +29992,24 @@
      "plus_14": "2026-11-16",
      "plus_30": "2026-12-02"
     },
-    "next_review_date": "2026-11-09",
+    "next_review_date": "2026-11-16",
     "prediction_status": "frozen",
+    "last_review_date": "2026-11-08",
+    "last_result": "PARTIAL",
     "cohort_id": "cohort_008"
    },
    "cohort_id": "cohort_008",
-   "latest_result": null,
-   "latest_review_date": null,
-   "status": "ANALYZING",
+   "latest_result": "PARTIAL",
+   "latest_review_date": "2026-11-08",
+   "status": "PARTIAL",
    "timeline": [
     {
      "horizon": "plus_7",
      "due": "2026-11-09",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-11-08",
+     "review_id": "NT-2026-11-02-01_plus7_2026-11-08"
     },
     {
      "horizon": "plus_14",
@@ -29310,7 +30028,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-11-09"
+   "next_checkpoint": "2026-11-16"
   },
   {
    "id": "NT-2026-11-02-02",
@@ -29440,8 +30158,77 @@
     "translated_at": "2026-11-02T09:40:00-03:00",
     "source_file": "trends/NT-2026-11-02-02.json"
    },
-   "reviews": [],
-   "observations": [],
+   "reviews": [
+    {
+     "review_id": "NT-2026-11-02-02_plus7_2026-11-08",
+     "trend_id": "NT-2026-11-02-02",
+     "cohort_id": "cohort_008",
+     "review_horizon": "plus_7",
+     "scheduled_due_date": "2026-11-09",
+     "review_date": "2026-11-08",
+     "timezone": "America/Sao_Paulo",
+     "evidence_window": "2026-11-02..2026-11-08",
+     "result": "INCONCLUSIVE",
+     "previous_result": null,
+     "frozen_predicted_trajectory": "By +30 (2026-12-02): Anvisa publishes ≥1 further act (recall, ban or ad suspension) on a conventional food (not a supplement) containing an ingredient authorised only for supplements, or on another finished product containing PeptiStrong. No broad social uptake: PT X on the popsicle/inositol theme stays below 50 posts/7d at +14 and +30.",
+     "prediction_confidence": "55%",
+     "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+     "prediction_freeze_date": "2026-11-02",
+     "evidence_summary": "No new Anvisa act on a conventional food containing a supplement-only ingredient, nor on another PeptiStrong finished product, was found. Adjacent only: Anvisa's 05/11 note that sublingual/film melatonin is not authorised (a supplement-form issue, not a conventional food), and Equaliv's 05/11 statement on restoring Body Strong Protein sales. PT X popsicle/ice-cream × inositol/melatonin/magnesium: 1 post in ~7 days (<50).",
+     "rationale": "Low-social clause holds; the substantive clause (a further act by +30) has no evidence yet → INCONCLUSIVE at +7.",
+     "sources_checked": [
+      "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/uso-de-melatonina-sublingual-nao-e-autorizado-no-brasil",
+      "https://boaforma.abril.com.br/alimentacao/suplemento-para-quem-usa-caneta/",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-11-06.md"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "pt_popsicle_x_inositol_melatonin_magnesium_7d": 1,
+      "source": "live x get_posts_counts_recent 2026-11-08 ~09:53 SP; window 2026-11-01T13:30Z to 2026-11-08T12:53Z (~7 days), -is:retweet; X reads free (948/1000 left today)"
+     },
+     "run_note": "Scored by the Sunday Prediction Reviews routine on 2026-11-08 (scheduled due 2026-11-09, per the Sunday-review rule agreed 2026-10-22). Frozen prediction copied verbatim from trends/; never edited.",
+     "_source_file": "reviews/NT-2026-11-02-02_plus7_2026-11-08.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Até +30 (2026-12-02): a Anvisa publica ≥1 novo ato (recolhimento, proibição ou suspensão de propaganda) sobre um alimento convencional (não suplemento) com ingrediente autorizado apenas para suplementos, ou sobre outro produto acabado com PeptiStrong. Sem adesão social ampla: o X PT sobre o tema picolé/inositol fica abaixo de 50 posts/7d em +14 e +30.",
+      "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+      "evidence_summary": "Não encontramos ato novo da Anvisa sobre alimento convencional com ingrediente exclusivo de suplemento, nem sobre outro produto acabado com PeptiStrong. Apenas temas vizinhos: a nota da Anvisa de 05/11 dizendo que melatonina sublingual/em filme não é autorizada (questão de forma de suplemento, não de alimento convencional) e o comunicado do Equaliv de 05/11 sobre retomar as vendas do Body Strong Protein. X PT picolé/sorvete × inositol/melatonina/magnésio: 1 post em ~7 dias (<50).",
+      "rationale": "A cláusula de baixo volume social se mantém; a cláusula principal (novo ato até o +30) ainda não tem evidência → INCONCLUSIVE no +7."
+     },
+     "_translated_at": "2026-11-08T10:30:00-03:00"
+    }
+   ],
+   "observations": [
+    {
+     "observation_date": "2026-11-08",
+     "trend_id": "NT-2026-11-02-02",
+     "cohort_id": "cohort_008",
+     "observation_type": "plus7_review_probe",
+     "stage_now": "Brazil Emerging",
+     "evidence_notes": "No new Anvisa act on a conventional food containing a supplement-only ingredient, nor on another PeptiStrong finished product, was found. Adjacent only: Anvisa's 05/11 note that sublingual/film melatonin is not authorised (a supplement-form issue, not a conventional food), and Equaliv's 05/11 statement on restoring Body Strong Protein sales. PT X popsicle/ice-cream × inositol/melatonin/magnesium: 1 post in ~7 days (<50).",
+     "sources_found": [
+      "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/uso-de-melatonina-sublingual-nao-e-autorizado-no-brasil",
+      "https://boaforma.abril.com.br/alimentacao/suplemento-para-quem-usa-caneta/",
+      "file:///workspace/nutritrend/discovery/radar_sweep_2026-11-06.md"
+     ],
+     "notes": "plus7 result=INCONCLUSIVE; see reviews/NT-2026-11-02-02_plus7_2026-11-08.json",
+     "recommended_action": "Watch DOU/Anvisa for conventional-food acts.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "pt_popsicle_x_inositol_melatonin_magnesium_7d": 1,
+      "source": "live x get_posts_counts_recent 2026-11-08 ~09:53 SP; window 2026-11-01T13:30Z to 2026-11-08T12:53Z (~7 days), -is:retweet; X reads free (948/1000 left today)"
+     },
+     "_source_file": "observations/2026-11-08.jsonl",
+     "_line": 12,
+     "_pt": {
+      "evidence_notes": "Não encontramos ato novo da Anvisa sobre alimento convencional com ingrediente exclusivo de suplemento, nem sobre outro produto acabado com PeptiStrong. Apenas temas vizinhos: a nota da Anvisa de 05/11 dizendo que melatonina sublingual/em filme não é autorizada (questão de forma de suplemento, não de alimento convencional) e o comunicado do Equaliv de 05/11 sobre retomar as vendas do Body Strong Protein. X PT picolé/sorvete × inositol/melatonina/magnésio: 1 post em ~7 dias (<50).",
+      "notes": "resultado plus7=INCONCLUSIVE; ver reviews/NT-2026-11-02-02_plus7_2026-11-08.json",
+      "stage_now": "Brasil emergente",
+      "recommended_action": "Vigiar DOU/Anvisa para atos sobre alimentos convencionais."
+     }
+    }
+   ],
    "mentions": [],
    "embedded_observation_log": [],
    "schedule": {
@@ -29454,22 +30241,24 @@
      "plus_14": "2026-11-16",
      "plus_30": "2026-12-02"
     },
-    "next_review_date": "2026-11-09",
+    "next_review_date": "2026-11-16",
     "prediction_status": "frozen",
+    "last_review_date": "2026-11-08",
+    "last_result": "INCONCLUSIVE",
     "cohort_id": "cohort_008"
    },
    "cohort_id": "cohort_008",
-   "latest_result": null,
-   "latest_review_date": null,
+   "latest_result": "INCONCLUSIVE",
+   "latest_review_date": "2026-11-08",
    "status": "ANALYZING",
    "timeline": [
     {
      "horizon": "plus_7",
      "due": "2026-11-09",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "INCONCLUSIVE",
+     "review_date": "2026-11-08",
+     "review_id": "NT-2026-11-02-02_plus7_2026-11-08"
     },
     {
      "horizon": "plus_14",
@@ -29488,7 +30277,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-11-09"
+   "next_checkpoint": "2026-11-16"
   },
   {
    "id": "NT-2026-11-02-03",
@@ -29610,8 +30399,75 @@
     "translated_at": "2026-11-02T09:40:00-03:00",
     "source_file": "trends/NT-2026-11-02-03.json"
    },
-   "reviews": [],
-   "observations": [],
+   "reviews": [
+    {
+     "review_id": "NT-2026-11-02-03_plus7_2026-11-08",
+     "trend_id": "NT-2026-11-02-03",
+     "cohort_id": "cohort_008",
+     "review_horizon": "plus_7",
+     "scheduled_due_date": "2026-11-09",
+     "review_date": "2026-11-08",
+     "timezone": "America/Sao_Paulo",
+     "evidence_window": "2026-11-02..2026-11-08",
+     "result": "INCONCLUSIVE",
+     "previous_result": null,
+     "frozen_predicted_trajectory": "By +30 (2026-12-02): Anvisa publishes ≥1 further ad suspension, recall or alert targeting a food/supplement with glycemic, insulin or 'diabetes' claims. PT X on supplement × glicose/insulina × Anvisa stays <30 posts/7d at each checkpoint (no social takeoff).",
+     "prediction_confidence": "60%",
+     "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+     "prediction_freeze_date": "2026-11-02",
+     "evidence_summary": "No further Anvisa ad suspension, recall or alert targeting glycemic/insulin/diabetes claims was found after RE 4.224 (Glifit/Glicofit, 27/10). The 06/11 supplement acts cite pain, inflammation, fibromyalgia and arthritis claims (RE 4.331 Bálsamo Jes/Colmavit 2) and falsification. PT X supplement × glicose/insulina/diabetes × Anvisa: 0 posts in ~7 days (<30).",
+     "rationale": "Low-social clause holds; no new glycemic-claim act yet (window runs to +30) → INCONCLUSIVE at +7.",
+     "sources_checked": [
+      "https://www.cnnbrasil.com.br/saude/anvisa-suspende-propaganda-de-suplementos-que-prometem-controlar-glicose/",
+      "https://editaisdobrasil.com/regulatorio/ato/resolucao-re-n-4-331-de-4-de-novembro-de-2026-742130995"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "pt_supplement_x_glucose_insulin_anvisa_7d": 0,
+      "source": "live x get_posts_counts_recent 2026-11-08 ~09:53 SP; window 2026-11-01T13:30Z to 2026-11-08T12:53Z (~7 days), -is:retweet; X reads free (948/1000 left today)"
+     },
+     "run_note": "Scored by the Sunday Prediction Reviews routine on 2026-11-08 (scheduled due 2026-11-09, per the Sunday-review rule agreed 2026-10-22). Frozen prediction copied verbatim from trends/; never edited.",
+     "_source_file": "reviews/NT-2026-11-02-03_plus7_2026-11-08.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Até +30 (2026-12-02): a Anvisa publica ≥1 nova suspensão de propaganda, recolhimento ou alerta contra alimento/suplemento com alegações sobre glicemia, insulina ou “diabetes”. O X PT sobre suplemento × glicose/insulina × Anvisa fica <30 posts/7d em cada checkpoint (sem decolagem social).",
+      "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+      "evidence_summary": "Não encontramos nova suspensão de propaganda, recolhimento ou alerta da Anvisa contra alegações de glicemia/insulina/diabetes depois da RE 4.224 (Glifit/Glicofit, 27/10). Os atos de suplementos de 06/11 citam alegações sobre dor, inflamação, fibromialgia e artrite (RE 4.331 Bálsamo Jes/Colmavit 2) e falsificação. X PT suplemento × glicose/insulina/diabetes × Anvisa: 0 posts em ~7 dias (<30).",
+      "rationale": "A cláusula de baixo volume social se mantém; ainda sem ato novo sobre alegação glicêmica (janela vai até o +30) → INCONCLUSIVE no +7."
+     },
+     "_translated_at": "2026-11-08T10:30:00-03:00"
+    }
+   ],
+   "observations": [
+    {
+     "observation_date": "2026-11-08",
+     "trend_id": "NT-2026-11-02-03",
+     "cohort_id": "cohort_008",
+     "observation_type": "plus7_review_probe",
+     "stage_now": "Brazil Emerging",
+     "evidence_notes": "No further Anvisa ad suspension, recall or alert targeting glycemic/insulin/diabetes claims was found after RE 4.224 (Glifit/Glicofit, 27/10). The 06/11 supplement acts cite pain, inflammation, fibromyalgia and arthritis claims (RE 4.331 Bálsamo Jes/Colmavit 2) and falsification. PT X supplement × glicose/insulina/diabetes × Anvisa: 0 posts in ~7 days (<30).",
+     "sources_found": [
+      "https://www.cnnbrasil.com.br/saude/anvisa-suspende-propaganda-de-suplementos-que-prometem-controlar-glicose/",
+      "https://editaisdobrasil.com/regulatorio/ato/resolucao-re-n-4-331-de-4-de-novembro-de-2026-742130995"
+     ],
+     "notes": "plus7 result=INCONCLUSIVE; see reviews/NT-2026-11-02-03_plus7_2026-11-08.json",
+     "recommended_action": "Watch DOU/Anvisa.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "pt_supplement_x_glucose_insulin_anvisa_7d": 0,
+      "source": "live x get_posts_counts_recent 2026-11-08 ~09:53 SP; window 2026-11-01T13:30Z to 2026-11-08T12:53Z (~7 days), -is:retweet; X reads free (948/1000 left today)"
+     },
+     "_source_file": "observations/2026-11-08.jsonl",
+     "_line": 13,
+     "_pt": {
+      "evidence_notes": "Não encontramos nova suspensão de propaganda, recolhimento ou alerta da Anvisa contra alegações de glicemia/insulina/diabetes depois da RE 4.224 (Glifit/Glicofit, 27/10). Os atos de suplementos de 06/11 citam alegações sobre dor, inflamação, fibromialgia e artrite (RE 4.331 Bálsamo Jes/Colmavit 2) e falsificação. X PT suplemento × glicose/insulina/diabetes × Anvisa: 0 posts em ~7 dias (<30).",
+      "notes": "resultado plus7=INCONCLUSIVE; ver reviews/NT-2026-11-02-03_plus7_2026-11-08.json",
+      "stage_now": "Brasil emergente",
+      "recommended_action": "Vigiar DOU/Anvisa."
+     }
+    }
+   ],
    "mentions": [],
    "embedded_observation_log": [],
    "schedule": {
@@ -29624,22 +30480,24 @@
      "plus_14": "2026-11-16",
      "plus_30": "2026-12-02"
     },
-    "next_review_date": "2026-11-09",
+    "next_review_date": "2026-11-16",
     "prediction_status": "frozen",
+    "last_review_date": "2026-11-08",
+    "last_result": "INCONCLUSIVE",
     "cohort_id": "cohort_008"
    },
    "cohort_id": "cohort_008",
-   "latest_result": null,
-   "latest_review_date": null,
+   "latest_result": "INCONCLUSIVE",
+   "latest_review_date": "2026-11-08",
    "status": "ANALYZING",
    "timeline": [
     {
      "horizon": "plus_7",
      "due": "2026-11-09",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "INCONCLUSIVE",
+     "review_date": "2026-11-08",
+     "review_id": "NT-2026-11-02-03_plus7_2026-11-08"
     },
     {
      "horizon": "plus_14",
@@ -29658,7 +30516,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-11-09"
+   "next_checkpoint": "2026-11-16"
   },
   {
    "id": "NT-2026-11-02-04",
@@ -29790,9 +30648,88 @@
     "translated_at": "2026-11-02T09:40:00-03:00",
     "source_file": "trends/NT-2026-11-02-04.json"
    },
-   "reviews": [],
-   "observations": [],
-   "mentions": [],
+   "reviews": [
+    {
+     "review_id": "NT-2026-11-02-04_plus7_2026-11-08",
+     "trend_id": "NT-2026-11-02-04",
+     "cohort_id": "cohort_008",
+     "review_horizon": "plus_7",
+     "scheduled_due_date": "2026-11-09",
+     "review_date": "2026-11-08",
+     "timezone": "America/Sao_Paulo",
+     "evidence_window": "2026-11-02..2026-11-08",
+     "result": "INCONCLUSIVE",
+     "previous_result": null,
+     "frozen_predicted_trajectory": "By +30 (2026-12-02): (a) Anvisa registers ≥1 more GLP-1 pen (2026 total >20); (b) no final Conitec incorporation decision (published portaria/decision of incorporation) for semaglutide or liraglutide in the SUS — a preliminary recommendation or public consultation does not count as final; (c) absent a Conitec event, the narrow PT X 'canetas × SUS' count stays below 800 posts/7d at +14 and +30. All three = HIT; two = PARTIAL.",
+     "prediction_confidence": "62%",
+     "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+     "prediction_freeze_date": "2026-11-02",
+     "evidence_summary": "(a) No new GLP-1 pen registration after the 29/10 batch (total still 20 in 2026); oral Wegovy (RE 4.249, 04/11) is a tablet, not a pen; EMS SemaClique reached pharmacies 06/11 under its August registration. (b) No Conitec decision: the MS request (24/09) is still under review; Folha (08/11) reports the SUS promise is limited by the lack of obesity-indicated options and that the government has asked Anvisa to act. (c) PT X pens × SUS: 102 posts in ~7 days (<800; formally checked at +14/+30).",
+     "rationale": "Clauses (b) and (c) currently hold, but clause (a) has not happened yet and runs to +30 → INCONCLUSIVE at +7.",
+     "sources_checked": [
+      "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-aprova-cinco-novas-canetas-de-glp-1",
+      "https://www.band.com.br/saude/nova-caneta-de-semaglutida-chega-as-farmacias-brasileiras-veja-precos",
+      "https://www1.folha.uol.com.br/equilibrioesaude/2026/11/promessa-de-caneta-emagrecedora-no-sus-esbarra-em-falta-de-opcoes-para-obesidade-e-governo-aciona-anvisa.shtml",
+      "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/setembro/ministerio-da-saude-protocola-na-conitec-pedido-de-analise-para-incorporacao-de-canetas-emagrecedoras-no-sus"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "pt_pens_x_SUS_7d": 102,
+      "source": "live x get_posts_counts_recent 2026-11-08 ~09:53 SP; window 2026-11-01T13:30Z to 2026-11-08T12:53Z (~7 days), -is:retweet; X reads free (948/1000 left today)"
+     },
+     "run_note": "Scored by the Sunday Prediction Reviews routine on 2026-11-08 (scheduled due 2026-11-09, per the Sunday-review rule agreed 2026-10-22). Frozen prediction copied verbatim from trends/; never edited.",
+     "_source_file": "reviews/NT-2026-11-02-04_plus7_2026-11-08.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Até +30 (2026-12-02): (a) a Anvisa registra ≥1 nova caneta GLP-1 (total de 2026 >20); (b) não há decisão final de incorporação da Conitec (portaria/decisão de incorporação publicada) para semaglutida ou liraglutida no SUS — recomendação preliminar ou consulta pública não contam como final; (c) sem evento da Conitec, a contagem restrita do X PT “canetas × SUS” fica abaixo de 800 posts/7d em +14 e +30. As três = HIT; duas = PARTIAL.",
+      "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+      "evidence_summary": "(a) Nenhum novo registro de caneta GLP-1 depois do lote de 29/10 (total segue em 20 em 2026); o Wegovy oral (RE 4.249, 04/11) é comprimido, não caneta; o SemaClique da EMS chegou às farmácias em 06/11 com o registro de agosto. (b) Sem decisão da Conitec: o pedido do MS (24/09) segue em análise; a Folha (08/11) diz que a promessa no SUS esbarra na falta de opções com indicação para obesidade e que o governo acionou a Anvisa. (c) X PT canetas × SUS: 102 posts em ~7 dias (<800; checagem formal no +14/+30).",
+      "rationale": "As cláusulas (b) e (c) se mantêm por enquanto, mas a cláusula (a) ainda não aconteceu e vai até o +30 → INCONCLUSIVE no +7."
+     },
+     "_translated_at": "2026-11-08T10:30:00-03:00"
+    }
+   ],
+   "observations": [
+    {
+     "observation_date": "2026-11-08",
+     "trend_id": "NT-2026-11-02-04",
+     "cohort_id": "cohort_008",
+     "observation_type": "plus7_review_probe",
+     "stage_now": "Brazil Growing",
+     "evidence_notes": "(a) No new GLP-1 pen registration after the 29/10 batch (total still 20 in 2026); oral Wegovy (RE 4.249, 04/11) is a tablet, not a pen; EMS SemaClique reached pharmacies 06/11 under its August registration. (b) No Conitec decision: the MS request (24/09) is still under review; Folha (08/11) reports the SUS promise is limited by the lack of obesity-indicated options and that the government has asked Anvisa to act. (c) PT X pens × SUS: 102 posts in ~7 days (<800; formally checked at +14/+30).",
+     "sources_found": [
+      "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-aprova-cinco-novas-canetas-de-glp-1",
+      "https://www.band.com.br/saude/nova-caneta-de-semaglutida-chega-as-farmacias-brasileiras-veja-precos",
+      "https://www1.folha.uol.com.br/equilibrioesaude/2026/11/promessa-de-caneta-emagrecedora-no-sus-esbarra-em-falta-de-opcoes-para-obesidade-e-governo-aciona-anvisa.shtml",
+      "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/setembro/ministerio-da-saude-protocola-na-conitec-pedido-de-analise-para-incorporacao-de-canetas-emagrecedoras-no-sus"
+     ],
+     "notes": "plus7 result=INCONCLUSIVE; see reviews/NT-2026-11-02-04_plus7_2026-11-08.json",
+     "recommended_action": "Watch Anvisa registrations and the Conitec agenda.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "pt_pens_x_SUS_7d": 102,
+      "source": "live x get_posts_counts_recent 2026-11-08 ~09:53 SP; window 2026-11-01T13:30Z to 2026-11-08T12:53Z (~7 days), -is:retweet; X reads free (948/1000 left today)"
+     },
+     "_source_file": "observations/2026-11-08.jsonl",
+     "_line": 14,
+     "_pt": {
+      "evidence_notes": "(a) Nenhum novo registro de caneta GLP-1 depois do lote de 29/10 (total segue em 20 em 2026); o Wegovy oral (RE 4.249, 04/11) é comprimido, não caneta; o SemaClique da EMS chegou às farmácias em 06/11 com o registro de agosto. (b) Sem decisão da Conitec: o pedido do MS (24/09) segue em análise; a Folha (08/11) diz que a promessa no SUS esbarra na falta de opções com indicação para obesidade e que o governo acionou a Anvisa. (c) X PT canetas × SUS: 102 posts em ~7 dias (<800; checagem formal no +14/+30).",
+      "notes": "resultado plus7=INCONCLUSIVE; ver reviews/NT-2026-11-02-04_plus7_2026-11-08.json",
+      "stage_now": "Brasil em crescimento",
+      "recommended_action": "Vigiar registros da Anvisa e a pauta da Conitec."
+     }
+    }
+   ],
+   "mentions": [
+    {
+     "observation_date": "2026-11-08",
+     "observation_type": "plus30_review_probe",
+     "from_trend_id": "NT-2026-10-05-08",
+     "_source_file": "observations/2026-11-08.jsonl",
+     "_line": 8
+    }
+   ],
    "embedded_observation_log": [],
    "schedule": {
     "trend_id": "NT-2026-11-02-04",
@@ -29804,22 +30741,24 @@
      "plus_14": "2026-11-16",
      "plus_30": "2026-12-02"
     },
-    "next_review_date": "2026-11-09",
+    "next_review_date": "2026-11-16",
     "prediction_status": "frozen",
+    "last_review_date": "2026-11-08",
+    "last_result": "INCONCLUSIVE",
     "cohort_id": "cohort_008"
    },
    "cohort_id": "cohort_008",
-   "latest_result": null,
-   "latest_review_date": null,
+   "latest_result": "INCONCLUSIVE",
+   "latest_review_date": "2026-11-08",
    "status": "ANALYZING",
    "timeline": [
     {
      "horizon": "plus_7",
      "due": "2026-11-09",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "INCONCLUSIVE",
+     "review_date": "2026-11-08",
+     "review_id": "NT-2026-11-02-04_plus7_2026-11-08"
     },
     {
      "horizon": "plus_14",
@@ -29838,7 +30777,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-11-09"
+   "next_checkpoint": "2026-11-16"
   },
   {
    "id": "NT-2026-11-02-05",
@@ -29976,8 +30915,77 @@
     "translated_at": "2026-11-02T09:40:00-03:00",
     "source_file": "trends/NT-2026-11-02-05.json"
    },
-   "reviews": [],
-   "observations": [],
+   "reviews": [
+    {
+     "review_id": "NT-2026-11-02-05_plus7_2026-11-08",
+     "trend_id": "NT-2026-11-02-05",
+     "cohort_id": "cohort_008",
+     "review_horizon": "plus_7",
+     "scheduled_due_date": "2026-11-09",
+     "review_date": "2026-11-08",
+     "timezone": "America/Sao_Paulo",
+     "evidence_window": "2026-11-02..2026-11-08",
+     "result": "INCONCLUSIVE",
+     "previous_result": null,
+     "frozen_predicted_trajectory": "By +30 (2026-12-02): ≥1 Brazilian tier-1 or major health outlet (g1, Folha, Estadão, O Globo, UOL/VivaBem, CNN Brasil, Veja Saúde, Exame) publishes a piece framing GLP-1 muscle in terms of strength/function or 'massa magra ≠ músculo', or citing an Oct 2026 study on the topic. EN X GLP-1 × high-protein stays ≥40 posts/7d at +14 and +30. PT X pens × massa magra stays <60/7d (no social takeoff). BR media piece missing but EN signal holds = PARTIAL.",
+     "prediction_confidence": "55%",
+     "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+     "prediction_freeze_date": "2026-11-02",
+     "evidence_summary": "No tier-1/major BR outlet from the frozen list published a 'massa magra ≠ músculo' / strength-function piece after the freeze; closest items are Boa Forma (Abril, 04/11, not on the list) on what protects lean mass, and older pieces (Boa Forma 19/10, Metabolyka 07/10, Estadão Pulsa 16/10 on creatine DXA). EN X GLP-1 × high protein/protein shake/GLP-1 friendly/menu: 47 posts in ~7 days (≥40 holds). PT X pens × massa magra: 6 (<60 holds).",
+     "rationale": "Both X clauses hold, but the main BR media clause (due by +30) has not landed → INCONCLUSIVE at +7.",
+     "sources_checked": [
+      "https://boaforma.abril.com.br/alimentacao/suplemento-para-quem-usa-caneta/",
+      "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.71432"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "en_glp1_x_high_protein_7d": 47,
+      "pt_pens_x_lean_mass_7d": 6,
+      "source": "live x get_posts_counts_recent 2026-11-08 ~09:53 SP; window 2026-11-01T13:30Z to 2026-11-08T12:53Z (~7 days), -is:retweet; X reads free (948/1000 left today)"
+     },
+     "run_note": "Scored by the Sunday Prediction Reviews routine on 2026-11-08 (scheduled due 2026-11-09, per the Sunday-review rule agreed 2026-10-22). Frozen prediction copied verbatim from trends/; never edited.",
+     "_source_file": "reviews/NT-2026-11-02-05_plus7_2026-11-08.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Até +30 (2026-12-02): ≥1 veículo brasileiro de primeira linha ou grande veículo de saúde (g1, Folha, Estadão, O Globo, UOL/VivaBem, CNN Brasil, Veja Saúde, Exame) publica matéria que trate o músculo na GLP-1 em termos de força/função ou “massa magra ≠ músculo”, ou que cite um estudo de out/2026 sobre o tema. O X EN GLP-1 × alta proteína fica ≥40 posts/7d em +14 e +30. O X PT canetas × massa magra fica <60/7d (sem decolagem social). Sem matéria brasileira, mas com o sinal em inglês mantido = PARTIAL.",
+      "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+      "evidence_summary": "Nenhum veículo tier-1/grande da lista congelada publicou matéria 'massa magra ≠ músculo' / força e função depois do congelamento; o mais próximo é a Boa Forma (Abril, 04/11, fora da lista) sobre o que protege a massa magra, além de textos mais antigos (Boa Forma 19/10, Metabolyka 07/10, Estadão Pulsa 16/10 sobre DXA na creatina). X EN GLP-1 × high protein/protein shake/GLP-1 friendly/menu: 47 posts em ~7 dias (≥40 se mantém). X PT canetas × massa magra: 6 (<60 se mantém).",
+      "rationale": "As duas cláusulas de X se mantêm, mas a cláusula principal de mídia brasileira (prazo +30) ainda não aconteceu → INCONCLUSIVE no +7."
+     },
+     "_translated_at": "2026-11-08T10:30:00-03:00"
+    }
+   ],
+   "observations": [
+    {
+     "observation_date": "2026-11-08",
+     "trend_id": "NT-2026-11-02-05",
+     "cohort_id": "cohort_008",
+     "observation_type": "plus7_review_probe",
+     "stage_now": "Migration Candidate",
+     "evidence_notes": "No tier-1/major BR outlet from the frozen list published a 'massa magra ≠ músculo' / strength-function piece after the freeze; closest items are Boa Forma (Abril, 04/11, not on the list) on what protects lean mass, and older pieces (Boa Forma 19/10, Metabolyka 07/10, Estadão Pulsa 16/10 on creatine DXA). EN X GLP-1 × high protein/protein shake/GLP-1 friendly/menu: 47 posts in ~7 days (≥40 holds). PT X pens × massa magra: 6 (<60 holds).",
+     "sources_found": [
+      "https://boaforma.abril.com.br/alimentacao/suplemento-para-quem-usa-caneta/",
+      "https://dom-pubs.onlinelibrary.wiley.com/doi/10.1111/dom.71432"
+     ],
+     "notes": "plus7 result=INCONCLUSIVE; see reviews/NT-2026-11-02-05_plus7_2026-11-08.json",
+     "recommended_action": "Watch g1/Folha/Estadão/Veja Saúde for strength/function framing.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "en_glp1_x_high_protein_7d": 47,
+      "pt_pens_x_lean_mass_7d": 6,
+      "source": "live x get_posts_counts_recent 2026-11-08 ~09:53 SP; window 2026-11-01T13:30Z to 2026-11-08T12:53Z (~7 days), -is:retweet; X reads free (948/1000 left today)"
+     },
+     "_source_file": "observations/2026-11-08.jsonl",
+     "_line": 15,
+     "_pt": {
+      "evidence_notes": "Nenhum veículo tier-1/grande da lista congelada publicou matéria 'massa magra ≠ músculo' / força e função depois do congelamento; o mais próximo é a Boa Forma (Abril, 04/11, fora da lista) sobre o que protege a massa magra, além de textos mais antigos (Boa Forma 19/10, Metabolyka 07/10, Estadão Pulsa 16/10 sobre DXA na creatina). X EN GLP-1 × high protein/protein shake/GLP-1 friendly/menu: 47 posts em ~7 dias (≥40 se mantém). X PT canetas × massa magra: 6 (<60 se mantém).",
+      "notes": "resultado plus7=INCONCLUSIVE; ver reviews/NT-2026-11-02-05_plus7_2026-11-08.json",
+      "stage_now": "Candidato a migração",
+      "recommended_action": "Vigiar g1/Folha/Estadão/Veja Saúde para o enquadramento de força/função."
+     }
+    }
+   ],
    "mentions": [],
    "embedded_observation_log": [],
    "schedule": {
@@ -29990,22 +30998,24 @@
      "plus_14": "2026-11-16",
      "plus_30": "2026-12-02"
     },
-    "next_review_date": "2026-11-09",
+    "next_review_date": "2026-11-16",
     "prediction_status": "frozen",
+    "last_review_date": "2026-11-08",
+    "last_result": "INCONCLUSIVE",
     "cohort_id": "cohort_008"
    },
    "cohort_id": "cohort_008",
-   "latest_result": null,
-   "latest_review_date": null,
+   "latest_result": "INCONCLUSIVE",
+   "latest_review_date": "2026-11-08",
    "status": "ANALYZING",
    "timeline": [
     {
      "horizon": "plus_7",
      "due": "2026-11-09",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "INCONCLUSIVE",
+     "review_date": "2026-11-08",
+     "review_id": "NT-2026-11-02-05_plus7_2026-11-08"
     },
     {
      "horizon": "plus_14",
@@ -30024,7 +31034,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-11-09"
+   "next_checkpoint": "2026-11-16"
   },
   {
    "id": "NT-2026-11-02-06",
@@ -30146,9 +31156,88 @@
     "translated_at": "2026-11-02T09:40:00-03:00",
     "source_file": "trends/NT-2026-11-02-06.json"
    },
-   "reviews": [],
-   "observations": [],
-   "mentions": [],
+   "reviews": [
+    {
+     "review_id": "NT-2026-11-02-06_plus7_2026-11-08",
+     "trend_id": "NT-2026-11-02-06",
+     "cohort_id": "cohort_008",
+     "review_horizon": "plus_7",
+     "scheduled_due_date": "2026-11-09",
+     "review_date": "2026-11-08",
+     "timezone": "America/Sao_Paulo",
+     "evidence_window": "2026-11-02..2026-11-08",
+     "result": "PARTIAL",
+     "previous_result": null,
+     "frozen_predicted_trajectory": "By +30 (2026-12-02): ≥1 new public action or report on protein-supplement quality in Brazil — a Procon/Senacon/Anvisa action, or a new independent lab test of whey/protein products reported by a Brazilian outlet. PT X whey × fraude/laudo/teste stays <100 posts/7d at each checkpoint (quality talk stays small while promos dominate).",
+     "prediction_confidence": "55%",
+     "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+     "prediction_freeze_date": "2026-11-02",
+     "evidence_summary": "A new Anvisa marketplace-authenticity action landed, but not on a protein product: RE 4.332 (DOU 06/11) seized falsified Creatina DUX lot K52354A (300 g) sold by Charmozza on Mercado Livre after DUX did not recognise the lot (O Globo 07/11, Exame, Veja, A Tarde); the same day Anvisa seized a falsified Equaliv Ômega 3 lot. No new Procon/Senacon/Anvisa action or new lab test specific to whey/protein was found (the ABCF test is from 22/10, before freeze). PT X whey × falsificado/adulterado/teste/laudo/fraude: 0 posts in ~7 days (<100).",
+     "rationale": "Direction confirmed (supplement authenticity enforcement in marketplaces, low social) but the action concerns creatine, not a protein supplement → PARTIAL at +7.",
+     "sources_checked": [
+      "https://oglobo.globo.com/saude/noticia/2026/11/07/anvisa-proibe-lote-de-creatina-da-marca-dux-saiba-qual-e-o-motivo.ghtml",
+      "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-omega-3-falsificado-e-lote-de-creatina",
+      "https://atlaspublico.com.br/regulacao/dou/resolucao-re-n-4-332-de-4-de-novembro-de-2026-899596",
+      "https://exame.com/brasil/anvisa-manda-recolher-lotes-falsificados-de-creatina-e-omega-3-confira/"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "pt_whey_x_fraud_test_7d": 0,
+      "source": "live x get_posts_counts_recent 2026-11-08 ~09:53 SP; window 2026-11-01T13:30Z to 2026-11-08T12:53Z (~7 days), -is:retweet; X reads free (948/1000 left today)"
+     },
+     "run_note": "Scored by the Sunday Prediction Reviews routine on 2026-11-08 (scheduled due 2026-11-09, per the Sunday-review rule agreed 2026-10-22). Frozen prediction copied verbatim from trends/; never edited.",
+     "_source_file": "reviews/NT-2026-11-02-06_plus7_2026-11-08.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Até +30 (2026-12-02): ≥1 nova ação pública ou reportagem sobre qualidade de suplementos proteicos no Brasil — ação de Procon/Senacon/Anvisa ou novo teste laboratorial independente de whey/produtos proteicos divulgado por veículo brasileiro. O X PT whey × fraude/laudo/teste fica <100 posts/7d em cada checkpoint (a conversa sobre qualidade continua pequena enquanto as promoções dominam).",
+      "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+      "evidence_summary": "Saiu uma nova ação da Anvisa sobre autenticidade em marketplace, mas não sobre produto proteico: a RE 4.332 (DOU 06/11) apreendeu o lote falsificado K52354A de Creatina DUX (300 g) vendido pela Charmozza no Mercado Livre, depois que a DUX não reconheceu o lote (O Globo 07/11, Exame, Veja, A Tarde); no mesmo dia a Anvisa apreendeu um lote falsificado de Equaliv Ômega 3. Não encontramos nova ação de Procon/Senacon/Anvisa nem novo teste laboratorial específico de whey/proteína (o teste da ABCF é de 22/10, antes do congelamento). X PT whey × falsificado/adulterado/teste/laudo/fraude: 0 posts em ~7 dias (<100).",
+      "rationale": "Direção confirmada (fiscalização de autenticidade de suplementos em marketplaces, baixo volume social), mas a ação é sobre creatina, não sobre suplemento proteico → PARCIAL no +7."
+     },
+     "_translated_at": "2026-11-08T10:30:00-03:00"
+    }
+   ],
+   "observations": [
+    {
+     "observation_date": "2026-11-08",
+     "trend_id": "NT-2026-11-02-06",
+     "cohort_id": "cohort_008",
+     "observation_type": "plus7_review_probe",
+     "stage_now": "Brazil Emerging",
+     "evidence_notes": "A new Anvisa marketplace-authenticity action landed, but not on a protein product: RE 4.332 (DOU 06/11) seized falsified Creatina DUX lot K52354A (300 g) sold by Charmozza on Mercado Livre after DUX did not recognise the lot (O Globo 07/11, Exame, Veja, A Tarde); the same day Anvisa seized a falsified Equaliv Ômega 3 lot. No new Procon/Senacon/Anvisa action or new lab test specific to whey/protein was found (the ABCF test is from 22/10, before freeze). PT X whey × falsificado/adulterado/teste/laudo/fraude: 0 posts in ~7 days (<100).",
+     "sources_found": [
+      "https://oglobo.globo.com/saude/noticia/2026/11/07/anvisa-proibe-lote-de-creatina-da-marca-dux-saiba-qual-e-o-motivo.ghtml",
+      "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-omega-3-falsificado-e-lote-de-creatina",
+      "https://atlaspublico.com.br/regulacao/dou/resolucao-re-n-4-332-de-4-de-novembro-de-2026-899596",
+      "https://exame.com/brasil/anvisa-manda-recolher-lotes-falsificados-de-creatina-e-omega-3-confira/"
+     ],
+     "notes": "plus7 result=PARTIAL; see reviews/NT-2026-11-02-06_plus7_2026-11-08.json",
+     "recommended_action": "Add the DUX counterfeit lot to the 'how to buy supplements safely online' patient checklist.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "pt_whey_x_fraud_test_7d": 0,
+      "source": "live x get_posts_counts_recent 2026-11-08 ~09:53 SP; window 2026-11-01T13:30Z to 2026-11-08T12:53Z (~7 days), -is:retweet; X reads free (948/1000 left today)"
+     },
+     "_source_file": "observations/2026-11-08.jsonl",
+     "_line": 16,
+     "_pt": {
+      "evidence_notes": "Saiu uma nova ação da Anvisa sobre autenticidade em marketplace, mas não sobre produto proteico: a RE 4.332 (DOU 06/11) apreendeu o lote falsificado K52354A de Creatina DUX (300 g) vendido pela Charmozza no Mercado Livre, depois que a DUX não reconheceu o lote (O Globo 07/11, Exame, Veja, A Tarde); no mesmo dia a Anvisa apreendeu um lote falsificado de Equaliv Ômega 3. Não encontramos nova ação de Procon/Senacon/Anvisa nem novo teste laboratorial específico de whey/proteína (o teste da ABCF é de 22/10, antes do congelamento). X PT whey × falsificado/adulterado/teste/laudo/fraude: 0 posts em ~7 dias (<100).",
+      "notes": "resultado plus7=PARTIAL; ver reviews/NT-2026-11-02-06_plus7_2026-11-08.json",
+      "stage_now": "Brasil emergente",
+      "recommended_action": "Incluir o lote falsificado da DUX no checklist do paciente 'como comprar suplemento com segurança na internet'."
+     }
+    }
+   ],
+   "mentions": [
+    {
+     "observation_date": "2026-11-08",
+     "observation_type": "plus30_review_probe",
+     "from_trend_id": "NT-2026-10-05-03",
+     "_source_file": "observations/2026-11-08.jsonl",
+     "_line": 3
+    }
+   ],
    "embedded_observation_log": [],
    "schedule": {
     "trend_id": "NT-2026-11-02-06",
@@ -30160,22 +31249,24 @@
      "plus_14": "2026-11-16",
      "plus_30": "2026-12-02"
     },
-    "next_review_date": "2026-11-09",
+    "next_review_date": "2026-11-16",
     "prediction_status": "frozen",
+    "last_review_date": "2026-11-08",
+    "last_result": "PARTIAL",
     "cohort_id": "cohort_008"
    },
    "cohort_id": "cohort_008",
-   "latest_result": null,
-   "latest_review_date": null,
-   "status": "ANALYZING",
+   "latest_result": "PARTIAL",
+   "latest_review_date": "2026-11-08",
+   "status": "PARTIAL",
    "timeline": [
     {
      "horizon": "plus_7",
      "due": "2026-11-09",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "PARTIAL",
+     "review_date": "2026-11-08",
+     "review_id": "NT-2026-11-02-06_plus7_2026-11-08"
     },
     {
      "horizon": "plus_14",
@@ -30194,7 +31285,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-11-09"
+   "next_checkpoint": "2026-11-16"
   },
   {
    "id": "NT-2026-11-02-07",
@@ -30318,8 +31409,75 @@
     "translated_at": "2026-11-02T09:40:00-03:00",
     "source_file": "trends/NT-2026-11-02-07.json"
    },
-   "reviews": [],
-   "observations": [],
+   "reviews": [
+    {
+     "review_id": "NT-2026-11-02-07_plus7_2026-11-08",
+     "trend_id": "NT-2026-11-02-07",
+     "cohort_id": "cohort_008",
+     "review_horizon": "plus_7",
+     "scheduled_due_date": "2026-11-09",
+     "review_date": "2026-11-08",
+     "timezone": "America/Sao_Paulo",
+     "evidence_window": "2026-11-02..2026-11-08",
+     "result": "INCONCLUSIVE",
+     "previous_result": null,
+     "frozen_predicted_trajectory": "By +30 (2026-12-02): ≥1 further Anvisa act, alert, seizure or ad action naming ashwagandha products, or ≥1 new Brazilian outlet investigation of ashwagandha sales. PT X ashwagandha stays <50 posts/7d at each checkpoint.",
+     "prediction_confidence": "55%",
+     "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+     "prediction_freeze_date": "2026-11-02",
+     "evidence_summary": "No further Anvisa act, seizure or ad action naming ashwagandha, and no new BR outlet investigation of its sales, was found after the 21/10 note and the Estadão (27/10) piece. A compounding-pharmacy trade explainer (Farmácias de Manipulação, updated 02/11) restates that ashwagandha is not an authorised supplement constituent. PT X ashwagandha: 6 posts in ~7 days (<50).",
+     "rationale": "Low-social clause holds; no new act or investigation yet (window runs to +30) → INCONCLUSIVE at +7.",
+     "sources_checked": [
+      "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/ashwagandha-suplemento-do-tiktok-nao-tem-registro-no-brasil",
+      "https://farmaciasdemanipulacao.com.br/farmacia-de-manipulacao/ashwagandha-anvisa-brasil-suplementos-farmacias-manipulacao/"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "pt_ashwagandha_7d": 6,
+      "source": "live x get_posts_counts_recent 2026-11-08 ~09:53 SP; window 2026-11-01T13:30Z to 2026-11-08T12:53Z (~7 days), -is:retweet; X reads free (948/1000 left today)"
+     },
+     "run_note": "Scored by the Sunday Prediction Reviews routine on 2026-11-08 (scheduled due 2026-11-09, per the Sunday-review rule agreed 2026-10-22). Frozen prediction copied verbatim from trends/; never edited.",
+     "_source_file": "reviews/NT-2026-11-02-07_plus7_2026-11-08.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Até +30 (2026-12-02): ≥1 novo ato, alerta, apreensão ou ação de propaganda da Anvisa citando produtos de ashwagandha, ou ≥1 nova investigação de veículo brasileiro sobre a venda de ashwagandha. O X PT sobre ashwagandha fica <50 posts/7d em cada checkpoint.",
+      "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+      "evidence_summary": "Não encontramos novo ato, apreensão ou ação de propaganda da Anvisa citando ashwagandha, nem nova investigação de veículo brasileiro sobre sua venda, depois da nota de 21/10 e da matéria do Estadão (27/10). Um explicador trade para farmácias de manipulação (Farmácias de Manipulação, atualizado em 02/11) reforça que a ashwagandha não é constituinte autorizado em suplemento. X PT ashwagandha: 6 posts em ~7 dias (<50).",
+      "rationale": "A cláusula de baixo volume social se mantém; ainda sem ato ou investigação nova (janela vai até o +30) → INCONCLUSIVE no +7."
+     },
+     "_translated_at": "2026-11-08T10:30:00-03:00"
+    }
+   ],
+   "observations": [
+    {
+     "observation_date": "2026-11-08",
+     "trend_id": "NT-2026-11-02-07",
+     "cohort_id": "cohort_008",
+     "observation_type": "plus7_review_probe",
+     "stage_now": "Brazil Emerging",
+     "evidence_notes": "No further Anvisa act, seizure or ad action naming ashwagandha, and no new BR outlet investigation of its sales, was found after the 21/10 note and the Estadão (27/10) piece. A compounding-pharmacy trade explainer (Farmácias de Manipulação, updated 02/11) restates that ashwagandha is not an authorised supplement constituent. PT X ashwagandha: 6 posts in ~7 days (<50).",
+     "sources_found": [
+      "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/ashwagandha-suplemento-do-tiktok-nao-tem-registro-no-brasil",
+      "https://farmaciasdemanipulacao.com.br/farmacia-de-manipulacao/ashwagandha-anvisa-brasil-suplementos-farmacias-manipulacao/"
+     ],
+     "notes": "plus7 result=INCONCLUSIVE; see reviews/NT-2026-11-02-07_plus7_2026-11-08.json",
+     "recommended_action": "Watch DOU/Anvisa and BR press.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "pt_ashwagandha_7d": 6,
+      "source": "live x get_posts_counts_recent 2026-11-08 ~09:53 SP; window 2026-11-01T13:30Z to 2026-11-08T12:53Z (~7 days), -is:retweet; X reads free (948/1000 left today)"
+     },
+     "_source_file": "observations/2026-11-08.jsonl",
+     "_line": 17,
+     "_pt": {
+      "evidence_notes": "Não encontramos novo ato, apreensão ou ação de propaganda da Anvisa citando ashwagandha, nem nova investigação de veículo brasileiro sobre sua venda, depois da nota de 21/10 e da matéria do Estadão (27/10). Um explicador trade para farmácias de manipulação (Farmácias de Manipulação, atualizado em 02/11) reforça que a ashwagandha não é constituinte autorizado em suplemento. X PT ashwagandha: 6 posts em ~7 dias (<50).",
+      "notes": "resultado plus7=INCONCLUSIVE; ver reviews/NT-2026-11-02-07_plus7_2026-11-08.json",
+      "stage_now": "Brasil emergente",
+      "recommended_action": "Vigiar DOU/Anvisa e a imprensa brasileira."
+     }
+    }
+   ],
    "mentions": [],
    "embedded_observation_log": [],
    "schedule": {
@@ -30332,22 +31490,24 @@
      "plus_14": "2026-11-16",
      "plus_30": "2026-12-02"
     },
-    "next_review_date": "2026-11-09",
+    "next_review_date": "2026-11-16",
     "prediction_status": "frozen",
+    "last_review_date": "2026-11-08",
+    "last_result": "INCONCLUSIVE",
     "cohort_id": "cohort_008"
    },
    "cohort_id": "cohort_008",
-   "latest_result": null,
-   "latest_review_date": null,
+   "latest_result": "INCONCLUSIVE",
+   "latest_review_date": "2026-11-08",
    "status": "ANALYZING",
    "timeline": [
     {
      "horizon": "plus_7",
      "due": "2026-11-09",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "INCONCLUSIVE",
+     "review_date": "2026-11-08",
+     "review_id": "NT-2026-11-02-07_plus7_2026-11-08"
     },
     {
      "horizon": "plus_14",
@@ -30366,7 +31526,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-11-09"
+   "next_checkpoint": "2026-11-16"
   },
   {
    "id": "NT-2026-11-02-08",
@@ -30486,8 +31646,73 @@
     "translated_at": "2026-11-02T09:40:00-03:00",
     "source_file": "trends/NT-2026-11-02-08.json"
    },
-   "reviews": [],
-   "observations": [],
+   "reviews": [
+    {
+     "review_id": "NT-2026-11-02-08_plus7_2026-11-08",
+     "trend_id": "NT-2026-11-02-08",
+     "cohort_id": "cohort_008",
+     "review_horizon": "plus_7",
+     "scheduled_due_date": "2026-11-09",
+     "review_date": "2026-11-08",
+     "timezone": "America/Sao_Paulo",
+     "evidence_window": "2026-11-02..2026-11-08",
+     "result": "HIT",
+     "previous_result": null,
+     "frozen_predicted_trajectory": "Stays small: by +30 (2026-12-02) no Anvisa rule change or official statement on the ≤100 cm² exemption, no tier-1 Brazilian outlet story on brands shrinking packs to avoid the table, and PT X on the label-size theme stays <50 posts/7d at +14 and +30. Any tier-1 story or Anvisa response = MISS.",
+     "prediction_confidence": "70%",
+     "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+     "prediction_freeze_date": "2026-11-02",
+     "evidence_summary": "Stays small so far: no Anvisa rule change or statement on the ≤100 cm² nutrition-table exemption and no tier-1 BR story on brands shrinking packs to skip the table were found. PT X label-size theme (tabela nutricional/rótulo × embalagem/100 cm/Anvisa, broad query): 24 posts in ~7 days (<50), mostly generic label talk.",
+     "rationale": "Every clause of the 'stays small' prediction holds at +7 → HIT (provisional; final check at +30).",
+     "sources_checked": [
+      "https://www.gov.br/anvisa/pt-br/centraisdeconteudo/publicacoes/alimentos/perguntas-e-respostas-arquivos/rotulagem-nutricional_2a-edicao.pdf/@@download/file"
+     ],
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "pt_label_size_theme_7d": 24,
+      "source": "live x get_posts_counts_recent 2026-11-08 ~09:53 SP; window 2026-11-01T13:30Z to 2026-11-08T12:53Z (~7 days), -is:retweet; X reads free (948/1000 left today)"
+     },
+     "run_note": "Scored by the Sunday Prediction Reviews routine on 2026-11-08 (scheduled due 2026-11-09, per the Sunday-review rule agreed 2026-10-22). Frozen prediction copied verbatim from trends/; never edited.",
+     "_source_file": "reviews/NT-2026-11-02-08_plus7_2026-11-08.json",
+     "_pt": {
+      "frozen_predicted_trajectory": "Continua pequeno: até +30 (2026-12-02) não há mudança de regra nem manifestação oficial da Anvisa sobre a dispensa de ≤100 cm², nenhum veículo brasileiro de primeira linha publica matéria sobre marcas encolhendo embalagens para evitar a tabela, e o X PT sobre o tema fica <50 posts/7d em +14 e +30. Qualquer matéria de primeira linha ou resposta da Anvisa = MISS.",
+      "prediction_timeframe": "+7 2026-11-09 · +14 2026-11-16 · +30 2026-12-02",
+      "evidence_summary": "Segue pequeno até agora: não encontramos mudança de norma nem posicionamento da Anvisa sobre a dispensa de tabela nutricional em embalagens ≤100 cm², nem matéria tier-1 sobre marcas que encolhem embalagens para não ter tabela. X PT tema tamanho do rótulo (tabela nutricional/rótulo × embalagem/100 cm/Anvisa, busca ampla): 24 posts em ~7 dias (<50), em geral conversa genérica sobre rótulos.",
+      "rationale": "Todas as cláusulas da previsão 'continua pequeno' se mantêm no +7 → ACERTO (provisório; checagem final no +30)."
+     },
+     "_translated_at": "2026-11-08T10:30:00-03:00"
+    }
+   ],
+   "observations": [
+    {
+     "observation_date": "2026-11-08",
+     "trend_id": "NT-2026-11-02-08",
+     "cohort_id": "cohort_008",
+     "observation_type": "plus7_review_probe",
+     "stage_now": "Brazil Emerging",
+     "evidence_notes": "Stays small so far: no Anvisa rule change or statement on the ≤100 cm² nutrition-table exemption and no tier-1 BR story on brands shrinking packs to skip the table were found. PT X label-size theme (tabela nutricional/rótulo × embalagem/100 cm/Anvisa, broad query): 24 posts in ~7 days (<50), mostly generic label talk.",
+     "sources_found": [
+      "https://www.gov.br/anvisa/pt-br/centraisdeconteudo/publicacoes/alimentos/perguntas-e-respostas-arquivos/rotulagem-nutricional_2a-edicao.pdf/@@download/file"
+     ],
+     "notes": "plus7 result=HIT; see reviews/NT-2026-11-02-08_plus7_2026-11-08.json",
+     "recommended_action": "Keep as myth-check FAQ only.",
+     "Radar_version": "Radar v0.1",
+     "Score_version": "NutriTrend Score v0.1",
+     "x_counts": {
+      "pt_label_size_theme_7d": 24,
+      "source": "live x get_posts_counts_recent 2026-11-08 ~09:53 SP; window 2026-11-01T13:30Z to 2026-11-08T12:53Z (~7 days), -is:retweet; X reads free (948/1000 left today)"
+     },
+     "_source_file": "observations/2026-11-08.jsonl",
+     "_line": 18,
+     "_pt": {
+      "evidence_notes": "Segue pequeno até agora: não encontramos mudança de norma nem posicionamento da Anvisa sobre a dispensa de tabela nutricional em embalagens ≤100 cm², nem matéria tier-1 sobre marcas que encolhem embalagens para não ter tabela. X PT tema tamanho do rótulo (tabela nutricional/rótulo × embalagem/100 cm/Anvisa, busca ampla): 24 posts em ~7 dias (<50), em geral conversa genérica sobre rótulos.",
+      "notes": "resultado plus7=HIT; ver reviews/NT-2026-11-02-08_plus7_2026-11-08.json",
+      "stage_now": "Brasil emergente",
+      "recommended_action": "Manter só como FAQ de checagem."
+     }
+    }
+   ],
    "mentions": [],
    "embedded_observation_log": [],
    "schedule": {
@@ -30500,22 +31725,24 @@
      "plus_14": "2026-11-16",
      "plus_30": "2026-12-02"
     },
-    "next_review_date": "2026-11-09",
+    "next_review_date": "2026-11-16",
     "prediction_status": "frozen",
+    "last_review_date": "2026-11-08",
+    "last_result": "HIT",
     "cohort_id": "cohort_008"
    },
    "cohort_id": "cohort_008",
-   "latest_result": null,
-   "latest_review_date": null,
-   "status": "ANALYZING",
+   "latest_result": "HIT",
+   "latest_review_date": "2026-11-08",
+   "status": "HIT",
    "timeline": [
     {
      "horizon": "plus_7",
      "due": "2026-11-09",
-     "state": "pending",
-     "result": null,
-     "review_date": null,
-     "review_id": null
+     "state": "scored",
+     "result": "HIT",
+     "review_date": "2026-11-08",
+     "review_id": "NT-2026-11-02-08_plus7_2026-11-08"
     },
     {
      "horizon": "plus_14",
@@ -30534,7 +31761,7 @@
      "review_id": null
     }
    ],
-   "next_checkpoint": "2026-11-09"
+   "next_checkpoint": "2026-11-16"
   }
  ],
  "general_observations": [
@@ -30655,12 +31882,61 @@
     "brazil_relevance": "Alta para prescritores: ato regulatório exclusivo do Brasil sobre ingrediente vendido em todo o país via farmácias de manipulação e marketplaces",
     "confidence": "Alta quanto ao fato (ato no DOU, cobertura consistente da grande mídia); média quanto ao alcance (volume de prescritores desconhecido, reação nas redes ainda não visível)"
    }
+  },
+  {
+   "observation_date": "2026-11-04",
+   "trend_id": null,
+   "cohort_id": null,
+   "observation_type": "daily_radar_alert",
+   "topic": "Anvisa approves oral Wegovy (semaglutide 25 mg tablets), first oral GLP-1 for obesity in Brazil (RE 4.249/2026, DOU 4 Nov 2026)",
+   "stage_now": "Brazil Emerging (regulatory act day 0, tier-1 media same morning; social just starting)",
+   "alert_level": "Daily Alert",
+   "evidence_notes": "Anvisa news (published 04/11 05:06) and DOU RE 4.249/2026 approve the oral route for Wegovy (Novo Nordisk): adults with BMI >=30, or >=27 with a weight-related comorbidity, as adjunct to low-calorie diet and physical activity (injectable also covers 12+). Once-daily tablet, escalation 1.5 -> 4 -> 9 mg to 25 mg maintenance; taken fasting with a small amount of water, waiting at least 30 minutes before food, drinks or other medicines; switching between oral and subcutaneous allowed when clinically appropriate. Pivotal OASIS 4 (64 weeks): mean weight loss >13% (O Globo: 13.6%; ~17% if all stayed on treatment; 1 in 3 lost >=20%). O Globo: Novo Nordisk expects sales to start in 1H 2027; price not announced. Same-morning coverage by O Globo, Exame (07:39), UOL, Metropoles. X: O Globo post 2,575 imp within ~1h15; Brasil 247 648 imp; PT oral/comprimido x wegovy/semaglutida/caneta count 0/hour all of 11-03, 8 posts 04/11 through 11:38Z (social not yet reacting). BR RD content on oral semaglutide routine already exists (Guido Nutri blog; Clinica VILE Rybelsus guide). Related, no frozen prediction edited: NT-2026-09-28-05 (national semaglutide market), NT-2026-10-19-06 (canetas x SUS), cohort 008 lean-mass trends (NT-2026-11-02-01, -03).",
+   "sources_found": [
+    "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-aprova-primeiro-medicamento-de-glp-1-oral-para-obesidade",
+    "https://oglobo.globo.com/saude/noticia/2026/11/04/anvisa-aprova-wegovy-em-comprimido-1a-versao-oral-das-canetas-emagrecedoras.ghtml",
+    "https://exame.com/brasil/wegovy-oral-anvisa-aprova-1a-versao-em-comprimidos-de-caneta-emagrecedora/",
+    "https://noticias.uol.com.br/saude/ultimas-noticias/redacao/2026/11/04/anvisa-aprova-wegovy-em-comprimido-para-tratar-obesidade.ghtm",
+    "https://www.metropoles.com/brasil/anvisa-aprova-primeira-versao-em-comprimidos-da-caneta-emagrecedora-wegovy",
+    "https://x.com/JornalOGlobo/status/2117925590418276516",
+    "https://x.com/brasil247/status/2117939995910791211",
+    "https://x.com/dcm_noticias/status/2117935367055679545",
+    "https://guidonutri.com/blog/semaglutida-comprimido-wegovy-oral",
+    "file:///workspace/nutritrend/discovery/radar_sweep_2026-11-04.md",
+    "file:///workspace/nutritrend/discovery/x_propagation_2026-11-04.md"
+   ],
+   "niche": [
+    "GLP-1 / obesity clinical nutrition",
+    "sports/hypertrophy & lean-mass preservation (Profile A)",
+    "supplement timing and drug-nutrient scheduling (Profile B)"
+   ],
+   "brazil_relevance": "High: Brazil-specific regulatory approval, first oral GLP-1 for obesity in the country, national tier-1 coverage",
+   "confidence": "High on fact (Anvisa and DOU, consistent tier-1 reporting); medium on near-term practice volume (product not on shelves until 1H 2027, price unknown); social acceleration not yet visible",
+   "notes": "New topic (oral GLP-1 not in any frozen cohort). Alert based on regulatory certainty, landmark novelty and a direct meal-timing implication for nutrition counselling, not on X velocity (same basis as the 2026-10-09 PeptiStrong alert). X query q55 added. Monday cohort 009 candidate.",
+   "recommended_action": "Prepare now for patient questions: (1) explain the administration rule (fasting, at most a small sip of water, 30 minutes before any food, coffee, other drinks, medicines or supplements) and that it is not on sale yet (expected 1H 2027, price unknown); (2) plan a protein-led first meal after the 30-minute window and avoid the skipped-breakfast pattern under reduced appetite; (3) for morning trainers, schedule pill -> 30 min -> pre-workout meal; (4) move morning supplements (creatine, multivitamins, iron, calcium) out of the 30-minute window; (5) keep the lean-mass and micronutrient monitoring used for injectable users; pill vs pen is a prescriber decision, results comparable rather than stronger or weaker. Content angle: 'Wegovy em comprimido: o que muda no seu café da manha'.",
+   "Radar_version": "Radar v0.1",
+   "Score_version": "NutriTrend Score v0.1",
+   "x_counts": {
+    "pt_oral_wegovy_semaglutida_caneta_11-03": 0,
+    "pt_oral_wegovy_semaglutida_caneta_11-04_to_1138Z": 8,
+    "oglobo_post_impressions": 2575,
+    "source": "live x get_posts_counts_recent + search_posts_all 2026-11-04 ~08:38 SP"
+   },
+   "_source_file": "observations/2026-11-04.jsonl",
+   "_line": 1,
+   "_pt": {
+    "topic": "Anvisa aprova Wegovy oral (semaglutida 25 mg em comprimidos), primeiro GLP-1 oral para obesidade no Brasil (RE 4.249/2026, DOU 4 nov 2026)",
+    "stage_now": "Brasil Emergente (ato regulatório no dia 0, mídia de primeira linha na mesma manhã; redes sociais começando a reagir)",
+    "evidence_notes": "Notícia da Anvisa (publicada 04/11 05:06) e RE 4.249/2026 no DOU aprovam a via oral do Wegovy (Novo Nordisk): adultos com IMC >=30, ou >=27 com comorbidade relacionada ao peso, como adjuvante a dieta hipocalórica e atividade física (a versão injetável também cobre 12+). Comprimido uma vez ao dia, escalonamento 1,5 -> 4 -> 9 mg até 25 mg de manutenção; tomado em jejum com pouca água, aguardando pelo menos 30 minutos antes de alimentos, bebidas ou outros medicamentos; transição entre oral e subcutânea permitida quando clinicamente apropriada. Estudo pivotal OASIS 4 (64 semanas): perda média de peso >13% (O Globo: 13,6%; ~17% se todos permanecessem em tratamento; 1 em cada 3 perdeu >=20%). O Globo: a Novo Nordisk prevê início das vendas no 1º semestre de 2027; preço não anunciado. Cobertura na mesma manhã por O Globo, Exame (07:39), UOL, Metrópoles. X: post do O Globo com 2.575 imp em ~1h15; Brasil 247 com 648 imp; contagem PT oral/comprimido x wegovy/semaglutida/caneta 0/hora em todo o dia 03/11, 8 posts em 04/11 até 11:38Z (redes ainda não reagiram). Já existe conteúdo de nutricionistas brasileiros sobre a rotina da semaglutida oral (blog Guido Nutri; guia Rybelsus da Clínica VILE). Relacionadas, sem editar previsão congelada: NT-2026-09-28-05 (mercado de semaglutida nacional), NT-2026-10-19-06 (canetas x SUS), tendências de massa magra do cohort 008 (NT-2026-11-02-01, -03).",
+    "notes": "Tema novo (GLP-1 oral não consta em nenhum cohort congelado). Alerta baseado em certeza regulatória, novidade marcante e implicação direta no horário das refeições para o aconselhamento nutricional, não na velocidade no X (mesma base do alerta PeptiStrong de 09/10/2026). Query q55 do X adicionada. Candidato ao cohort 009 de segunda-feira.",
+    "recommended_action": "Prepare-se agora para as perguntas dos pacientes: (1) explique a regra de uso (jejum, no máximo um pequeno gole de água, 30 minutos antes de qualquer alimento, café, outras bebidas, medicamentos ou suplementos) e que ainda não está à venda (previsão 1º semestre de 2027, preço desconhecido); (2) planeje uma primeira refeição com foco em proteína após a janela de 30 minutos e evite o padrão de pular o café da manhã com o apetite reduzido; (3) para quem treina de manhã, organize comprimido -> 30 min -> refeição pré-treino; (4) tire os suplementos da manhã (creatina, multivitamínicos, ferro, cálcio) da janela de 30 minutos; (5) mantenha o monitoramento de massa magra e micronutrientes usado para usuários da versão injetável; comprimido ou caneta é decisão do prescritor, com resultados comparáveis, não mais fortes nem mais fracos. Ângulo de conteúdo: 'Wegovy em comprimido: o que muda no seu café da manhã'."
+   }
   }
  ],
  "counts": {
   "trends": 84,
-  "reviews": 198,
-  "observations": 252
+  "reviews": 216,
+  "observations": 271
  },
  "warnings": [],
  "translations": {
