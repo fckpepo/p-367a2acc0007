@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-08T09:58:55-03:00",
+ "generated_at": "2026-11-09T09:03:57-03:00",
  "generated_tz": "America/Sao_Paulo",
- "build_date": "2026-11-08",
+ "build_date": "2026-11-09",
  "store": {
   "path": "/workspace/nutritrend"
  },
@@ -15,9 +15,9 @@
    "HIT": 17,
    "PARTIAL": 43,
    "MISS": 4,
-   "ANALYZING": 20
+   "ANALYZING": 27
   },
-  "total": 84,
+  "total": 91,
   "hit_rate": 0.8095,
   "hit_rate_hits": 17,
   "hit_rate_denominator": 21
@@ -382,6 +382,45 @@
     "NT-2026-11-02-06",
     "NT-2026-11-02-07",
     "NT-2026-11-02-08"
+   ],
+   "final": false
+  },
+  {
+   "cohort_id": "cohort_009",
+   "cohort_date": "2026-11-09",
+   "Radar_version": "Radar v0.1",
+   "Score_version": "NutriTrend Score v0.1",
+   "review_cadence_days": [
+    7,
+    14,
+    30
+   ],
+   "_source_file": "reviews/schedule_cohort_009.json",
+   "frozen_date": "2026-11-09",
+   "next_review_date": "2026-11-16",
+   "overdue": 0,
+   "reviews_count": 0,
+   "summary": {
+    "counts": {
+     "HIT": 0,
+     "PARTIAL": 0,
+     "MISS": 0,
+     "ANALYZING": 7
+    },
+    "total": 7,
+    "hit_rate": null,
+    "hit_rate_hits": 0,
+    "hit_rate_denominator": 0
+   },
+   "latest_checkpoint": null,
+   "trend_ids": [
+    "NT-2026-11-09-01",
+    "NT-2026-11-09-02",
+    "NT-2026-11-09-03",
+    "NT-2026-11-09-04",
+    "NT-2026-11-09-05",
+    "NT-2026-11-09-06",
+    "NT-2026-11-09-07"
    ],
    "final": false
   }
@@ -31762,6 +31801,1216 @@
     }
    ],
    "next_checkpoint": "2026-11-16"
+  },
+  {
+   "id": "NT-2026-11-09-01",
+   "frozen": {
+    "trend_id": "NT-2026-11-09-01",
+    "topic": "Oral Wegovy approved in Brazil (Anvisa RE 4.249/2026, DOU 04/11) — fasting dose with a ≥30-minute wait before any food, drink, medicine or supplement changes breakfast, pre-workout and supplement timing; sales expected 1H 2027, price not announced",
+    "canonical_topic_name": "Practice FAQ for the first oral GLP-1 for obesity in Brazil: how the fasting-dose rule reshapes the first meal, morning training and supplement timing, and why pill and pen doses are not equivalent",
+    "source_market": "BR (Native)",
+    "origin_community": "Anvisa + BR tier-1 press (O Globo, Exame, UOL, Metrópoles, g1, Folha, BBC Brasil, Estadão) + early RD blogs (Guido Nutri)",
+    "origin_type": "Regulatory approval",
+    "source_layer": "Discovery",
+    "stage": "Brazil Emerging",
+    "velocity": "PT X (wegovy OR semaglutida OR caneta) × (comprimido OR oral), no RTs, UTC days 02/11–09/11: 0;0;93;30;5;5;3;6 (142/7d, last day partial; live read 2026-11-09 ~09:00 SP) — one-day spike on approval, now decelerating",
+    "reach": "High in news (national tier-1 coverage 04–05/11; g1 post 10,769 imp; O Globo/Exame/UOL), low and fading on social",
+    "novelty": "Medium-High — NT-2026-10-12-08 covered expectations before approval; approval plus the concrete 30-minute fasting rule is new practice content",
+    "persistence_estimate": "High — the topic returns at launch (1H 2027) and with price news; practice questions persist",
+    "brazil_presence": "Present/Native — Anvisa release 04/11, DOU RE 4.249/2026, national press",
+    "brazil_momentum": "Decelerating on social after 04/11 spike; explainer pipeline still open",
+    "primary_niches": [
+     "GLP-1 / obesity clinic",
+     "sports/hypertrophy (morning training)",
+     "supplements timing"
+    ],
+    "evidence_temperature": "Strong for the regulatory fact and dosing rule (Anvisa); OASIS 4 mean loss >13% at 64 weeks (O Globo: 13.6%)",
+    "misinformation_risk": "Medium-High — 'pílula = sem dieta', 'é só trocar a caneta pelo comprimido na mesma dose', 'já está à venda'",
+    "audience_question_signal": "Yes (stream replies 04–05/11) — Quando chega na farmácia? · Quanto vai custar? · Posso tomar com café/creatina? · Troco a caneta pelo comprimido?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "By +30 (2026-12-09): (a) ≥3 Brazilian outlets or nutrition-professional blogs publish practical guidance on the oral-semaglutide fasting window (meal/supplement/coffee timing) dated 2026-11-10 or later; and (b) oral Wegovy is NOT on sale in Brazilian pharmacies by 2026-12-09 (launch stays framed as 1H 2027). PT X oral-Wegovy count stays below the 04/11 single-day peak (93) on every day of the 7-day window at each checkpoint. Only one of (a)/(b) = PARTIAL.",
+    "prediction_timeframe": "+7 2026-11-16 · +14 2026-11-23 · +30 2026-12-09",
+    "prediction_confidence": "65%",
+    "key_sources": [
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-aprova-primeiro-medicamento-de-glp-1-oral-para-obesidade",
+     "https://oglobo.globo.com/saude/noticia/2026/11/04/anvisa-aprova-wegovy-em-comprimido-1a-versao-oral-das-canetas-emagrecedoras.ghtml",
+     "https://exame.com/brasil/wegovy-oral-anvisa-aprova-1a-versao-em-comprimidos-de-caneta-emagrecedora/",
+     "https://guidonutri.com/blog/semaglutida-comprimido-wegovy-oral"
+    ],
+    "key_accounts": [
+     "@anvisa_oficial",
+     "@g1",
+     "@Estadao",
+     "@JornalOGlobo"
+    ],
+    "why_flagged": "Daily Alert on 2026-11-04 and the strongest carry item in every sweep since. It is the only new GLP-1 fact this week that changes concrete nutrition advice (first meal, pre-workout, morning supplements).",
+    "ProfileA_relevance": 70,
+    "ProfileB_relevance": 72,
+    "merged_from": [
+     "Radar sweep 11-04 Daily Alert (oral Wegovy)",
+     "Sweeps 11-05/11-06: Estadão 'doses not equivalent' angle"
+    ],
+    "scan_notes": "Pill vs pen and dose are prescriber decisions; nutritionists advise on timing and intake only. Price and launch date Unknown. Related, not rewritten: NT-2026-10-12-08 (oral GLP-1 expectations).",
+    "first_detected_date": "2026-11-04",
+    "latest_observation_date": "2026-11-09",
+    "prediction_freeze_date": "2026-11-09",
+    "next_review_date": "2026-11-16",
+    "review_dates": {
+     "plus_7": "2026-11-16",
+     "plus_14": "2026-11-23",
+     "plus_30": "2026-12-09"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_009"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-11-09-01",
+    "topic": "Wegovy oral aprovado no Brasil (Anvisa RE 4.249/2026, DOU 04/11) — dose em jejum com espera de ≥30 minutos antes de qualquer alimento, bebida, medicamento ou suplemento muda o café da manhã, o pré-treino e o horário dos suplementos; vendas previstas para o 1º semestre de 2027, preço não divulgado",
+    "canonical_topic_name": "FAQ prático do primeiro GLP-1 oral para obesidade no Brasil: como a regra da dose em jejum reorganiza a primeira refeição, o treino da manhã e o horário dos suplementos, e por que as doses do comprimido e da caneta não são equivalentes",
+    "source_market": "BR (nativo)",
+    "origin_community": "Anvisa + imprensa nacional (O Globo, Exame, UOL, Metrópoles, g1, Folha, BBC Brasil, Estadão) + primeiros blogs de nutricionistas (Guido Nutri)",
+    "origin_type": "Aprovação regulatória",
+    "source_layer": "Descoberta",
+    "stage": "Brazil Emerging",
+    "velocity": "X PT (wegovy OR semaglutida OR caneta) × (comprimido OR oral), sem RTs, dias UTC 02/11–09/11: 0;0;93;30;5;5;3;6 (142/7d, último dia parcial; leitura ao vivo em 2026-11-09 ~09:00 SP) — pico de um dia na aprovação, agora em desaceleração",
+    "reach": "Alto nas notícias (cobertura nacional em 04–05/11; post do g1 com 10.769 impressões; O Globo/Exame/UOL), baixo e caindo nas redes",
+    "novelty": "Média-alta — a NT-2026-10-12-08 tratou das expectativas antes da aprovação; a aprovação com a regra concreta dos 30 minutos em jejum é conteúdo prático novo",
+    "persistence_estimate": "Alta — o tema volta no lançamento (1º sem. 2027) e com notícias de preço; as dúvidas práticas continuam",
+    "brazil_presence": "Presente/nativo — nota da Anvisa em 04/11, DOU RE 4.249/2026, imprensa nacional",
+    "brazil_momentum": "Desacelerando nas redes depois do pico de 04/11; ainda há espaço para conteúdos explicativos",
+    "primary_niches": [
+     "GLP-1 / clínica de obesidade",
+     "esporte/hipertrofia (treino pela manhã)",
+     "horário de suplementos"
+    ],
+    "evidence_temperature": "Forte para o fato regulatório e a regra de uso (Anvisa); OASIS 4 com perda média >13% em 64 semanas (O Globo: 13,6%)",
+    "misinformation_risk": "Média-alta — “comprimido = sem dieta”, “é só trocar a caneta pelo comprimido na mesma dose”, “já está à venda”",
+    "audience_question_signal": "Sim (respostas no stream em 04–05/11) — Quando chega na farmácia? · Quanto vai custar? · Posso tomar com café/creatina? · Troco a caneta pelo comprimido?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "Até +30 (2026-12-09): (a) ≥3 veículos brasileiros ou blogs de nutricionistas publicam orientação prática sobre a janela de jejum da semaglutida oral (horário de refeição, suplemento, café), com data a partir de 2026-11-10; e (b) o Wegovy oral NÃO está à venda nas farmácias brasileiras até 2026-12-09 (lançamento segue previsto para o 1º sem. 2027). A contagem no X PT sobre Wegovy oral fica abaixo do pico de 04/11 (93) em todos os dias da janela de 7 dias em cada checkpoint. Só uma de (a)/(b) = PARTIAL.",
+    "prediction_timeframe": "+7 2026-11-16 · +14 2026-11-23 · +30 2026-12-09",
+    "prediction_confidence": "65%",
+    "key_sources": [
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-aprova-primeiro-medicamento-de-glp-1-oral-para-obesidade",
+     "https://oglobo.globo.com/saude/noticia/2026/11/04/anvisa-aprova-wegovy-em-comprimido-1a-versao-oral-das-canetas-emagrecedoras.ghtml",
+     "https://exame.com/brasil/wegovy-oral-anvisa-aprova-1a-versao-em-comprimidos-de-caneta-emagrecedora/",
+     "https://guidonutri.com/blog/semaglutida-comprimido-wegovy-oral"
+    ],
+    "key_accounts": [
+     "@anvisa_oficial",
+     "@g1",
+     "@Estadao",
+     "@JornalOGlobo"
+    ],
+    "why_flagged": "Alerta diário em 2026-11-04 e o item mais forte levado em todas as varreduras desde então. É o único fato novo sobre GLP-1 nesta semana que muda uma orientação concreta de nutrição (primeira refeição, pré-treino, suplementos da manhã).",
+    "ProfileA_relevance": 70,
+    "ProfileB_relevance": 72,
+    "merged_from": [
+     "Alerta diário da varredura de 11-04 (Wegovy oral)",
+     "Varreduras de 11-05/11-06: ângulo do Estadão “doses não são equivalentes”"
+    ],
+    "scan_notes": "Escolha entre comprimido e caneta e a dose são decisões de quem prescreve; o nutricionista orienta horários e ingestão. Preço e data de lançamento: desconhecidos. Relacionada, não reescrita: NT-2026-10-12-08 (expectativas sobre GLP-1 oral).",
+    "first_detected_date": "2026-11-04",
+    "latest_observation_date": "2026-11-09",
+    "prediction_freeze_date": "2026-11-09",
+    "next_review_date": "2026-11-16",
+    "review_dates": {
+     "plus_7": "2026-11-16",
+     "plus_14": "2026-11-23",
+     "plus_30": "2026-12-09"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_009"
+   },
+   "translation": {
+    "translated_at": "2026-11-09T09:20:00-03:00",
+    "source_file": "trends/NT-2026-11-09-01.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-11-09-01",
+    "topic": "Oral Wegovy approved in Brazil (Anvisa RE 4.249/2026, DOU 04/11) — fasting dose with a ≥30-minute wait before any food, drink, medicine or supplement changes breakfast, pre-workout and supplement timing; sales expected 1H 2027, price not announced",
+    "stage_at_freeze": "Brazil Emerging",
+    "prediction_freeze_date": "2026-11-09",
+    "review_dates": {
+     "plus_7": "2026-11-16",
+     "plus_14": "2026-11-23",
+     "plus_30": "2026-12-09"
+    },
+    "next_review_date": "2026-11-16",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_009"
+   },
+   "cohort_id": "cohort_009",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-11-16",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-11-23",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-12-09",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-11-16"
+  },
+  {
+   "id": "NT-2026-11-09-02",
+   "frozen": {
+    "trend_id": "NT-2026-11-09-02",
+    "topic": "Eating-disorder screening for GLP-1 pen users — World Psychiatry 2026 Delphi consensus (screen for ED before starting, monitor by risk, avoid in active anorexia/atypical AN/restrictive bulimia) reaches BR via Folha (08/11) and O Globo (20/10) NYT reprints: 'Médicos cobram regras para canetas diante de risco de anorexia'",
+    "canonical_topic_name": "Nutritionist's role in ED triage and monitoring when patients start or are on GLP-1 pens",
+    "source_market": "Global → BR",
+    "origin_community": "Psychiatry/ED research (World Psychiatry Delphi) + NYT syndication in Folha and O Globo",
+    "origin_type": "Consensus guidance + press",
+    "source_layer": "Discovery",
+    "stage": "Migration Candidate",
+    "velocity": "PT X (caneta OR mounjaro OR ozempic) × (anorexia OR transtorno alimentar), no RTs, UTC days 02/11–09/11: 1;0;4;2;2;6;4;1 (20/7d; live read in 2026-11-09 sweep)",
+    "reach": "Medium — two tier-1 papers (Folha post 3,777 imp), low social",
+    "novelty": "High — no prior cohort covered ED screening on pens",
+    "persistence_estimate": "Medium-High — pen access widening (cheaper national semaglutide) keeps the safety debate alive",
+    "brazil_presence": "Present (syndicated) — Folha 08/11, O Globo 20/10; no Brazilian society guidance found yet",
+    "brazil_momentum": "Low, steady",
+    "primary_niches": [
+     "eating disorders / behavioral nutrition",
+     "GLP-1 / obesity clinic",
+     "sports/aesthetics (restrictive gym culture)"
+    ],
+    "evidence_temperature": "Moderate — expert Delphi consensus, not trial data",
+    "misinformation_risk": "Medium — 'caneta cura compulsão', 'quem tem TA não pode nem conversar sobre caneta'",
+    "audience_question_signal": "Inferred — Caneta ajuda na compulsão? · Minha paciente com histórico de anorexia quer usar, e agora?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "By +30 (2026-12-09): (a) ≥1 Brazilian professional body (ABESO, SBEM, ABP, ASBRAN, CFN or a CRN) or a Brazilian-authored tier-1 article (not an NYT reprint) publishes guidance or recommendations on ED screening/monitoring for GLP-1 users; and (b) PT X pens × anorexia/TA stays under 100 posts/7d at each checkpoint. Only (b) holds, or (a) appears only as reprint/opinion = PARTIAL.",
+    "prediction_timeframe": "+7 2026-11-16 · +14 2026-11-23 · +30 2026-12-09",
+    "prediction_confidence": "50%",
+    "key_sources": [
+     "https://www1.folha.uol.com.br/equilibrio/2026/11/medicos-cobram-regras-para-canetas-emagrecedoras-diante-de-risco-de-anorexia.shtml",
+     "https://onlinelibrary.wiley.com/doi/10.1002/wps.70096"
+    ],
+    "key_accounts": [
+     "@folha",
+     "@JornalOGlobo"
+    ],
+    "why_flagged": "Carry item from the 11-09 sweep. Gives nutritionists a clear triage role (screen, monitor, refer) at a time when cheaper pens are reaching more people.",
+    "ProfileA_relevance": 45,
+    "ProfileB_relevance": 25,
+    "merged_from": [
+     "Radar sweep 11-09: Folha anorexia reprint + Delphi consensus"
+    ],
+    "scan_notes": "Prescription decisions stay with the physician. Delphi publication date ~Sept 2026 (exact date Unknown). No Brazilian society statement found as of freeze.",
+    "first_detected_date": "2026-10-20",
+    "latest_observation_date": "2026-11-09",
+    "prediction_freeze_date": "2026-11-09",
+    "next_review_date": "2026-11-16",
+    "review_dates": {
+     "plus_7": "2026-11-16",
+     "plus_14": "2026-11-23",
+     "plus_30": "2026-12-09"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_009"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-11-09-02",
+    "topic": "Triagem de transtornos alimentares em usuários de caneta GLP-1 — consenso Delphi da World Psychiatry 2026 (rastrear TA antes de iniciar, monitorar conforme o risco, evitar em anorexia ativa/anorexia atípica/bulimia restritiva) chega ao Brasil por reproduções do NYT na Folha (08/11) e no O Globo (20/10): “Médicos cobram regras para canetas diante de risco de anorexia”",
+    "canonical_topic_name": "Papel do nutricionista na triagem e no acompanhamento de transtornos alimentares quando o paciente começa ou já usa caneta GLP-1",
+    "source_market": "Global → BR",
+    "origin_community": "Pesquisa em psiquiatria/TA (Delphi da World Psychiatry) + reprodução do NYT na Folha e no O Globo",
+    "origin_type": "Consenso de especialistas + imprensa",
+    "source_layer": "Descoberta",
+    "stage": "Migration Candidate",
+    "velocity": "X PT (caneta OR mounjaro OR ozempic) × (anorexia OR transtorno alimentar), sem RTs, dias UTC 02/11–09/11: 1;0;4;2;2;6;4;1 (20/7d; leitura ao vivo na varredura de 2026-11-09)",
+    "reach": "Média — dois grandes jornais (post da Folha com 3.777 impressões), pouca repercussão social",
+    "novelty": "Alta — nenhuma coorte anterior tratou de triagem de TA em usuários de caneta",
+    "persistence_estimate": "Média-alta — o acesso maior às canetas (semaglutida nacional mais barata) mantém vivo o debate de segurança",
+    "brazil_presence": "Presente (reprodução) — Folha 08/11, O Globo 20/10; nenhuma orientação de sociedade brasileira encontrada até agora",
+    "brazil_momentum": "Baixo e estável",
+    "primary_niches": [
+     "transtornos alimentares / nutrição comportamental",
+     "GLP-1 / clínica de obesidade",
+     "esporte/estética (cultura restritiva de academia)"
+    ],
+    "evidence_temperature": "Moderada — consenso Delphi de especialistas, não dados de ensaio clínico",
+    "misinformation_risk": "Média — “caneta cura compulsão”, “quem tem TA não pode nem falar de caneta”",
+    "audience_question_signal": "Inferido — Caneta ajuda na compulsão? · Minha paciente com histórico de anorexia quer usar, e agora?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "Até +30 (2026-12-09): (a) ≥1 entidade profissional brasileira (ABESO, SBEM, ABP, ASBRAN, CFN ou um CRN) ou um texto de veículo nacional de autoria brasileira (não reprodução do NYT) publica orientação ou recomendação sobre triagem/monitoramento de TA em usuários de GLP-1; e (b) o X PT sobre canetas × anorexia/TA fica abaixo de 100 posts/7d em cada checkpoint. Só (b) se confirma, ou (a) aparece apenas como reprodução/opinião = PARTIAL.",
+    "prediction_timeframe": "+7 2026-11-16 · +14 2026-11-23 · +30 2026-12-09",
+    "prediction_confidence": "50%",
+    "key_sources": [
+     "https://www1.folha.uol.com.br/equilibrio/2026/11/medicos-cobram-regras-para-canetas-emagrecedoras-diante-de-risco-de-anorexia.shtml",
+     "https://onlinelibrary.wiley.com/doi/10.1002/wps.70096"
+    ],
+    "key_accounts": [
+     "@folha",
+     "@JornalOGlobo"
+    ],
+    "why_flagged": "Item levado da varredura de 11-09. Dá ao nutricionista um papel claro de triagem (rastrear, acompanhar, encaminhar) num momento em que canetas mais baratas chegam a mais gente.",
+    "ProfileA_relevance": 45,
+    "ProfileB_relevance": 25,
+    "merged_from": [
+     "Varredura de 11-09: reprodução da Folha sobre anorexia + consenso Delphi"
+    ],
+    "scan_notes": "A decisão de prescrever segue com o médico. Data de publicação do Delphi ~setembro de 2026 (data exata desconhecida). Nenhuma posição de sociedade brasileira encontrada até o congelamento.",
+    "first_detected_date": "2026-10-20",
+    "latest_observation_date": "2026-11-09",
+    "prediction_freeze_date": "2026-11-09",
+    "next_review_date": "2026-11-16",
+    "review_dates": {
+     "plus_7": "2026-11-16",
+     "plus_14": "2026-11-23",
+     "plus_30": "2026-12-09"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_009"
+   },
+   "translation": {
+    "translated_at": "2026-11-09T09:20:00-03:00",
+    "source_file": "trends/NT-2026-11-09-02.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-11-09-02",
+    "topic": "Eating-disorder screening for GLP-1 pen users — World Psychiatry 2026 Delphi consensus (screen for ED before starting, monitor by risk, avoid in active anorexia/atypical AN/restrictive bulimia) reaches BR via Folha (08/11) and O Globo (20/10) NYT reprints: 'Médicos cobram regras para canetas diante de risco de anorexia'",
+    "stage_at_freeze": "Migration Candidate",
+    "prediction_freeze_date": "2026-11-09",
+    "review_dates": {
+     "plus_7": "2026-11-16",
+     "plus_14": "2026-11-23",
+     "plus_30": "2026-12-09"
+    },
+    "next_review_date": "2026-11-16",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_009"
+   },
+   "cohort_id": "cohort_009",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-11-16",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-11-23",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-12-09",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-11-16"
+  },
+  {
+   "id": "NT-2026-11-09-03",
+   "frozen": {
+    "trend_id": "NT-2026-11-09-03",
+    "topic": "Falsified lots of real supplement brands — Anvisa RE 4.332/2026 (DOU 06/11): Creatina DUX 300 g lot K52354A sold by a Mercado Livre store and Equaliv Ômega 3 lot D25-2601441, both reported by the brands; same day RE 4.331/4.334 (all Bálsamo Jes supplements; Active Life) and RE 4.329 (falsified Mounjaro lots)",
+    "canonical_topic_name": "Patient checklist for buying supplements (and pens) safely: official channels, lot and expiry check, what a lot-specific ban does and does not mean",
+    "source_market": "BR (Native)",
+    "origin_community": "Anvisa/DOU + BR press (O Globo, Veja, Ancora1, bnews) + marketplace buyers",
+    "origin_type": "Regulatory enforcement act",
+    "source_layer": "Discovery",
+    "stage": "Brazil Emerging",
+    "velocity": "PT X creatina × (falsific OR DUX OR lote), UTC days 02/11–09/11: 0;2;4;15;5;8;9;1 (44/7d; live read 2026-11-09 sweep); @JornalOGlobo post 16,976 imp",
+    "reach": "Medium-High in news, small social; high relevance for anyone recommending creatine/omega-3",
+    "novelty": "Medium — NT-2026-11-02-06 covered whey under-labelling and NT-2026-10-19-04 how to check regularization; brand-reported counterfeit lots of mainstream creatine/omega-3 are new",
+    "persistence_estimate": "Medium-High — counterfeits follow demand (creatine is the top PT supplement topic)",
+    "brazil_presence": "Present/Native — Anvisa releases 06/11, DOU, national press",
+    "brazil_momentum": "Steady small after 07/11 news peak",
+    "primary_niches": [
+     "supplements & claims",
+     "sports/hypertrophy",
+     "consumer safety / marketplaces"
+    ],
+    "evidence_temperature": "Strong for the regulatory fact (DOU acts)",
+    "misinformation_risk": "High — 'Anvisa proibiu a creatina DUX', 'creatina de marketplace é toda falsa', 'ômega 3 Equaliv faz mal'",
+    "audience_question_signal": "Yes (press framing + replies) — Minha creatina é falsa? · Posso comprar no Mercado Livre? · Como confiro o lote?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "By +30 (2026-12-09): (a) Anvisa publishes ≥1 further act declaring a falsified or unrecognised lot of a food supplement (any brand) after 2026-11-09; and (b) ≥1 Brazilian outlet or brand publishes a 'how to spot fake creatine/supplement' guide dated after 2026-11-09. PT X creatina × falsific/DUX/lote stays under 100 posts/7d at each checkpoint. Only one of (a)/(b) = PARTIAL.",
+    "prediction_timeframe": "+7 2026-11-16 · +14 2026-11-23 · +30 2026-12-09",
+    "prediction_confidence": "60%",
+    "key_sources": [
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-omega-3-falsificado-e-lote-de-creatina",
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-determina-apreensao-de-suplementos-alimentares-irregulares",
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-lotes-falsificados-de-mounjaro",
+     "https://veja.abril.com.br/saude/anvisa-proibe-lote-de-creatina-e-outros-suplementos-alimentares-irregulares-veja-lista/"
+    ],
+    "key_accounts": [
+     "@anvisa_oficial",
+     "@JornalOGlobo",
+     "@bnews_oficial"
+    ],
+    "why_flagged": "Carry item from the 11-09 sweep. Directly serves Profile B and Profile A (creatine). The bans are lot-specific, which is exactly what patients misread.",
+    "ProfileA_relevance": 80,
+    "ProfileB_relevance": 92,
+    "merged_from": [
+     "Radar sweep 11-09: RE 4.332 DUX/Equaliv",
+     "Radar sweep 11-06: RE 4.329 Mounjaro lots",
+     "Web check 11-09: RE 4.331/4.334"
+    ],
+    "scan_notes": "The bans cover only the listed lots/products, not the DUX or Equaliv brands. Already cited as evidence in the 008-06 +7 review; this trend predicts further acts and guides, not 008-06's clauses. Related: NT-2026-11-02-06, NT-2026-10-19-04.",
+    "first_detected_date": "2026-11-06",
+    "latest_observation_date": "2026-11-09",
+    "prediction_freeze_date": "2026-11-09",
+    "next_review_date": "2026-11-16",
+    "review_dates": {
+     "plus_7": "2026-11-16",
+     "plus_14": "2026-11-23",
+     "plus_30": "2026-12-09"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_009"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-11-09-03",
+    "topic": "Lotes falsificados de marcas reais de suplemento — Anvisa RE 4.332/2026 (DOU 06/11): Creatina DUX 300 g lote K52354A vendida por uma loja no Mercado Livre e Equaliv Ômega 3 lote D25-2601441, ambos denunciados pelas próprias marcas; no mesmo dia, RE 4.331/4.334 (todos os suplementos da Bálsamo Jes; Active Life) e RE 4.329 (lotes falsificados de Mounjaro)",
+    "canonical_topic_name": "Checklist do paciente para comprar suplementos (e canetas) com segurança: canais oficiais, conferência de lote e validade, o que uma proibição por lote significa e o que não significa",
+    "source_market": "BR (nativo)",
+    "origin_community": "Anvisa/DOU + imprensa (O Globo, Veja, Ancora1, bnews) + compradores de marketplace",
+    "origin_type": "Ato regulatório de fiscalização",
+    "source_layer": "Descoberta",
+    "stage": "Brazil Emerging",
+    "velocity": "X PT creatina × (falsific OR DUX OR lote), dias UTC 02/11–09/11: 0;2;4;15;5;8;9;1 (44/7d; leitura ao vivo na varredura de 2026-11-09); post do @JornalOGlobo com 16.976 impressões",
+    "reach": "Média-alta nas notícias, pequena nas redes; alta relevância para quem recomenda creatina/ômega 3",
+    "novelty": "Média — a NT-2026-11-02-06 tratou de whey com proteína abaixo do rótulo e a NT-2026-10-19-04 de como checar a regularização; lotes falsificados de creatina/ômega 3 de marcas conhecidas, denunciados pelas marcas, são novidade",
+    "persistence_estimate": "Média-alta — a falsificação acompanha a demanda (creatina é o principal tema de suplemento no X PT)",
+    "brazil_presence": "Presente/nativo — notas da Anvisa em 06/11, DOU, imprensa nacional",
+    "brazil_momentum": "Pequeno e estável depois do pico de notícias em 07/11",
+    "primary_niches": [
+     "suplementos e alegações",
+     "esporte/hipertrofia",
+     "segurança do consumidor / marketplaces"
+    ],
+    "evidence_temperature": "Forte para o fato regulatório (atos no DOU)",
+    "misinformation_risk": "Alto — “Anvisa proibiu a creatina DUX”, “toda creatina de marketplace é falsa”, “ômega 3 Equaliv faz mal”",
+    "audience_question_signal": "Sim (enquadramento da imprensa + respostas) — Minha creatina é falsa? · Posso comprar no Mercado Livre? · Como confiro o lote?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "Até +30 (2026-12-09): (a) a Anvisa publica ≥1 novo ato declarando lote falsificado ou não reconhecido de suplemento alimentar (qualquer marca) depois de 2026-11-09; e (b) ≥1 veículo ou marca brasileira publica um guia “como identificar creatina/suplemento falsificado” com data posterior a 2026-11-09. O X PT creatina × falsific/DUX/lote fica abaixo de 100 posts/7d em cada checkpoint. Só uma de (a)/(b) = PARTIAL.",
+    "prediction_timeframe": "+7 2026-11-16 · +14 2026-11-23 · +30 2026-12-09",
+    "prediction_confidence": "60%",
+    "key_sources": [
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-omega-3-falsificado-e-lote-de-creatina",
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-determina-apreensao-de-suplementos-alimentares-irregulares",
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-proibe-lotes-falsificados-de-mounjaro",
+     "https://veja.abril.com.br/saude/anvisa-proibe-lote-de-creatina-e-outros-suplementos-alimentares-irregulares-veja-lista/"
+    ],
+    "key_accounts": [
+     "@anvisa_oficial",
+     "@JornalOGlobo",
+     "@bnews_oficial"
+    ],
+    "why_flagged": "Item levado da varredura de 11-09. Atende diretamente o Perfil B e o Perfil A (creatina). As proibições valem por lote, exatamente o ponto que os pacientes entendem errado.",
+    "ProfileA_relevance": 80,
+    "ProfileB_relevance": 92,
+    "merged_from": [
+     "Varredura de 11-09: RE 4.332 DUX/Equaliv",
+     "Varredura de 11-06: RE 4.329 lotes de Mounjaro",
+     "Checagem web de 11-09: RE 4.331/4.334"
+    ],
+    "scan_notes": "As proibições valem só para os lotes/produtos listados, não para as marcas DUX ou Equaliv. Já citado como evidência na revisão +7 da 008-06; esta tendência prevê novos atos e guias, não as cláusulas da 008-06. Relacionadas: NT-2026-11-02-06, NT-2026-10-19-04.",
+    "first_detected_date": "2026-11-06",
+    "latest_observation_date": "2026-11-09",
+    "prediction_freeze_date": "2026-11-09",
+    "next_review_date": "2026-11-16",
+    "review_dates": {
+     "plus_7": "2026-11-16",
+     "plus_14": "2026-11-23",
+     "plus_30": "2026-12-09"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_009"
+   },
+   "translation": {
+    "translated_at": "2026-11-09T09:20:00-03:00",
+    "source_file": "trends/NT-2026-11-09-03.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-11-09-03",
+    "topic": "Falsified lots of real supplement brands — Anvisa RE 4.332/2026 (DOU 06/11): Creatina DUX 300 g lot K52354A sold by a Mercado Livre store and Equaliv Ômega 3 lot D25-2601441, both reported by the brands; same day RE 4.331/4.334 (all Bálsamo Jes supplements; Active Life) and RE 4.329 (falsified Mounjaro lots)",
+    "stage_at_freeze": "Brazil Emerging",
+    "prediction_freeze_date": "2026-11-09",
+    "review_dates": {
+     "plus_7": "2026-11-16",
+     "plus_14": "2026-11-23",
+     "plus_30": "2026-12-09"
+    },
+    "next_review_date": "2026-11-16",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_009"
+   },
+   "cohort_id": "cohort_009",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-11-16",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-11-23",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-12-09",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-11-16"
+  },
+  {
+   "id": "NT-2026-11-09-04",
+   "frozen": {
+    "trend_id": "NT-2026-11-09-04",
+    "topic": "Pen prices fall under R$400 — EMS SemaClique national semaglutide in pharmacies from R$333 (06/11), Hypera Semavy becomes Hypera's #1 sell-out product in October, Ozivy combo offers; patients switching for cost",
+    "canonical_topic_name": "Cheaper national semaglutide widens the pen-user base: what nutritionists should expect at intake (self-started use, switching brands, dose changes, follow-up gaps)",
+    "source_market": "BR (Native)",
+    "origin_community": "BR business/health press (Folha, O Globo, Exame, Pipeline Valor) + patient chatter on X",
+    "origin_type": "Market / pricing",
+    "source_layer": "Discovery",
+    "stage": "Brazil Growing",
+    "velocity": "PT X SemaClique OR Ozivy OR Semavy, UTC days 02/11–09/11: 6;16;8;16;21;18;6;2 (93/7d; peaked 06–07/11, fading; live read 2026-11-09 sweep); Folha post 9,062 imp",
+    "reach": "Medium-High in news; moderate social",
+    "novelty": "Medium — NT-2026-09-28-05 (Ozivy price war) and NT-2026-11-02-04 (which pen) are related; the sub-R$400 price point and sell-out data are new",
+    "persistence_estimate": "High — more registered brands are still to launch",
+    "brazil_presence": "Present/Native",
+    "brazil_momentum": "Fading after launch spike",
+    "primary_niches": [
+     "GLP-1 / obesity clinic",
+     "practice management (intake)"
+    ],
+    "evidence_temperature": "Strong for prices/launch (press); sell-out figures from analyst reports (Pipeline Valor / Itaú BBA)",
+    "misinformation_risk": "Medium — 'mais barata = igual em tudo', 'posso trocar de marca sozinho', 'é genérico de Wegovy'",
+    "audience_question_signal": "Yes (replies) — A de R$333 funciona igual? · Posso trocar o Ozempic pela nacional? · Preciso de receita?",
+    "content_opportunity": "Medium-High",
+    "predicted_trajectory": "By +30 (2026-12-09): (a) ≥1 additional national semaglutide brand launches in pharmacies or announces a consumer price at or below R$333, or an existing brand cuts to that level; and (b) ≥1 Brazilian tier-1 outlet reports on patients switching brands or self-starting because of lower prices. PT X SemaClique/Ozivy/Semavy stays under 200 posts/7d at each checkpoint. Only one of (a)/(b) = PARTIAL.",
+    "prediction_timeframe": "+7 2026-11-16 · +14 2026-11-23 · +30 2026-12-09",
+    "prediction_confidence": "55%",
+    "key_sources": [
+     "https://x.com/folha/status/2118693079582646740",
+     "https://x.com/JornalOGlobo/status/2119613700256522438"
+    ],
+    "key_accounts": [
+     "@folha",
+     "@JornalOGlobo",
+     "@exame"
+    ],
+    "why_flagged": "Carried in sweeps 11-03, 11-06 and 11-09. Lower prices change who arrives at the nutritionist's office and how supervised they are.",
+    "ProfileA_relevance": 45,
+    "ProfileB_relevance": 40,
+    "merged_from": [
+     "Sweep 11-03: switching to national semaglutide",
+     "Sweep 11-06: Hypera Semavy sell-out",
+     "Sweep 11-09: SemaClique R$333"
+    ],
+    "scan_notes": "Nutritionists do not prescribe or switch pens (Lei 8.234/1991; CFN 656/2020); the angle is intake and follow-up. Exact SemaClique doses and indication wording not verified here (Unknown).",
+    "first_detected_date": "2026-11-03",
+    "latest_observation_date": "2026-11-09",
+    "prediction_freeze_date": "2026-11-09",
+    "next_review_date": "2026-11-16",
+    "review_dates": {
+     "plus_7": "2026-11-16",
+     "plus_14": "2026-11-23",
+     "plus_30": "2026-12-09"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_009"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-11-09-04",
+    "topic": "Preço da caneta abaixo de R$400 — semaglutida nacional SemaClique (EMS) nas farmácias a partir de R$333 (06/11), Semavy vira o produto mais vendido da Hypera em outubro, ofertas combinadas do Ozivy; pacientes trocando de marca pelo custo",
+    "canonical_topic_name": "Semaglutida nacional mais barata amplia a base de usuários de caneta: o que o nutricionista deve esperar na primeira consulta (uso por conta própria, troca de marca, mudança de dose, falhas de acompanhamento)",
+    "source_market": "BR (nativo)",
+    "origin_community": "Imprensa de negócios/saúde (Folha, O Globo, Exame, Pipeline Valor) + conversas de pacientes no X",
+    "origin_type": "Mercado / preços",
+    "source_layer": "Descoberta",
+    "stage": "Brazil Growing",
+    "velocity": "X PT SemaClique OR Ozivy OR Semavy, dias UTC 02/11–09/11: 6;16;8;16;21;18;6;2 (93/7d; pico em 06–07/11, caindo; leitura ao vivo na varredura de 2026-11-09); post da Folha com 9.062 impressões",
+    "reach": "Média-alta nas notícias; moderada nas redes",
+    "novelty": "Média — a NT-2026-09-28-05 (guerra de preços do Ozivy) e a NT-2026-11-02-04 (qual caneta) são relacionadas; o patamar abaixo de R$400 e os dados de venda são novos",
+    "persistence_estimate": "Alta — ainda há marcas registradas para lançar",
+    "brazil_presence": "Presente/nativo",
+    "brazil_momentum": "Caindo depois do pico do lançamento",
+    "primary_niches": [
+     "GLP-1 / clínica de obesidade",
+     "gestão do consultório (primeira consulta)"
+    ],
+    "evidence_temperature": "Forte para preços/lançamento (imprensa); dados de venda vêm de relatórios de analistas (Pipeline Valor / Itaú BBA)",
+    "misinformation_risk": "Média — “mais barata = igual em tudo”, “posso trocar de marca sozinho”, “é genérico do Wegovy”",
+    "audience_question_signal": "Sim (respostas) — A de R$333 funciona igual? · Posso trocar o Ozempic pela nacional? · Precisa de receita?",
+    "content_opportunity": "Média-alta",
+    "predicted_trajectory": "Até +30 (2026-12-09): (a) ≥1 nova marca nacional de semaglutida chega às farmácias ou anuncia preço ao consumidor igual ou menor que R$333, ou uma marca existente baixa para esse nível; e (b) ≥1 grande veículo brasileiro noticia pacientes trocando de marca ou começando por conta própria por causa dos preços menores. O X PT SemaClique/Ozivy/Semavy fica abaixo de 200 posts/7d em cada checkpoint. Só uma de (a)/(b) = PARTIAL.",
+    "prediction_timeframe": "+7 2026-11-16 · +14 2026-11-23 · +30 2026-12-09",
+    "prediction_confidence": "55%",
+    "key_sources": [
+     "https://x.com/folha/status/2118693079582646740",
+     "https://x.com/JornalOGlobo/status/2119613700256522438"
+    ],
+    "key_accounts": [
+     "@folha",
+     "@JornalOGlobo",
+     "@exame"
+    ],
+    "why_flagged": "Levado nas varreduras de 11-03, 11-06 e 11-09. Preço menor muda quem chega ao consultório do nutricionista e com quanto acompanhamento.",
+    "ProfileA_relevance": 45,
+    "ProfileB_relevance": 40,
+    "merged_from": [
+     "Varredura de 11-03: troca para semaglutida nacional",
+     "Varredura de 11-06: vendas do Semavy (Hypera)",
+     "Varredura de 11-09: SemaClique a R$333"
+    ],
+    "scan_notes": "Nutricionista não prescreve nem troca caneta (Lei 8.234/1991; Resolução CFN 656/2020); o ângulo é a primeira consulta e o acompanhamento. Doses e texto exato da indicação do SemaClique não verificados aqui (desconhecido).",
+    "first_detected_date": "2026-11-03",
+    "latest_observation_date": "2026-11-09",
+    "prediction_freeze_date": "2026-11-09",
+    "next_review_date": "2026-11-16",
+    "review_dates": {
+     "plus_7": "2026-11-16",
+     "plus_14": "2026-11-23",
+     "plus_30": "2026-12-09"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_009"
+   },
+   "translation": {
+    "translated_at": "2026-11-09T09:20:00-03:00",
+    "source_file": "trends/NT-2026-11-09-04.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-11-09-04",
+    "topic": "Pen prices fall under R$400 — EMS SemaClique national semaglutide in pharmacies from R$333 (06/11), Hypera Semavy becomes Hypera's #1 sell-out product in October, Ozivy combo offers; patients switching for cost",
+    "stage_at_freeze": "Brazil Growing",
+    "prediction_freeze_date": "2026-11-09",
+    "review_dates": {
+     "plus_7": "2026-11-16",
+     "plus_14": "2026-11-23",
+     "plus_30": "2026-12-09"
+    },
+    "next_review_date": "2026-11-16",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_009"
+   },
+   "cohort_id": "cohort_009",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-11-16",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-11-23",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-12-09",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-11-16"
+  },
+  {
+   "id": "NT-2026-11-09-05",
+   "frozen": {
+    "trend_id": "NT-2026-11-09-05",
+    "topic": "Pen users reshape eating out — CNN Brasil/PiniOn survey (04/11, n=2,372): 60.7% of pen users seek smaller restaurant/delivery portions and 70.4% say their diet change affects family habits; 'Ozemburger'/'Monjalada' xis menu in Porto Alegre (g1 04/11); McDonald's US GLP-1 menu test",
+    "canonical_topic_name": "Smaller-portion, protein-first eating out and family spillover for GLP-1 users — counseling and foodservice angle",
+    "source_market": "BR (Native) + US",
+    "origin_community": "Consumer research (PiniOn/CNN Brasil), regional foodservice, g1",
+    "origin_type": "Consumer behaviour / foodservice",
+    "source_layer": "Discovery",
+    "stage": "Brazil Emerging",
+    "velocity": "PT X (caneta OR mounjaro OR ozempic OR GLP-1) × (porção OR cardápio OR restaurante OR ozemburger), UTC days 02/11–09/11: 2;1;2;4;5;3;2;1 (20/7d; live read 2026-11-09 ~09:00 SP); g1 post 12,289 imp; CNN post 6,310 imp",
+    "reach": "Medium in news, very low social",
+    "novelty": "High in BR — first Brazilian restaurant example and first BR survey data on portions",
+    "persistence_estimate": "Medium — depends on chains following",
+    "brazil_presence": "Present/Native (Porto Alegre restaurant, national survey)",
+    "brazil_momentum": "Low, steady",
+    "primary_niches": [
+     "foodservice / food industry",
+     "GLP-1 / obesity clinic",
+     "family nutrition"
+    ],
+    "evidence_temperature": "Moderate — online panel survey; anecdotal restaurant launches",
+    "misinformation_risk": "Low-Medium — 'prato pequeno resolve proteína', 'cardápio GLP-1 é saudável por definição'",
+    "audience_question_signal": "Inferred — O que pedir no restaurante usando caneta? · Minha família precisa mudar junto?",
+    "content_opportunity": "Medium-High",
+    "predicted_trajectory": "By +30 (2026-12-09): ≥2 further Brazilian restaurants, chains or delivery apps publicly launch a smaller-portion or 'para quem usa caneta' option covered by media, dated after 2026-11-09. PT X stays under 100 posts/7d at each checkpoint. Exactly one new launch = PARTIAL.",
+    "prediction_timeframe": "+7 2026-11-16 · +14 2026-11-23 · +30 2026-12-09",
+    "prediction_confidence": "45%",
+    "key_sources": [
+     "https://www.cnnbrasil.com.br/saude/caneta-emagrecedora-607-buscam-reduzir-porcoes-em-restaurantes/",
+     "https://x.com/g1/status/2117693298491973962",
+     "https://x.com/GianeGuerra/status/2117246830329393595"
+    ],
+    "key_accounts": [
+     "@CNNBrasil",
+     "@g1"
+    ],
+    "why_flagged": "Carried in sweeps 11-03, 11-04, 11-05 and 11-06. Gives clinical and foodservice nutritionists practical content: ordering out, protein per small plate, family meals.",
+    "ProfileA_relevance": 40,
+    "ProfileB_relevance": 35,
+    "merged_from": [
+     "Sweep 11-03: Ozemburger (X)",
+     "Sweep 11-04: g1 pickup",
+     "Sweep 11-05: CNN/PiniOn survey"
+    ],
+    "scan_notes": "Survey method beyond n=2,372 online panel Unknown. Related: NT-2026-09-21-03 (Nestlé GLP-1 seal), NT-2026-10-12-04 ('proteína em tudo').",
+    "first_detected_date": "2026-11-03",
+    "latest_observation_date": "2026-11-09",
+    "prediction_freeze_date": "2026-11-09",
+    "next_review_date": "2026-11-16",
+    "review_dates": {
+     "plus_7": "2026-11-16",
+     "plus_14": "2026-11-23",
+     "plus_30": "2026-12-09"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_009"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-11-09-05",
+    "topic": "Usuários de caneta mudam o jeito de comer fora — pesquisa CNN Brasil/PiniOn (04/11, n=2.372): 60,7% procuram porções menores em restaurante/delivery e 70,4% dizem que a mudança na alimentação afeta os hábitos da família; cardápio “Ozemburger”/“Monjalada” num xis de Porto Alegre (g1, 04/11); teste de cardápio GLP-1 do McDonald's nos EUA",
+    "canonical_topic_name": "Porções menores, proteína primeiro ao comer fora e efeito na família para usuários de GLP-1 — ângulo de orientação e de food service",
+    "source_market": "BR (nativo) + EUA",
+    "origin_community": "Pesquisa de consumo (PiniOn/CNN Brasil), food service regional, g1",
+    "origin_type": "Comportamento do consumidor / food service",
+    "source_layer": "Descoberta",
+    "stage": "Brazil Emerging",
+    "velocity": "X PT (caneta OR mounjaro OR ozempic OR GLP-1) × (porção OR cardápio OR restaurante OR ozemburger), dias UTC 02/11–09/11: 2;1;2;4;5;3;2;1 (20/7d; leitura ao vivo em 2026-11-09 ~09:00 SP); post do g1 com 12.289 impressões; post da CNN com 6.310",
+    "reach": "Média nas notícias, muito baixa nas redes",
+    "novelty": "Alta no Brasil — primeiro exemplo de restaurante brasileiro e primeiros dados nacionais sobre porções",
+    "persistence_estimate": "Média — depende de redes de restaurantes aderirem",
+    "brazil_presence": "Presente/nativo (restaurante em Porto Alegre, pesquisa nacional)",
+    "brazil_momentum": "Baixo e estável",
+    "primary_niches": [
+     "food service / indústria de alimentos",
+     "GLP-1 / clínica de obesidade",
+     "nutrição da família"
+    ],
+    "evidence_temperature": "Moderada — pesquisa em painel online; lançamentos de restaurante são casos isolados",
+    "misinformation_risk": "Baixa-média — “prato pequeno resolve a proteína”, “cardápio GLP-1 é saudável por definição”",
+    "audience_question_signal": "Inferido — O que pedir no restaurante usando caneta? · Minha família precisa mudar junto?",
+    "content_opportunity": "Média-alta",
+    "predicted_trajectory": "Até +30 (2026-12-09): ≥2 novos restaurantes, redes ou apps de delivery brasileiros lançam publicamente uma opção de porção menor ou “para quem usa caneta”, com cobertura da mídia e data posterior a 2026-11-09. O X PT fica abaixo de 100 posts/7d em cada checkpoint. Exatamente um novo lançamento = PARTIAL.",
+    "prediction_timeframe": "+7 2026-11-16 · +14 2026-11-23 · +30 2026-12-09",
+    "prediction_confidence": "45%",
+    "key_sources": [
+     "https://www.cnnbrasil.com.br/saude/caneta-emagrecedora-607-buscam-reduzir-porcoes-em-restaurantes/",
+     "https://x.com/g1/status/2117693298491973962",
+     "https://x.com/GianeGuerra/status/2117246830329393595"
+    ],
+    "key_accounts": [
+     "@CNNBrasil",
+     "@g1"
+    ],
+    "why_flagged": "Levado nas varreduras de 11-03, 11-04, 11-05 e 11-06. Dá ao nutricionista clínico e de food service conteúdo prático: pedir fora de casa, proteína em prato pequeno, refeições em família.",
+    "ProfileA_relevance": 40,
+    "ProfileB_relevance": 35,
+    "merged_from": [
+     "Varredura de 11-03: Ozemburger (X)",
+     "Varredura de 11-04: repercussão no g1",
+     "Varredura de 11-05: pesquisa CNN/PiniOn"
+    ],
+    "scan_notes": "Método da pesquisa além de n=2.372 em painel online: desconhecido. Relacionadas: NT-2026-09-21-03 (selo GLP-1 da Nestlé), NT-2026-10-12-04 (“proteína em tudo”).",
+    "first_detected_date": "2026-11-03",
+    "latest_observation_date": "2026-11-09",
+    "prediction_freeze_date": "2026-11-09",
+    "next_review_date": "2026-11-16",
+    "review_dates": {
+     "plus_7": "2026-11-16",
+     "plus_14": "2026-11-23",
+     "plus_30": "2026-12-09"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_009"
+   },
+   "translation": {
+    "translated_at": "2026-11-09T09:20:00-03:00",
+    "source_file": "trends/NT-2026-11-09-05.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-11-09-05",
+    "topic": "Pen users reshape eating out — CNN Brasil/PiniOn survey (04/11, n=2,372): 60.7% of pen users seek smaller restaurant/delivery portions and 70.4% say their diet change affects family habits; 'Ozemburger'/'Monjalada' xis menu in Porto Alegre (g1 04/11); McDonald's US GLP-1 menu test",
+    "stage_at_freeze": "Brazil Emerging",
+    "prediction_freeze_date": "2026-11-09",
+    "review_dates": {
+     "plus_7": "2026-11-16",
+     "plus_14": "2026-11-23",
+     "plus_30": "2026-12-09"
+    },
+    "next_review_date": "2026-11-16",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_009"
+   },
+   "cohort_id": "cohort_009",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-11-16",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-11-23",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-12-09",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-11-16"
+  },
+  {
+   "id": "NT-2026-11-09-06",
+   "frozen": {
+    "trend_id": "NT-2026-11-09-06",
+    "topic": "Melatonin form FAQ — Anvisa (05/11): melatonin supplements only for adults ≥19 y, ≤0.21 mg/day, as tablets/capsules or drops; sublingual films/strips and gummies were never evaluated and face sanitary measures (RE 758, Feb 2026, Vita Be recall); InfoMoney explainer (3,132 imp)",
+    "canonical_topic_name": "What melatonin a nutritionist can recommend in Brazil: dose ceiling, age limit, allowed forms, and no sleep claim at the authorised dose",
+    "source_market": "BR (Native)",
+    "origin_community": "Anvisa + BR press (UOL, InfoMoney) + supplement e-commerce",
+    "origin_type": "Regulatory clarification",
+    "source_layer": "Discovery",
+    "stage": "Brazil Emerging",
+    "velocity": "PT X melatonina × (sublingual OR fita OR gomas OR Anvisa), UTC days 02/11–09/11: 1;4;10;10;15;19;6;2 (67/7d; live read 2026-11-09 ~09:00 SP) — rose through 07/11, now easing",
+    "reach": "Medium in news, small social; very high prescription relevance",
+    "novelty": "Medium — NT-2026-11-02-02 covered melatonin in a popsicle (food category); form/dose clarification for supplements is new",
+    "persistence_estimate": "High — imported gummies and strips keep circulating online",
+    "brazil_presence": "Present/Native",
+    "brazil_momentum": "Easing after 07/11",
+    "primary_niches": [
+     "supplements & claims",
+     "sleep",
+     "compliance / prescription"
+    ],
+    "evidence_temperature": "Strong for the regulatory rule (Anvisa)",
+    "misinformation_risk": "High — 'Anvisa proibiu melatonina', 'goma importada pode', '3 mg é a dose certa'",
+    "audience_question_signal": "Yes (replies) — A Anvisa proibiu melatonina? · Posso usar a fitinha? · Qual dose?",
+    "content_opportunity": "High",
+    "predicted_trajectory": "By +30 (2026-12-09): (a) Anvisa publishes ≥1 act (RE, apreensão or ad suspension) naming a melatonin product in sublingual/film/strip/gummy form or above 0.21 mg; and (b) ≥2 Brazilian outlets beyond the 05–08/11 coverage publish melatonin form/dose explainers. PT X stays under 150 posts/7d at each checkpoint. Only one of (a)/(b) = PARTIAL.",
+    "prediction_timeframe": "+7 2026-11-16 · +14 2026-11-23 · +30 2026-12-09",
+    "prediction_confidence": "50%",
+    "key_sources": [
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/uso-de-melatonina-sublingual-nao-e-autorizado-no-brasil",
+     "https://x.com/infomoney/status/2119218344209371386"
+    ],
+    "key_accounts": [
+     "@anvisa_oficial",
+     "@infomoney"
+    ],
+    "why_flagged": "Carried in sweeps 11-06 and 11-09. Profile B core: a clear, citable rule nutritionists who prescribe supplements must follow.",
+    "ProfileA_relevance": 15,
+    "ProfileB_relevance": 85,
+    "merged_from": [
+     "Sweep 11-06: Anvisa sublingual clarification",
+     "Sweep 11-09: InfoMoney 0.21 mg explainer"
+    ],
+    "scan_notes": "Melatonin is not banned; the rule restricts form, dose and age. Related: NT-2026-11-02-02 (popsicle with melatonin).",
+    "first_detected_date": "2026-11-05",
+    "latest_observation_date": "2026-11-09",
+    "prediction_freeze_date": "2026-11-09",
+    "next_review_date": "2026-11-16",
+    "review_dates": {
+     "plus_7": "2026-11-16",
+     "plus_14": "2026-11-23",
+     "plus_30": "2026-12-09"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_009"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-11-09-06",
+    "topic": "FAQ de formas de melatonina — Anvisa (05/11): suplemento de melatonina só para adultos ≥19 anos, até 0,21 mg/dia, em comprimidos/cápsulas ou gotas; filmes/fitas sublinguais e gomas nunca foram avaliados e estão sujeitos a medidas sanitárias (RE 758, fev/2026, recolhimento Vita Be); explicativo da InfoMoney (3.132 impressões)",
+    "canonical_topic_name": "Que melatonina o nutricionista pode recomendar no Brasil: limite de dose, idade mínima, formas permitidas e nenhuma alegação de sono na dose autorizada",
+    "source_market": "BR (nativo)",
+    "origin_community": "Anvisa + imprensa (UOL, InfoMoney) + e-commerce de suplementos",
+    "origin_type": "Esclarecimento regulatório",
+    "source_layer": "Descoberta",
+    "stage": "Brazil Emerging",
+    "velocity": "X PT melatonina × (sublingual OR fita OR gomas OR Anvisa), dias UTC 02/11–09/11: 1;4;10;10;15;19;6;2 (67/7d; leitura ao vivo em 2026-11-09 ~09:00 SP) — subiu até 07/11, agora cedendo",
+    "reach": "Média nas notícias, pequena nas redes; relevância muito alta para prescrição",
+    "novelty": "Média — a NT-2026-11-02-02 tratou de melatonina em picolé (categoria alimento); o esclarecimento de forma/dose para suplementos é novo",
+    "persistence_estimate": "Alta — gomas e fitas importadas continuam circulando online",
+    "brazil_presence": "Presente/nativo",
+    "brazil_momentum": "Cedendo depois de 07/11",
+    "primary_niches": [
+     "suplementos e alegações",
+     "sono",
+     "compliance / prescrição"
+    ],
+    "evidence_temperature": "Forte para a regra regulatória (Anvisa)",
+    "misinformation_risk": "Alto — “Anvisa proibiu melatonina”, “goma importada pode”, “3 mg é a dose certa”",
+    "audience_question_signal": "Sim (respostas) — A Anvisa proibiu melatonina? · Posso usar a fitinha? · Qual a dose?",
+    "content_opportunity": "Alta",
+    "predicted_trajectory": "Até +30 (2026-12-09): (a) a Anvisa publica ≥1 ato (RE, apreensão ou suspensão de propaganda) citando produto de melatonina em forma sublingual/filme/fita/goma ou acima de 0,21 mg; e (b) ≥2 veículos brasileiros, além da cobertura de 05–08/11, publicam explicações sobre forma/dose de melatonina. O X PT fica abaixo de 150 posts/7d em cada checkpoint. Só uma de (a)/(b) = PARTIAL.",
+    "prediction_timeframe": "+7 2026-11-16 · +14 2026-11-23 · +30 2026-12-09",
+    "prediction_confidence": "50%",
+    "key_sources": [
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/uso-de-melatonina-sublingual-nao-e-autorizado-no-brasil",
+     "https://x.com/infomoney/status/2119218344209371386"
+    ],
+    "key_accounts": [
+     "@anvisa_oficial",
+     "@infomoney"
+    ],
+    "why_flagged": "Levado nas varreduras de 11-06 e 11-09. Núcleo do Perfil B: uma regra clara e citável que todo nutricionista que prescreve suplementos precisa seguir.",
+    "ProfileA_relevance": 15,
+    "ProfileB_relevance": 85,
+    "merged_from": [
+     "Varredura de 11-06: esclarecimento da Anvisa sobre sublingual",
+     "Varredura de 11-09: explicativo da InfoMoney sobre 0,21 mg"
+    ],
+    "scan_notes": "A melatonina não foi proibida; a regra restringe forma, dose e idade. Relacionada: NT-2026-11-02-02 (picolé com melatonina).",
+    "first_detected_date": "2026-11-05",
+    "latest_observation_date": "2026-11-09",
+    "prediction_freeze_date": "2026-11-09",
+    "next_review_date": "2026-11-16",
+    "review_dates": {
+     "plus_7": "2026-11-16",
+     "plus_14": "2026-11-23",
+     "plus_30": "2026-12-09"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_009"
+   },
+   "translation": {
+    "translated_at": "2026-11-09T09:20:00-03:00",
+    "source_file": "trends/NT-2026-11-09-06.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-11-09-06",
+    "topic": "Melatonin form FAQ — Anvisa (05/11): melatonin supplements only for adults ≥19 y, ≤0.21 mg/day, as tablets/capsules or drops; sublingual films/strips and gummies were never evaluated and face sanitary measures (RE 758, Feb 2026, Vita Be recall); InfoMoney explainer (3,132 imp)",
+    "stage_at_freeze": "Brazil Emerging",
+    "prediction_freeze_date": "2026-11-09",
+    "review_dates": {
+     "plus_7": "2026-11-16",
+     "plus_14": "2026-11-23",
+     "plus_30": "2026-12-09"
+    },
+    "next_review_date": "2026-11-16",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_009"
+   },
+   "cohort_id": "cohort_009",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-11-16",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-11-23",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-12-09",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-11-16"
+  },
+  {
+   "id": "NT-2026-11-09-07",
+   "frozen": {
+    "trend_id": "NT-2026-11-09-07",
+    "topic": "'Natural' products sold online without registration — Anvisa 09/11: 'Ultra Shape' slimming product and 5 unregistered phytotherapeutic capsules (Ciência da Natureza: espinheira-santa, unha-de-gato, canela-de-velho, sucupira, Garra D); 06/11: all Bálsamo Jes supplements (unauthorised constituents, therapeutic claims, no notification, RE 4.331) and Active Life (type II collagen + turmeric + oyster calcium, English-only label, RE 4.334)",
+    "canonical_topic_name": "'Natural não é sinônimo de regularizado': weekly cadence of Anvisa bans on online slimming/joint 'natural' products and the patient FAQ that follows",
+    "source_market": "BR (Native)",
+    "origin_community": "Anvisa/DOU + g1, Veja + e-commerce/social ads",
+    "origin_type": "Regulatory enforcement act",
+    "source_layer": "Discovery",
+    "stage": "Brazil Emerging",
+    "velocity": "PT X (Ultra Shape OR emagrecedor) × Anvisa, UTC days 02/11–09/11: 0;0;2;1;0;0;0;3 (6/7d; live read 2026-11-09 sweep) — near zero",
+    "reach": "Medium in news (g1 09/11, Veja 06/11), near-zero social",
+    "novelty": "Medium — continuation of NT-2026-10-19-04/-05 enforcement pattern; joint/phyto-capsule angle is new",
+    "persistence_estimate": "High — recurring weekly enforcement",
+    "brazil_presence": "Present/Native",
+    "brazil_momentum": "Flat",
+    "primary_niches": [
+     "supplements & claims",
+     "phytotherapy",
+     "weight-loss products"
+    ],
+    "evidence_temperature": "Strong for the regulatory facts",
+    "misinformation_risk": "High — 'é natural, então não faz mal', 'chá/cápsula de unha-de-gato trata artrite'",
+    "audience_question_signal": "Inferred — Esse emagrecedor natural é seguro? · Posso tomar cápsula de espinheira-santa?",
+    "content_opportunity": "Medium",
+    "predicted_trajectory": "By +30 (2026-12-09): Anvisa publishes ≥2 further acts banning or seizing unregistered 'natural' slimming products or phytotherapeutic capsules sold online (dated after 2026-11-09), and PT X social stays under 50 posts/7d at each checkpoint (news-only topic). Exactly one further act = PARTIAL.",
+    "prediction_timeframe": "+7 2026-11-16 · +14 2026-11-23 · +30 2026-12-09",
+    "prediction_confidence": "65%",
+    "key_sources": [
+     "https://g1.globo.com/saude/noticia/2026/11/09/anvisa-proibe-emagrecedor-ultra-shape-e-capsulas-fitoterapicas-vendidas-sem-registro-na-internet.ghtml",
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-determina-apreensao-de-suplementos-alimentares-irregulares"
+    ],
+    "key_accounts": [
+     "@anvisa_oficial",
+     "@g1"
+    ],
+    "why_flagged": "Carry item from the 11-09 sweep plus same-week supplement acts. Low social but steady regulatory cadence; useful Profile B 'natural ≠ seguro' FAQ.",
+    "ProfileA_relevance": 20,
+    "ProfileB_relevance": 78,
+    "merged_from": [
+     "Sweep 11-09: Ultra Shape/phyto ban",
+     "Web check 11-09: RE 4.331/4.334"
+    ],
+    "scan_notes": "Product-specific bans; espinheira-santa etc. are not banned as plants. Related: NT-2026-10-19-04, NT-2026-10-19-05, NT-2026-11-02-07.",
+    "first_detected_date": "2026-11-06",
+    "latest_observation_date": "2026-11-09",
+    "prediction_freeze_date": "2026-11-09",
+    "next_review_date": "2026-11-16",
+    "review_dates": {
+     "plus_7": "2026-11-16",
+     "plus_14": "2026-11-23",
+     "plus_30": "2026-12-09"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_009"
+   },
+   "frozen_pt": {
+    "trend_id": "NT-2026-11-09-07",
+    "topic": "Produtos “naturais” vendidos online sem registro — Anvisa 09/11: emagrecedor “Ultra Shape” e 5 cápsulas fitoterápicas sem registro (Ciência da Natureza: espinheira-santa, unha-de-gato, canela-de-velho, sucupira, Garra D); 06/11: todos os suplementos da Bálsamo Jes (constituintes não autorizados, alegações terapêuticas, sem notificação, RE 4.331) e Active Life (colágeno tipo II + cúrcuma + cálcio de ostra, rótulo só em inglês, RE 4.334)",
+    "canonical_topic_name": "“Natural não é sinônimo de regularizado”: o ritmo semanal de proibições da Anvisa a produtos “naturais” para emagrecer/articulações vendidos online e o FAQ de pacientes que vem junto",
+    "source_market": "BR (nativo)",
+    "origin_community": "Anvisa/DOU + g1, Veja + anúncios em e-commerce/redes",
+    "origin_type": "Ato regulatório de fiscalização",
+    "source_layer": "Descoberta",
+    "stage": "Brazil Emerging",
+    "velocity": "X PT (Ultra Shape OR emagrecedor) × Anvisa, dias UTC 02/11–09/11: 0;0;2;1;0;0;0;3 (6/7d; leitura ao vivo na varredura de 2026-11-09) — quase zero",
+    "reach": "Média nas notícias (g1 09/11, Veja 06/11), quase nula nas redes",
+    "novelty": "Média — continua o padrão de fiscalização das NT-2026-10-19-04/-05; o ângulo de cápsulas fitoterápicas/articulação é novo",
+    "persistence_estimate": "Alta — fiscalização recorrente toda semana",
+    "brazil_presence": "Presente/nativo",
+    "brazil_momentum": "Estável",
+    "primary_niches": [
+     "suplementos e alegações",
+     "fitoterapia",
+     "produtos para emagrecer"
+    ],
+    "evidence_temperature": "Forte para os fatos regulatórios",
+    "misinformation_risk": "Alto — “é natural, então não faz mal”, “chá/cápsula de unha-de-gato trata artrite”",
+    "audience_question_signal": "Inferido — Esse emagrecedor natural é seguro? · Posso tomar cápsula de espinheira-santa?",
+    "content_opportunity": "Média",
+    "predicted_trajectory": "Até +30 (2026-12-09): a Anvisa publica ≥2 novos atos proibindo ou apreendendo produtos “naturais” para emagrecer ou cápsulas fitoterápicas sem registro vendidos online (com data posterior a 2026-11-09), e o X PT fica abaixo de 50 posts/7d em cada checkpoint (tema só de notícia). Exatamente um novo ato = PARTIAL.",
+    "prediction_timeframe": "+7 2026-11-16 · +14 2026-11-23 · +30 2026-12-09",
+    "prediction_confidence": "65%",
+    "key_sources": [
+     "https://g1.globo.com/saude/noticia/2026/11/09/anvisa-proibe-emagrecedor-ultra-shape-e-capsulas-fitoterapicas-vendidas-sem-registro-na-internet.ghtml",
+     "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-determina-apreensao-de-suplementos-alimentares-irregulares"
+    ],
+    "key_accounts": [
+     "@anvisa_oficial",
+     "@g1"
+    ],
+    "why_flagged": "Item levado da varredura de 11-09 mais os atos sobre suplementos da mesma semana. Pouca conversa social, mas ritmo regulatório constante; FAQ útil de “natural ≠ seguro” para o Perfil B.",
+    "ProfileA_relevance": 20,
+    "ProfileB_relevance": 78,
+    "merged_from": [
+     "Varredura de 11-09: proibição do Ultra Shape/fitoterápicos",
+     "Checagem web de 11-09: RE 4.331/4.334"
+    ],
+    "scan_notes": "Proibições por produto; espinheira-santa e as demais plantas não foram proibidas como plantas. Relacionadas: NT-2026-10-19-04, NT-2026-10-19-05, NT-2026-11-02-07.",
+    "first_detected_date": "2026-11-06",
+    "latest_observation_date": "2026-11-09",
+    "prediction_freeze_date": "2026-11-09",
+    "next_review_date": "2026-11-16",
+    "review_dates": {
+     "plus_7": "2026-11-16",
+     "plus_14": "2026-11-23",
+     "plus_30": "2026-12-09"
+    },
+    "Radar_version": "Radar v0.1",
+    "Score_version": "NutriTrend Score v0.1",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_009"
+   },
+   "translation": {
+    "translated_at": "2026-11-09T09:20:00-03:00",
+    "source_file": "trends/NT-2026-11-09-07.json"
+   },
+   "reviews": [],
+   "observations": [],
+   "mentions": [],
+   "embedded_observation_log": [],
+   "schedule": {
+    "trend_id": "NT-2026-11-09-07",
+    "topic": "'Natural' products sold online without registration — Anvisa 09/11: 'Ultra Shape' slimming product and 5 unregistered phytotherapeutic capsules (Ciência da Natureza: espinheira-santa, unha-de-gato, canela-de-velho, sucupira, Garra D); 06/11: all Bálsamo Jes supplements (unauthorised constituents, therapeutic claims, no notification, RE 4.331) and Active Life (type II collagen + turmeric + oyster calcium, English-only label, RE 4.334)",
+    "stage_at_freeze": "Brazil Emerging",
+    "prediction_freeze_date": "2026-11-09",
+    "review_dates": {
+     "plus_7": "2026-11-16",
+     "plus_14": "2026-11-23",
+     "plus_30": "2026-12-09"
+    },
+    "next_review_date": "2026-11-16",
+    "prediction_status": "frozen",
+    "cohort_id": "cohort_009"
+   },
+   "cohort_id": "cohort_009",
+   "latest_result": null,
+   "latest_review_date": null,
+   "status": "ANALYZING",
+   "timeline": [
+    {
+     "horizon": "plus_7",
+     "due": "2026-11-16",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_14",
+     "due": "2026-11-23",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    },
+    {
+     "horizon": "plus_30",
+     "due": "2026-12-09",
+     "state": "pending",
+     "result": null,
+     "review_date": null,
+     "review_id": null
+    }
+   ],
+   "next_checkpoint": "2026-11-16"
   }
  ],
  "general_observations": [
@@ -31934,7 +33183,7 @@
   }
  ],
  "counts": {
-  "trends": 84,
+  "trends": 91,
   "reviews": 216,
   "observations": 271
  },
